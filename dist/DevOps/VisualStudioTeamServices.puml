@@ -1,0 +1,10 @@
+sprite $VisualStudioTeamServices [65x65/16z] {
+fPTNbW0X20GRHn6u_tqt9-SnY4jzssLEEEIIWGgNcYat_9TkdqYlvTzG9XmpR65UjVmREd00cuDoBVz6FbyJJAi9fjK4OYK1YMq5NIP5-LXmiPgPNWzvjP0s
+VWem79fQ7cb1FiS8yZc4RiV7CThZlDYMISlniS9aU_Hwoci7MGRsyzBmA9ZteiCf0pmBQ2QcE1HWxWSc5a2swoCMX8O990GaSVTZGR1pjI4fy0r2I0hytSV0
+WG3TcxvQ2unpWk3y449j5anRJa0QdpAnO7D-yrv0kZiiOy6QLtMsOoXekbRdxOiH2VJUOSym0u7JLd47Wl9N2uadtmfuSwzp_bvwGsetuxc1_TTLZFexFs_0
+T9kVDm1TdURd3G2QBAD_QC0xJ0Y83SZ0aQ1gGDM0gW5L0ue6gVtQk5N-VT9noWWhpnlYocDwK7dISA_y5G
+}
+
+AzureEntityColoring(VisualStudioTeamServices(m))
+!define VisualStudioTeamServices(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VisualStudioTeamServices(m), VisualStudioTeamServices(m))
+!define VisualStudioTeamServices(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VisualStudioTeamServices(m), VisualStudioTeamServices(m))
