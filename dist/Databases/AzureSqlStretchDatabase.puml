@@ -6,6 +6,6 @@ SXo-hryk4vc_YBmNi708EDETaqZQ-ADrUnVEhdJhzZOg9oQv2x18OTAz2v0r_YSGWJEr25poYq3EWVrd
 kdp4-JpZk0dj_GC
 }
 
-AzureEntityColoring(AzureSqlStretchDatabase(m))
-!define AzureSqlStretchDatabase(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlStretchDatabase(m), AzureSqlStretchDatabase(m))
-!define AzureSqlStretchDatabase(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlStretchDatabase(m), AzureSqlStretchDatabase(m))
+AzureEntityColoring(AzureSqlStretchDatabase)
+!define AzureSqlStretchDatabase(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlStretchDatabase, AzureSqlStretchDatabase)
+!define AzureSqlStretchDatabase(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlStretchDatabase, AzureSqlStretchDatabase)

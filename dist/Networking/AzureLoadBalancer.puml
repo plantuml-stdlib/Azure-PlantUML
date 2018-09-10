@@ -6,6 +6,6 @@ rXs2yZfF1rUTGCKh2WA19NVXqSiYm3uAwk62sZItsRR55Orz503un3s-743iep0TizeZ7nOMNsvH_iww
 JEbfJu4RcMAdFOM9fPFzgH21p95cwZYJ0kw3rD4s7uN4yJw3aJxZc5L4wlpcdCUm_VdLMHi5zhy_SwNGVthspYcwFhv_y0y
 }
 
-AzureEntityColoring(AzureLoadBalancer(m))
-!define AzureLoadBalancer(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLoadBalancer(m), AzureLoadBalancer(m))
-!define AzureLoadBalancer(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLoadBalancer(m), AzureLoadBalancer(m))
+AzureEntityColoring(AzureLoadBalancer)
+!define AzureLoadBalancer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLoadBalancer, AzureLoadBalancer)
+!define AzureLoadBalancer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLoadBalancer, AzureLoadBalancer)

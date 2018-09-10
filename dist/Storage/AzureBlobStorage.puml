@@ -7,6 +7,6 @@ IyH1rqsmPl0I1E3xqsyJOAnRWlClGTuBahk5eo0_5T0Yw5PApOBEu5PGqWck8ReXQAG0EuBT2mAxW4L0
 XwxZnxv_
 }
 
-AzureEntityColoring(AzureBlobStorage(m))
-!define AzureBlobStorage(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlobStorage(m), AzureBlobStorage(m))
-!define AzureBlobStorage(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlobStorage(m), AzureBlobStorage(m))
+AzureEntityColoring(AzureBlobStorage)
+!define AzureBlobStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlobStorage, AzureBlobStorage)
+!define AzureBlobStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlobStorage, AzureBlobStorage)

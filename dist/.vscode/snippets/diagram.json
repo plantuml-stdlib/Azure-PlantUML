@@ -1,4 +1,132 @@
 {
+  "AzureCommon": {
+    "prefix": "Azure Common",
+    "description": "Add Azure Common to diagram",
+    "body": [
+      "AzureCommon(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureCommon_Descr": {
+    "prefix": "Azure Common with Description",
+    "description": "Add Azure Common with Description to diagram",
+    "body": [
+      "AzureCommon(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureAnalysisServices": {
+    "prefix": "Azure Analysis Services",
+    "description": "Add Azure Analysis Services to diagram",
+    "body": [
+      "AzureAnalysisServices(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureAnalysisServices_Descr": {
+    "prefix": "Azure Analysis Services with Description",
+    "description": "Add Azure Analysis Services with Description to diagram",
+    "body": [
+      "AzureAnalysisServices(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureDatabricks": {
+    "prefix": "Azure Databricks",
+    "description": "Add Azure Databricks to diagram",
+    "body": [
+      "AzureDatabricks(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDatabricks_Descr": {
+    "prefix": "Azure Databricks with Description",
+    "description": "Add Azure Databricks with Description to diagram",
+    "body": [
+      "AzureDatabricks(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureDataCatalog": {
+    "prefix": "Azure Data Catalog",
+    "description": "Add Azure Data Catalog to diagram",
+    "body": [
+      "AzureDataCatalog(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDataCatalog_Descr": {
+    "prefix": "Azure Data Catalog with Description",
+    "description": "Add Azure Data Catalog with Description to diagram",
+    "body": [
+      "AzureDataCatalog(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureDataLakeAnalytics": {
+    "prefix": "Azure Data Lake Analytics",
+    "description": "Add Azure Data Lake Analytics to diagram",
+    "body": [
+      "AzureDataLakeAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDataLakeAnalytics_Descr": {
+    "prefix": "Azure Data Lake Analytics with Description",
+    "description": "Add Azure Data Lake Analytics with Description to diagram",
+    "body": [
+      "AzureDataLakeAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureEventHub": {
+    "prefix": "Azure Event Hub",
+    "description": "Add Azure Event Hub to diagram",
+    "body": [
+      "AzureEventHub(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureEventHub_Descr": {
+    "prefix": "Azure Event Hub with Description",
+    "description": "Add Azure Event Hub with Description to diagram",
+    "body": [
+      "AzureEventHub(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureHDInsight": {
+    "prefix": "Azure H D Insight",
+    "description": "Add Azure H D Insight to diagram",
+    "body": [
+      "AzureHDInsight(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureHDInsight_Descr": {
+    "prefix": "Azure H D Insight with Description",
+    "description": "Add Azure H D Insight with Description to diagram",
+    "body": [
+      "AzureHDInsight(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureStreamAnalytics": {
+    "prefix": "Azure Stream Analytics",
+    "description": "Add Azure Stream Analytics to diagram",
+    "body": [
+      "AzureStreamAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureStreamAnalytics_Descr": {
+    "prefix": "Azure Stream Analytics with Description",
+    "description": "Add Azure Stream Analytics with Description to diagram",
+    "body": [
+      "AzureStreamAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureAppService": {
     "prefix": "Azure App Service",
     "description": "Add Azure App Service to diagram",

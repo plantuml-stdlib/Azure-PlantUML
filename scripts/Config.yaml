@@ -1,4 +1,21 @@
 Categories:
+- Name: Analytics
+  Services:
+  - Source: Azure Stream Analytics
+    Target: AzureStreamAnalytics
+  - Source: Azure Databricks
+    Target: AzureDatabricks
+  - Source: Azure HDInsight
+    Target: AzureHDInsight
+  - Source: Azure Data Lake Analytics
+    Target: AzureDataLakeAnalytics
+  - Source: Azure Analysis Service
+    Target: AzureAnalysisServices
+  - Source: Azure Event Hubs
+    Target: AzureEventHub    
+  - Source: Azure Data Catalog
+    Target: AzureDataCatalog
+
 - Name: Compute
   Services:
   - Source: Azure Virtual Machine

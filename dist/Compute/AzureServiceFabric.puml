@@ -6,6 +6,6 @@ rRGPctk3LwscU_ODZTpIgMJhbJwOQHtDN6GwRd9Kog8LzSIWUhKepkOsevhjVjgnXChHs3prtb6PAZbV
 SWe7cl7OiDTomyB7rJbugH9Ana4XTyA6zu_gbcLd0Nlb5GLPTikF_BNXEOffSwFm0C8udpWMGFXJ-6y
 }
 
-AzureEntityColoring(AzureServiceFabric(m))
-!define AzureServiceFabric(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureServiceFabric(m), AzureServiceFabric(m))
-!define AzureServiceFabric(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureServiceFabric(m), AzureServiceFabric(m))
+AzureEntityColoring(AzureServiceFabric)
+!define AzureServiceFabric(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureServiceFabric, AzureServiceFabric)
+!define AzureServiceFabric(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureServiceFabric, AzureServiceFabric)

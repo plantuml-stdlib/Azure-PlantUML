@@ -7,6 +7,6 @@ mmg8nEm617FEZAJmFV3R1S5OgcQ4UldoT27eQzyh9i3f0m5U4TBr1ACHkX0TSShe3Yr0LH2W0C3S2isc
 hV5nprP6OHxbnpsb8XR9_r28HNvsMvR43ql-XmE5m7du7QGv-G09v2Sn83-9Pf2V0p_A_mi
 }
 
-AzureEntityColoring(AzureActiveDirectory(m))
-!define AzureActiveDirectory(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureActiveDirectory(m), AzureActiveDirectory(m))
-!define AzureActiveDirectory(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureActiveDirectory(m), AzureActiveDirectory(m))
+AzureEntityColoring(AzureActiveDirectory)
+!define AzureActiveDirectory(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureActiveDirectory, AzureActiveDirectory)
+!define AzureActiveDirectory(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureActiveDirectory, AzureActiveDirectory)

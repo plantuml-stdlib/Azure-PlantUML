@@ -7,6 +7,6 @@ Rospln9sctqS6Ekm3kJCL2IUceq-eJRyzzhohv42fZuPveQFFE64KhdZS12vrGB74E6U6l85_9zRareU
 nP1luTXEapswdRvxsBUhSeyyP6Vb2soHZm9OFLdB3B5ete058wzWLF8AZBm28wzWJkQLZV4B
 }
 
-AzureEntityColoring(AzureScheduler(m))
-!define AzureScheduler(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureScheduler(m), AzureScheduler(m))
-!define AzureScheduler(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureScheduler(m), AzureScheduler(m))
+AzureEntityColoring(AzureScheduler)
+!define AzureScheduler(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureScheduler, AzureScheduler)
+!define AzureScheduler(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureScheduler, AzureScheduler)

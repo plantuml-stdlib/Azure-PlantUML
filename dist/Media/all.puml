@@ -7,7 +7,7 @@ xsD5XiFqq5XK1IU6ua12oL8L0mlY3xIy1Qt2ymPUio732ViXRqBsvKZKB1k7y1-qR6Stev6ZV67kh6kl
 0wh8WS4agiHW7fLSno87WqVYz0lPRm
 }
 
-AzureEntityColoring(AzureMediaServices(m))
-!define AzureMediaServices(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMediaServices(m), AzureMediaServices(m))
-!define AzureMediaServices(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMediaServices(m), AzureMediaServices(m))
+AzureEntityColoring(AzureMediaServices)
+!define AzureMediaServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMediaServices, AzureMediaServices)
+!define AzureMediaServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMediaServices, AzureMediaServices)
 

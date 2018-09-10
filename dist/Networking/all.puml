@@ -7,9 +7,9 @@ XP1UX2zG-1TW2F3qIr00fe3UlD1Uh_9BK20XWFHofor1WOG2grSXxTTSWFvQIY-2J02Pz2AS0DghS0Pe
 X5p-eN3Jgt3Jgt3Jgt3Jgw3zZI3zZP3INmZINmZINmZItmiDjol-__yFVW
 }
 
-AzureEntityColoring(AzureApplicationGateway(m))
-!define AzureApplicationGateway(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureApplicationGateway(m), AzureApplicationGateway(m))
-!define AzureApplicationGateway(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureApplicationGateway(m), AzureApplicationGateway(m))
+AzureEntityColoring(AzureApplicationGateway)
+!define AzureApplicationGateway(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureApplicationGateway, AzureApplicationGateway)
+!define AzureApplicationGateway(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureApplicationGateway, AzureApplicationGateway)
 
 sprite $AzureAzureDDoSProtection [48x65/16z] {
 jTP7aiGW38LXWaAxaNt_sqvK6QgCMuy9__eZhfJcbP9MoY9vZGlZ2wfyLJ5TM3mkmDuiG_poZDpnk2HVOIwLM6vZgiLNiM3fPuAdtYBNHQuunxt-bTTdk_GG
@@ -18,9 +18,9 @@ pPvzU_m_yV-nDM__wstDsrzxuT6tq3CDN6DVoy01dnDt7dj9gNGU-yy1WRkF_eTzU76kZya1s-1z874U
 OdVfPRxgrtDh4NXpZow_69G9kCha6LmINE6xlTy1
 }
 
-AzureEntityColoring(AzureAzureDDoSProtection(m))
-!define AzureAzureDDoSProtection(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAzureDDoSProtection(m), AzureAzureDDoSProtection(m))
-!define AzureAzureDDoSProtection(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAzureDDoSProtection(m), AzureAzureDDoSProtection(m))
+AzureEntityColoring(AzureAzureDDoSProtection)
+!define AzureAzureDDoSProtection(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAzureDDoSProtection, AzureAzureDDoSProtection)
+!define AzureAzureDDoSProtection(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAzureDDoSProtection, AzureAzureDDoSProtection)
 
 sprite $AzureDNS [65x65/16z] {
 fLW7ajmm33ERHER_3yv8nj6BkRMlCTqK8B2evRWpzPXPzQygPxWUFpEVzO-jfdyRhQFHP3M-fSCcWPB8vfSKGl0XYp69GXxnKGXu_wuVNyy0uFF7wJ5a0W_p
@@ -34,9 +34,9 @@ yjDDR48Rhb1F5X-OyPehANIlFbzH-j8FrKAoIprPyuZmPH63BnmLrdUa3e8j3pR8h5UQoTuMQAX36vNT
 4yVBpNiXhhB2kEnHD_ZEGzhMoq6Wx7Y0bJw_cQRkZAKmTG2E7UdnrPPZ_owK7lZAl_zkhA3LqTC_cr53pv44_-RZzozlvstoxlLknyzCVNph_m_-0m
 }
 
-AzureEntityColoring(AzureDNS(m))
-!define AzureDNS(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDNS(m), AzureDNS(m))
-!define AzureDNS(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDNS(m), AzureDNS(m))
+AzureEntityColoring(AzureDNS)
+!define AzureDNS(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDNS, AzureDNS)
+!define AzureDNS(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDNS, AzureDNS)
 
 sprite $AzureExpressRoute [65x40/16z] {
 dPO7biGm24C1D-Jx7tYVRMOdR3LeUlcA876XlrG6W54eguu9OCxEAPnrlgGfXpxVwWbU3Whi5w6msivUgEnA6eKr5bU8gAmt8sS0Nir4pg2_4jHK5ur3vRgx
@@ -45,9 +45,9 @@ BSEdXatVZWyvDEky2HSyCHuh3gJl979UeJV2cMrbH-aAEt2V4UrfNjSX0LirweoeMZU0PQ2KIi1O1gSG
 dsPEDBfLmobXY6KQ0BhGlQGhC7R57m
 }
 
-AzureEntityColoring(AzureExpressRoute(m))
-!define AzureExpressRoute(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExpressRoute(m), AzureExpressRoute(m))
-!define AzureExpressRoute(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExpressRoute(m), AzureExpressRoute(m))
+AzureEntityColoring(AzureExpressRoute)
+!define AzureExpressRoute(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExpressRoute, AzureExpressRoute)
+!define AzureExpressRoute(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExpressRoute, AzureExpressRoute)
 
 sprite $AzureLoadBalancer [65x65/16z] {
 lTW7ZkCm341Hgb4Yxt_WXL8_CV16O81mkZt_fRj4_ZT5pPOMoKuttsCzs_jpUhQ7aEefv7eAoNxL1I7H5n48gHv2hgUGwodaUWgvdaAkft3O--Xxxils38_2
@@ -57,9 +57,9 @@ rXs2yZfF1rUTGCKh2WA19NVXqSiYm3uAwk62sZItsRR55Orz503un3s-743iep0TizeZ7nOMNsvH_iww
 JEbfJu4RcMAdFOM9fPFzgH21p95cwZYJ0kw3rD4s7uN4yJw3aJxZc5L4wlpcdCUm_VdLMHi5zhy_SwNGVthspYcwFhv_y0y
 }
 
-AzureEntityColoring(AzureLoadBalancer(m))
-!define AzureLoadBalancer(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLoadBalancer(m), AzureLoadBalancer(m))
-!define AzureLoadBalancer(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLoadBalancer(m), AzureLoadBalancer(m))
+AzureEntityColoring(AzureLoadBalancer)
+!define AzureLoadBalancer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLoadBalancer, AzureLoadBalancer)
+!define AzureLoadBalancer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLoadBalancer, AzureLoadBalancer)
 
 sprite $AzureTrafficManager [63x65/16z] {
 rTO5RWGn38NXS6pV_xu5aTKezbzkzmaNlfcmKyvKiIXI2yOrUjRiMRDtJJxZq_xMB_Rx9_r-D5_FwSUiucawOwyAlgdP3BTT5qjzLNl92Fmepa_l-lJ-RSXj
@@ -68,9 +68,9 @@ qyhU-gLOogksmmEVvhpgSRLQnCUjK4fnd_AgiAmNlHty37Zkb_kPyJBnG9bNFchgH-Px6IQvxyb5i7UV
 KK2Z1uqUDFWgNhw32FXCirTVRP_peCbBeAa0RM3afLpp3
 }
 
-AzureEntityColoring(AzureTrafficManager(m))
-!define AzureTrafficManager(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTrafficManager(m), AzureTrafficManager(m))
-!define AzureTrafficManager(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTrafficManager(m), AzureTrafficManager(m))
+AzureEntityColoring(AzureTrafficManager)
+!define AzureTrafficManager(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTrafficManager, AzureTrafficManager)
+!define AzureTrafficManager(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTrafficManager, AzureTrafficManager)
 
 sprite $AzureVirtualNetwork [65x35/16z] {
 fPO7qiOW24G39g9x__l-rPA-yyqo9VMz51LOJc7XotDus48YKFoPBuXtt0g0xV7o1g0Ou_FB3VdTO45uyWuMh-_F3OGd1i8J0-69WV34G7Xcu3mtS9uRphol
@@ -78,9 +78,9 @@ QUodmxxFczPcwFDdFKrNdvV2_l4vpK-66nweun8GVwuAt1eiWDhvVcDJ9ln7QhTtSJTKe7YqH_Jm1kK6
 IL_FUaRXl9eJrQoirWMrCgcrKQtEGdzW3_s1rA5y0m
 }
 
-AzureEntityColoring(AzureVirtualNetwork(m))
-!define AzureVirtualNetwork(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualNetwork(m), AzureVirtualNetwork(m))
-!define AzureVirtualNetwork(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualNetwork(m), AzureVirtualNetwork(m))
+AzureEntityColoring(AzureVirtualNetwork)
+!define AzureVirtualNetwork(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualNetwork, AzureVirtualNetwork)
+!define AzureVirtualNetwork(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualNetwork, AzureVirtualNetwork)
 
 sprite $AzureVirtualWAN [65x65/16z] {
 dPRTkgiy28G9WGJc_k_t-zdQF2DgT_KzMgij8qo0A5_HRkRkPjhaEQqxOIeFwLwmHraqlw3BpwXVOg_Y6NkK_ti5_u8-zhyYjwZjMVhYmL4qyr_vAUk7BZH_
@@ -93,9 +93,9 @@ dvc8VV6FnBWwQIt2bKJ8jbtxvSMOULC0txxxCoRoN28GyXrDx87jN4HG_2rjsQSe2eFZxsdh9Si0hxFq
 PYO0fAlSyIy
 }
 
-AzureEntityColoring(AzureVirtualWAN(m))
-!define AzureVirtualWAN(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualWAN(m), AzureVirtualWAN(m))
-!define AzureVirtualWAN(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualWAN(m), AzureVirtualWAN(m))
+AzureEntityColoring(AzureVirtualWAN)
+!define AzureVirtualWAN(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualWAN, AzureVirtualWAN)
+!define AzureVirtualWAN(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualWAN, AzureVirtualWAN)
 
 sprite $AzureVPNGateway [58x65/16z] {
 lTK5SWCn38LXe-Z-1-w6eudrj2xzWuLloLJMzScYHqApbzFLmURYKS-uHceVARNCLR8WgX1sjJ0T04w3pGpkqs5fOmchvbBRIegvbESOazHS0f_LZrybJPvN
@@ -104,7 +104,7 @@ ux4ZUwKViAFh3lH7jcTKFgBuJQjx7lZvQlYmCndh4JvEAwiqUXdnxu7ULD9B-dhq7U1GNshsp7zQ_9h-
 dhP-I-Dloyct3IMlnhEUaBoUGpML7CtRcaZ1QmNdvMPCH-qYwPB-mpvqeH1YYY2cALH0CHG3540JCa01D6fmGe4wdiZu2xAXyBdCkiTKvi6-
 }
 
-AzureEntityColoring(AzureVPNGateway(m))
-!define AzureVPNGateway(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVPNGateway(m), AzureVPNGateway(m))
-!define AzureVPNGateway(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVPNGateway(m), AzureVPNGateway(m))
+AzureEntityColoring(AzureVPNGateway)
+!define AzureVPNGateway(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVPNGateway, AzureVPNGateway)
+!define AzureVPNGateway(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVPNGateway, AzureVPNGateway)
 

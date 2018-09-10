@@ -6,6 +6,6 @@ sl0bd4I0tn5WYMYtuTeD3MiltEHH8FKYk1js9_maAFL6kgtqf7meqEbM_JQ2zuB_F0USuu2wcPJckG34
 BSM0OZMxbKpxHsIr-ELnN_9UBTOYo3ySNm
 }
 
-AzureEntityColoring(AzureLogicApps(m))
-!define AzureLogicApps(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLogicApps(m), AzureLogicApps(m))
-!define AzureLogicApps(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLogicApps(m), AzureLogicApps(m))
+AzureEntityColoring(AzureLogicApps)
+!define AzureLogicApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLogicApps, AzureLogicApps)
+!define AzureLogicApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLogicApps, AzureLogicApps)

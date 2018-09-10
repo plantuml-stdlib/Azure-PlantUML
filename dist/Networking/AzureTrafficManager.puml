@@ -5,6 +5,6 @@ qyhU-gLOogksmmEVvhpgSRLQnCUjK4fnd_AgiAmNlHty37Zkb_kPyJBnG9bNFchgH-Px6IQvxyb5i7UV
 KK2Z1uqUDFWgNhw32FXCirTVRP_peCbBeAa0RM3afLpp3
 }
 
-AzureEntityColoring(AzureTrafficManager(m))
-!define AzureTrafficManager(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTrafficManager(m), AzureTrafficManager(m))
-!define AzureTrafficManager(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTrafficManager(m), AzureTrafficManager(m))
+AzureEntityColoring(AzureTrafficManager)
+!define AzureTrafficManager(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTrafficManager, AzureTrafficManager)
+!define AzureTrafficManager(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTrafficManager, AzureTrafficManager)

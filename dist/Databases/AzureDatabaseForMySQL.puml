@@ -6,6 +6,6 @@ dGHX0A2HGMj5PQAlGRGkvl-MFwrwQrvM19sStd4AB-ncWErcKCy3emVrt-gvz3-8kq6z6HZ6hS01A6u4
 in7UtBqMKoPuyGK
 }
 
-AzureEntityColoring(AzureDatabaseForMySQL(m))
-!define AzureDatabaseForMySQL(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabaseForMySQL(m), AzureDatabaseForMySQL(m))
-!define AzureDatabaseForMySQL(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabaseForMySQL(m), AzureDatabaseForMySQL(m))
+AzureEntityColoring(AzureDatabaseForMySQL)
+!define AzureDatabaseForMySQL(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabaseForMySQL, AzureDatabaseForMySQL)
+!define AzureDatabaseForMySQL(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabaseForMySQL, AzureDatabaseForMySQL)

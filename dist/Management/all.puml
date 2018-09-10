@@ -9,9 +9,9 @@ Ck0f8SX7TjOy7mooyFBC0022fq4lYOJA4Hsk_4ZwWbZgN6HrB1LoNI1NkGVaf2hl5VAqnLNv-vASna3k
 j_W3
 }
 
-AzureEntityColoring(AzureAutomation(m))
-!define AzureAutomation(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAutomation(m), AzureAutomation(m))
-!define AzureAutomation(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAutomation(m), AzureAutomation(m))
+AzureEntityColoring(AzureAutomation)
+!define AzureAutomation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAutomation, AzureAutomation)
+!define AzureAutomation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAutomation, AzureAutomation)
 
 sprite $AzureBackup [65x54/16z] {
 fPU54jqW44LPb_x_zzOIEYaRY9sHvvUxohns3o3ro0mJR6zWpquejQUGvtyeF3m-SYTiU-etua0nTnDgZVCVWNHJWIntNE8eq70BnzTHI4wWrc3JrhP0yvHm
@@ -21,9 +21,9 @@ B3aeaKq9B7dKiWIMQDcPLFRe4eSX1YiNmPgWVRWxz2Y7lJVHIny-4sZWmrAIo9iO7XIaJD6CkgGfm_11
 w22GtmI-E_YU0_rQ1ShdQ3jY-PIWTWHV6-Z8kmoypgDZAqXaFbb95TIR4iwB_nUHQyALe1L-0G
 }
 
-AzureEntityColoring(AzureBackup(m))
-!define AzureBackup(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBackup(m), AzureBackup(m))
-!define AzureBackup(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBackup(m), AzureBackup(m))
+AzureEntityColoring(AzureBackup)
+!define AzureBackup(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBackup, AzureBackup)
+!define AzureBackup(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBackup, AzureBackup)
 
 sprite $AzureLogAnalytics [65x65/16z] {
 rTS5qkGW48RXHbhlV-0T9rC4-VRtftpaZGUW3Pd5tCDTfIP25V4uCeOQrQBZift85gUSQGjxZ5YYDOq9B-Z_-mBqVxmWiUI9ncfiC1fA7ZiOE03i859i4c07
@@ -33,9 +33,9 @@ ajO3gT4K7C3disvdX8O4cy_rIWpPbHzU7EY4Ah_kLAS9tGW8JPIDGAOPMmQCfl8oa6bEZezuYexGYaq3
 rADnoOGhhExXfbneqpy
 }
 
-AzureEntityColoring(AzureLogAnalytics(m))
-!define AzureLogAnalytics(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLogAnalytics(m), AzureLogAnalytics(m))
-!define AzureLogAnalytics(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLogAnalytics(m), AzureLogAnalytics(m))
+AzureEntityColoring(AzureLogAnalytics)
+!define AzureLogAnalytics(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLogAnalytics, AzureLogAnalytics)
+!define AzureLogAnalytics(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLogAnalytics, AzureLogAnalytics)
 
 sprite $AzureMonitor [65x65/16z] {
 jLY9ckOW25i5H7p_zvqp_O3-rMMFoTosqYH6g_DhXyv3fzaocpguexKALbiPfbpktNKzGqiyQAuz9lskUvlhZ7bc8Kds728iCcOoH6gFLsxn2ciWqNRgRG7p
@@ -47,9 +47,9 @@ wY9yHSfh8g0b1UWN7sbr0XFCytk1oXOGcEOt4whrCe6UtutuWyjZE1_VpgCI8akHrUXyGN_kuHcMGi-y
 Gc6l_E-xTN2ednV-ySJI__NCz5EdDhXyXhQVEBdMpyu_SNh_v_yVl0C
 }
 
-AzureEntityColoring(AzureMonitor(m))
-!define AzureMonitor(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMonitor(m), AzureMonitor(m))
-!define AzureMonitor(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMonitor(m), AzureMonitor(m))
+AzureEntityColoring(AzureMonitor)
+!define AzureMonitor(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMonitor, AzureMonitor)
+!define AzureMonitor(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMonitor, AzureMonitor)
 
 sprite $AzurePolicy [63x65/16z] {
 xTT7RiKm34LH5ZNoxN-zwO8GVTcWPMGKt_bnjmhYqQBxt28TyaQHx0f_-CCvbzQgx_5a0Dm185_cOh0itzTWS3tXh2yLU2BggQ4Syun5GZJYXdo9C_skGO-u
@@ -58,9 +58,9 @@ IHl5UFUcOyG5AXf9WFSQO5cPHQl3XJ80vp0dQUXzFNFlVkPQrpMpLakV9W3txi-_kf6EIQf--rrExTlp
 EHa0t-TKtUH_hIeV_l3xUzXWVyFV0G
 }
 
-AzureEntityColoring(AzurePolicy(m))
-!define AzurePolicy(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePolicy(m), AzurePolicy(m))
-!define AzurePolicy(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePolicy(m), AzurePolicy(m))
+AzureEntityColoring(AzurePolicy)
+!define AzurePolicy(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePolicy, AzurePolicy)
+!define AzurePolicy(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePolicy, AzurePolicy)
 
 sprite $AzureResourceManager [65x52/16z] {
 xPO7RWKX34JfCBx_VLEGY7Y4V4XJ_QEsCgjdPjXYzw5GbDqYNrhoQp6t4jndfMQcPI4sa-fI339hYRL-wviKKQlM9JQCiZUr26Y_rPGS7DcGykmZzOLfPpuB
@@ -70,9 +70,9 @@ gFYUezcF0VfNm1Fm1DW6uBBk0TK3m4_O6Q3a7G1uxGy0V6i8w4hj1AY1lpOC6FZqxG0S3xrCgkExmG5n
 3gCWO3yRvzcqDb4CGADvpiQSNBdB3W2Qi_5QL71Gx-ipgq5eXcqfkhEYCFHYHixkHaLpuAy
 }
 
-AzureEntityColoring(AzureResourceManager(m))
-!define AzureResourceManager(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureResourceManager(m), AzureResourceManager(m))
-!define AzureResourceManager(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureResourceManager(m), AzureResourceManager(m))
+AzureEntityColoring(AzureResourceManager)
+!define AzureResourceManager(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureResourceManager, AzureResourceManager)
+!define AzureResourceManager(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureResourceManager, AzureResourceManager)
 
 sprite $AzureScheduler [51x65/16z] {
 ZPK7reGW30O92IdS_xv_4VSJUU9cNh6EAHJB8rNKFAA7cqejNs6DVYEKomlKOhncZOcEEopgqMXd325qJOR4v56GGt0fMSYE27cXy152hwOrCpThWYeUame-
@@ -83,9 +83,9 @@ Rospln9sctqS6Ekm3kJCL2IUceq-eJRyzzhohv42fZuPveQFFE64KhdZS12vrGB74E6U6l85_9zRareU
 nP1luTXEapswdRvxsBUhSeyyP6Vb2soHZm9OFLdB3B5ete058wzWLF8AZBm28wzWJkQLZV4B
 }
 
-AzureEntityColoring(AzureScheduler(m))
-!define AzureScheduler(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureScheduler(m), AzureScheduler(m))
-!define AzureScheduler(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureScheduler(m), AzureScheduler(m))
+AzureEntityColoring(AzureScheduler)
+!define AzureScheduler(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureScheduler, AzureScheduler)
+!define AzureScheduler(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureScheduler, AzureScheduler)
 
 sprite $AzureSiteRecovery [65x54/16z] {
 hPQ75kim24CDcFd___jsLw8urEVTCpEiKjc2Z1ua5bcLhZmse1dr8Erx2Odwm6XyXMOTY8Q2c4Vy-STQPuBQHRjc0NpjcTKjEXPutPEBlR12z4kGWlHzzEh1
@@ -95,7 +95,7 @@ vc_AgaK7lzqtWYa8EcG7DJAf2Zca22ZuTJUUSaWHcjtMwkTwsR5dQp1pNls8P6iYQ44cKCObH45oHW50
 7kYU0ni-WeQpKKFm0B1bS_aS5x3wdKQ62OqJFm4
 }
 
-AzureEntityColoring(AzureSiteRecovery(m))
-!define AzureSiteRecovery(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSiteRecovery(m), AzureSiteRecovery(m))
-!define AzureSiteRecovery(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSiteRecovery(m), AzureSiteRecovery(m))
+AzureEntityColoring(AzureSiteRecovery)
+!define AzureSiteRecovery(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSiteRecovery, AzureSiteRecovery)
+!define AzureSiteRecovery(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSiteRecovery, AzureSiteRecovery)
 

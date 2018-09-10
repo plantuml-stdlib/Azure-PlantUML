@@ -4,6 +4,6 @@ WZmNLE3VSryLm1AH0e3IqjLH1XHWUw3TW6qAcmTUBc9KWBZUgQZkWaJgYsBTHfw-OokGf-zo7V07n2j0
 -lPhG9XBxmF01u18bWfFQy15baW1GDicO1UU05Hr1k04O0UcBsexd4GsjG9i1PpZcP00ntYyoFLyX1O
 }
 
-AzureEntityColoring(AzureAzureNetAppFiles(m))
-!define AzureAzureNetAppFiles(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAzureNetAppFiles(m), AzureAzureNetAppFiles(m))
-!define AzureAzureNetAppFiles(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAzureNetAppFiles(m), AzureAzureNetAppFiles(m))
+AzureEntityColoring(AzureAzureNetAppFiles)
+!define AzureAzureNetAppFiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAzureNetAppFiles, AzureAzureNetAppFiles)
+!define AzureAzureNetAppFiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAzureNetAppFiles, AzureAzureNetAppFiles)

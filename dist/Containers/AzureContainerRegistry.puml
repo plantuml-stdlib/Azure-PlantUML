@@ -9,6 +9,6 @@ FGBeoJnulG8sG24YFZDGjbvekv3bBVWaODHV0Tet0Q4QSu1E0FmkAjvQPGP8asi7e7jxAWFS_c_O0BG0
 H7AjgVOviOSVE__p0dKJWflWVm
 }
 
-AzureEntityColoring(AzureContainerRegistry(m))
-!define AzureContainerRegistry(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainerRegistry(m), AzureContainerRegistry(m))
-!define AzureContainerRegistry(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainerRegistry(m), AzureContainerRegistry(m))
+AzureEntityColoring(AzureContainerRegistry)
+!define AzureContainerRegistry(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainerRegistry, AzureContainerRegistry)
+!define AzureContainerRegistry(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainerRegistry, AzureContainerRegistry)

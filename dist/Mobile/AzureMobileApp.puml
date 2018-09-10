@@ -4,6 +4,6 @@ icYuhyMSfU1naZCMxIcB2UEOif5NyJaJPL4nKbQgJXZGESOiiGrxpj2ysBUNyeOv6tF7pWe1LWomCObh
 bbVFdtCCuLlOFvCpBD6uKCHWaEvxzGOClavgAqnbFxMiL-LcKUdkKPd9lUkLhkhLjganLN-eM4yYEVaowqmfoKF4b4i
 }
 
-AzureEntityColoring(AzureMobileApp(m))
-!define AzureMobileApp(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMobileApp(m), AzureMobileApp(m))
-!define AzureMobileApp(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMobileApp(m), AzureMobileApp(m))
+AzureEntityColoring(AzureMobileApp)
+!define AzureMobileApp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMobileApp, AzureMobileApp)
+!define AzureMobileApp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMobileApp, AzureMobileApp)

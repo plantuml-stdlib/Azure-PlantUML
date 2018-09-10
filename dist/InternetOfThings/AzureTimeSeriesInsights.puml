@@ -7,6 +7,6 @@ nTwr1WCcCCMR-4h3wVN15LGUNPT8utsXEfCsCmxQcKXl91sIzCRgpihCoRjp8QGR4pkV3_I4KfZeV4BH
 bHXVI_psnaBmvivqTskxlJVUtrplxywluN5dUo-OHunY4U7yxBy
 }
 
-AzureEntityColoring(AzureTimeSeriesInsights(m))
-!define AzureTimeSeriesInsights(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsights(m), AzureTimeSeriesInsights(m))
-!define AzureTimeSeriesInsights(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsights(m), AzureTimeSeriesInsights(m))
+AzureEntityColoring(AzureTimeSeriesInsights)
+!define AzureTimeSeriesInsights(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsights, AzureTimeSeriesInsights)
+!define AzureTimeSeriesInsights(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsights, AzureTimeSeriesInsights)

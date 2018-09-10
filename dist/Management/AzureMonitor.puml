@@ -8,6 +8,6 @@ wY9yHSfh8g0b1UWN7sbr0XFCytk1oXOGcEOt4whrCe6UtutuWyjZE1_VpgCI8akHrUXyGN_kuHcMGi-y
 Gc6l_E-xTN2ednV-ySJI__NCz5EdDhXyXhQVEBdMpyu_SNh_v_yVl0C
 }
 
-AzureEntityColoring(AzureMonitor(m))
-!define AzureMonitor(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMonitor(m), AzureMonitor(m))
-!define AzureMonitor(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMonitor(m), AzureMonitor(m))
+AzureEntityColoring(AzureMonitor)
+!define AzureMonitor(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMonitor, AzureMonitor)
+!define AzureMonitor(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMonitor, AzureMonitor)

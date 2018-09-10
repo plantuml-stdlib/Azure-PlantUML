@@ -5,9 +5,9 @@ frCUFK9T_k8Gob8wXNh4_C8tAxV2DrIVK2pbIo7iuxyGxoC8VHbWatGnvq0AxvZb98xBl3hIDjuMU15w
 WCgD4A022JXWzmYeX82e2lUmAMe6E4G5kDkvutxIkP-jxgUvw_dn5G
 }
 
-AzureEntityColoring(AzureIoTCentral(m))
-!define AzureIoTCentral(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIoTCentral(m), AzureIoTCentral(m))
-!define AzureIoTCentral(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIoTCentral(m), AzureIoTCentral(m))
+AzureEntityColoring(AzureIoTCentral)
+!define AzureIoTCentral(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIoTCentral, AzureIoTCentral)
+!define AzureIoTCentral(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIoTCentral, AzureIoTCentral)
 
 sprite $AzureIoTEdge [63x65/16z] {
 fTQBZgmW48JXRg2hIj__WK-OO9Y3jcQTFzUvV8Csh5bxpcjh4QtLOd-lj9ZLFs8V-DqFb3ZLVj3FtjqNdVXyJgrQRtNevVTV_XzHM-ZChtIDxvfd68X49s7D
@@ -19,9 +19,9 @@ xIMskuPEkM7x9TCFUATjLma0d_NMRDklU1_h8_ziEVQNVEnuxAyuR7InEaazt7Yr4RSNJOvNl0tzTkk7
 Drtra_u7
 }
 
-AzureEntityColoring(AzureIoTEdge(m))
-!define AzureIoTEdge(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIoTEdge(m), AzureIoTEdge(m))
-!define AzureIoTEdge(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIoTEdge(m), AzureIoTEdge(m))
+AzureEntityColoring(AzureIoTEdge)
+!define AzureIoTEdge(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIoTEdge, AzureIoTEdge)
+!define AzureIoTEdge(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIoTEdge, AzureIoTEdge)
 
 sprite $AzureIoTHub [65x65/16z] {
 xPQ7ZkmW34N79hZS___Vrn5AMC-T43tLFIfRvyYumUiMYYjnJz2ny1y5skI1G1m0ikqADF4NsnGa1WSJi5pbwGyD2oG0u9m66UXR0J0vYYm_5cmSWGju4bS1
@@ -31,9 +31,9 @@ KojnfDabQByJWiJQN0B0RkppHR2MKjeVj9wmUUXPIbdxV1KK0tJW3oQNVvDwcUVNuhOfC0na4HJNWNtj
 _14x1Ig33qCOgmKBZHdoL5miTFvoC-lw8WBAjs0IkABt13y1
 }
 
-AzureEntityColoring(AzureIoTHub(m))
-!define AzureIoTHub(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIoTHub(m), AzureIoTHub(m))
-!define AzureIoTHub(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIoTHub(m), AzureIoTHub(m))
+AzureEntityColoring(AzureIoTHub)
+!define AzureIoTHub(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIoTHub, AzureIoTHub)
+!define AzureIoTHub(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIoTHub, AzureIoTHub)
 
 sprite $AzureMaps [51x65/16z] {
 jTHNijqm20PWK0M9_Qyt7X9DT723Mxvt1j2F3Ry28OmWgeLB4b6262Ag45Bf0158uPAk9GX-XLGEZQLwR2mL6okspAJ56oO9atA7cKGcnPQP8iAXaYQ76La6
@@ -42,9 +42,9 @@ HQsI0k-6AFQ7MUKV_pAoi3TCbcMIxpApg7soveXa6Qvbkkmy9KcKUO3aYCGyG754ufyCnHfl9ImdBs4M
 Uvjk8bbj3TpVUOza5hX5_zlWYkIkWLreXJb7XZTbrJHjWk2GrcGGeAaoGKJNDWaYwb525I9qeGuno5eIGumGrGg49O2uFm
 }
 
-AzureEntityColoring(AzureMaps(m))
-!define AzureMaps(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMaps(m), AzureMaps(m))
-!define AzureMaps(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMaps(m), AzureMaps(m))
+AzureEntityColoring(AzureMaps)
+!define AzureMaps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMaps, AzureMaps)
+!define AzureMaps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMaps, AzureMaps)
 
 sprite $AzureTimeSeriesInsights [65x65/16z] {
 fLU7akmm23CO9p7w_-zz9UoDvp8hROccNW5BiJ3G6Ap76Dj_Z8XkxJFusAu8VplQOeMDOb48--Jma_QIyyZtaePLU1ZZDJIBNiT8SltLyQxqIH9soSyv6is-
@@ -55,7 +55,7 @@ nTwr1WCcCCMR-4h3wVN15LGUNPT8utsXEfCsCmxQcKXl91sIzCRgpihCoRjp8QGR4pkV3_I4KfZeV4BH
 bHXVI_psnaBmvivqTskxlJVUtrplxywluN5dUo-OHunY4U7yxBy
 }
 
-AzureEntityColoring(AzureTimeSeriesInsights(m))
-!define AzureTimeSeriesInsights(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsights(m), AzureTimeSeriesInsights(m))
-!define AzureTimeSeriesInsights(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsights(m), AzureTimeSeriesInsights(m))
+AzureEntityColoring(AzureTimeSeriesInsights)
+!define AzureTimeSeriesInsights(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsights, AzureTimeSeriesInsights)
+!define AzureTimeSeriesInsights(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsights, AzureTimeSeriesInsights)
 

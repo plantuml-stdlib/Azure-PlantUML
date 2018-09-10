@@ -5,6 +5,6 @@ pPvzU_m_yV-nDM__wstDsrzxuT6tq3CDN6DVoy01dnDt7dj9gNGU-yy1WRkF_eTzU76kZya1s-1z874U
 OdVfPRxgrtDh4NXpZow_69G9kCha6LmINE6xlTy1
 }
 
-AzureEntityColoring(AzureAzureDDoSProtection(m))
-!define AzureAzureDDoSProtection(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAzureDDoSProtection(m), AzureAzureDDoSProtection(m))
-!define AzureAzureDDoSProtection(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAzureDDoSProtection(m), AzureAzureDDoSProtection(m))
+AzureEntityColoring(AzureAzureDDoSProtection)
+!define AzureAzureDDoSProtection(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAzureDDoSProtection, AzureAzureDDoSProtection)
+!define AzureAzureDDoSProtection(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAzureDDoSProtection, AzureAzureDDoSProtection)

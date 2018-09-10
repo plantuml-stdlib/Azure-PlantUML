@@ -4,6 +4,6 @@ zoNL1vHQ9DSVskyHjtgI1vJlKHnEzgnse8cZR6zL7C_sskfxHHpDzWA7nENwm2ASxyDwJxJLKtr0-Hxd
 TH0o2rXgBGWR2-4dBA0ym8q5aQM5SQY9OvXSED8am1GU6_SWv9-3a7WLKaRoInRsuQfQwB26BQZb1y8V6XXrJRU_vARlzlS
 }
 
-AzureEntityColoring(AzureEventGrid(m))
-!define AzureEventGrid(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureEventGrid(m), AzureEventGrid(m))
-!define AzureEventGrid(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureEventGrid(m), AzureEventGrid(m))
+AzureEntityColoring(AzureEventGrid)
+!define AzureEventGrid(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureEventGrid, AzureEventGrid)
+!define AzureEventGrid(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureEventGrid, AzureEventGrid)

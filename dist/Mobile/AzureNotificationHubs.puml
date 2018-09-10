@@ -5,6 +5,6 @@ DE_4LPGhe5s0h1TWxWFiJu1E08u5p7i5hqNP6w1nz29QiHsz1rOZUmDcnR0644ZE06K0vNo0AjxBSJY0
 WYa8fY2OWc0AWYa8fY1uTS6iuM-z0W
 }
 
-AzureEntityColoring(AzureNotificationHubs(m))
-!define AzureNotificationHubs(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNotificationHubs(m), AzureNotificationHubs(m))
-!define AzureNotificationHubs(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNotificationHubs(m), AzureNotificationHubs(m))
+AzureEntityColoring(AzureNotificationHubs)
+!define AzureNotificationHubs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNotificationHubs, AzureNotificationHubs)
+!define AzureNotificationHubs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNotificationHubs, AzureNotificationHubs)

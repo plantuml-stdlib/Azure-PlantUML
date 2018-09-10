@@ -5,9 +5,9 @@ CWMwwSWdB-KhdN4WyrNlUNzcJUB27YzYLv464W5OHFrm6RF77O4Zvel66KXfKQQ9ESrb3hDUbuoPLEN0
 uCUIKF6vD9HaBWTA516THmJHE5raDPhW5nYMOKCY--oIHuPVW2Jfs1dvsRyd-TLhJ_ChqfwbcsRs5m
 }
 
-AzureEntityColoring(AzureApplicationInsights(m))
-!define AzureApplicationInsights(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureApplicationInsights(m), AzureApplicationInsights(m))
-!define AzureApplicationInsights(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureApplicationInsights(m), AzureApplicationInsights(m))
+AzureEntityColoring(AzureApplicationInsights)
+!define AzureApplicationInsights(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureApplicationInsights, AzureApplicationInsights)
+!define AzureApplicationInsights(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureApplicationInsights, AzureApplicationInsights)
 
 sprite $AzureDevTestLabs [65x65/16z] {
 fPO7bWGX24HRClS_yEOWquZqyx-mqHgXAFMg6IXgxcxAS3q7rMTaF5pkWQSIGps3kkl15sXlFRaVAQ0NM7F_9tlmadqdnNUCVG4dHQZlWMg2l84awqZKJ1d4
@@ -17,9 +17,9 @@ YvMHVQ0yhWssxEtHGylQ0iM0jk3oWRDdz5yNpnywSFhKr8Q0UGKsBSGVljGKlz2UbV65CEyRMbPA_1YT
 MVW0t5YOP8D3YLQ7WFOvuTh2d6XbOQ5W2HLMglSPUNbz-5H0MZb-Uh0CyIRwDKhl
 }
 
-AzureEntityColoring(AzureDevTestLabs(m))
-!define AzureDevTestLabs(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevTestLabs(m), AzureDevTestLabs(m))
-!define AzureDevTestLabs(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevTestLabs(m), AzureDevTestLabs(m))
+AzureEntityColoring(AzureDevTestLabs)
+!define AzureDevTestLabs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevTestLabs, AzureDevTestLabs)
+!define AzureDevTestLabs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevTestLabs, AzureDevTestLabs)
 
 sprite $AzureLabServices [62x65/16z] {
 xSv7biGW40HHcS9KtF_0ivgsCaddbjX9aE-pVBTosBxSDjSr7fNnzNxumr_FzLpFzMQjw_6wwm-7rry9mARJvVNN3a0ReOzndNuMJroZ1LoZTVn97-6hI0ku
@@ -27,9 +27,9 @@ HEjuEQ1rd2SWu8Tqsmzh0DGBMkWKBmYTuc3W1GmS3Bo0WIS6Ni304ps7XkBGuD1G15h50mmy6SsXeJWq
 qRv4_YulVm
 }
 
-AzureEntityColoring(AzureLabServices(m))
-!define AzureLabServices(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLabServices(m), AzureLabServices(m))
-!define AzureLabServices(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLabServices(m), AzureLabServices(m))
+AzureEntityColoring(AzureLabServices)
+!define AzureLabServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLabServices, AzureLabServices)
+!define AzureLabServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLabServices, AzureLabServices)
 
 sprite $VisualStudioTeamServices [65x65/16z] {
 fPTNbW0X20GRHn6u_tqt9-SnY4jzssLEEEIIWGgNcYat_9TkdqYlvTzG9XmpR65UjVmREd00cuDoBVz6FbyJJAi9fjK4OYK1YMq5NIP5-LXmiPgPNWzvjP0s
@@ -38,7 +38,7 @@ WG3TcxvQ2unpWk3y449j5anRJa0QdpAnO7D-yrv0kZiiOy6QLtMsOoXekbRdxOiH2VJUOSym0u7JLd47
 T9kVDm1TdURd3G2QBAD_QC0xJ0Y83SZ0aQ1gGDM0gW5L0ue6gVtQk5N-VT9noWWhpnlYocDwK7dISA_y5G
 }
 
-AzureEntityColoring(VisualStudioTeamServices(m))
-!define VisualStudioTeamServices(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VisualStudioTeamServices(m), VisualStudioTeamServices(m))
-!define VisualStudioTeamServices(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VisualStudioTeamServices(m), VisualStudioTeamServices(m))
+AzureEntityColoring(VisualStudioTeamServices)
+!define VisualStudioTeamServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VisualStudioTeamServices, VisualStudioTeamServices)
+!define VisualStudioTeamServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VisualStudioTeamServices, VisualStudioTeamServices)
 

@@ -9,6 +9,6 @@ pGXuisAs7txpaAE2ZbTxhDRjtewL7nqljxRqE9WkxEksfl5yV5tDkspTk6G_bPxHFB_bj6RHHvRs8tBS
 OKplAMDcwwExlhNNv_mR
 }
 
-AzureEntityColoring(AzureCosmosDb(m))
-!define AzureCosmosDb(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCosmosDb(m), AzureCosmosDb(m))
-!define AzureCosmosDb(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCosmosDb(m), AzureCosmosDb(m))
+AzureEntityColoring(AzureCosmosDb)
+!define AzureCosmosDb(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCosmosDb, AzureCosmosDb)
+!define AzureCosmosDb(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCosmosDb, AzureCosmosDb)

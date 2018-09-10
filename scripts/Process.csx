@@ -7,7 +7,7 @@
 
 using System.Diagnostics;
 
-var sourceFolder = @"./source";
+var sourceFolder = @"../source";
 
 var originalSourceFolder = Path.Combine(sourceFolder, "official");
 
@@ -28,11 +28,17 @@ public void Main()
     var lookupTable = ReadConfig("Config.yaml");
 
     // Cleanup
-    System.IO.DirectoryInfo di = new DirectoryInfo(targetFolder);
-    foreach (DirectoryInfo dir in di.GetDirectories())
+    //System.IO.DirectoryInfo di = new DirectoryInfo(targetFolder);
+    // foreach (DirectoryInfo dir in di.GetDirectories())
+    // {
+    //     dir.Delete(true); 
+    // }
+    //di.Delete(true);
+    if (Directory.Exists(targetFolder))
     {
-        dir.Delete(true); 
+        Directory.Delete(targetFolder, true);
     }
+    Directory.CreateDirectory(targetFolder);
 
     File.Copy(Path.Combine(sourceFolder, "AzureCommon.puml"), Path.Combine(targetFolder, "AzureCommon.puml"));
 
@@ -49,7 +55,7 @@ public void Main()
 
         if (!coloredExists && !monochromExists)
         {
-            WriteWarningLine($"Error: Missing {coloredSourceFileName} and {monochromSourceFileName}");
+            WriteErrorLine($"Error: Missing {coloredSourceFileName} and {monochromSourceFileName}");
             continue;
         }
 
@@ -105,7 +111,7 @@ public void Main()
 
     GenerateMarkdownTable(targetFolder);
     GenerateVSCodeSnippets(targetFolder);
-    
+
     Console.WriteLine("Finished");
 }
 
@@ -158,6 +164,14 @@ public void WriteWarningLine(string message)
     Console.ForegroundColor = tmp;
 }
 
+public void WriteErrorLine(string message)
+{
+    var tmp = Console.ForegroundColor;
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine(message);
+    Console.ForegroundColor = tmp;
+}
+
 public bool ConvertToPng(string svgPath, string pngPath, bool withBackgroundForPuml)
 {
     var backgroundOpacity = withBackgroundForPuml ? "1.0" : "0.0";
@@ -193,8 +207,7 @@ public string ConvertToPuml(string pngPath, string pumlFileName)
 {
     var format = "16z";
 
-    var entityName = Path.GetFileNameWithoutExtension(pngPath);
-    var entityNameUpper = entityName.ToUpper();
+    var entityName = Path.GetFileNameWithoutExtension(pumlFileName);
     var pumlPath = Path.Combine(Directory.GetParent(pngPath).FullName, pumlFileName);
 
     var processInfo = new ProcessStartInfo

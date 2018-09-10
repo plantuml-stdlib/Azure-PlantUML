@@ -5,6 +5,6 @@ IHl5UFUcOyG5AXf9WFSQO5cPHQl3XJ80vp0dQUXzFNFlVkPQrpMpLakV9W3txi-_kf6EIQf--rrExTlp
 EHa0t-TKtUH_hIeV_l3xUzXWVyFV0G
 }
 
-AzureEntityColoring(AzurePolicy(m))
-!define AzurePolicy(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePolicy(m), AzurePolicy(m))
-!define AzurePolicy(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePolicy(m), AzurePolicy(m))
+AzureEntityColoring(AzurePolicy)
+!define AzurePolicy(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePolicy, AzurePolicy)
+!define AzurePolicy(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePolicy, AzurePolicy)

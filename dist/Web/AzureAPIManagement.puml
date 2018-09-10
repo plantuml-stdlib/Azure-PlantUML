@@ -7,6 +7,6 @@ CVabF6kHgxHKGYPlgPhJ2ePixbI4gOWmC_4gjaoUfqEtU_ubdQQ7Iu8-0-Z_nCmI8QyF93TmvbcW5vkf
 sEj0X-zkZjL-oS3R4AI12P5FnvRD6AGJKqOjID5zYw08OEonVxm2RalqFJKwce3Cib4rnzgBSHMiE0rMhNZJ6QApOqMfZTD9FV9rx-7qNm
 }
 
-AzureEntityColoring(AzureAPIManagement(m))
-!define AzureAPIManagement(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAPIManagement(m), AzureAPIManagement(m))
-!define AzureAPIManagement(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAPIManagement(m), AzureAPIManagement(m))
+AzureEntityColoring(AzureAPIManagement)
+!define AzureAPIManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAPIManagement, AzureAPIManagement)
+!define AzureAPIManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAPIManagement, AzureAPIManagement)

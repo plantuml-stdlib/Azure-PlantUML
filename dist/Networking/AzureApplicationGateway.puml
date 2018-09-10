@@ -7,6 +7,6 @@ XP1UX2zG-1TW2F3qIr00fe3UlD1Uh_9BK20XWFHofor1WOG2grSXxTTSWFvQIY-2J02Pz2AS0DghS0Pe
 X5p-eN3Jgt3Jgt3Jgt3Jgw3zZI3zZP3INmZINmZINmZItmiDjol-__yFVW
 }
 
-AzureEntityColoring(AzureApplicationGateway(m))
-!define AzureApplicationGateway(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureApplicationGateway(m), AzureApplicationGateway(m))
-!define AzureApplicationGateway(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureApplicationGateway(m), AzureApplicationGateway(m))
+AzureEntityColoring(AzureApplicationGateway)
+!define AzureApplicationGateway(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureApplicationGateway, AzureApplicationGateway)
+!define AzureApplicationGateway(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureApplicationGateway, AzureApplicationGateway)

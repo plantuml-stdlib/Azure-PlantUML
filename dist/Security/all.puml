@@ -7,7 +7,7 @@ x6ih80-T1p9D7Sg1z9cSwVBs9FrCQha_iczGeBygO3tGu-mv2APlieBdMpil9d2uk2jM3jLJL1gLBBrp
 WEUUiNrqU8spGCwi58SjrXwuQ9_TCANH5RBeD3ERAenxcvy
 }
 
-AzureEntityColoring(AzureKeyVault(m))
-!define AzureKeyVault(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureKeyVault(m), AzureKeyVault(m))
-!define AzureKeyVault(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureKeyVault(m), AzureKeyVault(m))
+AzureEntityColoring(AzureKeyVault)
+!define AzureKeyVault(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureKeyVault, AzureKeyVault)
+!define AzureKeyVault(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureKeyVault, AzureKeyVault)
 

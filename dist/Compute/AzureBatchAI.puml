@@ -6,6 +6,6 @@ D66c3zoOYO-4JepspHLmcM19q9ZJ8ukt7dC9DqVxzwKdhlqhKpfRGyI93xG_duU57PTXHkdWNBnlOAvz
 ucpItWKp7VjH-jCChSFz6MwldmMzT8rz3nyaB_cD1o_fZHiloOqBRzquVyK7h_bbHmQ_cFWvuJNxEQU_mVUp_sPvVAPyQ_oiDdhZXy2V--IXVm4
 }
 
-AzureEntityColoring(AzureBatchAI(m))
-!define AzureBatchAI(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBatchAI(m), AzureBatchAI(m))
-!define AzureBatchAI(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBatchAI(m), AzureBatchAI(m))
+AzureEntityColoring(AzureBatchAI)
+!define AzureBatchAI(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBatchAI, AzureBatchAI)
+!define AzureBatchAI(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBatchAI, AzureBatchAI)

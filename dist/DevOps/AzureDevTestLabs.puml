@@ -6,6 +6,6 @@ YvMHVQ0yhWssxEtHGylQ0iM0jk3oWRDdz5yNpnywSFhKr8Q0UGKsBSGVljGKlz2UbV65CEyRMbPA_1YT
 MVW0t5YOP8D3YLQ7WFOvuTh2d6XbOQ5W2HLMglSPUNbz-5H0MZb-Uh0CyIRwDKhl
 }
 
-AzureEntityColoring(AzureDevTestLabs(m))
-!define AzureDevTestLabs(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevTestLabs(m), AzureDevTestLabs(m))
-!define AzureDevTestLabs(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevTestLabs(m), AzureDevTestLabs(m))
+AzureEntityColoring(AzureDevTestLabs)
+!define AzureDevTestLabs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevTestLabs, AzureDevTestLabs)
+!define AzureDevTestLabs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevTestLabs, AzureDevTestLabs)

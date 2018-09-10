@@ -9,6 +9,6 @@ Ck0f8SX7TjOy7mooyFBC0022fq4lYOJA4Hsk_4ZwWbZgN6HrB1LoNI1NkGVaf2hl5VAqnLNv-vASna3k
 j_W3
 }
 
-AzureEntityColoring(AzureAutomation(m))
-!define AzureAutomation(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAutomation(m), AzureAutomation(m))
-!define AzureAutomation(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAutomation(m), AzureAutomation(m))
+AzureEntityColoring(AzureAutomation)
+!define AzureAutomation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAutomation, AzureAutomation)
+!define AzureAutomation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAutomation, AzureAutomation)

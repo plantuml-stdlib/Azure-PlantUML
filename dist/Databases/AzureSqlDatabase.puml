@@ -7,6 +7,6 @@ BSzrVY9XuWBpgIw5ZCYCRC65qNfV9n3iognENABVrWajnXnK19UoSAW-8OHKF1gzVfmC50NFh0M7F0yz
 lOYru4r4Dhy6MMzZr5gnGQzEHY1jsA5qNAZ4bYXSy5RiSE8AQt_iCsNYdJ1moKXxZPDoUr4pV3o8nm4qYlqa5VWD
 }
 
-AzureEntityColoring(AzureSqlDatabase(m))
-!define AzureSqlDatabase(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlDatabase(m), AzureSqlDatabase(m))
-!define AzureSqlDatabase(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlDatabase(m), AzureSqlDatabase(m))
+AzureEntityColoring(AzureSqlDatabase)
+!define AzureSqlDatabase(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlDatabase, AzureSqlDatabase)
+!define AzureSqlDatabase(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlDatabase, AzureSqlDatabase)

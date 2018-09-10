@@ -4,6 +4,6 @@ W8cWFtd0ADYz2mo2tVl08DYz3nXXtFk04SmNFl0zGBEF0AE0kWy0AZJHckw3WFG4gI9XJP2w7024AsYL
 QTMU3HjWZDNbcThHwluT
 }
 
-AzureEntityColoring(AzureServiceBus(m))
-!define AzureServiceBus(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureServiceBus(m), AzureServiceBus(m))
-!define AzureServiceBus(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureServiceBus(m), AzureServiceBus(m))
+AzureEntityColoring(AzureServiceBus)
+!define AzureServiceBus(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureServiceBus, AzureServiceBus)
+!define AzureServiceBus(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureServiceBus, AzureServiceBus)

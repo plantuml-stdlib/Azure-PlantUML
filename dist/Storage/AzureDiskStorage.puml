@@ -7,6 +7,6 @@ uOh-OD6Tm9FnvG0G7ihU4nuIFegSh02KbsS7a1CUYSf3FM6pBqkS-hmtmgq-woct3UUxavmw2FBk85V9
 3FH6pFXhpchI3SAKgF_Yys8H_HdPBXPGpz6z6bAc79sTKtWIeqrvRUDsjZibWvJEgev4VcZ_0m
 }
 
-AzureEntityColoring(AzureDiskStorage(m))
-!define AzureDiskStorage(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDiskStorage(m), AzureDiskStorage(m))
-!define AzureDiskStorage(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDiskStorage(m), AzureDiskStorage(m))
+AzureEntityColoring(AzureDiskStorage)
+!define AzureDiskStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDiskStorage, AzureDiskStorage)
+!define AzureDiskStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDiskStorage, AzureDiskStorage)

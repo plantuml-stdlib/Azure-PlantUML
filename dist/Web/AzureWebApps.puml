@@ -10,6 +10,6 @@ pDsBlJ9AyOSSqF828CztvHmiVAz92cdN5gv_NYgVIkgY3Ftq9S6tVsRYoLbrUK5Hmp-tsIxHIaPtnBMh
 i3Ppnm3SkZxd_XS
 }
 
-AzureEntityColoring(AzureWebApps(m))
-!define AzureWebApps(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebApps(m), AzureWebApps(m))
-!define AzureWebApps(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebApps(m), AzureWebApps(m))
+AzureEntityColoring(AzureWebApps)
+!define AzureWebApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebApps, AzureWebApps)
+!define AzureWebApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebApps, AzureWebApps)

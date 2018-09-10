@@ -9,9 +9,9 @@ pGXuisAs7txpaAE2ZbTxhDRjtewL7nqljxRqE9WkxEksfl5yV5tDkspTk6G_bPxHFB_bj6RHHvRs8tBS
 OKplAMDcwwExlhNNv_mR
 }
 
-AzureEntityColoring(AzureCosmosDb(m))
-!define AzureCosmosDb(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCosmosDb(m), AzureCosmosDb(m))
-!define AzureCosmosDb(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCosmosDb(m), AzureCosmosDb(m))
+AzureEntityColoring(AzureCosmosDb)
+!define AzureCosmosDb(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCosmosDb, AzureCosmosDb)
+!define AzureCosmosDb(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCosmosDb, AzureCosmosDb)
 
 sprite $AzureDatabaseForMySQL [49x65/16z] {
 xTG5WkCm341HiIqhzp_lEgHIS9dUO5lzS08_7nBBWfaGZh1ie-rfbNtAy4PKpi0JL3cd24db2lsw0A6JTphQt0kSinmpi_AilyvqdWo24QbQsJLMynpw498d
@@ -21,9 +21,9 @@ dGHX0A2HGMj5PQAlGRGkvl-MFwrwQrvM19sStd4AB-ncWErcKCy3emVrt-gvz3-8kq6z6HZ6hS01A6u4
 in7UtBqMKoPuyGK
 }
 
-AzureEntityColoring(AzureDatabaseForMySQL(m))
-!define AzureDatabaseForMySQL(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabaseForMySQL(m), AzureDatabaseForMySQL(m))
-!define AzureDatabaseForMySQL(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabaseForMySQL(m), AzureDatabaseForMySQL(m))
+AzureEntityColoring(AzureDatabaseForMySQL)
+!define AzureDatabaseForMySQL(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabaseForMySQL, AzureDatabaseForMySQL)
+!define AzureDatabaseForMySQL(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabaseForMySQL, AzureDatabaseForMySQL)
 
 sprite $AzureDatabaseForPostgreSQL [49x65/16z] {
 xPPNefmm34LjwLuLxt_16N2Ufc3cCMbVEJ_KWngj_Nkwg2esL5LwUuS0n0ia86s54gUGsbu0yHxYAM_YU_WW45VWRmXuX0_WYNdkWq6Q-GjcvSrcnXoDaER5
@@ -34,9 +34,9 @@ WNkbQk6ooHD44knB8IJteKBoNhL4XWbjARW408qnsBw43bKSQYW35guYmdk4Qo-ocdlgXuBZgk1Ju5M1
 e7yejDRz4w6t6xmie4s4bmJqLdJuDmAr7_-8_4GWvFm_Qlx3JO443Z_uFm
 }
 
-AzureEntityColoring(AzureDatabaseForPostgreSQL(m))
-!define AzureDatabaseForPostgreSQL(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabaseForPostgreSQL(m), AzureDatabaseForPostgreSQL(m))
-!define AzureDatabaseForPostgreSQL(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabaseForPostgreSQL(m), AzureDatabaseForPostgreSQL(m))
+AzureEntityColoring(AzureDatabaseForPostgreSQL)
+!define AzureDatabaseForPostgreSQL(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabaseForPostgreSQL, AzureDatabaseForPostgreSQL)
+!define AzureDatabaseForPostgreSQL(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabaseForPostgreSQL, AzureDatabaseForPostgreSQL)
 
 sprite $AzureDataFactory [65x65/16z] {
 xTPLOiD0303H1QrWxd_VCgfabTli_2IcPuPstH0rZu08KncjrZHoDjlX9032bimnnfooB80uIXZWaaRs1MWxahumPmVa200mspC5-540QRdXL02mDVlTmg8E
@@ -44,9 +44,9 @@ DU2w28_WkWAG-Wl01ZQmWQajrRq229QN3mh08WCZA01A1WGAW9E1HG7eJWQK0Z2231W5O482kbC0X0oC
 peUAeDHkvt8T0Elwlm4WrpclP_VVp30UFXdQTVQLm0Rgf_7ds-tE0G
 }
 
-AzureEntityColoring(AzureDataFactory(m))
-!define AzureDataFactory(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataFactory(m), AzureDataFactory(m))
-!define AzureDataFactory(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataFactory(m), AzureDataFactory(m))
+AzureEntityColoring(AzureDataFactory)
+!define AzureDataFactory(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataFactory, AzureDataFactory)
+!define AzureDataFactory(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataFactory, AzureDataFactory)
 
 sprite $AzureRedisCache [58x65/16z] {
 pTPLkkmW40HWQ2_slz_ZFP8Fo7IkrYlvWqjx38cQHm0O02BSLBYtLH8vnZm8vIMpLAl0PU8adYfmq--O-rE97LoFUv5GEwQptZ-Gfv9ifr5RfMj-z4ZzvtUy
@@ -56,9 +56,9 @@ tgLHbNd0H5r6pskqA3sV1aMPMzn6KUQRX4PH8gy8Yw-yA7Dixh5NfI_U6gVIrd0lZRwIa56SbMonbcUb
 nmOdafTZetlfwx5fjfCWs_I8Ono3F78ivYmdI-8eS-gnXnyXTHpVODtMBlZuriVpOIUE6LDgatHY4L6L_1-hUG1Z0E7syE9z1m
 }
 
-AzureEntityColoring(AzureRedisCache(m))
-!define AzureRedisCache(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRedisCache(m), AzureRedisCache(m))
-!define AzureRedisCache(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRedisCache(m), AzureRedisCache(m))
+AzureEntityColoring(AzureRedisCache)
+!define AzureRedisCache(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRedisCache, AzureRedisCache)
+!define AzureRedisCache(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRedisCache, AzureRedisCache)
 
 sprite $AzureSqlDatabase [62x65/16z] {
 xTS5aciv38NX8yc2e_qlUEew7aXTSXSDlQ-vaxzCGU1FOYEoYcooAdsOO8zuiiyg1bvvzIscFG_BdbZXmrH5HDNCezWJ1-uO-q1NdEcQLGakUH_AS4TdJyC5
@@ -69,9 +69,9 @@ BSzrVY9XuWBpgIw5ZCYCRC65qNfV9n3iognENABVrWajnXnK19UoSAW-8OHKF1gzVfmC50NFh0M7F0yz
 lOYru4r4Dhy6MMzZr5gnGQzEHY1jsA5qNAZ4bYXSy5RiSE8AQt_iCsNYdJ1moKXxZPDoUr4pV3o8nm4qYlqa5VWD
 }
 
-AzureEntityColoring(AzureSqlDatabase(m))
-!define AzureSqlDatabase(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlDatabase(m), AzureSqlDatabase(m))
-!define AzureSqlDatabase(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlDatabase(m), AzureSqlDatabase(m))
+AzureEntityColoring(AzureSqlDatabase)
+!define AzureSqlDatabase(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlDatabase, AzureSqlDatabase)
+!define AzureSqlDatabase(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlDatabase, AzureSqlDatabase)
 
 sprite $AzureSqlDataWarehouse [65x63/16z] {
 xTO5OkGm38LXaIKztV_0ksex7ATEbk4hWtzJOMWJMmwcypG0f9qVNkzIlsbuYyC9STI3a6yPtk3B2HceTZB10pM3p--KBMjF6YyFFvvWZLeHohFXgrpfXNfD
@@ -82,9 +82,9 @@ zEreOAJeJMMm7WjuxwXItWv6AOu62aE8F9dF1LeEOfU-MyZn028Gn3588eq4VMkPM0yO2vCYbOY9l8A8
 KUrie1qC_0_aF92qGb4JgRH4OZE1O5eb8_4aXz0XOXuVbRk7I5y
 }
 
-AzureEntityColoring(AzureSqlDataWarehouse(m))
-!define AzureSqlDataWarehouse(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlDataWarehouse(m), AzureSqlDataWarehouse(m))
-!define AzureSqlDataWarehouse(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlDataWarehouse(m), AzureSqlDataWarehouse(m))
+AzureEntityColoring(AzureSqlDataWarehouse)
+!define AzureSqlDataWarehouse(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlDataWarehouse, AzureSqlDataWarehouse)
+!define AzureSqlDataWarehouse(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlDataWarehouse, AzureSqlDataWarehouse)
 
 sprite $AzureSqlStretchDatabase [65x44/16z] {
 fTO7QkDW48RXwUMx_u4NjmI5aJnY7rhYyl9NB3eZvbaDTAKhqqtisG3wuHdnMmc9nbzjjEQDIMu7aHZi2vmubRlnDqxvPWGYQb4OjPn-ooAh7oh3L5YYCGYQ
@@ -94,7 +94,7 @@ SXo-hryk4vc_YBmNi708EDETaqZQ-ADrUnVEhdJhzZOg9oQv2x18OTAz2v0r_YSGWJEr25poYq3EWVrd
 kdp4-JpZk0dj_GC
 }
 
-AzureEntityColoring(AzureSqlStretchDatabase(m))
-!define AzureSqlStretchDatabase(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlStretchDatabase(m), AzureSqlStretchDatabase(m))
-!define AzureSqlStretchDatabase(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlStretchDatabase(m), AzureSqlStretchDatabase(m))
+AzureEntityColoring(AzureSqlStretchDatabase)
+!define AzureSqlStretchDatabase(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlStretchDatabase, AzureSqlStretchDatabase)
+!define AzureSqlStretchDatabase(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlStretchDatabase, AzureSqlStretchDatabase)
 

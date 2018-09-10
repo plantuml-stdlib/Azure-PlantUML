@@ -8,6 +8,6 @@ xIMskuPEkM7x9TCFUATjLma0d_NMRDklU1_h8_ziEVQNVEnuxAyuR7InEaazt7Yr4RSNJOvNl0tzTkk7
 Drtra_u7
 }
 
-AzureEntityColoring(AzureIoTEdge(m))
-!define AzureIoTEdge(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIoTEdge(m), AzureIoTEdge(m))
-!define AzureIoTEdge(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIoTEdge(m), AzureIoTEdge(m))
+AzureEntityColoring(AzureIoTEdge)
+!define AzureIoTEdge(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIoTEdge, AzureIoTEdge)
+!define AzureIoTEdge(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIoTEdge, AzureIoTEdge)

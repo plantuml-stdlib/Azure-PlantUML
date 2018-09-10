@@ -5,6 +5,6 @@ Cj6LiT4B4wGnaB36eDvgW0SDiWj2Fjo5XtFmS1BZhFgDJyynl0vGU8se0oxC0x16Kff8KIDBcece4Lon
 mEfp3ZOSK7LOGpfK1mxvb1siIOZWCAOaxdG8u26701vo27JeTN3q62M7D8pCYL8nFke0v-3mg0KV_VM-3VTXiPdv-_-3MVqL
 }
 
-AzureEntityColoring(AzureSignalRService(m))
-!define AzureSignalRService(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSignalRService(m), AzureSignalRService(m))
-!define AzureSignalRService(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSignalRService(m), AzureSignalRService(m))
+AzureEntityColoring(AzureSignalRService)
+!define AzureSignalRService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSignalRService, AzureSignalRService)
+!define AzureSignalRService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSignalRService, AzureSignalRService)

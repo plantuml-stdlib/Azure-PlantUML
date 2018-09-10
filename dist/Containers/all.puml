@@ -5,9 +5,9 @@ Scy_5G3hqSvJRkq3MmXizYQC0vvgWA04Lgrr6Iq1uX8mQcK502AT0fX8Qi2U3mtY8ySan-7k5G2PrHX0
 nf9RGc0L4QPc5W8B5GM0VpVWQGxmzCs0fpd0qtS3QGwu0Ju9U9e1p6nPc6Z94N5-OoU0Uby77Fk-Uxr18DzWenY8vYUZRh87W0kzxGu
 }
 
-AzureEntityColoring(AzureContainerInstance(m))
-!define AzureContainerInstance(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainerInstance(m), AzureContainerInstance(m))
-!define AzureContainerInstance(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainerInstance(m), AzureContainerInstance(m))
+AzureEntityColoring(AzureContainerInstance)
+!define AzureContainerInstance(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainerInstance, AzureContainerInstance)
+!define AzureContainerInstance(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainerInstance, AzureContainerInstance)
 
 sprite $AzureContainerRegistry [65x56/16z] {
 lPS7jgCm34MjNhB__SwWOE1ZpE7NTnfDry-eXBH1G6AHcM52q3ujOCzTpfz5SEH7XNm60PQZ31_7e-ULWhuLtmc0X73lttEc48sIwuqRpKUo6OBpgHG-im7t
@@ -20,9 +20,9 @@ FGBeoJnulG8sG24YFZDGjbvekv3bBVWaODHV0Tet0Q4QSu1E0FmkAjvQPGP8asi7e7jxAWFS_c_O0BG0
 H7AjgVOviOSVE__p0dKJWflWVm
 }
 
-AzureEntityColoring(AzureContainerRegistry(m))
-!define AzureContainerRegistry(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainerRegistry(m), AzureContainerRegistry(m))
-!define AzureContainerRegistry(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainerRegistry(m), AzureContainerRegistry(m))
+AzureEntityColoring(AzureContainerRegistry)
+!define AzureContainerRegistry(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainerRegistry, AzureContainerRegistry)
+!define AzureContainerRegistry(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainerRegistry, AzureContainerRegistry)
 
 sprite $AzureKubernetesService [65x48/16z] {
 xPO5rkGm38CJcUJU_xuBcQPRTvfPvj-FzPIl45EhqSM1qDuk0PVcXlQP46CcEXac9mOiSjCMf0zv4TsOwGW1oVp8UEXAPi3i8o2JhYi6FA3INC0zGZ_g7YBQ
@@ -32,9 +32,9 @@ L42kte2KNIhLxYo9jCizg3MHJCIP8RvBHpLWo3PguIH_Sf_ahjn7fw6NejkBgKpKwSxYXakpkvckJOky
 zVXq6rTxTENG5KFSBuE5j_j1_klxmTj-WE_Q3n0KBO17tiPi3HEm7D5rrJsgGO8Py058nf1N0UEMwDU4xnhRw1YhMgfUu6Odbz1slsQ_1m
 }
 
-AzureEntityColoring(AzureKubernetesService(m))
-!define AzureKubernetesService(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureKubernetesService(m), AzureKubernetesService(m))
-!define AzureKubernetesService(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureKubernetesService(m), AzureKubernetesService(m))
+AzureEntityColoring(AzureKubernetesService)
+!define AzureKubernetesService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureKubernetesService, AzureKubernetesService)
+!define AzureKubernetesService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureKubernetesService, AzureKubernetesService)
 
 sprite $AzureWebAppForContainers [65x48/16z] {
 xTL74kCm34JHHc2Kxd_UWL4g9mQJarENj_yPN0cZSSWvCE7hnffAhJddgFmLTSXM7mROh-GKUBEkLX_dUQjBzfb1wxNDygCQS5ynGnOlFwprt85bG-x_VLXy
@@ -44,7 +44,7 @@ Kc3e5Y2GSFM-50Mo0NX_1tn9WMKWDBqBIq39DgAsj_7g1Ghj0Iby1Fp3I0nkUnTa3XG5c8M9T03e5CW4
 MMxJuGJVOry
 }
 
-AzureEntityColoring(AzureWebAppForContainers(m))
-!define AzureWebAppForContainers(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebAppForContainers(m), AzureWebAppForContainers(m))
-!define AzureWebAppForContainers(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebAppForContainers(m), AzureWebAppForContainers(m))
+AzureEntityColoring(AzureWebAppForContainers)
+!define AzureWebAppForContainers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebAppForContainers, AzureWebAppForContainers)
+!define AzureWebAppForContainers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebAppForContainers, AzureWebAppForContainers)
 

@@ -7,9 +7,9 @@ mmg8nEm617FEZAJmFV3R1S5OgcQ4UldoT27eQzyh9i3f0m5U4TBr1ACHkX0TSShe3Yr0LH2W0C3S2isc
 hV5nprP6OHxbnpsb8XR9_r28HNvsMvR43ql-XmE5m7du7QGv-G09v2Sn83-9Pf2V0p_A_mi
 }
 
-AzureEntityColoring(AzureActiveDirectory(m))
-!define AzureActiveDirectory(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureActiveDirectory(m), AzureActiveDirectory(m))
-!define AzureActiveDirectory(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureActiveDirectory(m), AzureActiveDirectory(m))
+AzureEntityColoring(AzureActiveDirectory)
+!define AzureActiveDirectory(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureActiveDirectory, AzureActiveDirectory)
+!define AzureActiveDirectory(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureActiveDirectory, AzureActiveDirectory)
 
 sprite $AzureActiveDirectoryB2C [65x65/16z] {
 fPQ7bkiW34I56ah2-ly_zpsoPdoGJmhUkxte4cRSw2siz2UAXz1VS8zWkevrGIrq5VKkYFgN-Iu8fqkm3q7OnNa8GgyK245dlKoR1S4Nvxr6PxbCzITMkcit
@@ -21,9 +21,9 @@ S1ppyxDiuFx-zhgdEzQlxJzHfXGhPKfkWlVoohqzUPH-A8BozXPdgWWWsiwDo3OG7svoHtSDCD6Mcap8
 FEWxz11uxugNNW2YFAvcDzHOLfxQSJkuD_3usb3C8mJhWnjzZUrtSMaJIgl4BBZHAeysGwkqH27m3m
 }
 
-AzureEntityColoring(AzureActiveDirectoryB2C(m))
-!define AzureActiveDirectoryB2C(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureActiveDirectoryB2C(m), AzureActiveDirectoryB2C(m))
-!define AzureActiveDirectoryB2C(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureActiveDirectoryB2C(m), AzureActiveDirectoryB2C(m))
+AzureEntityColoring(AzureActiveDirectoryB2C)
+!define AzureActiveDirectoryB2C(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureActiveDirectoryB2C, AzureActiveDirectoryB2C)
+!define AzureActiveDirectoryB2C(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureActiveDirectoryB2C, AzureActiveDirectoryB2C)
 
 sprite $AzureActiveDirectoryDomainServices [65x65/16z] {
 fPTPbiCW30IDDWJS_xxZhUqyFKymfBwZ1bI89CjNs9QVIBN9J_MbjShBFAMjL9gkpssdfCbwQoTbhbxQHPwffzfkR4hW9p8d04p8z1QeQLmWc92fxG5_Ny-r
@@ -35,7 +35,7 @@ GWFkWR2O4ShDJJJZ9ZsIyPHXbCDx0Eov7EDP3Qty9q2__bA1ZAH8G7WSncUeX5QQ2JQ0zdNms4fJIYIF
 h_Wudm6MbY7IRNOFq6KM_CZw2Nqw_Xy
 }
 
-AzureEntityColoring(AzureActiveDirectoryDomainServices(m))
-!define AzureActiveDirectoryDomainServices(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureActiveDirectoryDomainServices(m), AzureActiveDirectoryDomainServices(m))
-!define AzureActiveDirectoryDomainServices(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureActiveDirectoryDomainServices(m), AzureActiveDirectoryDomainServices(m))
+AzureEntityColoring(AzureActiveDirectoryDomainServices)
+!define AzureActiveDirectoryDomainServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureActiveDirectoryDomainServices, AzureActiveDirectoryDomainServices)
+!define AzureActiveDirectoryDomainServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureActiveDirectoryDomainServices, AzureActiveDirectoryDomainServices)
 

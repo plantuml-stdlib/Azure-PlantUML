@@ -6,6 +6,6 @@ B3aeaKq9B7dKiWIMQDcPLFRe4eSX1YiNmPgWVRWxz2Y7lJVHIny-4sZWmrAIo9iO7XIaJD6CkgGfm_11
 w22GtmI-E_YU0_rQ1ShdQ3jY-PIWTWHV6-Z8kmoypgDZAqXaFbb95TIR4iwB_nUHQyALe1L-0G
 }
 
-AzureEntityColoring(AzureBackup(m))
-!define AzureBackup(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBackup(m), AzureBackup(m))
-!define AzureBackup(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBackup(m), AzureBackup(m))
+AzureEntityColoring(AzureBackup)
+!define AzureBackup(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBackup, AzureBackup)
+!define AzureBackup(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBackup, AzureBackup)

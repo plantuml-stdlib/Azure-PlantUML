@@ -4,6 +4,6 @@ vTN5WG0n30J1DgpbKVxv7ZCiU3u77K2z19IXt4jHsQlEr7uvTuN8uuATf3okytrv9XM-JVD4sl0gk9Ll
 MG14Ei2WfmMqAW-8-Ik-iqn0aLvHPsgzd9KobAjf56u1
 }
 
-AzureEntityColoring(AzureDataLakeStorage(m))
-!define AzureDataLakeStorage(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataLakeStorage(m), AzureDataLakeStorage(m))
-!define AzureDataLakeStorage(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataLakeStorage(m), AzureDataLakeStorage(m))
+AzureEntityColoring(AzureDataLakeStorage)
+!define AzureDataLakeStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataLakeStorage, AzureDataLakeStorage)
+!define AzureDataLakeStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataLakeStorage, AzureDataLakeStorage)

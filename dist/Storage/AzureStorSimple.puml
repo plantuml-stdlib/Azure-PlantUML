@@ -5,6 +5,6 @@ DyGE7rrWtdeUCr39na3d0Kws5m0IR0PyReAMNakwCBh8CNe_1XiSQV0UyYlgseP2tB6OgST8UPna_QOs
 w7qZW8lqwE-9Fc2wgyQ3SZy0_nomFmRxP7CT5Ez1_cKQSVg5QNm6
 }
 
-AzureEntityColoring(AzureStorSimple(m))
-!define AzureStorSimple(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorSimple(m), AzureStorSimple(m))
-!define AzureStorSimple(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorSimple(m), AzureStorSimple(m))
+AzureEntityColoring(AzureStorSimple)
+!define AzureStorSimple(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorSimple, AzureStorSimple)
+!define AzureStorSimple(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorSimple, AzureStorSimple)

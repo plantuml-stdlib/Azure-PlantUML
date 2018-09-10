@@ -5,6 +5,6 @@ WG3TcxvQ2unpWk3y449j5anRJa0QdpAnO7D-yrv0kZiiOy6QLtMsOoXekbRdxOiH2VJUOSym0u7JLd47
 T9kVDm1TdURd3G2QBAD_QC0xJ0Y83SZ0aQ1gGDM0gW5L0ue6gVtQk5N-VT9noWWhpnlYocDwK7dISA_y5G
 }
 
-AzureEntityColoring(VisualStudioTeamServices(m))
-!define VisualStudioTeamServices(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VisualStudioTeamServices(m), VisualStudioTeamServices(m))
-!define VisualStudioTeamServices(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VisualStudioTeamServices(m), VisualStudioTeamServices(m))
+AzureEntityColoring(VisualStudioTeamServices)
+!define VisualStudioTeamServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VisualStudioTeamServices, VisualStudioTeamServices)
+!define VisualStudioTeamServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VisualStudioTeamServices, VisualStudioTeamServices)

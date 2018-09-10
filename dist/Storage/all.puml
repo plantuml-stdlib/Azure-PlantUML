@@ -4,9 +4,9 @@ WZmNLE3VSryLm1AH0e3IqjLH1XHWUw3TW6qAcmTUBc9KWBZUgQZkWaJgYsBTHfw-OokGf-zo7V07n2j0
 -lPhG9XBxmF01u18bWfFQy15baW1GDicO1UU05Hr1k04O0UcBsexd4GsjG9i1PpZcP00ntYyoFLyX1O
 }
 
-AzureEntityColoring(AzureAzureNetAppFiles(m))
-!define AzureAzureNetAppFiles(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAzureNetAppFiles(m), AzureAzureNetAppFiles(m))
-!define AzureAzureNetAppFiles(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAzureNetAppFiles(m), AzureAzureNetAppFiles(m))
+AzureEntityColoring(AzureAzureNetAppFiles)
+!define AzureAzureNetAppFiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAzureNetAppFiles, AzureAzureNetAppFiles)
+!define AzureAzureNetAppFiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAzureNetAppFiles, AzureAzureNetAppFiles)
 
 sprite $AzureBlobStorage [65x56/16z] {
 fPS7gkKm34NLs_uNFBo628xym_ZyNjv1NBaeS8MYzWJ15gtSKmexAEilac63rzyup4WzGM02evuGE2Vu39qJV4OEhRHwYi4TF1Jmj9NezHp7JGkTwHRDQcHk
@@ -17,9 +17,9 @@ IyH1rqsmPl0I1E3xqsyJOAnRWlClGTuBahk5eo0_5T0Yw5PApOBEu5PGqWck8ReXQAG0EuBT2mAxW4L0
 XwxZnxv_
 }
 
-AzureEntityColoring(AzureBlobStorage(m))
-!define AzureBlobStorage(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlobStorage(m), AzureBlobStorage(m))
-!define AzureBlobStorage(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlobStorage(m), AzureBlobStorage(m))
+AzureEntityColoring(AzureBlobStorage)
+!define AzureBlobStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlobStorage, AzureBlobStorage)
+!define AzureBlobStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlobStorage, AzureBlobStorage)
 
 sprite $AzureDataLakeStorage [65x50/16z] {
 vTN5WG0n30J1DgpbKVxv7ZCiU3u77K2z19IXt4jHsQlEr7uvTuN8uuATf3okytrv9XM-JVD4sl0gk9Ll0gPLDD9BBPLMOGAI2-I_0DJ20phJ0e8g1r1bImVe
@@ -27,9 +27,9 @@ vTN5WG0n30J1DgpbKVxv7ZCiU3u77K2z19IXt4jHsQlEr7uvTuN8uuATf3okytrv9XM-JVD4sl0gk9Ll
 MG14Ei2WfmMqAW-8-Ik-iqn0aLvHPsgzd9KobAjf56u1
 }
 
-AzureEntityColoring(AzureDataLakeStorage(m))
-!define AzureDataLakeStorage(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataLakeStorage(m), AzureDataLakeStorage(m))
-!define AzureDataLakeStorage(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataLakeStorage(m), AzureDataLakeStorage(m))
+AzureEntityColoring(AzureDataLakeStorage)
+!define AzureDataLakeStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataLakeStorage, AzureDataLakeStorage)
+!define AzureDataLakeStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataLakeStorage, AzureDataLakeStorage)
 
 sprite $AzureDiskStorage [65x55/16z] {
 fTLXcjme38HXW2e9yFtlkmWs2MraXqc_l-SJFR8V4tOnffJ1JYOIo2d56FukMYeROiglKqQhgaw_iYdUqTcF1zu0-JOZGTpOxoaTqd8wBN-srs81OvYogBmX
@@ -40,9 +40,9 @@ uOh-OD6Tm9FnvG0G7ihU4nuIFegSh02KbsS7a1CUYSf3FM6pBqkS-hmtmgq-woct3UUxavmw2FBk85V9
 3FH6pFXhpchI3SAKgF_Yys8H_HdPBXPGpz6z6bAc79sTKtWIeqrvRUDsjZibWvJEgev4VcZ_0m
 }
 
-AzureEntityColoring(AzureDiskStorage(m))
-!define AzureDiskStorage(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDiskStorage(m), AzureDiskStorage(m))
-!define AzureDiskStorage(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDiskStorage(m), AzureDiskStorage(m))
+AzureEntityColoring(AzureDiskStorage)
+!define AzureDiskStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDiskStorage, AzureDiskStorage)
+!define AzureDiskStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDiskStorage, AzureDiskStorage)
 
 sprite $AzureFileStorage [65x56/16z] {
 fPS7SWGX30IHI2Fz_x_EDhVKYCLBLxxG1IEIqXM1hu6a9TLjZTUqGitlC5q9cj_JKaps7N8iWE-0HO9xbCGHyprCbWa-pZ6Rxs8qn_xxBHe5FkZa_-Ntkoo9
@@ -51,9 +51,9 @@ y8bWv2YW0fGBbGiWqm2sGnn3K721JGG2qsvSqBE-aYqGT2PWnrueK0G28TkTJI4AqN0b41HUHWelOxYG
 3mIWntg_5NH-GxT_Zw25Lrlg7b77lM2wl5mv-f9t3QztJIiqUWKCjHM9AHO_rCRK3H4sDi7f8-lucKSH73mq3vww9u_jy-V-USDntlASDrt7RTyx
 }
 
-AzureEntityColoring(AzureFileStorage(m))
-!define AzureFileStorage(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFileStorage(m), AzureFileStorage(m))
-!define AzureFileStorage(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFileStorage(m), AzureFileStorage(m))
+AzureEntityColoring(AzureFileStorage)
+!define AzureFileStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFileStorage, AzureFileStorage)
+!define AzureFileStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFileStorage, AzureFileStorage)
 
 sprite $AzureManagedDisks [65x55/16z] {
 fTVdSgmm38PXN5IT-x_Ui_Bo3Kq4pkJv_oe1bnsMgr9g9nRziA2gmjHRBMLvKceZLhkGQOwvdr9cw-xNNaL0HQZNP4WboUCWH_54zPYtgEsEoj5yDzAsl6vv
@@ -65,9 +65,9 @@ HjONFkvtwXFwD8vwnSjIP6pMiyVpNLxJQ3rga2MSTpukCLCmcoLQSCQDfkdXsHa9rxQx5CN7_t51ZX6i
 MDkxpxP_
 }
 
-AzureEntityColoring(AzureManagedDisks(m))
-!define AzureManagedDisks(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedDisks(m), AzureManagedDisks(m))
-!define AzureManagedDisks(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedDisks(m), AzureManagedDisks(m))
+AzureEntityColoring(AzureManagedDisks)
+!define AzureManagedDisks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedDisks, AzureManagedDisks)
+!define AzureManagedDisks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedDisks, AzureManagedDisks)
 
 sprite $AzureQueueStorage [65x56/16z] {
 fTU9hkii30JWCNYTzt_VVo7H2HVrv1RnTT7QAR9ZnS6V9Fck6buPwnqTRrhnhpfUEFyk1R_g_8RYLyblbFnUmUyuFfFYOhELpcy5Fkd5RvNYW-1YivNA7OQL
@@ -78,9 +78,9 @@ N4siwhZuSoL-DGjjLD3fk4bU0NHR9Pcs2bBHv_zJ1hGsE2IfU6G9sWR0cPXqHfCDpTTborcveKW_lhKT
 TRyVFd3uuIDFjSE7BiChoTqX-1S
 }
 
-AzureEntityColoring(AzureQueueStorage(m))
-!define AzureQueueStorage(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureQueueStorage(m), AzureQueueStorage(m))
-!define AzureQueueStorage(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureQueueStorage(m), AzureQueueStorage(m))
+AzureEntityColoring(AzureQueueStorage)
+!define AzureQueueStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureQueueStorage, AzureQueueStorage)
+!define AzureQueueStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureQueueStorage, AzureQueueStorage)
 
 sprite $AzureStorage [65x55/16z] {
 xTK7ZYin30DG5pNo_lVzTRGj7ik_ruUctIG48WsH6VmoaFPAu0inUdk9u1V2-3i3_WS0wMPyCQy2OewBKtCKMeuJBzwn2l3UBiQPuw2sXEWvwjS4z1yVqBxn
@@ -89,9 +89,9 @@ souOx_XH6oVloK503zwBNjTPkAEvH9aNf-Qej3adwbuIn3E-6RbdMMTzVf2kKPsXmGBcVedEYc_BDC7I
 j-bnAyEBDlHxKHwnxGdtf5MyU91B0qMRIrgKkTHZTy8JKcomrBquOMbYyxjonCeDrdl4MupHpkco1Eaz
 }
 
-AzureEntityColoring(AzureStorage(m))
-!define AzureStorage(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorage(m), AzureStorage(m))
-!define AzureStorage(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorage(m), AzureStorage(m))
+AzureEntityColoring(AzureStorage)
+!define AzureStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorage, AzureStorage)
+!define AzureStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorage, AzureStorage)
 
 sprite $AzureStorSimple [65x57/16z] {
 nTLPUiKW20LWG44E-zzlvtpnfbPCxV2_t94JPscEHPiZ0BSgJ7U9EZgjteiGGrouhaUm8WPQMQrlCOPAAyJZAz2D-jKsiCSC2YKivfnfgY8IcdKW0w49ZPnk
@@ -100,7 +100,7 @@ DyGE7rrWtdeUCr39na3d0Kws5m0IR0PyReAMNakwCBh8CNe_1XiSQV0UyYlgseP2tB6OgST8UPna_QOs
 w7qZW8lqwE-9Fc2wgyQ3SZy0_nomFmRxP7CT5Ez1_cKQSVg5QNm6
 }
 
-AzureEntityColoring(AzureStorSimple(m))
-!define AzureStorSimple(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorSimple(m), AzureStorSimple(m))
-!define AzureStorSimple(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorSimple(m), AzureStorSimple(m))
+AzureEntityColoring(AzureStorSimple)
+!define AzureStorSimple(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorSimple, AzureStorSimple)
+!define AzureStorSimple(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorSimple, AzureStorSimple)
 

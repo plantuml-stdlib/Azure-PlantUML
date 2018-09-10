@@ -8,6 +8,6 @@ HjONFkvtwXFwD8vwnSjIP6pMiyVpNLxJQ3rga2MSTpukCLCmcoLQSCQDfkdXsHa9rxQx5CN7_t51ZX6i
 MDkxpxP_
 }
 
-AzureEntityColoring(AzureManagedDisks(m))
-!define AzureManagedDisks(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedDisks(m), AzureManagedDisks(m))
-!define AzureManagedDisks(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedDisks(m), AzureManagedDisks(m))
+AzureEntityColoring(AzureManagedDisks)
+!define AzureManagedDisks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedDisks, AzureManagedDisks)
+!define AzureManagedDisks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedDisks, AzureManagedDisks)

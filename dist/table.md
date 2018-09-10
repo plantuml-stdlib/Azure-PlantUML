@@ -1,5 +1,14 @@
 Category | Macro | Color | Mono  | Url
   ---    |  ---  | :---:  | :---: | ---
+**dist** | | | | **dist/all.puml**
+**Analytics** | | | | **Analytics/all.puml**
+Analytics |AzureAnalysisServices | |![AzureAnalysisServices](Analytics/AzureAnalysisServices(m).png?raw=true) |Analytics/AzureAnalysisServices.puml
+Analytics |AzureDatabricks |![AzureDatabricks](Analytics/AzureDatabricks.png?raw=true) |![AzureDatabricks](Analytics/AzureDatabricks(m).png?raw=true) |Analytics/AzureDatabricks.puml
+Analytics |AzureDataCatalog |![AzureDataCatalog](Analytics/AzureDataCatalog.png?raw=true) |![AzureDataCatalog](Analytics/AzureDataCatalog(m).png?raw=true) |Analytics/AzureDataCatalog.puml
+Analytics |AzureDataLakeAnalytics |![AzureDataLakeAnalytics](Analytics/AzureDataLakeAnalytics.png?raw=true) |![AzureDataLakeAnalytics](Analytics/AzureDataLakeAnalytics(m).png?raw=true) |Analytics/AzureDataLakeAnalytics.puml
+Analytics |AzureEventHub |![AzureEventHub](Analytics/AzureEventHub.png?raw=true) |![AzureEventHub](Analytics/AzureEventHub(m).png?raw=true) |Analytics/AzureEventHub.puml
+Analytics |AzureHDInsight |![AzureHDInsight](Analytics/AzureHDInsight.png?raw=true) |![AzureHDInsight](Analytics/AzureHDInsight(m).png?raw=true) |Analytics/AzureHDInsight.puml
+Analytics |AzureStreamAnalytics |![AzureStreamAnalytics](Analytics/AzureStreamAnalytics.png?raw=true) |![AzureStreamAnalytics](Analytics/AzureStreamAnalytics(m).png?raw=true) |Analytics/AzureStreamAnalytics.puml
 **Compute** | | | | **Compute/all.puml**
 Compute |AzureAppService |![AzureAppService](Compute/AzureAppService.png?raw=true) |![AzureAppService](Compute/AzureAppService(m).png?raw=true) |Compute/AzureAppService.puml
 Compute |AzureBatch |![AzureBatch](Compute/AzureBatch.png?raw=true) |![AzureBatch](Compute/AzureBatch(m).png?raw=true) |Compute/AzureBatch.puml
@@ -79,7 +88,6 @@ Storage |AzureStorage | |![AzureStorage](Storage/AzureStorage(m).png?raw=true) |
 Storage |AzureStorSimple |![AzureStorSimple](Storage/AzureStorSimple.png?raw=true) |![AzureStorSimple](Storage/AzureStorSimple(m).png?raw=true) |Storage/AzureStorSimple.puml
 **Web** | | | | **Web/all.puml**
 Web |AzureAPIManagement |![AzureAPIManagement](Web/AzureAPIManagement.png?raw=true) |![AzureAPIManagement](Web/AzureAPIManagement(m).png?raw=true) |Web/AzureAPIManagement.puml
-Web |AzureAppService |![AzureAppService](Web/AzureAppService.png?raw=true) |![AzureAppService](Web/AzureAppService(m).png?raw=true) |Web/AzureAppService.puml
 Web |AzureCDN |![AzureCDN](Web/AzureCDN.png?raw=true) |![AzureCDN](Web/AzureCDN(m).png?raw=true) |Web/AzureCDN.puml
 Web |AzureSearch |![AzureSearch](Web/AzureSearch.png?raw=true) |![AzureSearch](Web/AzureSearch(m).png?raw=true) |Web/AzureSearch.puml
 Web |AzureSignalRService |![AzureSignalRService](Web/AzureSignalRService.png?raw=true) |![AzureSignalRService](Web/AzureSignalRService(m).png?raw=true) |Web/AzureSignalRService.puml

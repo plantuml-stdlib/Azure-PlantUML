@@ -6,6 +6,6 @@ te5WQa1biPxA1X39GW7jPBi1LHJGjiS2KebcGANv0ZZH6AZOYPnf2lH-1PWV6xzw1PGDC0mBQYsCIg6U
 XNsXmdGWnetq_m2F
 }
 
-AzureEntityColoring(AzureVirtualMachineScaleSet(m))
-!define AzureVirtualMachineScaleSet(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualMachineScaleSet(m), AzureVirtualMachineScaleSet(m))
-!define AzureVirtualMachineScaleSet(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualMachineScaleSet(m), AzureVirtualMachineScaleSet(m))
+AzureEntityColoring(AzureVirtualMachineScaleSet)
+!define AzureVirtualMachineScaleSet(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualMachineScaleSet, AzureVirtualMachineScaleSet)
+!define AzureVirtualMachineScaleSet(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualMachineScaleSet, AzureVirtualMachineScaleSet)

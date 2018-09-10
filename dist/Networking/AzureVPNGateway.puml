@@ -5,6 +5,6 @@ ux4ZUwKViAFh3lH7jcTKFgBuJQjx7lZvQlYmCndh4JvEAwiqUXdnxu7ULD9B-dhq7U1GNshsp7zQ_9h-
 dhP-I-Dloyct3IMlnhEUaBoUGpML7CtRcaZ1QmNdvMPCH-qYwPB-mpvqeH1YYY2cALH0CHG3540JCa01D6fmGe4wdiZu2xAXyBdCkiTKvi6-
 }
 
-AzureEntityColoring(AzureVPNGateway(m))
-!define AzureVPNGateway(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVPNGateway(m), AzureVPNGateway(m))
-!define AzureVPNGateway(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVPNGateway(m), AzureVPNGateway(m))
+AzureEntityColoring(AzureVPNGateway)
+!define AzureVPNGateway(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVPNGateway, AzureVPNGateway)
+!define AzureVPNGateway(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVPNGateway, AzureVPNGateway)

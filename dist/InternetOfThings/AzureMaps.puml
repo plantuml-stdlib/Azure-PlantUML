@@ -5,6 +5,6 @@ HQsI0k-6AFQ7MUKV_pAoi3TCbcMIxpApg7soveXa6Qvbkkmy9KcKUO3aYCGyG754ufyCnHfl9ImdBs4M
 Uvjk8bbj3TpVUOza5hX5_zlWYkIkWLreXJb7XZTbrJHjWk2GrcGGeAaoGKJNDWaYwb525I9qeGuno5eIGumGrGg49O2uFm
 }
 
-AzureEntityColoring(AzureMaps(m))
-!define AzureMaps(m)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMaps(m), AzureMaps(m))
-!define AzureMaps(m)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMaps(m), AzureMaps(m))
+AzureEntityColoring(AzureMaps)
+!define AzureMaps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMaps, AzureMaps)
+!define AzureMaps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMaps, AzureMaps)
