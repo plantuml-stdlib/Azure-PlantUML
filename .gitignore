@@ -1,0 +1,13 @@
+# ScriptCS
+scriptcs_packages
+
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Custom
+source/official/*
+!source/official/README.md
