@@ -1,5 +1,7 @@
 # Azure-PlantUML
 
+![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fLBHJW8n47o_vFvXvGaJu30cFc1YGD5W12K8lfVU0eszzjBTIlJhxN4UoaLDZ8yxdPcTJjid5evzfk5Ia9BWIQmHsl383aK6kRCIYPHPmrRn1WPltc5rE312lxAI54TnT9JYIXai6TF2SCESKoz9dDXsra7ibvxGIMiO3NUapPAPaiAbzbvXZZhPATjJBGml9kCa4yJeabGH1tTbfFOfUgS_DvIAAvjbrdJo0Fp8guAMYkkN463abt_Hb5VUWxzAXuB5KX1I5P0oIyDgNHnfN36m1QVM6uPKEPIih2cE3l8rLy9XOLO1BMZS10WAh166wLqF9fWAhOCSHa8-ZvL4GmXFQ5BhRjDpE8NvWXh7TMjsAgzPpmFq3-jQGqqwd8FdnxUPxlzKiUWC7h-OL5qrhUVSSpK6tiCEWAhRGdhIwdQxC2lbSLHl2zhj2wYbYAFwnRzdrO0TwJ1IiR4VgWXl-Wu0 "Basic usage - Stream processing with Azure Stream Analytics")
+
 [PlantUML](http://en.plantuml.com/) sprites, macros and stereotypes for creating PlantUML diagrams with [Azure](https://azure.microsoft.com/en-us/) components.
 
 Azure-PlantUML includes symbols and useful macros for all Azure services.  
@@ -10,9 +12,15 @@ With Azure-PlantUML it is feasible to create visually appealing and memorable Pl
 It is also possible to combine Azure-PlantUML with [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) to create [C4 models](https://c4model.com/) for Azure architectures.
 
 * [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [List of all supported Azure Symbols](#list-of-all-supported-azure-symbols)
+  * [Hello World](#hello-world)
 * [Usages](#usages)
+  * [Basic usage](#basic-usage)
+  * [Raw sprite usage](#raw-sprite-usage)
+  * [In combination with C4-PlantUML](#in-combination-with-c4-plantuml)
 * [Advanced Samples](#advanced-samples)
-* [Snippets for Visual Studio Code](#snipptes-for-visual-studio-code)
+* [Snippets for Visual Studio Code](#snippets-for-visual-studio-code)
 * [Customized Builds](#customized-builds)
 * [Built With](#built-with)
 * [Contributing](#contributing)
@@ -61,9 +69,9 @@ Or the always up-to-date version in this repo:
 !includeurl AzurePuml/Compute/AzureFunction.puml
 ```
 
-### List of all Azure Symbols
+### List of all supported Azure Symbols
 
-All Azure services names, categories, colored and monochrom symbols, and their `.puml` files can be found in the [Azure-PlantUML Azure Symbols Documentation](AzureSymbols.md).
+All Azure services names, categories, colored and monochrom symbols, and their `.puml` files can be found in the [Azure-PlantUML Azure Symbols Documentation](AzureSymbols.md#azure-symbols).
 
 ### Hello World
 
@@ -201,7 +209,7 @@ All details can be found in the [Generating the Azure-PlantUML distro documentat
 
 ## Contributing
 
-If you have any ideas, just [open an issue](issues) and tell me what you think.
+If you have any ideas, just [open an issue][issues] and tell me what you think.
 
 If you'd like to contribute, please fork the repository and use a feature branch.  
 Pull requests are warmly welcome.
