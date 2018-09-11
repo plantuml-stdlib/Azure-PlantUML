@@ -9,7 +9,11 @@ The official [Microsoft Azure, Cloud and Enterprise Symbol / Icon Set](http://ak
 
 With Azure-PlantUML it is feasible to create visually appealing and memorable PlantUML diagrams for your Azure systems.
 
-It is also possible to combine Azure-PlantUML with [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) to create [C4 models](https://c4model.com/) for Azure architectures.
+It is also possible to combine Azure-PlantUML with [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) to create [C4 models](https://c4model.com/) for Azure architectures.  
+
+> See also [Save the world from Powerpoint Cloud Solution Architects](https://azure-development.com/2018/09/11/save-the-world-from-powerpoint-cloud-solution-architects/)
+
+## Content
 
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
