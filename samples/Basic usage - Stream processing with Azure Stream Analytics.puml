@@ -1,4 +1,4 @@
-@startuml
+@startuml Basic usage - Stream processing with Azure Stream Analytics
 
 !define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
 !includeurl AzurePuml/AzureCommon.puml
