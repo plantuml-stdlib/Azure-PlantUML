@@ -1,0 +1,41 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+
+!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/Compute/AzureFunction.puml
+!includeurl AzurePuml/Analytics/AzureStreamAnalytics.puml
+!includeurl AzurePuml/Analytics/AzureEventHub.puml
+!includeurl AzurePuml/Databases/AzureCosmosDb.puml
+!includeurl AzurePuml/Storage/AzureBlobStorage.puml
+!includeurl AzurePuml/InternetOfThings/AzureIoTHub.puml
+
+LAYOUT_LEFT_RIGHT
+LAYOUT_WITH_LEGEND
+
+System(devices, "Devices")
+
+AzureIoTHub(iotHub, "IoT Hub", "Standard S1", "Ingress point for all telemetry, using built-in IoT Hub Routes for routing")
+
+AzureEventHub(eventHubTelemetry, "Device Telemetry", "Standard, 5 TUs, 4 Partitions", "In addition to the built-in 'Receive device-to-cloud messages' from IoT Hub")
+AzureFunction(telemetryFunction, "Telemetry Processing", "v1, App Service plan P3v2, C#", "transform it into a different format, e.g. joining external information")
+AzureCosmosDb(warmStorageCosmos, "Warm Storage", "2,000 RUs", "for consumption, e.g. display on a dashboard")
+
+AzureStreamAnalytics(streamAnalytics, "Stream Analytics", "6 SUs", "apply complex queries over time periods, tolerates late (up to 21 days) and out-of-order (up to one hour) events")
+AzureFunction(alertingFunction, "Alerting", "v2, Consumption plan, JS")
+
+AzureBlobStorage(coldBlobStorage, "Cold Storage", "General Purpose v2, Cool, RA-GRS", "all incoming data records are archived indefinitely at low cost, and are easily accessible for batch processing")
+
+Rel(devices, iotHub, "Send telemetry to")
+
+Rel(iotHub, eventHubTelemetry, "Routes all telemetry to")
+Rel_Back(iotHub, streamAnalytics, "Analyzes each event from")
+Rel(iotHub, coldBlobStorage, "Routes all telemetry to")
+
+Rel_Back(eventHubTelemetry, telemetryFunction, "Processes each event from")
+Rel(streamAnalytics, alertingFunction, "Triggers for output batches to")
+
+Rel(telemetryFunction, warmStorageCosmos, "Writes all transformed events to")
+
+@enduml

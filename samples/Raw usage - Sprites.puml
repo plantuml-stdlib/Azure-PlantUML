@@ -1,0 +1,15 @@
+@startuml
+
+!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/Databases/AzureCosmosDb.puml
+!includeurl AzurePuml/Compute/AzureFunction.puml
+
+
+component "<color:red><$AzureFunction></color>" as myFunction
+
+database "<color:#0072C6><$AzureCosmosDb></color>" as myCosmosDb
+
+myFunction --> myCosmosDb
+
+@enduml
