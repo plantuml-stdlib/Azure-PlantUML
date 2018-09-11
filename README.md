@@ -1,6 +1,6 @@
 # Azure-PlantUML
 
-![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fLBHJW8n47o_vFvXvGaJu30cFc1YGD5W12K8lfVU0eszzjBTIlJhxN4UoaLDZ8yxdPcTJjid5evzfk5Ia9BWIQmHsl383aK6kRCIYPHPmrRn1WPltc5rE312lxAI54TnT9JYIXai6TF2SCESKoz9dDXsra7ibvxGIMiO3NUapPAPaiAbzbvXZZhPATjJBGml9kCa4yJeabGH1tTbfFOfUgS_DvIAAvjbrdJo0Fp8guAMYkkN463abt_Hb5VUWxzAXuB5KX1I5P0oIyDgNHnfN36m1QVM6uPKEPIih2cE3l8rLy9XOLO1BMZS10WAh166wLqF9fWAhOCSHa8-ZvL4GmXFQ5BhRjDpE8NvWXh7TMjsAgzPpmFq3-jQGqqwd8FdnxUPxlzKiUWC7h-OL5qrhUVSSpK6tiCEWAhRGdhIwdQxC2lbSLHl2zhj2wYbYAFwnRzdrO0TwJ1IiR4VgWXl-Wu0 "Basic usage - Stream processing with Azure Stream Analytics")
+![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fL9DImCn4Bqlx7yOUwhGTYk2XmfIFr7yMhHwJxFJDfXDbioaHN-zsQvRRL11FCwRzzxCF6PCB1pxKiE982N1avWZzE6H7OeIAcSb4YapXvNY1Ho_UOTjyzW8_SfAKfgaoKw1CsMmOUIruOAveb6MER4Qp8FOJpsXazOm6Xv8MsOFIWfNs3k55UfihUpdMXX-kht9Ia6CBYiKSN1NHcfVe7VwSqAZEBLbQSsW2i2Fl7RHHd6-30jS-kbVDCt96_1NwPbWCHM4r2v8fQMpTboQQ9mni0MdvWk6GZcKhAofMo5y4o1SgX1x3Mmjt9q9XxLx2_IWSn4WgB5EAFBh4TnY8RGEVd0fvCjDC3A4y8ociEwgE8Hzc3nHPpUsPgUgo7eIe7zOHv5rQRiEdXz_b6-Uh1vq08zVJDhmkjPpvRaj0-z-3K0RTYtTwms7GtXev6do4IFq-qSG9xVTZOzFavY_faKNf4ci-vuL0MlIzZdrjkCGOtYGTm00 "Basic usage - Stream processing with Azure Stream Analytics")
 
 [PlantUML](http://en.plantuml.com/) sprites, macros and stereotypes for creating PlantUML diagrams with [Azure](https://azure.microsoft.com/en-us/) components.
 
@@ -133,7 +133,7 @@ streamAnalytics --> outputCosmosDb
 @enduml
 ```
 
-![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fLBHJW8n47o_vFvXvGaJu30cFc1YGD5W12K8lfVU0eszzjBTIlJhxN4UoaLDZ8yxdPcTJjid5evzfk5Ia9BWIQmHsl383aK6kRCIYPHPmrRn1WPltc5rE312lxAI54TnT9JYIXai6TF2SCESKoz9dDXsra7ibvxGIMiO3NUapPAPaiAbzbvXZZhPATjJBGml9kCa4yJeabGH1tTbfFOfUgS_DvIAAvjbrdJo0Fp8guAMYkkN463abt_Hb5VUWxzAXuB5KX1I5P0oIyDgNHnfN36m1QVM6uPKEPIih2cE3l8rLy9XOLO1BMZS10WAh166wLqF9fWAhOCSHa8-ZvL4GmXFQ5BhRjDpE8NvWXh7TMjsAgzPpmFq3-jQGqqwd8FdnxUPxlzKiUWC7h-OL5qrhUVSSpK6tiCEWAhRGdhIwdQxC2lbSLHl2zhj2wYbYAFwnRzdrO0TwJ1IiR4VgWXl-Wu0 "Basic usage - Stream processing with Azure Stream Analytics")
+![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fL9DImCn4Bqlx7yOUwhGTYk2XmfIFr7yMhHwJxFJDfXDbioaHN-zsQvRRL11FCwRzzxCF6PCB1pxKiE982N1avWZzE6H7OeIAcSb4YapXvNY1Ho_UOTjyzW8_SfAKfgaoKw1CsMmOUIruOAveb6MER4Qp8FOJpsXazOm6Xv8MsOFIWfNs3k55UfihUpdMXX-kht9Ia6CBYiKSN1NHcfVe7VwSqAZEBLbQSsW2i2Fl7RHHd6-30jS-kbVDCt96_1NwPbWCHM4r2v8fQMpTboQQ9mni0MdvWk6GZcKhAofMo5y4o1SgX1x3Mmjt9q9XxLx2_IWSn4WgB5EAFBh4TnY8RGEVd0fvCjDC3A4y8ociEwgE8Hzc3nHPpUsPgUgo7eIe7zOHv5rQRiEdXz_b6-Uh1vq08zVJDhmkjPpvRaj0-z-3K0RTYtTwms7GtXev6do4IFq-qSG9xVTZOzFavY_faKNf4ci-vuL0MlIzZdrjkCGOtYGTm00 "Basic usage - Stream processing with Azure Stream Analytics")
 
 ### Raw sprite usage
 
@@ -209,7 +209,7 @@ All details can be found in the [Generating the Azure-PlantUML distro documentat
 
 ## Contributing
 
-If you have any ideas, just [open an issue][issues] and tell me what you think.
+If you have any ideas, just [open an issue](https://github.com/RicardoNiepel/Azure-PlantUML/issues/new) and tell me what you think.
 
 If you'd like to contribute, please fork the repository and use a feature branch.  
 Pull requests are warmly welcome.
