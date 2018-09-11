@@ -1,6 +1,6 @@
 # Azure-PlantUML
 
-![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fL9DImCn4Bqlx7yOUwhGTYk2XmfIFr7yMhHwJxFJDfXDbioaHN-zsQvRRL11FCwRzzxCF6PCB1pxKiE982N1avWZzE6H7OeIAcSb4YapXvNY1Ho_UOTjyzW8_SfAKfgaoKw1CsMmOUIruOAveb6MER4Qp8FOJpsXazOm6Xv8MsOFIWfNs3k55UfihUpdMXX-kht9Ia6CBYiKSN1NHcfVe7VwSqAZEBLbQSsW2i2Fl7RHHd6-30jS-kbVDCt96_1NwPbWCHM4r2v8fQMpTboQQ9mni0MdvWk6GZcKhAofMo5y4o1SgX1x3Mmjt9q9XxLx2_IWSn4WgB5EAFBh4TnY8RGEVd0fvCjDC3A4y8ociEwgE8Hzc3nHPpUsPgUgo7eIe7zOHv5rQRiEdXz_b6-Uh1vq08zVJDhmkjPpvRaj0-z-3K0RTYtTwms7GtXev6do4IFq-qSG9xVTZOzFavY_faKNf4ci-vuL0MlIzZdrjkCGOtYGTm00 "Basic usage - Stream processing with Azure Stream Analytics")
+![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fL9TJzmm47oFbF-mJLyEYRjSXTG7a2ee1w8gq1CVVVVPcpiBnuwyQr3xwt4I39n5aIeUTpmpkplUGsBXERG6lWlI4WA9DS8KhjcZQA7pJYAHjcjuqBo1ex_1OteyiiByOIsfBChYay96MnmPozvmmzpHVbrxyJ1RHt5O1K8ldMMqF9EkhQ-q55wvIuqTcdfGJfT6MBwzEAzRGOo-LfeukcihJL0Ol7dfC2gENTiwE-iYy4zU6dHKdDp70Sx2wdyquyhFuBlIXM2n4eIK1gJMqIArAmk33GCxy7gzOL3QesJjRFyKmxSCrGBljOmvwpOOmSvN80ZK019yRfgcvsxjCcc4nxvn0dQXEeqGz5WLY-NFVRX09Oo9hU1CoBlpw6O9uJTQvVmFTG1xS7DBrKvkpLvtcVLDX3vWdQKveUqwUZwTsFBv_lf6N-7wbKdATU82Tu5J6Nc_1W3IF_JIBxlp-HokHdbPf2odqs-G9xVzcYzV5Zb_e6KRb4MkUvkL0GDfUvr-siCOOxoTHm00 "Basic usage - Stream processing with Azure Stream Analytics")
 
 [PlantUML](http://en.plantuml.com/) sprites, macros and stereotypes for creating PlantUML diagrams with [Azure](https://azure.microsoft.com/en-us/) components.
 
@@ -117,7 +117,7 @@ Just import the necessary `.puml` files and you can use the macros in all your P
 
 left to right direction
 
-agent devices
+agent "Device Simulator" as devices #fff
 
 AzureEventHub(fareDataEventHub, "Fare Data", "PK: Medallion HackLicense VendorId; 3 TUs")
 AzureEventHub(tripDataEventHub, "Trip Data", "PK: Medallion HackLicense VendorId; 3 TUs")
@@ -133,7 +133,7 @@ streamAnalytics --> outputCosmosDb
 @enduml
 ```
 
-![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fL9DImCn4Bqlx7yOUwhGTYk2XmfIFr7yMhHwJxFJDfXDbioaHN-zsQvRRL11FCwRzzxCF6PCB1pxKiE982N1avWZzE6H7OeIAcSb4YapXvNY1Ho_UOTjyzW8_SfAKfgaoKw1CsMmOUIruOAveb6MER4Qp8FOJpsXazOm6Xv8MsOFIWfNs3k55UfihUpdMXX-kht9Ia6CBYiKSN1NHcfVe7VwSqAZEBLbQSsW2i2Fl7RHHd6-30jS-kbVDCt96_1NwPbWCHM4r2v8fQMpTboQQ9mni0MdvWk6GZcKhAofMo5y4o1SgX1x3Mmjt9q9XxLx2_IWSn4WgB5EAFBh4TnY8RGEVd0fvCjDC3A4y8ociEwgE8Hzc3nHPpUsPgUgo7eIe7zOHv5rQRiEdXz_b6-Uh1vq08zVJDhmkjPpvRaj0-z-3K0RTYtTwms7GtXev6do4IFq-qSG9xVTZOzFavY_faKNf4ci-vuL0MlIzZdrjkCGOtYGTm00 "Basic usage - Stream processing with Azure Stream Analytics")
+![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fL9TJzmm47oFbF-mJLyEYRjSXTG7a2ee1w8gq1CVVVVPcpiBnuwyQr3xwt4I39n5aIeUTpmpkplUGsBXERG6lWlI4WA9DS8KhjcZQA7pJYAHjcjuqBo1ex_1OteyiiByOIsfBChYay96MnmPozvmmzpHVbrxyJ1RHt5O1K8ldMMqF9EkhQ-q55wvIuqTcdfGJfT6MBwzEAzRGOo-LfeukcihJL0Ol7dfC2gENTiwE-iYy4zU6dHKdDp70Sx2wdyquyhFuBlIXM2n4eIK1gJMqIArAmk33GCxy7gzOL3QesJjRFyKmxSCrGBljOmvwpOOmSvN80ZK019yRfgcvsxjCcc4nxvn0dQXEeqGz5WLY-NFVRX09Oo9hU1CoBlpw6O9uJTQvVmFTG1xS7DBrKvkpLvtcVLDX3vWdQKveUqwUZwTsFBv_lf6N-7wbKdATU82Tu5J6Nc_1W3IF_JIBxlp-HokHdbPf2odqs-G9xVzcYzV5Zb_e6KRb4MkUvkL0GDfUvr-siCOOxoTHm00 "Basic usage - Stream processing with Azure Stream Analytics")
 
 ### Raw sprite usage
 
