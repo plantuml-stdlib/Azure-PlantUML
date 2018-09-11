@@ -1,6 +1,5 @@
 Category | Macro | Color | Mono  | Url
   ---    |  ---  | :---:  | :---: | ---
-**dist** | | | | **dist/all.puml**
 **Analytics** | | | | **Analytics/all.puml**
 Analytics |AzureAnalysisServices | |![AzureAnalysisServices](Analytics/AzureAnalysisServices(m).png?raw=true) |Analytics/AzureAnalysisServices.puml
 Analytics |AzureDatabricks |![AzureDatabricks](Analytics/AzureDatabricks.png?raw=true) |![AzureDatabricks](Analytics/AzureDatabricks(m).png?raw=true) |Analytics/AzureDatabricks.puml

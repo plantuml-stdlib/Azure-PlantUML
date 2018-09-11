@@ -204,6 +204,6 @@ Categories:
   - Source: Azure Search
     Target: AzureSearch
   - Source: Azure App Service - Web App (was Websites)
-    Target: AzureWebApps
+    Target: AzureWebApp
   - Source: signalr-service
     Target: AzureSignalRService
