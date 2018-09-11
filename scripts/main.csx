@@ -1,3 +1,5 @@
+#! "netcoreapp2.0"
+
 #load "lib/Config.csx"
 #load "lib/Grayscale.csx"
 #load "lib/Colorize.csx"
@@ -28,12 +30,6 @@ public void Main()
     var lookupTable = ReadConfig("Config.yaml");
 
     // Cleanup
-    //System.IO.DirectoryInfo di = new DirectoryInfo(targetFolder);
-    // foreach (DirectoryInfo dir in di.GetDirectories())
-    // {
-    //     dir.Delete(true); 
-    // }
-    //di.Delete(true);
     if (Directory.Exists(targetFolder))
     {
         Directory.Delete(targetFolder, true);

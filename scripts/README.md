@@ -4,14 +4,13 @@ If you want to have customized builds and/or experiment with Azure-PlantUML, you
 
 ## Prerequisites
 
-* You need [scriptcs](http://scriptcs.net/) installed for executing the scripts
+* You need [dotnet script](https://github.com/filipw/dotnet-script) installed for executing the scripts
 * You also need to download the [Microsoft Azure, Cloud and Enterprise Symbol / Icon Set](http://aka.ms/CnESymbols) and copy all files from `Symbols\CnE_Cloud\SVG` to [source/official](../source/official)
-* TO have all third party libraries available, it is necessary to execute `scriptcs -install`
 
 ## Configure
 
 It is required to have [PlantUML](http://plantuml.com/) and [Inkscape](https://inkscape.org/) installed.
-Please make sure, that the following variables at the beginning of `Process.csx` are correct configured for your system:
+Please make sure, that the following variables at the beginning of `main.csx` are correct configured for your system:
 
 ```csharp
 var plantUmlPath = @"C:\ProgramData\chocolatey\lib\plantuml\tools\plantuml.jar";
@@ -28,7 +27,7 @@ On top each Azure service is mapped to his primary category.
 You can just execute
 
 ```text
-scriptcs Process.csx`
+dotnet script main.csx
 ```
 
 ### What happens

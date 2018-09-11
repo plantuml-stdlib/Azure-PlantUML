@@ -1,4 +1,4 @@
-#r "System.Drawing"
+#r "nuget: System.Drawing.Common, 4.5.0"
 
 using System.Drawing;
 using System.Drawing.Imaging;

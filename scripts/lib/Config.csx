@@ -1,4 +1,4 @@
-#r "YamlDotNet"
+#r "nuget: YamlDotNet, 5.0.1"
 
 using System.Linq;
 using YamlDotNet.Serialization;
