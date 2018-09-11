@@ -43,7 +43,7 @@ AzureEntityColoring(AzureSignalRService)
 !define AzureSignalRService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSignalRService, AzureSignalRService)
 !define AzureSignalRService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSignalRService, AzureSignalRService)
 
-sprite $AzureWebApps [65x65/16z] {
+sprite $AzureWebApp [65x65/16z] {
 jLTN0lCi3Ai7sEB-z_q7YKDndFQRVkcKl2HANq_1sis10NThog-V2-qOUw0h_IYQ5pfn_50TOkCvNBx1QS5XJKLOH9kjaknp5GsHAdLCUZ6t3-dzpEqO_Vvf
 iFlJD1a7NEqfaPxVa7fwY0ffFjFgI_sPGO_oU3sNXpGrknmpFb_D9i1f22mYp1RiHVzhShupiAvDmWjs2lp-1gXKfiTdA_os7iRvbdWXo6WteXtlLaCfuD55
 s-l5m4AVh8xXEzAQC0NYgjX6HV3gHsCBtMIlBvhWES0nHjwuZyM0BdT5yIe0l5wlRrmCw57krhQl0bIIlEmjkxM0vy7pbUh5kmwYy_zv7FrL12RYVAAJ0DdN
@@ -55,7 +55,7 @@ pDsBlJ9AyOSSqF828CztvHmiVAz92cdN5gv_NYgVIkgY3Ftq9S6tVsRYoLbrUK5Hmp-tsIxHIaPtnBMh
 i3Ppnm3SkZxd_XS
 }
 
-AzureEntityColoring(AzureWebApps)
-!define AzureWebApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebApps, AzureWebApps)
-!define AzureWebApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebApps, AzureWebApps)
+AzureEntityColoring(AzureWebApp)
+!define AzureWebApp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebApp, AzureWebApp)
+!define AzureWebApp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebApp, AzureWebApp)
 

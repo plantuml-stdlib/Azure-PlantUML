@@ -90,4 +90,4 @@ Web |AzureAPIManagement |![AzureAPIManagement](Web/AzureAPIManagement.png?raw=tr
 Web |AzureCDN |![AzureCDN](Web/AzureCDN.png?raw=true) |![AzureCDN](Web/AzureCDN(m).png?raw=true) |Web/AzureCDN.puml
 Web |AzureSearch |![AzureSearch](Web/AzureSearch.png?raw=true) |![AzureSearch](Web/AzureSearch(m).png?raw=true) |Web/AzureSearch.puml
 Web |AzureSignalRService |![AzureSignalRService](Web/AzureSignalRService.png?raw=true) |![AzureSignalRService](Web/AzureSignalRService(m).png?raw=true) |Web/AzureSignalRService.puml
-Web |AzureWebApps |![AzureWebApps](Web/AzureWebApps.png?raw=true) |![AzureWebApps](Web/AzureWebApps(m).png?raw=true) |Web/AzureWebApps.puml
+Web |AzureWebApp |![AzureWebApp](Web/AzureWebApp.png?raw=true) |![AzureWebApp](Web/AzureWebApp(m).png?raw=true) |Web/AzureWebApp.puml

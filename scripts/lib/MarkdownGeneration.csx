@@ -13,7 +13,11 @@ public static void GenerateMarkdownTable(string distFolder)
         var entityName = Path.GetFileNameWithoutExtension(filePath);
         var category = Directory.GetParent(filePath).Name;
 
-        if(currentCategory != category && "dist" != category)
+        if("dist" == category)
+        {
+            continue;
+        }
+        if(currentCategory != category)
         {
             sbTable.AppendLine($"**{category}** | | | | **{category}/all.puml**");
             currentCategory = category;

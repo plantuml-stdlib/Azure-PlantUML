@@ -1215,19 +1215,19 @@
       "$0"
     ]
   },
-  "AzureWebApps": {
-    "prefix": "Azure Web Apps",
-    "description": "Add Azure Web Apps to diagram",
+  "AzureWebApp": {
+    "prefix": "Azure Web App",
+    "description": "Add Azure Web App to diagram",
     "body": [
-      "AzureWebApps(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "AzureWebApp(${1:alias}, \"${2:label}\", \"${3:technology}\")",
       "$0"
     ]
   },
-  "AzureWebApps_Descr": {
-    "prefix": "Azure Web Apps with Description",
-    "description": "Add Azure Web Apps with Description to diagram",
+  "AzureWebApp_Descr": {
+    "prefix": "Azure Web App with Description",
+    "description": "Add Azure Web App with Description to diagram",
     "body": [
-      "AzureWebApps(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "AzureWebApp(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   }
