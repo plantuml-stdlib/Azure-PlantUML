@@ -60,9 +60,14 @@ Databases |AzureSqlDataWarehouse |![AzureSqlDataWarehouse](dist/Databases/AzureS
 Databases |AzureSqlStretchDatabase |![AzureSqlStretchDatabase](dist/Databases/AzureSqlStretchDatabase.png?raw=true) |![AzureSqlStretchDatabase](dist/Databases/AzureSqlStretchDatabase(m).png?raw=true) |Databases/AzureSqlStretchDatabase.puml
 **DevOps** | | | | **DevOps/all.puml**
 DevOps |AzureApplicationInsights |![AzureApplicationInsights](dist/DevOps/AzureApplicationInsights.png?raw=true) |![AzureApplicationInsights](dist/DevOps/AzureApplicationInsights(m).png?raw=true) |DevOps/AzureApplicationInsights.puml
+DevOps |AzureArtifacts |![AzureArtifacts](dist/DevOps/AzureArtifacts.png?raw=true) |![AzureArtifacts](dist/DevOps/AzureArtifacts(m).png?raw=true) |DevOps/AzureArtifacts.puml
+DevOps |AzureBoards |![AzureBoards](dist/DevOps/AzureBoards.png?raw=true) |![AzureBoards](dist/DevOps/AzureBoards(m).png?raw=true) |DevOps/AzureBoards.puml
+DevOps |AzureDevOps |![AzureDevOps](dist/DevOps/AzureDevOps.png?raw=true) |![AzureDevOps](dist/DevOps/AzureDevOps(m).png?raw=true) |DevOps/AzureDevOps.puml
 DevOps |AzureDevTestLabs |![AzureDevTestLabs](dist/DevOps/AzureDevTestLabs.png?raw=true) |![AzureDevTestLabs](dist/DevOps/AzureDevTestLabs(m).png?raw=true) |DevOps/AzureDevTestLabs.puml
 DevOps |AzureLabServices |![AzureLabServices](dist/DevOps/AzureLabServices.png?raw=true) |![AzureLabServices](dist/DevOps/AzureLabServices(m).png?raw=true) |DevOps/AzureLabServices.puml
-DevOps |VisualStudioTeamServices |![VisualStudioTeamServices](dist/DevOps/VisualStudioTeamServices.png?raw=true) |![VisualStudioTeamServices](dist/DevOps/VisualStudioTeamServices(m).png?raw=true) |DevOps/VisualStudioTeamServices.puml
+DevOps |AzurePipelines |![AzurePipelines](dist/DevOps/AzurePipelines.png?raw=true) |![AzurePipelines](dist/DevOps/AzurePipelines(m).png?raw=true) |DevOps/AzurePipelines.puml
+DevOps |AzureRepos |![AzureRepos](dist/DevOps/AzureRepos.png?raw=true) |![AzureRepos](dist/DevOps/AzureRepos(m).png?raw=true) |DevOps/AzureRepos.puml
+DevOps |AzureTestPlans |![AzureTestPlans](dist/DevOps/AzureTestPlans.png?raw=true) |![AzureTestPlans](dist/DevOps/AzureTestPlans(m).png?raw=true) |DevOps/AzureTestPlans.puml
 **Identity** | | | | **Identity/all.puml**
 Identity |AzureActiveDirectory |![AzureActiveDirectory](dist/Identity/AzureActiveDirectory.png?raw=true) |![AzureActiveDirectory](dist/Identity/AzureActiveDirectory(m).png?raw=true) |Identity/AzureActiveDirectory.puml
 Identity |AzureActiveDirectoryB2C |![AzureActiveDirectoryB2C](dist/Identity/AzureActiveDirectoryB2C.png?raw=true) |![AzureActiveDirectoryB2C](dist/Identity/AzureActiveDirectoryB2C(m).png?raw=true) |Identity/AzureActiveDirectoryB2C.puml

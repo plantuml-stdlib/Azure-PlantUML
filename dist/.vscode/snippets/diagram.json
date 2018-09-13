@@ -447,6 +447,54 @@
       "$0"
     ]
   },
+  "AzureArtifacts": {
+    "prefix": "Azure Artifacts",
+    "description": "Add Azure Artifacts to diagram",
+    "body": [
+      "AzureArtifacts(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureArtifacts_Descr": {
+    "prefix": "Azure Artifacts with Description",
+    "description": "Add Azure Artifacts with Description to diagram",
+    "body": [
+      "AzureArtifacts(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureBoards": {
+    "prefix": "Azure Boards",
+    "description": "Add Azure Boards to diagram",
+    "body": [
+      "AzureBoards(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureBoards_Descr": {
+    "prefix": "Azure Boards with Description",
+    "description": "Add Azure Boards with Description to diagram",
+    "body": [
+      "AzureBoards(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureDevOps": {
+    "prefix": "Azure Dev Ops",
+    "description": "Add Azure Dev Ops to diagram",
+    "body": [
+      "AzureDevOps(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDevOps_Descr": {
+    "prefix": "Azure Dev Ops with Description",
+    "description": "Add Azure Dev Ops with Description to diagram",
+    "body": [
+      "AzureDevOps(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureDevTestLabs": {
     "prefix": "Azure Dev Test Labs",
     "description": "Add Azure Dev Test Labs to diagram",
@@ -479,19 +527,51 @@
       "$0"
     ]
   },
-  "VisualStudioTeamServices": {
-    "prefix": "Visual Studio Team Services",
-    "description": "Add Visual Studio Team Services to diagram",
+  "AzurePipelines": {
+    "prefix": "Azure Pipelines",
+    "description": "Add Azure Pipelines to diagram",
     "body": [
-      "VisualStudioTeamServices(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "AzurePipelines(${1:alias}, \"${2:label}\", \"${3:technology}\")",
       "$0"
     ]
   },
-  "VisualStudioTeamServices_Descr": {
-    "prefix": "Visual Studio Team Services with Description",
-    "description": "Add Visual Studio Team Services with Description to diagram",
+  "AzurePipelines_Descr": {
+    "prefix": "Azure Pipelines with Description",
+    "description": "Add Azure Pipelines with Description to diagram",
     "body": [
-      "VisualStudioTeamServices(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "AzurePipelines(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureRepos": {
+    "prefix": "Azure Repos",
+    "description": "Add Azure Repos to diagram",
+    "body": [
+      "AzureRepos(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureRepos_Descr": {
+    "prefix": "Azure Repos with Description",
+    "description": "Add Azure Repos with Description to diagram",
+    "body": [
+      "AzureRepos(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureTestPlans": {
+    "prefix": "Azure Test Plans",
+    "description": "Add Azure Test Plans to diagram",
+    "body": [
+      "AzureTestPlans(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureTestPlans_Descr": {
+    "prefix": "Azure Test Plans with Description",
+    "description": "Add Azure Test Plans with Description to diagram",
+    "body": [
+      "AzureTestPlans(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },

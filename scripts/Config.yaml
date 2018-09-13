@@ -67,8 +67,18 @@ Categories:
 
 - Name: DevOps
   Services:
-  - Source: Visual Studio Team Services
-    Target: VisualStudioTeamServices
+  - Source: Azure DevOps
+    Target: AzureDevOps
+  - Source: Azure Boards
+    Target: AzureBoards
+  - Source: Azure Pipelines
+    Target: AzurePipelines
+  - Source: Azure Repos
+    Target: AzureRepos
+  - Source: Azure Test Plans
+    Target: AzureTestPlans
+  - Source: Azure Artifacts
+    Target: AzureArtifacts
   - Source: Azure Application Insights
     Target: AzureApplicationInsights
   - Source: Azure DevTest Labs
