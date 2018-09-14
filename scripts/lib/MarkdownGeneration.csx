@@ -3,7 +3,7 @@ public static void GenerateMarkdownTable(string distFolder)
     Console.WriteLine("Generating Markdown table...");
 
     var sbTable = new StringBuilder();
-    sbTable.AppendLine("Category | Macro | Color | Mono  | Url");
+    sbTable.AppendLine("Category | Macro | <pre>Color</pre> | <pre>Mono </pre> | Url");
     sbTable.AppendLine("  ---    |  ---  | :---:  | :---: | ---");
 
     var currentCategory = "";

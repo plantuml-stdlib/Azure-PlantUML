@@ -26,7 +26,7 @@ If you want to use the always up-to-date version in this repo, use the following
 
 ## All generated Azure symbols and PlantUML sprites
 
-Category | Macro | Color | Mono  | Url
+Category | Macro | <pre>Color</pre> | <pre>Mono </pre> | Url
   ---    |  ---  | :---:  | :---: | ---
 **Analytics** | | | | **Analytics/all.puml**
 Analytics |AzureAnalysisServices | |![AzureAnalysisServices](dist/Analytics/AzureAnalysisServices(m).png?raw=true) |Analytics/AzureAnalysisServices.puml
