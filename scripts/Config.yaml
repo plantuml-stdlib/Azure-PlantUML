@@ -1,11 +1,16 @@
 Categories:
+- Name: General
+  Services:
+  - Source: Azure_logo_icon_50
+    Target: Azure
+
 - Name: Analytics
   Services:
-  - Source: Azure Stream Analytics
+  - Source: AzureStreamAnalytics
     Target: AzureStreamAnalytics
   - Source: Azure Databricks
     Target: AzureDatabricks
-  - Source: Azure HDInsight
+  - Source: AzureHDInsight
     Target: AzureHDInsight
   - Source: Azure Data Lake Analytics
     Target: AzureDataLakeAnalytics
@@ -15,6 +20,8 @@ Categories:
     Target: AzureEventHub    
   - Source: Azure Data Catalog
     Target: AzureDataCatalog
+  - Source: Azure Data Explorer
+    Target: AzureDataExplorer    
 
 - Name: Compute
   Services:
@@ -135,8 +142,10 @@ Categories:
     Target: AzureMonitor
   - Source: Resource Group
     Target: AzureResourceManager
-  - Source: azure-policy
+  - Source: AzurePolicy
     Target: AzurePolicy
+  - Source: Azure Blueprints
+    Target: AzureBlueprints    
            
 - Name: Media
   Services:
@@ -145,7 +154,7 @@ Categories:
 
 - Name: Mobile
   Services:
-  - Source: notification-hubs
+  - Source: AzureNotificationHubs
     Target: AzureNotificationHubs
   - Source: Azure App Service - Mobile App
     Target: AzureMobileApp
@@ -164,12 +173,14 @@ Categories:
     Target: AzureLoadBalancer
   - Source: Azure VPN Gateway
     Target: AzureVPNGateway
-  - Source: azure-application-gateway
+  - Source: AzureApplicationGateway
     Target: AzureApplicationGateway
   - Source: ddos-protection
     Target: AzureAzureDDoSProtection
   - Source: virtual-wan
     Target: AzureVirtualWAN
+  - Source: Azure Front Door Service
+    Target: AzureFrontDoorService
 
 - Name: Security
   Services:
@@ -196,7 +207,7 @@ Categories:
     Target: AzureQueueStorage
   - Source: Azure Storage - Files
     Target: AzureFileStorage
-  - Source: Data Box
+  - Source: Azure Data Box
     Target: AzureDataBox
   - Source: Storage Explorer
     Target: AzureStorageExplorer

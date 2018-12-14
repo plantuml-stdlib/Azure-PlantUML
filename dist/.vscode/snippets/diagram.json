@@ -63,6 +63,22 @@
       "$0"
     ]
   },
+  "AzureDataExplorer": {
+    "prefix": "Azure Data Explorer",
+    "description": "Add Azure Data Explorer to diagram",
+    "body": [
+      "AzureDataExplorer(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDataExplorer_Descr": {
+    "prefix": "Azure Data Explorer with Description",
+    "description": "Add Azure Data Explorer with Description to diagram",
+    "body": [
+      "AzureDataExplorer(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureDataLakeAnalytics": {
     "prefix": "Azure Data Lake Analytics",
     "description": "Add Azure Data Lake Analytics to diagram",
@@ -284,6 +300,22 @@
     "description": "Add Azure Kubernetes Service with Description to diagram",
     "body": [
       "AzureKubernetesService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureServiceFabricMesh": {
+    "prefix": "Azure Service Fabric Mesh",
+    "description": "Add Azure Service Fabric Mesh to diagram",
+    "body": [
+      "AzureServiceFabricMesh(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureServiceFabricMesh_Descr": {
+    "prefix": "Azure Service Fabric Mesh with Description",
+    "description": "Add Azure Service Fabric Mesh with Description to diagram",
+    "body": [
+      "AzureServiceFabricMesh(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -575,6 +607,22 @@
       "$0"
     ]
   },
+  "Azure": {
+    "prefix": "Azure",
+    "description": "Add Azure to diagram",
+    "body": [
+      "Azure(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "Azure_Descr": {
+    "prefix": "Azure with Description",
+    "description": "Add Azure with Description to diagram",
+    "body": [
+      "Azure(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureActiveDirectory": {
     "prefix": "Azure Active Directory",
     "description": "Add Azure Active Directory to diagram",
@@ -780,6 +828,22 @@
     "description": "Add Azure Backup with Description to diagram",
     "body": [
       "AzureBackup(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureBlueprints": {
+    "prefix": "Azure Blueprints",
+    "description": "Add Azure Blueprints to diagram",
+    "body": [
+      "AzureBlueprints(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureBlueprints_Descr": {
+    "prefix": "Azure Blueprints with Description",
+    "description": "Add Azure Blueprints with Description to diagram",
+    "body": [
+      "AzureBlueprints(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -991,6 +1055,22 @@
       "$0"
     ]
   },
+  "AzureFrontDoorService": {
+    "prefix": "Azure Front Door Service",
+    "description": "Add Azure Front Door Service to diagram",
+    "body": [
+      "AzureFrontDoorService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureFrontDoorService_Descr": {
+    "prefix": "Azure Front Door Service with Description",
+    "description": "Add Azure Front Door Service with Description to diagram",
+    "body": [
+      "AzureFrontDoorService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureLoadBalancer": {
     "prefix": "Azure Load Balancer",
     "description": "Add Azure Load Balancer to diagram",
@@ -1116,6 +1196,22 @@
     "description": "Add Azure Blob Storage with Description to diagram",
     "body": [
       "AzureBlobStorage(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureDataBox": {
+    "prefix": "Azure Data Box",
+    "description": "Add Azure Data Box to diagram",
+    "body": [
+      "AzureDataBox(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDataBox_Descr": {
+    "prefix": "Azure Data Box with Description",
+    "description": "Add Azure Data Box with Description to diagram",
+    "body": [
+      "AzureDataBox(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },

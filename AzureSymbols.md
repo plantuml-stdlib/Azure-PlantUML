@@ -32,6 +32,7 @@ Category | Macro | <pre>Color</pre> | <pre>Mono </pre> | Url
 Analytics |AzureAnalysisServices | |![AzureAnalysisServices](dist/Analytics/AzureAnalysisServices(m).png?raw=true) |Analytics/AzureAnalysisServices.puml
 Analytics |AzureDatabricks |![AzureDatabricks](dist/Analytics/AzureDatabricks.png?raw=true) |![AzureDatabricks](dist/Analytics/AzureDatabricks(m).png?raw=true) |Analytics/AzureDatabricks.puml
 Analytics |AzureDataCatalog |![AzureDataCatalog](dist/Analytics/AzureDataCatalog.png?raw=true) |![AzureDataCatalog](dist/Analytics/AzureDataCatalog(m).png?raw=true) |Analytics/AzureDataCatalog.puml
+Analytics |AzureDataExplorer |![AzureDataExplorer](dist/Analytics/AzureDataExplorer.png?raw=true) |![AzureDataExplorer](dist/Analytics/AzureDataExplorer(m).png?raw=true) |Analytics/AzureDataExplorer.puml
 Analytics |AzureDataLakeAnalytics |![AzureDataLakeAnalytics](dist/Analytics/AzureDataLakeAnalytics.png?raw=true) |![AzureDataLakeAnalytics](dist/Analytics/AzureDataLakeAnalytics(m).png?raw=true) |Analytics/AzureDataLakeAnalytics.puml
 Analytics |AzureEventHub |![AzureEventHub](dist/Analytics/AzureEventHub.png?raw=true) |![AzureEventHub](dist/Analytics/AzureEventHub(m).png?raw=true) |Analytics/AzureEventHub.puml
 Analytics |AzureHDInsight |![AzureHDInsight](dist/Analytics/AzureHDInsight.png?raw=true) |![AzureHDInsight](dist/Analytics/AzureHDInsight(m).png?raw=true) |Analytics/AzureHDInsight.puml
@@ -48,6 +49,7 @@ Compute |AzureVirtualMachineScaleSet |![AzureVirtualMachineScaleSet](dist/Comput
 Containers |AzureContainerInstance |![AzureContainerInstance](dist/Containers/AzureContainerInstance.png?raw=true) |![AzureContainerInstance](dist/Containers/AzureContainerInstance(m).png?raw=true) |Containers/AzureContainerInstance.puml
 Containers |AzureContainerRegistry |![AzureContainerRegistry](dist/Containers/AzureContainerRegistry.png?raw=true) |![AzureContainerRegistry](dist/Containers/AzureContainerRegistry(m).png?raw=true) |Containers/AzureContainerRegistry.puml
 Containers |AzureKubernetesService |![AzureKubernetesService](dist/Containers/AzureKubernetesService.png?raw=true) |![AzureKubernetesService](dist/Containers/AzureKubernetesService(m).png?raw=true) |Containers/AzureKubernetesService.puml
+Containers |AzureServiceFabricMesh |![AzureServiceFabricMesh](dist/Containers/AzureServiceFabricMesh.png?raw=true) |![AzureServiceFabricMesh](dist/Containers/AzureServiceFabricMesh(m).png?raw=true) |Containers/AzureServiceFabricMesh.puml
 Containers |AzureWebAppForContainers |![AzureWebAppForContainers](dist/Containers/AzureWebAppForContainers.png?raw=true) |![AzureWebAppForContainers](dist/Containers/AzureWebAppForContainers(m).png?raw=true) |Containers/AzureWebAppForContainers.puml
 **Databases** | | | | **Databases/all.puml**
 Databases |AzureCosmosDb |![AzureCosmosDb](dist/Databases/AzureCosmosDb.png?raw=true) |![AzureCosmosDb](dist/Databases/AzureCosmosDb(m).png?raw=true) |Databases/AzureCosmosDb.puml
@@ -68,6 +70,8 @@ DevOps |AzureLabServices |![AzureLabServices](dist/DevOps/AzureLabServices.png?r
 DevOps |AzurePipelines |![AzurePipelines](dist/DevOps/AzurePipelines.png?raw=true) |![AzurePipelines](dist/DevOps/AzurePipelines(m).png?raw=true) |DevOps/AzurePipelines.puml
 DevOps |AzureRepos |![AzureRepos](dist/DevOps/AzureRepos.png?raw=true) |![AzureRepos](dist/DevOps/AzureRepos(m).png?raw=true) |DevOps/AzureRepos.puml
 DevOps |AzureTestPlans |![AzureTestPlans](dist/DevOps/AzureTestPlans.png?raw=true) |![AzureTestPlans](dist/DevOps/AzureTestPlans(m).png?raw=true) |DevOps/AzureTestPlans.puml
+**General** | | | | **General/all.puml**
+General |Azure | |![Azure](dist/General/Azure(m).png?raw=true) |General/Azure.puml
 **Identity** | | | | **Identity/all.puml**
 Identity |AzureActiveDirectory |![AzureActiveDirectory](dist/Identity/AzureActiveDirectory.png?raw=true) |![AzureActiveDirectory](dist/Identity/AzureActiveDirectory(m).png?raw=true) |Identity/AzureActiveDirectory.puml
 Identity |AzureActiveDirectoryB2C |![AzureActiveDirectoryB2C](dist/Identity/AzureActiveDirectoryB2C.png?raw=true) |![AzureActiveDirectoryB2C](dist/Identity/AzureActiveDirectoryB2C(m).png?raw=true) |Identity/AzureActiveDirectoryB2C.puml
@@ -85,6 +89,7 @@ InternetOfThings |AzureTimeSeriesInsights |![AzureTimeSeriesInsights](dist/Inter
 **Management** | | | | **Management/all.puml**
 Management |AzureAutomation |![AzureAutomation](dist/Management/AzureAutomation.png?raw=true) |![AzureAutomation](dist/Management/AzureAutomation(m).png?raw=true) |Management/AzureAutomation.puml
 Management |AzureBackup |![AzureBackup](dist/Management/AzureBackup.png?raw=true) |![AzureBackup](dist/Management/AzureBackup(m).png?raw=true) |Management/AzureBackup.puml
+Management |AzureBlueprints |![AzureBlueprints](dist/Management/AzureBlueprints.png?raw=true) |![AzureBlueprints](dist/Management/AzureBlueprints(m).png?raw=true) |Management/AzureBlueprints.puml
 Management |AzureLogAnalytics | |![AzureLogAnalytics](dist/Management/AzureLogAnalytics(m).png?raw=true) |Management/AzureLogAnalytics.puml
 Management |AzureMonitor |![AzureMonitor](dist/Management/AzureMonitor.png?raw=true) |![AzureMonitor](dist/Management/AzureMonitor(m).png?raw=true) |Management/AzureMonitor.puml
 Management |AzurePolicy |![AzurePolicy](dist/Management/AzurePolicy.png?raw=true) |![AzurePolicy](dist/Management/AzurePolicy(m).png?raw=true) |Management/AzurePolicy.puml
@@ -101,6 +106,7 @@ Networking |AzureApplicationGateway |![AzureApplicationGateway](dist/Networking/
 Networking |AzureAzureDDoSProtection |![AzureAzureDDoSProtection](dist/Networking/AzureAzureDDoSProtection.png?raw=true) |![AzureAzureDDoSProtection](dist/Networking/AzureAzureDDoSProtection(m).png?raw=true) |Networking/AzureAzureDDoSProtection.puml
 Networking |AzureDNS |![AzureDNS](dist/Networking/AzureDNS.png?raw=true) |![AzureDNS](dist/Networking/AzureDNS(m).png?raw=true) |Networking/AzureDNS.puml
 Networking |AzureExpressRoute |![AzureExpressRoute](dist/Networking/AzureExpressRoute.png?raw=true) |![AzureExpressRoute](dist/Networking/AzureExpressRoute(m).png?raw=true) |Networking/AzureExpressRoute.puml
+Networking |AzureFrontDoorService |![AzureFrontDoorService](dist/Networking/AzureFrontDoorService.png?raw=true) |![AzureFrontDoorService](dist/Networking/AzureFrontDoorService(m).png?raw=true) |Networking/AzureFrontDoorService.puml
 Networking |AzureLoadBalancer |![AzureLoadBalancer](dist/Networking/AzureLoadBalancer.png?raw=true) |![AzureLoadBalancer](dist/Networking/AzureLoadBalancer(m).png?raw=true) |Networking/AzureLoadBalancer.puml
 Networking |AzureTrafficManager |![AzureTrafficManager](dist/Networking/AzureTrafficManager.png?raw=true) |![AzureTrafficManager](dist/Networking/AzureTrafficManager(m).png?raw=true) |Networking/AzureTrafficManager.puml
 Networking |AzureVirtualNetwork |![AzureVirtualNetwork](dist/Networking/AzureVirtualNetwork.png?raw=true) |![AzureVirtualNetwork](dist/Networking/AzureVirtualNetwork(m).png?raw=true) |Networking/AzureVirtualNetwork.puml
@@ -111,6 +117,7 @@ Security |AzureKeyVault |![AzureKeyVault](dist/Security/AzureKeyVault.png?raw=tr
 **Storage** | | | | **Storage/all.puml**
 Storage |AzureAzureNetAppFiles |![AzureAzureNetAppFiles](dist/Storage/AzureAzureNetAppFiles.png?raw=true) |![AzureAzureNetAppFiles](dist/Storage/AzureAzureNetAppFiles(m).png?raw=true) |Storage/AzureAzureNetAppFiles.puml
 Storage |AzureBlobStorage | |![AzureBlobStorage](dist/Storage/AzureBlobStorage(m).png?raw=true) |Storage/AzureBlobStorage.puml
+Storage |AzureDataBox |![AzureDataBox](dist/Storage/AzureDataBox.png?raw=true) |![AzureDataBox](dist/Storage/AzureDataBox(m).png?raw=true) |Storage/AzureDataBox.puml
 Storage |AzureDataLakeStorage |![AzureDataLakeStorage](dist/Storage/AzureDataLakeStorage.png?raw=true) |![AzureDataLakeStorage](dist/Storage/AzureDataLakeStorage(m).png?raw=true) |Storage/AzureDataLakeStorage.puml
 Storage |AzureDiskStorage |![AzureDiskStorage](dist/Storage/AzureDiskStorage.png?raw=true) |![AzureDiskStorage](dist/Storage/AzureDiskStorage(m).png?raw=true) |Storage/AzureDiskStorage.puml
 Storage |AzureFileStorage | |![AzureFileStorage](dist/Storage/AzureFileStorage(m).png?raw=true) |Storage/AzureFileStorage.puml
