@@ -13,12 +13,13 @@ It is also possible to combine Azure-PlantUML with [C4-PlantUML](https://github.
 
 > See also [Save the world from Powerpoint Cloud Solution Architects](https://azure-development.com/2018/09/11/save-the-world-from-powerpoint-cloud-solution-architects/)
 
-## Content {ignore=true}
+## Content <!-- {ignore=true} -->
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
+* [Content <!-- {ignore=true} -->](#content-ignoretrue-)
 * [Getting Started](#getting-started)
 	* [Prerequisites](#prerequisites)
 	* [List of all supported Azure Symbols](#list-of-all-supported-azure-symbols)
@@ -30,8 +31,8 @@ It is also possible to combine Azure-PlantUML with [C4-PlantUML](https://github.
 	* [In combination with C4-PlantUML](#in-combination-with-c4-plantuml)
 * [Advanced Samples](#advanced-samples)
 	* [C4 Integration](#c4-integration)
-	* [Azure IoT Reference Architecture - Stateful stream processing](#azure-iot-reference-architecture-stateful-stream-processing)
-	* [Azure Reference Architecture - Highly scalable web application](#azure-reference-architecture-highly-scalable-web-application)
+	* [Azure IoT Reference Architecture: Stateful stream processing](#azure-iot-reference-architecture-stateful-stream-processing)
+	* [Azure Reference Architecture: Highly scalable web application](#azure-reference-architecture-highly-scalable-web-application)
 * [Snippets for Visual Studio Code](#snippets-for-visual-studio-code)
 * [Customized Builds](#customized-builds)
 * [Built With](#built-with)
@@ -265,7 +266,7 @@ For using **Azure-PlantUML** and [C4-PlantUML](https://github.com/RicardoNiepel/
 @enduml
 ```
 
-### Azure IoT Reference Architecture - Stateful stream processing
+### Azure IoT Reference Architecture: Stateful stream processing
 
 Original: [Azure IoT Reference Architecture Guide](https://aka.ms/iotrefarchitecture)
 
@@ -273,7 +274,7 @@ Source: [C4 usage - IoT Reference Architecture - Stateful stream processing](sam
 
 ![C4 usage - IoT Reference Architecture - Stateful stream processing](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FC4%2520usage%2520-%2520IoT%2520Reference%2520Architecture%2520-%2520Stateful%2520stream%2520processing.puml)
 
-### Azure Reference Architecture - Highly scalable web application
+### Azure Reference Architecture: Highly scalable web application
 
 Original: [Azure Reference Architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/scalable-web-app)
 
