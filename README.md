@@ -1,6 +1,6 @@
 # Azure-PlantUML
 
-![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fL9TJzmm47oFbF-mJLyEYRjSXTG7a2ee1w8gq1CVVVVPcpiBnuwyQr3xwt4I39n5aIeUTpmpkplUGsBXERG6lWlI4WA9DS8KhjcZQA7pJYAHjcjuqBo1ex_1OteyiiByOIsfBChYay96MnmPozvmmzpHVbrxyJ1RHt5O1K8ldMMqF9EkhQ-q55wvIuqTcdfGJfT6MBwzEAzRGOo-LfeukcihJL0Ol7dfC2gENTiwE-iYy4zU6dHKdDp70Sx2wdyquyhFuBlIXM2n4eIK1gJMqIArAmk33GCxy7gzOL3QesJjRFyKmxSCrGBljOmvwpOOmSvN80ZK019yRfgcvsxjCcc4nxvn0dQXEeqGz5WLY-NFVRX09Oo9hU1CoBlpw6O9uJTQvVmFTG1xS7DBrKvkpLvtcVLDX3vWdQKveUqwUZwTsFBv_lf6N-7wbKdATU82Tu5J6Nc_1W3IF_JIBxlp-HokHdbPf2odqs-G9xVzcYzV5Zb_e6KRb4MkUvkL0GDfUvr-siCOOxoTHm00 "Basic usage - Stream processing with Azure Stream Analytics")
+![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FBasic%2520usage%2520-%2520Stream%2520processing%2520with%2520Azure%2520Stream%2520Analytics.puml)
 
 [PlantUML](http://en.plantuml.com/) sprites, macros and stereotypes for creating PlantUML diagrams with [Azure](https://azure.microsoft.com/en-us/) components.
 
@@ -13,23 +13,33 @@ It is also possible to combine Azure-PlantUML with [C4-PlantUML](https://github.
 
 > See also [Save the world from Powerpoint Cloud Solution Architects](https://azure-development.com/2018/09/11/save-the-world-from-powerpoint-cloud-solution-architects/)
 
-## Content
+## Content {ignore=true}
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
 
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [List of all supported Azure Symbols](#list-of-all-supported-azure-symbols)
-  * [Hello World](#hello-world)
+	* [Prerequisites](#prerequisites)
+	* [List of all supported Azure Symbols](#list-of-all-supported-azure-symbols)
+	* [Hello World](#hello-world)
 * [Usages](#usages)
-  * [Basic usage](#basic-usage)
-  * [Raw sprite usage](#raw-sprite-usage)
-  * [In combination with C4-PlantUML](#in-combination-with-c4-plantuml)
+	* [Basic usage](#basic-usage)
+	* [Raw sprite usage](#raw-sprite-usage)
+	* [Simplified mode](#simplified-mode)
+	* [In combination with C4-PlantUML](#in-combination-with-c4-plantuml)
 * [Advanced Samples](#advanced-samples)
+	* [C4 Integration](#c4-integration)
+	* [Azure IoT Reference Architecture - Stateful stream processing](#azure-iot-reference-architecture-stateful-stream-processing)
+	* [Azure Reference Architecture - Highly scalable web application](#azure-reference-architecture-highly-scalable-web-application)
 * [Snippets for Visual Studio Code](#snippets-for-visual-studio-code)
 * [Customized Builds](#customized-builds)
 * [Built With](#built-with)
 * [Contributing](#contributing)
 * [License](#license)
 * [Acknowledgments](#acknowledgments)
+
+<!-- /code_chunk_output -->
 
 ## Getting Started
 
@@ -96,7 +106,7 @@ functionAlias --> cosmosDbAlias
 @enduml
 ```
 
-![Hello World](http://www.plantuml.com/plantuml/png/dP11JyCm38NlbVeVGaz3eisT0zgq2N4OK24GPpVrjaXkNCME4Fnwsgu2Ue03j_VYzpvRMOj2rDIHkKCYDgySgSspYnOFFg3PVAI8zJW-gVPoRMs4j-hezPIQ91WT1yMWbUFEFda7iUK7ZpsIdPfbJH3qvNvlEn35Q5ilEj1zS9HQJ96-DvmRM-uw3bK_FFoMsu520u9YWUZFv03ha-APV9k2K__5pZDmoj4KDKRXK1WGqqzoGnuapnQbrM4Mq_3A57jea8f1FACx1IO-le_kiHz3G6Q7ugAVN74vmxOi7SkkMRbP_1EMPpyEDMLvOnRNvTd2Je75nf6mnj0E__09 "Hello World")
+![Hello World](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FHello%2520World.puml)
 
 ## Usages
 
@@ -113,7 +123,7 @@ Just import the necessary `.puml` files and you can use the macros in all your P
 ```csharp
 @startuml Basic usage - Stream processing with Azure Stream Analytics
 
-!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/release/1-0/dist
+!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Analytics/AzureEventHub.puml
 !includeurl AzurePuml/Analytics/AzureStreamAnalytics.puml
@@ -137,7 +147,7 @@ streamAnalytics --> outputCosmosDb
 @enduml
 ```
 
-![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/png/fL9TJzmm47oFbF-mJLyEYRjSXTG7a2ee1w8gq1CVVVVPcpiBnuwyQr3xwt4I39n5aIeUTpmpkplUGsBXERG6lWlI4WA9DS8KhjcZQA7pJYAHjcjuqBo1ex_1OteyiiByOIsfBChYay96MnmPozvmmzpHVbrxyJ1RHt5O1K8ldMMqF9EkhQ-q55wvIuqTcdfGJfT6MBwzEAzRGOo-LfeukcihJL0Ol7dfC2gENTiwE-iYy4zU6dHKdDp70Sx2wdyquyhFuBlIXM2n4eIK1gJMqIArAmk33GCxy7gzOL3QesJjRFyKmxSCrGBljOmvwpOOmSvN80ZK019yRfgcvsxjCcc4nxvn0dQXEeqGz5WLY-NFVRX09Oo9hU1CoBlpw6O9uJTQvVmFTG1xS7DBrKvkpLvtcVLDX3vWdQKveUqwUZwTsFBv_lf6N-7wbKdATU82Tu5J6Nc_1W3IF_JIBxlp-HokHdbPf2odqs-G9xVzcYzV5Zb_e6KRb4MkUvkL0GDfUvr-siCOOxoTHm00 "Basic usage - Stream processing with Azure Stream Analytics")
+![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FBasic%2520usage%2520-%2520Stream%2520processing%2520with%2520Azure%2520Stream%2520Analytics.puml)
 
 ### Raw sprite usage
 
@@ -145,22 +155,81 @@ If you just want to use the PlantUML sprites inside your existing diagrams, this
 
 ```csharp
 @startuml Raw usage - Sprites
+!pragma revision 1
 
-!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/release/1-0/dist
-!includeurl AzurePuml/AzureCommon.puml
+!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureRaw.puml
 !includeurl AzurePuml/Databases/AzureCosmosDb.puml
 !includeurl AzurePuml/Compute/AzureFunction.puml
+
 
 component "<color:red><$AzureFunction></color>" as myFunction
 
 database "<color:#0072C6><$AzureCosmosDb></color>" as myCosmosDb
 
+AzureFunction(mySecondFunction, "Stream Processing", "Consumption")
+
+rectangle "<color:AZURE_SYMBOL_COLOR><$AzureCosmosDb></color>" as mySecondCosmosDb
+
 myFunction --> myCosmosDb
+
+mySecondFunction --> mySecondCosmosDb
 
 @enduml
 ```
 
-![Raw usage - Sprites](http://www.plantuml.com/plantuml/png/VO_TIWCn44Rl5_OTOlLsDyKBXR8ibHQlL4h51vWcqpQGFp8JYZwzsTPjiQ2ttymvyysS619dPyKQ3Y8Jx50quZqcmqXrLLSt6hV6etZwoWbNm-AUET9CoWI7TcTudpUPCAdW6JstAZYvDWgI3cy68rfv99kL1SyVho_I0J4cgGrniHklRDQOaxrSE16Bu5pmRIp1NtjBODW08Oq4kK3BpRzCqSRCU2AUirTipbVgghIFmPS_nAHJmOOqIwZxxkxNTj_9uwoV223XFiTy4EYVIcV-TZfzl5yyZ8wnuxLZp0V7nIYQfhyQpj7hKlOR "Raw usage - Sprites")
+![Raw usage - Sprites](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FRaw%2520usage%2520-%2520Sprites.puml)
+
+### Simplified mode
+
+Sometimes your architecture diagram includes to many information for your target audience. We need a management version if - something which can be used inside a presentation in front of the management round.
+
+> Please always include the technical one in the appendix and ensure that everybody knows, that this is only a simplified version.
+
+To enable the simplified mode `AzureSimplified.puml` needs to be included or can just be commented in/out.
+
+```csharp
+@startuml Two Mode Sample
+!pragma revision 1
+
+!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+
+' !includeurl AzurePuml/AzureSimplified.puml
+
+!includeurl AzurePuml/Analytics/AzureEventHub.puml
+!includeurl AzurePuml/Compute/AzureFunction.puml
+!includeurl AzurePuml/Databases/AzureCosmosDb.puml
+!includeurl AzurePuml/Storage/AzureDataLakeStorage.puml
+!includeurl AzurePuml/Analytics/AzureStreamAnalytics.puml
+!includeurl AzurePuml/InternetOfThings/AzureTimeSeriesInsights.puml
+!includeurl AzurePuml/Identity/AzureActiveDirectoryB2C.puml
+!includeurl AzurePuml/DevOps/AzureApplicationInsights.puml
+
+
+LAYOUT_LEFT_RIGHT
+
+AzureEventHub(rawEventsHubAlias, "Raw Event Hub", "PK: Medallion HackLicense VendorId; 3 TUs")
+AzureDataLakeStorage(datalakeAlias, "Data Lake", "GRS")
+AzureStreamAnalytics(streamAnalyticsAlias, "Aggregate Events", "6 SUs")
+AzureFunction(stateFunctionAlias, "State Processor", "C#, Consumption Plan")
+AzureEventHub(aggregatedEventsHubAlias, "Aggregated Hub", "6 TUs")
+AzureCosmosDb(stateDBAlias, "State Database", "SQL API, 1000 RUs")
+AzureTimeSeriesInsights(timeSeriesAlias, "Time Series", "2 Data Processing Units")
+
+rawEventsHubAlias ----> datalakeAlias
+rawEventsHubAlias --> streamAnalyticsAlias
+rawEventsHubAlias ---> stateFunctionAlias
+streamAnalyticsAlias --> aggregatedEventsHubAlias
+aggregatedEventsHubAlias --> timeSeriesAlias
+stateFunctionAlias --> stateDBAlias
+
+@enduml
+```
+
+![Two Mode Sample - Simplified](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FTwo%2520Mode%2520Sample%2520-%2520Simplified.puml)
+
+![Two Mode Sample - Normal](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FTwo%2520Mode%2520Sample%2520-%2520Normal.puml)
 
 ### In combination with C4-PlantUML
 
@@ -175,13 +244,34 @@ The following advanced samples are reproductions from the official [Azure docume
 All of them are created in combination with [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) for using the [C4 model](https://c4model.com/):
 > "a way for software development teams to efficiently and effectively communicate their software architecture, at different levels of detail, telling different stories to different types of audience, when doing up front design or retrospectively documenting an existing codebase"
 
+### C4 Integration
+
+For using **Azure-PlantUML** and [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) together, you need to include `AzureC4Integration.puml`.
+```csharp
+@startuml
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+
+!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+
+!includeurl AzurePuml/AzureC4Integration.puml
+
+!includeurl AzurePuml/Databases/AzureRedisCache.puml
+!includeurl AzurePuml/Databases/AzureCosmosDb.puml
+
+....
+
+@enduml
+```
+
 ### Azure IoT Reference Architecture - Stateful stream processing
 
 Original: [Azure IoT Reference Architecture Guide](https://aka.ms/iotrefarchitecture)
 
 Source: [C4 usage - IoT Reference Architecture - Stateful stream processing](samples/C4%20usage%20-%20IoT%20Reference%20Architecture%20-%20Stateful%20stream%20processing.puml)
 
-![C4 usage - IoT Reference Architecture - Stateful stream processing](http://www.plantuml.com/plantuml/png/bLLDRziu4Bq7o7-OPWzr0DbEikqUUghhf8cBj3Ki1K5F0IsDRRQKg2Kf9-wltqTAbfMrDuiS4f2Z-NZpvWtzqJfXN9MhuwFZepUoI5MLSMKKhPmhxOVXq8Z7mLAwLJMlB9jK5uuBDqXrFfp9L9XCVvDSiXgEt_MdIXJkxkljC1VMiO7fOGn_8GisWt9R8-C533JwNHcUmlZgIY5ohrWchNlUGLkXZXZhFDT5W-Em7rpAod7j_xagKYV_9s9K2BLnChLrJEmCYxmrlYRqQerkRwhvYp6Nmecvi6otBTbSsykNOsAdZLWsJNrIUjuONWoQW7nJiFk-I5QoM3Rr9ZhP8Jm-kXtz-7wNFDnUVKuUPfFhcwGrtK-I6zYlhxvTUiTuWn7blOpNCcKRqSbbVJevzLyxgNjIUmxWWJlXT89Zx4IHOVuKd_lhf5WQjfPABGj72sr8A4ME5UVip2QYoW8npIkfN5yMr6IYcSPeRGWmECAdKtxBVe-RGxBBrw2brjG55T5xIkxGqpkQOf6aLuojOPB8id0dfycjU0VfxOnJbckccf6-q_rKwIgZ78rXDFOjBOpEjz0zpcUIxBNTRYqesCAZgT4WrxFWWQpF8ngL9SLiGXib5eUcVwul8Xh_uHsS4OK5BJb9H-1Kaw1CBXPik2Ou5ouY7Ym7z1ESUtBvoSj3ABZNtm6XHRbLPUzHcBmHMsr3iNlOg37wuXVHsTaPpUu2Ptuss7jRvMNTL2YApGRc3O5801DsDTSWlZEyVsrTppw_Xsbv2xKcN-mlYkkgeYpL1dNpKl4J_LsnaT29NhCX9tCG1eFEaCPfnKPu4IdyfrvL-ibUd0FKnfuI144GLbyl-jfaY6uSD5wxbQxCAGLnsVrn2kJrWknCSzIOmWJzg7QqX0b6z2NkKD3PwrwgLTQv8y4ObYxfrumN6TERLgRKbgake5L4ir7_UXO7LfIVBbZnyyxmxf3X57rP4eRnbwuWu0mkuJsNKEI6X2Eb7q6bXM0y7TwLXPN-MneqELSSLd0kNBgYSgVKqCkCrUwLQD-2c96gbJmetJblVGwjRRFmprw79XYX3vz4-gkDtvTCEFz6F0i03Vd3KZRXRUG-so_KxLG-WFZGLZUx_Dyuzf0V45DYv7B9fdxyW0u_SlK0aBRBvW401tVOoBR1xTi1ATJgRXD-nDJmG_4F "C4 usage - IoT Reference Architecture - Stateful stream processing")
+![C4 usage - IoT Reference Architecture - Stateful stream processing](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FC4%2520usage%2520-%2520IoT%2520Reference%2520Architecture%2520-%2520Stateful%2520stream%2520processing.puml)
 
 ### Azure Reference Architecture - Highly scalable web application
 
@@ -189,7 +279,7 @@ Original: [Azure Reference Architecture](https://docs.microsoft.com/en-us/azure/
 
 Source: [C4 usage - Highly scalable web application.puml](samples/C4%20usage%20-%20Highly%20scalable%20web%20application.puml)
 
-![C4 usage - Highly scalable web application](http://www.plantuml.com/plantuml/png/dLLDRziu4Bq7o7-OzG8BBU3ORThJdkh8GJusTLpBtc9F1YNHCZSKgVB3hlFhEwH4MKwS8DcBDHhDcna-lXb_qOOeOqj-Ud9wyXiJ6RSvjOh3sfXA_pKSAh8T5CoiRMerLPaKXWepo6GvdB6Cg5nE6Aqe7yQVpwQS2BFuUZSiYJPKeMiPOpnXWgf15MhaT8KE63rQHQVeV7SbZtnMB6VQ79wWhL0ZObcMKZHz78yR4qDIegck4JEAIMEIhUbxKB7KfTJZz3sOv0SFdbTXtsbQ0z0OLTNROkFnv6s12IKgMxyQcnYfI47h-0ikqyRnTj0tIoqzH9sUt8t-lL_CbzzlvjVBkykhoydOUQTKQIaYfuO-z1RuwFtf_Ase8bqH_98mKN1K16O4PAM7hf4eB2S8kqqSfiDPjFKFZC5t-0D6qviMb4m7ayivn59H-FfF3EU3Zts8VtVVnfIp3VO3PaqXcOw0Y1mg9JSifnfcbybyPJbWRfTGmtRDiZKGp8CwrhQaEQoKB0EwxGdl9ifoWGNGyZqya98mICxTI-Qqfw6oAMSPtm7P4CP9odrMDnsmaWgut5By9UZ8ThwlbHy9oEkUTo1N0L0J-FJs8bm2XcKTZsFL-o1kWEYveiWvuJ2rgfAQmkQy3zVIzE5kbdGITsyu-k5U4EkTBoLfy1qHHje_N1lUW1kHqv-zkYsHupQ0vADxRQ-W1e2sHK6rOSXw7rRsyN478PLZ1fT6OR6lCrtHZAtmVE6hkoV9MOuqQY2WlQP2LkQgrpTOMcvOXPym4iFmc5ItpUytHgHQqrskUnvq7vzt60ih8yeQmmbEPYWRlEBnXGT-ktFAwiFd3nzWjjYNxAoEIAETDi4Dh6NhKwVUVX9kPTfC0bgzsaHBGpB-6pQVWlgL5Hfr9eepj0HI0uRe1usyU4Md97iebBGYhulCA6-cjXvG75tjqbpFvrD_q_k0TXfVYQa7v5c03rbEA2lMgMnsmRDqjydz15NQIRgym6vVWeKnFvBVTt5iK6QKvDgBOt_wa338VsgDxj04_pcEcJ0od3G0mXNkathTRXLpkiHujoF6zsvFFOLsnFCQkb7IK_I1Nb_4F-qsJEaH3fQBLc21XIkAB0ZwqxZpjz67iUyde0F-NnHqy6ycuPYIziLRMYuiuxdkh8zGSY-_9ZGS-oW2_o39RZbkW-js_OSlLEJu9_eB "C4 usage - Highly scalable web application")
+![C4 usage - Highly scalable web application](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FC4%2520usage%2520-%2520Highly%2520scalable%2520web%2520application.puml)
 
 ## Snippets for Visual Studio Code
 
@@ -227,3 +317,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [AWS-PlantUML](https://github.com/milo-minderbinder/AWS-PlantUML) - for the base structure
 * [plantuml-office](https://github.com/Roemer/plantuml-office) - for the scripts idea
 * [C4 Model](https://c4model.com/) - for the hope that it's possible to improve architecture documentations
+

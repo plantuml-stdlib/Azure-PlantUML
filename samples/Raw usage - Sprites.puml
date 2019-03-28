@@ -1,4 +1,5 @@
 @startuml Raw usage - Sprites
+!pragma revision 1
 
 !define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
 !includeurl AzurePuml/AzureRaw.puml

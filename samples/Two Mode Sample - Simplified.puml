@@ -1,4 +1,4 @@
-@startuml Two Mode Sample
+@startuml Two Mode Sample - Simplified
 !pragma revision 1
 
 !define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
