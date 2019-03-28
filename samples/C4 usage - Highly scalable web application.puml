@@ -4,6 +4,7 @@
 
 !define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
 !includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/AzureC4Integration.puml
 !includeurl AzurePuml/Databases/AzureRedisCache.puml
 !includeurl AzurePuml/Databases/AzureCosmosDb.puml
 !includeurl AzurePuml/Databases/AzureSqlDatabase.puml
