@@ -15,6 +15,102 @@
       "$0"
     ]
   },
+  "AzureBatchAI": {
+    "prefix": "Azure Batch A I",
+    "description": "Add Azure Batch A I to diagram",
+    "body": [
+      "AzureBatchAI(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureBatchAI_Descr": {
+    "prefix": "Azure Batch A I with Description",
+    "description": "Add Azure Batch A I with Description to diagram",
+    "body": [
+      "AzureBatchAI(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureBotService": {
+    "prefix": "Azure Bot Service",
+    "description": "Add Azure Bot Service to diagram",
+    "body": [
+      "AzureBotService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureBotService_Descr": {
+    "prefix": "Azure Bot Service with Description",
+    "description": "Add Azure Bot Service with Description to diagram",
+    "body": [
+      "AzureBotService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureCognitiveServices": {
+    "prefix": "Azure Cognitive Services",
+    "description": "Add Azure Cognitive Services to diagram",
+    "body": [
+      "AzureCognitiveServices(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureCognitiveServices_Descr": {
+    "prefix": "Azure Cognitive Services with Description",
+    "description": "Add Azure Cognitive Services with Description to diagram",
+    "body": [
+      "AzureCognitiveServices(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureMachineLearningService": {
+    "prefix": "Azure Machine Learning Service",
+    "description": "Add Azure Machine Learning Service to diagram",
+    "body": [
+      "AzureMachineLearningService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureMachineLearningService_Descr": {
+    "prefix": "Azure Machine Learning Service with Description",
+    "description": "Add Azure Machine Learning Service with Description to diagram",
+    "body": [
+      "AzureMachineLearningService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureMachineLearningStudio": {
+    "prefix": "Azure Machine Learning Studio",
+    "description": "Add Azure Machine Learning Studio to diagram",
+    "body": [
+      "AzureMachineLearningStudio(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureMachineLearningStudio_Descr": {
+    "prefix": "Azure Machine Learning Studio with Description",
+    "description": "Add Azure Machine Learning Studio with Description to diagram",
+    "body": [
+      "AzureMachineLearningStudio(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "MicrosoftGenomics": {
+    "prefix": "Microsoft Genomics",
+    "description": "Add Microsoft Genomics to diagram",
+    "body": [
+      "MicrosoftGenomics(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "MicrosoftGenomics_Descr": {
+    "prefix": "Microsoft Genomics with Description",
+    "description": "Add Microsoft Genomics with Description to diagram",
+    "body": [
+      "MicrosoftGenomics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureAnalysisServices": {
     "prefix": "Azure Analysis Services",
     "description": "Add Azure Analysis Services to diagram",
@@ -175,22 +271,6 @@
       "$0"
     ]
   },
-  "AzureBatchAI": {
-    "prefix": "Azure Batch A I",
-    "description": "Add Azure Batch A I to diagram",
-    "body": [
-      "AzureBatchAI(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureBatchAI_Descr": {
-    "prefix": "Azure Batch A I with Description",
-    "description": "Add Azure Batch A I with Description to diagram",
-    "body": [
-      "AzureBatchAI(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "AzureFunction": {
     "prefix": "Azure Function",
     "description": "Add Azure Function to diagram",
@@ -348,6 +428,22 @@
     "description": "Add Azure Cosmos Db with Description to diagram",
     "body": [
       "AzureCosmosDb(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureDatabaseForMariaDB": {
+    "prefix": "Azure Database For Maria D B",
+    "description": "Add Azure Database For Maria D B to diagram",
+    "body": [
+      "AzureDatabaseForMariaDB(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDatabaseForMariaDB_Descr": {
+    "prefix": "Azure Database For Maria D B with Description",
+    "description": "Add Azure Database For Maria D B with Description to diagram",
+    "body": [
+      "AzureDatabaseForMariaDB(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -719,6 +815,22 @@
       "$0"
     ]
   },
+  "AzureDigitalTwins": {
+    "prefix": "Azure Digital Twins",
+    "description": "Add Azure Digital Twins to diagram",
+    "body": [
+      "AzureDigitalTwins(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDigitalTwins_Descr": {
+    "prefix": "Azure Digital Twins with Description",
+    "description": "Add Azure Digital Twins with Description to diagram",
+    "body": [
+      "AzureDigitalTwins(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureIoTCentral": {
     "prefix": "Azure Io T Central",
     "description": "Add Azure Io T Central to diagram",
@@ -863,6 +975,38 @@
       "$0"
     ]
   },
+  "AzureManagedApplications": {
+    "prefix": "Azure Managed Applications",
+    "description": "Add Azure Managed Applications to diagram",
+    "body": [
+      "AzureManagedApplications(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureManagedApplications_Descr": {
+    "prefix": "Azure Managed Applications with Description",
+    "description": "Add Azure Managed Applications with Description to diagram",
+    "body": [
+      "AzureManagedApplications(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureManagementGroups": {
+    "prefix": "Azure Management Groups",
+    "description": "Add Azure Management Groups to diagram",
+    "body": [
+      "AzureManagementGroups(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureManagementGroups_Descr": {
+    "prefix": "Azure Management Groups with Description",
+    "description": "Add Azure Management Groups with Description to diagram",
+    "body": [
+      "AzureManagementGroups(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureMonitor": {
     "prefix": "Azure Monitor",
     "description": "Add Azure Monitor to diagram",
@@ -895,19 +1039,19 @@
       "$0"
     ]
   },
-  "AzureResourceManager": {
-    "prefix": "Azure Resource Manager",
-    "description": "Add Azure Resource Manager to diagram",
+  "AzureResourceGroups": {
+    "prefix": "Azure Resource Groups",
+    "description": "Add Azure Resource Groups to diagram",
     "body": [
-      "AzureResourceManager(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "AzureResourceGroups(${1:alias}, \"${2:label}\", \"${3:technology}\")",
       "$0"
     ]
   },
-  "AzureResourceManager_Descr": {
-    "prefix": "Azure Resource Manager with Description",
-    "description": "Add Azure Resource Manager with Description to diagram",
+  "AzureResourceGroups_Descr": {
+    "prefix": "Azure Resource Groups with Description",
+    "description": "Add Azure Resource Groups with Description to diagram",
     "body": [
-      "AzureResourceManager(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "AzureResourceGroups(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -940,6 +1084,22 @@
     "description": "Add Azure Site Recovery with Description to diagram",
     "body": [
       "AzureSiteRecovery(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureSubscription": {
+    "prefix": "Azure Subscription",
+    "description": "Add Azure Subscription to diagram",
+    "body": [
+      "AzureSubscription(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureSubscription_Descr": {
+    "prefix": "Azure Subscription with Description",
+    "description": "Add Azure Subscription with Description to diagram",
+    "body": [
+      "AzureSubscription(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -1164,6 +1324,22 @@
     "description": "Add Azure Key Vault with Description to diagram",
     "body": [
       "AzureKeyVault(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureSentinel": {
+    "prefix": "Azure Sentinel",
+    "description": "Add Azure Sentinel to diagram",
+    "body": [
+      "AzureSentinel(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureSentinel_Descr": {
+    "prefix": "Azure Sentinel with Description",
+    "description": "Add Azure Sentinel with Description to diagram",
+    "body": [
+      "AzureSentinel(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },

@@ -1,0 +1,10 @@
+sprite $AzureMachineLearningService [60x65/16z] {
+xTD5WiKm38DXXy6z_tM7Isf0Gxly---1t4epXOJet-sooowxxB8sGJmrkTmpl4NgU9g0Ufv6e96d0UY-aujJwe7cVR-gOK9TWSn1LSURMQHMFYlwLhK3Qafd
+ugGVLSC_4s6VNhygNPmw4tizAkHXypv2rRDC71OcFakJmyB4zqB_i3XnLipt3eiJ1yNmp0Rf-Q_A19lScRY73HmM9XxYqgVuXqw4Puv8tUa0uvb3Os82XzPX
+8y3psS8ps_AScCIkFChDMfT2gLklfqqFIkFiaFBOovNM8KKi0fJ7zVP0JY3WBEBWpzBOYGXG6ijkWHAudgzHtUWkBv85IkBFTnmc9h5y19IpzTD6s8d2wTCQ
+e4mVV_SL
+}
+
+AzureEntityColoring(AzureMachineLearningService)
+!define AzureMachineLearningService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachineLearningService, AzureMachineLearningService)
+!define AzureMachineLearningService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachineLearningService, AzureMachineLearningService)

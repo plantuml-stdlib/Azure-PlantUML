@@ -4,6 +4,21 @@ Categories:
   - Source: Azure_logo_icon_50
     Target: Azure
 
+- Name: AIMachineLearning
+  Services:
+  - Source: batch-ai
+    Target: AzureBatchAI   
+  - Source: Azure Bot Service
+    Target: AzureBotService
+  - Source: Azure Cognitive Services
+    Target: AzureCognitiveServices
+  - Source: Azure Machine Learning Service
+    Target: AzureMachineLearningService
+  - Source: Azure Machine Learning Studio
+    Target: AzureMachineLearningStudio
+  - Source: Microsoft Genomics
+    Target: MicrosoftGenomics
+
 - Name: Analytics
   Services:
   - Source: AzureStreamAnalytics
@@ -33,8 +48,6 @@ Categories:
     Target: AzureFunction
   - Source: Azure Batch
     Target: AzureBatch
-  - Source: batch-ai
-    Target: AzureBatchAI
   - Source: Azure Service Fabric
     Target: AzureServiceFabric
   - Source: Azure VM Scale Set
@@ -71,6 +84,8 @@ Categories:
     Target: AzureDatabaseForPostgreSQL
   - Source: mysql
     Target: AzureDatabaseForMySQL
+  - Source: Azure Database MariaDB
+    Target: AzureDatabaseForMariaDB
 
 - Name: DevOps
   Services:
@@ -90,7 +105,7 @@ Categories:
     Target: AzureApplicationInsights
   - Source: Azure DevTest Labs
     Target: AzureDevTestLabs
-  - Source: lab-services
+  - Source: Azure Lab Services
     Target: AzureLabServices
 
 - Name: Identity
@@ -121,10 +136,12 @@ Categories:
     Target: AzureIoTCentral
   - Source: Azure Sphere
     Target: AzureSphere
-  - Source: TimeSeriesInsights
+  - Source: Azure Time Series Insights
     Target: AzureTimeSeriesInsights
   - Source: azure-maps
     Target: AzureMaps
+  - Source: Azure Digital Twins
+    Target: AzureDigitalTwins
 
 - Name: Management
   Services:
@@ -136,16 +153,22 @@ Categories:
     Target: AzureScheduler
   - Source: Azure Automation
     Target: AzureAutomation
-  - Source: OMS Log Analytics
+  - Source: Azure Log Analytics
     Target: AzureLogAnalytics
   - Source: Azure Monitor
     Target: AzureMonitor
-  - Source: Resource Group
-    Target: AzureResourceManager
+  - Source: Azure Resource Groups
+    Target: AzureResourceGroups
   - Source: AzurePolicy
     Target: AzurePolicy
   - Source: Azure Blueprints
-    Target: AzureBlueprints    
+    Target: AzureBlueprints
+  - Source: Azure Subscription New
+    Target: AzureSubscription
+  - Source: Azure Management Groups
+    Target: AzureManagementGroups
+  - Source: Azure Managed Applications
+    Target: AzureManagedApplications   
            
 - Name: Media
   Services:
@@ -188,6 +211,8 @@ Categories:
     Target: AzureInformationProtection
   - Source: Azure Key Vault
     Target: AzureKeyVault
+  - Source: Azure Sentinel
+    Target: AzureSentinel    
 
 - Name: Storage
   Services:

@@ -13,6 +13,18 @@ AzureEntityColoring(AzureCosmosDb)
 !define AzureCosmosDb(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCosmosDb, AzureCosmosDb)
 !define AzureCosmosDb(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCosmosDb, AzureCosmosDb)
 
+sprite $AzureDatabaseForMariaDB [49x65/16z] {
+xTHN4lCg38RXJwW04jx_Tiyuf0m-9i5_RyzjzCPD0tuyIYntp8dm3ekg7Ab8mWbYbJbb7CWdAiFVgtocX2UL5OedkH3G_mDzaS5jtl0gLCtoWPazEkoqCNP9
+rVBK7b6VYwq9EjPfe8nE8hPjg_HQ2r6pyQyblNukSGksLXa3wZ2W7BkjYynu9rcDRdjgrOHmWhLuF6sZvhMOgWYpY6ekrMEqJGnptolu5tZDqEKW9m0fhGQU
+m8gKaoy62GY3cSPQ8EWqreAChiHQuEXgB0QC6ux58AFBYu43dQy5Ja0NIq5zpgULm0LF-Z48O-2blWsYA650CGzQ9k38va4adF1fK756OXPKdF9Pu1WHRdGM
+DC8W9UoOPGZcpsi0a8i1nw0LvJujDLfhKOi9P-qxKHbv31gXIpxi4WsVUBX2nixQi4i6eCHvG01979OFe7hbvCjI_jZZlbqDwiMWKBiM459S2HW0od9G23Uf
+jfMWC9x8_4FWHXYH5c_dWHSbd4jYkRf7D8zmhoMRC0R_0G
+}
+
+AzureEntityColoring(AzureDatabaseForMariaDB)
+!define AzureDatabaseForMariaDB(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabaseForMariaDB, AzureDatabaseForMariaDB)
+!define AzureDatabaseForMariaDB(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabaseForMariaDB, AzureDatabaseForMariaDB)
+
 sprite $AzureDatabaseForMySQL [49x65/16z] {
 xTG5WkCm341HiIqhzp_lEgHIS9dUO5lzS08_7nBBWfaGZh1ie-rfbNtAy4PKpi0JL3cd24db2lsw0A6JTphQt0kSinmpi_AilyvqdWo24QbQsJLMynpw498d
 OZV8qy3kmp1KX0MolAt8L1XXPQtvq4KbU868X1qympu-1rsu4Xn1gQtDGMfL6RQGcBT91YcQLrCHPYHc5hMQinbiyvP-s-1_u890DK-t8P3uGH0mAKiWCAA3

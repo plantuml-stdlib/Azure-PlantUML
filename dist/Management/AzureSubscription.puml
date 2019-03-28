@@ -1,0 +1,9 @@
+sprite $AzureSubscription [40x65/16z] {
+xTO5ZiH034HHsvNxNtdHlV0LbMf1F5ymaDSeIh6HfAdojROE6A1bqZW6wDXqxxTshDuI8LdprprJRJgG36u0mJ0V8AuN_v3nl8IytkwH29Vv6in1HLLdhkTi
+_hvPDygSCfSt8QlpvRxZgYRPtzH2uvOTkB5b2qtB02qZ92FqZ92CC6A4P8Ha7fAnY772ikwwhX-w2PqcT9h_TVE_vwZGANKAd8EFUmbTPwxj2yUwPGv-CWl1
+75pc8PY3NKbznvu1
+}
+
+AzureEntityColoring(AzureSubscription)
+!define AzureSubscription(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSubscription, AzureSubscription)
+!define AzureSubscription(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSubscription, AzureSubscription)

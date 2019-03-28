@@ -1,0 +1,11 @@
+sprite $AzureBotService [65x65/16z] {
+jPY7TiDG24ED4Fx_F-wkycXmpJkSg2DUN8ONvBYIWH7dfo88E_O4ddz5jAsDPorQotcSrmhSUb_DW_ufCfPj_qVXAUMwADvmNoOBtWK1cTzL5xLz8qcBQuAN
+6VOFGt9_7mHg-wEZYc2oxnFofhPzVRW_srif05-Xgv1h0fO0FA-4PuiGhml8CKChJO2SGW4e70bUYRAoRwzQvD6IFrnHRhNK1sI_MjW0oF5l2MqJeDf3e5s0
+GiyP64cq0Ch1VW9vLCPR02Nloc0Be1p08S135zG-uDEMN_ygWC6qMSi2g8hBZPW1le2Pjbf-Z5G0tV1OdfSR01d9hM2lY61SW_5Pg07zwo2-A8ChaPZU2-Ex
+yJkEBW0ay_D07ps0f1BeqROBaA50Mm1be0NR1fWSQsaB8BzwDoelUYLK0KHwEskn5Aic1Ra_w0FK7-GEfGsGHS4302jrIEgHfbtQj4-qOQTgTQ_Uw9NLQesw
+TKpdXUd4SZipeJ4ppQUs_joOjjbmSXtEpg-OtiVV7xm3
+}
+
+AzureEntityColoring(AzureBotService)
+!define AzureBotService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBotService, AzureBotService)
+!define AzureBotService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBotService, AzureBotService)

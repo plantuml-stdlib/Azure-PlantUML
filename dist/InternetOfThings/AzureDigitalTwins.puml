@@ -1,0 +1,10 @@
+sprite $AzureDigitalTwins [58x65/16z] {
+xPQ7OiGW28OFL73S-pzl4yKk0XdTu-lkVvzRSkq0SDlYYypgufhPeNmB4n0lcO5u8OgfNrijC_60G9jjK3RDo1DIPct2bWdTYRtZyDfiarewQqin2AkIrick
+FqrJk2-qILcClh2ySChCslH7c-pHNbyXfLxP5Ja9vVH9a5wTqzV51BSpff1BwJylcAt-9lFVhEMIYOcPAPolVP47f4t_bWMU96MM9coQGo9UGBkQF9a1XBWO
+96E-NlleOsiV9O7aOOHRVTPf5glsfH1v8LfFfBgvjeaVaLrHlLgrZrZ0qwSlTe-kr3x89ODrukyxjqpkYaPsKFXMPjKiQds1DWsurPl3lucSSp0zEmRYZk7Q
+CV14PtvC_0WepuknDmSu2ex2YQFy2zXangHDcCDgYlmyrcQO1RKgyenrdoWrHjvKBkWO9RON3vNeniYJg3q_Ha_qOuZ4bDHGTVm
+}
+
+AzureEntityColoring(AzureDigitalTwins)
+!define AzureDigitalTwins(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDigitalTwins, AzureDigitalTwins)
+!define AzureDigitalTwins(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDigitalTwins, AzureDigitalTwins)
