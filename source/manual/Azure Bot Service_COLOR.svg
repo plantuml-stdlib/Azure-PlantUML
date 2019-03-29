@@ -1,1 +1,91 @@
-<svg viewBox="0 0 88 88" class="" role="presentation" focusable="false" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="FxSymbol0-086"><g><title></title><title>Asset 5</title><g class="msportalfx-svg-c15" fill="#59b4d9"><circle cx="36" cy="44" r="4"></circle><circle cx="52" cy="44" r="4"></circle><path d="M20 33h5v35h-5z"></path><path d="M20 63h35v5H20zm43-43h5v35h-5z"></path><path d="M33 20h35v5H33z"></path><path d="M44 0a44 44 0 1 0 44 44A44 44 0 0 0 44 0zm0 82a38 38 0 1 1 38-38 38 38 0 0 1-38 38z"></path></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 88 88"
+   class=""
+   role="presentation"
+   focusable="false"
+   id="FxSymbol0-086"
+   version="1.1"
+   sodipodi:docname="Azure Bot Service_COLOR.svg"
+   width="88"
+   height="88"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs25" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview23"
+     showgrid="false"
+     inkscape:zoom="2.6818182"
+     inkscape:cx="44"
+     inkscape:cy="44"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="FxSymbol0-086" />
+  <g
+     id="g20">
+    <title
+       id="title2" />
+    <title
+       id="title4">Asset 5</title>
+    <g
+       class="msportalfx-svg-c15"
+       id="g18"
+       style="fill:#59b4d9">
+      <circle
+         cx="36"
+         cy="44"
+         r="4"
+         id="circle6" />
+      <circle
+         cx="52"
+         cy="44"
+         r="4"
+         id="circle8" />
+      <path
+         d="m 20,33 h 5 v 35 h -5 z"
+         id="path10"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 20,63 h 35 v 5 H 20 Z M 63,20 h 5 v 35 h -5 z"
+         id="path12"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 33,20 h 35 v 5 H 33 Z"
+         id="path14"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 44,0 A 44,44 0 1 0 88,44 44,44 0 0 0 44,0 Z m 0,82 A 38,38 0 1 1 82,44 38,38 0 0 1 44,82 Z"
+         id="path16"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

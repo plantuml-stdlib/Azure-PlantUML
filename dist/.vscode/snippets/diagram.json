@@ -1,4 +1,20 @@
 {
+  "AzureC4Integration": {
+    "prefix": "Azure C4 Integration",
+    "description": "Add Azure C4 Integration to diagram",
+    "body": [
+      "AzureC4Integration(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureC4Integration_Descr": {
+    "prefix": "Azure C4 Integration with Description",
+    "description": "Add Azure C4 Integration with Description to diagram",
+    "body": [
+      "AzureC4Integration(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureCommon": {
     "prefix": "Azure Common",
     "description": "Add Azure Common to diagram",
@@ -12,6 +28,22 @@
     "description": "Add Azure Common with Description to diagram",
     "body": [
       "AzureCommon(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureRaw": {
+    "prefix": "Azure Raw",
+    "description": "Add Azure Raw to diagram",
+    "body": [
+      "AzureRaw(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureRaw_Descr": {
+    "prefix": "Azure Raw with Description",
+    "description": "Add Azure Raw with Description to diagram",
+    "body": [
+      "AzureRaw(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -1343,22 +1375,6 @@
       "$0"
     ]
   },
-  "AzureAzureNetAppFiles": {
-    "prefix": "Azure Azure Net App Files",
-    "description": "Add Azure Azure Net App Files to diagram",
-    "body": [
-      "AzureAzureNetAppFiles(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureAzureNetAppFiles_Descr": {
-    "prefix": "Azure Azure Net App Files with Description",
-    "description": "Add Azure Azure Net App Files with Description to diagram",
-    "body": [
-      "AzureAzureNetAppFiles(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "AzureBlobStorage": {
     "prefix": "Azure Blob Storage",
     "description": "Add Azure Blob Storage to diagram",
@@ -1452,6 +1468,22 @@
     "description": "Add Azure Managed Disks with Description to diagram",
     "body": [
       "AzureManagedDisks(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureNetAppFiles": {
+    "prefix": "Azure Net App Files",
+    "description": "Add Azure Net App Files to diagram",
+    "body": [
+      "AzureNetAppFiles(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureNetAppFiles_Descr": {
+    "prefix": "Azure Net App Files with Description",
+    "description": "Add Azure Net App Files with Description to diagram",
+    "body": [
+      "AzureNetAppFiles(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },

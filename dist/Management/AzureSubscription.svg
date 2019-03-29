@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43pt" height="70pt" viewBox="0 0 43 70" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="43" height="70" style="fill:rgb(0%,0%,0%);fill-opacity:0.4;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="43" height="70"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,54.901961%,0%);fill-opacity:1;" d="M 17.65625 61.542969 L 20.46875 64.34375 L 20.46875 42.011719 L 17.65625 40.609375 Z M 17.65625 61.542969 "/>
+</g>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="43" height="70" style="fill:rgb(0%,0%,0%);fill-opacity:0.501961;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="43" height="70"/>
+</clipPath>
+<g id="surface8" clip-path="url(#clip2)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 8.140625 19.0625 L 33.996094 19.0625 L 33.996094 22.8125 L 8.140625 22.8125 Z M 8.140625 25.164063 L 33.996094 25.164063 L 33.996094 28.914063 L 8.140625 28.914063 Z M 8.140625 25.164063 "/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(98.823529%,81.960784%,8.627451%);fill-opacity:1;" d="M 40.691406 27.332031 C 43.773438 24.222656 43.773438 19.179688 40.691406 16.070313 L 27.082031 2.332031 C 24 -0.777344 19.003906 -0.777344 15.921875 2.332031 L 2.308594 16.070313 C -0.769531 19.179688 -0.769531 24.222656 2.308594 27.332031 L 14.285156 39.421875 L 14.285156 62.71875 L 21.5 70 L 27.769531 63.671875 L 27.769531 63.628906 L 31.449219 59.914063 L 27.800781 56.234375 L 31.449219 52.550781 L 27.800781 48.871094 L 31.449219 45.191406 L 27.769531 41.476563 L 27.769531 40.378906 Z M 21.503906 5.652344 C 23.121094 5.625 24.628906 6.480469 25.449219 7.890625 C 26.265625 9.300781 26.265625 11.046875 25.449219 12.457031 C 24.628906 13.871094 23.121094 14.726563 21.503906 14.695313 C 19.058594 14.652344 17.101563 12.640625 17.101563 10.175781 C 17.101563 7.707031 19.058594 5.695313 21.503906 5.652344 Z M 21.503906 5.652344 "/>
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+<use xlink:href="#surface8" mask="url(#mask1)"/>
+</g>
+</svg>

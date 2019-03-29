@@ -1,10 +1,80 @@
-<svg aria-hidden="true" role="presentation">
-<defs>
-    <style type="text/css">
-      <![CDATA[
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   role="presentation"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="AzureStreamAnalytics_COLOR.svg"
+   width="39.599998"
+   height="31.799999"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="2.36"
+     inkscape:cx="44.7"
+     inkscape:cy="-9"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg18" />
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="style2"><![CDATA[
         .msportalfx-svg-c01{fill:#fff}.msportalfx-svg-c02{fill:#e5e5e5}.msportalfx-svg-c03{fill:#a0a1a2}.msportalfx-svg-c04{fill:#7a7a7a}.msportalfx-svg-c05{fill:#3e3e3e}.msportalfx-svg-c06{fill:#1e1e1e}.msportalfx-svg-c07{fill:#0f0f0f}.msportalfx-svg-c08{fill:#ba141a}.msportalfx-svg-c09{fill:#dd5900}.msportalfx-svg-c10{fill:#ff8c00}.msportalfx-svg-c11{fill:#fcd116}.msportalfx-svg-c12{fill:#fee087}.msportalfx-svg-c13{fill:#b8d432}.msportalfx-svg-c14{fill:#7fba00}.msportalfx-svg-c15{fill:#59b4d9}.msportalfx-svg-c16{fill:#3999c6}.msportalfx-svg-c17{fill:#804998}.msportalfx-svg-c18{fill:#ec008c}.msportalfx-svg-c19{fill:#0072c6}.msportalfx-svg-c20{fill:#68217a}.msportalfx-svg-c21{fill:#00188f}.msportalfx-svg-c22{fill:#e81123}.msportalfx-svg-c23{fill:#cae3f3}.msportalfx-svg-c24{fill:#59aed3}.msportalfx-svg-c25{fill:#4c3b12}.msportalfx-svg-c26{fill:#be9555}.msportalfx-svg-c27{fill:#4f4d52}.msportalfx-svg-c28{fill:#ef6f59}.msportalfx-svg-c29{fill:#f7cb64}.msportalfx-svg-c97{fill:#ffb900}.msportalfx-svg-c98{fill:#00a4ef}.msportalfx-svg-c99{fill:#f25022}
-      ]]>
-    </style>
+      ]]></style>
   </defs>
-<g><title></title><g class="msportalfx-svg-c14"><path d="M39.6 30.5l1-2.5 4.3-1.6-.1-3.6-.5-.2-3.8-1.2-1.2-2.4 1.9-4.2-.1-.1-2.5-2.4-.5.3-3.5 1.9-2.5-1-1.6-4.3-3.6.1-.2.5-1.2 3.8-2.4 1.1L19 13l-2.5 2.6.3.5 1.2 2.2c1.9-1.2 4.1-1.8 6.4-1.8 3.5 0 6.9 1.5 9.4 4.3 0 0 0 .1.1.1l.1.1c2.2 2.7 1.9 6.7-.8 8.9-2.5 2.1-6.2 1.9-8.5-.3h-.2c-.5 0-1 .2-1.4.7l-.1.1c-1.5 1.6-3.2 2.8-5.2 3.5l-.6 1.4 2.4 2.3.2.2.5-.2 3.5-1.9 2.5 1 1.6 4.3 3.6-.1.2-.5 1.2-3.8 2.4-1.1 4.2 1.9 2.5-2.6-.5-.8-1.9-3.5z"></path><path d="M18.4 24.4c0 .1 0 .1 0 0l-.1.1c-2.7 2.9-7 2.9-9.7 0-.3-.4-.9-.4-1.2 0-.2.2-.2.4-.2.7s.1.5.2.7c3.3 3.7 8.7 3.7 12.1 0 0 0 0-.1.1-.1 2.7-2.9 7-2.9 9.7 0 .3.4.9.4 1.2 0 .2-.2.2-.4.2-.7 0-.2-.1-.5-.2-.7-3.4-3.6-8.8-3.6-12.1 0"></path><path d="M24.5 25.6c-1.5 0-2.8.6-3.8 1.8 0 0 0 .1-.1.1l-.1.1c-1.9 2-4.3 3.2-6.9 3.2-2.6 0-5.1-1.1-6.9-3.2-.3-.4-.9-.4-1.2 0-.2.2-.2.4-.2.7 0 .2.1.5.2.7 2.2 2.4 5.1 3.7 8.1 3.7 3.1 0 6-1.3 8.1-3.7 0 0 0-.1.1-.1l.1-.1c.7-.8 1.7-1.2 2.7-1.2 1 0 1.9.4 2.7 1.2.3.4.9.4 1.2 0 .2-.2.2-.4.2-.7s-.1-.5-.2-.7c-1.2-1.2-2.6-1.8-4-1.8m8-4.1c-2.2-2.4-5.1-3.7-8.1-3.7-3.1 0-6 1.3-8.1 3.7 0 0 0 .1-.1.1l-.1.1c-.7.8-1.7 1.2-2.7 1.2-1 0-2-.4-2.7-1.2-.3-.4-.9-.4-1.2 0-.2.2-.2.4-.2.7 0 .2.1.5.2.7 1 1.1 2.4 1.8 3.9 1.8s2.8-.6 3.8-1.8c0 0 0-.1.1-.1l.1-.1c1.9-2 4.3-3.2 6.9-3.2 2.6 0 5.1 1.1 6.9 3.2.3.4.9.4 1.2 0 .2-.2.2-.4.2-.7.2-.3.1-.5-.1-.7"></path></g></g>
+  <g
+     id="g16"
+     transform="translate(-5.3,-9.2)">
+    <title
+       id="title6" />
+    <g
+       class="msportalfx-svg-c14"
+       id="g14"
+       style="fill:#7fba00">
+      <path
+         d="m 39.6,30.5 1,-2.5 4.3,-1.6 -0.1,-3.6 -0.5,-0.2 -3.8,-1.2 -1.2,-2.4 1.9,-4.2 -0.1,-0.1 -2.5,-2.4 -0.5,0.3 -3.5,1.9 -2.5,-1 -1.6,-4.3 -3.6,0.1 -0.2,0.5 -1.2,3.8 -2.4,1.1 -4.1,-1.7 -2.5,2.6 0.3,0.5 1.2,2.2 c 1.9,-1.2 4.1,-1.8 6.4,-1.8 3.5,0 6.9,1.5 9.4,4.3 0,0 0,0.1 0.1,0.1 L 34,21 c 2.2,2.7 1.9,6.7 -0.8,8.9 -2.5,2.1 -6.2,1.9 -8.5,-0.3 h -0.2 c -0.5,0 -1,0.2 -1.4,0.7 L 23,30.4 c -1.5,1.6 -3.2,2.8 -5.2,3.5 l -0.6,1.4 2.4,2.3 0.2,0.2 0.5,-0.2 3.5,-1.9 2.5,1 1.6,4.3 3.6,-0.1 0.2,-0.5 1.2,-3.8 2.4,-1.1 4.2,1.9 L 42,34.8 41.5,34 Z"
+         id="path8"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 18.4,24.4 c 0,0.1 0,0.1 0,0 l -0.1,0.1 c -2.7,2.9 -7,2.9 -9.7,0 -0.3,-0.4 -0.9,-0.4 -1.2,0 -0.2,0.2 -0.2,0.4 -0.2,0.7 0,0.3 0.1,0.5 0.2,0.7 3.3,3.7 8.7,3.7 12.1,0 0,0 0,-0.1 0.1,-0.1 2.7,-2.9 7,-2.9 9.7,0 0.3,0.4 0.9,0.4 1.2,0 0.2,-0.2 0.2,-0.4 0.2,-0.7 0,-0.2 -0.1,-0.5 -0.2,-0.7 -3.4,-3.6 -8.8,-3.6 -12.1,0"
+         id="path10"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 24.5,25.6 c -1.5,0 -2.8,0.6 -3.8,1.8 0,0 0,0.1 -0.1,0.1 l -0.1,0.1 c -1.9,2 -4.3,3.2 -6.9,3.2 -2.6,0 -5.1,-1.1 -6.9,-3.2 -0.3,-0.4 -0.9,-0.4 -1.2,0 -0.2,0.2 -0.2,0.4 -0.2,0.7 0,0.2 0.1,0.5 0.2,0.7 2.2,2.4 5.1,3.7 8.1,3.7 3.1,0 6,-1.3 8.1,-3.7 0,0 0,-0.1 0.1,-0.1 l 0.1,-0.1 c 0.7,-0.8 1.7,-1.2 2.7,-1.2 1,0 1.9,0.4 2.7,1.2 0.3,0.4 0.9,0.4 1.2,0 0.2,-0.2 0.2,-0.4 0.2,-0.7 0,-0.3 -0.1,-0.5 -0.2,-0.7 -1.2,-1.2 -2.6,-1.8 -4,-1.8 m 8,-4.1 c -2.2,-2.4 -5.1,-3.7 -8.1,-3.7 -3.1,0 -6,1.3 -8.1,3.7 0,0 0,0.1 -0.1,0.1 l -0.1,0.1 c -0.7,0.8 -1.7,1.2 -2.7,1.2 -1,0 -2,-0.4 -2.7,-1.2 -0.3,-0.4 -0.9,-0.4 -1.2,0 -0.2,0.2 -0.2,0.4 -0.2,0.7 0,0.2 0.1,0.5 0.2,0.7 1,1.1 2.4,1.8 3.9,1.8 1.5,0 2.8,-0.6 3.8,-1.8 0,0 0,-0.1 0.1,-0.1 l 0.1,-0.1 c 1.9,-2 4.3,-3.2 6.9,-3.2 2.6,0 5.1,1.1 6.9,3.2 0.3,0.4 0.9,0.4 1.2,0 0.2,-0.2 0.2,-0.4 0.2,-0.7 0.2,-0.3 0.1,-0.5 -0.1,-0.7"
+         id="path12"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
 </svg>

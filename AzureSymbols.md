@@ -127,13 +127,13 @@ Networking | AzureVPNGateway </br> (Azure  Gateway) | ![AzureVPNGateway](dist/Ne
 Security | AzureKeyVault </br> (Azure Key Vault) | ![AzureKeyVault](dist/Security/AzureKeyVault.png?raw=true) | ![AzureKeyVault](dist/Security/AzureKeyVault(m).png?raw=true) | Security/AzureKeyVault.puml
 Security | AzureSentinel </br> (Azure Sentinel) | ![AzureSentinel](dist/Security/AzureSentinel.png?raw=true) | ![AzureSentinel](dist/Security/AzureSentinel(m).png?raw=true) | Security/AzureSentinel.puml
 **Storage** | | | | **Storage/all.puml**
-Storage | AzureAzureNetAppFiles </br> (Azure Azure Net App Files) | ![AzureAzureNetAppFiles](dist/Storage/AzureAzureNetAppFiles.png?raw=true) | ![AzureAzureNetAppFiles](dist/Storage/AzureAzureNetAppFiles(m).png?raw=true) | Storage/AzureAzureNetAppFiles.puml
 Storage | AzureBlobStorage </br> (Azure Blob Storage) |  |![AzureBlobStorage](dist/Storage/AzureBlobStorage(m).png?raw=true) | Storage/AzureBlobStorage.puml
 Storage | AzureDataBox </br> (Azure Data Box) | ![AzureDataBox](dist/Storage/AzureDataBox.png?raw=true) | ![AzureDataBox](dist/Storage/AzureDataBox(m).png?raw=true) | Storage/AzureDataBox.puml
 Storage | AzureDataLakeStorage </br> (Azure Data Lake Storage) | ![AzureDataLakeStorage](dist/Storage/AzureDataLakeStorage.png?raw=true) | ![AzureDataLakeStorage](dist/Storage/AzureDataLakeStorage(m).png?raw=true) | Storage/AzureDataLakeStorage.puml
 Storage | AzureDiskStorage </br> (Azure Disk Storage) | ![AzureDiskStorage](dist/Storage/AzureDiskStorage.png?raw=true) | ![AzureDiskStorage](dist/Storage/AzureDiskStorage(m).png?raw=true) | Storage/AzureDiskStorage.puml
 Storage | AzureFileStorage </br> (Azure File Storage) |  |![AzureFileStorage](dist/Storage/AzureFileStorage(m).png?raw=true) | Storage/AzureFileStorage.puml
 Storage | AzureManagedDisks </br> (Azure Managed Disks) | ![AzureManagedDisks](dist/Storage/AzureManagedDisks.png?raw=true) | ![AzureManagedDisks](dist/Storage/AzureManagedDisks(m).png?raw=true) | Storage/AzureManagedDisks.puml
+Storage | AzureNetAppFiles </br> (Azure Net App Files) | ![AzureNetAppFiles](dist/Storage/AzureNetAppFiles.png?raw=true) | ![AzureNetAppFiles](dist/Storage/AzureNetAppFiles(m).png?raw=true) | Storage/AzureNetAppFiles.puml
 Storage | AzureQueueStorage </br> (Azure Queue Storage) |  |![AzureQueueStorage](dist/Storage/AzureQueueStorage(m).png?raw=true) | Storage/AzureQueueStorage.puml
 Storage | AzureStorage </br> (Azure Storage) |  |![AzureStorage](dist/Storage/AzureStorage(m).png?raw=true) | Storage/AzureStorage.puml
 Storage | AzureStorSimple </br> (Azure Stor Simple) | ![AzureStorSimple](dist/Storage/AzureStorSimple.png?raw=true) | ![AzureStorSimple](dist/Storage/AzureStorSimple(m).png?raw=true) | Storage/AzureStorSimple.puml

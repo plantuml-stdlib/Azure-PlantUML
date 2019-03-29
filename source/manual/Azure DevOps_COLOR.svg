@@ -1,1 +1,131 @@
-<svg version="1.1" width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden"><defs><path d=" M 9.72656 -9.67496e-06 L 0 12.7049 L 0 39.8795 L 9.72656 41.686 L 9.72656 -9.67496e-06 Z" id="path0_fill"/><path d=" M -3.27778e-05 4.28298 L -3.27778e-05 78.4837 L 23.4705 59.132 L 23.4705 -6.25618e-06 L -3.27778e-05 4.28298 Z" id="path1_fill"/><path d=" M 0 35.5653 L 72.5295 21.761 L 42.7189 8.15647e-06 L 42.7189 9.96245 L 9.72656 22.8604 L 0 35.5653 Z" id="path2_fill"/><path d=" M 2.5e-06 5.27567e-06 L 86.2734 12.0637 L 62.803 31.4153 L 26.6239 19.3276 L 26.6239 31.4536 L 2.5e-06 5.27567e-06 Z" id="path3_fill"/></defs><g id="Canvas" transform="matrix(1,0,0,1,-2092,-232)"><g id="VSTS_color_scalable"><g id="layer1"><g id="g14217"><g id="path14209"><use width="100%" height="100%" xlink:href="#path0_fill" fill="#0078D7" transform="matrix(2.66667,0,0,2.66667,2092,292.961)"></use></g><g id="path14211"><use width="100%" height="100%" xlink:href="#path1_fill" fill="#0078D7" transform="matrix(2.66667,0,0,2.66667,2285.41,278.608)"></use></g><g id="path14213"><use width="100%" height="100%" xlink:href="#path2_fill" fill="#0078D7" transform="matrix(2.66667,0,0,2.66667,2092,232)"></use></g><g id="path14215"><use width="100%" height="100%" xlink:href="#path3_fill" fill="#0078D7" transform="matrix(2.66667,0,0,2.66667,2117.94,404.124)"></use></g></g></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="256.00269"
+   height="256.00034"
+   viewBox="0 0 256.00269 256.00034"
+   overflow="hidden"
+   id="svg24"
+   sodipodi:docname="Azure DevOps_COLOR.svg"
+   style="overflow:hidden"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview26"
+     showgrid="false"
+     inkscape:zoom="0.921875"
+     inkscape:cx="128"
+     inkscape:cy="128.00037"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg24" />
+  <defs
+     id="defs6">
+    <path
+       d="M 9.72656,-9.67496e-6 0,12.7049 v 27.1746 l 9.72656,1.8065 z"
+       id="path0_fill"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M -3.27778e-5,4.28298 V 78.4837 L 23.4705,59.132 V -6.25618e-6 Z"
+       id="path1_fill"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 0,35.5653 72.5295,21.761 42.7189,8.15647e-6 V 9.96245 L 9.72656,22.8604 Z"
+       id="path2_fill"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 2.5e-6,5.27567e-6 86.2734,12.0637 62.803,31.4153 26.6239,19.3276 v 12.126 z"
+       id="path3_fill"
+       inkscape:connector-curvature="0" />
+  </defs>
+  <g
+     id="Canvas"
+     transform="translate(-2092,-232.00002)">
+    <g
+       id="VSTS_color_scalable">
+      <g
+         id="layer1">
+        <g
+           id="g14217">
+          <g
+             id="path14209">
+            <use
+               width="100%"
+               height="100%"
+               xlink:href="#path0_fill"
+               transform="matrix(2.66667,0,0,2.66667,2092,292.961)"
+               id="use8"
+               style="fill:#0078d7"
+               x="0"
+               y="0" />
+          </g>
+          <g
+             id="path14211">
+            <use
+               width="100%"
+               height="100%"
+               xlink:href="#path1_fill"
+               transform="matrix(2.66667,0,0,2.66667,2285.41,278.608)"
+               id="use11"
+               style="fill:#0078d7"
+               x="0"
+               y="0" />
+          </g>
+          <g
+             id="path14213">
+            <use
+               width="100%"
+               height="100%"
+               xlink:href="#path2_fill"
+               transform="matrix(2.66667,0,0,2.66667,2092,232)"
+               id="use14"
+               style="fill:#0078d7"
+               x="0"
+               y="0" />
+          </g>
+          <g
+             id="path14215">
+            <use
+               width="100%"
+               height="100%"
+               xlink:href="#path3_fill"
+               transform="matrix(2.66667,0,0,2.66667,2117.94,404.124)"
+               id="use17"
+               style="fill:#0078d7"
+               x="0"
+               y="0" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

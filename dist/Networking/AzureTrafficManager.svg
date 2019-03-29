@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0%,0%,0%);fill-opacity:0.8;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 48.351563 2.800781 L 21.683594 2.800781 L 2.800781 22.15625 L 2.800781 48.429688 L 21.648438 67.199219 L 48.355469 67.199219 L 67.199219 48.523438 L 67.199219 21.589844 Z M 46.765625 63.335938 L 46.550781 63.335938 L 30.757813 47.3125 L 34.09375 43.585938 L 22.644531 43.585938 L 22.644531 55.320313 L 26.394531 51.285156 L 38.808594 63.335938 L 23.242188 63.335938 L 6.664063 46.824219 L 6.664063 23.730469 L 11.316406 18.960938 L 23.675781 30.097656 L 16.636719 37.40625 L 39.117188 37.40625 L 39.117188 15.070313 L 31.765625 22.398438 L 19.328125 10.746094 L 23.3125 6.664063 L 46.753906 6.664063 L 63.335938 23.195313 L 63.335938 43.835938 L 55.464844 36.417969 L 61.230469 31.230469 L 45.292969 31.230469 L 45.292969 46.28125 L 50.503906 41.113281 L 59.417969 50.792969 Z M 46.765625 63.335938 "/>
+</g>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0%,0%,0%);fill-opacity:0.2;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface8" clip-path="url(#clip2)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 20.527344 0 L 0 21.039063 L 0 49.597656 L 10.503906 60.058594 L 60.054688 10.507813 L 49.515625 0 Z M 20.527344 0 "/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(50.196078%,28.627451%,59.607843%);fill-opacity:1;" d="M 49.515625 0 L 20.527344 0 L 0 21.039063 L 0 49.597656 L 20.484375 70 L 49.515625 70 L 70 49.699219 L 70 20.421875 Z M 49.515625 0 "/>
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+<use xlink:href="#surface8" mask="url(#mask1)"/>
+</g>
+</svg>

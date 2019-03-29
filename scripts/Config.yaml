@@ -6,7 +6,7 @@ Categories:
 
 - Name: AIMachineLearning
   Services:
-  - Source: batch-ai
+  - Source: Azure Batch AI
     Target: AzureBatchAI   
   - Source: Azure Bot Service
     Target: AzureBotService
@@ -61,7 +61,7 @@ Categories:
     Target: AzureContainerInstance
   - Source: Azure Service Fabric Mesh
     Target: AzureServiceFabricMesh
-  - Source: kubernetes-service
+  - Source: Azure Kubernetes Service
     Target: AzureKubernetesService   
   - Source: app-service-containers
     Target: AzureWebAppForContainers
@@ -238,8 +238,8 @@ Categories:
     Target: AzureStorageExplorer
   - Source: Archive Storage
     Target: AzureArchiveStorage
-  - Source: netapp
-    Target: AzureAzureNetAppFiles
+  - Source: Azure NetApp Files
+    Target: AzureNetAppFiles
 
 - Name: Web
   Services:
@@ -251,5 +251,5 @@ Categories:
     Target: AzureSearch
   - Source: Azure App Service - Web App (was Websites)
     Target: AzureWebApp
-  - Source: signalr-service
+  - Source: Azure SignalR Service
     Target: AzureSignalRService

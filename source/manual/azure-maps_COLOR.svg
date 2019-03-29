@@ -11,8 +11,10 @@
    role="presentation"
    version="1.1"
    id="svg31"
-   sodipodi:docname="azure-maps.svg"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+   sodipodi:docname="azure-maps_COLOR.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   width="97.401855"
+   height="124.224">
   <metadata
      id="metadata37">
     <rdf:RDF>
@@ -40,31 +42,34 @@
      id="namedview33"
      showgrid="false"
      inkscape:zoom="2.36"
-     inkscape:cx="50"
-     inkscape:cy="50"
+     inkscape:cx="49.790503"
+     inkscape:cy="63.20745"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g28" />
   <svg
      id="svg-azure-maps"
-     version="1.1">
+     version="1.1"
+     width="100%"
+     height="100%"
+     transform="translate(-0.20949656,11.016549)">
     <g
        id="g28"
        transform="translate(-12.711864,-7.2033898)"
        style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
       <polygon
-         points="161.8345,122.3458 134.5415,1.8748 120.8935,23.0518 161.1095,120.7008 "
+         points="120.8935,23.0518 161.1095,120.7008 161.8345,122.3458 134.5415,1.8748 "
          id="polygon20"
          style="fill:#0babd1"
          transform="translate(-53.389831,-3.8135593)" />
       <polygon
-         points="68.3657,106.76 121.0737,22.992 143.3627,77.609 "
+         points="143.3627,77.609 68.3657,106.76 121.0737,22.992 "
          id="polygon22"
          style="fill:#0058a1"
          transform="translate(-53.389831,-3.8135593)" />
       <polygon
-         points="143.3628,77.6115 118.6388,87.2115 161.8368,122.3505 "
+         points="161.8368,122.3505 143.3628,77.6115 118.6388,87.2115 "
          id="polygon24"
          style="fill:#1e74bd"
          transform="translate(-53.389831,-3.8135593)" />

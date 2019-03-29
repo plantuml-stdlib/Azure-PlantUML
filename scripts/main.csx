@@ -1,13 +1,12 @@
 #! "netcoreapp2.0"
 
 #load "lib/Config.csx"
-#load "lib/Grayscale.csx"
-#load "lib/Colorize.csx"
 #load "lib/MarkdownGeneration.csx"
-#load "lib/Resize.csx"
 #load "lib/VSCodeSnippets.csx"
 
 using System.Diagnostics;
+using System.Drawing;
+using System.Globalization;
 
 var sourceFolder = @"../source";
 
@@ -17,11 +16,15 @@ var manualSourceFolder = Path.Combine(sourceFolder, "manual");
 
 var targetFolder = @"../dist";
 
-var targetMaxSize = 65;
+var targetImageHeight = 70;
+
+var azureColor = System.Drawing.ColorTranslator.FromHtml("#0072C6");
 
 var plantUmlPath = @"C:\ProgramData\chocolatey\lib\plantuml\tools\plantuml.jar";
 
 var inkScapePath = @"C:\Program Files\Inkscape\inkscape.exe";
+
+static string rsvgConvertPath = @"C:\ProgramData\chocolatey\bin\rsvg-convert.exe";
 
 Main();
 
@@ -39,6 +42,7 @@ public void Main()
     File.Copy(Path.Combine(sourceFolder, "AzureRaw.puml"), Path.Combine(targetFolder, "AzureRaw.puml"));
     File.Copy(Path.Combine(sourceFolder, "AzureCommon.puml"), Path.Combine(targetFolder, "AzureCommon.puml"));
     File.Copy(Path.Combine(sourceFolder, "AzureC4Integration.puml"), Path.Combine(targetFolder, "AzureC4Integration.puml"));
+    File.Copy(Path.Combine(sourceFolder, "AzureSimplified.puml"), Path.Combine(targetFolder, "AzureSimplified.puml"));
 
     foreach (var service in lookupTable)
     {
@@ -62,41 +66,49 @@ public void Main()
 
         Console.WriteLine($"Processing {service.ServiceSource}");
 
-        var coloredPngFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".png");
         if (coloredExists)
         {
-            ConvertToPng(coloredSourceFilePath, coloredPngFilePath, withBackgroundForPuml: false);
-            Resize(coloredPngFilePath, coloredPngFilePath, targetMaxSize, targetMaxSize);
+            // Only if needed - takes too long
+            //FitCanvasToDrawing(coloredSourceFilePath);
+
+            // Resize and copy SVG
+            RsvgConvert(coloredSourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), targetImageHeight);
+            // Resize and export PNG
+            RsvgConvert(coloredSourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".png"), targetImageHeight, exportAsPng: true);
+
+            // ConvertToPng(coloredSourceFilePath, coloredPngFilePath, withBackgroundForPuml: false);
+            // Resize(coloredPngFilePath, coloredPngFilePath, targetMaxSize, targetMaxSize);
         }
         else
         {
             WriteWarningLine($"Warning: Missing COLOR {coloredSourceFileName}");
         }
 
-        var monochromPngFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).png");
-
-        if (!monochromExists)
+        var monochromSvgFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).svg");
+        if (monochromExists)
         {
-            monochromSourceFilePath = coloredSourceFilePath;
-        }
+            // Only if needed - takes too long
+            //FitCanvasToDrawing(monochromSourceFilePath);
 
-        // First generation with background needed for PUML sprite generation
-        ConvertToPng(monochromSourceFilePath, monochromPngFilePath, withBackgroundForPuml: true);
-        if (!monochromExists)
+            // Resize and copy SVG
+            RsvgConvert(monochromSourceFilePath, monochromSvgFilePath, targetImageHeight);    
+        }
+        else
         {
             WriteWarningLine($"Warning: Missing MONOCHROM {monochromSourceFileName}, generating...");
-            CreateMonochrom(monochromPngFilePath, monochromPngFilePath, "#0072C6");
+
+            // Resize and copy colored SVG, making monochrom afterwards
+            RsvgConvert(coloredSourceFilePath, monochromSvgFilePath, targetImageHeight);
+            CreateMonochromNew(monochromSvgFilePath, monochromSvgFilePath);
         }
-        Resize(monochromPngFilePath, monochromPngFilePath, targetMaxSize, targetMaxSize);
+
+        var monochromPngFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).png");
+        // First generation with background needed for PUML sprite generation
+        RsvgConvert(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, exportAsPng: true, withWhiteBackground: true);
         ConvertToPuml(monochromPngFilePath, service.ServiceTarget + ".puml");
 
         // Second generation without background needed other usages
-        ConvertToPng(monochromSourceFilePath, monochromPngFilePath, withBackgroundForPuml: false);
-        if (!monochromExists)
-        {
-            CreateMonochrom(monochromPngFilePath, monochromPngFilePath, "#0072C6");
-        }
-        Resize(monochromPngFilePath, monochromPngFilePath, targetMaxSize, targetMaxSize);
+        RsvgConvert(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, exportAsPng: true, withWhiteBackground: false);
     }
 
     foreach (var category in lookupTable.Select(_ => _.Category).Distinct())
@@ -111,6 +123,132 @@ public void Main()
     GenerateVSCodeSnippets(targetFolder);
 
     Console.WriteLine("Finished");
+}
+
+public bool FitCanvasToDrawing(string inputPath)
+{
+    var processInfo = new ProcessStartInfo
+    {
+        FileName = inkScapePath,
+        Arguments = $"--verb=FitCanvasToDrawing --verb=FileSave --verb=FileClose --verb=FileQuit \"{inputPath}\"",
+        RedirectStandardOutput = true,
+        UseShellExecute = false,
+        CreateNoWindow = true
+    };
+
+    using (var process = Process.Start(processInfo))
+    {
+        if (!process.WaitForExit(10000))
+        {
+            Console.WriteLine($"Killing InkScape for FitCanvasToDrawing {inputPath}");
+            process.Kill();
+            return false;
+        }
+    }
+
+    return true;
+}
+
+public static bool RsvgConvert(string inputPath, string outputPath, int targetImageHeight, bool exportAsPng = false, bool withWhiteBackground = false)
+{
+    var processInfo = new ProcessStartInfo
+    {
+        FileName = rsvgConvertPath,
+        Arguments = $"--height {targetImageHeight} --width {targetImageHeight} --keep-aspect-ratio --output \"{outputPath}\" --format {(exportAsPng ? "png" : "svg")} --background-color {(withWhiteBackground ? "white" : "none")} \"{inputPath}\"",
+        RedirectStandardOutput = true,
+        UseShellExecute = false,
+        CreateNoWindow = true
+    };
+
+    using (var process = Process.Start(processInfo))
+    {
+        if (!process.WaitForExit(10000))
+        {
+            Console.WriteLine($"Killing rsvg-convert {inputPath}");
+            process.Kill();
+            return false;
+        }
+    }
+
+    return true;
+}
+
+public bool CreateMonochromNew(string inputPath, string outputPath)
+{
+    // Making it first grayscale and after that monochrom gives best result
+    ManipulateSvgFills(inputPath, outputPath, (color) =>
+    {
+        var grayScale = (int)((color.R * 0.3f) + (color.G * 0.59f) + (color.B * 0.11f));
+        return Color.FromArgb(grayScale, grayScale, grayScale);
+    });
+
+    ManipulateSvgFills(outputPath, outputPath, (color) =>
+    {
+        HSLColor lowerColor = new HSLColor(color);
+        var upperColor = new HSLColor(azureColor) { Luminosity = lowerColor.Luminosity };
+        return upperColor;
+    });
+
+    return true;
+}
+
+
+
+private static void ManipulateSvgFills(string inputPath, string outputPath, Func<Color, Color> manipulation)
+{
+    var content = File.ReadAllText(inputPath);
+
+    var start = "rgb(";
+    var end = ")";
+    var delimiter = ",";
+
+    var fillStartPos = content.IndexOf(start, 0);
+    while (fillStartPos > 0)
+    {
+        var fillContentStartPos = fillStartPos + start.Length;
+        var fillContentEndPos = content.IndexOf(end, fillContentStartPos);
+
+        var rgbPerc = content
+            .Substring(fillContentStartPos, fillContentEndPos - fillContentStartPos)
+            .Split(delimiter);
+
+        int rValue, gValue, bValue;
+        if (rgbPerc[0].Contains('%'))
+        {
+            var rPercValue = float.Parse(rgbPerc[0].TrimEnd('%'), CultureInfo.InvariantCulture);
+            var gPercValue = float.Parse(rgbPerc[1].TrimEnd('%'), CultureInfo.InvariantCulture);
+            var bPercValue = float.Parse(rgbPerc[2].TrimEnd('%'), CultureInfo.InvariantCulture);
+
+            rValue = (int)Math.Round(rPercValue / 100 * 255);
+            gValue = (int)Math.Round(gPercValue / 100 * 255);
+            bValue = (int)Math.Round(bPercValue / 100 * 255);    
+        }
+        else
+        {
+            rValue = int.Parse(rgbPerc[0]);
+            gValue = int.Parse(rgbPerc[1]);
+            bValue = int.Parse(rgbPerc[2]);
+        }
+
+        var currentColor = Color.FromArgb(rValue, gValue, bValue);
+
+        var newColor = manipulation(currentColor);
+        content = content.ReplaceAt(fillStartPos, fillContentEndPos + 1 - fillStartPos, $"rgb({newColor.R.ToString(CultureInfo.InvariantCulture)},{newColor.G.ToString(CultureInfo.InvariantCulture)},{newColor.B.ToString(CultureInfo.InvariantCulture)})");
+
+        fillStartPos = content.IndexOf(start, fillContentEndPos);
+    }
+
+    File.WriteAllText(outputPath, content);
+}
+
+//// str - the source string
+//// index- the start location to replace at (0-based)
+//// length - the number of characters to be removed before inserting
+//// replace - the string that is replacing characters
+public static string ReplaceAt(this string str, int index, int length, string replace)
+{
+    return str.Remove(index, Math.Min(length, str.Length - index))
+            .Insert(index, replace);
 }
 
 private static void CombineMultipleFilesIntoSingleFile(string inputDirectoryPath, string inputFileNamePattern, string outputFilePath)
@@ -146,14 +284,6 @@ public string GetSourceFilePath(string sourceFileName)
     return sourceFilePath;
 }
 
-public void CreateMonochrom(string sourceFilePath, string targetFilePath, string color)
-{
-    // Making it first grayscale and after that monochrom gives best result
-    var grayPath = MakeGrayscale(sourceFilePath);
-    Colorize(grayPath, targetFilePath, System.Drawing.ColorTranslator.FromHtml(color));
-    File.Delete(grayPath);
-}
-
 public void WriteWarningLine(string message)
 {
     var tmp = Console.ForegroundColor;
@@ -168,37 +298,6 @@ public void WriteErrorLine(string message)
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine(message);
     Console.ForegroundColor = tmp;
-}
-
-public bool ConvertToPng(string svgPath, string pngPath, bool withBackgroundForPuml)
-{
-    var backgroundOpacity = withBackgroundForPuml ? "1.0" : "0.0";
-
-    var processInfo = new ProcessStartInfo
-    {
-        FileName = inkScapePath,
-        Arguments = $"-z --file=\"{svgPath}\" --export-height={targetMaxSize} --export-png=\"{pngPath}\" --export-background=#FFFFFF --export-background-opacity={backgroundOpacity} --export-area-drawing",
-        RedirectStandardOutput = true,
-        UseShellExecute = false,
-        CreateNoWindow = true
-    };
-
-    using (var process = Process.Start(processInfo))
-    {
-        if (!process.WaitForExit(10000))
-        {
-            Console.WriteLine($"Killing InkScape for ConvertToPng {svgPath}");
-            process.Kill();
-            return false;
-        }
-
-        if (!File.Exists(pngPath))
-        {
-            throw new Exception($"File could not be generated for ConvertToPng {svgPath}");
-        }
-    }
-
-    return true;
 }
 
 public string ConvertToPuml(string pngPath, string pumlFileName)

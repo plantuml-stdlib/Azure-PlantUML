@@ -1,5 +1,116 @@
-<svg aria-hidden="true" role="presentation">
-
-<svg id="svg-container-instances"> <path d="M114.978,31.772A32.577,32.577,0,0,0,56.009,14.548,25.789,25.789,0,0,0,15.231,41.306,24.494,24.494,0,0,0,25.314,88.116h82.96a28.573,28.573,0,0,0,6.7-56.344Z" transform="translate(-0.834 -1)" fill="#fff"></path> <path d="M114.978,31.772A32.577,32.577,0,0,0,56.009,14.548,25.789,25.789,0,0,0,15.231,41.306,24.494,24.494,0,0,0,25.314,88.116h82.96a28.573,28.573,0,0,0,6.7-56.344Z" transform="translate(-0.834 -1)" fill="#25a8e0 " opacity="0.6" style="isolation:isolate"></path> <path d="M36.063,60.807a2.732,2.732,0,0,0-2.731,2.731v71a2.732,2.732,0,0,0,2.731,2.731H101.6a2.732,2.732,0,0,0,2.731-2.731v-71a2.732,2.732,0,0,0-2.731-2.731Z" transform="translate(-0.834 -1)" fill="#672a7b "></path> <path d="M36.063,60.807a2.732,2.732,0,0,0-2.731,2.731v71a2.732,2.732,0,0,0,2.731,2.731h8.193L93.412,60.807Z" transform="translate(-0.834 -1)" fill="#fff" opacity="0.15" style="isolation:isolate"></path> <path d="M74.159,44.422" transform="translate(-0.834 -1)" fill="none"></path> <path d="M96.006,55.345" transform="translate(-0.834 -1)" fill="none"></path> <polygon points="62.538 59.807 62.538 40.691 54.345 40.691 68 21.574 81.655 40.691 73.462 40.691 73.462 59.807 62.538 59.807" fill="#fff"></polygon> <path d="M74.159,44.422" transform="translate(-0.834 -1)" fill="#804997 "></path> <path d="M90.681,69H41.524v60.08H96.143V69ZM57.91,123.618H46.986V74.462H57.91Zm16.386,0H63.372V74.462H74.3Zm16.386,0H79.757V74.462H90.681Z" transform="translate(-0.834 -1)" fill="#b92025 " opacity="0.3" style="isolation:isolate"></path> <path d="M90.681,69H41.524v60.08H96.143V69ZM57.91,123.618H46.986V74.462H57.91Zm16.386,0H63.372V74.462H74.3Zm16.386,0H79.757V74.462H90.681Z" transform="translate(-0.834 -1)" fill="#fff" style="isolation:isolate"></path> </svg>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   role="presentation"
+   version="1.1"
+   id="svg23"
+   sodipodi:docname="container-instances_COLOR.svg"
+   width="135.99071"
+   height="136.26958"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata29">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs27" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview25"
+     showgrid="false"
+     inkscape:zoom="2.36"
+     inkscape:cx="49.999872"
+     inkscape:cy="86.269"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg23" />
+  <svg
+     id="svg-container-instances"
+     version="1.1"
+     width="100%"
+     height="100%"
+     transform="translate(-1.2821264e-4,5.7505693e-4)">
+    <path
+       d="M 114.978,31.772 A 32.577,32.577 0 0 0 56.009,14.548 25.789,25.789 0 0 0 15.231,41.306 24.494,24.494 0 0 0 25.314,88.116 h 82.96 a 28.573,28.573 0 0 0 6.7,-56.344 z"
+       transform="translate(-0.834,-1)"
+       id="path2"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff" />
+    <path
+       d="M 114.978,31.772 A 32.577,32.577 0 0 0 56.009,14.548 25.789,25.789 0 0 0 15.231,41.306 24.494,24.494 0 0 0 25.314,88.116 h 82.96 a 28.573,28.573 0 0 0 6.7,-56.344 z"
+       transform="translate(-0.834,-1)"
+       style="opacity:0.6;isolation:isolate;fill:#25a8e0"
+       id="path4"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 36.063,60.807 a 2.732,2.732 0 0 0 -2.731,2.731 v 71 a 2.732,2.732 0 0 0 2.731,2.731 H 101.6 a 2.732,2.732 0 0 0 2.731,-2.731 v -71 A 2.732,2.732 0 0 0 101.6,60.807 Z"
+       transform="translate(-0.834,-1)"
+       id="path6"
+       inkscape:connector-curvature="0"
+       style="fill:#672a7b" />
+    <path
+       d="m 36.063,60.807 a 2.732,2.732 0 0 0 -2.731,2.731 v 71 a 2.732,2.732 0 0 0 2.731,2.731 h 8.193 L 93.412,60.807 Z"
+       transform="translate(-0.834,-1)"
+       style="opacity:0.15;isolation:isolate;fill:#ffffff"
+       id="path8"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 74.159,44.422"
+       transform="translate(-0.834,-1)"
+       id="path10"
+       inkscape:connector-curvature="0"
+       style="fill:none" />
+    <path
+       d="M 96.006,55.345"
+       transform="translate(-0.834,-1)"
+       id="path12"
+       inkscape:connector-curvature="0"
+       style="fill:none" />
+    <polygon
+       points="54.345,40.691 68,21.574 81.655,40.691 73.462,40.691 73.462,59.807 62.538,59.807 62.538,40.691 "
+       id="polygon14"
+       style="fill:#ffffff" />
+    <path
+       d="M 74.159,44.422"
+       transform="translate(-0.834,-1)"
+       id="path16"
+       inkscape:connector-curvature="0"
+       style="fill:#804997" />
+    <path
+       d="M 90.681,69 H 41.524 v 60.08 H 96.143 V 69 Z M 57.91,123.618 H 46.986 V 74.462 H 57.91 Z m 16.386,0 H 63.372 V 74.462 H 74.3 Z m 16.386,0 H 79.757 V 74.462 h 10.924 z"
+       transform="translate(-0.834,-1)"
+       style="opacity:0.3;isolation:isolate;fill:#b92025"
+       id="path18"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 90.681,69 H 41.524 v 60.08 H 96.143 V 69 Z M 57.91,123.618 H 46.986 V 74.462 H 57.91 Z m 16.386,0 H 63.372 V 74.462 H 74.3 Z m 16.386,0 H 79.757 V 74.462 h 10.924 z"
+       transform="translate(-0.834,-1)"
+       style="isolation:isolate;fill:#ffffff"
+       id="path20"
+       inkscape:connector-curvature="0" />
+  </svg>
 </svg>

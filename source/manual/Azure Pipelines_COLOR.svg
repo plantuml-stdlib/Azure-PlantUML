@@ -1,1 +1,264 @@
-<svg version="1.1" width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" overflow="hidden"><defs><filter id="filter0_f" color-interpolation-filters="sRGB" x="7" y="-8" width="96.9999" height="97" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" mode="normal"/><feGaussianBlur result="effect1_foregroundBlur" stdDeviation="4 4"/></filter><filter id="filter1_f" color-interpolation-filters="sRGB" x="6.29504" y="25.9365" width="63.7677" height="63.7678" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" mode="normal"/><feGaussianBlur result="effect1_foregroundBlur" stdDeviation="4 4"/></filter><filter id="filter2_f" color-interpolation-filters="sRGB" x="50" y="6" width="40" height="40" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" mode="normal"/><feGaussianBlur result="effect1_foregroundBlur" stdDeviation="4 4"/></filter><linearGradient x2="1" gradientUnits="userSpaceOnUse" id="paint0_linear" gradientTransform="matrix(5.8783e-15,95.9999,-95.9999,5.8783e-15,95.9999,0)"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient x2="1" gradientUnits="userSpaceOnUse" id="paint1_linear" gradientTransform="matrix(5.8783e-15,95.9999,-95.9999,5.8783e-15,95.9999,0)"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g id="DevOpsIconPipelines96"><mask maskUnits="userSpaceOnUse" x="0" y="0" width="96" height="96" id="mask0"><g id="Union"><path d=" M 14 64.416 L 18.8301 59.251 L 24.8323 65.2529 L 19.9519 70.1338 L 25.8659 76.0479 L 30.7462 71.168 L 36.7895 77.2109 L 32 82 L 46 96 L 68 96 C 70.2091 96 72 94.209 72 92 L 72 60.0225 L 92.442 46.375 C 94.665 44.8916 95.9999 42.3945 95.9999 39.7217 L 95.9999 4 C 95.9999 1.79102 94.2091 0 91.9999 0 L 56.2781 0 C 53.6052 0 51.1088 1.33496 49.6246 3.55762 L 35.9772 24 L 4 24 C 1.79083 24 0 25.791 0 28 L 0 50 L 14 64.416 Z" fill="#FFFFFF"/><path d=" M 8 88 L 8 72 L 0 72 L 0 96 L 24 96 L 24 88 L 8 88 Z" fill="#FFFFFF"/></g></mask><g mask="url(#mask0)"><path d=" M 0 0 L 7.99999 2.97878e-08 L 7.99999 16.0001 L 24 16.0001 L 24 24 L 0 24 L 0 0 Z" id="Flame" fill="#91B0F2" fill-rule="evenodd" clip-rule="evenodd" transform="matrix(1,0,0,1,0,72)"/><path d=" M 0 4 L 0 26 L 14 40.4156 L 20 34 L 38 52 L 32 58 L 46 72 L 68 72 C 70.2091 72 72 70.2091 72 68 L 72 36 L 36 0 L 4 0 C 1.79086 0 0 1.79086 0 4 Z" id="Wings" fill="#0F46BD" transform="matrix(1,0,0,1,0,24)"/><g id="Body" filter="url(#filter0_f)"><path d=" M 0 55.4213 L 37 0 L 80.9999 0 L 80.9999 44.0002 L 25.5789 81.0004 L 0 55.4213 Z" fill="#062AA9" fill-rule="evenodd" clip-rule="evenodd" transform="matrix(1,0,0,1,15,0)"/></g><path d=" M 2.32029 57.7416 C 0.971342 56.3927 0.762734 54.2789 1.82198 52.6922 L 34.6246 3.55804 C 36.1087 1.33497 38.6051 0 41.2781 0 L 76.9999 0 C 79.209 0 80.9999 1.79086 80.9999 4 L 80.9999 39.7222 C 80.9999 42.3951 79.6649 44.8915 77.4419 46.3756 L 28.308 79.1784 C 26.7214 80.2377 24.6076 80.0291 23.2586 78.6801 L 2.32029 57.7416 Z" id="Body_2" fill="#2560E0" fill-rule="evenodd" clip-rule="evenodd" transform="matrix(1,0,0,1,15,0)"/><g id="Wing shadow" filter="url(#filter1_f)"><path d=" M 0 30.5401 L 30.54 0 L 36.454 5.91397 L 5.91399 36.4541 L 0 30.5401 Z" fill="#0A44C2" fill-rule="evenodd" clip-rule="evenodd" transform="matrix(1,0,0,1,19.9519,39.5938)"/></g><path d=" M 0 30.5401 L 30.54 0 L 36.454 5.91397 L 5.91399 36.4541 L 0 30.5401 Z" id="Wing" fill="#729AF2" fill-rule="evenodd" clip-rule="evenodd" transform="matrix(1,0,0,1,19.9519,39.5938)"/><path d=" M 5.914 31.5732 L 0 25.6592 L 25.6595 0 L 31.5734 5.91406 L 5.914 31.5732 Z" id="Intersect" fill="#4C80F0" transform="matrix(1,0,0,1,24.8325,39.5938)"/><g id="Window shadow" filter="url(#filter2_f)"><path d=" M 12 24.0001 C 18.6274 24.0001 24 18.6275 24 12.0001 C 24 5.37261 18.6274 0 12 0 C 5.37258 0 0 5.37261 0 12.0001 C 0 18.6275 5.37258 24.0001 12 24.0001 Z" fill="#0A44C2" transform="matrix(1,0,0,1,58,14)"/></g><path d=" M 12 24.0001 C 18.6274 24.0001 24 18.6275 24 12.0001 C 24 5.37261 18.6274 0 12 0 C 5.37258 0 0 5.37261 0 12.0001 C 0 18.6275 5.37258 24.0001 12 24.0001 Z" id="Window" fill="#91B0F2" transform="matrix(1,0,0,1,58,14)"/><g id="Union_2" opacity="0.2"><path d=" M 14 64.416 L 18.8301 59.251 L 24.8323 65.2529 L 19.9519 70.1338 L 25.8659 76.0479 L 30.7462 71.168 L 36.7895 77.2109 L 32 82 L 46 96 L 68 96 C 70.2091 96 72 94.209 72 92 L 72 60.0225 L 92.442 46.375 C 94.665 44.8916 95.9999 42.3945 95.9999 39.7217 L 95.9999 4 C 95.9999 1.79102 94.2091 0 91.9999 0 L 56.2781 0 C 53.6052 0 51.1088 1.33496 49.6246 3.55762 L 35.9772 24 L 4 24 C 1.79083 24 0 25.791 0 28 L 0 50 L 14 64.416 Z" fill="url(#paint0_linear)"/><path d=" M 8 88 L 8 72 L 0 72 L 0 96 L 24 96 L 24 88 L 8 88 Z" fill="url(#paint1_linear)"/></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="103.9999"
+   height="104"
+   viewBox="0 0 103.9999 104"
+   overflow="hidden"
+   id="svg64"
+   sodipodi:docname="Azure Pipelines_COLOR.svg"
+   style="overflow:hidden;fill:none"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata68">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview66"
+     showgrid="false"
+     inkscape:zoom="2.4583333"
+     inkscape:cx="48"
+     inkscape:cy="48"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg64" />
+  <defs
+     id="defs33">
+    <filter
+       id="filter0_f"
+       x="7"
+       y="-8"
+       width="96.999901"
+       height="97"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood2" />
+      <feBlend
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         mode="normal"
+         id="feBlend4" />
+      <feGaussianBlur
+         result="effect1_foregroundBlur"
+         stdDeviation="4 4"
+         id="feGaussianBlur6" />
+    </filter>
+    <filter
+       id="filter1_f"
+       x="6.2950401"
+       y="25.936501"
+       width="63.7677"
+       height="63.767799"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood9" />
+      <feBlend
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         mode="normal"
+         id="feBlend11" />
+      <feGaussianBlur
+         result="effect1_foregroundBlur"
+         stdDeviation="4 4"
+         id="feGaussianBlur13" />
+    </filter>
+    <filter
+       id="filter2_f"
+       x="50"
+       y="6"
+       width="40"
+       height="40"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood16" />
+      <feBlend
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         mode="normal"
+         id="feBlend18" />
+      <feGaussianBlur
+         result="effect1_foregroundBlur"
+         stdDeviation="4 4"
+         id="feGaussianBlur20" />
+    </filter>
+    <linearGradient
+       x2="1"
+       gradientUnits="userSpaceOnUse"
+       id="paint0_linear"
+       gradientTransform="matrix(0,95.9999,-95.9999,0,95.9999,0)">
+      <stop
+         offset="0"
+         stop-color="#FFFFFF"
+         id="stop23" />
+      <stop
+         offset="1"
+         stop-color="#FFFFFF"
+         stop-opacity="0"
+         id="stop25" />
+    </linearGradient>
+    <linearGradient
+       x2="1"
+       gradientUnits="userSpaceOnUse"
+       id="paint1_linear"
+       gradientTransform="matrix(0,95.9999,-95.9999,0,95.9999,0)">
+      <stop
+         offset="0"
+         stop-color="#FFFFFF"
+         id="stop28" />
+      <stop
+         offset="1"
+         stop-color="#FFFFFF"
+         stop-opacity="0"
+         id="stop30" />
+    </linearGradient>
+  </defs>
+  <g
+     id="DevOpsIconPipelines96"
+     transform="translate(0,8)">
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="96"
+       height="96"
+       id="mask0">
+      <g
+         id="Union">
+        <path
+           d="m 14,64.416 4.8301,-5.165 6.0022,6.0019 -4.8804,4.8809 5.914,5.9141 4.8803,-4.8799 6.0433,6.0429 L 32,82 46,96 h 22 c 2.2091,0 4,-1.791 4,-4 V 60.0225 L 92.442,46.375 c 2.223,-1.4834 3.5579,-3.9805 3.5579,-6.6533 V 4 c 0,-2.20898 -1.7908,-4 -4,-4 H 56.2781 C 53.6052,0 51.1088,1.33496 49.6246,3.55762 L 35.9772,24 H 4 c -2.20917,0 -4,1.791 -4,4 v 22 z"
+           id="path35"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+        <path
+           d="M 8,88 V 72 H 0 v 24 h 24 v -8 z"
+           id="path37"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+      </g>
+    </mask>
+    <g
+       mask="url(#mask0)"
+       id="g61">
+      <path
+         d="M 0,0 7.99999,2.97878e-8 V 16.0001 H 24 V 24 H 0 Z"
+         id="Flame"
+         transform="translate(0,72)"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd;fill:#91b0f2;fill-rule:evenodd" />
+      <path
+         d="M 0,4 V 26 L 14,40.4156 20,34 38,52 32,58 46,72 h 22 c 2.2091,0 4,-1.7909 4,-4 V 36 L 36,0 H 4 C 1.79086,0 0,1.79086 0,4 Z"
+         id="Wings"
+         transform="translate(0,24)"
+         inkscape:connector-curvature="0"
+         style="fill:#0f46bd" />
+      <g
+         id="Body"
+         style="filter:url(#filter0_f)">
+        <path
+           d="M 0,55.4213 37,0 h 43.9999 v 44.0002 l -55.421,37.0002 z"
+           transform="translate(15)"
+           id="path43"
+           inkscape:connector-curvature="0"
+           style="clip-rule:evenodd;fill:#062aa9;fill-rule:evenodd" />
+      </g>
+      <path
+         d="M 2.32029,57.7416 C 0.971342,56.3927 0.762734,54.2789 1.82198,52.6922 L 34.6246,3.55804 C 36.1087,1.33497 38.6051,0 41.2781,0 h 35.7218 c 2.2091,0 4,1.79086 4,4 v 35.7222 c 0,2.6729 -1.335,5.1693 -3.558,6.6534 L 28.308,79.1784 c -1.5866,1.0593 -3.7004,0.8507 -5.0494,-0.4983 z"
+         id="Body_2"
+         transform="translate(15)"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd;fill:#2560e0;fill-rule:evenodd" />
+      <g
+         id="Wing shadow"
+         style="filter:url(#filter1_f)">
+        <path
+           d="M 0,30.5401 30.54,0 36.454,5.91397 5.91399,36.4541 Z"
+           transform="translate(19.9519,39.5938)"
+           id="path47"
+           inkscape:connector-curvature="0"
+           style="clip-rule:evenodd;fill:#0a44c2;fill-rule:evenodd" />
+      </g>
+      <path
+         d="M 0,30.5401 30.54,0 36.454,5.91397 5.91399,36.4541 Z"
+         id="Wing"
+         transform="translate(19.9519,39.5938)"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd;fill:#729af2;fill-rule:evenodd" />
+      <path
+         d="M 5.914,31.5732 0,25.6592 25.6595,0 31.5734,5.91406 Z"
+         id="Intersect"
+         transform="translate(24.8325,39.5938)"
+         inkscape:connector-curvature="0"
+         style="fill:#4c80f0" />
+      <g
+         id="Window shadow"
+         style="filter:url(#filter2_f)">
+        <path
+           d="m 12,24.0001 c 6.6274,0 12,-5.3726 12,-12 C 24,5.37261 18.6274,0 12,0 5.37258,0 0,5.37261 0,12.0001 c 0,6.6274 5.37258,12 12,12 z"
+           transform="translate(58,14)"
+           id="path52"
+           inkscape:connector-curvature="0"
+           style="fill:#0a44c2" />
+      </g>
+      <path
+         d="m 12,24.0001 c 6.6274,0 12,-5.3726 12,-12 C 24,5.37261 18.6274,0 12,0 5.37258,0 0,5.37261 0,12.0001 c 0,6.6274 5.37258,12 12,12 z"
+         id="Window"
+         transform="translate(58,14)"
+         inkscape:connector-curvature="0"
+         style="fill:#91b0f2" />
+      <g
+         id="Union_2"
+         style="opacity:0.2">
+        <path
+           d="m 14,64.416 4.8301,-5.165 6.0022,6.0019 -4.8804,4.8809 5.914,5.9141 4.8803,-4.8799 6.0433,6.0429 L 32,82 46,96 h 22 c 2.2091,0 4,-1.791 4,-4 V 60.0225 L 92.442,46.375 c 2.223,-1.4834 3.5579,-3.9805 3.5579,-6.6533 V 4 c 0,-2.20898 -1.7908,-4 -4,-4 H 56.2781 C 53.6052,0 51.1088,1.33496 49.6246,3.55762 L 35.9772,24 H 4 c -2.20917,0 -4,1.791 -4,4 v 22 z"
+           id="path56"
+           inkscape:connector-curvature="0"
+           style="fill:url(#paint0_linear)" />
+        <path
+           d="M 8,88 V 72 H 0 v 24 h 24 v -8 z"
+           id="path58"
+           inkscape:connector-curvature="0"
+           style="fill:url(#paint1_linear)" />
+      </g>
+    </g>
+  </g>
+</svg>
