@@ -134,8 +134,6 @@ Categories:
     Target: AzureIoTEdge
   - Source: IoT_Central_50
     Target: AzureIoTCentral
-  - Source: Azure Sphere
-    Target: AzureSphere
   - Source: Azure Time Series Insights
     Target: AzureTimeSeriesInsights
   - Source: azure-maps
@@ -207,8 +205,6 @@ Categories:
 
 - Name: Security
   Services:
-  - Source: Azure Information Protection
-    Target: AzureInformationProtection
   - Source: Azure Key Vault
     Target: AzureKeyVault
   - Source: Azure Sentinel
@@ -234,10 +230,6 @@ Categories:
     Target: AzureFileStorage
   - Source: Azure Data Box
     Target: AzureDataBox
-  - Source: Storage Explorer
-    Target: AzureStorageExplorer
-  - Source: Archive Storage
-    Target: AzureArchiveStorage
   - Source: Azure NetApp Files
     Target: AzureNetAppFiles
 

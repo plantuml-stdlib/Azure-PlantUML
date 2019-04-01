@@ -47,6 +47,22 @@
       "$0"
     ]
   },
+  "AzureSimplified": {
+    "prefix": "Azure Simplified",
+    "description": "Add Azure Simplified to diagram",
+    "body": [
+      "AzureSimplified(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureSimplified_Descr": {
+    "prefix": "Azure Simplified with Description",
+    "description": "Add Azure Simplified with Description to diagram",
+    "body": [
+      "AzureSimplified(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureBatchAI": {
     "prefix": "Azure Batch A I",
     "description": "Add Azure Batch A I to diagram",

@@ -27,7 +27,7 @@ public static void GenerateMarkdownTable(string distFolder)
         }
 
         sbTable.Append($"{category} | ");
-        sbTable.Append($"{entityName} </br> ({Regex.Replace(entityName, "(?<!^)([A-Z][a-z])|([A-Z][A-Z][A-Z])|([A-Z][A-Z]?[a-z][A-Z])", " $1")}) | ");
+        sbTable.Append($"{entityName} </br> ({Regex.Replace(entityName, "(?<!^)(([A-Z][a-z])|([A-Z][A-Z0-9][A-Z])|([A-Z][A-Z]?[a-z][A-Z]))", " $1")}) | ");
 
         if(File.Exists(Path.Combine(distFolder, $"{category}/{entityName}.png")))
         {

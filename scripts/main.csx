@@ -1,12 +1,18 @@
 #! "netcoreapp2.0"
 
+#r "nuget: System.Drawing.Common, 4.5.0"
+
 #load "lib/Config.csx"
+#load "lib/HSLColor.csx"
 #load "lib/MarkdownGeneration.csx"
 #load "lib/VSCodeSnippets.csx"
 
 using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 using System.Globalization;
+using System.IO;
 
 var sourceFolder = @"../source";
 
@@ -25,6 +31,7 @@ var plantUmlPath = @"C:\ProgramData\chocolatey\lib\plantuml\tools\plantuml.jar";
 var inkScapePath = @"C:\Program Files\Inkscape\inkscape.exe";
 
 static string rsvgConvertPath = @"C:\ProgramData\chocolatey\bin\rsvg-convert.exe";
+
 
 Main();
 
@@ -75,9 +82,6 @@ public void Main()
             RsvgConvert(coloredSourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), targetImageHeight);
             // Resize and export PNG
             RsvgConvert(coloredSourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".png"), targetImageHeight, exportAsPng: true);
-
-            // ConvertToPng(coloredSourceFilePath, coloredPngFilePath, withBackgroundForPuml: false);
-            // Resize(coloredPngFilePath, coloredPngFilePath, targetMaxSize, targetMaxSize);
         }
         else
         {
@@ -191,8 +195,6 @@ public bool CreateMonochromNew(string inputPath, string outputPath)
 
     return true;
 }
-
-
 
 private static void ManipulateSvgFills(string inputPath, string outputPath, Func<Color, Color> manipulation)
 {
