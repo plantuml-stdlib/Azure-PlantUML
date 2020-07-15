@@ -1,0 +1,10 @@
+sprite $AzureAppServiceEnvironment [70x70/16z] {
+xTXNieCm38LXjSF-btpJn8o2yF7jpVyp-KQXuusb8eBjxIr5-g8eqkS_M5dAKbJD_1qAJ4XS2HKMLwZ1bKmj0eXmVRkYWKUNpUoDYYFRha7VeaH5Bjdh5HIa
+PRWI1SdqL67xfFGw1IUA4uMCafqfk1Hvlgi748vMoHtiaM6hUJdDpfN82ReWbmp7kWsj4t9G9S2-OtGqIczmfUvlZkHlj5GKXgGoJESGZ1MRL4pbgNZakLku
+ijzeFB8jUvfbvXNB-yF7bRfpUfmf_7slxXYks479CqTVgUYbE9v6Di_eu2xbiqeCxtKsnu3TCJsu4bFtNHqdmXNUDoXgb_O_-C_UL9UobALu7uhYrXPh5UUy
+5m
+}
+
+AzureEntityColoring(AzureAppServiceEnvironment)
+!define AzureAppServiceEnvironment(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppServiceEnvironment, AzureAppServiceEnvironment)
+!define AzureAppServiceEnvironment(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppServiceEnvironment, AzureAppServiceEnvironment)

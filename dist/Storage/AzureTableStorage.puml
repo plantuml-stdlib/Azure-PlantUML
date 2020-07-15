@@ -1,0 +1,10 @@
+sprite $AzureTableStorage [70x70/16z] {
+xTHNUWCn24LXfdWaBkn_lGdkDrsOftpw7rMEwo3VczQZTHq6xSVwQ7Ha-9bUEnjIp2ziYyYQZrp5kr6a-0D4zlHRUTYbnLeNXg32544Oej952ogW2zcANoyi
+36T_MRH_MfaLAwbuHSKhAbPIyHyhKFRDObmmvezAOZ8noKNo5V-rqXY2DcOUb3qgtqpClZ9u48PSPNHYzet1my9gAZOhc1NCIdA-CQc8k0n4aXKVg_ITQIpg
+YPsZzcdnKMahkrHMTgcihFzICGnNDXOLnyOkbOtfpnMhg9XNLBoYOXKLU4N5AYgpOg855SW1dWodSAdyUJ8Sie9vmYhINeuqUQSqQST1mj9VYkWY5xkcFmzs
+2My
+}
+
+AzureEntityColoring(AzureTableStorage)
+!define AzureTableStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTableStorage, AzureTableStorage)
+!define AzureTableStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTableStorage, AzureTableStorage)

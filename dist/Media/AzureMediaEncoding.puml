@@ -1,0 +1,10 @@
+sprite $AzureMediaEncoding [70x70/16z] {
+xTO54WCn28LX81k5-r-txYt9cxfz1_XdDqxdfAXrQCs1XeADQMRgOZL8efvaeChaAuPgqgl0bCaJ3TV8fOPBv0bgE24FvwO-Er9ee3Y_BUcmn63b73VRYLTN
+Y1Nx9H4fraI41yj1oJUrBUUBRUUMIkiCBrwfVeN3rfHIggscb69OmokIV6zP-LV-5LaByL0kEUx9Kh-I2YI_M-LV-LTYlg3Kae-bNWM_Zzwpqf0AXn2gjX02
+Znv_ZBzV_5U-qlMLQblr-agodNHjXGlsL8rBpJHUa2hs-iw6c_m_mRNE9EBa7lyJwUeVWcOvN_4bru-B1kefK2EH0_-d6ccCfyxQZPCG0DYD_yfLOjfhfka0
+uPgv25Trpypqm3L_vkxRzw_C0G
+}
+
+AzureEntityColoring(AzureMediaEncoding)
+!define AzureMediaEncoding(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMediaEncoding, AzureMediaEncoding)
+!define AzureMediaEncoding(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMediaEncoding, AzureMediaEncoding)

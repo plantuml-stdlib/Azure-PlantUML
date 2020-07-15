@@ -1,0 +1,9 @@
+sprite $AzureResourceExplorer [70x70/16z] {
+xTO5TiGm30JGP6UisFS_SBbLGwu5vSmo_VTs7D3qvyBZp7ObpZ25OGh358Of35COfZ3i1mEvgHB81ygbu1QBMxaKLa5KmT8U8Z55sdCg_KffcWK-XRMj8aP5
+2rcdM1LfHwcqAApj90k6bQLrmb457KOClR1s_f1XZKhjb3kWI3bUflhoFiSK4QxgMHK23Ykl3giMycfO52buhcTL26bKv5qzByz0kwBrg65Lr573gMWzf4lH
+G96OWbFbKYu5fQzWzEZTKon7xpF5UlHUAMgO5Ar75RWc3wuLznH4LH2OfL2U5GIdGtppf7efI55cFYQAJDFyS1_BzADo3m
+}
+
+AzureEntityColoring(AzureResourceExplorer)
+!define AzureResourceExplorer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureResourceExplorer, AzureResourceExplorer)
+!define AzureResourceExplorer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureResourceExplorer, AzureResourceExplorer)

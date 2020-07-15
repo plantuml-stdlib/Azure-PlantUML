@@ -1,0 +1,11 @@
+sprite $LogoCloudCycle [70x70/16z] {
+xPRdOcin28CDGhp_6tUtIGZokBa_pzSzeYE3Z3t-1nSNvX_OImfW_XBsZngH3z37EP5Fq4wDPCkP7Ky1Jfre6KUG3DXAH8FOB3Xp6ws3F264Ifv1QULrcJmc
+3Xf4k7g4RIteBnkskoRE72CtTyOqzzi5dZtBKd7Y1TM2ND9ih3pKs-tk5rYfe8O0Ra_UGZIwp5jm3DHIibU1shByV75zYVNJYqB3ynFMbqIxR3KwObdizDv9
+c9Z1Q8TpLvMuIHjR8vzVgB9h3hTwiZN68p5iFcAa1kxzEHfz6nMdsDdG9rKvFasbRnZrTB3CvEyeyaYbCI8b9boAvWfYyWZMhclatyEQZYa2xMzTtMSOS3VF
+mfDRGgNFTQM_cXjVIcIuJT87VN8DZJF5DjXMiT1ZEFTKF6QDHwC2gBjkrT27A8Tzj-yJ85O1j3R6Q6gb0uXaPoMjAPPQYdzBYak1JoH4twiLBHCkiYDl7wKl
+X5l9dmPbVd_YRY9_siaQyFpIknF0klqlBYxU0G
+}
+
+AzureEntityColoring(LogoCloudCycle)
+!define LogoCloudCycle(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LogoCloudCycle, LogoCloudCycle)
+!define LogoCloudCycle(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LogoCloudCycle, LogoCloudCycle)

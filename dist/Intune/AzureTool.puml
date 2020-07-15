@@ -1,0 +1,11 @@
+sprite $AzureTool [70x70/16z] {
+fTK7iiGW30FGkEd-D_xLMp8e23QQclPY30F7ALO0KEd7hGGwSPVfhDOJSoPN30VgDfDePSA4BWI0tUjDabynfcGXmAJlkfZKvJefXlydrOXdhJDqPkkcr3IH
+nsFT46l6o821ucqHI-eytk7b98f2Zg5ou9Nh6IpIXUHANI5kP4PUZ4NXbRn2wEhe3pnnJWXad98g3765l08ItXThX2K4ev0ErXYRRoYk68tqDF4aWDH8fpWI
+VsMcG4GrsQCbo7fliXyOHtY28DaVSeJ78gig8vv8VrgJFLOUdDaLS4Gd4CyX1a5McJniwFH-h9KNOhudy4syn2JfXUZ_NV9z1JWp-GcJkCVmhSls6KkGVTon
+pbXc0HnPPWmTWWX68US7je-43GyaKpYdZEYA6Ihv9zo1TQRuosqiCaNEecs6hP9EB3F5NjnbYhutPJJIRP6CHkJnMTk8PWggNCrmn8ub9iapWYZ61BB6f41e
+YlOl1A8PiV0NcGlSjtQoudWZgqoGkmGH3BdRY6PO3uqWccbaP6BZ3AvA9-UGHhJTo5tcS-GR
+}
+
+AzureEntityColoring(AzureTool)
+!define AzureTool(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTool, AzureTool)
+!define AzureTool(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTool, AzureTool)

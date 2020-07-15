@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0%,0%,0%);fill-opacity:0.14902;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 11.242188 58.757813 C -1.882813 45.636719 -1.882813 24.363281 11.242188 11.242188 C 24.363281 -1.878906 45.636719 -1.878906 58.757813 11.242188 Z M 11.242188 58.757813 "/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(34.901961%,70.588235%,85.098039%);fill-opacity:1;" d="M 68.601563 35 C 68.601563 53.558594 53.558594 68.601563 35 68.601563 C 16.441406 68.601563 1.398438 53.558594 1.398438 35 C 1.398438 16.441406 16.441406 1.398438 35 1.398438 C 53.558594 1.398438 68.601563 16.441406 68.601563 35 Z M 68.601563 35 "/>
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 27.167969 49.390625 L 27.222656 20.609375 L 50.160156 35.015625 Z M 27.167969 49.390625 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(24.313725%,24.313725%,24.313725%);fill-opacity:1;" d="M 35 6.480469 C 50.75 6.480469 63.519531 19.25 63.519531 35 C 63.519531 50.75 50.75 63.519531 35 63.519531 C 19.25 63.519531 6.480469 50.75 6.480469 35 C 6.480469 19.25 19.25 6.480469 35 6.480469 M 35 0 C 15.699219 0 0 15.699219 0 35 C 0 54.300781 15.699219 70 35 70 C 54.300781 70 70 54.300781 70 35 C 70 15.699219 54.300781 0 35 0 Z M 35 0 "/>
+</g>
+</svg>

@@ -1,0 +1,11 @@
+sprite $AzureSoftwareUpdate [70x70/16z] {
+xTQ5iWCn28NX20HMtlzrApdj9QlbUkqVNRhpJQY7J_NkNUBorJXU4UwzZSk638JSo32kbQhIzTjfJZNTKQGg_KuyMNfShOEobo8SnQ_udzkbqddQUBvD4KUw
+Kly_YjwFelUZwFqe-coAte-YzwFe_IXwhuh8rvIMA2pwNQLG4Tz6suZm0YcVLWhn764Mfs88bNOxk29-1GZF48mwZw98Y5XCmGYptg_mSX-cKt9gS2hBem21
+8gPuZY8B18hu5C7zasUsLSYKco-GB14Ib4tnBoHa2aexYbwYcS8BHU9D1K-BAGMPShxOL7JhQK64yQt_cCE81BTtuwJ1eG11WgUb_v9olhDMLfKUp_cUWgFq
+J9UAFLbNfSFuTArLaSs5TAaCCF0OdYskIjp-kovp1MDxpazg7r3KpUUsJ1GWY34T9LXneyIjmiq3M8Y2gyYcS3l7Gi5P-b1AEyvrIC5RlYgndTfHd46HD3iX
+HlwgaXSZxEEFMNYs9HlYBJ9FhudjSFxYR4MMai8texApZN-zjMME
+}
+
+AzureEntityColoring(AzureSoftwareUpdate)
+!define AzureSoftwareUpdate(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSoftwareUpdate, AzureSoftwareUpdate)
+!define AzureSoftwareUpdate(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSoftwareUpdate, AzureSoftwareUpdate)

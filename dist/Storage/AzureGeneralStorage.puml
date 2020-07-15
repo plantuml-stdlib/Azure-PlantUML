@@ -1,0 +1,9 @@
+sprite $AzureGeneralStorage [70x70/16z] {
+xTXLWeH038JXOEcaElU_xhXhKsHz_xSPuCDLjatc88geABti6y5LOvVj5uH7zg7ZbmHnoaL0BygvSKf00WQkkCgnoSQvJSVAJa6YmXZtoZGlFMUqejz7qGn5
+lu-Y6Of-7qKp5FrunQqjlmzdXRY-NKSYl18PIcrGQ6Jc5NDwc9wLCj1DPyLob95E_vLz_yg_ulgiyYvhk4f5O_prxR9MX5SYGwap5I-FifPmeKmFqgOiMu7T
+vMZibUBuDeeZGN5aACXGF4DnP2Z8K3n3SH2AtofW5CKsFqLzAQZzxPzCHGekev3QYVZYHHb4fBDbI1rar-Zy-jJIYSWQ
+}
+
+AzureEntityColoring(AzureGeneralStorage)
+!define AzureGeneralStorage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGeneralStorage, AzureGeneralStorage)
+!define AzureGeneralStorage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGeneralStorage, AzureGeneralStorage)

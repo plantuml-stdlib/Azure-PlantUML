@@ -1,0 +1,10 @@
+sprite $AzureMetric [70x70/16z] {
+xPG5iWGX44CNb-xxNtSzDKRWkvBo8VMQ48RJBr78ETcHoPZ-SgatXQufNXsvDodNXzpOmossFfKxaP-MGXs-GfnIO1bJ2gSC1pc18xrzBr4Lc3W-ka9ArgiU
+1OWOkbr5ZMHPjTgJ3S6BQY45OLBxlgJxCeYg6abc5NUDPTfXzQhbncPLtGt3Px6qu6UQHQ9QZ-tSNDX5SuIYMvh9LCLniJJY6-VaDZR1A7hgvRZFkita5Rjh
+o23DGHRVbrcUtw5xTQnLhAIspOGKtIcsqooPfDSm_bsU5PcoTsYO_b62Iy8E7iEQ3QV-amOP36itN24_UAN9Eq4fFYxo-_S8xP14XbF6MxRBkzYZP5181HwG
+BiNtEy2jwrEGV7qjpI9yvHJ8vrhYsbvbqP12z7CfPgKtK1hotqAP5EDNUZF5vfL-5MLI9cLI9cLI9cLIBW
+}
+
+AzureEntityColoring(AzureMetric)
+!define AzureMetric(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMetric, AzureMetric)
+!define AzureMetric(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMetric, AzureMetric)

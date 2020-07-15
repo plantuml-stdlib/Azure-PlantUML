@@ -1,0 +1,10 @@
+sprite $AzureDiagnosticSetting [70x70/16z] {
+xTX5egH04431ACky_ud7XxQlbInvksuWS0NCtAu1YAmhxGyIEzqfaPcpxTJNeQpC77l8F9HMG1wLsRUG1sMpUIbFNKgSeSGuGndj38KJbCMgAvrHLz3AoeIo
+qc0LbG2Zg0pGYae3Qie2h9BI0QEa0FIACc50HUbe0MjV2PW9Sr-P4DdHlwjqz_L_sA42FJvMfeTMPa1aveF-iJ8ybB-2-U1_geJxnlzrx9dDNUkphRlkYcCb
+Sy4u_lz4UIqWEbJkZJ1WL9GE41Lb0dfMb02iaf90ovhImImg4sHHMJ2gIaAKbKxFiZ9OTMLf-QaYFyiyG-bvXX9rvQYkNCgbH9oWG5bfr9M1kkAkjQjuAAgV
+jVm4
+}
+
+AzureEntityColoring(AzureDiagnosticSetting)
+!define AzureDiagnosticSetting(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDiagnosticSetting, AzureDiagnosticSetting)
+!define AzureDiagnosticSetting(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDiagnosticSetting, AzureDiagnosticSetting)

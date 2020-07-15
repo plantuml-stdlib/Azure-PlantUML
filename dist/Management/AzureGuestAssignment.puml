@@ -1,0 +1,10 @@
+sprite $AzureGuestAssignment [70x70/16z] {
+xTO7OeH028NXE3CymF7-vysgRA-0wVct5pzxUTkkeRagjvK2NzMXU1XJgBwUCRUKuVLWJ5v1JIl6v1LZyWfgMZ4chnYJLr2pYZ5HvLW1AAyCtq7vLne1e9fH
+2h6iSGihRJNMPvIOGhC0416OHRX4b3ORP8559Q0KDiGILVWLY9mYWAeMhr94-0m1gyAhD16S8O2gU1M8N20GrU9M-081grQdmaS5SGK71Gc5H2uGMowXTOHZ
+gkpUwbZu765LSYiamXU8QzkrM8JF4HhyIcLLuHC4eUDBKvsTNJA_u-YnJYr3OagTHhN6Jb6bJTFK-pZsldk3X69b5DfUuQY2xHM9Aho98gUAvfJUSuekI6iz
+hSnR_iACKMLSaOL9A0jYJ8ygVPg_DIQkqF4zXHMw_U7_glbV2VPTbNpl
+}
+
+AzureEntityColoring(AzureGuestAssignment)
+!define AzureGuestAssignment(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGuestAssignment, AzureGuestAssignment)
+!define AzureGuestAssignment(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGuestAssignment, AzureGuestAssignment)

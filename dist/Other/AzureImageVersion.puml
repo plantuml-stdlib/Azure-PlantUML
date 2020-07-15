@@ -1,0 +1,11 @@
+sprite $AzureImageVersion [70x70/16z] {
+xTS7ejiW40HGbgtY_WUEC9E2XMojqfC_xeKdgahvWqB9h1NFnNwoOfVpIk7B-ISL6bahaOl_PENIIBlkUQ6uN8x_DEL3-L3KzkXtA31KuTnLR0-NmhRdhgAz
+R7caUvfMO2WLX1HEGe5HopUfS18AEcGAkkUgWWvPfEkN5I0dJ491nyuXiPJI8uj-oIdrsBzrB8MCGbJdiIRjY33d52B-Ekz8OEGLGbbqY3BVKwYA8IfyMq7t
+e36t54JHcEzJv8RoeGJ_26LhTgxmcQ87fGMTAQQyKiJigBIDbmhstS_A-5f6L9LgvQtrs5AHiT4wAMhV8Z7AZ-SMj5H47yvNHRunr54OocZLGe6ZF1GO8uwI
+K11RAt3wqzgObJXHq3qp4csjM3bNH6T3jhPKDawSIyqrYN1qSr19ADwGpTqKimxJvRAY85nxZpcKZKj2GLN2vXKGL79AhyVJEKFOyvLmHBnha8lCIZrSbRzJ
+hAbC2f9JNEMLKaU-yzmR-S-LE5Ko-LdA9m
+}
+
+AzureEntityColoring(AzureImageVersion)
+!define AzureImageVersion(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureImageVersion, AzureImageVersion)
+!define AzureImageVersion(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureImageVersion, AzureImageVersion)
