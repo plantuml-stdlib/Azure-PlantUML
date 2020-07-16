@@ -1,0 +1,5 @@
+sprite $AzureClientApps [70x70/16z] xTL15e0G003HgG3kVzyk0DRUpBBu6z071Q3sKH_G-ZYLarHKL5J2e0VumknF6CHrrK4VKEhiJntahZjLL5HKLEAW1mXnzYSEuffyZrHKL5HKVW
+
+AzureEntityColoring(AzureClientApps)
+!define AzureClientApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureClientApps, AzureClientApps)
+!define AzureClientApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureClientApps, AzureClientApps)

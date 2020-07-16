@@ -1,0 +1,9 @@
+sprite $AzureRouteTable [70x70/16z] {
+xTLLOWCn48FX8Ud-DowJDvgaZilr_nZu5aocSv9qc-W7ArlPIbG1LUaBIk8f4dwbudY99FCg9J0gXCdglcWKFo9aAGGltoW5fmgpHxIIIc6BQCKXbLG8h5DI
+AvH8grIZ-30w0o8KD4eS4UQXDuftIXuGNIY5Ij78UCUZefuerfJBZ1uZwf4ENbgagHNOAHEzujr0pp6f59Wfndj6AEAgUO5nkHQlPmGomzIWXEdyFZjJr8kI
+jf1d5YfzWTYfbHndrnPw1KEkZesNtgkKcAJp2d9u7iuf-famf-XdAauf-fc2iueQRYufK2zbNYanoFCAqiovhD0D7w2W-04AkQwmQojRqSYwifMjt08
+}
+
+AzureEntityColoring(AzureRouteTable)
+!define AzureRouteTable(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRouteTable, AzureRouteTable)
+!define AzureRouteTable(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRouteTable, AzureRouteTable)

@@ -1,0 +1,10 @@
+sprite $AzureDeviceCompliance [70x70/16z] {
+xTA7pgmW48RXeVWn2FT_lUSO9-B63AFRb_nlobOVAgq5dlLA_LzXHqPnxbNNYiNCD-NMEXM9-qZO6w1TZdTADHQaAraMT4xHAqzHwWM5ePMaSaQPb3Rjymf6
+Kp2QWkzHC9g2qHHyZuBH58ocu7iKF4z9l2_dV93Z2ONjV4_1SnNg5T-Xu7iKc8f_XWB6uqfavkGC1ORYUIa-fZXUIlIOadZ96GhwoYGt_xBYT_yDiYc6WeCI
+vCzjKq2NbIWhQ9kIwBh2ifjBaFUQabdAhLNnZOcy54XJjafjPUQseSc9Dv6jrACYKqWh0hALSb0sHd8db7fKvAf9dbGbR5DHb8s9f2kKBOKWcw8hRJ9LKOH9
+r5N8SrwKSfCexTewNT63A18yFK5f_Icn5qugHgUKYSta1lq3
+}
+
+AzureEntityColoring(AzureDeviceCompliance)
+!define AzureDeviceCompliance(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceCompliance, AzureDeviceCompliance)
+!define AzureDeviceCompliance(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceCompliance, AzureDeviceCompliance)

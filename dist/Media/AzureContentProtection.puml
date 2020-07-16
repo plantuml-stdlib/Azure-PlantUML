@@ -1,0 +1,10 @@
+sprite $AzureContentProtection [70x70/16z] {
+pTO7ZkCm38LXiUYftl-wMxnAKR2ow73QZvxOtz02ZKauYHIvjjvRBIboU2T6xLCjoLL3I_zF3NJ5g7rLiZfK-abDJOYqVbwo87rRtYBSHvvfg7LByLmftHQV
+8TfVAb1cqLJxN3rJsdofXdkSpC-4QJ4aJ56UlhMDKkdyZwZbLDf0ffwdAGjakYXkzu0Molwnu_vysR2TRViUHCDMfMbbDbSqoxkwtVuILcsFj_Pxi2YyKw9b
+CMLtWIwLUa6HxrH8uhzm59Ub8uohPaYZCRp63oJQaJKZ3WHmZZ8FGou4yY7As51s8OYN5FmS1UyhZrM2HmcaVkM-sN0gnpXmAaVYLiPwEvMHk9KnZbCPYKUP
+n_4h3FWLXLzXmAye_0e3VaNXLnXmAHY3k1K6d0f02g-2qGzGy7CKV8I2BrPq_Vi5bvNWGi134PSIRdaGlIlqFZBzorBVqVu6
+}
+
+AzureEntityColoring(AzureContentProtection)
+!define AzureContentProtection(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContentProtection, AzureContentProtection)
+!define AzureContentProtection(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContentProtection, AzureContentProtection)

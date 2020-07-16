@@ -1,0 +1,10 @@
+sprite $VirtualMachineClassic [70x70/16z] {
+xTT74iCW341HgmBY_kTDLteyHl8YxQzItnXNcDuhIBOtKDFX1Bf29FgL4SIxtidnFb4XoYjOUw-GLDJwBjECmjPF6KSLQlsgYX45Qx-hmAW2QlqXap65hJ-j
+qOY2DQluhisE20yVYDqPXxqBi5IHVln3UJpIRBfOyOt7vaPZ7-Q8ulzZyntYspQc-1ZKh83lfu3Y-nDzeoAA3yLtK4Jn6leEoIYz-Fkiec-d_1LihnMZ1Sef
+iUUAwTZTkzWJfKBqIN9H6aMUQcpNYadq2IlcYXM8F-sX79MAkPa7yVmCvaldTVdvxhibgoYhZ8jMMQlDh1jfwTfbcWiU5KYTJzwqXi9lf500mGT5CaZusWSK
+VHOlS6WViuZE9SoqRsPt3lG92ij8qvks1G
+}
+
+AzureEntityColoring(VirtualMachineClassic)
+!define VirtualMachineClassic(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualMachineClassic, VirtualMachineClassic)
+!define VirtualMachineClassic(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualMachineClassic, VirtualMachineClassic)

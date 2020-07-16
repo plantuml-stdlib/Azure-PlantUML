@@ -1,0 +1,11 @@
+sprite $LogoHockeyApp [70x70/16z] {
+xTO7ikqu20JG9iF-5_oIxmZRvJoLlyy248LQ0LUyNgyNiQYQnuzi4U5cAiA4Ow8MMUV2JGWRI2pgbdHbB6ZK8sdTacMjPBYxcMapC_V8h1MVwd0ksnGw6xvQ
+r8m1a1f225Unrn3WRaDm2tL3rYK5TzMG_wDARbH9mZrMWzUGVBD8uvenmbMIrHnMSowuW9SvJGAYba8P1qWyQ-X9-DP9CsMczOMn2ErwLxHsvKVjybx6ww4E
+F07WU5H3CKnDaMNT4u8VCfNYqLTF_rme_JSBmm_gkW3hXKfXWZzazKFHEvrAysjeirQ6cp0-nEiFuHVbhCj6n2AY4v5LV6ICKJ7Xd3TBECCQDLWlcyk-JPbs
+tZjRpKqnOzjJ-66_t7rpKa5e3-CRWfNxiNF14fNslN69AqtxecWvZWITnYx3kDyaGRD5xC1Y7blFxdpp9AegCHSTksNmFeZGPhdbxOSkJHdjv8yYMF7LBwUN
+NrwPUVpqS6pTb_5dyyvKjCqwvzAmYpJh2cSSEWzCAECI4ZNVoeiAuuxEYuWm4n7-6Q_Nwni
+}
+
+AzureEntityColoring(LogoHockeyApp)
+!define LogoHockeyApp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LogoHockeyApp, LogoHockeyApp)
+!define LogoHockeyApp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LogoHockeyApp, LogoHockeyApp)

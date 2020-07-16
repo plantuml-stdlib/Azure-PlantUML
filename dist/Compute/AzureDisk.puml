@@ -1,0 +1,12 @@
+sprite $AzureDisk [70x70/16z] {
+xTZNjkCW38LXGDBUWD__UQUGQa1soFGvvxjE_YMyPAU4F-5JJ4b4z4f4KefBRnSr3AnHbVDO58F3dgYau4aAd_LKucGAnI6RaMuCmse4pLCd6ixC4lkEO2s2
+FMiHnJ7okOA9U1HXBhNMxPjQIo4CdX3Xo7Nhr4BCgMAkR1ELM5EtcOmv-WSQr087ZwxjBb4BuIc7Eq8obszo9k7Bpb7j3kTOjveNDjMBR7t6R3tI57Q9XGfB
+c-InbMRB4LuNWlTLi9dJEPgQwdqXyXWw7wD1iEv-Sol-HfOG0lerpuGRQLjOjvqImpSwksLgAVc2P6vAgNKRCLn4Rcyh6kxIcvrgOIUXBYUoX56oif2WnZ2N
+bBdMyqAXfNaZ9hqmC1UdrTP0vM8CHT6E0IJp5GcOoZFz9kqQUaOwskmweciLtOd-87v41-aaShkLp5IxGfVn4-1EQyt5v3Ku0Lt4ATCrMAhOGWR-YzLb1ZmA
+C5EFqKvMHCti_FXOtRAHpKuhiXO16-iIInL3V_5byE8Wk7TaviKvX3pel7gM0D8F7UqI7rA86FPpYFZBs4W8zypm493fquO32Oto2C0ZYE4g6jy42K-Yljde
+YIqcDBg_OlaQanYE936Sp21nuVVzVYy0q-vVWYKnlEdJLm
+}
+
+AzureEntityColoring(AzureDisk)
+!define AzureDisk(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDisk, AzureDisk)
+!define AzureDisk(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDisk, AzureDisk)

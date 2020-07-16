@@ -1,0 +1,12 @@
+sprite $LogoDCOS [70x70/16z] {
+fSy9ZeCm34PXiZbnxd_WCRMcuI6wu3xjF_YJidsiolPxjNVv7HcM_8wGYIDM_naX4qV8n94uCqwLa9A8r0019eoaJARwTXDfKXwCUdLjjn0vCcrjzv0Zqx3T
+G_n4J4csoThk87uYqz9ao3qcoR7vQ8Y0kOd8s14LkSd8AJMb2yiVbIAe-uDGspvN-h7vQ1odpqZQ6I8wd06ItY6bPZ0xKclV6I2bfdT8TGO86Fd_ZmmHC8uy
+6I1aYFmpJNiVEz8gcA5swmiP8iuqkr_8OcpJNEiRnbQS0E56XWWO7d0ZGuGDksXVR6HoHKtjebziKjd6SZkcKyMOqpQwCSV94J14Sch644cfEKE43954PaSi
+yOq86I1Wn92S5aE40Nao2m4ZwGKoEmwSMHiOKKtNY7tcWJFdJNoR8rqZbX-0yOsCHOR8p8drEVLY8qF4QXaLlTokcJ6VoUbWjCKGiJ8KC4IshIw6Y1OYP8Y0
+UO-GMKZQm7n2o13P6MrV8MI8EFC60QFFfAWQiggghUhAaK-C8sI8VCUaKqBaIwOHoKHkC564J1WX4qIkcJo0X9Wp4cCAaHXJ54YG8H9aY0GP8a66I8mX4gmJ
+2JD0uWoGE0CapX29Cv-HFm
+}
+
+AzureEntityColoring(LogoDCOS)
+!define LogoDCOS(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LogoDCOS, LogoDCOS)
+!define LogoDCOS(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LogoDCOS, LogoDCOS)

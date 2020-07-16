@@ -1,0 +1,11 @@
+sprite $AzureManagedIdentities [53x70/16z] {
+fTC7ajj034JHRgJx7zaQ9HWhTHdq_aeAV2GduMSqTpVYIkRFiCyxNZHQQQELDaOJIXh3oPQgPqqeRGoFw0lbpoX-44OW9xGHhtTBcewVFqdJMJ-dbJOwOQuf
+y_zGlejV7sGYV_PzLKM_Gfpe-kkPhvg8IsFuk-NhSI2k9i8mumArcSf4mmob4qOeOPJIHYjjjD96AssqqaOhRRJIPg-moyI3Le-Ak83yAugg-BUPAEjMQZDH
+6wti0xNPg4PnBZVBXJge3KWiL4IR2aOmIYflz3OL24UKKjweJJe1UWdbxuOvtyBZkx96msG2cL9zchgPEgYqcYOzZdcWyorJg3O1W5alL4c0HyL4_a9ronYE
+HbM8UCpYD0FH8duYiqPjnkiH4-5pEraVy-V5xc2-4U7UHgYJWo_4roe06tMGC485U90mMfs4aSeOGMkZ5V1Mz0YpDb81hPoz4xHwc5O6s344T8QEzOvOHs4M
+IXcjiYg7-GC
+}
+
+AzureEntityColoring(AzureManagedIdentities)
+!define AzureManagedIdentities(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedIdentities, AzureManagedIdentities)
+!define AzureManagedIdentities(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedIdentities, AzureManagedIdentities)

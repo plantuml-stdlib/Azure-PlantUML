@@ -1,0 +1,9 @@
+sprite $AzureManagedDesktop [70x70/16z] {
+xTLPSiCm281XWuJ05lU_RXTt69Dfio3SNVzxlX32sCllRZPhM-zTmwte4T7H78Cw71zArU7MIwLZEFv0WN3Vg22UeA18oIii8fHLI5x3d59sX9Epo1xcbBOZ
+DRVTkYCDKWhQKe9AA-1YMqfCOP7oVYb1XTrNkwM45BiDz4iH22hs4zWlfOGL-sGxBfzWGC4tXlpbnnLRHaNPmo75PX1Roe1Y_wz5YISc6S8mgdW64ugx_9m2
+R4UJKf258Qq02lwWT-DKC9nSAgBZWI6WYPefh8cw6oK_J5ChCqpNQ_NjIAz6jqVfv9BRmrmVHSYdLwlBGdgzxjEhRJPAhbBrX5RI4zeMQlbm-V9cisS
+}
+
+AzureEntityColoring(AzureManagedDesktop)
+!define AzureManagedDesktop(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedDesktop, AzureManagedDesktop)
+!define AzureManagedDesktop(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedDesktop, AzureManagedDesktop)

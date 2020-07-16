@@ -1,0 +1,8 @@
+sprite $AzureNon [70x70/16z] {
+xTHL0eGm34LHMc8l-z_l-1SEwNZk0awztQWgvWj1gLkjgA-6VWs1Ruc3oAF5sOXl36LXAluej2RQhc1UKT_Ul68xbD94gV-eWFl9IFSeVPcfOeTIorowGw4c
+St7XwV3YCqebbLHWas6NehLCHzxwbuehyHN5T_VZxaiggQII2X1Nm4IiGGLqIs8Aqpr45D0ZRQR4LsGXHUy81qzQRWY2YaFLchw0L58v0m
+}
+
+AzureEntityColoring(AzureNon-azure-machine)
+!define AzureNon-azure-machine(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNon-azure-machine, AzureNon-azure-machine)
+!define AzureNon-azure-machine(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNon-azure-machine, AzureNon-azure-machine)

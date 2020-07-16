@@ -1,0 +1,11 @@
+sprite $AzureSapHana [70x70/16z] {
+xTD7sYCX38HXWGG2zVtF-mUgFT1FJMPfletpIxIyGwVJwLHyEnNnQpSNADk8-3wohxX0sKNsbIQhqaiMaQIbnVYqwtVZer1aLZiZYn95VfJAzySsdkUXo2mv
+8oybL9Q-bKXutgOoFoK4IfMb5CkU6IdYZE3jX9Mu5nMfrrUwa06lMCOg2O4IonXHup6yumNMXjsBYR2Ivm4iIzHLmRFE21IaBIuqvWugI6c4OD8sJtaCrF5x
+MBmY8AJWN9751LMnhdmhLejY922iF2vC3g1-Jwc7FAg4pCDfUSx6NnCVMdagEQ2pCkeb2L8iwDw7z52C4BwCS53A2KzylbFwDH5I8i0K4KxlCq8z_L8nAItM
+kN3jjmWEWsA54Bvrb5TJA_vK9i9vP9cbnnzNfq88xKkpbr7zlbh8fy88dtHqhzNxrnDqePWHGWh50TbKW9ZbBGM8ggODPI0fMqdwdyhS4pNTK2B9Ip5vtqwd
+q-aJ
+}
+
+AzureEntityColoring(AzureSapHana)
+!define AzureSapHana(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSapHana, AzureSapHana)
+!define AzureSapHana(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSapHana, AzureSapHana)

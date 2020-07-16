@@ -1,0 +1,10 @@
+sprite $AzureOSImagesClassic [70x64/16z] {
+vTK7iW8X383X98GMxdzUAz7euWvWr__ruZUGRG0SximZG7X0oE4dSpWTdHM2wV092f89LYBRjUAB2S5sgQPoBdSh64k9UASIfEoIqA-8TbAyd5x0S2nAxPOI
+uJANYoaHs5oVGgbS5N5KmIXbaVWnXOrXosv4mTXM4etDXN9Z9Joo8tAwg-LKa7eLhYltOeo8nxFGhoXehqBM5s4q0wdBgmeshiRBM3UWuycitwkYhIbsc2pY
+zR3DABeFlIod59sf3cH6qOHr85EA5W52UQb2pEn65EHTpNEtMz5pzyyK279BaOWJzpfL9kzrBXjbv5wNi6OUQKQfbtQDkv-mGOmISVOvJKcLHFSyxLtUApgG
+SKN3mtkNCjd7Afxd2u_BFqHn3raAy2CG0E9sZRrwRaMm4YqLXF6M2Zn2yGzH-26Acq3m8Mln3vWkXLRKiuT3H8vzk9LtH8JxElRGqMyhMm
+}
+
+AzureEntityColoring(AzureOSImagesClassic)
+!define AzureOSImagesClassic(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOSImagesClassic, AzureOSImagesClassic)
+!define AzureOSImagesClassic(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOSImagesClassic, AzureOSImagesClassic)

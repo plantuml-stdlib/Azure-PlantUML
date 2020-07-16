@@ -1,0 +1,5 @@
+sprite $AzureSharedDashboard [70x57/16z] xTQ35KGn54NHEAV_XWSBtpRkBY1yOW4HRqiUo7Q0euSp9VTVnGomxrn5gsWLhK8OCdMLORTS9LPa8CMAHN-K06zAzc6hQ1MjCZo__5S9jkGuY8Z85m
+
+AzureEntityColoring(AzureSharedDashboard)
+!define AzureSharedDashboard(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSharedDashboard, AzureSharedDashboard)
+!define AzureSharedDashboard(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSharedDashboard, AzureSharedDashboard)

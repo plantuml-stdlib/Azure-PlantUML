@@ -1,0 +1,10 @@
+sprite $AzureUserPrivacy [70x70/16z] {
+vTI7aUGm34JH9bmZ_uJNxr0dKLK3IET_08-UE4tTmrq7-WqBVfGPRKU2N-LRYbPARfMqxaocqfrDSA_aG3Kx8kaNf_8LYWbNYgAMBXL7BLigyGSfVik-68gj
+a1GKyuL2L9E5eYZd1uLe53k50us6JsKYzIocuXS_tWzZu593L0R-zuRCi4ysFVtREdxCSzFJ2XNR97jA26OZcme3iwWhnwsnx2lKmwPqb1ZuYBd9gmhZk2dk
+NbLe-qtnzrXKg1Wv2_U8SAygEVWbaE7kyLvLoVVeNyLthgEXn28tKxsiyBtnHoYyG-4T2YjA_bI5ToYyG-6Ve_0EXNSeB2jvLFY4ieiDvRonGleAxr1uIS6f
+WafdIA2IhH4gIgsHG2rPAWF5bCS4kCue6ibX9gr6S1O3tOpV6MRTwVZ0jIGOWbMl
+}
+
+AzureEntityColoring(AzureUserPrivacy)
+!define AzureUserPrivacy(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureUserPrivacy, AzureUserPrivacy)
+!define AzureUserPrivacy(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureUserPrivacy, AzureUserPrivacy)

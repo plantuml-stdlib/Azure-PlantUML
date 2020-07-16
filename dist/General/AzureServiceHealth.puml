@@ -1,0 +1,10 @@
+sprite $AzureServiceHealth [70x70/16z] {
+xTP9pfnG34NXuuxzxpWTAgj2u6BfaVu_uwTF5u_WtyuZwskPRfpbMTlNAiCupQBUI-UGvVPUEJ_MHfV6UsrqPSUfTLRGsNPMgY5Tl_Bjl1eWpSHscKQQQKIl
+iLAbHlesfSlSTDxVezhk0gXb9I3MbGtg0SNj2ILZHUdo3rBgvol-X9Ba0ueJwzTDiA4IQWeC5LTJ84PA8QVW8oL8DGL62jZr50Doe2IGbrFI8GQA0NOvfGBi
+NWa0ucfA5N2h57jvCQNA8EuKevdpAHNWDuhJsI70Njgks2k_HC0ujky3yl3uY2Z6-Zvn-3KG2EJtrLxiVow0rvv48EiiO7-j3ujc3BA0r0YQ2N301J9W4W04
+Cc80I86C60TS83Cc085C6KY1J1bpWOoPKCYSKSYSKSYSKSYSKSYSKSYSKSYSKSYSMKAQMKAQQMI9QMI9QMI9QMI9MKU0R6GfuxVsqMS
+}
+
+AzureEntityColoring(AzureServiceHealth)
+!define AzureServiceHealth(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureServiceHealth, AzureServiceHealth)
+!define AzureServiceHealth(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureServiceHealth, AzureServiceHealth)

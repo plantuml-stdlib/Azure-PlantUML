@@ -1,0 +1,10 @@
+sprite $AzureDataLake [70x70/16z] {
+xTDLWYiX48NXibEDPF_RZHE34BglpWp_EnzENoOM4LKvnhGXKGFiAS1Cnp4nsDjWIWCfx6DC_GGs5FLI6uqwmKOJQiM_HT5wHpZc9G3rZgfJXZoSBk2-D3fX
+3mXPfIIwT2AMNevoqufAsQMoFZRl6FSJKMyekupd7-3L8bIOIWnlASSIw3bcESTCpx6vjvLJUL7w62lSUygf0Eq8KeYEKagXdCB3vhG07QLTpX7mgd6bEEv_
+NfdALAOobQd4tw7443SedbwGK9YEufKIOhuVHGodObwjt4Ub64envTLAk_ZNbQbC9NmhPIhOee1Usw9efTXw1LI7jGgebQnJbDvauufH9rc65ALFYVSLA0qc
+M5eAJAZP0G
+}
+
+AzureEntityColoring(AzureDataLake)
+!define AzureDataLake(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataLake, AzureDataLake)
+!define AzureDataLake(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataLake, AzureDataLake)

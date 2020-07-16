@@ -1,6 +1,8 @@
 #! "netcoreapp2.0"
 
-#r "nuget: System.Drawing.Common, 4.5.0"
+#r "nuget: System.Drawing.Common, 4.7.0"
+#r "nuget: System.Drawing.Primitives, 4.3.0"
+
 
 #load "lib/Config.csx"
 #load "lib/HSLColor.csx"
@@ -53,8 +55,8 @@ public void Main()
 
     foreach (var service in lookupTable)
     {
-        var coloredSourceFileName = $"{service.ServiceSource}_COLOR.svg";
-        var monochromSourceFileName = $"{service.ServiceSource}.svg";
+        var coloredSourceFileName = $"{service.ServiceSource}.svg";
+        var monochromSourceFileName = $"{service.ServiceSource}(m).svg";
 
         var coloredSourceFilePath = GetSourceFilePath(coloredSourceFileName);
         var monochromSourceFilePath = GetSourceFilePath(monochromSourceFileName);
@@ -273,17 +275,9 @@ private static void CombineMultipleFilesIntoSingleFile(string inputDirectoryPath
 
 public string GetSourceFilePath(string sourceFileName)
 {
-    var sourceFilePath = Path.Combine(originalSourceFolder, sourceFileName);
-    if (!File.Exists(sourceFilePath))
-    {
-        sourceFilePath = Path.Combine(manualSourceFolder, sourceFileName);
-        if (!File.Exists(sourceFilePath))
-        {
-            return null;
-        }
-    }
-
-    return sourceFilePath;
+    
+    return Directory.GetFiles(originalSourceFolder, sourceFileName, SearchOption.AllDirectories).FirstOrDefault()
+        ?? Directory.GetFiles(manualSourceFolder, sourceFileName, SearchOption.AllDirectories).FirstOrDefault();
 }
 
 public void WriteWarningLine(string message)

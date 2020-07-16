@@ -1,0 +1,9 @@
+sprite $AzureAppServiceCertificate [70x70/16z] {
+xT87TiD024LHce2__mMx5t9YMn9Apzm5l2b0dspWJUX4T2icqW_0h7-Jj6b1RJ8gRutAgB0kzxmIM6vwMh5OJlxKZ4P5z0bvMM6cmZjRfuw3k4Sjdz9d5ST5
+SFzV0WW_222vMt6aNoIYMM4W_0fGEk6d7bScfDy4Ocv6zh0I2By3w6XQMqbu0N3hN_BTNJgLg9L0zYfMVpVXlKfzKW3Ih1WGjuXJiq8uo8XC0DAjC0hztegW
+i4RbP4BXsh2r8dhbA49NuO-e2F7sYfHlTXIvei5KJ3Womr5Gar_sv9J9TkKSEMVQbJX7Bfb-nUZ2-fKqkZ4mzIWLHZ_6i0S
+}
+
+AzureEntityColoring(AzureAppServiceCertificate)
+!define AzureAppServiceCertificate(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppServiceCertificate, AzureAppServiceCertificate)
+!define AzureAppServiceCertificate(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppServiceCertificate, AzureAppServiceCertificate)

@@ -1,0 +1,10 @@
+sprite $AzureTwoUserIcon [70x70/16z] {
+xTK7ikqm20DG0qBxt_7_hslYyWhCpRIh1Pmnmax6_V488Bn36F8zP4RNoEHhl8HaNXMYK4Wk2hDs4Ycrq-HMOVm9YOF2sZopWlfHagN3d15wOw3AI7vMc0sb
+KapShzHxwU-e_8fgzsMWKOjYdO4Kd1GhFsegKVzWhckktBm9APv6IED_f4vgSKZ1gCSYNYNuU70i08Hr29M73g8zPWEH8iRyAzj1GvcU6qdwvjxl42hBKSZS
+A5WGvwJ4LQ6jIlgiS5OmAIv5cQf1JS4yJsMYp1YASLLyKjJkQQRSAEEguA3aTibI_ABOIO5AMHNrgswbRDRDdQA2XKXPgy5MqQDM9mSbDSzLKSoqXOF2q98F
+Yd9MwCc-SeZZDJuKlCN-fE1owRK1hoYfQodbW9mLGi-igkYsPLrHDS6kafgdeH23TKN9ZgBSel3tobDvAdoqyXy
+}
+
+AzureEntityColoring(AzureTwoUserIcon)
+!define AzureTwoUserIcon(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTwoUserIcon, AzureTwoUserIcon)
+!define AzureTwoUserIcon(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTwoUserIcon, AzureTwoUserIcon)

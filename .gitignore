@@ -16,3 +16,5 @@ source/official/*
 !source/official/README.md
 
 dist/table.md
+**/Thumbs.db
+/source/icon-collection

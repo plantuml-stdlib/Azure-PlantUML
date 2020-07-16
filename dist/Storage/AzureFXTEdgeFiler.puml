@@ -1,0 +1,9 @@
+sprite $AzureFXTEdgeFiler [70x70/16z] {
+xTG73iGW34HH1fpGxd_UxRtlC97ItW6-9B3jDE2VuU-AjnSWgHWa5OEaOf1K39AAGL8n_zb3XJJkIY3WgU8v8wcibRM2VxskMC-mXqhFQQx4AAZaMkDOAZ4d
+nRliZAKISnxL7urZwiuasnW6kGpU204FbMxAivj6DBkfbkRAsRYkDnfVz_WkpdP2un_jN1U8ldNtsDUzn-rHvnu41jmGGi-mGLwNdTrxrDIDfH9pqipkQ2en
+vn7zKOdZcBepoJO6fx45
+}
+
+AzureEntityColoring(AzureFXTEdgeFiler)
+!define AzureFXTEdgeFiler(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFXTEdgeFiler, AzureFXTEdgeFiler)
+!define AzureFXTEdgeFiler(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFXTEdgeFiler, AzureFXTEdgeFiler)

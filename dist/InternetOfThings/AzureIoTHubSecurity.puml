@@ -1,0 +1,10 @@
+sprite $AzureIoTHubSecurity [52x70/16z] {
+lTHNibmX38JXLjx_YXquYHdS7kHm__UlA90Ai1pjFBrFCWsj8dyM3M5vfTXBSoesb7Y-vmAUMEIl2tjn8gfc7f6V2jLJvdPrXGRv4bDzKtrJ_y640aO8CR4k
+NNqoXb6iX1l5o2df6tuV227atNmWGkXy8XJA29yfu6tZG112JIg446vI82AQBUCOHU-SaVpEk8XEh-quIsu20CHCLGHpmOrYJaINSvWnltx7Ef4MD_6-cJaT
+mzy06WyfXQeAd9kvGGAegkJtMKcT9nXis_WrJ22vcOazbtVeOXYvBoy8OcPIBuC9018VZSp6hZ5nC-umxnb6pirrSP6B94R6JQt9CD4oyRwfYU3aB4szfW9A
+2C-0BYa0tYG104qZ0E0juXXrIE98zaafpdJR6EwiTPaptNrcYZZf8iUIvExrvsBZaPUSYXImDFbLUD4vX1_b8D5RXM0dYLkaWiHK6aZqMbHy1m
+}
+
+AzureEntityColoring(AzureIoTHubSecurity)
+!define AzureIoTHubSecurity(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIoTHubSecurity, AzureIoTHubSecurity)
+!define AzureIoTHubSecurity(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIoTHubSecurity, AzureIoTHubSecurity)
