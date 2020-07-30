@@ -156,6 +156,14 @@ Categories:
     Target: AzureAppService
   - Source: windows-virtual-desktop
     Target: AzureWindowsVirtualDesktop
+  - Source: WVD Host pools
+    Target: AzureWindowsVirtualDesktopHostPools
+  - Source: WVD Application groups
+    Target: AzureWindowsVirtualDesktopApplicationGroups
+  - Source: WVD Workspaces
+    Target: AzureWindowsVirtualDesktopWorkspaces
+  - Source: WVD Users
+    Target: AzureWindowsVirtualDesktopUsers
 
 - Name: Containers
   Services:

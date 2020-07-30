@@ -703,6 +703,70 @@
       "$0"
     ]
   },
+  "AzureWindowsVirtualDesktopApplicationGroups": {
+    "prefix": "Azure Windows Virtual Desktop Application Groups",
+    "description": "Add Azure Windows Virtual Desktop Application Groups to diagram",
+    "body": [
+      "AzureWindowsVirtualDesktopApplicationGroups(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureWindowsVirtualDesktopApplicationGroups_Descr": {
+    "prefix": "Azure Windows Virtual Desktop Application Groups with Description",
+    "description": "Add Azure Windows Virtual Desktop Application Groups with Description to diagram",
+    "body": [
+      "AzureWindowsVirtualDesktopApplicationGroups(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureWindowsVirtualDesktopHostPools": {
+    "prefix": "Azure Windows Virtual Desktop Host Pools",
+    "description": "Add Azure Windows Virtual Desktop Host Pools to diagram",
+    "body": [
+      "AzureWindowsVirtualDesktopHostPools(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureWindowsVirtualDesktopHostPools_Descr": {
+    "prefix": "Azure Windows Virtual Desktop Host Pools with Description",
+    "description": "Add Azure Windows Virtual Desktop Host Pools with Description to diagram",
+    "body": [
+      "AzureWindowsVirtualDesktopHostPools(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureWindowsVirtualDesktopUsers": {
+    "prefix": "Azure Windows Virtual Desktop Users",
+    "description": "Add Azure Windows Virtual Desktop Users to diagram",
+    "body": [
+      "AzureWindowsVirtualDesktopUsers(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureWindowsVirtualDesktopUsers_Descr": {
+    "prefix": "Azure Windows Virtual Desktop Users with Description",
+    "description": "Add Azure Windows Virtual Desktop Users with Description to diagram",
+    "body": [
+      "AzureWindowsVirtualDesktopUsers(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureWindowsVirtualDesktopWorkspaces": {
+    "prefix": "Azure Windows Virtual Desktop Workspaces",
+    "description": "Add Azure Windows Virtual Desktop Workspaces to diagram",
+    "body": [
+      "AzureWindowsVirtualDesktopWorkspaces(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureWindowsVirtualDesktopWorkspaces_Descr": {
+    "prefix": "Azure Windows Virtual Desktop Workspaces with Description",
+    "description": "Add Azure Windows Virtual Desktop Workspaces with Description to diagram",
+    "body": [
+      "AzureWindowsVirtualDesktopWorkspaces(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "CitrixVirtualDesktopsEssential": {
     "prefix": "Citrix Virtual Desktops Essential",
     "description": "Add Citrix Virtual Desktops Essential to diagram",
