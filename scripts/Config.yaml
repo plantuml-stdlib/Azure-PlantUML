@@ -628,3 +628,5 @@ Categories:
     Target: AzureTenantStatus
   - Source: Web App Firewall
     Target: AzureWebAppFirewall
+  - Source: pipe-svgrepo-com
+    Target: Pipe
