@@ -97,6 +97,16 @@ AzureEntityColoring(AzureHDInsight)
 !define AzureHDInsight(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHDInsight, AzureHDInsight)
 !define AzureHDInsight(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHDInsight, AzureHDInsight)
 
+sprite $AzurePipeline [70x70/16z] {
+xT03jaKn44JHkeoxvZ_QPxk-qNivE07-5kTSdzjQ6I7hOcqhPSR0lHcgnfrOI9ePLo0A-wrhXhL2zj3ijqIkLAmbSe2cabYRpoeq3MzLPBShrZGtA_g__92A
+LxpY5QzufRi4lT8RBrctdHCg4wzDW951g22LImd0L7BtnR-RWiPkLNIVM0cJffrMsZj-jzjL6fdY2iaEcaIMk6BapBqCqS2zYhYFT51Djelqw-Quqa4cRFqg
+phab
+}
+
+AzureEntityColoring(AzurePipeline)
+!define AzurePipeline(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePipeline, AzurePipeline)
+!define AzurePipeline(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePipeline, AzurePipeline)
+
 sprite $AzureStreamAnalytics [70x70/16z] {
 xTPRakCW30NGgpViVyFZH4LaA8_fBi_Vv7pbGIwImDMDV-_ho-F5yGX58ZoXaVHfG-bfGuaVDfGClw8kIqFf7EtqazsLy2PHxBp0QHEIZ44QC-FARNSn5hVS
 8_L-SuCuVgOVU7yzzY41R8fn4oO0n69-7T9vSrTrNa1w5HAumuf4n4JZm7qDwOmj4Xqab-iI4jXXdGa1OA-GAcMV8OVn4WVFa4Iu9RLzXkO7b3Uo3xeFuML8

@@ -100,6 +100,8 @@ Categories:
     Target: AzureSynapseAnalytics
   - Source: Azure Data Catalog
     Target: AzureDataCatalog
+  - Source: pipe-svgrepo-com
+    Target: AzurePipeline
    
 
 - Name: Compute
@@ -628,5 +630,4 @@ Categories:
     Target: AzureTenantStatus
   - Source: Web App Firewall
     Target: AzureWebAppFirewall
-  - Source: pipe-svgrepo-com
-    Target: Pipe
+

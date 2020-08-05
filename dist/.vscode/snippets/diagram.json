@@ -335,6 +335,22 @@
       "$0"
     ]
   },
+  "AzurePipeline": {
+    "prefix": "Azure Pipeline",
+    "description": "Add Azure Pipeline to diagram",
+    "body": [
+      "AzurePipeline(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzurePipeline_Descr": {
+    "prefix": "Azure Pipeline with Description",
+    "description": "Add Azure Pipeline with Description to diagram",
+    "body": [
+      "AzurePipeline(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureStreamAnalytics": {
     "prefix": "Azure Stream Analytics",
     "description": "Add Azure Stream Analytics to diagram",
@@ -3740,22 +3756,6 @@
     "description": "Add Azure Web App Firewall with Description to diagram",
     "body": [
       "AzureWebAppFirewall(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "Pipe": {
-    "prefix": "Pipe",
-    "description": "Add Pipe to diagram",
-    "body": [
-      "Pipe(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "Pipe_Descr": {
-    "prefix": "Pipe with Description",
-    "description": "Add Pipe with Description to diagram",
-    "body": [
-      "Pipe(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
