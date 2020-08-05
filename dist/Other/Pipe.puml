@@ -1,0 +1,9 @@
+sprite $Pipe [70x70/16z] {
+xT03jaKn44JHkeoxvZ_QPxk-qNivE07-5kTSdzjQ6I7hOcqhPSR0lHcgnfrOI9ePLo0A-wrhXhL2zj3ijqIkLAmbSe2cabYRpoeq3MzLPBShrZGtA_g__92A
+LxpY5QzufRi4lT8RBrctdHCg4wzDW951g22LImd0L7BtnR-RWiPkLNIVM0cJffrMsZj-jzjL6fdY2iaEcaIMk6BapBqCqS2zYhYFT51Djelqw-Quqa4cRFqg
+phab
+}
+
+AzureEntityColoring(Pipe)
+!define Pipe(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, Pipe, Pipe)
+!define Pipe(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, Pipe, Pipe)

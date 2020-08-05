@@ -3743,6 +3743,22 @@
       "$0"
     ]
   },
+  "Pipe": {
+    "prefix": "Pipe",
+    "description": "Add Pipe to diagram",
+    "body": [
+      "Pipe(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "Pipe_Descr": {
+    "prefix": "Pipe with Description",
+    "description": "Add Pipe with Description to diagram",
+    "body": [
+      "Pipe(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureAPIManagement": {
     "prefix": "Azure A P I Management",
     "description": "Add Azure A P I Management to diagram",
