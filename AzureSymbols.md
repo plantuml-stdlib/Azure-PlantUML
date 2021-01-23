@@ -3,7 +3,7 @@
 The following table lists all Azure symbols which are part of Azure-PlantUML.
 They are categorized using their primary category.
 
-If you want to be independent of any internet connectifity, you can also download the whole [Azure-PlantUML dist](dist/) and reference it locally with
+If you want to be independent of any internet connectivity, you can also download the whole [Azure-PlantUML dist](dist/) and reference it locally with
 
 ```c#
 !define AzurePuml path/to
