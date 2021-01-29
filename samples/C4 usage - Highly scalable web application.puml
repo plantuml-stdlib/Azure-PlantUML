@@ -15,7 +15,7 @@
 !includeurl AzurePuml/Storage/AzureBlobStorage.puml
 !includeurl AzurePuml/Storage/AzureQueueStorage.puml
 
-LAYOUT_WITH_LEGEND
+LAYOUT_WITH_LEGEND()
 
 Person(user, "User")
 
