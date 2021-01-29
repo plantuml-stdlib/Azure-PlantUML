@@ -1,7 +1,7 @@
 @startuml Hello World
 !pragma revision 1
 
-!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Databases/all.puml
 !includeurl AzurePuml/Compute/AzureFunction.puml

@@ -34,7 +34,7 @@ function GeneratePresentation(config) {
     slide2.addText(
         [
             { text:'This export of Azure Symbols is part of '},
-            { text:'Azure-PlantUML', options:{  hyperlink:{ url:'https://github.com/RicardoNiepel/Azure-PlantUML' } }},
+            { text:'Azure-PlantUML', options:{  hyperlink:{ url:'https://github.com/plantuml-stdlib/Azure-PlantUML' } }},
             { text:'.'},
         ],
         { x:2.5, y:0.5, w:5.1, fontSize:14, valign:'top'}
@@ -50,7 +50,7 @@ function GeneratePresentation(config) {
     slide2.addText(
         [
             { text:'And you can combine this with ' },
-            { text:'C4-PlantUML', options:{  hyperlink:{ url:'https://github.com/RicardoNiepel/C4-PlantUML' } } },
+            { text:'C4-PlantUML', options:{  hyperlink:{ url:'https://github.com/plantuml-stdlib/C4-PlantUML' } } },
             { text:' for using the ' },
             { text:'C4 model for software architecture', options:{  hyperlink:{ url:'https://c4model.com/' } } },
             { text:':' },
@@ -58,7 +58,7 @@ function GeneratePresentation(config) {
         { x:5.75, y:1, w:3.3, fontSize:14, valign:'top'}
     );
     
-    var imagePath1 = 'http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FTwo%2520Mode%2520Sample%2520-%2520Simplified.puml';
+    var imagePath1 = 'http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fplantuml-stdlib%2FAzure-PlantUML%2Fmaster%2Fsamples%2FTwo%2520Mode%2520Sample%2520-%2520Simplified.puml';
     images.push(new Promise((resolve, reject) => {
         var img = new Image();
         img.onload = function() {
@@ -73,7 +73,7 @@ function GeneratePresentation(config) {
         img.src = imagePath1;
     }));
 
-    var imagePath2 = 'http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FTwo%2520Mode%2520Sample%2520-%2520Normal.puml';
+    var imagePath2 = 'http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fplantuml-stdlib%2FAzure-PlantUML%2Fmaster%2Fsamples%2FTwo%2520Mode%2520Sample%2520-%2520Normal.puml';
     images.push(new Promise((resolve, reject) => {
         var img = new Image();
         img.onload = function() {
@@ -88,7 +88,7 @@ function GeneratePresentation(config) {
         img.src = imagePath2;
     }));
 
-    var imagePath3 = 'http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FC4%2520usage%2520-%2520Highly%2520scalable%2520web%2520application.puml';
+    var imagePath3 = 'http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fplantuml-stdlib%2FAzure-PlantUML%2Fmaster%2Fsamples%2FC4%2520usage%2520-%2520Highly%2520scalable%2520web%2520application.puml';
     images.push(AddImage(slide2, imagePath3, 310, 5.3, 1.9));
 
     var slide3 = pptx.addNewSlide();

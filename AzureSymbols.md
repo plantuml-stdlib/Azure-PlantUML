@@ -15,7 +15,7 @@ If you want to be independent of any internet connectivity, you can also downloa
 If you want to use the always up-to-date version in this repo, use the following:
 
 ```c#
-!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Databases/AzureCosmosDb.puml
 !includeurl AzurePuml/Compute/AzureFunction.puml
