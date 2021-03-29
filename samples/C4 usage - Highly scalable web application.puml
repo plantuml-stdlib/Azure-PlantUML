@@ -1,9 +1,9 @@
 @startuml
 !pragma revision 1
 
-!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/AzureC4Integration.puml
 !includeurl AzurePuml/Databases/AzureRedisCache.puml
