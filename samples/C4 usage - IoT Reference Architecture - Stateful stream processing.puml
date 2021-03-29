@@ -14,7 +14,7 @@
 !includeurl AzurePuml/InternetOfThings/AzureIoTHub.puml
 
 LAYOUT_LEFT_RIGHT
-LAYOUT_WITH_LEGEND
+LAYOUT_WITH_LEGEND()
 
 System(devices, "Devices")
 
