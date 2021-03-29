@@ -1,0 +1,8 @@
+sprite $AzureActivityLog [70x70/16z] {
+xTI5OSGm341HWL7PVz-66TKSwm_mp8Qc88KsX3RCXJuS8v8roQ2KY7X2HHHx9PO8emfnlOBbShmI6HGgbS0gPAQKoUNSJD7rjWh-fcAA1CSRUJcjUDWEvQGY
+i5SygUHT9NoDOehSeXIyf-IpYcmpbEoNQZB555DCCSKKKqp9-GO5olwjq1qAmv2e5HWLjGgCmwnJQ23-
+}
+
+AzureEntityColoring(AzureActivityLog)
+!define AzureActivityLog(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureActivityLog, AzureActivityLog)
+!define AzureActivityLog(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureActivityLog, AzureActivityLog)

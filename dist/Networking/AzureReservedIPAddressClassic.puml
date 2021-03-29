@@ -1,0 +1,9 @@
+sprite $AzureReservedIPAddressClassic [70x70/16z] {
+xT87ZiGW38LX88oVxNV_-wu8MnZLnB2TNsMAfK-qz0lQLSmcHm8NbDbpTyOxs3A82DHd55VfmUFAA_9uD2QicBHgEjfgmWewKgJbj7mld8gFY1WjtUj3UQIK
+UtLEASUPH1LqPcv7L6db_FfYlDvBILRIqPboBYLIKsZobZAklAq6ohZICbKrvumoNy6AYgneAqzjPIjRsSfM08pVdmPN5JZfa9uwQUD0Bof6aYvdO4l70Quf
+pXO6nGQ52Ap5XxNedRN0XkthU4Xz4BaZ2TnHeF-aR2NBYj8QfInHKYgpvVJtUW4
+}
+
+AzureEntityColoring(AzureReservedIPAddressClassic)
+!define AzureReservedIPAddressClassic(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureReservedIPAddressClassic, AzureReservedIPAddressClassic)
+!define AzureReservedIPAddressClassic(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureReservedIPAddressClassic, AzureReservedIPAddressClassic)

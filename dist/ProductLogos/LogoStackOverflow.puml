@@ -1,0 +1,11 @@
+sprite $LogoStackOverflow [70x70/16z] {
+xPP7pkim30R5hjp_mW-MKXYwF2eC_bLcRGmy-5pKFW6GHQtL01jWKMC3-eg5YnOT5YbQn0Pj5LHeB-Wp2wkATtuo4ke6rqO2dM1j9DP9SIITS1X9LnUQO6aa
+t-H7WaMDkAOmKc4dDrAXoOrKQ78Z5Pgo8q6yNz89f4PovNpKDEIG6mbdE1uqKNuajOd2GLDs9BOdl6_AZiJce8CcJeq4wZGAiIaz4dgFXARmPqjdSMXQU1_5
+P-5RamWJja0wIrvhBq0notzd8laiL4sLmFNgb6le9dIU9Is5zesNAQpUSbX_O8AlB5dwra9_GndzwjfoS8_OmyJvSuBq8qnecuwkCpRQ15dxcSbVkUUsuPhF
+J0rk6voo351s9ijQeicyHTAM2D3BXCiM3x0EKyjQL9W94VPnh9gsT8UfYWpdNPgrGFS49MGjs2_uZYLTH5-ne9hLBNS048b5L9tJrYoHeMIHWiMHjcW_XzCM
+kvrJjVmiIEV07pylTOlH_-5BIvwyvMVv1m
+}
+
+AzureEntityColoring(LogoStackOverflow)
+!define LogoStackOverflow(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LogoStackOverflow, LogoStackOverflow)
+!define LogoStackOverflow(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LogoStackOverflow, LogoStackOverflow)

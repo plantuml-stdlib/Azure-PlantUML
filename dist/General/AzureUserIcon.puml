@@ -1,0 +1,9 @@
+sprite $AzureUserIcon [70x70/16z] {
+xPK5TiKm30GZsBt_ZOigjtgEjlmzZmDZ41qz5W09X1rZWa_0PmxdIs3YHehpsqc-Gqnsekx6-06dBE07f10UFc63hKWNp8-1UA321c4MWfriYE-rnDTR_3jY
+j9ul-lN6TzPHNqZndVsbFvC9BLDetovA2eCuZmg7w2Wi4YJIZ-zYiruvkLAaZQNmfktqbhxod0CBcZxQMVgEX4LBUpN1eOND-yRIN0tc5iPJa0KBxId8WgNE
+HCbIbG39Kk4EoXRMAz42QfRYjrcsPLksPLksvHe
+}
+
+AzureEntityColoring(AzureUserIcon)
+!define AzureUserIcon(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureUserIcon, AzureUserIcon)
+!define AzureUserIcon(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureUserIcon, AzureUserIcon)

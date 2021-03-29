@@ -1,0 +1,5 @@
+sprite $AzureAllResources [70x70/16z] xP4x5iGm3091tlkVUNiUNVx9J2d19BRrBU2NICxHaYPdti621GiMB5CjTyL9cQdDJhbTB5YmO5d1z9bpPjsLIShCadDspXjXmO85YvCsQwEd07y
+
+AzureEntityColoring(AzureAllResources)
+!define AzureAllResources(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAllResources, AzureAllResources)
+!define AzureAllResources(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAllResources, AzureAllResources)

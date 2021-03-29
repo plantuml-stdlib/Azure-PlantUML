@@ -1,0 +1,11 @@
+sprite $AzureDeviceConfig [70x70/16z] {
+tTJP4giW383XW5cBx_-wtN0QE4EKUdR_-tuJQ11gYzxYolgiQ8A3yBRNMYj7pAtBl3hAbi9kIsimD2Ljb1LsmrYnxK1pIbpv9ShwXQ8S9LjbGX4A-cX_N-6h
+ANmrXVyTXQ-cyDKK_dSK_brA-aiANqtXtwcaP_CAZvLap_0d5K1xfkSKOP6NOY3sAaygFKA8A59MJlQEe9Pd54TK6V65LKMh8KOJYYDcfeoijgMKilXKWS9j
+g1Q7augWM5oA5UuZ2sFOKsQ7oNlAx3020oL0fBrVLVDmMcbdKKfrKRwUHVnUD46DZk-b9mXzs_mtR3N1TAo84_sY9ZLpQA1mfqH_Avj7Noa9F3gjG1EE5TCj
+Qz8lJ_Ifh4sAtAW4tlXsFwrjHH0TKhyOwjRG5H-bx_Q4vCTLNQAjsre7aR-01Pub6h-0nKSPfCrhL669NYFOdY8uzP7oOKP8EVfAULdjFSiWGRKeWUdGuZBC
+fXP7C5j-CvpHELaMyUkTPYHlA-ldMCIHEMOxVkhlDCEvk5csyotjv-fyEbwI1m
+}
+
+AzureEntityColoring(AzureDeviceConfig)
+!define AzureDeviceConfig(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceConfig, AzureDeviceConfig)
+!define AzureDeviceConfig(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceConfig, AzureDeviceConfig)

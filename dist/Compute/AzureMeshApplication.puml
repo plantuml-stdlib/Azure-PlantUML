@@ -1,0 +1,11 @@
+sprite $AzureMeshApplication [70x70/16z] {
+rTS5Ujmm48RXrV3S_y3bAkbNFGQv-8UpwrSuXjUVYQZ9KqEhFySV8TxVacCVqPx9VQNwBVgaAyyxu_q-kqfGUTwNsbNiLyoBz0-9NGJC9a9c4md9pp_Az3OZ
+PY9lHucCkGDZgEaLOoH6yFD6jdEaWMmn2MJDo34YHmtsZ5_Uhd7GGkuhUgMes9uVJVplLhZj3KWrc2E4314oQoGimlqhGoG_lsPWbiZxnJ8WSx6MZ3gQc0oH
+zuovsy1bT29WW4m6HpZ-1OR8UWTgeyh80FcQHDF54pqP8cowXNk4PGL-VS5pg2rariYhSAaoACjjRySAHpGMo8f9LWCknaJMZB7U77yJIL--nAQJDqoi7Lim
+nRaSO8Y0GSir3z7ihfmC430JgUek7ykTf4J8J0J7an4P4o4ZEWuGxciWM5iWY0C1G-IO8KA623F-i-lqkQ9xLrZcshpezVjjlZKneBiCaV4wZNXMn5U6I7r-
+JSyDrfH6LHfgvoxpVHYrXR2cW6mmG3O6zHZXkU2lFiDI-QiZ6hYzs4nWYJPJgCndlIdP1MQ5PzZhZ-GZ
+}
+
+AzureEntityColoring(AzureMeshApplication)
+!define AzureMeshApplication(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMeshApplication, AzureMeshApplication)
+!define AzureMeshApplication(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMeshApplication, AzureMeshApplication)

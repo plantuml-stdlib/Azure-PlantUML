@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0%,0%,0%);fill-opacity:0.14902;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 19.601563 70 L 8.398438 70 C 3.761719 70 0 66.238281 0 61.601563 L 0 8.398438 C 0 3.761719 3.761719 0 8.398438 0 L 56 0 Z M 19.601563 70 "/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(34.901961%,70.588235%,85.098039%);fill-opacity:1;" d="M 70 61.601563 C 70 66.238281 66.238281 70 61.601563 70 L 8.398438 70 C 3.761719 70 0 66.238281 0 61.601563 L 0 8.398438 C 0 3.761719 3.761719 0 8.398438 0 L 61.601563 0 C 66.238281 0 70 3.761719 70 8.398438 Z M 70 61.601563 "/>
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 22.398438 53.667969 L 22.398438 16.332031 L 52.222656 35.019531 Z M 22.398438 53.667969 "/>
+</g>
+</svg>

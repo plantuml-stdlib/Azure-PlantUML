@@ -1,0 +1,9 @@
+sprite $AzureExchangeOn [70x70/16z] {
+xTP7WiCW58FXk06Ixd_V0T9xOZITV_LMNufDsNnAItYbyJ4ofsU1al1OMPugL8wD2cHGG8T2lQvCGswgupoKwXY6OHn7jYkv2wKhY0w53eKoAD3xofZRAMEf
+llcfZYshaJgsMe4C2kXGA8D2hLB2aWk7COJg89GQtXTAP-zBLnQ70eS2EXJAe50jokxTXQGKIrGETNnPkLx93QkHCYYGGG4ToWFadISzAzV-lbmeNO55eKEX
+30ei2gLvpEtUkh54wRsR1_MqvmhaK6XHz6LALpZlIatAi2l-3QKhNS5ZPS0h2fVDP_G1
+}
+
+AzureEntityColoring(AzureExchangeOn-PremisesAccess)
+!define AzureExchangeOn-PremisesAccess(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExchangeOn-PremisesAccess, AzureExchangeOn-PremisesAccess)
+!define AzureExchangeOn-PremisesAccess(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExchangeOn-PremisesAccess, AzureExchangeOn-PremisesAccess)

@@ -1,0 +1,10 @@
+sprite $AzureInformationProtection [59x70/16z] {
+xPPLOYGW40MdzVuttettMEK5ubBV5Azn3XTuL9zH6NQGH1EXHSPPjEhdAJHROsJkkMpgcgjVHegvNPhdqvxTpGRFqv8vjEnmGN6iNBoa1ju3h3gr2BrL7Igk
+apLNiKdLQBLMrNeBjR-1-ltKF_NqZIdYf8tZ9QgfgNN3ZTx5QbkDVJMh9HNkeLL-pGDL_G_8PNMsqweQemQeQ0w-eARZkpyg1wwdfi4xATGA-E602e532RNy
+B2gwR7vohDPPeDV3ntIQWLgdWRbmSk8iS45rY2GL_t1HKkKDPAbKb1-6d3QzW0ehQxE3IHt2uCy5AaKFHQhUoa6gFa1EgeusK0bNgKpAQM9CtHBQjKQLYLaP
+K0LlgkQs6hQjpftEy5w9NVC_
+}
+
+AzureEntityColoring(AzureInformationProtection)
+!define AzureInformationProtection(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureInformationProtection, AzureInformationProtection)
+!define AzureInformationProtection(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureInformationProtection, AzureInformationProtection)

@@ -1,4 +1,4 @@
-#r "System.Drawing"
+//#r "nuget: System.Drawing.Common, 4.7.0"
 
 // From Rich Newman
 // https://richnewman.wordpress.com/about/code-listings-and-diagrams/hslcolor-class/

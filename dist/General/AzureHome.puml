@@ -1,0 +1,9 @@
+sprite $AzureHome [70x70/16z] {
+xTCtOWCn44DHfbtW_YTsPpWeWL0MVqdEl6xA6xJgLq6071a0a2CG4o94pH4mORPlHCmC8eMi0IA5BK90CVC8A6OUaS9k8Jj-As8YH8oFI573HwIeRGe1VKQ8
+59yHSbpXxYFW4SP4J0QuL26E6HM6GbW8U8of1W8QJ8MjY15YAAecY6gN8U2bJCEymYuaKDY510gxa43XA1svmj67sYv7skzAKJsuw8SfIs6kz5hrEQQLNv-F
+KvQobAKqKtd_Lby
+}
+
+AzureEntityColoring(AzureHome)
+!define AzureHome(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHome, AzureHome)
+!define AzureHome(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHome, AzureHome)

@@ -1,0 +1,12 @@
+sprite $AzureDeveloperTool [65x70/16z] {
+dPPfqWCX20KVg8ZtF_2tKh56CQzC_qxtB2ePO2Ab_b0K7zF6F_PnmqPW20ZbM701HxeR5lf5eRfxnxd0B_-38Y_mzr3ybvQMHw0u8kP_21B48z39vTqhKepT
+WeRVaUCZQCW9FzwWOK46MGWBF_g-5kfu8SZmu7N3RNy5WRvx0-KLM0h-FY3Jdx-lcEYObBElc85deOs97logWXV-k9PM7nF93q3Bzhx-oXPsuDoVj-oBd1wd
+p8UE8ow9RrZffC1yb76cOsBXxzWuOvkVuGVRFGh4XtZkYyQPpdnUS05AxAOMy-DCsttzFzkD-O7Qxei1PVgKqgpttgg7Bs7LpIUeX_-38Np11Jfw-EwM-9pI
+0NEV22uHe2z-mIMBtuRX2l690R4dBsZ-B9JBWlY3TbkGxayAK2yAnHVw_0VXScqzyUF3WnUg1vcV5xZ_7Btbwk5Dzz5TBloQZlvovujgpuOLk6-dWUbA_41m
+Kr3V04Y1-0O4cXI4-cuW1U9x0IbS-AGWdb3vLu0ByNc1-BnW9xyXO0L0ElKdTQmGdnTWRpSGBq28lz6sTq1yKa0K3ZulRFkuWsFhJjAJpmkAA2m-ewrJfOGl
+21XIcxMopKF1vnJYS-g7_ZS
+}
+
+AzureEntityColoring(AzureDeveloperTool)
+!define AzureDeveloperTool(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeveloperTool, AzureDeveloperTool)
+!define AzureDeveloperTool(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeveloperTool, AzureDeveloperTool)

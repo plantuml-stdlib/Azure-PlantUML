@@ -1,0 +1,9 @@
+sprite $AzurePublicIPAddress [70x70/16z] {
+xTP9TiGW34LH2T3R_uxJcMEbvrZyz7aJstpgZii-jF-yxURc8-enwme4ye0wmfFlAiBJxoB2-TqTe8IaqYpcPtDVryu6G29CrQxLKsdc_MX3kV-b7sqeuCPH
+LPcCCp-zgYGJw-1bUHvrX5ms478aoWXnAHGA2WM5Wa91eQ1GK2We51GA2eNlew1GK2We51GA2WM5Wa91eQ1GK2We5BwFmhOotFnakdjd5ZaibM7tpTlj_htD
+gpcibPP_Ri0Uug6UmrevBe-NohYYu6Rc78qKoM6j0AEFt7iFPZci54f942G84WG9ebUe9q6G80m5GbCWOTx7RjrUxxzR
+}
+
+AzureEntityColoring(AzurePublicIPAddress)
+!define AzurePublicIPAddress(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePublicIPAddress, AzurePublicIPAddress)
+!define AzurePublicIPAddress(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePublicIPAddress, AzurePublicIPAddress)

@@ -24,11 +24,11 @@
   <rect x="0" y="0" width="70" height="70"/>
 </clipPath>
 <g id="surface8" clip-path="url(#clip2)">
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 20.527344 0 L 0 21.039063 L 0 49.597656 L 10.503906 60.058594 L 60.054688 10.507813 L 49.515625 0 Z M 20.527344 0 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 60.054688 10.507813 L 49.515625 0 L 20.527344 0 L 0 21.039063 L 0 49.597656 L 10.503906 60.058594 Z M 60.054688 10.507813 "/>
 </g>
 </defs>
 <g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(50.196078%,28.627451%,59.607843%);fill-opacity:1;" d="M 49.515625 0 L 20.527344 0 L 0 21.039063 L 0 49.597656 L 20.484375 70 L 49.515625 70 L 70 49.699219 L 70 20.421875 Z M 49.515625 0 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(50.196078%,28.627451%,59.607843%);fill-opacity:1;" d="M 70 49.699219 L 70 20.421875 L 49.515625 0 L 20.527344 0 L 0 21.039063 L 0 49.597656 L 20.484375 70 L 49.515625 70 Z M 70 49.699219 "/>
 <use xlink:href="#surface5" mask="url(#mask0)"/>
 <use xlink:href="#surface8" mask="url(#mask1)"/>
 </g>

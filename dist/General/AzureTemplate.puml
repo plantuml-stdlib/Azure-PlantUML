@@ -1,0 +1,9 @@
+sprite $AzureTemplate [70x70/16z] {
+xTG5OeGm58JXpPF__aTkmcFgnUfjPeN1FfnRJt8sTdkPvBsCbFSp2UrKGiox5UpzYfZtAzZx5J7lLx3tAsBUhs3lLCHSLZmLO4Cv6g1DPIg7CfMfU7eDachF
+ggt5DfKWMZEMPEirgTYOMTD6yNqbIUk0jr7niah13olWEa2eVOSOCnFinBwqIXBYM6O6ULGnT3wrAsDIpGG_g3I7EZMbo0j2t0559_AHObB6to6bab3dMOfc
+WXrKT0n9Qde-EjmzfMwF-sCmIdKmAIrWIubWgMJuMWCo8WlJZcuhkjEJaRJQ2z1QKdnJCRUrzDQhfhgfQcW_zlqobQbCPIfJcKh6jJnHtf4FLEu
+}
+
+AzureEntityColoring(AzureTemplate)
+!define AzureTemplate(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTemplate, AzureTemplate)
+!define AzureTemplate(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTemplate, AzureTemplate)

@@ -1,0 +1,9 @@
+sprite $AzureNetworkInterface [70x70/16z] {
+xTW5WeD044HHhATwOjp_jjlK6kuEFsul2Gw19HYN2tBDhTnAnDeLRGnW4hDs9MtiVIL5VQbj5IqqLa6XaoWwOEYwa4rL0bQlw4_J5FnqB2LaxShhtTIpnvX6
+Ozuhs4wKMt4YRh8YKHX6Cb5nXXW3fimFLoHa-INxPWfo_oZtxAYXwoOfJ6XCKjX-bLjvM0fuk_6Z5Ksj9_2scqzUaIJBJLJYC4kEfgZEeLZxKA1PKnLMfr2V
+hB2I4h69YWjOFoLN7-M_KoZvz11AbDLJmTFomEDfdUDenQry0G
+}
+
+AzureEntityColoring(AzureNetworkInterface)
+!define AzureNetworkInterface(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkInterface, AzureNetworkInterface)
+!define AzureNetworkInterface(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkInterface, AzureNetworkInterface)

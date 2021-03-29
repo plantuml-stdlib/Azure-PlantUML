@@ -1,0 +1,10 @@
+sprite $AzureSecurityCenter [70x70/16z] {
+xTK54eD038NX5x__YUkoKomRwkq_WdyuO3d57HAtUo3kYfMfxpF2YjZybAmtwWwftwQCdbZKnpDPa8YPHLJDbp9LuLqqWdY-E2LhbBY74k-Zn3sKk8SIzr3Y
+VPIuXn9LnOI9nOv8KJ76CRAwOhYc7ZN5q6P5XR6FHGZxlAJOvOAuO9UK5CQkThoaO9Uq4rvLx3WQSPXOfqG40T22OXSbtaU9UoXHKzfVASkfuuHrAepHEXLw
+lF9N_WeApou_IZ5lYfH26AGjab8SmxX5GZ4M3o_kz2b5Bi98t8aeHhCk931H5yAOY3iGmsIQLXmpQGKPPZc4C9yMa1BZI2ILkpECF6OIPBEOoXdvf78smyWJ
+1r8w74Cb7JmafSYkXg0U--3s5fs4iGK
+}
+
+AzureEntityColoring(AzureSecurityCenter)
+!define AzureSecurityCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityCenter, AzureSecurityCenter)
+!define AzureSecurityCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityCenter, AzureSecurityCenter)

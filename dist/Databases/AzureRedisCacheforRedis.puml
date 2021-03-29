@@ -1,0 +1,10 @@
+sprite $AzureRedisCacheforRedis [70x65/16z] {
+xTG7YkKm48JXwYpf_WTUkP714QnvcySVsML-4Hj_rkj5n2Aw464wR3aTjpFM8y9Az41mWJ9ocz4B0E500EgBcRadCrl_941oyo4d0HG7nalAOok_1U00I6D7
+btgSAYN39AgsK65qN1eGmMEpiH4wRULSASKOEwIbjQLIIhwznLRRLIMv2ZCnirhKbhBIXOrDndPNMTKsh9MDDlmzbRTI0V-aKamO0x7w5ohL21qHCHCH5kAJ
+5GV0ebjCW4nL_FBQ2C0p5G5qi8Lg8b0yhnG7ICtTO-Lkoe3QyqeK0y1gcufndfIfIWd1G4H0aj8cAvqBRo-MrzRcAodSBQ9a84rNLYrzqufyfU8uylbA9Pne
+J5OSbzZYQQM6ubuU5REuhVHHXGbF-5sbug6tybRUYjnL73FqkkAOGnQdIZ3ciNgibHec-01r-ADUFm
+}
+
+AzureEntityColoring(AzureRedisCacheforRedis)
+!define AzureRedisCacheforRedis(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRedisCacheforRedis, AzureRedisCacheforRedis)
+!define AzureRedisCacheforRedis(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRedisCacheforRedis, AzureRedisCacheforRedis)

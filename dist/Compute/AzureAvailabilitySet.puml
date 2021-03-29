@@ -1,0 +1,10 @@
+sprite $AzureAvailabilitySet [70x70/16z] {
+xTW5Tkmm38LXuNtpzh_XwaJ3ZbtLJhd_eU0t63AHEZAdIB4x1ufaVyvYne059MF50OhxgfBzL8Kciv-gU4QJwSxkB8Mu1ey3b8RL4816SSq0c9xJxA9WNAE8
+RY6RLGpPM56sPSLoyPBYAfdYCPNeDSKB0JvGoWYWYmfGKZ2kLJoRLTfZkgyuIqTfwYek5EcKqcvjyuezRD1JDEifJlTnepJ7TADasZjewlyNLuTB6WAupIaY
+2ZY7uO3Ph18PO0wuhIXH6gkA0FPTbQokQ7kpaCAzWg6odmJG74VtYgEWPFPyJAUInhG2tnG7-efaFILpPAt2ieMierJFtk-eHAkArX18Nwb_9AM-qcQdQp9_
+rop_hz4Hocb1iOf2upYH34nlpH7zUmwHKJtqEqHnQfACfkeVqt_FZVTPf1I9HPqvjalNkHyxpc27A7I4eiI-h2Yz
+}
+
+AzureEntityColoring(AzureAvailabilitySet)
+!define AzureAvailabilitySet(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAvailabilitySet, AzureAvailabilitySet)
+!define AzureAvailabilitySet(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAvailabilitySet, AzureAvailabilitySet)

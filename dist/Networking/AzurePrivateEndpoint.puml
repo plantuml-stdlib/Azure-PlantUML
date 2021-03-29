@@ -1,0 +1,10 @@
+sprite $AzurePrivateEndpoint [70x70/16z] {
+xTK7RiH0241HfW6-_u7J4xmQVMI9zEHlBtxk7lbxJNEtKJEQ-LDMGjozpYn_gx1IWHGMflkfBrPQPOqY3MN9UwoI51glI9TAtHuDRLAh7G-9V87oh_mh_yhG
+bIXDjLz0fhilLcmRLN08CbRSWyaH7wpCZI5aogRmNnW1XHdwdHMPm002Iife_9OfmQm48OKPHbXXXX7fcu8C8yiV5P_4w0Ma-V6IqHWUZCLH3SW5ncXrz3Wr
+aScHTfnpOOPNHsGUDtLarjkhxArRPV9P4mkrfvULRI_piepqsBFqi8qo96FiZ6YEIFDWS66y9KZEZ41wYkHCzsV4Me84Oy38MAgh2oF0G800Kq7uX69aYZ1J
+GqGK6KQOAI3CC98plO848rGB96tboeOmCo_yMgl9N-WU
+}
+
+AzureEntityColoring(AzurePrivateEndpoint)
+!define AzurePrivateEndpoint(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePrivateEndpoint, AzurePrivateEndpoint)
+!define AzurePrivateEndpoint(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePrivateEndpoint, AzurePrivateEndpoint)

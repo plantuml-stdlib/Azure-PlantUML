@@ -1,0 +1,10 @@
+sprite $AzureWhatsNew [70x70/16z] {
+xPS7SiLG20CDIDp_nkd9xqWkK-Czm9hcDx2ivYJ1_e6es608z0F8bL6mdmC_eke1qnFicJ8aQ0d336HNEDacC2I-nfS0pzBaAWakvNAYYJ5ocYLcFsCADDqv
+kMJVJp3pQOmMY7oyM3hC7p0kTT7jxbTmJBZJ75hc52f5LKn2DCW3ObPCH6rDGbbO5o0Vh3HUnfHTmX2ljBJHP_gM7j2MECIIXrZgj3mb3xNma7d1BekpE_b_
+OpWM_TZjiQHuCJsBU88y2vSBsoqf5WRF8ZO6pr9YU_4iOdtnB6Nk_lDdn5hdMLAlP7g-oxjdMDTd5wsz6MhvKqMvQ7nYUG5NIdP74_9ar72PYJR00OSZyu0Z
+jloZN3XC0Y8NboZU630e197rGMOi_unt
+}
+
+AzureEntityColoring(AzureWhatsNew)
+!define AzureWhatsNew(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWhatsNew, AzureWhatsNew)
+!define AzureWhatsNew(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWhatsNew, AzureWhatsNew)

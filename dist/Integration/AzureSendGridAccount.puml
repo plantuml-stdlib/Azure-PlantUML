@@ -1,0 +1,5 @@
+sprite $AzureSendGridAccount [54x70/16z] xSot0SD05CDG_ijX_ttjLbGS0Ay7z1aGnLGJkf26sIP_hQYeg78psmoJlbPKL5Ib7xLkYWdz-Rit8_UregAYKeJEW1y
+
+AzureEntityColoring(AzureSendGridAccount)
+!define AzureSendGridAccount(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSendGridAccount, AzureSendGridAccount)
+!define AzureSendGridAccount(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSendGridAccount, AzureSendGridAccount)
