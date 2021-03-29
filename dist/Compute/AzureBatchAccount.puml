@@ -1,0 +1,10 @@
+sprite $AzureBatchAccount [70x65/16z] {
+xT89aiGW24PX17pf-rzuLdkJL68JPvztWA-i7qMNqsvLzk8qK96TbZ-Y_2jU1vgXm0I56GhlYhcxbQG2JLdUmZOLNu-hqg9iA4LMyrkbfKUKJSPt9g4fhch6
+cy832dTAIzyO7rKWAbTcK24gBRyk4nMtc_nI3KfvLJnveslNVQEYPRKLfQuDuzkBv1J6bBAfmF6tmBQYGFk-hsbGJ5KjrbtQbviyVUbwHP2ecAuMVXqtI5JO
+xAgKfLLM54OLqNV492WmheYrPNk5SQKTgagNCP3SLP6GscxILUJBqpv9nAdF4yeIbFh35QzzBbBzg8ABW3wkcBQiGbfHQIbm_2r-exZdTW5kb4fAOOR210Kc
+A4nGO8B238K9YjK-3KggBrKAeOGYX4f2ATfL92YPiahj8gKGUWO
+}
+
+AzureEntityColoring(AzureBatchAccount)
+!define AzureBatchAccount(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBatchAccount, AzureBatchAccount)
+!define AzureBatchAccount(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBatchAccount, AzureBatchAccount)

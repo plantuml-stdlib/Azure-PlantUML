@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.2;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 65.8125 2.804688 C 65.796875 2.804688 65.785156 2.800781 65.769531 2.800781 L 3.804688 2.800781 C 1.699219 2.800781 0 4.683594 0 6.789063 L 0 50.644531 C 0 52.738281 1.699219 54.601563 3.804688 54.601563 L 5.277344 54.601563 Z M 65.8125 2.804688 "/>
+</g>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.4;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface8" clip-path="url(#clip2)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 64.398438 8.398438 L 64.398438 49 L 5.597656 49 L 5.597656 8.398438 Z M 64.398438 8.398438 "/>
+</g>
+<mask id="mask2">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.2;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip3">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface11" clip-path="url(#clip3)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,112,196);fill-opacity:1;" d="M 49.605469 43.394531 L 22.152344 41.183594 C 21.503906 41.132813 21 40.582031 21 39.933594 L 21 18.863281 C 21 18.210938 21.503906 17.664063 22.152344 17.609375 C 22.152344 17.609375 49.613281 15.398438 49.617188 15.398438 C 50.40625 15.398438 50.960938 15.960938 50.960938 16.652344 L 50.960938 42.144531 C 50.960938 42.484375 50.832031 42.796875 50.59375 43.035156 C 50.355469 43.269531 50.042969 43.398438 49.710938 43.398438 Z M 49.605469 43.394531 "/>
+</g>
+<mask id="mask3">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.8;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip4">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface14" clip-path="url(#clip4)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 35.980469 17.757813 L 35.980469 28.417969 L 49.707031 28.417969 L 49.707031 16.652344 Z M 35.980469 17.757813 "/>
+</g>
+<mask id="mask4">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.8;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip5">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface17" clip-path="url(#clip5)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 22.253906 18.863281 L 22.253906 28.417969 L 34.019531 28.417969 L 34.019531 17.914063 Z M 22.253906 18.863281 "/>
+</g>
+<mask id="mask5">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.8;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip6">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface20" clip-path="url(#clip6)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 35.980469 41.039063 L 35.980469 30.378906 L 49.707031 30.378906 L 49.707031 42.144531 Z M 35.980469 41.039063 "/>
+</g>
+<mask id="mask6">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.8;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip7">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface23" clip-path="url(#clip7)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 22.253906 39.933594 L 22.253906 30.378906 L 34.019531 30.378906 L 34.019531 40.882813 Z M 22.253906 39.933594 "/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,112,196);fill-opacity:1;" d="M 65.769531 2.800781 L 3.804688 2.800781 C 1.699219 2.800781 0 4.683594 0 6.785156 L 0 50.644531 C 0 52.738281 1.699219 54.597656 3.804688 54.597656 L 65.769531 54.597656 C 67.871094 54.597656 70 52.738281 70 50.644531 L 70 6.785156 C 70 4.675781 67.871094 2.800781 65.769531 2.800781 "/>
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,112,196);fill-opacity:1;" d="M 64.398438 8.398438 L 64.398438 49 L 5.597656 49 L 5.597656 8.398438 Z M 64.398438 8.398438 "/>
+<use xlink:href="#surface8" mask="url(#mask1)"/>
+<use xlink:href="#surface11" mask="url(#mask2)"/>
+<use xlink:href="#surface14" mask="url(#mask3)"/>
+<use xlink:href="#surface17" mask="url(#mask4)"/>
+<use xlink:href="#surface20" mask="url(#mask5)"/>
+<use xlink:href="#surface23" mask="url(#mask6)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,112,196);fill-opacity:1;" d="M 53.199219 67.199219 L 16.800781 67.199219 C 16.800781 64.105469 19.308594 61.601563 22.398438 61.601563 L 47.601563 61.601563 C 50.691406 61.601563 53.199219 64.105469 53.199219 67.199219 Z M 53.199219 67.199219 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,73,128);fill-opacity:1;" d="M 29.398438 54.601563 L 40.601563 54.601563 L 40.601563 61.601563 L 29.398438 61.601563 Z M 29.398438 54.601563 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(115,195,255);fill-opacity:1;" d="M 35.722656 5.734375 C 35.722656 6.28125 35.277344 6.726563 34.730469 6.726563 C 34.179688 6.726563 33.738281 6.28125 33.738281 5.734375 C 33.738281 5.183594 34.179688 4.738281 34.730469 4.738281 C 35.277344 4.738281 35.722656 5.183594 35.722656 5.734375 "/>
+</g>
+</svg>

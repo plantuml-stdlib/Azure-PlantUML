@@ -1,0 +1,10 @@
+sprite $LogoOkta [70x23/16z] {
+vPC7Ri0m30CzjVx_u1eEbJ03xGDAh82GpeGKbGzvHBJVdRzLOscydFuVARMr-aLfIt2aBTL70rbLF9PiFYbr-tCvAIjRqsE39PPWHSeRKm2nygJq884Yx7Ic
+s2RN9sN4NKZ2QaaX256ab1OFdGMochjn_acGT0uTPNtXzAHCAh0ZJELehqqt7d9I31uzMHb25Egid0jtDWkPSfl2coBqR9cWO98NHHyRULAKAOEoI9hEMHY3
+uMKMXxsH0JCgaVj1iSaOkrhxbHxlDPZUJaYS_qidpDYV5RaIqt07EURGAOSrJig1GQ-ZQkPwNQO5v8fZIIbT032-RvTEHECbv298KWY3J_YCGI_Veuz25C9i
+L-FSrCY71HNOZgZENY1HbOgDw99W8rDD6_mfAdsxOttz
+}
+
+AzureEntityColoring(LogoOkta)
+!define LogoOkta(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LogoOkta, LogoOkta)
+!define LogoOkta(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LogoOkta, LogoOkta)

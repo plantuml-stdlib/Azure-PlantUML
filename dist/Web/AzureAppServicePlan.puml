@@ -1,0 +1,10 @@
+sprite $AzureAppServicePlan [70x70/16z] {
+vTK7mjiW38RXC2IckFznIzh-4_WYnzbv3_3O1eGFBjNJPJx0NDKLe9AgCeEKgirTHF7FfaXR91kKrafC0XYD8YrvxsdEg9Kcv7iHl8n6gVvOsAU8aE-bdKeh
+j7eL_RfqHafj-_Qe9m8CZO9xSqNcookoHP4c5UpqfKyTLdPCm8MdiOc_mCqWBNQ4wivfR2tlk34lU7lZtboHUTkKTf4_h4JYWgVHMEkSDUZi1jyhwxT9z9K5
+quZcA7uHVCoTCTEPVo4zC_qYNdzHeW7fkUdg1g8yHUA0Z0mOHl0cNupkr6LQAcor4r1uYVIqIYIaE9rI4D8xfPISSy6lqdD8oO7-nX3fqLefWMRnhAMIYVIA
+7HI0y2etLmeYnlnSOO2ebGmClH8keW14lxfv8yBc8eftTbJI7C6v4-_2kln55BPmZrWPmVF2sdufwI9AvOie-I9AJMSmb273kWpNeSmRcJu4iOwbi86XFf5_
+}
+
+AzureEntityColoring(AzureAppServicePlan)
+!define AzureAppServicePlan(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppServicePlan, AzureAppServicePlan)
+!define AzureAppServicePlan(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppServicePlan, AzureAppServicePlan)

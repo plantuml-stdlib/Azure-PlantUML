@@ -1,0 +1,12 @@
+sprite $AzureAccessReview [70x70/16z] {
+xPPbmZCn28G9HEdzprkXCkknNv_CgxM7B9F9Sllel_uh-zkyYgCu3L4ceZGB4Ngfp54ycPpEG29zn1EOJ3_9CARGGc6qiuwMIkCUBvKdx85S6RV7YRXXenAH
+AJu_gGb63TaJrymmP0z_ds1Gk-r1xG2ZUY882dhT5KmK9h-qlI-OwM3RIs-YCc4fXnlPjvsGowfQda-LrTCKUzB3BuZmo-Qy3dXgimSGCWeLN6c3KIilZ6aK
+IsAYHgFYAi3gwKknnn4OrYPxia50iVAXnU-oWjXdG25MutuLhYCemRja451-624M1wFEFEQ26802pEAuoMVseFcHTXGq8_yCEBOdukhs59Jt9qPjL-aFARf-
+j-YnFUMQWYrnQ9HiWyPNQq7Noc5-7DQyfxYC6dXYAGtBIrKS1QlzOavZAvNJ8yw569dBTtcWU7trWrDEGjydpiydv2WiAH7jg4H020fgo_jGdAMpuTwFvg13
+sP5__cPh2JVV-HD1LZyP7Tr6XNDPTIWUuober_0JVl3UgMhPH06bUnYAUqeQ63PHMH5ERBLM5Vv-Q8EDlVC_Qck4ztt21cGcGle6vyEP8Hxfd1_XPMxoHdEm
+rIQ4mtvAsI5z4r96-cOmvVONwByU
+}
+
+AzureEntityColoring(AzureAccessReview)
+!define AzureAccessReview(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAccessReview, AzureAccessReview)
+!define AzureAccessReview(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAccessReview, AzureAccessReview)

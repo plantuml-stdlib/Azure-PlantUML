@@ -1,0 +1,10 @@
+sprite $AzureUserResource [70x70/16z] {
+xTG7akL020DGGBI_xt_X3UpEy2sdiIO77U0LKbUrRSOZ4E7sZ3Z-9pD3HG2qakdo8QrevmJ0IaAwf1MH0IjAAUmegVLX9PvpIkTb57zMeUlF5A-kf3IBhiG7
+KfmGRLqxKFn55FLpWLAeigj8dnGheN-Or4VhH7t4Q-WIaQ5DHASFKUDH2jm-G7w2PSBMyLp6JvMjnyth2em3HM76anF8KuKx9MVSvddECmNSXutABKWvOeAC
+QNxCvCTAx8rIHcSSAZqDb-6WbVrEE31wdbqbkW-NuGnMk5C-HSa39HTz-7deeVOLMDmJ8tiPNiNtbSIYppHoxQ0CO4Tv55hvxqmqY07Nb79gdXuaS5Lfvt4G
+G5AAyK0RYbAEMvUHb4ei35KPZHmgUQRWYoe_Ieu3nSnE4MPOSJjNs64bp4uLTbffuvBIJ2jkWb9EAsL8IZcbXDtdDm
+}
+
+AzureEntityColoring(AzureUserResource)
+!define AzureUserResource(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureUserResource, AzureUserResource)
+!define AzureUserResource(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureUserResource, AzureUserResource)

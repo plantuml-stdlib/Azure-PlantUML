@@ -1,0 +1,9 @@
+sprite $AzureDevicesGroup [70x70/16z] {
+tTS74i8m34HHfyahsVU_BZKzGXOTygTJtgpfX8fOVAMyJYXSgrYyPILS5H8ZN5EdzBKNnPhIzNkxVihjCUQK-bhifsXnhpZBhr1IKK4i1oLPAF5J2dv7mTuK
+_8w2tr7mEeMLpeeqJTqhPSJyl93Qfx1CST_iyq9yocHG6AjxfMVkEH1txL3i3-HNz99NmQ0OL_eLxfJe4XSLM0fzL86bq1ygi1Jwg8BtA-HKy7w5d0h-HI6d
+WkyeK69PnZhIAxuVfWygwILADXLQAsnCyIkTFiLKQAE4Q4pnAw6XyY-Mek9geT3U5FeTXVQcqDuKUauHN1Abv5NiV_ZVKV9J2XjJ_0hPKrBm1Kj9pH4
+}
+
+AzureEntityColoring(AzureDevicesGroup)
+!define AzureDevicesGroup(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevicesGroup, AzureDevicesGroup)
+!define AzureDevicesGroup(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevicesGroup, AzureDevicesGroup)

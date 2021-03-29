@@ -1,0 +1,10 @@
+sprite $LogoDatabrick [67x70/16z] {
+xTL7OYGn28NXKce1zx_lZ3CEI3zMRVsM3by7ADu5QRDT4094v0vIfxncraFW8Px70LBU04VABu4XFpFAEU18LkYoJa_ESPVPSW0Wl0YCL5m4pgFo8Z1IS8wS
+KHXWX1U1qtcEgGbt0XWnlKcecDr2r4pC007WdJ0x19muUYDcJXmXQW4H800u4ICCE04804umuW0GZX3WnB0e27YqNTV8lf7mxyRRoSiWQa66NwqP8WHylPyr
+HdR0V0SSaH1P0N6NT8ko74DSvsgvQ5Zompyr0b79UmqmeZ_wEQW19U07uW0Y6fJyieWOy98tpJvIknwH308zmeXkhhZi_qJvjzmZ2W3qo5-F80048T5Vq_Nc
+nwzZ1V0Lvmh8NV4gWC0LPoG6v4SDD0sH9H3MGDTyZ_HhaM4Oh_CxY0DXWZM95e6GkG4c0pvXMWH6S14uJN4HE5rn4JY35Y6F0F0V
+}
+
+AzureEntityColoring(LogoDatabrick)
+!define LogoDatabrick(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, LogoDatabrick, LogoDatabrick)
+!define LogoDatabrick(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, LogoDatabrick, LogoDatabrick)

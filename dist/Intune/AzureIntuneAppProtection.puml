@@ -1,0 +1,10 @@
+sprite $AzureIntuneAppProtection [70x70/16z] {
+xTHLWeKm38NXj3H4plxNEuvJ931-_oVqGrlwZXuzIcUZPU8ucyi2GIIUAOv8DbCGoZzFKJwULPMMZYS_HtaekScN5NO0pYkAlsJ75CLxIjNs5K5N6rSo-hpa
+_TQL5kVILKKGw9CKlaL9ZYwdlMnGgZTJmihmbPpfYa9P72wP0agak99kKLXkKQ3f3WNUB1H9vsh7Fu7XKdAB0akTuhYGDn-ANhwRLoKxmddRFH6bmiiKNSBL
+tPQfLxhEp0my_j9rfKKNLnHDjAj8HIcgoaJiXMXVKNJ9ub64A2SwejJcNUxS8mfZg4ILv1Yoe98DuooVLt9Hp78fwRZ2gkPOpqsL3ocAxUGBbRJNZdAuLyLu
+cWUKBdyDNL6bwTOkAIeY5bGArgDpQUKVE5dAonBzlPu1
+}
+
+AzureEntityColoring(AzureIntuneAppProtection)
+!define AzureIntuneAppProtection(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneAppProtection, AzureIntuneAppProtection)
+!define AzureIntuneAppProtection(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneAppProtection, AzureIntuneAppProtection)

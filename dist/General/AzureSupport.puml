@@ -1,0 +1,11 @@
+sprite $AzureSupport [70x70/16z] {
+xTK7KiKm30HGsoekoVtFIx3YC1wboNJ8Jg4_fDKlxYo1Oigvv1mPt5Wyvx9bckSq0FaengOiALQ7ch4fDScR1YajESKOKvxNJ70VIQiGiVrlYDFgu5qaYy7z
+-BGwQ9aa1VMJACojfQIJw2G1405MaQGRVurWHLZ6Gf8mIqDGcNop59a4g8MNr3xmNZLSEv6fg5EOwi_hJdT6oRK6eavfJ7bbw5oXRH_K2bEhffmhgOqIDB8a
+j672wK9RAxIhS3itNvuPPHIjo31UZdrreR2reXLSLvekQr4B4NShfNc9FrMa5d-cy5Mz-LBnpj77AM1MkDleMg4bA9_O5HqyKD2aX0Cbc1HtT6YR4dQLO5GS
+xYZah8hJ2Zb8Iuf5yQWG6MDkYccfxSXAiOmZXdUZYhoh4SgxshZoHBsgXFEdAFaxJsJzQvwxt5JGzQ4XXVh71B9PqJjv7bN8lONjYgu6xOe-Dx1PqTLujYjw
+9x8h-jp8xrNOgtr65FRy4Gh_OiM2FCgZN22FyYWl
+}
+
+AzureEntityColoring(AzureSupport)
+!define AzureSupport(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSupport, AzureSupport)
+!define AzureSupport(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSupport, AzureSupport)

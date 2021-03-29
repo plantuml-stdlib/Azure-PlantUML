@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="13.25" y1="13.02" x2="8.62" y2="4.25" gradientTransform="matrix(3.888889,0,0,3.888889,0,0)">
+<stop offset="0" style="stop-color:rgb(0,127,222);stop-opacity:1;"/>
+<stop offset="0.9" style="stop-color:rgb(53,169,255);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="11.26" y1="10.47" x2="14.46" y2="15.99" gradientTransform="matrix(3.888889,0,0,3.888889,0,0)">
+<stop offset="0.1" style="stop-color:rgb(53,169,255);stop-opacity:1;"/>
+<stop offset="0.29" style="stop-color:rgb(45,165,255);stop-opacity:1;"/>
+<stop offset="0.51" style="stop-color:rgb(25,157,255);stop-opacity:1;"/>
+<stop offset="0.74" style="stop-color:rgb(0,141,246);stop-opacity:1;"/>
+<stop offset="0.88" style="stop-color:rgb(0,127,222);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(119,197,255);fill-opacity:1;" d="M 3.929688 39.628906 L 34.726563 59.617188 L 66.070313 39.550781 L 70 44.140625 L 34.726563 66.851563 L 0 44.140625 Z M 3.929688 39.628906 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 6.261719 37.0625 L 34.726563 3.148438 L 63.777344 37.101563 L 34.726563 55.457031 Z M 6.261719 37.0625 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(119,197,255);fill-opacity:1;" d="M 34.726563 3.148438 L 34.726563 55.457031 L 6.261719 37.0625 Z M 34.726563 3.148438 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 34.726563 3.148438 L 34.726563 55.457031 L 63.777344 37.101563 Z M 34.726563 3.148438 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(51,168,255);fill-opacity:1;" d="M 34.726563 30.179688 L 63.777344 37.101563 L 34.726563 55.457031 Z M 34.726563 30.179688 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(171,219,255);fill-opacity:1;" d="M 34.726563 55.457031 L 6.261719 37.0625 L 34.726563 30.179688 Z M 34.726563 55.457031 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 34.726563 66.851563 L 70 44.140625 L 66.070313 39.550781 L 34.726563 59.617188 Z M 34.726563 66.851563 "/>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+sprite $AzureMobileEngagement [70x70/16z] {
+xTS5aiCm341HoGow_tKN5VAaviNw3HJpms0uqpuKqQTWu04NoY9j7DnIeQb22kxOaB1mPdY5ThPkXHp20MsoAEIwDmlDgCIgYZDvTkUxAgdlgYY1ZydAYi8i
+KLV10ZsbelvKPLLMPLN4b2k3nYnPUzsLuWE-4rTIDLwzrNj3Zzu354S6AnmPh2GHMR-dJxGsOvNKgYGa6wiWqvCggwBPM0NPVw-iYc3fUyNlkV8tnYJUdVYS
+aAcSKLvT9Kwf48j6szXRYPU_-h5A15HA8SI-2dqoeDw1xQWSAwIvehigD6DP8j7WTk5AxpuooGgLZXSDTp1TbBo8S4juhb258E3m2W
+}
+
+AzureEntityColoring(AzureMobileEngagement)
+!define AzureMobileEngagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMobileEngagement, AzureMobileEngagement)
+!define AzureMobileEngagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMobileEngagement, AzureMobileEngagement)

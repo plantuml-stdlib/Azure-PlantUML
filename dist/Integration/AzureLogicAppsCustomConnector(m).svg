@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(57,171,255);fill-opacity:1;" d="M 32.132813 55.082031 L 17.214844 70 L 0 52.785156 L 14.917969 37.867188 L 14.917969 22.949219 L 5.738281 22.949219 L 5.738281 0 L 28.6875 0 L 28.6875 22.949219 L 19.507813 22.949219 L 19.507813 37.867188 L 32.132813 50.492188 L 47.050781 50.492188 L 47.050781 41.3125 L 70 41.3125 L 70 64.261719 L 47.050781 64.261719 L 47.050781 55.082031 Z M 32.132813 55.082031 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(39,163,255);fill-opacity:1;" d="M 28.6875 22.949219 L 28.6875 0 L 5.738281 0 L 5.738281 22.949219 Z M 28.6875 22.949219 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,102,178);fill-opacity:1;" d="M 17.214844 42.460938 L 6.886719 52.785156 L 17.214844 63.113281 L 27.539063 52.785156 Z M 17.214844 42.460938 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(39,163,255);fill-opacity:1;" d="M 47.050781 41.3125 L 47.050781 64.261719 L 70 64.261719 L 70 41.3125 Z M 47.050781 41.3125 "/>
+</g>
+</svg>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.101961;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 5.460938 29.539063 L 26.039063 50.121094 L 30.660156 45.5 L 30.660156 4.339844 Z M 5.460938 29.539063 "/>
+</g>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.301961;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip2">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface8" clip-path="url(#clip2)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,33,58);fill-opacity:1;" d="M 51.101563 5.039063 C 49 2.941406 45.78125 2.941406 43.679688 5.039063 C 41.578125 7.140625 41.578125 10.359375 43.679688 12.460938 C 45.78125 14.558594 49 14.558594 51.101563 12.460938 C 53.199219 10.359375 53.199219 7 51.101563 5.039063 Z M 49.421875 10.78125 C 48.300781 11.898438 46.480469 11.898438 45.359375 10.78125 C 44.238281 9.660156 44.238281 7.839844 45.359375 6.71875 C 46.480469 5.601563 48.300781 5.601563 49.421875 6.71875 C 50.539063 7.839844 50.539063 9.660156 49.421875 10.78125 Z M 49.421875 10.78125 "/>
+</g>
+<mask id="mask2">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.101961;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip3">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface11" clip-path="url(#clip3)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 9.660156 39.480469 L 30.238281 60.058594 L 34.859375 55.441406 L 34.859375 14.28125 Z M 9.660156 39.480469 "/>
+</g>
+<mask id="mask3">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.301961;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip4">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface14" clip-path="url(#clip4)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,33,58);fill-opacity:1;" d="M 55.300781 14.980469 C 53.199219 12.878906 49.980469 12.878906 47.878906 14.980469 C 45.78125 17.078125 45.78125 20.300781 47.878906 22.398438 C 49.980469 24.5 53.199219 24.5 55.300781 22.398438 C 57.398438 20.300781 57.398438 17.078125 55.300781 14.980469 Z M 53.621094 20.71875 C 52.5 21.839844 50.679688 21.839844 49.558594 20.71875 C 48.441406 19.601563 48.441406 17.78125 49.558594 16.660156 C 50.679688 15.539063 52.5 15.539063 53.621094 16.660156 C 54.738281 17.78125 54.738281 19.601563 53.621094 20.71875 Z M 53.621094 20.71875 "/>
+</g>
+<mask id="mask4">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.101961;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip5">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface17" clip-path="url(#clip5)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(255,255,255);fill-opacity:1;" d="M 13.859375 49.421875 L 34.441406 70 L 39.058594 65.378906 L 39.058594 24.21875 Z M 13.859375 49.421875 "/>
+</g>
+<mask id="mask5">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="70" height="70" style="fill:rgb(0,0,0);fill-opacity:0.301961;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip6">
+  <rect x="0" y="0" width="70" height="70"/>
+</clipPath>
+<g id="surface20" clip-path="url(#clip6)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,33,58);fill-opacity:1;" d="M 59.5 24.921875 C 57.398438 22.820313 54.179688 22.820313 52.078125 24.921875 C 49.980469 27.019531 49.980469 30.238281 52.078125 32.339844 C 54.179688 34.441406 57.398438 34.441406 59.5 32.339844 C 61.601563 30.238281 61.601563 27.019531 59.5 24.921875 Z M 57.820313 30.660156 C 56.699219 31.78125 54.878906 31.78125 53.761719 30.660156 C 52.640625 29.539063 52.640625 27.71875 53.761719 26.601563 C 54.878906 25.480469 56.699219 25.480469 57.820313 26.601563 C 58.941406 27.71875 58.941406 29.539063 57.820313 30.660156 Z M 57.820313 30.660156 "/>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(39,163,255);fill-opacity:1;" d="M 48.300781 0 L 34.441406 0.558594 L 5.460938 29.539063 L 26.039063 50.121094 L 55.019531 21.140625 L 56.140625 7.839844 Z M 49.421875 10.78125 C 48.300781 11.898438 46.480469 11.898438 45.359375 10.78125 C 44.238281 9.660156 44.238281 7.839844 45.359375 6.71875 C 46.480469 5.601563 48.300781 5.601563 49.421875 6.71875 C 50.539063 7.839844 50.539063 9.660156 49.421875 10.78125 Z M 49.421875 10.78125 "/>
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+<use xlink:href="#surface8" mask="url(#mask1)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(3,148,255);fill-opacity:1;" d="M 52.5 9.941406 L 38.640625 10.5 L 9.660156 39.480469 L 30.238281 60.058594 L 59.21875 31.078125 L 60.339844 17.78125 Z M 53.621094 20.71875 C 52.5 21.839844 50.679688 21.839844 49.558594 20.71875 C 48.441406 19.601563 48.441406 17.78125 49.558594 16.660156 C 50.679688 15.539063 52.5 15.539063 53.621094 16.660156 C 54.738281 17.78125 54.738281 19.601563 53.621094 20.71875 Z M 53.621094 20.71875 "/>
+<use xlink:href="#surface11" mask="url(#mask2)"/>
+<use xlink:href="#surface14" mask="url(#mask3)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,112,196);fill-opacity:1;" d="M 56.699219 19.878906 L 42.839844 20.441406 L 13.859375 49.421875 L 34.441406 70 L 63.421875 41.019531 L 64.539063 27.71875 Z M 57.820313 30.660156 C 56.699219 31.78125 54.878906 31.78125 53.761719 30.660156 C 52.640625 29.539063 52.640625 27.71875 53.761719 26.601563 C 54.878906 25.480469 56.699219 25.480469 57.820313 26.601563 C 58.941406 27.71875 58.941406 29.539063 57.820313 30.660156 Z M 57.820313 30.660156 "/>
+<use xlink:href="#surface17" mask="url(#mask4)"/>
+<use xlink:href="#surface20" mask="url(#mask5)"/>
+</g>
+</svg>

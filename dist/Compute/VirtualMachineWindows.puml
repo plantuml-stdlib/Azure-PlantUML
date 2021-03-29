@@ -1,0 +1,9 @@
+sprite $VirtualMachineWindows [70x70/16z] {
+xTL5WYCn341HGOGpzpzl1miMZXmclxr-eMruBqWtGTWYyvj41WFvhP4jKQ-8U5iUU4crZEJDJtDxPMTHqQlvbrL6nOvKhLaf9aKs6sOcmgt-YkaygSOukQHY
+WhFdL4PbL5HcPhBINpcdlx9EwieRlzrH6PNJ2K14DrMsRAB7P5af7NjRzg6d_QXC8gzsKsHoKsGYnqZU8j1kZoG1oBOJ3JcB9aKuI_vF4WelgepAlyd55TJ8
+DcVemLamg66M14gMDOHATc2eQ0U6D_O7
+}
+
+AzureEntityColoring(VirtualMachineWindows)
+!define VirtualMachineWindows(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, VirtualMachineWindows, VirtualMachineWindows)
+!define VirtualMachineWindows(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, VirtualMachineWindows, VirtualMachineWindows)

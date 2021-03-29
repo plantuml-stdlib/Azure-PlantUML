@@ -1,0 +1,9 @@
+sprite $AzureMediaOnDemand [70x70/16z] {
+pSpLOHjG54J1Yzj_nuczfa_14RmfOE9JpTvAiksCiDhRwSyuwMMBDYAA9cwMBwg2YUtGnK1omg9p5ZrYqJcBNhxCvKINbuv-o19vERcyVAY7B95p8RcyMF75
+-a9oUR7aY_LV0fR8mOkL4xHOuyMIBzPuiLoyMF751YzMVB5-o98hlhI4brpnPIIyb8INNF6b9RpaYYyZuQKalEIABotX9LTy6GaljUBBhF1Ikw9BplAbrmbO
+x66Bpbbqpg9p5ZrYqJkMfedb8vQ9uOaYOl2IuOOcLcIP-F0V
+}
+
+AzureEntityColoring(AzureMediaOnDemand)
+!define AzureMediaOnDemand(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMediaOnDemand, AzureMediaOnDemand)
+!define AzureMediaOnDemand(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMediaOnDemand, AzureMediaOnDemand)
