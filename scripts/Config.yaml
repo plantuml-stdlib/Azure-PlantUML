@@ -52,6 +52,8 @@ Categories:
     Target: AzureServiceFabric
   - Source: Azure VM Scale Set
     Target: AzureVirtualMachineScaleSet
+  - Source: Azure Cloud Services
+    Target: AzureCloudServices
 
 - Name: Containers
   Services:
