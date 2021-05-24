@@ -1,0 +1,10 @@
+sprite $AzureMigrate [70x70/16z] {
+xTRPWfmW48NXMW-Ozt_Vx54EDeZPa_6xc-sVehfRbN_Cu_4mSpUJ7w21yXL2vHvLCrDH57AZevxObOul7u4Lbh8WS7OtemdyS4OnS6StcbZBg4mancehRopM
+pMn_qGjbT7qfF21LOlqr3ihGC1XDOi0yKril4v5Wd3aFeyilC6UuOj9na76cjX3AIvsoup_L3evEOYhR8vM-uskJfFBY-axA9xOS6NI2pZEFaBergeduIWIz
+hLLUZ9BnqKK4XJAkwBLl8AN53Sy4dxqxO1GPdoamoUn2HJJ6moJEVCzmE8QR0POoUfvlLbdFq8dkPU9r9R2QwJ-vzEu5wV-8X-7AkrqAI7-0ySjKZiYc4kM5
+RtzJTjv_enuLY0Y6aPn4ojQE8kBbP27I78X-Upd2esmcN-0Y4XJXhHnt9SKqKdmOsK8QsKTGPkhsIO49ypiH5tBkn7KazF8PD_IZn4Y6oT_iyNXy
+}
+
+AzureEntityColoring(AzureMigrate)
+!define AzureMigrate(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMigrate, AzureMigrate)
+!define AzureMigrate(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMigrate, AzureMigrate)

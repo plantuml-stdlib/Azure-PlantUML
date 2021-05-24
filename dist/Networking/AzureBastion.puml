@@ -1,0 +1,11 @@
+sprite $AzureBastion [70x70/16z] {
+pLS5aWD14CfOs___UnwZLbhEA8jIjC3iN4fOfkjIH5TxWxQYa4zeWQE9NP4lQjeTd2LXgxCCjKUC50dP4sQghSz2j1VQUWKLvbiJCipgms63sTJdAwqmtzBQ
+zz1yTsIkm7mxGyyoynqxhP-H-JRxGZya6RxiGXgOht-dsXxBSkSe9hB6RAD0WtsXS78ebcew4W4aGCD-spJRff5hB9ABgszlL-EhgpLCGs0l0edEE2CSOOvc
+RNtEuPIVqFawJGyU7slRmZqObuGqsB8Pfkbv6jwccS73IBODlhw7Xa1Y96usMzPgEN7b3jFGLgqQZXjeMSIPVUTOq2IDxjJAePmOs3AlC-UyqW19mE2DpQuq
+SApw30uI59pdToO_R7axZTPnzXpeoaGz2vVcoiIJvy3f2xD38T9ycQX7GfOpwBNZP_6RGk_mNa181YYaVFEXmits_maPTI761I7WpjeLZ5kIP83rSY2mNWuC
+6v_30Y5920X9uHK
+}
+
+AzureEntityColoring(AzureBastion)
+!define AzureBastion(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBastion, AzureBastion)
+!define AzureBastion(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBastion, AzureBastion)

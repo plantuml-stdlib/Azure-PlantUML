@@ -1,0 +1,10 @@
+sprite $AzureSqlVirtualMachine [70x70/16z] {
+xT85bkCm383XYAMz_u6tTgmtIj7rCFp5qFSKs6xr5-3hwWZQAvEcgBqs-47Ad_AdA2C088z58InBZ4GN2fuKEoOmsac4qUwqnUkArnGoowLa_5HN_AnBXG10
+p4tHt0rEaQZqYNHUGG3mZFi8kHgVKyn7ur0VKzcqmcFsl4PIT9bM35geALhHULh9sqBkJkkA6oLJPv5f9LDiZFGZjSmYaqf6VHZhttkpzwWc-_4lzulBy-9N
+bQY1U4IVXIEqCMpZKcb4b5aYigRuKG50WbRJ2RAcTYMxhsGIBIxByqeUHZQMntr7ZnvXTaMfcQfwb9nob6jLvNu80FngnPDvbH8EoRn2oRwByk-rlPqIVyfL
+HL-BnDOIUrKAszqeIhfDz8wAbpvRiT8dAwobPKMq1ekA7g8rXEJO4W9o5guWVD7J311VYU0fuawuWAmpz21uvIWvp6H__GS
+}
+
+AzureEntityColoring(AzureSqlVirtualMachine)
+!define AzureSqlVirtualMachine(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlVirtualMachine, AzureSqlVirtualMachine)
+!define AzureSqlVirtualMachine(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlVirtualMachine, AzureSqlVirtualMachine)

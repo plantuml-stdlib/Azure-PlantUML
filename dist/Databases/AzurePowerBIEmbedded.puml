@@ -1,0 +1,8 @@
+sprite $AzurePowerBIEmbedded [70x70/16z] {
+xS-74GCm349HGFlFdEPpIOyjfUiDy0z4132xsA4qqxSzdZScAuKmK87fod2CAZXPgJX6XEbAfHxXUiMa2X4LJBaIeQEYBgHY9hehTi2bYePA8K_5EaLKXFdA
+zSXynHhYGRm-HNZSbIaYPh0cp6g5n3JL-Ig85QmL7uPKe90A55A1GYgWyFbIIYcbb59AMm
+}
+
+AzureEntityColoring(AzurePowerBIEmbedded)
+!define AzurePowerBIEmbedded(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePowerBIEmbedded, AzurePowerBIEmbedded)
+!define AzurePowerBIEmbedded(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePowerBIEmbedded, AzurePowerBIEmbedded)

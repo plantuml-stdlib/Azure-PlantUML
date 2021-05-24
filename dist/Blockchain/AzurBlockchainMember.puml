@@ -1,0 +1,10 @@
+sprite $AzurBlockchainMember [70x70/16z] {
+rT8BSiKW28LXH053kl_jzjqoDyGRn3x_1Nmp1uL_LILSDf2UQsN9AFHUXNoDB4mVnChEGdArMQCqEgkcnlWmQwJEWtHHJHmaurIAXV4ngVCKijAp6is6eOF4
+P_an-Ld8EKJwZIAIS5Zrg8ZC8fjwPTOHrO4YF35ch8X4nuoKkDDLBnNXm9YnOaN6Z1KhC2QW20zUDwPO7b6DAvORarA4tPYCOevgHh7iTQrzdrM4-MWyFBTF
+AjATOKnECIIj6BBlIygxaLVii8lARiQAOiQAOkKKZ_mTHRz2qQzGz2iKNLFCo2jgnga2o0759mLkg_DAHt0LcbEs1gSXJoWCmoe75IbmhnPHjWeN5RfIDe90
+o7SLXc1rh7I4UCqhTf1uXKyKWkcG3ueKo5HDYHva_EhTVVVCh6wlcwvobmBh8VnGJm
+}
+
+AzureEntityColoring(AzurBlockchainMember)
+!define AzurBlockchainMember(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurBlockchainMember, AzurBlockchainMember)
+!define AzurBlockchainMember(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurBlockchainMember, AzurBlockchainMember)

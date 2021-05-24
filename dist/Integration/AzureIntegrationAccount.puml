@@ -1,0 +1,8 @@
+sprite $AzureIntegrationAccount [70x70/16z] {
+xTT5WWGn241HY27tl-_uG7Uv-zldR-BGwe4aqnNuGpf7_gk8pa57hGYFLwyK64_kKWdHuFHAJEPKbQVoLD21Uqu630Q-eHjH4JNfEqBkwfMdybIwtReI7G80
+PbTvc8IEIY4JlqUfWo-9J5w_mgQnmgQhGeChPVsAcAPA5ZEmagPNUECATLNKD5RKqF1LX-Hgg-xmUveNgMYQMhdiJvWNgHIT8yEVJDDbkAHF
+}
+
+AzureEntityColoring(AzureIntegrationAccount)
+!define AzureIntegrationAccount(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationAccount, AzureIntegrationAccount)
+!define AzureIntegrationAccount(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationAccount, AzureIntegrationAccount)

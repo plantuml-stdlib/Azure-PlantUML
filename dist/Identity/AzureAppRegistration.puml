@@ -1,0 +1,10 @@
+sprite $AzureAppRegistration [70x70/16z] {
+xTG5ikGm38JXjbgGxFqFlCCgQyXn5XxznOOl77oiw7q4p4i0x5YEABeaIWfOb014YPt2IKK_a6B_LVbHzEieFyhhMWd_g5OgGw_6CbrA2dWT0r273FXHslzJ
+RBF2FwFyAA6sNp4HeUzJd7AAyKQnvqfGRh5Nrf81MiUEohgeTBMP_wvHQWqRQ_8mR4fAzNH4ImAm355grR6rP43q8s7o8XjLNfoDXWyhXqmUH8zXPT5Zfb8x
+62-KfIhdZELYOaPHIuSMCQSSCarZJidBKe-g_2eTbNwaKzGiZNc5DD-jKAXglakXo44vP1DA6XVbaCyffAHoo3mL7LMEHYhfE8wjGmf5Kidige1l_b9ff9Av
+OwoMI2ePHdkX4ECrFb6G3JjLQTYSi2Y2gJg5cAtnfc1FmfFIiBE3GkoluU_q6m
+}
+
+AzureEntityColoring(AzureAppRegistration)
+!define AzureAppRegistration(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppRegistration, AzureAppRegistration)
+!define AzureAppRegistration(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppRegistration, AzureAppRegistration)

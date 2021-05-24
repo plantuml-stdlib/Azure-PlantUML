@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="9" y1="15.427" x2="9" y2="5.973" gradientTransform="matrix(3.888889,0,0,3.888889,0,0)">
+<stop offset="0" style="stop-color:rgb(19.607843%,74.509804%,86.666667%);stop-opacity:1;"/>
+<stop offset="0.175" style="stop-color:rgb(19.607843%,79.215686%,91.764706%);stop-opacity:1;"/>
+<stop offset="0.41" style="stop-color:rgb(19.607843%,82.352941%,94.901961%);stop-opacity:1;"/>
+<stop offset="0.775" style="stop-color:rgb(19.607843%,83.137255%,96.078431%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 3.890625 23.226563 L 66.109375 23.226563 L 66.109375 57.917969 C 66.109375 59.066406 65.179688 59.996094 64.03125 59.996094 L 5.96875 59.996094 C 4.820313 59.996094 3.890625 59.066406 3.890625 57.917969 Z M 3.890625 23.226563 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(9.803922%,54.117647%,70.196078%);fill-opacity:1;" d="M 5.980469 9.96875 L 64.019531 9.96875 C 64.574219 9.964844 65.109375 10.183594 65.5 10.574219 C 65.894531 10.96875 66.113281 11.5 66.109375 12.054688 L 66.109375 23.226563 L 3.890625 23.226563 L 3.890625 12.054688 C 3.886719 11.5 4.105469 10.96875 4.5 10.574219 C 4.890625 10.183594 5.425781 9.964844 5.980469 9.96875 Z M 5.980469 9.96875 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(61.176471%,92.156863%,100%);fill-opacity:1;" d="M 3.890625 23.226563 L 20.199219 23.226563 L 20.199219 59.996094 L 5.972656 59.996094 C 5.421875 60 4.890625 59.785156 4.5 59.394531 C 4.109375 59.007813 3.886719 58.476563 3.890625 57.925781 Z M 3.890625 23.226563 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(19.607843%,74.509804%,86.666667%);fill-opacity:1;" d="M 20.199219 51.941406 L 66.109375 51.941406 L 66.109375 57.945313 C 66.109375 59.085938 65.183594 60.011719 64.042969 60.011719 L 20.199219 60.011719 Z M 20.199219 51.941406 "/>
+</g>
+</svg>

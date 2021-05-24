@@ -1,0 +1,11 @@
+sprite $AzureProperties [70x65/16z] {
+nTTbWYGX30NWu1Ogzx_jDkNfjUADVRz6SV9eqdpU6S8LEGK2kIutbI1UD2Q0MMJWeSjGQ5vTsx2qYckJ3fjFeuELbqwpM5uidVBCHeLT_6qXv8N3CtBdwQO9
+oD5D-TbMWjxvvyn1RVImY4Wrp-YkFPtYzlsS_PWPTHyQJKiofFlrDZIFPTLhAKs6I033ecJ2LBtjgB38ZYtXJDXu-ZgcygOv-l1yXup7p5r3Dr3h10WoS1wQ
+31dCcINIndTvSTXymWSZmho7PLQ5eppJZd_IpPQTJA2xBg3tEg9zV2pypEyxAoyBxsQgSg5BX4fGsmQZ3o5X4U5eOzP60neH9Gm9V_YnQ8kXZqT4juJ9Sgc6
+FlGWVX9uPaCVOLbsXM1HBjt10Qi4j17DmqLUwi0oTB38IxFt8b-mvAkwhegbISlR4opD15VVBSS_wMRxCt_VbFh3dmFGiUHTsM-ghaezFwFofT75GY_UzsXe
+M57ayMyMp1iz1SbsS0m_tI9QvBKWTspmWdagXCjjvsd6Bm
+}
+
+AzureEntityColoring(AzureProperties)
+!define AzureProperties(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureProperties, AzureProperties)
+!define AzureProperties(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureProperties, AzureProperties)

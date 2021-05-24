@@ -1,0 +1,9 @@
+sprite $AzureCORS [70x70/16z] {
+xTA5UGL124NXYzD_mt4X6sVORv_z1PmHe1_WpsOg68ZiNy7fLF0_UrPmQHNysubNS5G5l7LWXNW3frCXj9nIXKweWZqgEBH29rJ1ALM82xg42hZGYOhunFTw
+35GyOdrZB29ajQBnm1Oh4eyMlrVY6IrLF9u9kafawMCytg2hHeBH95dOI2K9FPILeYco23HvLe8UpOdBS8vS9aSk4oENiP7BI7va_Rsh61sv4UszMt-JvfQi
+xrqOeuD5pH-P2kEItDm3
+}
+
+AzureEntityColoring(AzureCORS)
+!define AzureCORS(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCORS, AzureCORS)
+!define AzureCORS(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCORS, AzureCORS)

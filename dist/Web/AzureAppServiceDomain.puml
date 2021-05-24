@@ -1,0 +1,10 @@
+sprite $AzureAppServiceDomain [70x70/16z] {
+xPM7RWGX34GPb-l__xqn8ojalPU2qXDc-yCycQjjBYihTdXN72rolBqprwwvtjuR2yljtV6dbijvBjTgoUNDvNZNqYPp-F4MlDV2d8zpAU_HE_8ZBQTtny9o
+U7TaMPXbMHO3b0Je5mNUGhnOl3NqI_vlnrCXs10dmMv5u9q6K1Pg4gk4DPQaMfH3200-U19fs1BMI99YePhhweGJIM9jbcJKX3cRBnRMqH_JUc4IYwDt46HJ
+uwof5jwp2asDdVVwe3f8raWSfYGxYx5tZRa8F8ZlY0KHa5GBtzq-nrj4ad3sXe2aNr0ium6iPBD9v2v1N7Ll6PyCGdyazWgf5iyH6ytcy21UoFfzMPRfwBEM
+PJc-E-pbtHQ41Vxk1KrbPUK1
+}
+
+AzureEntityColoring(AzureAppServiceDomain)
+!define AzureAppServiceDomain(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppServiceDomain, AzureAppServiceDomain)
+!define AzureAppServiceDomain(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppServiceDomain, AzureAppServiceDomain)

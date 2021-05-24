@@ -1,0 +1,10 @@
+sprite $AzureSharedImageGallery [70x70/16z] {
+xTI5jTWm44HHxynAClLVRyny8bWd7ry1LwpgqySc9KQKha-fZIXzKjtNKDnO5okYr6rI4QL9KxeleSYOLM58gOueFYJrkPHVnR-WU0gyLL784Br5SP0vQB7Y
+ANjmHOfNEKUVhpZ8DQZFL1Jo43CLaWzpqLm58Av6YN9sgAKAoDqeL7O7gXPbZA3Q5V0DHG1Q5H7142sAZCqSYnKvA22B55d26lCLsS8UCvMWJtFn-RyKBmfz
+sO-9WyAq7rCmTlczEQHZBfngfcOBOp8RmPYEYWlMvlsm9bz4yNh9bIXINND_K-h7GdLBw-TcvJcLImWHnT2hIlXCIcFjNok_IjrQUqy9PgKQGcD4N3Kbi5Iz
+rXy
+}
+
+AzureEntityColoring(AzureSharedImageGallery)
+!define AzureSharedImageGallery(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSharedImageGallery, AzureSharedImageGallery)
+!define AzureSharedImageGallery(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSharedImageGallery, AzureSharedImageGallery)

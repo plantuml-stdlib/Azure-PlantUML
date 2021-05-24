@@ -1,0 +1,10 @@
+sprite $AzureIntuneApple [70x70/16z] {
+xT47SkCm38LXealtl_3wRGfcP5eO2kd9xrxqiOtxMCsHAO-hQKJcSiaG3uIfF3kyR905X0oEBY82uz3YT4XzWZmlKAY-dbZC8uqZWbo5YOeZAOnCfafUNoF8
+7oXU61qbegt0w2lHLc1qbDhOIgL6jgrMQWFLIctKYaUDr4fjr4fjr4fjr4gKIAqKHbE1qLPWz9MjhS1eA8K1nQQAho3x8yKMZFscw5JHsaXaZ-2fmWi651hJ
+viW3svtk0sopYIWjnKFIo7XL6Pv6Gn4WRGMJUGD5taGPTiUuBQLGgAyWYUWgapNjLvJ3EUtxLOKy4hce90FZMM4YnSjvcWhY21Yf497WvRo3Wjb4AZcN1UN0
+G35TtvTa6hkRpDPKa85fAqCYuabHPiFBUNDbi4TSFEdZgheAah3kYX1POtSpVMVbJn7Hlg94PBUeIiyKUVv3Jr4YnbouwaUUjFm3
+}
+
+AzureEntityColoring(AzureIntuneApple)
+!define AzureIntuneApple(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneApple, AzureIntuneApple)
+!define AzureIntuneApple(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneApple, AzureIntuneApple)

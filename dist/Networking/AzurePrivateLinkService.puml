@@ -1,0 +1,11 @@
+sprite $AzurePrivateLinkService [70x70/16z] {
+xTG7Zjmm38LXag9Ovlu7pj85zX3AopQqmF_M4QJFtVJldfwUdZXIVWD9pAZpfv0CC6Dc1dy6IGDxajaOW02bCG01JSXW13COmSod49OjPi1WXDNyQigdc8we
+jupN349cHp2pHaQjkXs4M0qGPZh2TIRwe-EkaEa8QTlmUOo4c8wGHmngIKG8OZf24K5NecOsYbPMMJCTwOgOLxehvwNgZ93VaQuCtzCQLAb_fJELPELKzVEo
+8pf4Y3-KmVOt9hn-lHtmBFNqZaEm_VqdDK8BXY93zSxmUOGQuTVKkL-hVW67RmgPLlBE-zXsPHiLlrx5i-tCKFLzewCp6ozrBcf_Sakk6-STKVL25eozNY_-
+KBp-gqBw5MmBbunutfHGEkDI5iYQgUfay1Z2T2Krs1T1nZELMfOv-nBCw7bI-r1VW9cwFAFVOWQGvJZdHs5pp_nw4RJ9c95i0GGmRFcwbPCGWaxxjACvm3JC
+u4buncSHFEUJ29urFeLW1Y4a5u9ZGWb2Ffym_USzFJtz0G
+}
+
+AzureEntityColoring(AzurePrivateLinkService)
+!define AzurePrivateLinkService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePrivateLinkService, AzurePrivateLinkService)
+!define AzurePrivateLinkService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePrivateLinkService, AzurePrivateLinkService)

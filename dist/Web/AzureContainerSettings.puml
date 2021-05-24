@@ -1,0 +1,9 @@
+sprite $AzureContainerSettings [70x51/16z] {
+tT67OSGm28NXHxD0b_tNJU_1negk_mDy4h1irnHxgfG8DvfL_13F-K8pIeiU4HLKAz_oXV-dnA-yoRZYaTHqJ6azybm7bEYncbkYv4YYvD3MaRUL7b4gtdkX
+74gbzKEfnBRIFFh3X28lnclkhSfN504l-rjH301DAy08qo9L66_PZ6B04EEfGlXCTtqbKnGOOZnLy2Eflv8fWfzneNYg04ECHwOe_aG5aYY4cZ4LPY9ciPOg
+XZJx4eJm8pR_ep0s6IKaIVkbO2tzEbyI_r0KwumHTfGCb5OhE8PYHr7aA0eVHS7rA7OKHO-Yo54KFef2TwRmWcCak85kjIS
+}
+
+AzureEntityColoring(AzureContainerSettings)
+!define AzureContainerSettings(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainerSettings, AzureContainerSettings)
+!define AzureContainerSettings(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainerSettings, AzureContainerSettings)

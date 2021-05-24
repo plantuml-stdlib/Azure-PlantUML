@@ -1,0 +1,10 @@
+sprite $AzureSystemTopic [70x70/16z] {
+xTO54gD048NXrzxi_UyRmoAJBcoThnJxSHZyWsWtGE80vl6dEtdFU1Fn5uPD-A-fd1Mr1mP0-aG0w3D2Y_KmytXYxpCSYr2KbVWNAl7RAhoqOhAqeWI0jLq9
+MLJHUOjc9MH1HL2oQXL-lYGGTvDlbJvJLm1Gv5qG6Zplv4ibUmOWSX0DcLL6UWH8BY6eURS87r8Hb6nHnAghgm3zMC1GLGA0ZcjoGrT4mC_NNkwhVZdnd2D5
+9Ga0Y0bjEKUgIl0yqoRF5KDTwHdXZYndJnL3MPbv_nuqAuOrbMnN24TKy0igNU-OIkzHwPvX4QehYGBB0m7GB2efrPVDUue5pj7XMOc1RnA_mCaFYK3jGJRf
+DrRyUwu
+}
+
+AzureEntityColoring(AzureSystemTopic)
+!define AzureSystemTopic(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSystemTopic, AzureSystemTopic)
+!define AzureSystemTopic(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSystemTopic, AzureSystemTopic)

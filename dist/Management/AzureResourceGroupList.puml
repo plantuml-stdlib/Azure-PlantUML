@@ -1,0 +1,10 @@
+sprite $AzureResourceGroupList [70x70/16z] {
+xTI7SYiX38NXemhi-p_mlUwMPfYmSdhsdvhO_W1jmRTDl8K8Q2a5j8MC4ABM2aepXBYcU4cnZrOEvL0EXJH5WAOOO8q9lcraAG8i9O1Q2Y7kAGPwIW7hiVQg
+SYY7qjpDpBszeBZUCoyghZ4gA6BwFo42GAodE2lsfd8sqalBLvICKDpSbOcAPoN_12a-CNlUkvHsakZ5JgES_Niv2el6CybJ3B2amjPvjiS-7XdW8zPnBqqb
+yBv70IP7ibM5fWhjKwIWbFTIdykdNAEr-wKjAnoF50OsjaSdPOkDfUV8jdL5qcGUM-mx5EZi_RBjKVZ4K4RKnXw5kckS3Oc6qSwKzeoCuNfA2028JqOOoaGP
+790nckP0AG0KGq969ma6OwMC023MQyAe8TVIHWj8eM-6u5qGIKWjIKYnbf1Y8lWU_GC
+}
+
+AzureEntityColoring(AzureResourceGroupList)
+!define AzureResourceGroupList(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureResourceGroupList, AzureResourceGroupList)
+!define AzureResourceGroupList(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureResourceGroupList, AzureResourceGroupList)
