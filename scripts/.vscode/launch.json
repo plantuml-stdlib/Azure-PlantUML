@@ -7,11 +7,11 @@
             "request": "launch",
             "program": "dotnet",
             "args": [
-              "exec", 
-              "${env:USERPROFILE}/.dotnet/tools/.store/dotnet-script/0.26.1/dotnet-script/0.26.1/tools/netcoreapp2.1/any/dotnet-script.dll", 
-              "${file}"
+                "exec",
+                "${env:USERPROFILE}/.dotnet/tools/.store/dotnet-script/0.53.0/dotnet-script/0.53.0/tools/netcoreapp3.1/any/dotnet-script.dll",
+                "${file}"
             ],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceRoot}",
             "stopAtEntry": true
         }
     ]

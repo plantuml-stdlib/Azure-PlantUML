@@ -1,4 +1,4 @@
-#r "nuget: Newtonsoft.Json, 11.0.2"
+#r "nuget: Newtonsoft.Json, 12.0.3"
 
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
