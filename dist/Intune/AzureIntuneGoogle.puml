@@ -1,0 +1,10 @@
+sprite $AzureIntuneGoogle [70x70/16z] {
+rT87TWCX38HX935ht__4MTB4M-jD14hpd-hsKTjZOXsZRjfsKynrsJ44rsmTCPprZ_Qceu4nibN3aTNj4L4r4EFZn4Ju38XnnKAbk-06ArOcW2F7291OuOOZ
+N4aQUOKQNCaQN45YCHc56tc566a51Cagn2WeRXGKDmeAHsvKuOOZHCaRH4aRUOKOLCbEX2j9WokMMumhZIZ4o2YQN0nN96MuqbjOOZ7U0OsL7YlnEW49EXKD
+torhnKlgouhXSKFM5G4ko8xI31TZIsd0P6mh2ap62BRMV6TkDQK1mwWg2bILaG5LvNrhoeephgY8c9dmr1Ld2eepWQ9PnHaKzsK-gVkzf0pcE96YqdGmPQN9
+ODuK4TrGV8-FmabFg-frfSbG1hErBvvv1KMVG7bkHLMjheZ8-n-U_evYP_fLpt56igYy
+}
+
+AzureEntityColoring(AzureIntuneGoogle)
+!define AzureIntuneGoogle(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneGoogle, AzureIntuneGoogle)
+!define AzureIntuneGoogle(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneGoogle, AzureIntuneGoogle)

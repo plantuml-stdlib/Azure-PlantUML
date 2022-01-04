@@ -1,4 +1,4 @@
-#r "nuget: YamlDotNet, 5.0.1"
+#r "nuget: YamlDotNet, 11.1.1"
 
 using System.Linq;
 using YamlDotNet.Serialization;
@@ -19,7 +19,8 @@ public IEnumerable<ConfigLookupEntry> ReadConfig(string configFilePath)
     {
         Category = cat.Name,
         ServiceSource = service.Source,
-        ServiceTarget = service.Target
+        ServiceTarget = service.Target,
+        FitToCanvas = service.Fit
     }));
 
     return lookupTable;
@@ -32,6 +33,8 @@ public class ConfigLookupEntry
     public string ServiceSource { get; set; }
     
     public string ServiceTarget { get; set; }
+
+    public bool FitToCanvas { get; set; }
 }
 
 private class Config
@@ -51,4 +54,6 @@ private class AzureService
     public string Source { get; set; }
 
     public string Target { get; set; }
+
+    public bool Fit { get; set; }
 }

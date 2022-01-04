@@ -5,7 +5,7 @@
 [PlantUML](http://en.plantuml.com/) sprites, macros and stereotypes for creating PlantUML diagrams with [Azure](https://azure.microsoft.com/en-us/) components.
 
 Azure-PlantUML includes symbols and useful macros for all Azure services.  
-The official [Microsoft Azure, Cloud and Enterprise Symbol / Icon Set](http://aka.ms/CnESymbols) is used as the primary source. On top the missing Azure services symbols have been extracted [manually](source/manual/) from [Azure.com](https://azure.com/).
+The official [Microsoft Azure architecture icons](https://docs.microsoft.com/en-us/azure/architecture/icons/) are used as the primary source. On top the missing Azure services symbols have been extracted [manually](source/manual/) from [Azure.com](https://azure.com/).
 
 With Azure-PlantUML it is feasible to create visually appealing and memorable PlantUML diagrams for your Azure systems.
 

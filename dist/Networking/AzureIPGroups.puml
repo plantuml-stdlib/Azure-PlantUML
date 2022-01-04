@@ -1,0 +1,9 @@
+sprite $AzureIPGroups [70x70/16z] {
+xTO5RWGn38LXXqnx__jMGsNBBuNbJp2ONx8eeGjuUkgIOygS40sgc4Pieb8eP7Y5OefNQWaPLicSiSA8Iec1A9UeiEUiPnKz0GogE8SKhp25whahra83h2JE
+M1dyhV5HKi7qYrJKSrQoYYCwLE4UChnIASJdhln-eipVLgY-rpvMVhX1r0jKdXMHJpSYynLpTrtMkhiTBsIo8hxO5oyPzSLSPLyapBxQQt6b01LBAelotf7P
+5kyvsKTK-8Z4ErNbXQZA_a8OhoH-KNbM6D5kgT8bnuNEx-df1G
+}
+
+AzureEntityColoring(AzureIPGroups)
+!define AzureIPGroups(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIPGroups, AzureIPGroups)
+!define AzureIPGroups(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIPGroups, AzureIPGroups)

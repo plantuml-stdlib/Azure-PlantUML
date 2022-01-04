@@ -1,0 +1,10 @@
+sprite $AzureTag [70x70/16z] {
+xSy7ikim28LXP2DGoVxN-y3f8Krdz6x_KppjV6FeWqlUugqMyvg62SvtIWWIMs0aCZWYgYf334kezftLYyW28-h6LdkNoHBQaDxF388qMrVRiZl56G1HtvAN
+ZEdYp30YrQQqBnke8fA64LSgxKlxauI74MbdXOxA018luiD5F8n8iQdGLZFGbVKnee_gjdKcLVEgMkiuegNlpAbjUwYtZ29UzVrMByyKqQUL0zDqNq8GTsfh
+jUWX18bDGNGA8ZCGbHc8vXc8yYrIa7W6KjOhH0lMCWFHAKWw6-dd8tz8nJBat1HacO5Gce1O6KBejeozIMHm16Sq001JY10c8ZWJ4PnHUbu648mfH0038CuW
+I6JQano1cOZWZ2Cu4n6SSGHbSCJZ2KXabB3uoPjWZ18U1mHZmZaO4n2KKVhG_W4
+}
+
+AzureEntityColoring(AzureTag)
+!define AzureTag(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTag, AzureTag)
+!define AzureTag(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTag, AzureTag)

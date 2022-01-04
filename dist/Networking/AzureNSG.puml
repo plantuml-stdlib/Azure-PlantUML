@@ -1,0 +1,11 @@
+sprite $AzureNSG [70x70/16z] {
+xSxNcQGm403X1hMj_FCzgmVGZMOGvtVt3w2-acUQHnLGwRh9BPjpahkiCnZ5jZgI0E6cgXvVP07e-eZhTnxV5P3NTre2gJfK8W1CBj7i8sEbxvIz-DcQ9VIH
+eT81KAwxF62HLNHXEbIEYguo_RIbq5Mu3Zm6MT2b73YKkrkV62iJ2GmLxHOgaMEbxbJY7wbyLEBNL7BcrrJoLrS-AX-LZuhztKh9WK9CsLIGSj0Wfqndaf0Z
+o9gPLmgJexfLWLsEWbgl6CX9Wrok125dTogWGyMfrOg337R8nKhXCaeMNmms6JN8fKeHygDawSNxoc27NAY0ooCEroj1oMDrlMBG9fKTBbOCN6OChbMAahc4
+AvM0NUQskb9nK7bcXvSL1vVd6bHnCbGCGcGvO-D9ociwPcmIMSlOUgHdg8ULw95BMi-CbOGGMSkC5IjmMR4NrBbYWCcYXAf3nO4commeUiKIQfCRj6Vi-qZ8
+FLi2XLa29hSvK07KBZ-X5G0kFyclZ7m6
+}
+
+AzureEntityColoring(AzureNSG)
+!define AzureNSG(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNSG, AzureNSG)
+!define AzureNSG(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNSG, AzureNSG)

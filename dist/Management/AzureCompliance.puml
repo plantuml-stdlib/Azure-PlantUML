@@ -1,0 +1,10 @@
+sprite $AzureCompliance [70x70/16z] {
+tT9NmgKW341XMY0vxd-zK_YxvHguJ3qlzay5mbzOhErHjRWKQO_Jwb7gdOBub98k-waWBYM5oxg2B56G9GgoH46MACWI1LcY84yf7gRTA8Q36LAG9GgoH46M
+ACYLaaSKP4PHhXc_qkoAyIlIcbunVYMs7upQld9GL7EuBkjfSKm9gPufoQV4qbIRfBwVlkPLOkCrJU6GKya0fce0TL8fG2lvHwNk6B-I0Ccl5OCoesX7FZFt
+YkwL33L_Ia36bGebVqwnSSNG_AKAyV38dGBrgoAGdbSAv0cbERvbwRZuvyZGCAmaQBjFAVUAsUvK-xfsmOwFt2lHFasJ07b62GbGwOO29VYLFGDc0EImptnA
+i8tNDWlJ2jjRpoZRH_n5okPIx4I9Vv6IrYjnLidzSRK5YeRGcJIhb8xyoDmA71Jfo2jpee17oHtfgGMtucYvmYzKod-dO6DTAEEbdLAOICE-L6Iq7DRs7G
+}
+
+AzureEntityColoring(AzureCompliance)
+!define AzureCompliance(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCompliance, AzureCompliance)
+!define AzureCompliance(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCompliance, AzureCompliance)

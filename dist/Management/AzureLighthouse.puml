@@ -1,0 +1,10 @@
+sprite $AzureLighthouse [70x70/16z] {
+xTK7aW8n34JHTMh9kl-1Lvi3bjqUGqN-0Hwb1cPUbkNySbo2cQH3fDbxxSGetJxhvQgHrNwbr-Q1_GlxyrGRr0wEyQxCayIY-6-zsJHGYDWYkOkYZ5A0RgOO
+96OTO1SMipBy0EASHogvb7og98Y7TAP0tiEHKkMpUgB8LxYB8ezLdifJIL2jsIlwNNwhgg9a4j4WGNihKKgR6LxbLfaP7XYaw22qNp7BG6-IzZTcszZWbROm
+k7qN1hTlMHZSla8OqCKo-ST0Q7YBRHd3ArE5CZoijrqQNbfiInXUdMpR9qR_aqwsPGqlXmfjUE6-bJUyIDaml63Vl65uCbO8WzXto_1Qi6reyFjYp_1Ai6rW
+yFjk6rrQ3XJUK0nU1dNFw1W-nR5bIFket6phXd4fWbUA6qRMqNvAVnGrDebVjjKsZncUfFmnyLioRHqJdGJocBdIhnnpyvEHtME6ttMIFaqHLjw1Lm
+}
+
+AzureEntityColoring(AzureLighthouse)
+!define AzureLighthouse(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLighthouse, AzureLighthouse)
+!define AzureLighthouse(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLighthouse, AzureLighthouse)

@@ -1,16 +1,20 @@
 Categories:
 - Name: General
   Services:
-  - Source: Azure_logo_icon_50
+  - Source: Azure logo icon 50
     Target: Azure
+  - Source: Workbooks
+    Target: AzureWorkbook
+  - Source: Workflow
+    Target: AzureWorkflow
 
 - Name: AIMachineLearning
   Services:
   - Source: Azure Batch AI
-    Target: AzureBatchAI   
-  - Source: Azure Bot Service
+    Target: AzureBatchAI
+  - Source: Bot Services
     Target: AzureBotService
-  - Source: Azure Cognitive Services
+  - Source: Cognitive Services
     Target: AzureCognitiveServices
   - Source: Azure Machine Learning Service
     Target: AzureMachineLearningService
@@ -18,6 +22,14 @@ Categories:
     Target: AzureMachineLearningStudio
   - Source: Microsoft Genomics
     Target: MicrosoftGenomics
+  - Source: Machine Learning Studio (Classic) Web Services
+    Target: AzureMachineLearningStudioClassic
+  - Source: Machine Learning Studio Workspaces
+    Target: AzureMachineLearningStudioWorkspace
+  - Source: Machine Learning Studio Web Service Plans
+    Target: AzureMachineLearningStudioWebServicePlan
+  - Source: Translator Text
+    Target: AzureTranslatorText
 
 - Name: Analytics
   Services:
@@ -29,63 +41,163 @@ Categories:
     Target: AzureHDInsight
   - Source: Azure Data Lake Analytics
     Target: AzureDataLakeAnalytics
-  - Source: Azure Analysis Service
+  - Source: Analysis Services
     Target: AzureAnalysisServices
-  - Source: Azure Event Hubs
-    Target: AzureEventHub    
+  - Source: Event Hubs
+    Target: AzureEventHub
   - Source: Azure Data Catalog
     Target: AzureDataCatalog
   - Source: Azure Data Explorer
-    Target: AzureDataExplorer    
+    Target: AzureDataExplorer
+  - Source: Event Hub Clusters
+    Target: AzureEventHubCluster
+  - Source: Log Analytics Workspaces
+    Target: AzureLogAnalyticsWorkspace
+  - Source: Stream Analytics Jobs
+    Target: AzureStreamAnalyticsJob
+  - Source: Azure Synapse Analytics
+    Target: AzureSynapseAnalytics
+  - Source: HD Insight Clusters
+    Target: AzureHDInsightCluster
+  - Source: Data Lake Store Gen1
+    Target: AzureDataLakeStoreGen1
+
+- Name: Blockchain
+  Services:
+  - Source: Azure Blockchain Service
+    Target: AzurBlockchainService
+  - Source: Azure Token Service
+    Target: AzurBlockchainTokenService
+  - Source: ABS Member
+    Target: AzurBlockchainMember
+  - Source: Consortium
+    Target: AzureBlockchainConsortium
+  - Source: Outbound Connection
+    Target: AzureBlockchainConnection
 
 - Name: Compute
   Services:
-  - Source: Azure Virtual Machine
+  - Source: Virtual Machine
     Target: AzureVirtualMachine
-  - Source: Azure App Service
+  - Source: App Services
     Target: AzureAppService
-  - Source: Azure Functions
+  - Source: Function Apps
     Target: AzureFunction
   - Source: Azure Batch
     Target: AzureBatch
-  - Source: Azure Service Fabric
+  - Source: Service Fabric Clusters
     Target: AzureServiceFabric
-  - Source: Azure VM Scale Set
+  - Source: VM Scale Sets
     Target: AzureVirtualMachineScaleSet
+  - Source: Virtual Machines (Classic)
+    Target: AzureVirtualMachineClassic
+  - Source: Automanaged VM
+    Target: AzureAutomanagedVirtualMachine
+  - Source: App Service Plans
+    Target: AzureAppServicePlan
+  - Source: App Service Plan Linux
+    Target: AzureAppServicePlanLinux
+  - Source: Cloud Services (Classic)
+    Target: AzureCloudServices
+  - Source: Disk Encryption Sets
+    Target: AzureDiskEncryptionSet
+  - Source: Workspaces
+    Target: AzureWorkspace
+  - Source: Mesh Applications
+    Target: AzureMeshApplication
+  - Source: Availability Sets
+    Target: AzureAvailabiltySet
+  - Source: Disks Snapshots
+    Target: AzureDiskSnapshot
+  - Source: Batch Accounts
+    Target: AzureBatchAccount
+  - Source: Disks
+    Target: AzureDisk
+  - Source: Image Definitions
+    Target: AzureImageDefinition
+  - Source: Image Versions
+    Target: AzureImageVersion
+  - Source: Shared Image Galleries
+    Target: AzureSharedImageGallery
+  - Source: VM Images (Classic)
+    Target: AzureImageClassic
+  - Source: Container Services (Deprecated)
+    Target: AzureContainerService
+  - Source: Server Farm
+    Target: AzureServerFarm
+  - Source: Azure Spring Cloud
+    Target: AzureSpringCloud
+  - Source: Web Slots
+    Target: AzureWebSlot
+  - Source: Web Test
+    Target: AzureWebTest
 
 - Name: Containers
   Services:
-  - Source: Azure Container Registry
+  - Source: Container Registries
     Target: AzureContainerRegistry
-  - Source: container-instances
+  - Source: Container Instances
     Target: AzureContainerInstance
   - Source: Azure Service Fabric Mesh
     Target: AzureServiceFabricMesh
-  - Source: Azure Kubernetes Service
-    Target: AzureKubernetesService   
+  - Source: Kubernetes Services
+    Target: AzureKubernetesService
   - Source: app-service-containers
     Target: AzureWebAppForContainers
+  - Source: App Service Environments
+    Target: AzureServiceEnvironment
 
 - Name: Databases
   Services:
-  - Source: Azure SQL Database
+  - Source: SQL Database
     Target: AzureSqlDatabase
-  - Source: CosmosDB
+  - Source: Azure Cosmos DB
     Target: AzureCosmosDb
-  - Source: Azure SQL DataWarehouse
+  - Source: SQL Data Warehouses
     Target: AzureSqlDataWarehouse
-  - Source: Azure Data Factory
+  - Source: Data Factory
     Target: AzureDataFactory
-  - Source: Azure Cache including Redis
+  - Source: Cache Redis
     Target: AzureRedisCache
-  - Source: Azure SQL Stretch Database
+  - Source: Azure SQL Server Stretch Databases
     Target: AzureSqlStretchDatabase
-  - Source: postgresql
+  - Source: Azure Database PostgreSQL Server
     Target: AzureDatabaseForPostgreSQL
-  - Source: mysql
+  - Source: Azure Database MySQL Server
     Target: AzureDatabaseForMySQL
-  - Source: Azure Database MariaDB
+  - Source: Azure Database MariaDB Server
     Target: AzureDatabaseForMariaDB
+  - Source: Azure Databricks
+    Target: AzureDataBricks
+  - Source: Power BI Embedded
+    Target: AzurePowerBIEmbedded
+    Fit:    true
+  - Source: Azure SQL
+    Target: AzureSql
+  - Source: Azure SQL VM
+    Target: AzureSqlVirtualMachine
+  - Source: Azure Cosmos DB
+    Target: AzureCosmosDb
+  - Source: SQL Server
+    Target: AzureSqlServer
+  - Source: SQL Elastic Pools
+    Target: AzureSqlElasticPool
+  - Source: SQL Data Warehouses
+    Target: AzureSqlDataWarehouse
+  - Source: SQL Managed Instance
+    Target: AzureSqlManagedInstance
+  - Source: Managed Database
+    Target: AzureManagedDatabase
+  - Source: Azure Database Migration Services
+    Target: AzureDatabaseMigrationService
+  - Source: SSIS Lift And Shift IR
+    Target: AzureSSISLiftAndShift
+  - Source: Virtual Clusters
+    Target: AzureVirtualCluster
+  - Source: Instance Pools
+    Target: AzureInstancePool
+  - Source: Azure Data Explorer Clusters
+    Target: AzureDataExplorerCluster
 
 - Name: DevOps
   Services:
@@ -101,147 +213,378 @@ Categories:
     Target: AzureTestPlans
   - Source: Azure Artifacts
     Target: AzureArtifacts
-  - Source: Azure Application Insights
+  - Source: Application Insights
     Target: AzureApplicationInsights
-  - Source: Azure DevTest Labs
+  - Source: DevTest Labs
     Target: AzureDevTestLabs
-  - Source: Azure Lab Services
+  - Source: Lab Services
     Target: AzureLabServices
+  - Source: Azure DevOps organizations
+    Target: AzureDevOpsOrganisation
 
 - Name: Identity
   Services:
   - Source: Azure Active Directory
     Target: AzureActiveDirectory
-  - Source: ActiveDirectoryDomain
+  - Source: Azure AD Domain Services
     Target: AzureActiveDirectoryDomainServices
-  - Source: ActiveDirectoryB2C
+  - Source: Azure AD B2C
     Target: AzureActiveDirectoryB2C
+  - Source: Active Directory Connect Health
+    Target: AzureActiveDirectoryConnectHealth
+  - Source: Azure AD Identity Protection
+    Target: AzureActiveDirectoryIdentityProtection
+  - Source: Azure AD Roles and Administrators
+    Target: AzureActiveDirectoryRolesAndAdministrators
+  - Source: Groups
+    Target: AzureActiveDirectoryGroup
+  - Source: Users
+    Target: AzureActiveDirectoryUser
+  - Source: Identity Governance
+    Target: AzureIdentityGovernance
+  - Source: Managed Identities
+    Target: AzureManagedIdentity
+  - Source: Enterprise Applications
+    Target: AzureEnterpriseApplication
+  - Source: App Registrations
+    Target: AzureAppRegistration
 
 - Name: Integration
   Services:
   - Source: Azure Event Grid
     Target: AzureEventGrid
-  - Source: Azure Logic Apps
+  - Source: Logic Apps
     Target: AzureLogicApps
-  - Source: Azure Service Bus
+  - Source: Service Bus
     Target: AzureServiceBus
+  - Source: Event Grid Domains
+    Target: AzureEventGridDomain
+  - Source: Event Grid Topics
+    Target: AzureEventGridTopic
+  - Source: Event Grid Subscriptions
+    Target: AzureEventGridSubscription
+  - Source: Integration Accounts
+    Target: AzureIntegrationAccount
+  - Source: Service Bus Queues
+    Target: AzureServiceBusQueue
+    Fit:    true
+  - Source: Service Bus Topics
+    Target: AzureServiceBusTopic 
+    Fit:    true   
+  - Source: System Topic
+    Target: AzureSystemTopic
+  - Source: Partner Topic
+    Target: AzurePartnerTopic
+  - Source: Biz Talk
+    Target: AzureBizTalk
 
 - Name: InternetOfThings
   Services:
-  - Source: Azure IoT Hub
+  - Source: IoT Hub
     Target: AzureIoTHub
-  - Source: IOT edge
+  - Source: IoT Edge
     Target: AzureIoTEdge
-  - Source: IoT_Central_50
+  - Source: IoT Central 50
     Target: AzureIoTCentral
   - Source: Azure Time Series Insights
     Target: AzureTimeSeriesInsights
-  - Source: azure-maps
+  - Source: Azure Maps Accounts
     Target: AzureMaps
-  - Source: Azure Digital Twins
+  - Source: Digital Twins
     Target: AzureDigitalTwins
+  - Source: IoT Central Applications
+    Target: AzureIoTCentralApplications
+  - Source: Time Series Data Sets
+    Target: AzureTimeSeriesDataSet
+  - Source: Time Series Insights Environments
+    Target: AzureTimeSeriesInsightsEnvironment
+  - Source: Time Series Insights Event Sources
+    Target: AzureTimeSeriesInsightsEventSource
+  - Source: Time Series Insights Access Policies
+    Target: AzureTimeSeriesInsightsAccessPolicy
+  - Source: Device Provisioning Services
+    Target: AzureDeviceProvisioningService
+
+- Name: Intune
+  Services:
+  - Source: Intune
+    Target: AzureIntune
+  - Source: Device Security Apple
+    Target: AzureIntuneApple
+  - Source: Device Security Google
+    Target: AzureIntuneGoogle
+  - Source: Device Security Windows
+    Target: AzureIntuneWindows
 
 - Name: Management
   Services:
-  - Source: Azure Backup
+  - Source: Azure Backup Center
     Target: AzureBackup
   - Source: Azure Site Recovery
     Target: AzureSiteRecovery
   - Source: Azure Scheduler
     Target: AzureScheduler
-  - Source: Azure Automation
+  - Source: Automation Accounts
     Target: AzureAutomation
   - Source: Azure Log Analytics
     Target: AzureLogAnalytics
-  - Source: Azure Monitor
+  - Source: Monitor
     Target: AzureMonitor
-  - Source: Azure Resource Groups
+  - Source: Resource Groups
     Target: AzureResourceGroups
-  - Source: AzurePolicy
+  - Source: Policy
     Target: AzurePolicy
-  - Source: Azure Blueprints
+  - Source: Blueprints
     Target: AzureBlueprints
-  - Source: Azure Subscription New
+  - Source: Subscriptions
     Target: AzureSubscription
-  - Source: Azure Management Groups
+  - Source: Management Groups
     Target: AzureManagementGroups
   - Source: Azure Managed Applications
-    Target: AzureManagedApplications   
-           
+    Target: AzureManagedApplications
+  - Source: Azure Arc
+    Target: AzureArc
+  - Source: Compliance
+    Target: AzureCompliance
+  - Source: Geo-Recovery
+    Target: AzureGeoRecovery
+  - Source: Cost Management And Billing
+    Target: AzureCostManagementAndBilling
+  - Source: Cost Management
+    Target: AzureCostManagement
+  - Source: Cost Alerts
+    Target: AzureCostAlert
+  - Source: Cost Analysis
+    Target: AzureCostAnalysis
+  - Source: Cost Analysis
+    Target: AzureCostBudget
+  - Source: MachinesAzureArc
+    Target: AzureArcMachine
+  - Source: Azure Lighthouse
+    Target: AzureLighthouse
+  - Source: Metrics 
+    Target: AzureMetrics
+  - Source: Solutions 
+    Target: AzureSolutions
+  - Source: Recovery Services Vaults
+    Target: AzureRecoveryServiceVault
+  - Source: Resource Graph Explorer
+    Target: AzureResourceGraphExplorer
+  - Source: Resource Group List
+    Target: AzureResourceGroupList
+  - Source: Resource Linked
+    Target: AzureResourceLinked
+  - Source: Managed Applications Center
+    Target: AzureManagedApplicationCenter
+  - Source: Management Portal
+    Target: AzureManagementPortal
+  - Source: Tag
+    Target: AzureTag
+  - Source: User Privacy
+    Target: AzureUserPrivacy
+
+- Name: Migrate
+  Services:
+  - Source: Azure Migrate
+    Target: AzureMigrate
+  - Source: Data Box Edge
+    Target: AzureDataBoxEdge
+
 - Name: Media
   Services:
   - Source: Azure Media Services
     Target: AzureMediaServices
+  - Source: Media
+    Target: AzureMedia
+  - Source: Media File
+    Target: AzureMediaFile
 
 - Name: Mobile
   Services:
-  - Source: AzureNotificationHubs
+  - Source: Notification Hubs
     Target: AzureNotificationHubs
-  - Source: Azure App Service - Mobile App
+  - Source: Notification Hubs
+    Target: AzureNotificationHub
+  - Source: Notification Hub Namespaces
+    Target: AzureNotificationHubNamespace
+  - Source: Mobile
     Target: AzureMobileApp
+  - Source: Mobile Engagement
+    Target: AzureMobileEngagement 
     
 - Name: Networking
   Services:
   - Source: Azure ExpressRoute
-    Target: AzureExpressRoute 
-  - Source: Azure DNS
-    Target: AzureDNS   
-  - Source: Azure Virtual Network
+    Target: AzureExpressRoute
+  - Source: DNS Zones
+    Target: AzureDNS
+  - Source: Virtual Networks
     Target: AzureVirtualNetwork
-  - Source: Azure Traffic Manager
+  - Source: Traffic Manager Profiles
     Target: AzureTrafficManager
-  - Source: Azure Load Balancer (feature)
+  - Source: Load Balancers
     Target: AzureLoadBalancer
-  - Source: Azure VPN Gateway
+  - Source: Virtual Network Gateways
     Target: AzureVPNGateway
-  - Source: AzureApplicationGateway
+  - Source: Application Gateways
     Target: AzureApplicationGateway
-  - Source: ddos-protection
+  - Source: DDos Protection Plans
     Target: AzureAzureDDoSProtection
-  - Source: virtual-wan
+  - Source: Virtual WANs
     Target: AzureVirtualWAN
-  - Source: Azure Front Door Service
+  - Source: Front Doors
     Target: AzureFrontDoorService
+  - Source: Bastions
+    Target: AzureBastion
+  - Source: CDN Profiles
+    Target: AzureCDNProfile
+  - Source: ExpressRoute Direct
+    Target: AzureExpressRouteDirect
+  - Source: ExpressRoute Circuits
+    Target: AzureExpressRouteCircuit
+  - Source: Firewalls
+    Target: AzureFirewall
+  - Source: Azure Firewall Manager
+    Target: AzureFirewallManager
+  - Source: Front Doors
+    Target: AzureFrontDoor
+  - Source: DNS Servers
+    Target: AzureDNSServer
+  - Source: NAT
+    Target: AzureNAT
+  - Source: Network Security Groups
+    Target: AzureNSG
+  - Source: Route Filters
+    Target: AzureRouteFilter
+  - Source: Route Tables
+    Target: AzureRouteTable
+  - Source: VNET Peerings
+    Target: AzureVirtualNetworkPeering
+  - Source: VNet Subnets
+    Target: AzureSubnet
+  - Source: IP Groups
+    Target: AzureIPGroups
+  - Source: Public IP Prefixes
+    Target: AzurePublicIPPrefix
+  - Source: Public IP Addresses
+    Target: AzurePublicIPAddress
+  - Source: Public IP Addresses (Classic)
+    Target: AzurePublicIPAddressClassic
+  - Source: IP Address space
+    Target: AzureIPAddressSpace
+    Fit:    true
+  - Source: Network Interfaces
+    Target: AzureNetworkInterface
+  - Source: Private Link
+    Target: AzurePrivateLink
+  - Source: Private Link Hub
+    Target: AzurePrivateLinkHub  
+  - Source: Private Link Service
+    Target: AzurePrivateLinkService
+  - Source: Service endpoints
+    Target: AzureServiceEndpoint
+    Fit:    true
+  - Source: Service Endpoint Policies
+    Target: AzureServiceEndpointPolicy
+  - Source: Web Application Firewall Policies(WAF)
+    Target: AzureWAFPolicies
 
 - Name: Security
   Services:
-  - Source: Azure Key Vault
+  - Source: Key Vaults
     Target: AzureKeyVault
   - Source: Azure Sentinel
-    Target: AzureSentinel    
+    Target: AzureSentinel
+  - Source: Azure Defender
+    Target: AzureDefender
+  - Source: Conditional Access
+    Target: AzureConditionalAccess
+  - Source: Application Security Groups
+    Target: AzureApplicationSecurityGroup
+  - Source: Security Center
+    Target: AzureSecurityCenter
+  - Source: Access Control (IAM)
+    Target: AzureAccessControl
+
+- Name: Stack
+  Services:
+  - Source: Azure Stack
+    Target: AzureStack
+  - Source: Capacity
+    Target: AzureStackCapacity
+  - Source: Offers
+    Target: AzureStackOffer
+  - Source: Updates
+    Target: AzureStackUpdate
+  - Source: Multi Tenancy
+    Target: AzureStackMultiTenancy
+  - Source: Infrastructure Backup
+    Target: AzureStackInfrastructureBackup
+  - Source: Plans
+    Target: AzureStackPlan
+  - Source: User Subscriptions
+    Target: AzureStackUserSubscription
 
 - Name: Storage
   Services:
-  - Source: Azure Storage
+  - Source: Storage Accounts
     Target: AzureStorage
-  - Source: Azure StorSimple
+  - Source: StorSimple Data Managers
     Target: AzureStorSimple
-  - Source: Azure Data Lake Store
+  - Source: Data Lake Store Gen1
     Target: AzureDataLakeStorage
-  - Source: Azure Storage - Blob
+  - Source: Azure Storage Blob
     Target: AzureBlobStorage
   - Source: disks
     Target: AzureDiskStorage
   - Source: managed-disks
     Target: AzureManagedDisks
-  - Source: Azure Storage - Queue
+  - Source: Storage Queue
     Target: AzureQueueStorage
-  - Source: Azure Storage - Files
+  - Source: Storage Azure Files
     Target: AzureFileStorage
-  - Source: Azure Data Box
+  - Source: Data Box
     Target: AzureDataBox
   - Source: Azure NetApp Files
     Target: AzureNetAppFiles
+  - Source: Storage Accounts (Classic)
+    Target: AzureStorageClassic
+  - Source: Storage Container
+    Target: AzureStorageContainer
+  - Source: Disks (Classic)
+    Target: AzureDiskStorageClassic
 
 - Name: Web
   Services:
-  - Source: Azure Content Delivery Network (CDN)
+  - Source: CDN Profiles
     Target: AzureCDN
-  - Source: Azure API Management
+  - Source: API Management Services
     Target: AzureAPIManagement
-  - Source: Azure Search
+  - Source: Search Services
     Target: AzureSearch
-  - Source: Azure App Service - Web App (was Websites)
+  - Source: App Services
     Target: AzureWebApp
   - Source: Azure SignalR Service
     Target: AzureSignalRService
+  - Source: App Service Certificates
+    Target: AzureAppServiceCertificate
+  - Source: App Service Domains
+    Target: AzureAppServiceDomain
+  - Source: CORS
+    Target: AzureCORS
+    Fit:    true
+  - Source: Log Streaming
+    Target: AzureLogStream
+  - Source: Quotas
+    Target: AzureQuota
+    Fit:    true
+  - Source: Deployment Credentials
+    Target: AzureDeploymentCredentials
+  - Source: Advanced Tools
+    Target: AzureAdvancedTools
+    Fit:    true
+  - Source: Container Settings
+    Target: AzureContainerSettings
+    Fit:    true
+  - Source: Properties
+    Target: AzureProperties

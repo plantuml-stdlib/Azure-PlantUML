@@ -1,0 +1,11 @@
+sprite $AzureCostManagement [70x70/16z] {
+vPP75jWm24GPcfJx7pZDZrGDmhkKltB5Y6-mvM_ZxmSDCaDZjQJ97LzN4dAXIMGUnjQ8b0wi8TQlPmfUfXAHwtTSAAVBLKIK71-Nrfd-V9kAYCqBx5o6Zss3
+ls38DIrmiBPHox5jNQ-9hhHpTDX0wMQgwZ5hftN28GMYRoUk4lTicMK-HFHcEwX7U8HhPTFQLgeH-JqlM6yxQU4goOJ5nRRHitWnF9jdp8TdD2TjtUacjf7L
+4jlHjnei1fCSWoclbfTaVDRtyEmg4zCl5xoDGWaCVmGWlXfSHv_EkyemlKtLdBsUKO5u0NtVgJcInvFF0_Q09vlO1nwNjWSuZPB2yrmPhbYxC7gbLkdfEQim
+2RRua2BeISrdxmc2GywG0gj9rCp0b-vI76qVVfQSMIxMFGoYAQrmsuwVEhgnNEG-4QQ0gddk8v2VmRx3BHFRC-HtDYFRhkWz5ewoGorpsqNosgkSKDxsFh1S
+P1kbjzpRpcilZsm7gQvmzXWJ0hFTMXxRPfOvs1ycXFJO94pA3QnRZEqoG2CRmkH_u1C
+}
+
+AzureEntityColoring(AzureCostManagement)
+!define AzureCostManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCostManagement, AzureCostManagement)
+!define AzureCostManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCostManagement, AzureCostManagement)

@@ -1,0 +1,12 @@
+sprite $AzureSql [70x70/16z] {
+xTA53YmX38NXKuDstlzzhq0teyoo4hdoHLRxfqp05_tt7p6pC1FUnsehUQj4cqHfZF4goVaT8xo2S_v4C4_Aa66Mbh5gdsrIqro6X_D9CU4ca1XFsSryAZFd
+gKy9dh0w0_UeJk6xX5YfCzmm8ZC5x-geCJcV61V8PWD9SCRpyqdd8dxFdaPyHZKUNH5_ILMiIiw_Wv743uo9M3J3HKN4F8b8kNm-rNVg8rzQ8p-HUWF0F4LZ
+bwjG6ygA4HvaKuajkrZ5Sg18TQy4aEL--gZ4WG3aUxeDCq1rVHTnMN50BYh5kveRH4G188DA6Cpt2W2ozNGrEWB81vL0zGD1xqI40l3ek1K75VKJ9G1WZv13
+fOmgrNVwTvAPyovnNGbF-pQtVnk04Xsrug2oL8yBJe141I3hrU8uLvQkn5vMfSttbRAAigiiMnfxXRJscwyvBAKevIhHFl_ckmeVAtYehOa7zbv9jgl0holK
+5tVf7T9sX675Og-gC8jv96_doQ6mXxgDL52CBLq1eCiD1UncFkbT9i_fDu4a02HkLW7aRZxbexWKQ2oMJp2wyab4WSypXfL-k4bYVwSHZ0FnJqwpuXBBlAeO
+8L6ReOo_mN___GG
+}
+
+AzureEntityColoring(AzureSql)
+!define AzureSql(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSql, AzureSql)
+!define AzureSql(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSql, AzureSql)

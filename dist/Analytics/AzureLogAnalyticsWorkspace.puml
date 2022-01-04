@@ -1,0 +1,10 @@
+sprite $AzureLogAnalyticsWorkspace [70x70/16z] {
+xTG55cCn28NX2m52zx_Wkl8afCduVCUg_pjH_7c8YuYgI67wDY5gRrI-2B6QHSheGcghb90djacGfRP3UqSpC2go9aeFPsnGOWc2VSLI6BiigJsUqJ6HfM6R
+r4sc5rOV2ZRPJWKN6jwluPglL4eDA7fKcaFIdefYG-sf6DRHnrDQbJgdGbZ5_q95ofcCLlZnUNwDs6zk5R_Wv-VtYZ_DgHZEEEgjoEfLtwWuBioVkBDIrYeL
+CoeofKBhbsDVHT6gMAA2HYL5TYg7BCE4YcD2nMcW4YBTbHWPhnWmNF62uOeB0lEWMR42HAB1tjwj9epVJdj4q43GKZq0o0Fx6oh_AuS0eFZHxrIf_s35frHi
+IeLzhFB0dm1mX9_X1
+}
+
+AzureEntityColoring(AzureLogAnalyticsWorkspace)
+!define AzureLogAnalyticsWorkspace(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLogAnalyticsWorkspace, AzureLogAnalyticsWorkspace)
+!define AzureLogAnalyticsWorkspace(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLogAnalyticsWorkspace, AzureLogAnalyticsWorkspace)

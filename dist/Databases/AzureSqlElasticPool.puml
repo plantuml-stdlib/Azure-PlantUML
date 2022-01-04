@@ -1,0 +1,11 @@
+sprite $AzureSqlElasticPool [70x70/16z] {
+hTP9igD030PX8-clWViVk3td0YjQ52ztDl0nAxZzBnjJjwlvVgzVHs0k8Z3h2Cmw0dCTWLb7ODOHc4Maov-fJvYJo3IBTsuDvkIHR1PgZ-JR-w-59rPkvlTi
+yz0ESmRPUqH82YdYhi3K41JI3bD24WMcWgGAJ1d95PWSoPKg0v8hC3bILM1o95To1gIam6H8pcZk2PCYD7flhVU1aJ0Wf-ifiiw0ZDOajJxttyt-NDu6p05f
+vf_H5kE7CVozWhzd7mn8tpn2ZoBCVYXct-M-THYGUoDU8rBopVL3aMyXjQOm3hQ_4PHGV4AX2EczDEuAp0D1eKIXkm9Z-tLbR-E2GlDF5Fs5Cc_jkZAt6ynv
+1GJcj082iwA0m4mTLif7g43USJHTYf1QpmU38jJw03aozK3M6P0YCsS9oPdPmipTpJLA20oDpUEJHOhapF7hC4e834g4cvdRGrCHWK4XLH6ON06fCRa2aZEP
+Ka9WSWMam6GAI8b9590QaoWWDIPHGEhCE2WWPnXzZGvochb3O_GnvWwomX38EWEope2iCo3h3CWw0tAL0LbdAiW_
+}
+
+AzureEntityColoring(AzureSqlElasticPool)
+!define AzureSqlElasticPool(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSqlElasticPool, AzureSqlElasticPool)
+!define AzureSqlElasticPool(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSqlElasticPool, AzureSqlElasticPool)

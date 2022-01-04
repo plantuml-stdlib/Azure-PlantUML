@@ -1,0 +1,12 @@
+sprite $AzureStack [70x70/16z] {
+xTC7SkmW381XTU6z_trJh64UYu3ezPP_cjA-YCM6loNsGW8VvAK8Zg6NulzICRqpVokFLOLZfkTHOiHVfj1VfNmg77_QHusHAaehzUtAfs9oPrz67SQgqcyw
+nlvjYH5_XOBulGgoHEmrPMz4wj-cK6n1HA7Pe4XLuNS2kwZo5XQKl0aDT-I1Vfs2yQ_7czOu7kdxJ7VoDbgCl59Yar6vjsddEDqEfwVElPMLVZduNMyZIWGh
+nTqhIYn2ED_OTJMtdhTh7G-RCAIe6ps-qxU_z1WbbE5kScHJIX0hNWftE2XnDpcr5EqL4IaYffIL-6DQduTjbU96uUKgQEiuAuS3oKPHt2cS5c6rNLHKIEqG
+rquaTixV_hBfdJtT4UOBtdTDXO8YT42KSFwSsgIa8ydgQSNqWvOL5E7TKuBnllEyP4lAy299UiPO8W3RCA448mYfs3FYwHNtf0GZX4XpqilBP0L8FWh1_Adh
+4GaC4Sin03yhFIIU6nGiA15D0NQ4W2UbRHMVKk1-HU3bNTId630s0QihsEOKuwZMvXvR1RIbL5YifQw30jOg1R9Nq8l8LediAlIOb1ot8X8XR68xGct86KxX
+9lXflG8
+}
+
+AzureEntityColoring(AzureStack)
+!define AzureStack(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStack, AzureStack)
+!define AzureStack(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStack, AzureStack)

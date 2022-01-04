@@ -1,0 +1,11 @@
+sprite $AzureSubnet [70x70/16z] {
+xTRN4jiW48NXimKMtl-1KsIKYR8SZzRfYVzhpKTHOsuQVcJO9UQvkQjJHdoNRfNXX57V9dDRtpFY9ILyopW9aoufCrfKfkyO9nbL4lEQaXbnab8bCrmHkhix
+fgg4PuOh8CheEqQvGXfjmx1RX4cBbXYfAjanjYPD2dVuR2GfgNwz752hAFbs2NahaHNk2CwagYodhJiTE4etRzwh7pCPyy5ONLarmEUSaJP6YKBoCK_cSejg
+YgATZ6ObxY46GFfYBhVeKFejfk58us0aAU5n5rbEVBKcMyhmn11aPIC0ouhtvuZXclSlZ2vb-gVQu4O8KdekIawbkJ-Ppc0daCTqxAfuYntY86aOe0_c-Wtf
+tq2ZWQSp5808aFuRhKUCeuYkU9Qkj_HKSlrJXXLdbXCnvl1S98Cnqm1tZvqYI15chDSgF8URQJpzzvPoalorYXMK-cGKjNwC8WMboYZA5PJQdJAya12bcdBb
+TKVnSg8CgKjgbf1oxzwzU_SH
+}
+
+AzureEntityColoring(AzureSubnet)
+!define AzureSubnet(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSubnet, AzureSubnet)
+!define AzureSubnet(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSubnet, AzureSubnet)
