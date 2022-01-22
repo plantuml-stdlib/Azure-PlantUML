@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
-<defs>
-<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="9" y1="13.83" x2="9" y2="1.07" gradientTransform="matrix(3.888889,0,0,3.888889,0,0)">
-<stop offset="0" style="stop-color:rgb(0%,47.058824%,83.137255%);stop-opacity:1;"/>
-<stop offset="0.82" style="stop-color:rgb(36.862745%,62.745098%,93.72549%);stop-opacity:1;"/>
-</linearGradient>
-</defs>
-<g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 70 38.226563 C 69.730469 30.582031 63.945313 24.265625 56.351563 23.332031 C 55.992188 12.410156 46.859375 3.832031 35.933594 4.160156 C 27.292969 4 19.496094 9.320313 16.488281 17.421875 C 7.296875 18.550781 0.296875 26.210938 0 35.464844 C 0.402344 45.960938 9.21875 54.15625 19.714844 53.785156 L 53.355469 53.785156 C 53.640625 53.824219 53.925781 53.824219 54.210938 53.785156 C 62.816406 53.722656 69.8125 46.828125 70 38.226563 Z M 70 38.226563 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(94.901961%,94.901961%,94.901961%);fill-opacity:1;" d="M 25.785156 26.523438 L 45.460938 26.523438 L 45.460938 53.746094 L 25.785156 53.746094 Z M 25.785156 26.523438 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(31.372549%,90.196078%,100%);fill-opacity:1;" d="M 49.039063 24.773438 L 35.464844 16.996094 C 34.972656 16.835938 34.445313 17.09375 34.261719 17.578125 C 34.261719 17.578125 34.261719 17.8125 34.261719 17.890625 L 34.261719 64.867188 C 34.261719 65.390625 34.671875 65.816406 35.195313 65.839844 L 35.503906 65.839844 L 49.078125 57.828125 C 49.464844 57.699219 49.726563 57.339844 49.738281 56.933594 L 49.738281 25.820313 C 49.78125 25.351563 49.488281 24.914063 49.039063 24.773438 Z M 49.039063 24.773438 "/>
-</g>
-</svg>
+﻿<?xml version="1.0" encoding="utf-8"?><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="70" height="70" viewBox="0, 0, 18, 18" id="b9c24df5-e0dd-4838-a385-7c11c2d34304"><defs><linearGradient x1="9" y1="13.83" x2="9" y2="1.07" gradientUnits="userSpaceOnUse" id="aa2ee697-e8d1-4da1-a8c5-64c8ebbb74cf"><stop offset="0%" stop-color="#0078D4" /><stop offset="82%" stop-color="#5EA0EF" /></linearGradient></defs><title>Icon-networking-73</title><path d="M18 9.83 A4 4 0 0 0 14.49 6 A5.1 5.1 0 0 0 9.24 1.07 a5.23 5.23 0 0 0 -5 3.41 A4.83 4.83 0 0 0 0 9.12 a4.9 4.9 0 0 0 5.07 4.71 l0.44 0 h8.21 a0.78 0.78 0 0 0 0.22 0 A4.09 4.09 0 0 0 18 9.83 Z" style="fill:url(#aa2ee697-e8d1-4da1-a8c5-64c8ebbb74cf);" /><path d="M6.63 6.82 h5.06 v7 H6.63 Z" id="f0276135-0079-4897-a518-21eb63472c16" style="fill:#F2F2F2;" /><path d="M12.61 6.37 l-3.49 -2 a0.25 0.25 0 0 0 -0.31 0.15 s0 0.06 0 0.08 V16.68 a0.25 0.25 0 0 0 0.24 0.25 h0.08 l3.49 -2.06 a0.25 0.25 0 0 0 0.17 -0.23 v-8 A0.26 0.26 0 0 0 12.61 6.37 Z" id="e528878d-2ed7-4392-94e6-99c6fc971bcb" style="fill:#50E6FF;" /></svg>

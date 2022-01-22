@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
-<defs>
-<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="9" y1="15.427" x2="9" y2="5.973" gradientTransform="matrix(3.888889,0,0,3.888889,0,0)">
-<stop offset="0" style="stop-color:rgb(47,166,255);stop-opacity:1;"/>
-<stop offset="0.175" style="stop-color:rgb(63,173,255);stop-opacity:1;"/>
-<stop offset="0.41" style="stop-color:rgb(75,178,255);stop-opacity:1;"/>
-<stop offset="0.775" style="stop-color:rgb(79,180,255);stop-opacity:1;"/>
-</linearGradient>
-</defs>
-<g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 3.890625 23.226563 L 66.109375 23.226563 L 66.109375 57.917969 C 66.109375 59.066406 65.179688 59.996094 64.03125 59.996094 L 5.96875 59.996094 C 4.820313 59.996094 3.890625 59.066406 3.890625 57.917969 Z M 3.890625 23.226563 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,124,216);fill-opacity:1;" d="M 5.980469 9.96875 L 64.019531 9.96875 C 64.574219 9.964844 65.109375 10.183594 65.5 10.574219 C 65.894531 10.96875 66.113281 11.5 66.109375 12.054688 L 66.109375 23.226563 L 3.890625 23.226563 L 3.890625 12.054688 C 3.886719 11.5 4.105469 10.96875 4.5 10.574219 C 4.890625 10.183594 5.425781 9.964844 5.980469 9.96875 Z M 5.980469 9.96875 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(171,219,255);fill-opacity:1;" d="M 3.890625 23.226563 L 20.199219 23.226563 L 20.199219 59.996094 L 5.972656 59.996094 C 5.421875 60 4.890625 59.785156 4.5 59.394531 C 4.109375 59.007813 3.886719 58.476563 3.890625 57.925781 Z M 3.890625 23.226563 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(47,166,255);fill-opacity:1;" d="M 20.199219 51.941406 L 66.109375 51.941406 L 66.109375 57.945313 C 66.109375 59.085938 65.183594 60.011719 64.042969 60.011719 L 20.199219 60.011719 Z M 20.199219 51.941406 "/>
-</g>
-</svg>
+<?xml version="1.0" encoding="utf-8"?><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="70" height="70" viewBox="0, 0, 18, 18"><defs><linearGradient x1="9" y1="15.427" x2="9" y2="5.973" gradientUnits="userSpaceOnUse" id="a005d9e9-7e29-4ef4-b995-a79dce2e9bf8"><stop offset="0%" stop-color="#2FA6FF" /><stop offset="17.5%" stop-color="#3FADFF" /><stop offset="41%" stop-color="#4BB2FF" /><stop offset="77.5%" stop-color="#4FB4FF" /></linearGradient></defs><title>MsPortalFx.base.images-60</title><g id="f12b48ce-114c-4425-96be-0112b3f7d9c3"><g><path d="M1 5.973 H17 a0 0 0 0 1 0 0 v8.92 a0.535 0.535 0 0 1 -0.535 0.535 H1.535 A0.535 0.535 0 0 1 1 14.893 V5.973 A0 0 0 0 1 1 5.973 Z" style="fill:url(#a005d9e9-7e29-4ef4-b995-a79dce2e9bf8);" /><path d="M1.538 2.563 H16.462 A0.535 0.535 0 0 1 17 3.1 V5.973 a0 0 0 0 1 0 0 H1 a0 0 0 0 1 0 0 V3.1 A0.535 0.535 0 0 1 1.538 2.563 Z" style="fill:#007CD8;" /><path d="M1 5.973 H5.194 a0 0 0 0 1 0 0 v9.455 a0 0 0 0 1 0 0 H1.536 A0.532 0.532 0 0 1 1 14.895 V5.973 A0 0 0 0 1 1 5.973 Z" style="fill:#ABDBFF;" /><path d="M5.194 13.356 H17 a0 0 0 0 1 0 0 V14.9 a0.532 0.532 0 0 1 -0.532 0.532 H5.194 a0 0 0 0 1 0 0 V13.356 a0 0 0 0 1 0 0 Z" style="fill:#2FA6FF;" /></g></g></svg>

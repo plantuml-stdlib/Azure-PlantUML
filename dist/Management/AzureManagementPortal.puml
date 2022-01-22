@@ -1,4 +1,4 @@
-sprite $AzureManagementPortal [70x70/16z] xSo30SHG042nR-m_yA6stPS18cuCK24kP_Cbhg8tMSpD5nOMtM3T73fRLCDr5nOM5XOM5XRdvp2RB7PmOT6h5hF98aL6rXTjfjDId0Bu0W
+sprite $AzureManagementPortal [70x70/16z] xSor0S0m3011cUtz1mwgKXN6lm5ENWo8jMrMWwYsYoPkt-BUlR2mI33IAgAyaV8QLouiB2miB2mikQpXBbXOWbdAAg9ysB54UJ6W1m
 
 AzureEntityColoring(AzureManagementPortal)
 !define AzureManagementPortal(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagementPortal, AzureManagementPortal)

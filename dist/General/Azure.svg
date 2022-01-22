@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="54pt" viewBox="0 0 70 54" version="1.1">
-<g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,44.705882%,77.647059%);fill-opacity:1;" d="M 15.992188 53.523438 L 49.0625 47.769531 L 32.050781 27.800781 L 40.910156 3.78125 L 70 53.527344 Z M 38.59375 0 L 16.054688 47.683594 L 16.054688 47.636719 L 0 47.636719 L 17.804688 17.210938 Z M 38.59375 0 "/>
-</g>
+﻿<?xml version="1.0" encoding="utf-8"?><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" x="0" y="0" width="70" height="70" viewBox="0, 0, 50, 38.66" id="Layer_1" xml:space="preserve" sodipodi:docname="Azure_logo_icon_50.svg" inkscape:version="0.92.2 (5c3e80d, 2017-08-06)" style="enable-background:new 0 0 50 50;">
+  <metadata id="metadata13" />
+  <defs id="defs11" />
+  <sodipodi:namedview id="namedview9" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="640" inkscape:window-height="480" showgrid="false" inkscape:zoom="4.72" inkscape:cx="25" inkscape:cy="19.33" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="0" inkscape:current-layer="Layer_1" />
+  <title id="title2">Combined Shape</title>
+  <desc id="desc4">Created with Sketch.</desc>
+  <g transform="translate(0, -5.67)" id="Page-1">
+    <path d="M11.423 44.326 L35.046 40.17 L22.894 25.748 L29.222 8.402 L50 44.33 Z M27.566 5.67 L11.469 40.109 V40.075 H0 L12.717 18.1 Z" id="Combined-Shape" inkscape:connector-curvature="0" style="fill:#0072C6;" />
+  </g>
 </svg>
