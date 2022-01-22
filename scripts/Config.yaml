@@ -33,12 +33,8 @@ Categories:
 
 - Name: Analytics
   Services:
-  - Source: AzureStreamAnalytics
-    Target: AzureStreamAnalytics
   - Source: Azure Databricks
     Target: AzureDatabricks
-  - Source: AzureHDInsight
-    Target: AzureHDInsight
   - Source: Azure Data Lake Analytics
     Target: AzureDataLakeAnalytics
   - Source: Analysis Services
@@ -138,12 +134,8 @@ Categories:
     Target: AzureContainerRegistry
   - Source: Container Instances
     Target: AzureContainerInstance
-  - Source: Azure Service Fabric Mesh
-    Target: AzureServiceFabricMesh
   - Source: Kubernetes Services
     Target: AzureKubernetesService
-  - Source: app-service-containers
-    Target: AzureWebAppForContainers
   - Source: App Service Environments
     Target: AzureServiceEnvironment
 
