@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61pt" height="70pt" viewBox="0 0 61 70" version="1.1">
-<g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,102,178);fill-opacity:1;" d="M 43.570313 26.644531 L 30.492188 18.957031 L 17.429688 26.605469 L 17.429688 43.308594 L 30.5 51.042969 L 43.570313 43.359375 Z M 43.570313 26.644531 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0,102,178);fill-opacity:1;" d="M 0 29.277344 L 14.523438 37.609375 L 14.523438 30.890625 L 5.808594 25.890625 L 5.808594 20.820313 L 30.496094 6.714844 L 55.191406 20.886719 L 55.191406 49.113281 L 30.5 63.28125 L 0 45.78125 L 0 52.5 L 30.5 70 L 61 52.5 L 61 17.5 L 30.5 0 L 0 17.429688 Z M 0 29.277344 "/>
-</g>
+<?xml version="1.0" encoding="utf-8"?><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" x="0" y="0" width="70" height="70" viewBox="0, 0, 42, 48" id="Layer_1" xml:space="preserve" sodipodi:docname="IoT_Central_50.svg" inkscape:version="0.92.2 (5c3e80d, 2017-08-06)" style="enable-background:new 0 0 50 50;">
+  <metadata id="metadata11" />
+  <defs id="defs9" />
+  <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#0075CC" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="640" inkscape:window-height="480" showgrid="false" inkscape:zoom="4.72" inkscape:cx="21" inkscape:cy="24" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="0" inkscape:current-layer="Layer_1" />
+  <polygon points="34,19.271 24.995,14 16,19.243 16,30.696 25,36 34,30.732" transform="translate(-4, -1)" id="polygon2" style="fill:#0066B2;" />
+  <polygon points="4,21.075 14,26.789 14,22.182 8,18.753 8,15.277 24.996,5.604 42,15.321 42,34.679 25,44.393 4,32.393 4,37 25,49 46,37 46,13 25,1 4,12.951" transform="translate(-4, -1)" id="polygon4" style="fill:#0066B2;" />
 </svg>

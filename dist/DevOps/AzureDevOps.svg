@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
-<defs>
-<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="9" y1="16.97" x2="9" y2="1.03" gradientTransform="matrix(3.888889,0,0,3.888889,0,0)">
-<stop offset="0" style="stop-color:rgb(0%,47.058824%,83.137255%);stop-opacity:1;"/>
-<stop offset="0.16" style="stop-color:rgb(7.45098%,50.196078%,85.490196%);stop-opacity:1;"/>
-<stop offset="0.53" style="stop-color:rgb(23.529412%,56.862745%,89.803922%);stop-opacity:1;"/>
-<stop offset="0.82" style="stop-color:rgb(33.333333%,61.176471%,92.54902%);stop-opacity:1;"/>
-<stop offset="1" style="stop-color:rgb(36.862745%,62.745098%,93.72549%);stop-opacity:1;"/>
-</linearGradient>
-</defs>
-<g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 66.109375 15.554688 L 66.109375 53.433594 L 50.554688 66.1875 L 26.445313 57.398438 L 26.445313 66.109375 L 12.792969 48.261719 L 52.578125 51.371094 L 52.578125 17.265625 Z M 52.851563 17.460938 L 30.527344 3.890625 L 30.527344 12.792969 L 10.035156 18.820313 L 3.890625 26.714844 L 3.890625 44.644531 L 12.679688 48.535156 L 12.679688 25.550781 Z M 52.851563 17.460938 "/>
-</g>
-</svg>
+﻿<?xml version="1.0" encoding="utf-8"?><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="70" height="70" viewBox="0, 0, 18, 18" id="f4337506-5d95-4e80-b7ca-68498c6e008e"><defs><linearGradient x1="9" y1="16.97" x2="9" y2="1.03" gradientUnits="userSpaceOnUse" id="ba420277-700e-42cc-9de9-5388a5c16e54"><stop offset="0%" stop-color="#0078D4" /><stop offset="16%" stop-color="#1380DA" /><stop offset="53%" stop-color="#3C91E5" /><stop offset="82%" stop-color="#559CEC" /><stop offset="100%" stop-color="#5EA0EF" /></linearGradient></defs><title>Icon-devops-261</title><path d="M17 4 v9.74 l-4 3.28 l-6.2 -2.26 V17 L3.29 12.41 l10.23 0.8 V4.44 Z m-3.41 0.49 L7.85 1 V3.29 L2.58 4.84 L1 6.87 v4.61 l2.26 1 V6.57 Z" id="a91f0ca4-8fb7-4019-9c09-0a52e2c05754" style="fill:url(#ba420277-700e-42cc-9de9-5388a5c16e54);" /></svg>
