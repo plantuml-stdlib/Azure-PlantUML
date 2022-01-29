@@ -1,7 +1,7 @@
 Categories:
 - Name: General
   Services:
-  - Source: Azure logo icon 50
+  - Source: Microsoft Azure
     Target: Azure
   - Source: Workbooks
     Target: AzureWorkbook
