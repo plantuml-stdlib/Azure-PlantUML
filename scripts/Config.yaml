@@ -59,6 +59,12 @@ Categories:
     Target: AzureDataLakeStoreGen1
   - Source: Azure Purview Account
     Target: AzurePurviewAccount
+  - Source: Power BI
+    Target: PowerBI
+    Fit: true
+  - Source: Power BI Embedded
+    Target: AzurePowerBIEmbedded
+    Fit:    true
 
 - Name: Blockchain
   Services:
@@ -173,9 +179,6 @@ Categories:
     Target: AzureDatabaseForMariaDB
   - Source: Azure Databricks
     Target: AzureDataBricks
-  - Source: Power BI Embedded
-    Target: AzurePowerBIEmbedded
-    Fit:    true
   - Source: Azure SQL
     Target: AzureSql
   - Source: Azure SQL VM
