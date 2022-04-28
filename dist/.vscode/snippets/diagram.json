@@ -367,6 +367,22 @@
       "$0"
     ]
   },
+  "AzurePowerBIEmbedded": {
+    "prefix": "Azure Power B I Embedded",
+    "description": "Add Azure Power B I Embedded to diagram",
+    "body": [
+      "AzurePowerBIEmbedded(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzurePowerBIEmbedded_Descr": {
+    "prefix": "Azure Power B I Embedded with Description",
+    "description": "Add Azure Power B I Embedded with Description to diagram",
+    "body": [
+      "AzurePowerBIEmbedded(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzurePurviewAccount": {
     "prefix": "Azure Purview Account",
     "description": "Add Azure Purview Account to diagram",
@@ -412,6 +428,22 @@
     "description": "Add Azure Synapse Analytics with Description to diagram",
     "body": [
       "AzureSynapseAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "PowerBI": {
+    "prefix": "Power B I",
+    "description": "Add Power B I to diagram",
+    "body": [
+      "PowerBI(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "PowerBI_Descr": {
+    "prefix": "Power B I with Description",
+    "description": "Add Power B I with Description to diagram",
+    "body": [
+      "PowerBI(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -1231,22 +1263,6 @@
       "$0"
     ]
   },
-  "AzurePowerBIEmbedded": {
-    "prefix": "Azure Power B I Embedded",
-    "description": "Add Azure Power B I Embedded to diagram",
-    "body": [
-      "AzurePowerBIEmbedded(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzurePowerBIEmbedded_Descr": {
-    "prefix": "Azure Power B I Embedded with Description",
-    "description": "Add Azure Power B I Embedded with Description to diagram",
-    "body": [
-      "AzurePowerBIEmbedded(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "AzureRedisCache": {
     "prefix": "Azure Redis Cache",
     "description": "Add Azure Redis Cache to diagram",
@@ -1628,6 +1644,70 @@
     "description": "Add Azure Workflow with Description to diagram",
     "body": [
       "AzureWorkflow(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "DICOMService": {
+    "prefix": "D I C O M Service",
+    "description": "Add D I C O M Service to diagram",
+    "body": [
+      "DICOMService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "DICOMService_Descr": {
+    "prefix": "D I C O M Service with Description",
+    "description": "Add D I C O M Service with Description to diagram",
+    "body": [
+      "DICOMService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "FHIRService": {
+    "prefix": "F H I R Service",
+    "description": "Add F H I R Service to diagram",
+    "body": [
+      "FHIRService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "FHIRService_Descr": {
+    "prefix": "F H I R Service with Description",
+    "description": "Add F H I R Service with Description to diagram",
+    "body": [
+      "FHIRService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "HealthDataServices": {
+    "prefix": "Health Data Services",
+    "description": "Add Health Data Services to diagram",
+    "body": [
+      "HealthDataServices(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "HealthDataServices_Descr": {
+    "prefix": "Health Data Services with Description",
+    "description": "Add Health Data Services with Description to diagram",
+    "body": [
+      "HealthDataServices(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "MedTechService": {
+    "prefix": "Med Tech Service",
+    "description": "Add Med Tech Service to diagram",
+    "body": [
+      "MedTechService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "MedTechService_Descr": {
+    "prefix": "Med Tech Service with Description",
+    "description": "Add Med Tech Service with Description to diagram",
+    "body": [
+      "MedTechService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },

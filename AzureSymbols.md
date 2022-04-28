@@ -140,6 +140,11 @@ DevOps | AzureTestPlans </br> (Azure Test Plans) | ![AzureTestPlans](dist/DevOps
 General | Azure </br> (Azure) | ![Azure](dist/General/Azure.png?raw=true) | ![Azure](dist/General/Azure(m).png?raw=true) | General/Azure.puml
 General | AzureWorkbook </br> (Azure Workbook) | ![AzureWorkbook](dist/General/AzureWorkbook.png?raw=true) | ![AzureWorkbook](dist/General/AzureWorkbook(m).png?raw=true) | General/AzureWorkbook.puml
 General | AzureWorkflow </br> (Azure Workflow) | ![AzureWorkflow](dist/General/AzureWorkflow.png?raw=true) | ![AzureWorkflow](dist/General/AzureWorkflow(m).png?raw=true) | General/AzureWorkflow.puml
+**Health** | | | | **Health/all.puml**
+Health | DICOMService </br> (D ICOM Service) | ![DICOMService](dist/Health/DICOMService.png?raw=true) | ![DICOMService](dist/Health/DICOMService(m).png?raw=true) | Health/DICOMService.puml
+Health | FHIRService </br> (F HIR Service) | ![FHIRService](dist/Health/FHIRService.png?raw=true) | ![FHIRService](dist/Health/FHIRService(m).png?raw=true) | Health/FHIRService.puml
+Health | HealthDataServices </br> (Health Data Services) | ![HealthDataServices](dist/Health/HealthDataServices.png?raw=true) | ![HealthDataServices](dist/Health/HealthDataServices(m).png?raw=true) | Health/HealthDataServices.puml
+Health | MedTechService </br> (Med Tech Service) | ![MedTechService](dist/Health/MedTechService.png?raw=true) | ![MedTechService](dist/Health/MedTechService(m).png?raw=true) | Health/MedTechService.puml
 **Identity** | | | | **Identity/all.puml**
 Identity | AzureActiveDirectory </br> (Azure Active Directory) | ![AzureActiveDirectory](dist/Identity/AzureActiveDirectory.png?raw=true) | ![AzureActiveDirectory](dist/Identity/AzureActiveDirectory(m).png?raw=true) | Identity/AzureActiveDirectory.puml
 Identity | AzureActiveDirectoryB2C </br> (Azure Active Directory B2C) | ![AzureActiveDirectoryB2C](dist/Identity/AzureActiveDirectoryB2C.png?raw=true) | ![AzureActiveDirectoryB2C](dist/Identity/AzureActiveDirectoryB2C(m).png?raw=true) | Identity/AzureActiveDirectoryB2C.puml
