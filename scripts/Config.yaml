@@ -229,6 +229,17 @@ Categories:
   - Source: Azure DevOps organizations
     Target: AzureDevOpsOrganisation
 
+- Name: Health
+  Services:
+  - Source: Health Data Services
+    Target: HealthDataServices
+  - Source: FHIR Service
+    Target: FHIRService
+  - Source: DICOM Service
+    Target: DICOMService
+  - Source: MedTech Service
+    Target: MedTechService
+
 - Name: Identity
   Services:
   - Source: Azure Active Directory
