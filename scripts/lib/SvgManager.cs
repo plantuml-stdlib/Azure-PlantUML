@@ -148,7 +148,7 @@ public class SvgManager : IImageManager
         {
             var currentColor = System.Drawing.ColorTranslator.FromHtml(hexColor.ToString()!);
             var newColor = manipulation(currentColor);
-            content = content.Replace(currentColor.ToHexString(), newColor.ToHexString());
+            content = content.Replace(hexColor.ToString()!, newColor.ToHexString());
         }
 
         // Handle RGB colors
