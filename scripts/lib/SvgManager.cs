@@ -3,7 +3,6 @@ using Microsoft.Extensions.Configuration;
 using System.Text.RegularExpressions;
 using System.Xml;
 using Microsoft.Playwright;
-using Svg;
 using System.Globalization;
 using System.Drawing;
 using System.Diagnostics;
@@ -39,7 +38,6 @@ public class SvgManager : IImageManager
                 _logger.LogWarning("Ensure Linux dependencies are installed using the Microsoft.Playwright.CLI. See: https://playwright.dev/dotnet/docs/browsers#prerequisites-for-net");
             }
         }
-
     }
 
     public async Task<bool> ExportToPng(string inputPath, string outputPath, int targetImageHeight, bool omitBackground = true)
@@ -80,31 +78,45 @@ public class SvgManager : IImageManager
         }
     }
 
-    public async Task<bool> ResizeAndCopy(string inputPath, string outputPath, int targetImageHeight)
+ public async Task<bool> ResizeAndCopy(string inputPath, string outputPath, int targetImageHeight)
     {
         try
         {
-            var doc = SvgDocument.Open(inputPath);
-            var viewBox = doc.ViewBox;
-
-            if (viewBox.Height != 0 && viewBox.Width != 0)
-            {
-                doc.Height = targetImageHeight;
-                doc.Width = targetImageHeight;
-                doc.AspectRatio.Align = SvgPreserveAspectRatio.xMidYMid;
-            }
-            else    // Items that don't have a viewbox
-            {
-                doc.Height = targetImageHeight;
-                doc.Width = targetImageHeight;
-                doc.ViewBox = new SvgViewBox(0, 0, targetImageHeight, targetImageHeight);
-                doc.AspectRatio.Align = SvgPreserveAspectRatio.xMidYMid;
-            }
-
             XmlDocument xmldoc = new XmlDocument();
-            xmldoc.LoadXml(doc.GetXML());
-            XmlDocumentType docType = xmldoc.DocumentType!;
-            xmldoc.RemoveChild(docType);
+            xmldoc.Load(inputPath);
+            XmlElement svg = xmldoc.DocumentElement;
+
+            if (svg == null)
+            {
+                throw new Exception("unable to load svg element from file");
+            }
+
+            // Set ViewBox
+            /*
+            if (svg.Attributes["viewBox"] == null)
+                svg.Attributes.Append(xmldoc.CreateAttribute("viewBox"));
+
+            // svg.Attributes["viewBox"]!.Value = $"0, 0, {targetImageHeight.ToString()}, {targetImageHeight.ToString()}";
+            svg.Attributes["viewBox"]!.Value = $"0, 0, 70, 70";
+            */
+
+            // Set document dimensions
+            if (svg.Attributes["width"] == null)
+                svg.Attributes.Append(xmldoc.CreateAttribute("width"));
+
+            // svg.Attributes["width"]!.Value = targetImageHeight.ToString();
+            svg.Attributes["width"]!.Value = "100%";
+
+            if (svg.Attributes["height"] == null)
+                svg.Attributes.Append(xmldoc.CreateAttribute("height"));
+
+            svg.Attributes["height"]!.Value = targetImageHeight.ToString();
+            
+            // Set aspect ratio
+            if (svg.Attributes["preserveAspectRatio"] == null)
+                svg.Attributes.Append(xmldoc.CreateAttribute("preserveAspectRatio"));
+            
+            svg.Attributes["preserveAspectRatio"]!.Value = "xMidYMid meet";
 
             XmlWriter writer = XmlWriter.Create(outputPath);
             xmldoc.Save(writer);
@@ -142,13 +154,14 @@ public class SvgManager : IImageManager
         var content = File.ReadAllText(inputPath);
 
         // get all hexidecimal colors in the SVG
-        var hexColors = Regex.Matches(content, "#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})");
+        var hexColors = Regex.Matches(content, "(#[a-fA-F0-9]{6})(\")|(#[a-fA-F0-9]{3})(\")");
 
         foreach(var hexColor in hexColors)
         {
-            var currentColor = System.Drawing.ColorTranslator.FromHtml(hexColor.ToString()!);
+            var hexColorString = hexColor.ToString().Trim('"');
+            var currentColor = System.Drawing.ColorTranslator.FromHtml(hexColorString);
             var newColor = manipulation(currentColor);
-            content = content.Replace(hexColor.ToString()!, newColor.ToHexString());
+            content = content.Replace(hexColorString, newColor.ToHexString());
         }
 
         // Handle RGB colors

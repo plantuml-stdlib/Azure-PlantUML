@@ -16,7 +16,6 @@
     <PackageReference Include="YamlDotNet" Version="11.2.1" />
     <PackageReference Include="Microsoft.Playwright" Version="1.21.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="Svg" Version="3.4.2" />
   </ItemGroup>
 
 </Project>
