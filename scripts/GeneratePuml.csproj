@@ -14,9 +14,8 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
     <PackageReference Include="YamlDotNet" Version="11.2.1" />
-    <PackageReference Include="Microsoft.Playwright" Version="1.17.3" />
+    <PackageReference Include="Microsoft.Playwright" Version="1.21.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="Svg" Version="3.4.0" />
   </ItemGroup>
 
 </Project>
