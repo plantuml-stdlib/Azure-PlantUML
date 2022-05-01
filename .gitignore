@@ -446,3 +446,4 @@ source/official/*
 !source/official/README.md
 dist/table.md
 temp/*
+plantuml.jar

@@ -192,7 +192,10 @@ public class GeneratePlantuml : IHostedService
         if (OperatingSystem.IsMacOS())
         {
             processInfo.FileName = "/bin/zsh";
-            processInfo.Arguments = $"{plantUmlPath} -encodesprite {format} {pngPath}";
+            // processInfo.FileName = "java";
+            string commandArgs = $"-c \"java -Djava.awt.headless=true -jar {plantUmlPath} -encodesprite {format} '{pngPath}'\"";
+            processInfo.Arguments = commandArgs;
+            // processInfo.Arguments = $"-Djava.awt.headless=true -jar {plantUmlPath} -encodesprite {format} {pngPath}";
         }
         if (OperatingSystem.IsWindows())
         {
