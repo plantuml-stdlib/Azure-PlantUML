@@ -10,8 +10,6 @@ Categories:
 
 - Name: AIMachineLearning
   Services:
-  - Source: Azure Batch AI
-    Target: AzureBatchAI
   - Source: Bot Services
     Target: AzureBotService
   - Source: Cognitive Services
