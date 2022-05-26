@@ -154,11 +154,12 @@ public class SvgManager : IImageManager
         var content = File.ReadAllText(inputPath);
 
         // get all hexidecimal colors in the SVG
-        var hexColors = Regex.Matches(content, "(#[a-fA-F0-9]{6})(\")|(#[a-fA-F0-9]{3})(\")");
+        var hexColors = Regex.Matches(content, "(#[a-fA-F0-9]{6})(\")|(#[a-fA-F0-9]{3})(\")|(#[a-fA-F0-9]{6})(;)");
 
         foreach(var hexColor in hexColors)
         {
             var hexColorString = hexColor.ToString().Trim('"');
+            hexColorString = hexColorString.Replace(";", "");
             var currentColor = System.Drawing.ColorTranslator.FromHtml(hexColorString);
             var newColor = manipulation(currentColor);
             content = content.Replace(hexColorString, newColor.ToHexString());
