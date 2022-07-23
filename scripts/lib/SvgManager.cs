@@ -1,11 +1,9 @@
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Configuration;
 using System.Text.RegularExpressions;
 using System.Xml;
 using Microsoft.Playwright;
 using System.Globalization;
 using System.Drawing;
-using System.Diagnostics;
 
 public class SvgManager : IImageManager
 {
@@ -91,14 +89,13 @@ public class SvgManager : IImageManager
                 throw new Exception("unable to load svg element from file");
             }
 
-            // Set ViewBox
-            /*
-            if (svg.Attributes["viewBox"] == null)
-                svg.Attributes.Append(xmldoc.CreateAttribute("viewBox"));
+            // Check for a valid svg attribute in the document namespace.
+            var docNamespace = svg.Attributes["xmlns"];
 
-            // svg.Attributes["viewBox"]!.Value = $"0, 0, {targetImageHeight.ToString()}, {targetImageHeight.ToString()}";
-            svg.Attributes["viewBox"]!.Value = $"0, 0, 70, 70";
-            */
+            if (docNamespace == null || docNamespace!.Value != "http://www.w3.org/2000/svg")
+            {
+                throw new Exception($"Invalid svg namespace attribute in {inputPath}. Confirm file has xmlns='http://www.w3.org/2000/svg' in the svg element.");
+            }
 
             // Set document dimensions
             if (svg.Attributes["width"] == null)
@@ -125,8 +122,7 @@ public class SvgManager : IImageManager
         }
         catch (Exception ex)
         {
-            Console.WriteLine("error in ResizeAndCopySvg"  + ex.Message);
-            return await Task.FromResult(false);
+            throw ex;
         }
     }
 

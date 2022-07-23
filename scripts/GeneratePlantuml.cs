@@ -97,36 +97,46 @@ public class GeneratePlantuml : IHostedService
         var categoryDirectoryPath = Path.Combine(targetFolder, service.Category!);
         Directory.CreateDirectory(categoryDirectoryPath);
 
-        if (coloredExists)
+        try
         {
-            await svgManager.ResizeAndCopy(coloredSourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), targetImageHeight);
-            await svgManager.ExportToPng(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".png"), targetImageHeight);
+            if (coloredExists)
+                {
+        
+                    await svgManager.ResizeAndCopy(coloredSourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), targetImageHeight);
+                    await svgManager.ExportToPng(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".png"), targetImageHeight);    
+                }
+                else
+                {
+                    logger.LogWarning($"Missing SVG file for: {service.ServiceSource}. Please add the file or remove the entry from Config.yaml ");
+                }
+
+                var monochromSvgFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).svg");
+
+                // This should never be called if we assume only colored SVGs are provided on input.
+                if (monochromExists)
+                { 
+                    await svgManager.ResizeAndCopy(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), monochromSvgFilePath, targetImageHeight);    
+                }
+                else
+                {
+                    await svgManager.ResizeAndCopy(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), monochromSvgFilePath, targetImageHeight);
+                    await svgManager.ExportToMonochrome(monochromSvgFilePath, monochromSvgFilePath, azureColor);
+                }
+
+                var monochromPngFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).png");
+                // First generation with background needed for PUML sprite generation
+                await  svgManager.ExportToPng(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, omitBackground: false);
+                ConvertToPuml(monochromPngFilePath, service.ServiceTarget + ".puml");
+
+                // Second generation without background needed other usages
+                await svgManager.ExportToPng(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, omitBackground: true);
         }
-        else
+        catch (Exception ex)
         {
-            logger.LogWarning($"Missing SVG file for: {service.ServiceSource}. Please add the file or remove the entry from Config.yaml ");
+            logger.LogError(ex.Message);
+            return;
         }
-
-        var monochromSvgFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).svg");
-
-        // This should never be called if we assume only colored SVGs are provided on input.
-        if (monochromExists)
-        { 
-            await svgManager.ResizeAndCopy(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), monochromSvgFilePath, targetImageHeight);    
-        }
-        else
-        {
-            await svgManager.ResizeAndCopy(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), monochromSvgFilePath, targetImageHeight);
-            await svgManager.ExportToMonochrome(monochromSvgFilePath, monochromSvgFilePath, azureColor);
-        }
-
-        var monochromPngFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).png");
-        // First generation with background needed for PUML sprite generation
-        await  svgManager.ExportToPng(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, omitBackground: false);
-        ConvertToPuml(monochromPngFilePath, service.ServiceTarget + ".puml");
-
-        // Second generation without background needed other usages
-        await svgManager.ExportToPng(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, omitBackground: true);  
+        
     }
 
     void CombineMultipleFilesIntoSingleFile(string inputDirectoryPath, string inputFileNamePattern, string outputFilePath)
@@ -227,6 +237,4 @@ public class GeneratePlantuml : IHostedService
         return pumlPath;
     }
 
-
 }
-
