@@ -172,10 +172,11 @@ public class GeneratePlantuml : IHostedService
                 // Original files have hyphen not space so assume that based on pattern
                 x = x.Replace(" ", "-");
             }
-            var files = Directory.GetFiles(originalSourceFolder, x, SearchOption.AllDirectories);
+            var files = Directory.GetFiles(originalSourceFolder, x, new EnumerationOptions { MatchCasing = MatchCasing.CaseInsensitive, RecurseSubdirectories = true });
+            
             if (files.Length == 0)
             {
-                files = Directory.GetFiles(manualSourceFolder, x, SearchOption.AllDirectories);
+                files = Directory.GetFiles(manualSourceFolder, x, new EnumerationOptions { MatchCasing = MatchCasing.CaseInsensitive, RecurseSubdirectories = true });
             }
 
             if (files.Length >= 1)
