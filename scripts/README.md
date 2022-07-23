@@ -19,19 +19,10 @@ dotnet tool install -g Microsoft.Playwright.CLI
 
 ### Additional Setup for Linux (Ubuntu 20.04)
 
-If your are building from Linux, install the following additional prerequisites:
-
-```bash
-# gdi+ libraries - required for the svg-net library
-# see: http://svg-net.github.io/SVG/doc/Q&A.html#using-libgdiplus-on-ubuntu-linux
-sudo add-apt-repository ppa:quamotion/ppa
-sudo apt-get update
-sudo apt-get install -y libgdiplus
-```
-
 For Linux systems, Playwright requires the installation of additinal dependencies. Navigate to the `scripts` folder and run:
 
 ```bash
+dotnet build
 playwright install-deps
 ```
 
