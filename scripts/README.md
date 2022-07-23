@@ -56,8 +56,6 @@ Create a new file named `appsettings.json` within the `scripts` directory and sa
 }
 ```
 
-For convenience, sample settings are provided in [appsettings.example](appsettings.example). Ensure the values match your OS type and any file path difference.
-
 ### Configuration File: Config.yaml
 
 This configuration file is used to map specific SVG file names to Azure services.
