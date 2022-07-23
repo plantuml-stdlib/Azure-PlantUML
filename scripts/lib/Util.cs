@@ -10,6 +10,4 @@ public static class Util
     {
         return str.Remove(index, Math.Min(length, str.Length - index)).Insert(index, replace);
     }
-
-
 }
