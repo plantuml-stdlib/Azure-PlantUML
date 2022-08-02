@@ -1,4 +1,3 @@
-#r "System.Drawing"
 
 // From Rich Newman
 // https://richnewman.wordpress.com/about/code-listings-and-diagrams/hslcolor-class/
@@ -6,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
+
 
 public class HSLColor
 {
