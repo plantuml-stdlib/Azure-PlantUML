@@ -1,7 +1,7 @@
 Categories:
 - Name: General
   Services:
-  - Source: Azure logo icon 50
+  - Source: Microsoft Azure
     Target: Azure
   - Source: Workbooks
     Target: AzureWorkbook
@@ -10,8 +10,6 @@ Categories:
 
 - Name: AIMachineLearning
   Services:
-  - Source: Azure Batch AI
-    Target: AzureBatchAI
   - Source: Bot Services
     Target: AzureBotService
   - Source: Cognitive Services
@@ -57,6 +55,14 @@ Categories:
     Target: AzureHDInsightCluster
   - Source: Data Lake Store Gen1
     Target: AzureDataLakeStoreGen1
+  - Source: Azure Purview Account
+    Target: AzurePurviewAccount
+  - Source: Power BI
+    Target: PowerBI
+    Fit: true
+  - Source: Power BI Embedded
+    Target: AzurePowerBIEmbedded
+    Fit:    true
 
 - Name: Blockchain
   Services:
@@ -127,6 +133,14 @@ Categories:
     Target: AzureWebSlot
   - Source: Web Test
     Target: AzureWebTest
+  - Source: Azure Virtual Desktop
+    Target: AzureVirtualDesktop
+  - Source: Azure Virtual Desktop Application Group
+    Target: AzureVirtualDesktopApplicationGroup
+  - Source: Azure Virtual Desktop Host Pool
+    Target: AzureVirtualDesktopHostPool
+  - Source: Azure Virtual Desktop Workspace
+    Target: AzureVirtualDesktopWorkspace
 
 - Name: Containers
   Services:
@@ -136,6 +150,8 @@ Categories:
     Target: AzureContainerInstance
   - Source: Kubernetes Services
     Target: AzureKubernetesService
+  - Source: azure-container-app
+    Target: AzureContainerApp
   - Source: App Service Environments
     Target: AzureServiceEnvironment
 
@@ -161,9 +177,6 @@ Categories:
     Target: AzureDatabaseForMariaDB
   - Source: Azure Databricks
     Target: AzureDataBricks
-  - Source: Power BI Embedded
-    Target: AzurePowerBIEmbedded
-    Fit:    true
   - Source: Azure SQL
     Target: AzureSql
   - Source: Azure SQL VM
@@ -213,6 +226,17 @@ Categories:
     Target: AzureLabServices
   - Source: Azure DevOps organizations
     Target: AzureDevOpsOrganisation
+
+- Name: Health
+  Services:
+  - Source: Health Data Services
+    Target: HealthDataServices
+  - Source: FHIR Service
+    Target: FHIRService
+  - Source: DICOM Service
+    Target: DICOMService
+  - Source: MedTech Service
+    Target: MedTechService
 
 - Name: Identity
   Services:
@@ -310,6 +334,8 @@ Categories:
 
 - Name: Management
   Services:
+  - Source: Azure App Configuration
+    Target: AppConfiguration
   - Source: Azure Backup Center
     Target: AzureBackup
   - Source: Azure Site Recovery

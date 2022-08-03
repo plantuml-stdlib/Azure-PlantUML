@@ -367,6 +367,38 @@
       "$0"
     ]
   },
+  "AzurePowerBIEmbedded": {
+    "prefix": "Azure Power B I Embedded",
+    "description": "Add Azure Power B I Embedded to diagram",
+    "body": [
+      "AzurePowerBIEmbedded(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzurePowerBIEmbedded_Descr": {
+    "prefix": "Azure Power B I Embedded with Description",
+    "description": "Add Azure Power B I Embedded with Description to diagram",
+    "body": [
+      "AzurePowerBIEmbedded(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzurePurviewAccount": {
+    "prefix": "Azure Purview Account",
+    "description": "Add Azure Purview Account to diagram",
+    "body": [
+      "AzurePurviewAccount(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzurePurviewAccount_Descr": {
+    "prefix": "Azure Purview Account with Description",
+    "description": "Add Azure Purview Account with Description to diagram",
+    "body": [
+      "AzurePurviewAccount(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureStreamAnalyticsJob": {
     "prefix": "Azure Stream Analytics Job",
     "description": "Add Azure Stream Analytics Job to diagram",
@@ -396,6 +428,22 @@
     "description": "Add Azure Synapse Analytics with Description to diagram",
     "body": [
       "AzureSynapseAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "PowerBI": {
+    "prefix": "Power B I",
+    "description": "Add Power B I to diagram",
+    "body": [
+      "PowerBI(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "PowerBI_Descr": {
+    "prefix": "Power B I with Description",
+    "description": "Add Power B I with Description to diagram",
+    "body": [
+      "PowerBI(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -815,6 +863,70 @@
       "$0"
     ]
   },
+  "AzureVirtualDesktop": {
+    "prefix": "Azure Virtual Desktop",
+    "description": "Add Azure Virtual Desktop to diagram",
+    "body": [
+      "AzureVirtualDesktop(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktop_Descr": {
+    "prefix": "Azure Virtual Desktop with Description",
+    "description": "Add Azure Virtual Desktop with Description to diagram",
+    "body": [
+      "AzureVirtualDesktop(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopApplicationGroup": {
+    "prefix": "Azure Virtual Desktop Application Group",
+    "description": "Add Azure Virtual Desktop Application Group to diagram",
+    "body": [
+      "AzureVirtualDesktopApplicationGroup(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopApplicationGroup_Descr": {
+    "prefix": "Azure Virtual Desktop Application Group with Description",
+    "description": "Add Azure Virtual Desktop Application Group with Description to diagram",
+    "body": [
+      "AzureVirtualDesktopApplicationGroup(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopHostPool": {
+    "prefix": "Azure Virtual Desktop Host Pool",
+    "description": "Add Azure Virtual Desktop Host Pool to diagram",
+    "body": [
+      "AzureVirtualDesktopHostPool(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopHostPool_Descr": {
+    "prefix": "Azure Virtual Desktop Host Pool with Description",
+    "description": "Add Azure Virtual Desktop Host Pool with Description to diagram",
+    "body": [
+      "AzureVirtualDesktopHostPool(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopWorkspace": {
+    "prefix": "Azure Virtual Desktop Workspace",
+    "description": "Add Azure Virtual Desktop Workspace to diagram",
+    "body": [
+      "AzureVirtualDesktopWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopWorkspace_Descr": {
+    "prefix": "Azure Virtual Desktop Workspace with Description",
+    "description": "Add Azure Virtual Desktop Workspace with Description to diagram",
+    "body": [
+      "AzureVirtualDesktopWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureVirtualMachine": {
     "prefix": "Azure Virtual Machine",
     "description": "Add Azure Virtual Machine to diagram",
@@ -908,6 +1020,22 @@
     "description": "Add Azure Workspace with Description to diagram",
     "body": [
       "AzureWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureContainerApp": {
+    "prefix": "Azure Container App",
+    "description": "Add Azure Container App to diagram",
+    "body": [
+      "AzureContainerApp(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureContainerApp_Descr": {
+    "prefix": "Azure Container App with Description",
+    "description": "Add Azure Container App with Description to diagram",
+    "body": [
+      "AzureContainerApp(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -1132,22 +1260,6 @@
     "description": "Add Azure Managed Database with Description to diagram",
     "body": [
       "AzureManagedDatabase(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "AzurePowerBIEmbedded": {
-    "prefix": "Azure Power B I Embedded",
-    "description": "Add Azure Power B I Embedded to diagram",
-    "body": [
-      "AzurePowerBIEmbedded(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzurePowerBIEmbedded_Descr": {
-    "prefix": "Azure Power B I Embedded with Description",
-    "description": "Add Azure Power B I Embedded with Description to diagram",
-    "body": [
-      "AzurePowerBIEmbedded(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -1532,6 +1644,70 @@
     "description": "Add Azure Workflow with Description to diagram",
     "body": [
       "AzureWorkflow(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "DICOMService": {
+    "prefix": "D I C O M Service",
+    "description": "Add D I C O M Service to diagram",
+    "body": [
+      "DICOMService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "DICOMService_Descr": {
+    "prefix": "D I C O M Service with Description",
+    "description": "Add D I C O M Service with Description to diagram",
+    "body": [
+      "DICOMService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "FHIRService": {
+    "prefix": "F H I R Service",
+    "description": "Add F H I R Service to diagram",
+    "body": [
+      "FHIRService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "FHIRService_Descr": {
+    "prefix": "F H I R Service with Description",
+    "description": "Add F H I R Service with Description to diagram",
+    "body": [
+      "FHIRService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "HealthDataServices": {
+    "prefix": "Health Data Services",
+    "description": "Add Health Data Services to diagram",
+    "body": [
+      "HealthDataServices(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "HealthDataServices_Descr": {
+    "prefix": "Health Data Services with Description",
+    "description": "Add Health Data Services with Description to diagram",
+    "body": [
+      "HealthDataServices(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "MedTechService": {
+    "prefix": "Med Tech Service",
+    "description": "Add Med Tech Service to diagram",
+    "body": [
+      "MedTechService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "MedTechService_Descr": {
+    "prefix": "Med Tech Service with Description",
+    "description": "Add Med Tech Service with Description to diagram",
+    "body": [
+      "MedTechService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -2172,6 +2348,22 @@
     "description": "Add Azure Intune Windows with Description to diagram",
     "body": [
       "AzureIntuneWindows(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AppConfiguration": {
+    "prefix": "App Configuration",
+    "description": "Add App Configuration to diagram",
+    "body": [
+      "AppConfiguration(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AppConfiguration_Descr": {
+    "prefix": "App Configuration with Description",
+    "description": "Add App Configuration with Description to diagram",
+    "body": [
+      "AppConfiguration(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
