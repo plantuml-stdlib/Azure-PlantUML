@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70pt" height="70pt" viewBox="0 0 70 70" version="1.1">
-<defs>
-<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="9" y1="12.85" x2="9" y2="0.09" gradientTransform="matrix(3.888889,0,0,3.888889,0,0)">
-<stop offset="0" style="stop-color:rgb(0,124,216);stop-opacity:1;"/>
-<stop offset="0.44" style="stop-color:rgb(33,160,255);stop-opacity:1;"/>
-<stop offset="0.78" style="stop-color:rgb(79,180,255);stop-opacity:1;"/>
-</linearGradient>
-</defs>
-<g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 70 34.417969 C 69.675781 26.78125 63.925781 20.472656 56.351563 19.445313 C 55.949219 8.550781 46.828125 0.0234375 35.933594 0.351563 C 27.292969 0.191406 19.496094 5.507813 16.488281 13.609375 C 7.289063 14.722656 0.277344 22.390625 0 31.65625 C 0.402344 42.152344 9.21875 50.34375 19.714844 49.972656 L 53.355469 49.972656 C 53.640625 50.011719 53.925781 50.011719 54.210938 49.972656 C 62.816406 49.910156 69.8125 43.019531 70 34.417969 Z M 70 34.417969 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(103,190,255);fill-opacity:1;" d="M 33.367188 32.898438 L 36.398438 32.898438 L 36.398438 56.972656 L 33.367188 56.972656 Z M 33.367188 32.898438 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(229,243,255);fill-opacity:1;" d="M 42.972656 25.628906 C 42.972656 30.09375 39.351563 33.714844 34.882813 33.714844 C 30.414063 33.714844 26.792969 30.09375 26.792969 25.628906 C 26.792969 21.160156 30.414063 17.539063 34.882813 17.539063 C 39.351563 17.539063 42.972656 21.160156 42.972656 25.628906 Z M 42.972656 25.628906 "/>
-</g>
-</svg>
+<?xml version="1.0" encoding="utf-8"?><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="70" height="70" viewBox="0, 0, 18, 18" id="e6e9dc42-aa45-4c25-a153-3c4dea6d1408"><defs><linearGradient x1="9" y1="12.85" x2="9" y2="0.09" gradientUnits="userSpaceOnUse" id="bee47a41-9626-4448-9119-87ad28e72505"><stop offset="0%" stop-color="#007CD8" /><stop offset="44%" stop-color="#21A0FF" /><stop offset="78%" stop-color="#4FB4FF" /></linearGradient><linearGradient x1="8.97" y1="17.91" x2="8.97" y2="14.13" xlink:href="#bee47a41-9626-4448-9119-87ad28e72505" id="beb70c0a-9df6-4825-adec-20340c00add6" /></defs><path d="M18 8.85 A4.06 4.06 0 0 0 14.49 5 A5.1 5.1 0 0 0 9.24 0.09 a5.23 5.23 0 0 0 -5 3.41 A4.82 4.82 0 0 0 0 8.14 a4.9 4.9 0 0 0 5.07 4.71 l0.44 0 h8.21 a0.78 0.78 0 0 0 0.22 0 A4.09 4.09 0 0 0 18 8.85 Z" style="fill:url(#bee47a41-9626-4448-9119-87ad28e72505);" /><rect x="8.58" y="8.46" width="0.78" height="6.19" style="fill:#67BEFF;" /><circle cx="8.97" cy="6.59" r="2.08" style="fill:#E5F3FF;" /><rect x="7.08" y="14.13" width="3.78" height="3.78" rx="0.73" style="fill:url(#beb70c0a-9df6-4825-adec-20340c00add6);" /></svg>

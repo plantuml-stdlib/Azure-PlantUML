@@ -335,22 +335,6 @@
       "$0"
     ]
   },
-  "AzureHDInsight": {
-    "prefix": "Azure H D Insight",
-    "description": "Add Azure H D Insight to diagram",
-    "body": [
-      "AzureHDInsight(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureHDInsight_Descr": {
-    "prefix": "Azure H D Insight with Description",
-    "description": "Add Azure H D Insight with Description to diagram",
-    "body": [
-      "AzureHDInsight(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "AzureHDInsightCluster": {
     "prefix": "Azure H D Insight Cluster",
     "description": "Add Azure H D Insight Cluster to diagram",
@@ -380,22 +364,6 @@
     "description": "Add Azure Log Analytics Workspace with Description to diagram",
     "body": [
       "AzureLogAnalyticsWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "AzureStreamAnalytics": {
-    "prefix": "Azure Stream Analytics",
-    "description": "Add Azure Stream Analytics to diagram",
-    "body": [
-      "AzureStreamAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureStreamAnalytics_Descr": {
-    "prefix": "Azure Stream Analytics with Description",
-    "description": "Add Azure Stream Analytics with Description to diagram",
-    "body": [
-      "AzureStreamAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -1004,38 +972,6 @@
     "description": "Add Azure Service Environment with Description to diagram",
     "body": [
       "AzureServiceEnvironment(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "AzureServiceFabricMesh": {
-    "prefix": "Azure Service Fabric Mesh",
-    "description": "Add Azure Service Fabric Mesh to diagram",
-    "body": [
-      "AzureServiceFabricMesh(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureServiceFabricMesh_Descr": {
-    "prefix": "Azure Service Fabric Mesh with Description",
-    "description": "Add Azure Service Fabric Mesh with Description to diagram",
-    "body": [
-      "AzureServiceFabricMesh(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "AzureWebAppForContainers": {
-    "prefix": "Azure Web App For Containers",
-    "description": "Add Azure Web App For Containers to diagram",
-    "body": [
-      "AzureWebAppForContainers(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureWebAppForContainers_Descr": {
-    "prefix": "Azure Web App For Containers with Description",
-    "description": "Add Azure Web App For Containers with Description to diagram",
-    "body": [
-      "AzureWebAppForContainers(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
