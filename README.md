@@ -61,7 +61,7 @@ To be independent of any internet connectivity, you can also download `AzureComm
 If you want to use the always up-to-date version in this repo, use the following:
 
 ```c#
-!includeurl https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist/AzureCommon.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist/AzureCommon.puml
 ```
 
 The next step is to include specific `.puml` files from Azure-PlantUML.  
@@ -78,7 +78,7 @@ It is also possible to include Azure services category `.puml` files, which cont
 Or the always up-to-date version in this repo:
 
 ```c#
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Databases/all.puml
 !includeurl AzurePuml/Compute/AzureFunction.puml
@@ -92,7 +92,7 @@ All Azure services names, categories, colored and monochrom symbols, and their `
 
 ```csharp
 @startuml Hello World
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Databases/all.puml
 !includeurl AzurePuml/Compute/AzureFunction.puml
@@ -124,7 +124,7 @@ Just import the necessary `.puml` files and you can use the macros in all your P
 ```csharp
 @startuml Basic usage - Stream processing with Azure Stream Analytics
 
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Analytics/AzureEventHub.puml
 !includeurl AzurePuml/Analytics/AzureStreamAnalytics.puml
@@ -158,7 +158,7 @@ If you just want to use the PlantUML sprites inside your existing diagrams, this
 @startuml Raw usage - Sprites
 !pragma revision 1
 
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureRaw.puml
 !includeurl AzurePuml/Databases/AzureCosmosDb.puml
 !includeurl AzurePuml/Compute/AzureFunction.puml
@@ -193,7 +193,7 @@ To enable the simplified mode `AzureSimplified.puml` needs to be included or can
 @startuml Two Mode Sample
 !pragma revision 1
 
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 
 ' !includeurl AzurePuml/AzureSimplified.puml
@@ -253,7 +253,7 @@ For using **Azure-PlantUML** and [C4-PlantUML](https://github.com/plantuml-stdli
 
 !includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 
 !includeurl AzurePuml/AzureC4Integration.puml
@@ -318,4 +318,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [AWS-PlantUML](https://github.com/milo-minderbinder/AWS-PlantUML) - for the base structure
 * [plantuml-office](https://github.com/Roemer/plantuml-office) - for the scripts idea
 * [C4 Model](https://c4model.com/) - for the hope that it's possible to improve architecture documentations
-
