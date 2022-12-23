@@ -1,7 +1,5 @@
 # Azure-PlantUML
 
-![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fplantuml-stdlib%2FAzure-PlantUML%2Fmaster%2Fsamples%2FBasic%2520usage%2520-%2520Stream%2520processing%2520with%2520Azure%2520Stream%2520Analytics.puml)
-
 [PlantUML](http://en.plantuml.com/) sprites, macros and stereotypes for creating PlantUML diagrams with [Azure](https://azure.microsoft.com/en-us/) components.
 
 Azure-PlantUML includes symbols and useful macros for all Azure services.  
@@ -127,7 +125,7 @@ Just import the necessary `.puml` files and you can use the macros in all your P
 !define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Analytics/AzureEventHub.puml
-!includeurl AzurePuml/Analytics/AzureStreamAnalytics.puml
+!includeurl AzurePuml/Analytics/AzureStreamAnalyticsJob.puml
 !includeurl AzurePuml/Databases/AzureCosmosDb.puml
 
 left to right direction
@@ -136,7 +134,7 @@ agent "Device Simulator" as devices #fff
 
 AzureEventHub(fareDataEventHub, "Fare Data", "PK: Medallion HackLicense VendorId; 3 TUs")
 AzureEventHub(tripDataEventHub, "Trip Data", "PK: Medallion HackLicense VendorId; 3 TUs")
-AzureStreamAnalytics(streamAnalytics, "Stream Processing", "6 SUs")
+AzureStreamAnalyticsJob(streamAnalytics, "Stream Processing", "6 SUs")
 AzureCosmosDb(outputCosmosDb, "Output Database", "1,000 RUs")
 
 devices --> fareDataEventHub
@@ -191,7 +189,6 @@ To enable the simplified mode `AzureSimplified.puml` needs to be included or can
 
 ```csharp
 @startuml Two Mode Sample
-!pragma revision 1
 
 !define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
@@ -298,13 +295,14 @@ All details can be found in the [Generating the Azure-PlantUML distro documentat
 
 ## Built With
 
-* [dotnet script](https://github.com/filipw/dotnet-script) - C# script runtime
+* [.NET 6.0 / C#](https://dotnet.microsoft.com/en-us/download) - The latest LTS version of .NET
 * [YamlDotNet](https://github.com/aaubry/YamlDotNet) - .NET library for YAML config parsing
 * [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) - .NET library for JSON
+* [Playwright](https://github.com/microsoft/playwright) - .NET library for the Playwright web testing and automation framework
 
 ## Contributing
 
-If you have any ideas, just [open an issue](https://github.com/plantuml-stdlib/Azure-PlantUML/issues/new) and tell me what you think.
+If you have any ideas, just [open an issue](https://github.com/plantuml-stdlib/Azure-PlantUML/issues/new) and tell us what you think.
 
 If you'd like to contribute, please fork the repository and use a feature branch.  
 Pull requests are warmly welcome.

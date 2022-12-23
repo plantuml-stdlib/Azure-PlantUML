@@ -28,7 +28,7 @@ playwright install-deps
 
 ## Configure
 
-### Icon files
+### Add Icon files
 
 Download the [Microsoft Azure architecture icons](https://docs.microsoft.com/en-us/azure/architecture/icons/) and copy all folders from `Azure_Public_Service_Icons_V4\Azure_Public_Service_Icons\Icons` to [source/official](../source/official)
 
@@ -36,7 +36,9 @@ Place any icons that are not part of the Microsoft Azure Architecture bundle int
 
 ### Application Settings
 
-Create a new file named `appsettings.json` within the `scripts` directory and save the following contents:
+Create a new file named `appsettings.json` within the `scripts` directory and add the following content based on your environment:
+
+**Windows**
 
 ```json
 {
@@ -47,12 +49,42 @@ Create a new file named `appsettings.json` within the `scripts` directory and sa
 }
 ```
 
-### Configuration File: Config.yaml
+**Ubuntu**
 
-This configuration file is used to map specific SVG file names to Azure services.
-On top each Azure service is mapped to his primary category.
+```json
+{
+    "sourceFolderPath": "../source",
+    "targetFolderPath": "../dist",
+    "monochromeColorHex": "#0072C6",
+    "plantUmlPath": "/usr/share/plantuml/plantuml.jar"
+}
+```
 
-## Run
+**MacOS**
+
+```json
+{
+    "sourceFolderPath": "../source",
+    "targetFolderPath": "../dist",
+    "monochromeColorHex": "#0072C6",
+    "plantUmlPath": "/opt/homebrew/Cellar/plantuml/1.2022.14/libexec/plantuml.jar"
+}
+```
+
+> The path to PlantUML may vary based on the version you are using and how you installed it. Be sure to update the value for `plantUmlPath` accordingly to match your envioronment.
+
+### Update Config.yaml
+
+Update this file to add or remove icons in your distro. The `source` attribute represents the svg file name. Logic has been added to the PlantUML generation program to simplify the value used here. Dashes, spaces, and certain prefixes and suffixes are removed when searching for source files. For example, adding **App Service Plan Linux** will work for the following source files:
+
+* <b>00046-icon-service-</b>App-Service-Plan-Linux.svg
+* App-Service-Plan-Linux<b>_COLOR</b>.svg
+* App-Service-Plan-Linux.svg
+
+
+The `target` attribute will be used for the PlantUML element stereotype and all target file names. Keep in mind that services are grouped into categories as reflected in the YAML structure.
+
+## Generate PlantUML Elements
 
 Use `dotnet run` from the `scripts` folder to execute the application.
 
@@ -77,3 +109,7 @@ From a logical point of view, the following happens:
 1. In addition to single Azure services PUML files, also a combined PUML file per category is generated
 1. A markdown table with all Azure services, their colored and monochrome symbols and the PUML files is generated
 1. VSCode snippets for all Azure services for their PlantUML usage are generated
+
+## Update the Azure Symbols page
+
+When the program completes, replace the markdown table in [AzureSymbols.md](https://github.com/plantuml-stdlib/Azure-PlantUML/blob/release/2-2/AzureSymbols.md?plain=1#L34) with the contents from `table.md` located in your target folder.
