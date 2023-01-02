@@ -1,10 +1,9 @@
 @startuml Basic usage - Stream processing with Azure Stream Analytics
-!pragma revision 2
 
 !define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Analytics/AzureEventHub.puml
-!includeurl AzurePuml/Analytics/AzureStreamAnalytics.puml
+!includeurl AzurePuml/Analytics/AzureStreamAnalyticsJob.puml
 !includeurl AzurePuml/Databases/AzureCosmosDb.puml
 
 left to right direction
@@ -13,7 +12,7 @@ agent "Device Simulator" as devices #fff
 
 AzureEventHub(fareDataEventHub, "Fare Data", "PK: Medallion HackLicense VendorId; 3 TUs")
 AzureEventHub(tripDataEventHub, "Trip Data", "PK: Medallion HackLicense VendorId; 3 TUs")
-AzureStreamAnalytics(streamAnalytics, "Stream Processing", "6 SUs")
+AzureStreamAnalyticsJob(streamAnalytics, "Stream Processing", "6 SUs")
 AzureCosmosDb(outputCosmosDb, "Output Database", "1,000 RUs")
 
 devices --> fareDataEventHub

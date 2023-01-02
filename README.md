@@ -1,7 +1,5 @@
 # Azure-PlantUML
 
-![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Fplantuml-stdlib%2FAzure-PlantUML%2Fmaster%2Fsamples%2FBasic%2520usage%2520-%2520Stream%2520processing%2520with%2520Azure%2520Stream%2520Analytics.puml)
-
 [PlantUML](http://en.plantuml.com/) sprites, macros and stereotypes for creating PlantUML diagrams with [Azure](https://azure.microsoft.com/en-us/) components.
 
 Azure-PlantUML includes symbols and useful macros for all Azure services.  
@@ -61,7 +59,7 @@ To be independent of any internet connectivity, you can also download `AzureComm
 If you want to use the always up-to-date version in this repo, use the following:
 
 ```c#
-!includeurl https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist/AzureCommon.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist/AzureCommon.puml
 ```
 
 The next step is to include specific `.puml` files from Azure-PlantUML.  
@@ -78,7 +76,7 @@ It is also possible to include Azure services category `.puml` files, which cont
 Or the always up-to-date version in this repo:
 
 ```c#
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Databases/all.puml
 !includeurl AzurePuml/Compute/AzureFunction.puml
@@ -92,7 +90,7 @@ All Azure services names, categories, colored and monochrom symbols, and their `
 
 ```csharp
 @startuml Hello World
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Databases/all.puml
 !includeurl AzurePuml/Compute/AzureFunction.puml
@@ -124,10 +122,10 @@ Just import the necessary `.puml` files and you can use the macros in all your P
 ```csharp
 @startuml Basic usage - Stream processing with Azure Stream Analytics
 
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 !includeurl AzurePuml/Analytics/AzureEventHub.puml
-!includeurl AzurePuml/Analytics/AzureStreamAnalytics.puml
+!includeurl AzurePuml/Analytics/AzureStreamAnalyticsJob.puml
 !includeurl AzurePuml/Databases/AzureCosmosDb.puml
 
 left to right direction
@@ -136,7 +134,7 @@ agent "Device Simulator" as devices #fff
 
 AzureEventHub(fareDataEventHub, "Fare Data", "PK: Medallion HackLicense VendorId; 3 TUs")
 AzureEventHub(tripDataEventHub, "Trip Data", "PK: Medallion HackLicense VendorId; 3 TUs")
-AzureStreamAnalytics(streamAnalytics, "Stream Processing", "6 SUs")
+AzureStreamAnalyticsJob(streamAnalytics, "Stream Processing", "6 SUs")
 AzureCosmosDb(outputCosmosDb, "Output Database", "1,000 RUs")
 
 devices --> fareDataEventHub
@@ -158,7 +156,7 @@ If you just want to use the PlantUML sprites inside your existing diagrams, this
 @startuml Raw usage - Sprites
 !pragma revision 1
 
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureRaw.puml
 !includeurl AzurePuml/Databases/AzureCosmosDb.puml
 !includeurl AzurePuml/Compute/AzureFunction.puml
@@ -191,9 +189,8 @@ To enable the simplified mode `AzureSimplified.puml` needs to be included or can
 
 ```csharp
 @startuml Two Mode Sample
-!pragma revision 1
 
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 
 ' !includeurl AzurePuml/AzureSimplified.puml
@@ -202,7 +199,7 @@ To enable the simplified mode `AzureSimplified.puml` needs to be included or can
 !includeurl AzurePuml/Compute/AzureFunction.puml
 !includeurl AzurePuml/Databases/AzureCosmosDb.puml
 !includeurl AzurePuml/Storage/AzureDataLakeStorage.puml
-!includeurl AzurePuml/Analytics/AzureStreamAnalytics.puml
+!includeurl AzurePuml/Analytics/AzureStreamAnalyticsJob.puml
 !includeurl AzurePuml/InternetOfThings/AzureTimeSeriesInsights.puml
 !includeurl AzurePuml/Identity/AzureActiveDirectoryB2C.puml
 !includeurl AzurePuml/DevOps/AzureApplicationInsights.puml
@@ -212,7 +209,7 @@ LAYOUT_LEFT_RIGHT
 
 AzureEventHub(rawEventsHubAlias, "Raw Event Hub", "PK: Medallion HackLicense VendorId; 3 TUs")
 AzureDataLakeStorage(datalakeAlias, "Data Lake", "GRS")
-AzureStreamAnalytics(streamAnalyticsAlias, "Aggregate Events", "6 SUs")
+AzureStreamAnalyticsJob(streamAnalyticsAlias, "Aggregate Events", "6 SUs")
 AzureFunction(stateFunctionAlias, "State Processor", "C#, Consumption Plan")
 AzureEventHub(aggregatedEventsHubAlias, "Aggregated Hub", "6 TUs")
 AzureCosmosDb(stateDBAlias, "State Database", "SQL API, 1000 RUs")
@@ -253,7 +250,7 @@ For using **Azure-PlantUML** and [C4-PlantUML](https://github.com/plantuml-stdli
 
 !includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
 !includeurl AzurePuml/AzureCommon.puml
 
 !includeurl AzurePuml/AzureC4Integration.puml
@@ -298,13 +295,14 @@ All details can be found in the [Generating the Azure-PlantUML distro documentat
 
 ## Built With
 
-* [dotnet script](https://github.com/filipw/dotnet-script) - C# script runtime
+* [.NET 6.0 / C#](https://dotnet.microsoft.com/en-us/download) - The latest LTS version of .NET
 * [YamlDotNet](https://github.com/aaubry/YamlDotNet) - .NET library for YAML config parsing
 * [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) - .NET library for JSON
+* [Playwright](https://github.com/microsoft/playwright) - .NET library for the Playwright web testing and automation framework
 
 ## Contributing
 
-If you have any ideas, just [open an issue](https://github.com/plantuml-stdlib/Azure-PlantUML/issues/new) and tell me what you think.
+If you have any ideas, just [open an issue](https://github.com/plantuml-stdlib/Azure-PlantUML/issues/new) and tell us what you think.
 
 If you'd like to contribute, please fork the repository and use a feature branch.  
 Pull requests are warmly welcome.
@@ -318,4 +316,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [AWS-PlantUML](https://github.com/milo-minderbinder/AWS-PlantUML) - for the base structure
 * [plantuml-office](https://github.com/Roemer/plantuml-office) - for the scripts idea
 * [C4 Model](https://c4model.com/) - for the hope that it's possible to improve architecture documentations
-
