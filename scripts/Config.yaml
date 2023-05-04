@@ -606,3 +606,14 @@ Categories:
     Fit:    true
   - Source: Properties
     Target: AzureProperties
+
+- Name: Groups
+  Services:
+  - Source: Microsoft-Azure
+    Target: AzureCloud
+  - Source: Subscriptions
+    Target: Subscription
+  - Source: Virtual Networks
+    Target: VNet
+  - Source: VNet-Subnets_COLOR
+    Target: Subnet
