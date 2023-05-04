@@ -73,7 +73,8 @@ public class GeneratePlantuml : IHostedService
             CombineMultipleFilesIntoSingleFile(categoryDirectoryPath, "*.puml", catAllFilePath);
         }
 
-        await VSCodeSnippets.GenerateSnippets(targetFolder);
+        // @TODO: uncomment and fix snippets generation (got broken after Groups were introduced)
+        // await VSCodeSnippets.GenerateSnippets(targetFolder);
         await MarkdownTable.GenerateTable(targetFolder);
         await this.StopAsync(new System.Threading.CancellationToken());
     }
@@ -123,10 +124,12 @@ public class GeneratePlantuml : IHostedService
                     await svgManager.ExportToMonochrome(monochromSvgFilePath, monochromSvgFilePath, azureColor);
                 }
 
+                var type = (service.Category == "Groups") ? "group" : "entity";
+
                 var monochromPngFilePath = Path.Combine(categoryDirectoryPath, service.ServiceTarget + "(m).png");
                 // First generation with background needed for PUML sprite generation
                 await  svgManager.ExportToPng(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, omitBackground: false);
-                ConvertToPuml(monochromPngFilePath, service.ServiceTarget + ".puml");
+                ConvertToPuml(type, monochromPngFilePath, service.ServiceTarget + ".puml");
 
                 // Second generation without background needed other usages
                 await svgManager.ExportToPng(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, omitBackground: true);
@@ -193,7 +196,7 @@ public class GeneratePlantuml : IHostedService
         return string.Empty;    // no result
     }
 
-    string ConvertToPuml(string pngPath, string pumlFileName)
+    string ConvertToPuml(string type, string pngPath, string pumlFileName)
     {
         var format = "16z";
         var entityName = Path.GetFileNameWithoutExtension(pumlFileName);
@@ -230,9 +233,24 @@ public class GeneratePlantuml : IHostedService
             pumlContent.Append(process.StandardOutput.ReadToEnd());
         }
 
-        pumlContent.AppendLine($"AzureEntityColoring({entityName})");
-        pumlContent.AppendLine($"!define {entityName}(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, {entityName}, {entityName})");
-        pumlContent.AppendLine($"!define {entityName}(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, {entityName}, {entityName})");
+        if (type == "group") {
+            // Convert PNG to Base64
+            var bytes = File.ReadAllBytes(pngPath);
+            var encoded_string = Convert.ToBase64String(bytes);
+
+            var groupName = $"{entityName}Group";
+
+            pumlContent.AppendLine($"!function ${entityName}IMG($scale=1)");
+            pumlContent.AppendLine($"!return \"<img data:image/png;base64,{encoded_string}{{scale=\"+$scale+\"}}>\"");
+            pumlContent.AppendLine($"!endfunction\n");
+
+            pumlContent.AppendLine($"AzureGroupColoring({groupName}, #FFFFFF, AZURE_BORDER_COLOR, plain)");
+            pumlContent.AppendLine($"!define {groupName}(g_alias, g_label=\"{entityName}\") AzureGroupEntity(g_alias, g_label, AZURE_SYMBOL_COLOR, {entityName}, {groupName})");
+        } else {
+            pumlContent.AppendLine($"AzureEntityColoring({entityName})");
+            pumlContent.AppendLine($"!define {entityName}(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, {entityName}, {entityName})");
+            pumlContent.AppendLine($"!define {entityName}(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, {entityName}, {entityName})");
+        }
 
         File.WriteAllText(pumlPath, pumlContent.ToString());
         return pumlPath;

@@ -1,0 +1,35 @@
+@startuml Hello Groups
+!pragma revision 1
+
+!define AzurePuml https://raw.githubusercontent.com/anton-kasperovich/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/Databases/AzureCosmosDb.puml
+!includeurl AzurePuml/Groups/all.puml
+
+AzureCloudGroup(cloud, "Azure Cloud") {
+    SubscriptionGroup(subscription, "Landing Zone") {
+        VNetGroup(vNet1) {
+            SubnetGroup(subnet1) {
+                AzureCosmosDb(outputCosmosDb1, "Output Database", "1,000 RUs")
+            }
+
+            SubnetGroup(subnet2) {
+                AzureCosmosDb(outputCosmosDb2, "Output Database", "1,000 RUs")
+            }
+        }
+    }
+
+    SubscriptionGroup(subscription2) {
+        VNetGroup(vNet3) {
+            SubnetGroup(subnet3) {
+                AzureCosmosDb(outputCosmosDb3, "Output Database", "1,000 RUs")
+            }
+
+            SubnetGroup(subnet4) {
+                AzureCosmosDb(outputCosmosDb4, "Output Database", "1,000 RUs")
+            }
+        }
+    }
+}
+
+@enduml
