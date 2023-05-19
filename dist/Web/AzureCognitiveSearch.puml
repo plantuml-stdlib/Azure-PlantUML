@@ -1,0 +1,11 @@
+sprite $AzureCognitiveSearch [70x70/16z] {
+xT87ajim38NX1wBl_U-RgWoM5gYOTdhyUOgRVbRyOLvUYDNCtKo5y9WX_funzf7vYM2JU8knGtr1TrVJCxetubSCz_76TiQyiNjKxDz53wt7RFUWn6VA1034
+vcNiJKMeFN_3fQ7JIWRUe_eHQsBTBXABgj1yfHazqhWr091-y-MJnLU6bdZS4W33TCgCEA1ZSKOrayheHSNZJ068Jb2JeIxIO81qnZLhfMOv3G2iDm1877mE
+IQmgUiC0S1IhpeYxAthwk-3WprJ2QYghYhJxqcKi5XWOJKMxoubOqVEIHhi1enRK033MHrGSq5WQDpjZj3WBXb-k2E2AZENTWbz705Bxqf2B0nthI1bCrxT2
+8bkA1aVspBDZEAWI3aDpnUqoOfbfof-8vLfebwQAt2LuBz9pnFEHjDD_Op-IYf4psO_a03mdl1y909GJsuhK5TLpnd87ll2SUMwedOnyWkD0JsG2nHwE453a
+cUKKijmdE26DjznvANeavl5sXmnZ_FrUNZu2
+}
+
+AzureEntityColoring(AzureCognitiveSearch)
+!define AzureCognitiveSearch(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCognitiveSearch, AzureCognitiveSearch)
+!define AzureCognitiveSearch(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCognitiveSearch, AzureCognitiveSearch)
