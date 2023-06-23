@@ -62,12 +62,13 @@ public class GeneratePlantuml : IHostedService
         File.Copy(Path.Combine(sourceFolder, "AzureSimplified.puml"), Path.Combine(targetFolder, "AzureSimplified.puml"));
 
         foreach (var service in lookupTable)
-        {       
-            await ProcessService(service); 
+        {
+            await ProcessService(service);
         }
 
         foreach (var category in lookupTable.Select(_ => _.Category).Distinct())
         {
+            logger.LogInformation($"Processing {category} Category");
             var categoryDirectoryPath = Path.Combine(targetFolder, category!);
             var catAllFilePath = Path.Combine(categoryDirectoryPath, "all.puml");
             CombineMultipleFilesIntoSingleFile(categoryDirectoryPath, "*.puml", catAllFilePath);
@@ -78,7 +79,7 @@ public class GeneratePlantuml : IHostedService
         await this.StopAsync(new System.Threading.CancellationToken());
     }
 
-    async Task ProcessService(ConfigLookupEntry service) 
+    async Task ProcessService(ConfigLookupEntry service)
     {
         logger.LogInformation($"Processing {service.ServiceSource}");
 
@@ -101,9 +102,9 @@ public class GeneratePlantuml : IHostedService
         {
             if (coloredExists)
                 {
-        
+
                     await svgManager.ResizeAndCopy(coloredSourceFilePath, Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), targetImageHeight);
-                    await svgManager.ExportToPng(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".png"), targetImageHeight);    
+                    await svgManager.ExportToPng(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".png"), targetImageHeight);
                 }
                 else
                 {
@@ -114,8 +115,8 @@ public class GeneratePlantuml : IHostedService
 
                 // This should never be called if we assume only colored SVGs are provided on input.
                 if (monochromExists)
-                { 
-                    await svgManager.ResizeAndCopy(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), monochromSvgFilePath, targetImageHeight);    
+                {
+                    await svgManager.ResizeAndCopy(Path.Combine(categoryDirectoryPath, service.ServiceTarget + ".svg"), monochromSvgFilePath, targetImageHeight);
                 }
                 else
                 {
@@ -127,7 +128,6 @@ public class GeneratePlantuml : IHostedService
                 // First generation with background needed for PUML sprite generation
                 await  svgManager.ExportToPng(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, omitBackground: false);
                 ConvertToPuml(monochromPngFilePath, service.ServiceTarget + ".puml");
-
                 // Second generation without background needed other usages
                 await svgManager.ExportToPng(monochromSvgFilePath, monochromPngFilePath, targetImageHeight, omitBackground: true);
         }
@@ -136,7 +136,7 @@ public class GeneratePlantuml : IHostedService
             logger.LogError(ex.Message);
             return;
         }
-        
+
     }
 
     void CombineMultipleFilesIntoSingleFile(string inputDirectoryPath, string inputFileNamePattern, string outputFilePath)
@@ -158,10 +158,10 @@ public class GeneratePlantuml : IHostedService
 
     string GetSourceFilePath(string sourceFileName, bool color = true)
     {
-        var patterns = new List<string> { 
+        var patterns = new List<string> {
             "*-icon-service-{0}.svg",
             "{0}_COLOR.svg",
-            "{0}.svg"        
+            "{0}.svg"
         };
 
         foreach (var p in patterns)
@@ -173,7 +173,7 @@ public class GeneratePlantuml : IHostedService
                 x = x.Replace(" ", "-");
             }
             var files = Directory.GetFiles(originalSourceFolder, x, new EnumerationOptions { MatchCasing = MatchCasing.CaseInsensitive, RecurseSubdirectories = true });
-            
+
             if (files.Length == 0)
             {
                 files = Directory.GetFiles(manualSourceFolder, x, new EnumerationOptions { MatchCasing = MatchCasing.CaseInsensitive, RecurseSubdirectories = true });
@@ -211,12 +211,12 @@ public class GeneratePlantuml : IHostedService
         if (OperatingSystem.IsWindows())
         {
             processInfo.FileName = "java";
-            processInfo.Arguments = $"-jar {plantUmlPath} -encodesprite {format} \"{pngPath}\"";       
+            processInfo.Arguments = $"-jar {plantUmlPath} -encodesprite {format} \"{pngPath}\"";
         }
         if (OperatingSystem.IsLinux())
         {
             processInfo.FileName = "java";
-            processInfo.Arguments = $"-jar {plantUmlPath} -encodesprite {format} {pngPath}";  
+            processInfo.Arguments = $"-jar {plantUmlPath} -encodesprite {format} {pngPath}";
         }
 
         processInfo.RedirectStandardOutput = true;
@@ -233,6 +233,10 @@ public class GeneratePlantuml : IHostedService
         pumlContent.AppendLine($"AzureEntityColoring({entityName})");
         pumlContent.AppendLine($"!define {entityName}(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, {entityName}, {entityName})");
         pumlContent.AppendLine($"!define {entityName}(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, {entityName}, {entityName})");
+        pumlContent.AppendLine($"!procedure {entityName}($alias, $label, $techn, $descr,  $color, $tags, $link)\n AzureEntity($alias, $label, $techn, $descr,  $color, $sprite={entityName}, $stereo={entityName}, $tags, $link)\n !endprocedure");
+        pumlContent.AppendLine($"!procedure {entityName}($alias, $label, $techn, $descr=\"\",  $tags=\"\", $link=\"\", $color=\"\")");
+        pumlContent.AppendLine($"   AzureEntity($alias, $label, $color, $techn, $descr, {entityName}, $tags, $link, {entityName})");
+        pumlContent.AppendLine("!endprocedure");
 
         File.WriteAllText(pumlPath, pumlContent.ToString());
         return pumlPath;
