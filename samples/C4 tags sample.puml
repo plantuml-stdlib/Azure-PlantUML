@@ -1,0 +1,46 @@
+@startuml
+!pragma revision 1
+
+
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+' !define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
+!define AzurePuml ../dist
+
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/AzureC4Integration.puml
+!includeurl AzurePuml/Compute/AzureFunction.puml
+
+
+
+LAYOUT_WITH_LEGEND()
+
+' !function $getElementLine($umlShape, $elementType, $alias, $label, $techn, $descr, $sprite, $tags, $link)
+'   !$sprite=$toElementArg($sprite, $tags, "ElementTagSprite", $elementType)
+'   !$techn=$toElementArg($techn, $tags, "ElementTagTechn", $elementType)
+'   !$baseProp = $getElementBase($label, $techn, $descr, $sprite) + $getProps()
+'   !$stereo = $toStereos($elementType,$tags)
+'   !$calcLink = $getLink($link)
+  
+'   !$line = $umlShape + " " + %chr(34) + $baseProp + %chr(34) +" " + $stereo + " as " + $alias + $calcLink
+'   !return $line
+' !endfunction
+
+
+sprite $AzureFunction [70x70/16z] {
+xTE7pW8n30FWfCwjzt_XNqLX5F_2LOasPgzFbhcprVm2oWBI2F6AAgsaIiagNb6bsK82msKDQJ46jf9uYrLKyOegRQtAyYY8iGgFCg7XkhQX2esoNHSqycHe
+b4I8OQGdZAiWvUiMQEJqHnKQnS-1aKYZKOZHYDCen6Z4GACGen7dKPXHY856aGmZJgC8XX2gOZR3CEA4I8OH0uqY6KPyYySbHr5C46BOFYP69WZ9Afy3UsV0
+Y44Z8uDyV4LS8SzuTZXk3yE6c4RCjwldiBCZ4K_6vv4MiUSSPqTU6AY_PpogzjpqxMpnzXe8969xlao60uN0J3CJY6QWaGb68v8PgxX2cCb8P8Q1GgQO1OGP
+B23CB23Cu3-aFH75O3YtcxtaYKZ6UeAHdaH4a8WJaab497yMZ6IQJSS9MKci8bm5zbsY0l4AnA82yGh4Wf2rAc5V9oeGhq2imMhoony
+}
+
+
+
+' !procedure AzureFunction($alias, $label, $techn, $descr="",  $tags="", $link="", $color="")
+'   AzureEntity($alias, $label, $color, $techn, $descr, AzureFunction, $tags, $link, AzureFunction)
+' !endprocedure
+
+AddElementTag("v1.0", $borderColor="blue")
+
+AzureFunction(a,"a", "a", $tags=v1.0, $color="pink")
+@enduml
