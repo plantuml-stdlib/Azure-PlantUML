@@ -10,6 +10,8 @@ Categories:
 
 - Name: AIMachineLearning
   Services:
+  - Source: Batch AI
+    Target: AzureBatchAI
   - Source: Bot Services
     Target: AzureBotService
   - Source: Cognitive Services
@@ -33,7 +35,7 @@ Categories:
   Services:
   - Source: Azure Databricks
     Target: AzureDatabricks
-  - Source: Azure Data Lake Analytics
+  - Source: Data Lake Analytics
     Target: AzureDataLakeAnalytics
   - Source: Analysis Services
     Target: AzureAnalysisServices
@@ -127,8 +129,10 @@ Categories:
     Target: AzureContainerService
   - Source: Server Farm
     Target: AzureServerFarm
-  - Source: Azure Spring Cloud
+  - Source: Azure Spring Apps
     Target: AzureSpringCloud
+  - Source: Azure Spring Apps
+    Target: AzureSpringApps
   - Source: Web Slots
     Target: AzureWebSlot
   - Source: Web Test
@@ -163,14 +167,14 @@ Categories:
     Target: AzureCosmosDb
   - Source: SQL Data Warehouses
     Target: AzureSqlDataWarehouse
-  - Source: Data Factory
+  - Source: Data Factories
     Target: AzureDataFactory
   - Source: Cache Redis
     Target: AzureRedisCache
   - Source: Azure SQL Server Stretch Databases
     Target: AzureSqlStretchDatabase
   - Source: Azure Database PostgreSQL Server
-    Target: AzureDatabaseForPostgreSQL
+    Target: AzureDatabaseForPostgreSQL 
   - Source: Azure Database MySQL Server
     Target: AzureDatabaseForMySQL
   - Source: Azure Database MariaDB Server
@@ -271,7 +275,7 @@ Categories:
     Target: AzureEventGrid
   - Source: Logic Apps
     Target: AzureLogicApps
-  - Source: Service Bus
+  - Source: Azure Service Bus
     Target: AzureServiceBus
   - Source: Event Grid Domains
     Target: AzureEventGridDomain
@@ -405,8 +409,8 @@ Categories:
   Services:
   - Source: Azure Migrate
     Target: AzureMigrate
-  - Source: Data Box Edge
-    Target: AzureDataBoxEdge
+  - Source: Data Box Gateway
+    Target: AzureDataBoxGateway
 
 - Name: Media
   Services:
@@ -450,7 +454,7 @@ Categories:
     Target: AzureAzureDDoSProtection
   - Source: Virtual WANs
     Target: AzureVirtualWAN
-  - Source: Front Doors
+  - Source: Front Door and CDN Profiles
     Target: AzureFrontDoorService
   - Source: Bastions
     Target: AzureBastion
@@ -464,7 +468,7 @@ Categories:
     Target: AzureFirewall
   - Source: Azure Firewall Manager
     Target: AzureFirewallManager
-  - Source: Front Doors
+  - Source: Front Door and CDN Profiles
     Target: AzureFrontDoor
   - Source: DNS Servers
     Target: AzureDNSServer
@@ -494,9 +498,7 @@ Categories:
   - Source: Network Interfaces
     Target: AzureNetworkInterface
   - Source: Private Link
-    Target: AzurePrivateLink
-  - Source: Private Link Hub
-    Target: AzurePrivateLinkHub  
+    Target: AzurePrivateLink 
   - Source: Private Link Service
     Target: AzurePrivateLinkService
   - Source: Service endpoints
@@ -513,8 +515,6 @@ Categories:
     Target: AzureKeyVault
   - Source: Azure Sentinel
     Target: AzureSentinel
-  - Source: Azure Defender
-    Target: AzureDefender
   - Source: Conditional Access
     Target: AzureConditionalAccess
   - Source: Application Security Groups
@@ -578,12 +578,14 @@ Categories:
     Target: AzureCDN
   - Source: API Management Services
     Target: AzureAPIManagement
-  - Source: Search Services
-    Target: AzureSearch
+  - Source: Cognitive Search
+    Target: AzureCognitiveSearch
   - Source: App Services
     Target: AzureWebApp
   - Source: Azure SignalR Service
     Target: AzureSignalRService
+  - Source: Azure Web PubSub Service
+    Target: AzureWebPubSubService
   - Source: App Service Certificates
     Target: AzureAppServiceCertificate
   - Source: App Service Domains

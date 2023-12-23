@@ -1,0 +1,11 @@
+sprite $AzureDataLakeAnalytics [70x70/16z] {
+xTO5jjmm38NXAx2bsV-2o-qDo6bYltA_71puZ-H1_FRKtKsmHFmBnGAd-OxvbYsDGYPp9xlMKVkWbTps50CUJtH3GNiyr0GdBHup74bCm97615auMjB_bLBJ
+DwcuwvjKtELMfUjdDgZuhOhp4NL5xrI4R-wwubMb7aNwKaLu_tobSPzHnRvV4UupUReSfSL51TIkFYaM5nK5zSZYwf_tYQolTXX5UbOK7_KSQ8THl6SXFj-N
+LnMGr1Nxiiz8TpUGUH-FqhyeAmBoicAWSgP-6AMgXEmYvIm2yhBYs8giAY2jAxlFMij2Lv2pSkQCd7IGNbO47rYM7EHNbOOFD6l6Y5nMf8XK5MEbtbpoHiK_
+YImf8B5QwVn4BrGCQ7chekDA09xtAlXSUHKCzhfY81bLKlHrkm9eNMcQTogaLKNYzQo2LctqMgZG7rsncOhYG6SgE8ddaOOJUHn9LFhA92JcUsty5yhm0CEa
+c73gO8uwSPUr3kRnW0HBHCrDyTjx3m
+}
+
+AzureEntityColoring(AzureDataLakeAnalytics)
+!define AzureDataLakeAnalytics(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataLakeAnalytics, AzureDataLakeAnalytics)
+!define AzureDataLakeAnalytics(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataLakeAnalytics, AzureDataLakeAnalytics)
