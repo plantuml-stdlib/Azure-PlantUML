@@ -1,0 +1,23 @@
+' Azure PlantUML Sprite: DNS Zones
+' Category: Networking
+' Description: Azure DNS Zones
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10064-icon-service-DNS-Zones.svg
+
+sprite $AzureDNSZones [64x64/16z] {
+jPS9agOw38ETpJAztl-sZxPHof2VuisccTxvP5j9giBtlzJxswxV8h-sjvEsNu4tGbJy-0iqMTkLJBPdch0PT0fcXyFN4nuqWZeK7eV3CsrG1Hm8cS9_P-xm
+XCCVL7Kq1FLFxE46Z-AgvW_RbXGaLEtUWCMFZfc_hu25dK4H1ZUu5uZoPm6CWWPtE0ExI8q6-ifW2tpcTSNTCHbS-S0LT-KjB3s2667f7kf_Ox6hd8ydQ93n
+YDXK5O3QAl-zAhWQvDazUu-jwp9uyg5y4C08KlU1Hu-0NWLmAEwdjtVox7xoB9kKGjak4sovlACl-4Xb6W31p-cDU1J20vyRIEKfl9HHJ62cf_Q8PmCkmKnF
+kNPZzAuur9h2rLiCq6fj8vz8yeZoHKBLEHMfiNHL540J5wA1283Za_VecqWFNhh-oFaXHStGhol0yIVlv01KYiZaKMMa169cN_tjpFl0Kg4gjKcTV15TUAx-
+Tk7XXNTOf9FVlMvuqy1D9b-bEz-ba5UHCZ3vQFg9roBjuA7bn-74lptoGsGSF32AIF-VzKVmErl8HmyZyv7_oZE_NI9zyhuBqWRCfo_pJHh8TodD-T3aUG3I
+-fCV8ZfvBL8cRqDguhb_JxmsttuWFqHy_OSdoFc1V7x8br94f2aIhyrv2Stzp_EJ5g3tjciWfArhA0voRxLss79-Km0Xt6hTlla0atx6q_Zv10MlDxIUodFy
+s450vksUNyipmMamUJr4_b8-yxa1dGfi2hay-SiIuE3M8EcmHVZ4oPi63OCQbMA7XWUxPtffWjlhG_0fNU9JSMazCi3AJzFDL2_TSmtd5S9qnU4yBmyBxnFm
+_lQg0TN03MdunG27WRugpziRyTLWPW2ivQDtiFaR0tyohgddyFatudS6SNyFW8B2QMop-Nk3s4Kw3Ppa-mEhFpgixo_FzBn8txm_FUDiWJ8Z-J3vSfjUzKll
+eDlPu_TUW-Uxxp_KVm
+}
+
+
+AzureEntityColoring(AzureDNSZones)
+!define AzureDNSZones(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDNSZones, AzureDNSZones)
+!define AzureDNSZones(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDNSZones, AzureDNSZones)

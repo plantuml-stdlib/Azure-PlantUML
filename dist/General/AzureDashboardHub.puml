@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Dashboard Hub
+' Category: General
+' Description: Azure Dashboard Hub
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01757-icon-service-Dashboard-Hub.svg
+
+sprite $AzureDashboardHub [64x64/16z] {
+xT17OeCm48NXwSOhxd_R37AUEqZARD9-TyEdjlwU_lFv1lY_DoRnIyBC-k8jMdkUia_4-FhWuz0RPJBjw_CZJ3_XzUus8NQqwnypod2gH1we-RYrdhPUl5Ac
+81Ax_jHwFx_Wgqzx9Yp0kNti-zRhyYz7UFawwut8eb6HxUkBTyvynwjW2gKjV-Cfi_S-DV7zCLZ7FuxWTETroADNxqmaiUCzicLP7dtemvJcqVCPVClqmSnu
+z8EzxUI3NdQoF-ArupCBv-pLprVtfG7g_bpr6VnSZQ_drbS6MBVWMnMFAXwLF1hsQ1ckSOC_QCUl2FwWYaS5ZoeULJs6EA-_fly-
+}
+
+
+AzureEntityColoring(AzureDashboardHub)
+!define AzureDashboardHub(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDashboardHub, AzureDashboardHub)
+!define AzureDashboardHub(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDashboardHub, AzureDashboardHub)

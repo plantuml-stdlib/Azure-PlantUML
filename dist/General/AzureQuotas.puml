@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Quotas
+' Category: General
+' Description: Azure Azure Quotas
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02951-icon-service-Azure-Quotas.svg
+
+sprite $AzureQuotas [64x64/16z] {
+xT150iGW343HHOamblkVjYwPq20Zkxuj-PZyn-K2k8FccD1eo_54UstLveIdYAfoocZEhU_oyWRyPKz5XVplFRM-tMevEOHCNywXwwes82yVWTENS-ncI4PJ
+dcx0RBxz77KxIXUF79qy77qWJXMELxc_WPz3zoQmju6N6-1i4Bo_i-Xy0yu0StGgsXvBFPeBc1mmxT4C-110hwFfxO15C46_HvXGBjVh66Re35Ym8TFhV7Oq
+SSTmu3ZRUdT0GpYWwRq1RNy1Zqpl3On2LDJTT6_U63L9-kZtiT1ZJO-w22AwdtYz7PZ9w8l-NjEJtylCMwPIBwiFUzavFSoyNhJsNepRxROitpPRVzii_MqY
+9sxCHAHwdAcUHdoByXkNom
+}
+
+
+AzureEntityColoring(AzureQuotas)
+!define AzureQuotas(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureQuotas, AzureQuotas)
+!define AzureQuotas(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureQuotas, AzureQuotas)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Container Registries
+' Category: Containers
+' Description: Azure Container Registries
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10105-icon-service-Container-Registries.svg
+
+sprite $AzureContainerRegistries [64x64/16z] {
+xTM5RaCn38NXKUp09B__qvQizkI2MzypJTX_39_h5EtVUYVgCVP7FMw4RcCvEdHiVe36aHoH794U4PpnSGdE-behxpNRlgxfWitJSHon7B4SwH6--ozftpwa
+TfFjxtFSH6H_YOmtkHQSuoKNvpAHpO1N5rxArQletX8lVP4VzwNCAklBmckHwdLhzThF8UzBwBp4KO-JE6QzAdF--PDMH7hHl_dRfzOolge4tbhOpHVSVrK8
+Vqcnuewt9_vQ7R-NHdyCqRHtZKP_p11uYtsxwWjglVkSnIBYFXnWVOpH7pTpQttSmn2B1vZLzVE7hpBFi7W0dZ_MjVkKtip22VFpXz-9wYBVCHwmV_yL3L-B
+KXxFHAhkerAF7zw_lT0UzybZ7ZJbHU1nrqje32Xoywe96QmW7CK0XYBtnlTXJpe3
+}
+
+
+AzureEntityColoring(AzureContainerRegistries)
+!define AzureContainerRegistries(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContainerRegistries, AzureContainerRegistries)
+!define AzureContainerRegistries(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContainerRegistries, AzureContainerRegistries)

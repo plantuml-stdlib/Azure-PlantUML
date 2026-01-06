@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Outbound Connection
+' Category: General
+' Description: Azure Outbound Connection
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10364-icon-service-Outbound-Connection.svg
+
+sprite $AzureOutboundConnection [64x64/16z] {
+tT87QaL128NXL1qdnVtlDWR4LmxUAAR_b5S_SRYZlxoRaNwq1jeRSckchPk1xg_0e5iJ7fCU1hgwmWEOreJKHGzDZSsujH9FLEAoCryPiFRE_OSJsFIHFvv0
+ie-zbwzUyvIiNlLMidhDuuJGTKzmyAgFuk15ZyN1ovv5X2cArQjUjhN2IzFxOLVVFyJwxuPxdYvYsLBqgFqKg-A3evUIHnvFhUQHC_FQ5jTyk7XhfE_FthAP
+mlx0zUBug-FzVSJCrFVA14cgqLleKQF7WPb_yZ_bNkN0dnJkVohp5__8lOKUBmqy_ukklU2lySuI6C0N7gR3fLF8FMgyz7aYGaam8Eit3z3X0FK6lD-GQ_2P
+rvdNcTUPrvdNVz8R
+}
+
+
+AzureEntityColoring(AzureOutboundConnection)
+!define AzureOutboundConnection(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOutboundConnection, AzureOutboundConnection)
+!define AzureOutboundConnection(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOutboundConnection, AzureOutboundConnection)

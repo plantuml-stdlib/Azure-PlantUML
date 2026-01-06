@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Recent
+' Category: General
+' Description: Azure Recent
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10006-icon-service-Recent.svg
+
+sprite $AzureRecent [64x64/16z] {
+pPTNbkGm24L1MKoe_UzsPDhDaSeFXydtr-S-WlFhFwMBT4FacMpknEs8_Y6tXQxSBjq0jnB4v98YCmqun5mjuR9rrNEW5KvrJv3BuZKH8fIF1BdG4tc4UXOW
+QXUUZLZhCadIWExhcHQsm4CB6e3rkEgyROCMs0A07iZtZG9s0AgxFbKBMFr4dez6EEYwkbHF_QJR36yDV9UXrpsxik-dlSUaErpB1_eCWBxfjWAP_EaqS_Pz
+rMs2FfTdCf2FJgA0ydTyQ-0mFVOXTVXYVgK7lfq2iVRJOvzj007j0nyDq3_7f-T-rW5i_CT-dFnCcDG7HFuPjFNvUdU6uqkVDxdrxdGt-N6RPn3UoxV1MmCS
+1y2lXqTttlt-jhV1mKT4zTq5NE-lTQLbrpy_Vzm-V7YSf_DVo25cVVMYW02kFmHR0Bu1-xO0VXvGz040Jm0EWEl32yG1Q7ny0-C0cibx-sW0750FxVSNU01Y
+E6S6spT_QY2GHqIFNsl0ajs0MjRovjizOEyuYBqRkMbvy0ADfkE0F5yxHhS9R4OCM_VghmqKkaVqFe0oMDcndm3qLtS2MiHwVy60Skb7-uY60JMS-ndgYWZu
+V4u1VBtAwTT_ZUuzCEBFVgQ-Qu2J4DIsrM74Va0YBtAgQbjnFy3-dsf9AGvIBcsZ8nqduFytREE48m9jFq9MrvVz3EFrv_W1
+}
+
+
+AzureEntityColoring(AzureRecent)
+!define AzureRecent(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRecent, AzureRecent)
+!define AzureRecent(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRecent, AzureRecent)

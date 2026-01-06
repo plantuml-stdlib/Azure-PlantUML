@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Bonsai
+' Category: AI
+' Description: Azure Bonsai
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03337-icon-service-Bonsai.svg
+
+sprite $AzureBonsai [64x64/16z] {
+rTQ7heDG30DGpOVLHCh_VsrNUDT4kGrHTzqD74FPzfrPHdxAun_5ZtQMnxsj25i8zhHy36nvo2zjZuHoNJd_btYq_1ZjhzW4UyZxQop9xYh49N5r5ZwCPtm4
+Mfv1yCoGDps_LRdFe_BOzrRvC45O77vDJN-5pq7oc7kOXSdnbxjyDF5qhsCTOnO-WyV46pzgpnWA7_uvFKsS5i7drFDNjMlKMdvr76IgUdc9MLwLGDp_g3RH
+IsuUg3RYR6tTYC15U6M0arIxgi4PkGuTwxxoiXPGgem9uvPAPI8ElCQ_nDJUhfgPMTixZueosQDnRp0jEBIzRYC7rwg4JEMPWt4tRFkmCYxS5W2RVGsrb-dF
+T7cT9QqxhWhKFXR8R5XO_uNtt7blg4K3IbyNzAEFDkY33RBryi3yFGzmpmFSyu3szDVSF8_e_aPGkH7juBrykRS7kAVcNvSJ
+}
+
+
+AzureEntityColoring(AzureBonsai)
+!define AzureBonsai(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBonsai, AzureBonsai)
+!define AzureBonsai(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBonsai, AzureBonsai)

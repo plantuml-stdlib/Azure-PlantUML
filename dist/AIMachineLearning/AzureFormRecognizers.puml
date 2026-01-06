@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Form Recognizers
+' Category: AI
+' Description: Azure Form Recognizers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00819-icon-service-Form-Recognizers.svg
+
+sprite $AzureFormRecognizers [64x64/16z] {
+xTL7UkWW34LXqCK6D67_gtt5JRO5oFaqpKalFn5nQssTLzeqo-VAFi_Cfbz6xPvDdmOTdhsUlPwzdhsUlPwzdhsUlPwzdhsUlPwrptdii_BizVmpNwm5yiGl
+kRT0jRqCqEspNrQFtnPONLwtklolpoCFex5Vqx-2LHpuKlvx2bAy5wuENuhXOzATymCfA_-U7rflxuXe-sJf-KHNq9hYDTtsLSTBovDVcvCLG9SlshyuOdX5
+2JJpouDtZoLeuYTS9eWlJ_Tm-HW62z3JnqTqSf8pwl590EZk4P-TfukSKP1FP82X9_dpVHyIWfvVsdqOUqeaNb_0Clx0nuVNoVWXud_ooRc13twK-5h7Fiuy
+R4_VFUWTnCT_oIVT-KbtUVN_rnuzRnq_mzENywVA_bN6-Tl43q8ohX_Jq_ZicNZx54AYPdZPWOuIsaUFFYVnUPs4fBS0uQrQBKYOF3ygMsKaUOP4shJ4rMx1
+SNlQFWh_te41K6ot_W8
+}
+
+
+AzureEntityColoring(AzureFormRecognizers)
+!define AzureFormRecognizers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFormRecognizers, AzureFormRecognizers)
+!define AzureFormRecognizers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFormRecognizers, AzureFormRecognizers)

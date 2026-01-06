@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure A
+' Category: General
+' Description: Azure Azure A
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10018-icon-service-Azure-A.svg
+
+sprite $AzureA [64x64/16z] {
+pT85ZiDG38JXfKUUIBx_QKjUVEFKpXP_OU4RrKhr6Li6LKf9wqEZUAMuO7NW8-Dnyl1yJNaRQFyyG83L0sgD_G8RWACp7k03JASyhEc0-bN9-sN2LihRG2CT
+--MN5yBn0R1ie7fjy2tfcTk0UBu5_g83y7UWR_G07y2bl0rSvkC3c5_o183B3W0kEW1Sy0HYlrpciS4lQT_S0UHzItjLHxiUeJTivJtfBLuF4NQzhFf6s1l0
+gg-DTDRhASRi9V3H02xsFeyFO2vpFHmuomMN-XvucJmL_03yRVC120OmpdfGsmw0I320oCiyaJ_0E4ta3v13D34q_Wlq7qyJy_l3uUR52Q1F21zRzMEUHYTz
+pYkTDWYR5z_pm8IjoElV0mp5NfK71k6Krt6XLx6wxn7mG-kyEGyGoWqPX-Gdu_huzW
+}
+
+
+AzureEntityColoring(AzureA)
+!define AzureA(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureA, AzureA)
+!define AzureA(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureA, AzureA)

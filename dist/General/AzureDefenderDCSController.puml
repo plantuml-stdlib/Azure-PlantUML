@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Defender DCS Controller
+' Category: General
+' Description: Azure Defender DCS Controller
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03412-icon-service-Defender-DCS-Controller.svg
+
+sprite $AzureDefenderDCSController [64x64/16z] {
+xTO5RiHG38JX1Sy41Bx_RJlHoi52_5nk_p1yJnYu5FDN0xmIL84JKpMkMdbuD78YQlKCtrWIr_s_PxJsYCvxMtlF-U3XLTPpwotjkVQ6l6Vuu5dFy8QKjnW3
+3s-pXPtmfXLYX5Mku2V3mNkk6bVOUC-7bV-2zwzYZJjPzQnuXaSZhmqGRv6AR_q965JVzOEQTgQzCUltVNEFTSEn7gkEEjixU-9Sfg2uz-V2NO7gQpmdpuAt
+-zssdfKMtoNx8czgwnDStTNMUqVLd-lXUqKr-5pQ1ynu1TKNVBJtGv8Flcl85Uo_onVt1
+}
+
+
+AzureEntityColoring(AzureDefenderDCSController)
+!define AzureDefenderDCSController(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderDCSController, AzureDefenderDCSController)
+!define AzureDefenderDCSController(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderDCSController, AzureDefenderDCSController)

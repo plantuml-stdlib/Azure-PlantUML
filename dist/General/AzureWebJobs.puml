@@ -1,0 +1,22 @@
+' Azure PlantUML Sprite: Web Jobs
+' Category: General
+' Description: Azure Web Jobs
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10846-icon-service-Web-Jobs.svg
+
+sprite $AzureWebJobs [64x64/16z] {
+pTS7WjmW341HG7rIVF_R1c5ZWvYQ_bEsFY6sxtQ_sv5jduVcyCY7V8GHWMtgWpNiPWW0QXP7V7-7-zfIFRg94zxHdYyWjYRfDVSKmWrKc12yrzmZlu4U2IES
+bSTSJsxgWjGRyFC1J1TNWHgh45mz7r3ez5fZgE44aLXKrUok9qJjsiDISXwig1tT7d2KWIkNN3knzsJ0TwwU1qu0xalLhBtklo_-fjNJwSLlNje05j5bm79y
+ywYTGwjKNb1gOS3Dul5cXDWtPJZ2Kgu1OO7ekNh8AQKCFHPQ1bm-Vj8Xf5vntLWR059xja3bfXTlEv38DO3ZWDLp6YlEsUi3NlcSfbYu1wL68Yg490yyfpbW
+dWUWGF90hHMEX-0p3s6fzGMBnWKihk-DNgZwrCDdFlScBzm-DFOXENhVl-Ifw8LJ0Y9g0zIK1MSFWPVLa-ThY98tUGaU7tZCrTFiRRr0uU2bkFUGZiB7RnaZ
+2LmuqnpFtdZWKCt8FGfjqGES7C1Lr-r_fbZm24U8K2CvexNr3IYDgghWFW1PlFba_p0gk0ofdjsmXW5SSXvqsijtV2EwHtr20pbmBrxYfb0Zqpt6VS9q7AQX
+k82u5pCHsU_WvMdVCdga5lEsH-xLj2hfAy1yMXehkwRjI100pVnSqfRGCvyhTdv626n6M6kQLKzHxdZsBkwEbT4Z4VAdDASMqEhBx0kkYK8x2MclZ9vu7e1h
+gke4g1VNznvxCLN5d4hdZE7uTG2q6mDwTgJSi4U1HzzlMB2cTYGUjwZuxiX3u-aDzmr8RKZvVbrx-VGPMnm7FFVf2lU6d_zNUVNKtxnjM_ZgS_Hq_kBnn7k0
+7iJxRqCdMxqtBn2qTwderm4GlISdkkS1Mr1o1iJWGwvZUAVjIV-Lzzhhdx3pJyC0_xB_gSL_
+}
+
+
+AzureEntityColoring(AzureWebJobs)
+!define AzureWebJobs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebJobs, AzureWebJobs)
+!define AzureWebJobs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebJobs, AzureWebJobs)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Data Shares
+' Category: Storage
+' Description: Azure Data Shares
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10098-icon-service-Data-Shares.svg
+
+sprite $AzureDataShares [64x64/16z] {
+xTRNagim381XhEOsS_p-Rti81X6KBc_V_Mypd-pGsvVfhodO7DOr8wm106u1W8vuHi-IRBZDE0AIkUFErTeGx01PqWdARuN70R9tdskRLquGOFiFo_Q0zhX7
+6bgFqodelWGT819JtajHM3dldgSUYL1hDOSbbCMQ4aF_jPhbTGErPWWzufZIONaCFQvd7bOVkf_ZS1O0z6j7mrpLq-NwSoLYk15mgQSk_p_FVFQzKf8WM4kn
+p1alj72KW-_b5ACmBsUYhAdN0Oo0BDRRRdgj3NbgRjzw7Xy7lNAVbpVmazFhycD-ylj-qRcyR2MNB-hRj_JLd3xt-HltCk3RMtWPyEqjV7Hw7J3cUrwl0sHW
+VVOy_vNZ-lOKdmTzVRiyJJqKYQzw-_qmwltxrm-mbxs4y--Fzky9RpuVJWC2wpNuX3UVlqo7Dq6vFq3rvVMhtV7DfjnqWtxX_leF
+}
+
+
+AzureEntityColoring(AzureDataShares)
+!define AzureDataShares(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataShares, AzureDataShares)
+!define AzureDataShares(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataShares, AzureDataShares)

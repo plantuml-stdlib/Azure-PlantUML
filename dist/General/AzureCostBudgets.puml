@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Cost Budgets
+' Category: General
+' Description: Azure Cost Budgets
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10793-icon-service-Cost-Budgets.svg
+
+sprite $AzureCostBudgets [64x64/16z] {
+nTRPTiD020FGamL1dlZ_lsspc3dM171sFVUgNZIj_OCH07X1ot-URf0bs3tbCGfUzFBwxxTpNlHz0o30FQzgVSCEPm88UOZhELr3_FnnLG3urKT5nlbvO-6N
+w6ZO-hvtw_5PMI0RzXANyFJUgA3rE6TJ0R39Ez82Ec_i8-KLGE2DDrMzvts--15jBu2ZM8SAEW_atliBGEFr5SyNS9n6XzPhU00Y05Ali_VXWMntW2zozb4m
+TelKpy7YZ-5bzaYzBrxaXnxk0FckW1yWWfEl6spsrO8qUG0n061NJp3rZdEaEmEM3A0A8ja0cv1FJs1Mr9pWuAQlUbLo3takm3cLrpjUoRT_GK_ajVJ5sxUb
+m1BVN7vupVryUB3oLljgVE5zfESdyhm18nm1__iwTr41xQ0_EbJm-FS3Q4JaSyuZo3tple2Z2QSTTHpU56YgYLCiRJ0DxaKm2iPfyWtVx_COEKQyQp2shFi6
+ZczEZ_lq-FNy0G
+}
+
+
+AzureEntityColoring(AzureCostBudgets)
+!define AzureCostBudgets(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCostBudgets, AzureCostBudgets)
+!define AzureCostBudgets(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCostBudgets, AzureCostBudgets)

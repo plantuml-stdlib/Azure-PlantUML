@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Custom Vision
+' Category: AI
+' Description: Azure Custom Vision
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00793-icon-service-Custom-Vision.svg
+
+sprite $AzureCustomVision [64x64/16z] {
+dPU7ZiCm34E1B0q3rV__xTKLBWvT8X7wC6u-YbPN4Xnpn2BgECL-iP6Y_Nk2CQUUu1LAjiqyBn9andq0sfoRCp1R4v9WZxhACH1z29ZjBYEGC0UyXWus81Xm
+zK5NiB033x19hmKO7I_77S8ASBqU03eyQDwQEpwKUWb07SyktWOc4805qaTTh24s0g00jeVXY0jPWV7n0YO6u0bENz_8TRhisuurV2pspRzlftwExzQnTNQd
+Ez0pW8tNrffk2Pv4I07lQFeulhE3xrTVXm_rjO4F21o0-_RvH-uRzV7u-Ozx-jhu0Pxyfdkk3p7ftFeodYvYxTZbgaT7PVOL_K5_66sqZpnKtRVqpJp7fwzb
+lycX7o_CUreI8ghsJcR-0VuO6sQn9QjgVczi_qvrZX7V6e8w4ktx-ISDiJi_mZig7Lx0uzOty0i5KCy2TlKFBHL07mAixkC2M83RCemb0drUuD1Jrc-15y00
+yQo-O5yCw902YTYy-c0-Bv28eiy2S0DpGDdd0LBeVnSWWG7SXnLWWaYiyB-ehn73nu2H8DEqEGy3-24uv19GJke-1XmpkfNyS9uWu2FqviSK4ZGgFbPGWVhr
+01lt0IhFVkqcQi5tZl5zzIPkoNyD6BjkzRj8VE961V1V412_mVq_
+}
+
+
+AzureEntityColoring(AzureCustomVision)
+!define AzureCustomVision(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCustomVision, AzureCustomVision)
+!define AzureCustomVision(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCustomVision, AzureCustomVision)

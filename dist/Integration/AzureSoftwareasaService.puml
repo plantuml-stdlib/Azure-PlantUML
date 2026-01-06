@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Software as a Service
+' Category: Integration
+' Description: Azure Software as a Service
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10213-icon-service-Software-as-a-Service.svg
+
+sprite $AzureSoftwareasaService [64x64/16z] {
+xT9LOiGm34NHnBPWyEr_jzKmIA5HkJs1lnkGZT_g7z_1Ki9F956VO3QEQIetCZDFFK1uHCCKbL6O8kCubPjiBnZ68ebUvidL1W6LL2yEFnlhrTNDeP4la6VK
+lE5j90u51gSWKL_xlgzKxDweDwwNyRvqNLUejtkZplXUSAA1iDTdsLud-fheFL4F04Szp-_rO_eQ_B-t0bPpUuq0cEhfW_jLt5_tFr5lmdu5imemURho01Fr
+WMKzrLg9s-NUHdf4_N5-V9mVToRiSR9FzbY_rkFgfHvtHkTNZU_nQEdwuTbced-ezuYiBovDBQNGfLzVOSgbFytl3BFzzqw-no_qxmq
+}
+
+
+AzureEntityColoring(AzureSoftwareasaService)
+!define AzureSoftwareasaService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSoftwareasaService, AzureSoftwareasaService)
+!define AzureSoftwareasaService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSoftwareasaService, AzureSoftwareasaService)

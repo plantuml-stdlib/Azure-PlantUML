@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Input Output
+' Category: General
+' Description: Azure Input Output
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10813-icon-service-Input-Output.svg
+
+sprite $AzureInputOutput [64x64/16z] {
+xTQr0KCn40JHw4wGRF_LcXbspAZ9tqUHtjqeRmxu2_tmeIiwyiFdhJxsE5ue8ZV-p9N1XtlLGXS8Vu4oByc7zwM0pm1VwDC7-08-4tmXduVWC5nUmHVoHRFg
+-GhuBDxN0ZwBzvKztx-OmdkHb_DDv3Mh0PVdXxLDkcc04fVd8YxFHLoUYxZASc1OBvFdSz_bybozTv4_ivTytVut_FlFVyFh3l_kHbC
+}
+
+
+AzureEntityColoring(AzureInputOutput)
+!define AzureInputOutput(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureInputOutput, AzureInputOutput)
+!define AzureInputOutput(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureInputOutput, AzureInputOutput)

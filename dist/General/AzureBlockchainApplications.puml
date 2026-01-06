@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Blockchain Applications
+' Category: General
+' Description: Azure Blockchain Applications
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10210-icon-service-Blockchain-Applications.svg
+
+sprite $AzureBlockchainApplications [64x64/16z] {
+xT45hiCm48JXJRBhm8FS_xG5QufZMJkjwC4lAkIRqDujJkr2h5zViBWsltvoz8xM5pnQYIVdLCsfcXCvPwBcLCs9cdFsHV6buOM1TMlvxCAyRKsVMoZhrlQv
+WQexlh-mLDpntOLvtRg-lr2WEvu7tEdIKnuBavbVtbdUeyhD79Sk--9M2sZLWzlmcWzm3AWU70Eo1qVZAdXm6X0yE0raF3WFvFtuH6jBtgF1QWxpI_s_Htd_
+3T4U26yNAvsykS0IhQIvdbzOSz7rUo97q_E7w23semtWbm-UzE0sWGqso7u2lmm8dZW6iZuYpZpkEWz4HDOx-5s3ZMzviodjCK2dpteUiCfBpfTpvu62phn-
+o7eC-1ENV74eV91z2VeWUEeN-7ddZW
+}
+
+
+AzureEntityColoring(AzureBlockchainApplications)
+!define AzureBlockchainApplications(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlockchainApplications, AzureBlockchainApplications)
+!define AzureBlockchainApplications(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlockchainApplications, AzureBlockchainApplications)

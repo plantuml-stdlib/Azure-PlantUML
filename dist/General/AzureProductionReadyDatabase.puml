@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Production Ready Database
+' Category: General
+' Description: Azure Production Ready Database
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10829-icon-service-Production-Ready-Database.svg
+
+sprite $AzureProductionReadyDatabase [64x64/16z] {
+xTK5ZiGm44HHky4eRUv_sxNaJBXJNiOl77ZL4MRwkFpIIw7HY2L_cnkyJ4IyYMZTXRf9kQYjt2wuXnQpnu8phvE0-eB5lQ7003wFVV-UPKarz5GtdBtXery7
+DCIKTwKOTCFrxAlqdqXYDef2yt_gXQ_1px4kvxSF8CllzTBNJ7w9M3JCgGZvjLGDtnROWoZMQlfMYNo3GoxLzBtIYi9qa2JDjh1VoYd5LagvonxqHZ_T__iS
+t-IJTpBYRUvS6F4sTt74srmBze133pZqW4CFEFI0Gmyuzj6npR5FpZasEVRgMcnnx0kv5baS-td0uDWl0vSS-sNWacE_37J-Af_9u8E-PEzQKbxf-m2Nr_kI
+IVxG--VVJuFUujFJk9-k6_MJ6VPTsm7VDCx29W0pUVgudW4
+}
+
+
+AzureEntityColoring(AzureProductionReadyDatabase)
+!define AzureProductionReadyDatabase(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureProductionReadyDatabase, AzureProductionReadyDatabase)
+!define AzureProductionReadyDatabase(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureProductionReadyDatabase, AzureProductionReadyDatabase)

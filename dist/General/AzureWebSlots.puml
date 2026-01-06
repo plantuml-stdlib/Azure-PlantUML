@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Web Slots
+' Category: General
+' Description: Azure Web Slots
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10849-icon-service-Web-Slots.svg
+
+sprite $AzureWebSlots [64x64/16z] {
+xTO3UW11343X8icWoFrFkpQ3klC-hVwr-4j2y7a0y7hmUl1wS7Zd2d18Bvzm6QWiu3un9ZnEVi3s5JpZLOADUtpXUs4xzJmbveHTHBI_6Oblex63wSY2pNVX
+uNfPkddU9-22pGXyo5sf7KjvAErFpN5X8hdbK-yj5wnWGPZp8g7FN-wBBxxus9GqFdOjU9lSHuKlllYazk-y76EP5_PPdiHjF1dxApxQ-CFYlyyGyaTK0m
+}
+
+
+AzureEntityColoring(AzureWebSlots)
+!define AzureWebSlots(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebSlots, AzureWebSlots)
+!define AzureWebSlots(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebSlots, AzureWebSlots)

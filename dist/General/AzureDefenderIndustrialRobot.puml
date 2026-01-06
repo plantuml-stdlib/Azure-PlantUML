@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Defender Industrial Robot
+' Category: General
+' Description: Azure Defender Industrial Robot
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03418-icon-service-Defender-Industrial-Robot.svg
+
+sprite $AzureDefenderIndustrialRobot [64x64/16z] {
+vSq7Zkn028JX5niefE7-fztaBOq3RjYSVaM7h_ZrwrSykplyjbwMdkb5sB_25rp6UBetbLNZgVvYgfeCT3rCau6s1rGvm9xWGQ-rppbiFn1j3_hrWBOz5hyR
+YAu7iW5-A3sm6c20uR720ya0raqza0mODaqya0tmDR-VUlTiO67N0vxuX7CWrZuctc5tOHNPnlk95vM7zC1jxVt4oxKDv_d2_vDLAquFYwKJBvjipSEunkQU
+0y4u0BZNdWEnZjmzzog7OXFvfNC_7t2UBpsBjBxNlX_5GEL3yje-DECgRH-QL_fgeEt3Kc_MzV4l7q3jsPukeUrZey6yyEa0LddRHyRXtlKSi6Vx87-k3pCx
+UEzuHlvS7y_sx0Tx6IAYAjVqBf4XCcelyoelLMFgfMxcfTF4gzJfpBSwzVh5VLYdI7s_L_It
+}
+
+
+AzureEntityColoring(AzureDefenderIndustrialRobot)
+!define AzureDefenderIndustrialRobot(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderIndustrialRobot, AzureDefenderIndustrialRobot)
+!define AzureDefenderIndustrialRobot(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderIndustrialRobot, AzureDefenderIndustrialRobot)

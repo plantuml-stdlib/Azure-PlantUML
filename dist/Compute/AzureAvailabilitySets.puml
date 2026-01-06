@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Availability Sets
+' Category: Compute
+' Description: Azure Availability Sets
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10025-icon-service-Availability-Sets.svg
+
+sprite $AzureAvailabilitySets [64x64/16z] {
+xTU7SiCW383Xqy98kGll_xHPE1Qvagg6xlRFblDvtCHbDZMpKcojR5-FTLCT7bzihaRhxqF7Q_jNxNb_rpclPQoh__BCR8Qw__TghnPvjQ2krsrk-xsMsfZt
+nltpyrz8rEBpjxxF102O0czFl0hKA0zveRkNCOzyEt_cKO_8I3pZaNdKvoINqgt5I_TQxxbFGMw-qBkAlFHy1Ns_f3O2b9tUImpNA2rDR_U2iCQXFtGy4rPE
+iIyzZqXurHnxBxSUwQht-It6MtJnsMkyr_M2251tq7ely0oNy5hV1-TVTx1oBxf-pKrqyRJa9WtzGmk9FXJxe5_lpTDygvtiMhejjJBMl4-rFBZ-P5aRMxy9
+RmruUYpqVUxjz1Zxhr__wepNCbry_7ZLEaY3-yTewE-z-rShmN3rsaxroVrpyM_QUYspdG4
+}
+
+
+AzureEntityColoring(AzureAvailabilitySets)
+!define AzureAvailabilitySets(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAvailabilitySets, AzureAvailabilitySets)
+!define AzureAvailabilitySets(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAvailabilitySets, AzureAvailabilitySets)

@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Elastic Job Agents
+' Category: Databases
+' Description: Azure Elastic Job Agents
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10128-icon-service-Elastic-Job-Agents.svg
+
+sprite $AzureElasticJobAgents [64x64/16z] {
+tTE7ijmW38LXa8L0PYQy_zk687PNu-EQdlofjtp7zRPV5uKu2lGGneEUM-ok9gBb7H75tiASalJETPUyKn9Nmu9fmA2jVKwyto1feM_xSshtv4zuYc4MRMx7
+qp5V1gNv3mxWyTChwL4O9Pcd00Di0ykGaek-A_FetWVQ-aesG3oiAukauBp5cu6wKfmn73wY3rjVQuwVo5wrd4NiyE1vwtiIiMHN3vxGzpGHUdeRLGwMFGBm
+TLtN8eiR4UVBkYhS0F2MQibP97kl_VFnmc_pVj6r93Z_Sv_d_PkA9Ntk7z_mHQQOsG0ylqElxlqnQ5uEF3HU86YvxOk_W_3qmMDvNe4lFV0gspE8mC7304Tt
+xS31uu0mnHWYiG073mDPNC3HdoyKuE0n-tcINBJMTkBFgwF_r6kvyaLFl3ANSvwPTTyRXm7WDe3UE0m0xwdtp6pUk1yeysFFvy27yXp8_4gFlFAhRDoy_UCu
+U1W021oy7u0PuEWjlV2bdlkrdFlMBdmxzMtqPTzhwm50_kxaqx_6ynr_VlyiXk1BuAqhpp_Pdrx0zUaV1lnfFy2j7-3M3t3h1xZr0zmYutznNm4
+}
+
+
+AzureEntityColoring(AzureElasticJobAgents)
+!define AzureElasticJobAgents(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureElasticJobAgents, AzureElasticJobAgents)
+!define AzureElasticJobAgents(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureElasticJobAgents, AzureElasticJobAgents)

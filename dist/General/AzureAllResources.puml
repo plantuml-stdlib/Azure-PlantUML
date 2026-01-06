@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: All Resources
+' Category: General
+' Description: Azure All Resources
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10001-icon-service-All-Resources.svg
+
+sprite $AzureAllResources [64x64/16z] {
+xTAr0GCn343HIf1A-qyRvZCpw7U6TsXP8VoDhZE7XF4tDkXdnZayrDjZX5TFwjLNE7_Tm_zeykzFSPvw-qE6EJHio_KSuQcmLwyUfNDHpu-Tln_NyUhPCCyn
+_f1XZWpROZmFvzNB8mhp9vEVlWi
+}
+
+
+AzureEntityColoring(AzureAllResources)
+!define AzureAllResources(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAllResources, AzureAllResources)
+!define AzureAllResources(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAllResources, AzureAllResources)

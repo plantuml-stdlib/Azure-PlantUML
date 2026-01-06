@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: ExpressRoute Circuits
+' Category: Networking
+' Description: Azure ExpressRoute Circuits
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10079-icon-service-ExpressRoute-Circuits.svg
+
+sprite $AzureExpressRouteCircuits [64x64/16z] {
+pTPLOiGm38JXuiWkwVwdBKFy1sIfj7gRP3uvXGK_vRcwVXvLzVNhID8tkMHb3b_ZCijwyFG2SliEptlml2TlEI_of2VFUWUl-Jft6tZUZrnME5uVt2Gb_VBN
+hzV9SKpPks51ZfjxmLylJEK1Hg7i0eAoPzOaPxte3pRESDkurkSup-guEEE3hPYecFQJUwTheUVlAVi0_3l5VzVa6RYPRN1xlX3x-dxUpXzW0OygCUVVaDyM
+OkzQpfTUUW_zPzt0O-zBBhE1ptpDCw5-FcRhDuVJKHTov1lgnjoElL0t8KUUTURMZtWNwymydvvrvkZvMMVknzvGRypD3sTTJt5VrpNaq9kndk6RTNtc7bZK
+vH-J_8figF_ZF04
+}
+
+
+AzureEntityColoring(AzureExpressRouteCircuits)
+!define AzureExpressRouteCircuits(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExpressRouteCircuits, AzureExpressRouteCircuits)
+!define AzureExpressRouteCircuits(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExpressRouteCircuits, AzureExpressRouteCircuits)

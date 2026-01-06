@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Language Understanding
+' Category: AI
+' Description: Azure Language Understanding
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00801-icon-service-Language-Understanding.svg
+
+sprite $AzureLanguageUnderstanding [64x64/16z] {
+lTT7bW8n30HGTR0bUM7kVzj1vFAJQI5uKxiElnmcW4-Jj26dI10dAxJDyy7GAiAtY6YmeJymLmW_AlGDTx1JCUMevmtlzasVsct0DI0tVH2OGfHZt88EF52W
+w8672d8S2to-BxICOgTbgxE23dmXylmv1Glww_02RswZhqEhc7dXE7nrrhpXVNt-382RNzb9kIm02nw_EG9-ytnzUbW13X_th4yl6I_cZN_X6qu_xYrwzvBp
+OhvzvotAESzwy_8Qy-BauWNo8oyG8jg3NXpF-1e-s0zzMOY8nSjc1NpWwPoA3WhAiLycdbVmoVcdzq-c-wVZQvl7EVNxWxx-Zzy_yoths-qVWEQy6l-5Rvhn
+zyzGyoynhquk7kuy__-tZ6y_ybXWVZlmm4U_4YtY-FtinVLOK8XeAQFcrMuxtDAXO26Y5V2jbHXvD-kieAoUNtPdzb0G2N8iI77SWZXNz-WGq_Clu2t3yUmJ
+uHrWV0sH0v1bXf6xQpXCpvq-OV1iWtvxVeudYly
+}
+
+
+AzureEntityColoring(AzureLanguageUnderstanding)
+!define AzureLanguageUnderstanding(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLanguageUnderstanding, AzureLanguageUnderstanding)
+!define AzureLanguageUnderstanding(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLanguageUnderstanding, AzureLanguageUnderstanding)

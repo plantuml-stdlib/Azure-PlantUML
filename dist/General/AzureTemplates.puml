@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Templates
+' Category: General
+' Description: Azure Templates
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10009-icon-service-Templates.svg
+
+sprite $AzureTemplates [64x64/16z] {
+xSq5UYqX343X6879a-v_jmrGkuPygRTdVE27kq-HZif1Nuu8Ts-su16kbwgtkOUXjwYtgBUejwYtgBUeju0VBP2NlKMzHRr5lLtntasVpxrj-cpdxNZ9emNc
+7drCSpajhtlWVArr3wGnx-59ClJp-8jx-SmUiTwyvy_swFSRlfG2FL81IEfHdUdFH0vLkNrIywKCFJacyQcEEQaZzugtVJdrx5TDsbCqDPzU-ZBof2hexstF
+QX4rYVAg1rPLgHww9_TrjGNFAlsXVBe_aAO5Bzq3kqZAVIcetZzrveNh5AQ-3gaoij-wnxbNTURMIzYsRd-w1vvwuZO1YLnxoCBjhVydne5Vxjp_-kCuThnF
+VqN_w-rd-VGPVLeld_jZExixwR2zphrPOFjGzm
+}
+
+
+AzureEntityColoring(AzureTemplates)
+!define AzureTemplates(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTemplates, AzureTemplates)
+!define AzureTemplates(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTemplates, AzureTemplates)

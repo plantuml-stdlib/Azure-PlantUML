@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: VM App Definitions
+' Category: General
+' Description: Azure VM App Definitions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02805-icon-service-VM-App-Definitions.svg
+
+sprite $AzureVMAppDefinitions [64x64/16z] {
+xSrL6WCX34LXd8JQ_bTR7vnlYjJvdtDo3s-cljWqwHM02z0jm2pmyKZmXRJxDJsnkBw3ofxUYCRUTk_hXTNMimKVqMDTBvDzpFUGS-x1ww76qeFVQqfrLq_8
+F_NqqckhgVVLzrG4M6sVAFMO8rY20mutJQRJOMCADaxvvb0KDeTgvftzx37ouXuJbNcgEaxLrgdAlFu1hEZkFym9
+}
+
+
+AzureEntityColoring(AzureVMAppDefinitions)
+!define AzureVMAppDefinitions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVMAppDefinitions, AzureVMAppDefinitions)
+!define AzureVMAppDefinitions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVMAppDefinitions, AzureVMAppDefinitions)

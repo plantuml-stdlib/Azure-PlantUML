@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Disk Encryption Sets
+' Category: Compute
+' Description: Azure Disk Encryption Sets
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00398-icon-service-Disk-Encryption-Sets.svg
+
+sprite $AzureDiskEncryptionSets [64x64/16z] {
+nTU7RkD038JXgqlE613V_srF1aMSLnFAc_wdP_6frtXl81d1ewXVkUNG7Y8s6Kw3_FkcFeUocfBu-extUSJRkljlZ-Gxw2VwOVVyzNu3VC-EV0zOzRZdwlSM
+F8do9fxajITFVepoDG7r8ElF1KzCVlfhoJCazKb8taYYF3Cz_r_ojuVO-3f9nSET3nwjP-ltyF_tTS_J0UJ5N-Upv6_myEeTNlYAhoc8FoZxIm-hMeZJhFD7
+zF6oZLdqRUm3gylhPwUJv_3LzMUCOUR0PDsj8FAd-jALLMClETEK43-wJBQ2-6kkgHzje8PdtgpEeP70A_3U4-zLRNl_NVsTV2RUJbxdVyvaisLZ17N-Ulov
+ZQvjPVlxsWIAgzzRdK0qlby6A5TVErmpkyrSVVX3jdV0Ef0mS_NXbmM9vEAh9zw7pl_Kik_hU7d4IXFDPFxBpv_gYtw3nxVD7_O-duNwnOfF7iHRtpLOTBaj
+913V_VwZxw_TFp4DlzvJ_DNxCpCq_yplx-mV
+}
+
+
+AzureEntityColoring(AzureDiskEncryptionSets)
+!define AzureDiskEncryptionSets(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDiskEncryptionSets, AzureDiskEncryptionSets)
+!define AzureDiskEncryptionSets(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDiskEncryptionSets, AzureDiskEncryptionSets)

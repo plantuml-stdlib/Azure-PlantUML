@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: StorSimple Data Managers
+' Category: Storage
+' Description: Azure StorSimple Data Managers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10092-icon-service-StorSimple-Data-Managers.svg
+
+sprite $AzureStorSimpleDataManagers [64x64/16z] {
+xTM5Skmm38NXSoIZF7Fp_czxwxXBuv2sCDH_6RvmukNd8Z6Y4sAdAvOuxjgSIH7HUo8aRfrgYeQDL7WuXGdlJsBVKyDXIlHsUJYDqnxrUK5lRyTfU1JlJIl0
+sIVqAAjCkTINIaxnmH5dtnHhr9kToc5eIDlmBM14JVCaIavAZBHj-bQ8Uw8XfizYKC4zbhRfUqLm4dDhUxvdIOYz99crOz_ChEOW99uYHLErthc_LKl97vLI
+RUJnSx_l_tmKYL_n153VzmKVvNUyClNdxhMQPL6N3m2en4YbFtcyOihb2wQAR_q1C4QTPd_HX-whnVwIkey-FtPSYgjC0EZmDOqDdcvhJW1o-VeJ1eicMDFx
+DvVyZIKZriGYri95Fy_VvHFHazlwPvF1ozNjNy9mSSmrZzNnxZyMgoaLAtpd-Ed5QbOZUiddYS-8aRXymbJsU69AlDUFaCEGcjKxVmjQRbinhZiqlttzh5-x
+VejzmUSOyw-CNtz-yVXbAwUVk-gNtQxuvR1_RZtNTl3Yg_gXl_y
+}
+
+
+AzureEntityColoring(AzureStorSimpleDataManagers)
+!define AzureStorSimpleDataManagers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorSimpleDataManagers, AzureStorSimpleDataManagers)
+!define AzureStorSimpleDataManagers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorSimpleDataManagers, AzureStorSimpleDataManagers)

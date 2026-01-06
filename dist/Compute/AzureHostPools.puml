@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Host Pools
+' Category: Compute
+' Description: Azure Host Pools
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00328-icon-service-Host-Pools.svg
+
+sprite $AzureHostPools [64x64/16z] {
+jTL7SlH028RXgYP8e4NV_xH_-9mnQF1GVlTFHuNzYvdvlyoUeHuROMGzxJTDDB89HzsDrvNScqqucd0quMZ2KN7oxMmmFMfnKpKlQgp-eBNeU3o0fvsy49-r
+hxa9C1Bph3klj3v5MlXYzoUj49tb7NhCU2MnUIprfgj8BFDMBpr6sG3npfahpdgsl52cIRNfin58jErHNBeMtWel73LyQ6yl_CScIFJd7ib_3lsKHwe3JpJo
+j1Qpw4VMzz3_FKQelQKU6Xv9xNVk2HeUvNwd7Zfubgw73Xv9pqD_ywZZprLxplpsa5HUFLH-FpClvhc_xhxVbKPt_u-l_cZyVqByuTMphaV_Ju9diPBN7Xt_
+_UceykWgSZdyAWAC0_JRC-zxDi2EJJYQS3JXQC9H--G78-pxHXoDD9ffv3Nkrw3Z_W8
+}
+
+
+AzureEntityColoring(AzureHostPools)
+!define AzureHostPools(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHostPools, AzureHostPools)
+!define AzureHostPools(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHostPools, AzureHostPools)

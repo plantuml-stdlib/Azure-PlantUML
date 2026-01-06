@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Database MySQL Server
+' Category: Databases
+' Description: Azure Azure Database MySQL Server
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10122-icon-service-Azure-Database-MySQL-Server.svg
+
+sprite $AzureDatabaseMySQLServer [64x64/16z] {
+xTI7Tgim381XRSjon_k_xNL1dUOIuvwSrVoPZ8yDh_SBFrg2OmjsQ58J4N-9Y12pcxfBEOYPJfUGKrbEebp30OTzYcJdIu3H3_nq0NVmmzxhH_8Put-yV5c0
+Ml7wBI-cNxYElX5kaQGTAn_7lntuODmZCH-i5sFCk1tvrWf-Hg9gcGeJVkRjsFSAuOsej7Rizy9E5i4MqSvzYuXgGfXbH68rUZC-g-vUId6laStviR_Y7zwL
+nIDpOIcNl2C0O9g2qBChNk4jZAsD0rtskSu2MxZWiKO4htlG28Sz2eDUYHxqUCPZ3Ltr13q9pB-NlRmfrFnQy0QPs98FJEzVl7XlqilEEJvyDkaTjafwnui-
+T5zz-Z2SzeYeqGMJr8X2H1mHRgfgPdJcinYgkcKciERXQ_Oxp_4RZxho_AiVtUdv-V0F_tB5n-lOqwnFFZRh3sWsurzFYnkzJhHanox0zVu1
+}
+
+
+AzureEntityColoring(AzureDatabaseMySQLServer)
+!define AzureDatabaseMySQLServer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabaseMySQLServer, AzureDatabaseMySQLServer)
+!define AzureDatabaseMySQLServer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabaseMySQLServer, AzureDatabaseMySQLServer)

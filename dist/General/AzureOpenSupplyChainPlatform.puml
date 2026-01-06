@@ -1,0 +1,22 @@
+' Azure PlantUML Sprite: Open Supply Chain Platform
+' Category: General
+' Description: Azure Open Supply Chain Platform
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02602-icon-service-Open-Supply-Chain-Platform.svg
+
+sprite $AzureOpenSupplyChainPlatform [64x64/16z] {
+dPU7jk8m34IZwfWj-V-_VR51UCGJvN2tbpiQfIpUumd-mF4vA2FVoKZxplwyHAyb4sRMznsyPjX4n0OLFjFDJaTv-6y3MbQLQHkuSVWaBwwZjoHlDsYEZmBX
+jqA_unhkQOWBBwm5HwOltMYwB1Cj_29W3PTX3rdDV82-Wr_hTBNLu5hSaMOheT9jDX_smWJgRriEoClxq4NC4nQwkcuGqCD7dKL1nGQYuoSO47f0e6ViPFoe
+8u1Qa7q1lIG29FbmxIZhTS3PqZ00seluMqHW0_1rjBUqj0eFDF_ks42N7r7GFjzs8X9xt60LMDipjbSEVOB9eu3T_RrD6CTdFGAm08U_NscnFUhea-Ohq6xU
+pRTqyOr_-spf5jYUa5HVq0yaBI3P9wnlNCrdmmKe--dgAmFBrtG7ajxI-i98w2pf0hGTKJK3lwRoWxPqvqzyHzj6JzPlVOdd_Bl-ElM1ll8b-R0wtttEzo-Z
+JtpZ28XByAn-_VmepdXUGDC_WlB2hmiurATuV_g9ySBW3SYOv_NxbQFtlHYYHNkipw4VK027M34Twllo8S0Sq3GyZwSU_ZMWgHGVFIR2B6A_Fq4izEa7hkA9
+-XIeC1vztYHroCGnZctNjdm8a8qWeDO7hOEE1MZZ4T0g74w1w6F0lZqFm5DWo_hnFmBQ390g89t2-kJ_4VI70FLF_B0nOAUDf4fGy5lISq3NKM6WTijmKyNd
+MK87_b_M3XG9W3N9zVyScSkY6yNvDs3QUmHOlvmSZtHCS9x7xxXduz1t_kP8a7O1FQ-0TFW_0AlFzBxlrod_Zv8KS1D2GT2f0v3FTToX1hlNV3SSwS_bVdp6
+bwEHJ-KV
+}
+
+
+AzureEntityColoring(AzureOpenSupplyChainPlatform)
+!define AzureOpenSupplyChainPlatform(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOpenSupplyChainPlatform, AzureOpenSupplyChainPlatform)
+!define AzureOpenSupplyChainPlatform(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOpenSupplyChainPlatform, AzureOpenSupplyChainPlatform)

@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Consortium
+' Category: General
+' Description: Azure Consortium
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10375-icon-service-Consortium.svg
+
+sprite $AzureConsortium [64x64/16z] {
+xTG7hbmX38LX9U1ZGuhtlzlmu8W9CbEuLufQVfMfd_5KVvcA-8taAxsksGtDhdEMhsjsggzF0BOSvMCFYLcj7_iuGMizyy2oUZttc7pe4y_cwkUUSVLZRyMw
+v-4_VfnvgxLQz-IdtgnKfM-ys8aVbJAz0T1owAqklkMZbBOijmOFvrV5gEjMZffDhgOFNmidvCGYPrZIEk80IO-2PhBrrG6ajOtc05UilhYdd4BaCVV5Dxtl
+k-HjukxJUmjvnqM17UT_LVUy2Wawgna02OTR6SYXnPq-J82rW32XQNf6pu-VYVKm-dlryjn37glJC-7gXKNFXAildXF4oYlFij3IptJGMfzvHS-UUEgjfzER
+tlIDhmMm9rvLpTvvj6pwb3FzI3_oCFhyLLgylj-_fUY7inVdItZ_3AEX6MQhvsJwqVgRO5lle-aPMfdD9FZYplBYtILluqdqWp95Y_gP5-Ekr6l3Uq-GOpgG
+0eE7q3XzAw_1feBvcwIthDvpzfd7v6gdditLpptZwfSzx9_x_nvtFH0y-Ua476icMBsVzWsWfpvE0C5bpGbcnM-aRmx_0m
+}
+
+
+AzureEntityColoring(AzureConsortium)
+!define AzureConsortium(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureConsortium, AzureConsortium)
+!define AzureConsortium(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureConsortium, AzureConsortium)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Globe Success
+' Category: General
+' Description: Azure Globe Success
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10808-icon-service-Globe-Success.svg
+
+sprite $AzureGlobeSuccess [64x64/16z] {
+rTS7ZiCm44DHkMWeLD__jEaX3C8pN6CxqIEydzwsxreyzWdAdTGWvC33VbkfW_oe4Dq407ePhxxm0TI1LWO6K0K6Rq3FhztTWi83dme0Fa1lk0s4yH9Ovsvk
+0A3RywbD4l0UUzxQKju076tF9ta4h6UWav_s49xwWMJa78uU06GZhsz0oUUmVWp3hHylqUQ4EpyUuWw40n_pu-aP80UyVmTM1iZliru2mW7dDI0SsFlMrOS6
+cd2W_WWQ6Y3difjFpy1ovnDqrZCmttZWEC2RNmKMSWritW-a2yZDFnaWJxmB3F5d0y9D8EVhTYf0hbVl0vxxW7BrFk0vBzS0TSvvjcb1TCuR3oLnnoMNuyYE
+bUiwvyxo06SkJm9kOpEBIaS1EQVzx2ttQvsBwFsJVuAs_-lZiK_oyu7-MEnswadisTedVJVGl0i-UmVMxHjs1G
+}
+
+
+AzureEntityColoring(AzureGlobeSuccess)
+!define AzureGlobeSuccess(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGlobeSuccess, AzureGlobeSuccess)
+!define AzureGlobeSuccess(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGlobeSuccess, AzureGlobeSuccess)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Modular Data Center
+' Category: General
+' Description: Azure Modular Data Center
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02323-icon-service-Modular-Data-Center.svg
+
+sprite $AzureModularDataCenter [64x64/16z] {
+xT87ReGm48LXBTXlngmaxd_RcBSPhwpWIdhogmtbetelXvugN7egUxdk_xr_b8_m31_hzSYGgdbLDQ-nR-wHl3wz_1mlOBmKasoi-T1LrVzx0Ginf571fEwt
+8_FRPZxkDB_5JY1YinxF9ZooXZqkUUEsCUfDMphXvSt_UnJIUA0WJ3DlTyzyEyF6PxmpFkU1ijVc-njlhV-jyFs3wKblVD8R7_41JEcDN_TkeEGdEFimlznY
+ItbZTIo4i9tw6rjjW-PaWpZpdfalRYoU9H-h-MKvkrZkNSbxv_XUdkN-_cX7hE2XO8g6nwadPugoty7C-uKvyfHK_8vcl9HviEIxBh2NFRlasVppMs1-PGuG
+pJqoVo_v6uiU4Z8-xDC5L2OySuZxdKEF5uPNNznOXKrx9smhU77h4LeROYppFPNzF6TJ_WK
+}
+
+
+AzureEntityColoring(AzureModularDataCenter)
+!define AzureModularDataCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureModularDataCenter, AzureModularDataCenter)
+!define AzureModularDataCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureModularDataCenter, AzureModularDataCenter)

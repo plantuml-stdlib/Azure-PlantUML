@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Workbooks
+' Category: General
+' Description: Azure Azure Workbooks
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02189-icon-service-Azure-Workbooks.svg
+
+sprite $AzureWorkbooks [64x64/16z] {
+rSitOWGW54D1PpqgxdzQvmX67rRLJZ-ztr-23pth47O8Es4dx8ITi1DsmgwJ_J1tXLrHz_zfeyjqgBjSXxBBTgYwV8UYg-ZWkweEYsw-CEh_TD0LTcLz_Zhh
+2hjEUfiwxFSsTO23tfWsRFOsTXY_p5vsJDUoyyDqwMEFdTzSbuO-RR1T6ZiZtoL-TsP5b_Zk_AVg4gmtb5rkmrPdRQDp8ExP9jjacsoJRQBTY7R3xhedE-_H
+RhXTVzokFy66zqv2NB6M_h2t7lRUW_tQNm
+}
+
+
+AzureEntityColoring(AzureWorkbooks)
+!define AzureWorkbooks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWorkbooks, AzureWorkbooks)
+!define AzureWorkbooks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWorkbooks, AzureWorkbooks)

@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Defender Relay
+' Category: General
+' Description: Azure Defender Relay
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03423-icon-service-Defender-Relay.svg
+
+sprite $AzureDefenderRelay [64x64/16z] {
+xSq7hi9048FXLzcYClS_BHsinPQSqClygWp-DZ6MPLcse6PoxiR-3mllnNF3P54usXB7iHYFxIYynz_o0Uzvp3VlpGFEum6zqxvmwcQygvQ8Af9U3hNdgwxD
+yH48NFiXmN7odc-rRJxUOfAlZVcscEGRnkC9lpWUam_lUOnRMCzZrCDu7kkyzndkwoV5KvLbMPQj
+}
+
+
+AzureEntityColoring(AzureDefenderRelay)
+!define AzureDefenderRelay(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderRelay, AzureDefenderRelay)
+!define AzureDefenderRelay(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderRelay, AzureDefenderRelay)

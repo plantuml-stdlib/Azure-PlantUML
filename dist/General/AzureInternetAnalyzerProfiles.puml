@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Internet Analyzer Profiles
+' Category: General
+' Description: Azure Internet Analyzer Profiles
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00469-icon-service-Internet-Analyzer-Profiles.svg
+
+sprite $AzureInternetAnalyzerProfiles [64x64/16z] {
+pTE9ijiW38LX8HsGk_B-RzlZAbEoCO1fU-ytcIM9VzPn_RpA7pjny8qwO2-dlPhsSjhBQQ-dAtbMHUlNSw5SRjPx4zAv_kZrDd42fIEnBwFUInzGca4-DipN
+U-_rAf9i-2PxHv7VKl4dcCezIJ1_KPioc9xyZV7qkTU76exflW3bTG3lanjjmzbA3mdbxZIoDwFUSNTz5dtoPfHJpgnxlNUFhxyPlTRZKIpgEFifvQdFnsc-
+zwVURpzF3a3-KXDcUthNCz_kiTNJUdyyz5ykzpLycS5UvQJiluIwCW2Gv9JOjpnSwkkT2_tFUc-vhqz-3i-lzHxvwmXVltRx34W0rOwlFSnDWaM_12JK5h34
+4BiF2RGwlKbZe4kvNJa2nEhvqPma6O5MUcKE4MG8J5KDWAsj7babfmoq7Ioj7WR5kOErEr00Hb39MKLCWe8cLwz6JBCyNUBiwaE2XFaTM9pza_aTW4pVit6F
+iN_OqpZ_QBy
+}
+
+
+AzureEntityColoring(AzureInternetAnalyzerProfiles)
+!define AzureInternetAnalyzerProfiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureInternetAnalyzerProfiles, AzureInternetAnalyzerProfiles)
+!define AzureInternetAnalyzerProfiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureInternetAnalyzerProfiles, AzureInternetAnalyzerProfiles)

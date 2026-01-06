@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Express Route Traffic Collector
+' Category: General
+' Description: Azure Express Route Traffic Collector
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03137-icon-service-Express-Route-Traffic-Collector.svg
+
+sprite $AzureExpressRouteTrafficCollector [64x64/16z] {
+pTU5Skmm38NX9U6bzt_RMuzcex6F6sUZqZzG_8xAyEzdn3l9cikULokTP_FbWEnbxbRqRaNlLlAjglUgzwhtglUgzwhtglUgzwhtglV3dgMbFdRCKuiF3Snv
+r1xN8LbxUiQ2ZLvtF1tn4ASNnJxVPwUyfDSpFWVad7S9RdhAkxjfVEcTyUOjzPQTy06VCw_wTB7pia_chQCUERm7Avy6jzOUIOwjFGXOMtW0ERVmU1xtXEF7
+qSG3DtYEq1Q3j-6QZnyGOueY6NqMv_lSQ0myyYolF-umiFR1mrzk55qdNdNAbIZzDW1Uw2qszDpvonrzy4XjZ3e_6-ZUI9tuIzTzuddpudtfSm0zRV7QN_Oy
+hVsZdUazlt-VcQyzvrRlXP-93N7sI4wzpzUoCUbzS0wPNZbIWpeV77pSaQOXIPySF8O351pyAiw07ngGNRwkmYET_3zSxpy
+}
+
+
+AzureEntityColoring(AzureExpressRouteTrafficCollector)
+!define AzureExpressRouteTrafficCollector(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExpressRouteTrafficCollector, AzureExpressRouteTrafficCollector)
+!define AzureExpressRouteTrafficCollector(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExpressRouteTrafficCollector, AzureExpressRouteTrafficCollector)

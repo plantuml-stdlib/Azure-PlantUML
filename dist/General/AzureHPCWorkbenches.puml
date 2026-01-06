@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Azure HPC Workbenches
+' Category: General
+' Description: Azure Azure HPC Workbenches
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02518-icon-service-Azure-HPC-Workbenches.svg
+
+sprite $AzureHPCWorkbenches [64x64/16z] {
+dTP9aiCW38LXD89NkVzjcy5-ILmj4_ZtdwJAw5VSKSwErsh0koC0qRhEVfOnOO6xVUGB0yPkkvKnOORlot72A8O8on5EG876xeK9y3bdTtlCFUSCZuARbMiQ
+NFBfWwivrTZ-oN_ogRVjTNXPzMeZ6Pv-yTcljAzqTwCqKgyf9pA_og6_ZbPEY4HfN3BtwIcUUzxsk3zEvzufNH7JDoUVUnn0QcPAj_LJZmFKUlIvVi6pZMJL
+6zQFwYZbXVlbxkqu3XytJRrTgt2_yj7Yr2An9zymiZ6Gf7jDLnBxz1dt0Ppet8z-ygGchC8cIIktjER9QaIaPbQgBxBcrMfCVOmVBGoWsDzUV2MnLcw-KCUi
+_gylFb8c_EHPMuy3j6hrinBucX2T3fNcdKWyy4Sf-Sghz-zAIuayNzsVIAf7y8YfnnbXFNpvt2_scTAPWpzufJ3zzC40fpWEE3pM1rdeCO3f8G4FlPsdofSx
+fpfyF42RjfnTFrysuuZ3uuAgUmBUSW4VFZe06LuqXFNp0NWjPnpb-m35QuuUdyNBRO3ZV72idmr02nm3jZW6x78CsEKOKBOv1gnpL89c3krob2E-VOA-5jjT
+ZdOvqjtR4PRlfjFbVm
+}
+
+
+AzureEntityColoring(AzureHPCWorkbenches)
+!define AzureHPCWorkbenches(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHPCWorkbenches, AzureHPCWorkbenches)
+!define AzureHPCWorkbenches(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHPCWorkbenches, AzureHPCWorkbenches)

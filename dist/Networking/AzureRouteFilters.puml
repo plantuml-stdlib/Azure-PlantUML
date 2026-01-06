@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Route Filters
+' Category: Networking
+' Description: Azure Route Filters
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10071-icon-service-Route-Filters.svg
+
+sprite $AzureRouteFilters [64x64/16z] {
+xTLLOiL034FHC2YW_Q-sx2heWWiFvlwVm23lk5IgKNvHtro0x_5Q7_J0pXVPMwNZUUupA_SyWtwE-HaXFoFaPuIySV9x7iP93C36v-QB4zw9a_g4nghVQbnF
+USWVLLbBpwM7vwlCgkKfRmzeJvAlsfSw71JrY7fSlgyzpvZdgNzVq7aZxyo_rczxtE7wazV-SVnk_Sjh_xeUydJzFkr_W3tuLKzxm033N_E4zKtFg6V0Ttnk
+vxktT7zs9_bUUHunZvXNV-Dzdagb7W4
+}
+
+
+AzureEntityColoring(AzureRouteFilters)
+!define AzureRouteFilters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRouteFilters, AzureRouteFilters)
+!define AzureRouteFilters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRouteFilters, AzureRouteFilters)

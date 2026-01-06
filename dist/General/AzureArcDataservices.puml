@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Arc Data services
+' Category: General
+' Description: Azure Arc Data services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02356-icon-service-Arc-Data-services.svg
+
+sprite $AzureArcDataservices [64x64/16z] {
+xT85akj038JXygW5Li3tF-t33cWJZw4my1Vk9byhD3rjUAnDAniwhTUjoLsjhLkW5S538crnWHepSQ7F1Ps40nsFRlIhxwjkk2-t0JMFyLg4crwvpFdanw-a
+jL1-0Jdd3od3_s0UnReA7v8ypFh3mNc3FmC1HEJ-Vt4uTFoV0iDi60-7dcUZyUHT3JRcuR3Avx_2pHHGCu_yrnPVUr__zL__zL__zK2kymdW9sx09byd06pt
+A7oRP-IxFGhVvx7Fi-9ZdOyvhxd6fzw9QT8oiEGhXqsJuJxFli_0NVhN6qe-vcoZe_9_te2QnVZ4Xg6cHcyALXvqZt-vtvvHDJqNDaHDltL1gUclgMwuJCw1
+LIDAM_njeAIb0WldmEQezo_uLDfrkxOFrtRQsXRw6m
+}
+
+
+AzureEntityColoring(AzureArcDataservices)
+!define AzureArcDataservices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureArcDataservices, AzureArcDataservices)
+!define AzureArcDataservices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureArcDataservices, AzureArcDataservices)

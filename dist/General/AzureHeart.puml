@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Heart
+' Category: General
+' Description: Azure Heart
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10811-icon-service-Heart.svg
+
+sprite $AzureHeart [64x64/16z] {
+xTCt3WCn34JHLX8DyFwtDQOQHwLVRNWjyRbHQTIjsUp8eebzrHQTQrjuyvTERZLJQlkXbrj_P6swjqvllP6rBRH7kPoahsrJ9PUNI_TtNqzo_fBbl4-MypvX
+dh7txnYwlC0yW-JIvaMQ1RcyeAjBYndv7ye5vO9oGRcWN50kdHmiU6JEsxoueLnGBc4jj_ZYcr0k_NldRay
+}
+
+
+AzureEntityColoring(AzureHeart)
+!define AzureHeart(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHeart, AzureHeart)
+!define AzureHeart(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHeart, AzureHeart)

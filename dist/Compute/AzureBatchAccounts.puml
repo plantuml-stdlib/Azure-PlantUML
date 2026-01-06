@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Batch Accounts
+' Category: Compute
+' Description: Azure Batch Accounts
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10031-icon-service-Batch-Accounts.svg
+
+sprite $AzureBatchAccounts [64x64/16z] {
+xTLdQiP038HXDyssWEv_s-0AygTuhFJs_7-tm-hRIO2J3pBTvmn0SjhZB_M0dgKGF8oGIq32pFOHQm_Jh-iQ2AG5LW_xdpfYCZtEw-TzdhsrpuBDgKTFI5we
+Eds07WESUX2abvlxdullqUTNz_OHbmK_lxAO2zW-H60SVPw8RNvOUUz1z-_s6ktLvl5UJNxqYVMozsfpBG7U_RL8NdMsvhiQeAir_m7IYo1tSlALClZEVMlj
+YVJbIflffNhbPZyEZdA_xpl79_R54zY_J8uVjF-S787zGnprv-mVuWZqlgFd0xGholtcNj_ctpC
+}
+
+
+AzureEntityColoring(AzureBatchAccounts)
+!define AzureBatchAccounts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBatchAccounts, AzureBatchAccounts)
+!define AzureBatchAccounts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBatchAccounts, AzureBatchAccounts)

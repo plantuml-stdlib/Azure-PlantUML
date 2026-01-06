@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Face APIs
+' Category: AI
+' Description: Azure Face APIs
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00794-icon-service-Face-APIs.svg
+
+sprite $AzureFaceAPIs [64x64/16z] {
+xTV76a8X34HX2uxSEk__jYvpAvEFsFNi_y2AaXQTMIp9FjgVQLrWqJfxriH6XRqKjUNqsC_XKKnwY8I7hEZXAEgnx_4KZpsFId-gyoUnVJd0R9LVTWrwHDTt
+z_URVOf7qFEnNYTutO3ivpblS4iMzode-NQ-2Ne-q_C1db4Vv6ogl5s_R9f6swPfQ1Sm5--dHfR4-qzmCkGfFH_fwV1ydAVBKt3f6VKKN7eABZtRXHwvIlpV
+Mgjf5_-tGboD-Eh_xmq
+}
+
+
+AzureEntityColoring(AzureFaceAPIs)
+!define AzureFaceAPIs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFaceAPIs, AzureFaceAPIs)
+!define AzureFaceAPIs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFaceAPIs, AzureFaceAPIs)

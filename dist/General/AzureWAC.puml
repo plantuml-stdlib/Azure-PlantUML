@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: WAC
+' Category: General
+' Description: Azure WAC
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10355-icon-service-WAC.svg
+
+sprite $AzureWAC [64x64/16z] {
+xT85aeKm383XjLYJ3FS_xGeoKzeEITVjVouVK5dUeOUmmCV5_jy3zK7UatcVKTQZEmE8j-5wQR4lBjjBKqbwtSv4hTUqNuVAh_Mo_TDQpx67DNKJwRZ2MiA3
+M9SAP7pGt_2etbVotbo9r9iiwsNRwUfDalJgDDx_d-JB6wyVpKiqV_FhfvZqQzZsH_R_TIH5hMhIixLDUJIpedPgnfCPrUEVzMo6jVTPxtxspqrwUgN7brWL
+wyYiu5hWCUoDdW9FGU_cSUWfxuTzjOUmQtzx4rNvw0BkTp9nVkAgXzrptRNdEdYZvuSrdF5Xoz4R_JW9-yx-tvUmvHrw0W
+}
+
+
+AzureEntityColoring(AzureWAC)
+!define AzureWAC(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWAC, AzureWAC)
+!define AzureWAC(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWAC, AzureWAC)

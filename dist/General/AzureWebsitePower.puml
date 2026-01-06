@@ -1,0 +1,21 @@
+' Azure PlantUML Sprite: Website Power
+' Category: General
+' Description: Azure Website Power
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10847-icon-service-Website-Power.svg
+
+sprite $AzureWebsitePower [64x64/16z] {
+hPRPmjig38H9q0BadFRztxR6-fs1I5RNkLJc6yGM_FtVYUdGpqmo5RFGBGhj6VGfleEXc8O2EaveyEzJyVHUMOUFfxFHVZuOxtOzBvXlDoB0qGGR7HbkUAXS
+jABc-GOyR96pdxFXvS8p0_WO5pBb_2sEpRpbPuFtEFOo6p-cQJzE9UQRv_rn2-yKviSPZe2wby1JZiUhA37FmFC0p_lHlusFWEBuVG5emKL7FpJ6M08SlZS0
+V0pXrasZ8o3cgyDxRyGJRcfNS0zWy6W0k4vIIPhm2V5d073mm8NdmEsB5MszmqhWjm3WtuGchZPoQmVU1wmD-9gAlxcXf2TUYMJoxStNqwfl7W62scYrbFAi
+949LV0CKtG_KNbtBr4Da1h2Y0UT5aT-bqH_bb5W0FSgZ6U-yQoZuOh8vyKnxWeSN4i7HmFXyydhE1JoyAyyhBvY_g3vBALLwu4Lf3NtrNYTEXglM9mcBz-uy
+YgCHgL8bKIRzsZ-55Vo2d-loFZzYvsUsRlnOSBovAAwNunjJwmSbL0xL0mSFxuxZSk3-D9tyarX4urSR_1wWtG9c_tn8sePlF9xe9M1qa_3P_02EUyJhy2xW
+Id1pXzFpPTr5YnZZvN3mm9F74hZkLsRZCR4e05zHAO-79dzJmQDy7m0SOZCfwk4Q02V_8WRjOnTgCZWcaBwsm6CFWmy34ZpZ4K02FEa_-_vD3TY_GA13nUS7
+KgE9ECPpdjptRyAx09Rz-zT7eEW3v98PJHpYiADlq3ZEfhQL2lX0xZmxmN17Go4DfR2FYFQKOpIzst-l7m
+}
+
+
+AzureEntityColoring(AzureWebsitePower)
+!define AzureWebsitePower(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebsitePower, AzureWebsitePower)
+!define AzureWebsitePower(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebsitePower, AzureWebsitePower)

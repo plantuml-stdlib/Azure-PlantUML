@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Computer Vision
+' Category: AI
+' Description: Azure Computer Vision
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00792-icon-service-Computer-Vision.svg
+
+sprite $AzureComputerVision [64x64/16z] {
+vTS5rkCm30JWWfkHLBh_RRVW9xaPo-iim_pmy1CK4gUiSn-cKFvkpsO-FzUhUNIpDyeMR_rCUajpdl0sJEgPQuHUojGJvXeZJxfN8VUVMe3b4K2e07dYyh0H
+I5lXvZxbhZsr0Wtm-7TSSraw0HSuqZj7pRa0VP2OPv4OW3rpg3tIRaCRS7lnPcUFucE5pBSSTcuZiS7OetANQG7cyaZmvR0lHWKW8WDVsp_SQVTCKm1rW4Vw
+FjhB-MoxLqfu3QzqJOpnQtjv-yCv0bg0n_VjbVgVrRtatj_vmyjBusrv9VFYNi-FsF718JX7PhtLVlfy5KuzhpF-4Unsn-rUWvoEEkELF8LUlzo3QFR-UUZZ
+smc-uW5KBuFnyKZtysiI1Injx_u-yc0kmNryMY0le0lvV83y-WKVdxqFa5y_kJqFWEPoR-UpcM1Pg3r5QG0Eg7rt0spYfHpN6o3Xwy_EePJxwlwT5e1pFa0S
+kG2cUHs02e2my_7vARt_o_ZyvOTc5VIu1cSV1VeLHEduoDvty19--g83CFdq26kUsVFxsNhPzFoHu5dVlXlw6vwVvlt__lpx1G
+}
+
+
+AzureEntityColoring(AzureComputerVision)
+!define AzureComputerVision(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputerVision, AzureComputerVision)
+!define AzureComputerVision(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputerVision, AzureComputerVision)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Disks
+' Category: Compute
+' Description: Azure Disks
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10032-icon-service-Disks.svg
+
+sprite $AzureDisks [64x64/16z] {
+xTPNSiCm34NHF-41QVlVROQ12tn7v0ZfxVvwpgFSzVHT-syxPqrebeuTipRXzj8IospfiwbUyzAkFiubKPlIWq-zo7l7Sw3FvONx7ZUvnyXTUzwNnolkQk7a
+yE1snmHUFVZ8mPsyUgSVoIFosYCVXu-h3pLVU_fGuMZ6RtoeUNp0X_Su_4WsyU2fwN4Dq-DJf-S09yWJLqv_-RoJLqkV0ymlGO9dqUiElBcGWhNqRC8xc5r-
+U3oOksmRBN3DJ9VutPZeHctEoDk1zpl0yQk8rjvKiwuN-qY__yDLC5u3tbLfcsL58XMlhPrklDeSNjRH9lYHDJHzPWrDdvaTm-aviDwmnE2PnAm4IJvIioVc
+RSwyhra3pshWQGsBcltt3
+}
+
+
+AzureEntityColoring(AzureDisks)
+!define AzureDisks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDisks, AzureDisks)
+!define AzureDisks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDisks, AzureDisks)

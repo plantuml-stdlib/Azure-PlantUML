@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Sonic Dash
+' Category: General
+' Description: Azure Sonic Dash
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02922-icon-service-Sonic-Dash.svg
+
+sprite $AzureSonicDash [64x64/16z] {
+fTHXjkCW20NWfueYs7dxt-saSb9CIQNZtByz7_MInDzbyZE_kqbvf6roqK2yfoMDcVSryZExlB1akxZwhU8xFegkF6Mlk6Qlk6QZ-Ced_-YM-vy4eMvkIh_v
+9EZM4zNpfTFSF1nyF3vuQcNrviZv-kE37scWM_XZDV2XLvvq3LPdwjtrr6eUCHfxTxsME7BXvS2EjnEqEFNllQuXwz7_qSkpb5Jklc_2R0bWvPEt8PDsSEA5
+TuzGcHVUFm8wtkH_VSwbxViq5ewtdghhymWoONlthHRr_WtMyE8fXrpAvFtB5zlB4uJWUfIRu-L7YU5h35zueZ41AayJ3e_fgNslrn-U7cCgMVHNdcWkqOH-
+wGFII1qb2X64IoAexy7e42f9MeKC0EdAKocp3vS9Fq7zM0CSoV7wvwNoxCFFzEVYDGZpX9ZB4UfT_SYfrMigm5aYmQ5nOFKw8Lgl9I0b092ZMn-VFgSm0etC
+18aSVV9yxdJudADCg_GM7BenNpsbSwVYNnCIqbkglCwpPtan3ZrvBU7TNpMUhyFijKHfAz-IQl4wmAp1UCfdSUMN2M4auwtd8h-gdg_D-pMer-8IiBUNNODw
+AHxB_EVB2GadRulRs3MqqzlYzm6xXiE_5Q-6hTQ0c9oZEnFCqRtWfSJYcVb7S9-PFo4xnRq9UrhNiCVrRTZJMiBJVm4
+}
+
+
+AzureEntityColoring(AzureSonicDash)
+!define AzureSonicDash(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSonicDash, AzureSonicDash)
+!define AzureSonicDash(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSonicDash, AzureSonicDash)

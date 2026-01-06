@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Virtual Network Gateways
+' Category: Networking
+' Description: Azure Virtual Network Gateways
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10063-icon-service-Virtual-Network-Gateways.svg
+
+sprite $AzureVirtualNetworkGateways [64x64/16z] {
+xTHNciCm24LXB27mc_U_slHS-GEP4TFRUKlvBrEp7ILjrvQjsL9Qsg3qSLkQszBSbkRv0MvXsVEsDBTbVF3S10-Udl7c-QoNO3XzFkytsrTvbFBRr_b__-_b
+0xqSMBw46soohrK_NrFnu7g6Sp7d3mPA6V9B0y-U4vMXzlwUutw08y-MOm1wx15NHEG6EF8OGCj5c-EXjmi57ZpmY9s7ZZrYvpdquWQCvtdF2nQk7hgKIKyO
+k0PEUz-6dgzLkWrWuGxmfnnvUbOm08wN8e-g-IIXZCTz4Nair0d_Y3k_XO72AFO5-f9AUmpC-WTNrKfKLLNk0vCU6bwr0KvuyEvLPZqq_ACMURNSUvMNlLph
+G0fHsJtJZhsWpXUwr_fJaOT62pXgWGT72pYImAjh0UyTUA_NTLLPNThyvmzV-3gTWYFekUJfpW
+}
+
+
+AzureEntityColoring(AzureVirtualNetworkGateways)
+!define AzureVirtualNetworkGateways(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualNetworkGateways, AzureVirtualNetworkGateways)
+!define AzureVirtualNetworkGateways(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualNetworkGateways, AzureVirtualNetworkGateways)

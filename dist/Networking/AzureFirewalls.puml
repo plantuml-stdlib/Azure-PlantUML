@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Firewalls
+' Category: Networking
+' Description: Azure Firewalls
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10084-icon-service-Firewalls.svg
+
+sprite $AzureFirewalls [64x64/16z] {
+xT85ji9038NXfsF9uUv_jmJg7hWuV4ShVpk6DH_146c7g6j4NUDomzN6brCV-0lS1y86BZTNxMFOHlPniNMYQXEesf1v9FF8v3KoDsHks3wIUKmmYG54iayS
+lh-hZtp9Fej37lJ8FQ8Eali6lQgqL5DB1lU7FGPzQOc6blJk3tlmFOWUHxrUpkdHzYxzlDRsunKUhBnaeph8Qqs_Ed89fklHbyjfVR5yQ5UAhoy7cACgZZvZ
+YRfWaIwSy-5zBFASlvVkFVZ-SZxs
+}
+
+
+AzureEntityColoring(AzureFirewalls)
+!define AzureFirewalls(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFirewalls, AzureFirewalls)
+!define AzureFirewalls(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFirewalls, AzureFirewalls)

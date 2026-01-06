@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Defender HMI
+' Category: General
+' Description: Azure Defender HMI
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03406-icon-service-Defender-HMI.svg
+
+sprite $AzureDefenderHMI [64x64/16z] {
+xTQ5OSGm44JH5Mls3FrN6ngpGvB2yJ-6PwRn3tIbvRLmriWL8uDMrZRwUG86hMupUgJuOk4SZZw_m5ueKrNxj7ZzJez6hyr-QFJwZPvzlx_yvL7ceSTGb5Pr
+XHX2GhLsyfY9keGIReJTLZKMU2iClOtAKE2ZiDmxCPX6N-0TUHo2YAHopxbt_TDqXDbZl_yz3HVU9hx4avSeEpykyyQygZvE8FXbFYq-5ibdxsJEgAedv7mk
+-Qt7tk_7duruhc-dQzXmhuiVEF-9vTrcXTCAP0QhhzW2xCoBFDU8CIwsNu2IjtlMmbcv7iO_qDKz
+}
+
+
+AzureEntityColoring(AzureDefenderHMI)
+!define AzureDefenderHMI(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderHMI, AzureDefenderHMI)
+!define AzureDefenderHMI(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderHMI, AzureDefenderHMI)

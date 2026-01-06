@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Partner Registration
+' Category: Integration
+' Description: Azure Partner Registration
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02265-icon-service-Partner-Registration.svg
+
+sprite $AzurePartnerRegistration [64x64/16z] {
+xTHLOiGm38JXakL81Tt_j6K59ePPnlybfczvuoTEC6ffLozNuxCio-ibAPuAZv5Bf_TtV_UdBsFdu9FG3TYFbnltwQSk_JrKzzuiJbs2rnsysd_gc9Jz8flb
+fKeUUSHwvAgB1qYi3mHZaHVtI84h-lL4uW4geP3lFCAvOdF_otEnNNrcVQv5-fUXt0lflSOP__i0yzKWmOk-_lq7-N3Qssfizk6KTmkbC-w_cl9kYzGZokC3
+V3ZhS_eE7w1y_obulFzfO2WHFZgOjrqznllwAU6x-zFs1G
+}
+
+
+AzureEntityColoring(AzurePartnerRegistration)
+!define AzurePartnerRegistration(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePartnerRegistration, AzurePartnerRegistration)
+!define AzurePartnerRegistration(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePartnerRegistration, AzurePartnerRegistration)

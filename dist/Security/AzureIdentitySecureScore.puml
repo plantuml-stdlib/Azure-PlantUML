@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Identity Secure Score
+' Category: Security
+' Description: Azure Identity Secure Score
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03340-icon-service-Identity-Secure-Score.svg
+
+sprite $AzureIdentitySecureScore [64x64/16z] {
+xTHdSkP028JXNHiQP-v_sYzHIbEeKNBs-_-1KVHZks-JDivBhxBFosTxxBf_AaxxN_WvZYxX7jOrsOe-fLvjwBdT7Ytsvbqwzi8yB1iGC7y2-UrBl5FVFhrj
+FdZkDH-GUmlF3b3xzlajzzRu_riyF3z0xPCNUBs7Zrlli--lzDdwQAttp6E9HwnlM-nZVUw5-VXyfFFf053VdTxeBt3UMnVzXqhfFUr_zWlD_bxmcRZNP7lQ
+Z1TcQg_Y6mPmNW_Wl1v0E6tYLTLNTo_XYQRffGl6fSrU5PlzzUpXTQE_ffU-gF_pz3-cSWtNB5h6CSd6OQUt9PnvxFJsvJsujo_kfVBW7fMttPvNUFZ1dG4
+}
+
+
+AzureEntityColoring(AzureIdentitySecureScore)
+!define AzureIdentitySecureScore(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIdentitySecureScore, AzureIdentitySecureScore)
+!define AzureIdentitySecureScore(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIdentitySecureScore, AzureIdentitySecureScore)

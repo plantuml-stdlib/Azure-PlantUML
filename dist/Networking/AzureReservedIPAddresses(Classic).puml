@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Reserved IP Addresses (Classic)
+' Category: Networking
+' Description: Azure Reserved IP Addresses (Classic)
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10371-icon-service-Reserved-IP-Addresses-(Classic).svg
+
+sprite $AzureReservedIPAddresses [64x64/16z] {
+xPC54i8040FHd63_Vsqz37N1uNPq9oprotSJ-5tyJhzRpM3NxADNp41_v_sHkxXSzdVnq3xww4LLwWOAkFNtCCymwJ8f3RqzW-kFAdCfDkVMtwjNQ6v2i_hM
+tvkJMk78p8bDxMrvR_NZrxV-NchNY9efJVfx7iHgjzDGttfx9WgQCSz0kOsyVu3WLWKrGNo_DQB7FJco_XxkxQF_Re8K
+}
+
+
+AzureEntityColoring(AzureReservedIPAddresses(Classic))
+!define AzureReservedIPAddresses(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureReservedIPAddresses(Classic), AzureReservedIPAddresses(Classic))
+!define AzureReservedIPAddresses(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureReservedIPAddresses(Classic), AzureReservedIPAddresses(Classic))

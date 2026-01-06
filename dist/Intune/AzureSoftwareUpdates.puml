@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Software Updates
+' Category: Intune
+' Description: Azure Software Updates
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10335-icon-service-Software-Updates.svg
+
+sprite $AzureSoftwareUpdates [64x64/16z] {
+xTP5OiGm38NXiVJqNExzRrjJ8gUeeLNzxm9V6Fp-ptkwOu_MUhZOi_NurshGYyBOS4uNbk_kbrz--UMN5uMnP90Bl82UgOIzwpcJSxmOlwIpbrzpFWSHSH_a
+K0L76lIWbqubPI_eUVIbP6t2GjvOWurZxbiOKn7FaXNbjwxuFcK13v9QXP-7xbC1RxHJpmuRY7hkFd6lJ27i2Q20HaQodS2VNhS3rZJyc4wJVzI_lUpOKjfy
+3eu0TJvxb8cwFSIzzGlkPzys0GO6fhcHv2VWDmHyZ7eSBh-Ebw3vzzyR90rnlF_lWOvldhO9A7ccfymFeVFu1f0kyvbR1aMOUvoBS-z2xZrSoBrBjPU_rQiF
+}
+
+
+AzureEntityColoring(AzureSoftwareUpdates)
+!define AzureSoftwareUpdates(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSoftwareUpdates, AzureSoftwareUpdates)
+!define AzureSoftwareUpdates(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSoftwareUpdates, AzureSoftwareUpdates)

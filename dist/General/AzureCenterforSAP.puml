@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure Center for SAP
+' Category: General
+' Description: Azure Azure Center for SAP
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03090-icon-service-Azure-Center-for-SAP.svg
+
+sprite $AzureCenterforSAP [64x64/16z] {
+jTM9SkCm30FGLaBewTfJ_F_Nxg4DfxHWMhOcGM_Q3xqYXk-CcP7hzuHSp8ErPRltRMEuFZEbsw_WcT36DUOstzPzRccINFjSuzpbIa62FQC2rNd36L_8YOBZ
+RrvAIHgkyC_ISgNWY1VFnr71Y9UOGO7oqkUqG3Xhnq4j25myKACsE_iDb1FuQQZzHUxz8hnvRtYans5ZYwKUA3WxJj7pq2Cv4y4lazuBx2MUzppVx6ldbzH_
+gM_P-NILaCS7jpMu3pFrmiE1Q_wBv8SSmk_C5qybYOV5MMmuzYKcdQdFjyQdpDHxGQswDNJcN3s0S6TjKvb5_ujU85kZdNkTxJt5-ztmgSo67gYm_ucpQdRY
+BJarEdF-AizvJ_VjxOPVUqzC-8rUG00aUT7BymzQagqXCta2DRgFMyCZC-UohUYVoy834BdwM51Wx5CV9gjBFJWC6BXu3FdJRvmgW7kzaZJ8FTmQdYX02xCx
+SDg0aAm_Pdn9Wpu-4vu5m_0yyzmphpsJEcOUQmlVcJy
+}
+
+
+AzureEntityColoring(AzureCenterforSAP)
+!define AzureCenterforSAP(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCenterforSAP, AzureCenterforSAP)
+!define AzureCenterforSAP(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCenterforSAP, AzureCenterforSAP)

@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Fiji
+' Category: General
+' Description: Azure Fiji
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02486-icon-service-Fiji.svg
+
+sprite $AzureFiji [64x64/16z] {
+dPDRbeCm34D_sjXI-jZ_RkV0G8MRkERWdtbUrJANzwzfwxmlZEYh2TOEOnS_N7ELrboY-vDfGetZkOmd0HNjpsqUkkLvsXvFJJ-NOCBvZACpt4yNZuDaXM9r
+pICvP4tNPqYBfsT8y6SnymtyB4-T-CYJVcP_YUIzHvwmwduIsTW7dahmQGAqUkypdlJSdzuEgsSyeJCanMr1QPZoyGnPyUwj3Rm6to8o5aThEH_Fu6DnMYjv
+bMYmiFeINVDAqEp5bHNzTx4g4OlJz1C6_mrfWlLry3a3xTj_s2G1jYyhthZMC8x-Xn9szzKdP-_Y3VynK_-zAO5skpMGx1hig__ot_3XRnPvSg5_-gypB7oB
+_5vy-IRtVok1-y3ZOF2KrsC32GkyLgSL_c4x0q3njh-wViP_sV1TlFPVPzXvVehR9YHwv1DxGNuLby6P_x64OrzT_dEzXW_-U_8IH_-H-Eyj-j-m9XZYyvS6
+aPUzyf-9_vxu2wlyruFC_NUc_cE_XdFEwmmOUAqEI_tH6T16_-sS_pRwh-Ad_DUp75_TcfUz2vyOB5u1an9wTKKxTro3B67mtzW3dgx03K3qFzBvKmH9D_DW
+ZoUqIiX_6_pNwjaS-Pj7dX1T92J-YouJCEDVDQo0Dl2dO2Mu-gTq-IYkqJgay6i1rsYLgEW_
+}
+
+
+AzureEntityColoring(AzureFiji)
+!define AzureFiji(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFiji, AzureFiji)
+!define AzureFiji(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFiji, AzureFiji)

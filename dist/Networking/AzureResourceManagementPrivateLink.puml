@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Resource Management Private Link
+' Category: Networking
+' Description: Azure Resource Management Private Link
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02145-icon-service-Resource-Management-Private-Link.svg
+
+sprite $AzureResourceManagementPrivateLink [64x64/16z] {
+xTI7QiGm383XYotB3ill_xPLYn7z8KEeU_otZJvTM9aVsNX9ahgFrPxpmvCazpx5_ti6dcY7ppJwiEVCropzmLwjB_F__j_RiyqlhDItw4UnyhoiyZg_OIje
+YzslyUSCOyVSecOOE-R3zM6SE-Q5iSVX0XnM05ORPe_u53dT8AgOFkBcJpPKjJXFxjuwr1O4Vy1B9M_gdeRSFJU8MkwfEhbv3vVkdWl8wQK-wwRmNE2StdCD
+pmKYy4mP9urh5olZnUfjLi62i9Vbi23WoV4ruidn8-Gfy3FioN4GykGu2dZmsmKnpcDuQdBqwhmSUOuTBy0oUem5ef-9t5F7AylFT28ndUy9
+}
+
+
+AzureEntityColoring(AzureResourceManagementPrivateLink)
+!define AzureResourceManagementPrivateLink(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureResourceManagementPrivateLink, AzureResourceManagementPrivateLink)
+!define AzureResourceManagementPrivateLink(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureResourceManagementPrivateLink, AzureResourceManagementPrivateLink)

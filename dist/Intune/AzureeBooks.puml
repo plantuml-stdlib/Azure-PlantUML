@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: eBooks
+' Category: Intune
+' Description: Azure eBooks
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10330-icon-service-eBooks.svg
+
+sprite $AzureeBooks [64x64/16z] {
+xT5LaiKm34HHjHMIF3NP_seVao7CS7zJ9udTvIYTKRJ74tCFln6XXhilCC_WryuJSzHJQs_cys2dpjuaJcZdzLv1jz31Yxrtu_BrVirUX_dx3-YAF9mwUt-_
+kJt1QMFtV-u7yzlW_GxdmKw3zvlv--T-nebcts-GF_SZF7Dzz_tcz-x_7t0_GJSFTRrA4PRppNDQI9ZQhwyf0nUsfYQlIMRhVSCB2ctq_tLUjAw_Sc1dLm
+}
+
+
+AzureEntityColoring(AzureeBooks)
+!define AzureeBooks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureeBooks, AzureeBooks)
+!define AzureeBooks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureeBooks, AzureeBooks)

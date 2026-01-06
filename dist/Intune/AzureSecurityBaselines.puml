@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Security Baselines
+' Category: Intune
+' Description: Azure Security Baselines
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10336-icon-service-Security-Baselines.svg
+
+sprite $AzureSecurityBaselines [64x64/16z] {
+rTNNReH038LXuGfpm_i_ROebB9I9TMQzgV_zTvQbdj-Gw5lIn7ghhRE6bgj75xRGznuPq6ZY4OQbnYSZSQ61bvI00myqy40ZZxNPcgyqyE37WKSQUA2X1nnw
+eB77ElnMUA1xtcOlXGSQUwp3K-cnDbUrwgs7kRjNduGb7Vw4tWg-w0kDFTPkm5lLvJyh1cQzZxMEy1EtOoocJ_iS-3K_3xYiPlaCtBGxBNTE1-0D7mEf6pu6
+GgVdPPy3To_78KIwLxbS_ZPmypw64UsZp3xwBGOkh_7xjfT9-la8ulypuTBdGEFwJGDj7mCQdjsOYBLAqiy3I-TVPv-NWOYivQFmR4QDuu-iUVwol-0rJX2N
+0MzZQEVyH_3wOy-xCv5ObVApv--_UinFRlXchm
+}
+
+
+AzureEntityColoring(AzureSecurityBaselines)
+!define AzureSecurityBaselines(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSecurityBaselines, AzureSecurityBaselines)
+!define AzureSecurityBaselines(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSecurityBaselines, AzureSecurityBaselines)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: App Compliance Automation
+' Category: General
+' Description: Azure App Compliance Automation
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03071-icon-service-App-Compliance-Automation.svg
+
+sprite $AzureAppComplianceAutomation [64x64/16z] {
+xT59ZiGW38NX6lpyd1Ntlss7M0510mLYcszLGtuRaT3rUEXbeqrsQhTJkutSJTSx0wXx0tHe8tURkSguPo46hApaylsARlJV4sOFeAmXzZBNbujzbdmZdUYP
+UGUb8jP-0mh9OtxbyEnx4uYFwVMirpUXrxEY_TxfCCy749p4lrNlOPHJvG9rSW5BFtjDqEhPpGdFCubO6wv7Zjy-0AorUeLSSlvwGQLt1utThiZZKCU21AiW
+zNXzKfvxA_thqtxg-nmGSvwcU-Bkuu2tvwa7RIoFK59JpYjMsXpuLLE_O5vFcrM_RlzkQxrepXTxY1VAuaPdSqe2IABM43h7Ry1Q3-GII_iD9vef7Cq8D7E6
+vW3I3tBdNI64mxg8oCPziFw4c6k_FiBbw280ExeOgW6BmcqZTpkvswdTNksMsiVZ3m
+}
+
+
+AzureEntityColoring(AzureAppComplianceAutomation)
+!define AzureAppComplianceAutomation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppComplianceAutomation, AzureAppComplianceAutomation)
+!define AzureAppComplianceAutomation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppComplianceAutomation, AzureAppComplianceAutomation)

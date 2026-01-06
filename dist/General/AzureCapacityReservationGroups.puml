@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Capacity Reservation Groups
+' Category: General
+' Description: Azure Capacity Reservation Groups
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02732-icon-service-Capacity-Reservation-Groups.svg
+
+sprite $AzureCapacityReservationGroups [64x64/16z] {
+dTDLeW9130LHD8BkVxNF9K2b-yxa_rJIo7qqnw-vAyES0xfUNpWK3GLjUPtD2htk10Eh5pO4zG8XFN1WLEUmPBUv6zsWStSpAN1WxOudY5ejlEhA-H4RRNb_
+mW5-SAYvuFddpU3qSS4oYoy5q128hFvxI7F1Cy6RWOQ2PQ9t3yLdidTf8XiV2_Jf13v-2Z4z_TJu26rvxqFIlUyVaPMpXm9gzbu2_UczhnS4wih9cmSy8cav
+-1Ae1TJi_NEU2w3P--yy1e2pZy02QVxzSm0rUomWPuy5rEn_vZ40klLqGj7oxxyMO3bxBaIZmVD_43LwFe4uUowGPi-F08s-pkptpvvFw7MUVlYmK3Mlvu0z
+-LwFJz1qNs3D4r00VMBD9_1olG1wF3doSHV6MtyN1_rfWhZ0k_K0Frmly7Aze6l-GSvEVmS
+}
+
+
+AzureEntityColoring(AzureCapacityReservationGroups)
+!define AzureCapacityReservationGroups(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCapacityReservationGroups, AzureCapacityReservationGroups)
+!define AzureCapacityReservationGroups(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCapacityReservationGroups, AzureCapacityReservationGroups)

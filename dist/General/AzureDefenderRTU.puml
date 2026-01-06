@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Defender RTU
+' Category: General
+' Description: Azure Defender RTU
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03424-icon-service-Defender-RTU.svg
+
+sprite $AzureDefenderRTU [64x64/16z] {
+xTT7UciX44JX8iE8_Q_s1GKQIYfR_MdaS2OEhL-96-Ut2V1ty9YSHM3ZfRehmFAvrf9TbLgp-LeZdCLQTmzCLm3vwUnR-TOytipx7fTQavkt6bmyWFY_rkAP
+FGmq2S3oG6vFoyOhpnAm_3zU_zVEYl6YdlhYByy6e1rLmUsfpL_-XEAPz9gPd-nhM3nfhlsTJqJcDjC-BXuqrpu1nEcfjTSBpqyjVH6SdbhvyjB2Iry5vvdo
+7sytDXFU5ZurxjYcpFUEo--zzsExwLiqwsOElsytdOh6c_2sk7ZWYPxwYI_GFFFiqM-yCZzcmc-BoxpkN7hDzvdojcqmRzXcqjlYSjjsqp_p29sBuAVMNdEU
+iTVR3OmhBpbjK-HXNcmtLV6E_nNpBsutN0R6m6rn1zMCb_6qWkKd42dZD4fZfFjvVFdfk7mOOprWUKUxUT__UZWv-OJW2cdtPOpcR8ng7dsuQyUDLohE8l3k
+VUEtwIy
+}
+
+
+AzureEntityColoring(AzureDefenderRTU)
+!define AzureDefenderRTU(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderRTU, AzureDefenderRTU)
+!define AzureDefenderRTU(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderRTU, AzureDefenderRTU)

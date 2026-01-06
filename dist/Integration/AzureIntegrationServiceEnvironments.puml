@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Integration Service Environments
+' Category: Integration
+' Description: Azure Integration Service Environments
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00555-icon-service-Integration-Service-Environments.svg
+
+sprite $AzureIntegrationServiceEnvironments [64x64/16z] {
+lTTfpkuW20LWh23KRzh_Qk_qcXDAiDKxdR_ceTWf-3LDFn7xsioPP1dtSvRTI-zNU7ERTZcHjriUi6fhgg74N7ywh78K6Yc7g2ynuT2c38iQx2hSSwsKfkfT
+0LoSQHf62rEkXMvIqCA42pr4K23ZJ8-fMO71AxaKbr0W-kpgt5nuNW0lRTYxU2_PFNYxNbufU4OhmPEY0TTzYVv0mz4NGm5ufdLF_2eGkb_ts05ytVFLp7ip
+slC4ZztlUHuR6BviU3m2U5DAVCsUFwBUI-PTilMNVxL_FFZakpn--Uws7tBy2F-WnuyGvJTWn6WIxbre4dZSlZslVy-tsOspti_POsYvvtwJcdjTzPpsVmPl
+dCQctfPkcLozEL_sVNdvZlTtqnylVlr-genKv_8LoRvVcNvmBQwe9V-FfYCjUgm8jkyzB_iM_b-ZmAut2__lFL_Z_ryVl5vN5Fvo1zH6D7giDBzxFtoKTL_C
+URy3rX4cdxYYuBu1eSM8kL7O5U0rpia0X8UuFe1bioklyyzi-DsU7sE1v_dr1CyBtBN0jmFuoDxydXzUilF3ym7aqrLGgGMsYWA3voqWuVoqe34A_z49i6_e
+tHx-n_aPwKlsEm
+}
+
+
+AzureEntityColoring(AzureIntegrationServiceEnvironments)
+!define AzureIntegrationServiceEnvironments(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationServiceEnvironments, AzureIntegrationServiceEnvironments)
+!define AzureIntegrationServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationServiceEnvironments, AzureIntegrationServiceEnvironments)

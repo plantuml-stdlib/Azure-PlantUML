@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Managed Grafana
+' Category: General
+' Description: Azure Azure Managed Grafana
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02905-icon-service-Azure-Managed-Grafana.svg
+
+sprite $AzureManagedGrafana [64x64/16z] {
+xPA7pgL028KvLBtRtlzfjmnUOjI4SVjVlZJR1mV6Bo-QT_n_vXq3p7y14FrA0QRluEVJqq2sEx-9CYLWDGR9R5irSrVG0Kp9sHIWCtucZkYnAPY1pO-6emz9
+nKt68gF7g8165ECiDLgyT1pYAl9H0n_rma0yFG3yyjLq08t4XPb5qvEP5SfeNpSRUHBWQ46rhsNKG8R90_3w6LXDHnbOHF3C_Ye-KefmR0zjRdtyZABxnn8d
+bWC66dxU4DS7FW8i3PjUlYu54v4rUe0IfByNb8YayOMUH6RU2LQnslQL58WRVlMlBtstG9bPe5O2t_O95jQH9SisH4QeLc5gCIhLN0rXN1ESLoFB1AW4fJCb
+EkCx3Q3r0EDUSfGUemqsTpUkbPvOBt6wGDTfbCxO-ak-hlTz41K-wzRyx6kOgcIfvOw_Y5XKCJJnEqAQzYtBjVxEOtty4kkN5yqxtm
+}
+
+
+AzureEntityColoring(AzureManagedGrafana)
+!define AzureManagedGrafana(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedGrafana, AzureManagedGrafana)
+!define AzureManagedGrafana(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedGrafana, AzureManagedGrafana)

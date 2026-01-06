@@ -1,0 +1,21 @@
+' Azure PlantUML Sprite: Azure Database PostgreSQL Server Group
+' Category: Databases
+' Description: Azure Azure Database PostgreSQL Server Group
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02827-icon-service-Azure-Database-PostgreSQL-Server-Group.svg
+
+sprite $AzureDatabasePostgreSQLServerGroup [64x64/16z] {
+vTC7Sjmm38LXeZqMj_lVDWC9vAx6uf9EcPO_rUK3eUAlVnUDVWedxTjvcvgPvIbctfWmhEXD8lno0eVM5qbypmrFQ-qnUUcx7tnhm3_o9Fh8HfSxCF7wDC2G
+IxrKCko9stV_Dkw_szkozkzvk_5Dg4_0zmabcr2aRtV-xItJ8rOpHAR2zAYytNelCorYrnFlDV0S2rfxc_cejLQXJDUODTVcBVsebb9opgKuzFRyfF_P5o3N
+RP-5MTH15YPMD51AYR7bAwKpgPpE2ET_kQvz6oXup9BpSqkFJc3fAMd705vwwg9HUixEwrhvDWuiwLgr7L_7UPQkQVtH-LaLUSnWrDfev_gxgAsOelPdOSBk
+TUcvUqcQkMZo55gf-LPBhu_RJo2pyFxo-6UN7iC7zBYS3qJNljpvLFcOKTQ-TNzvYa2YcgWjl2V9ewldwXEnu_5yVf7nEb2bjkCTXlHZ8wx8sFEIF2tNbnXD
+svv7R5muLKgZKZTzEv7vDnVkd4eRljK2OERF1OvjJKlto2IgvZCpeebld98St1zZbC6ikJK_sLHnDF5LrF_ofMltiNu6DDxCgOzgBgqDtxcvzk3DVTIldpht
+_-_xSJuFJWRrJ_pCY-y2qE7OZpVTySrnF4xumO3HiGJlUUwlRwjnl8aeOCcsl9w-nDKp8Y9iUOpBpxu-TPxK-TfNwJyBS7ym6FcWg_-yyrwjiGdCLs4Hzf6T
+Zzx3pyg-TKJ1hxts5R3G0kStXPyk05DHmuHxxKKPqOIlPapqUipN243UeFlz0W
+}
+
+
+AzureEntityColoring(AzureDatabasePostgreSQLServerGroup)
+!define AzureDatabasePostgreSQLServerGroup(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabasePostgreSQLServerGroup, AzureDatabasePostgreSQLServerGroup)
+!define AzureDatabasePostgreSQLServerGroup(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabasePostgreSQLServerGroup, AzureDatabasePostgreSQLServerGroup)

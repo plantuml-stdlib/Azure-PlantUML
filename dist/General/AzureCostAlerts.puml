@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Cost Alerts
+' Category: General
+' Description: Azure Cost Alerts
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10791-icon-service-Cost-Alerts.svg
+
+sprite $AzureCostAlerts [64x64/16z] {
+xTD5WeG044FHIXazA-v_sq7IxXcNl-QXOVpg_YivSZrolQ_tVQlChBxL7G-p_49VauzIVS3MF0LVi7tvh2VNlTkRVDcSmomSWe-5zqIhEw7ve9-IF7IVVFxx
+VhYsN7RJ3vE_N1f3z72rwxx3jY7xASyIjirRy4C7ZBdYfs2iP0_UWEfhdTApFdU-5D-6xDMdvgSy9kys5u8_hD_cy-dl3zk75FPRWVqFzAndZVtorFtqL_fm
+rpsxupTlwj-FR-9twyEZfNJFTC_sNerUZrxlXLvlq-EtwxzN
+}
+
+
+AzureEntityColoring(AzureCostAlerts)
+!define AzureCostAlerts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCostAlerts, AzureCostAlerts)
+!define AzureCostAlerts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCostAlerts, AzureCostAlerts)

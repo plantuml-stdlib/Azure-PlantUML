@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Import Export Jobs
+' Category: Storage
+' Description: Azure Import Export Jobs
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10100-icon-service-Import-Export-Jobs.svg
+
+sprite $AzureImportExportJobs [64x64/16z] {
+xSr7GiL038FXrAaBt_-qDD5n5CyJ7Vxz9za7bXwJC18qsWMEedfB1mdlIE18u4ZWgaSQvtwZ4ctaEXJv5dmA9_BiyZoKnvM5V45dFCrxTC3bqpJnWNB2JmU8
+1myEk9mES0yU7s0S0zmpZW7kEST0t2_pRHEQRrk6F5h0C-A-YDxAs-vzuSd-S6253t7T6_MS8zKRzPmZwZb7GpwRKzmREfxOrzjsprOBn-y-tbVmUh57d-x_
+VNKQyTtpqa2piRh0CI1m30WS0nh70BWmq3ZdjTQgVUUk0G
+}
+
+
+AzureEntityColoring(AzureImportExportJobs)
+!define AzureImportExportJobs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureImportExportJobs, AzureImportExportJobs)
+!define AzureImportExportJobs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureImportExportJobs, AzureImportExportJobs)

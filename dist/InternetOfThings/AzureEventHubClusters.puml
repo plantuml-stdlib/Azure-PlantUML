@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Event Hub Clusters
+' Category: InternetOfThings
+' Description: Azure Event Hub Clusters
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10149-icon-service-Event-Hub-Clusters.svg
+
+sprite $AzureEventHubClusters [64x64/16z] {
+xTD50eGm38NXUhlh_KyxZeSN9Xd1_btbmwaRxop1Ciznc_2LRks-sTGS1dZnPMp3D-dFds26yubfhJxtlVWLyHww3_b2xosK9m7buOcrVdOsCC4pBVPTMl_c
+zSSbljAzlD5v8ig766EO-b1XdO_tfclCvzpKU1plqoCMQds6NpNlqynquyiziQ-ixo8FA_VbaSG_Aq02tqZWSNelXU4MuPir8_22_xVf3nwtVR_jpgu
+}
+
+
+AzureEntityColoring(AzureEventHubClusters)
+!define AzureEventHubClusters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureEventHubClusters, AzureEventHubClusters)
+!define AzureEventHubClusters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureEventHubClusters, AzureEventHubClusters)

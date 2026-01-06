@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Migrate
+' Category: General
+' Description: Azure Azure Migrate
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10281-icon-service-Azure-Migrate.svg
+
+sprite $AzureMigrate [64x64/16z] {
+xPBNkeGm20Ot1N8wx_-qMwE_8elaExUPxMKcQX27oMJ2Ap9EXJrIe0NM3CXs8QAxXR0Dk6tnz4h_2Z0K9_0HFdhGjWJrabBAE81XFr_kfFW1a2OXu1m0P3TW
+-x2TWEl3zWFSTlWwk3p8y458hq-_Mlv7M2_h47piKBwtkbq8wq07WZhO-mS7Cs_hnBi0cJEFjmJCC_0chfJoF8x-QXw0F_EOe7S7mEU1Z83X7ra2lD03lF89
+U2ZW--0PoEfpYli52wgUzfkbzyd1yU-NRz15ndN-y7rIUb4wR_GxmpgM_vC7WtfJkdmUTUALe_xLaOLFGmT4PEcofNMwtjx3OlBPdfpgfenZo2bb2jgJoUG6
+}
+
+
+AzureEntityColoring(AzureMigrate)
+!define AzureMigrate(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMigrate, AzureMigrate)
+!define AzureMigrate(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMigrate, AzureMigrate)

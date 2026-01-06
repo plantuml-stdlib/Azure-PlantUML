@@ -1,0 +1,21 @@
+' Azure PlantUML Sprite: Virtual WANs
+' Category: Networking
+' Description: Azure Virtual WANs
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10353-icon-service-Virtual-WANs.svg
+
+sprite $AzureVirtualWANs [64x64/16z] {
+pP9NegGw34GjMGvLxysm_zqE89eMxk2F6yyFmJubMR3yNahW8xBp4TtvWEtO1tJd0xhpGRtCTIiV2oWJFgP_t2yJUyf4dZAniweDnh3oLfUqegDwhkJ17tLD
+EnR5SUNHjbZaHGCfhBoUN9hxEozqE-hdqNxixBdkkwGyOkvB31Xz5L4Pku-zoKeU0chKStbF5X6x1iJkjSpGkCdzi5JcX0O6tvDdv738kkgrtjktYJkUqls3
+lFfrpdQ0UZ3wfLvfhRVMwfNesvlw7Jn0RvVwMa-2Ro8vsBo0DcvxF408RY11TclCbNvV7OrjlXXWtrImIMgKP60j88Rs1zydMmwzI6TBQVUJ4Pf1j2VbXmRK
+cxUK2RdvgR8cxUYxhdNmsurxk2kdhyIsuYLgkxEC0UTemUuNvvoVbg1Zy5izQ7pWN1hAFmqebLKtoFrIYU17tHbzwxIq8gHiLoDVbNVwmH4We4PVIJlyVXBq
+8K1lNhZQFbgC-fW0c4fI8aK_WIM9AXZjaOuLcgeQeHkPpBe1dsSdTcnvmLzE09Qtm2iGs6S1rfr-_axBUtpmoffssd7-oh9Tvhv_U66_-cttXPpxzPnxy3qs
+4yi4U6KmNtm_LYLd_b_VsMZH5sAz2joV7S3C6j4smFtI_P5OfW1ympAdayNCsp3ILYgxMI7nToPxG9UKsSxluDEe_k_D8RQ0ndpp5H2f12TY243EXBelZQOz
+w5FOoGP2Dt_LqVX4dty5LBButQ1F-Q-3pWjx3dhl03hut_9h-GS
+}
+
+
+AzureEntityColoring(AzureVirtualWANs)
+!define AzureVirtualWANs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualWANs, AzureVirtualWANs)
+!define AzureVirtualWANs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualWANs, AzureVirtualWANs)

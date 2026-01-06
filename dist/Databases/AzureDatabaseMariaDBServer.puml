@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure Database MariaDB Server
+' Category: Databases
+' Description: Azure Azure Database MariaDB Server
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10123-icon-service-Azure-Database-MariaDB-Server.svg
+
+sprite $AzureDatabaseMariaDBServer [64x64/16z] {
+xTLLkYmh343XU4BOCl_HNg6LhmIQuxBU_nBqyzk5zvPXtvhjczH4n4yH4TuQQcAMdPZfz0c4BPQJ25kqmm7_ZwGrUW9iVSU73_WsllzxlIUF60-yF3r0pQDq
+XPi-STtwIjWYkTfjVX__kkEJyVO4YuqDDyPhNFTyhOwFI5JjcWeJFegww__F2GUHrthWMsc4Xx5brdDVCxEO4FOHYPNylx6_LIB2tICQRCtuGR-wJyjb7wR2
+48i-21009TUy8tW0ajOb7mX02C2vvWbQcdN9AxHiSVu26wTSyuMWPOjUu58i-S9mBLTy45pZ1Ly4uPQzxBtfM-Kbxye8pt6-uAtPBf_tXM0JvRGFX6q-xKl7
+4LgIqvxWEON_GzTPBnqd0m1oHon3dsxQPfpKJDkzIK7jtmF1HbxW4iNpBNJxzuYHJoS0GCld681BjeQU0P1BnnrGv--Ft6HMyk_zEV9__SShFZ-tlStxnhVD
+-i_3PlpdQIF-ET6oxNi1hlSl
+}
+
+
+AzureEntityColoring(AzureDatabaseMariaDBServer)
+!define AzureDatabaseMariaDBServer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDatabaseMariaDBServer, AzureDatabaseMariaDBServer)
+!define AzureDatabaseMariaDBServer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDatabaseMariaDBServer, AzureDatabaseMariaDBServer)

@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: App Service Plans
+' Category: Web
+' Description: Azure App Service Plans
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00046-icon-service-App-Service-Plans.svg
+
+sprite $AzureAppServicePlans [64x64/16z] {
+xTH7biGW38JX3LA9z7p_qqxE0YDUJUx-zvzDFlZICe8_jlHNBnWaOMzzLDEWHo-IqFm79EPhU_oAAyTyAmzhu7tvdl_Z_aSwcZ-v_kJ-NypvbznyrHuNGCwy
+FDHwjjfTHHvQ-jBlTwfq5sA-rNINUb--nsTg_FpwYUOwtB_7TENdwMjnx_Ny2xfJ8hqgwutqode4FMPfo6FUbtiiElS0vS5vX9fwH1jxn1jvx9H83z8RFdhO
+NgotJ_LNhwm7wNMFP-T1dB_T0UIHLylX9kzVc8-zmeBS-zTLZ6h_0RyJ7wqTdzSj
+}
+
+
+AzureEntityColoring(AzureAppServicePlans)
+!define AzureAppServicePlans(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppServicePlans, AzureAppServicePlans)
+!define AzureAppServicePlans(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppServicePlans, AzureAppServicePlans)

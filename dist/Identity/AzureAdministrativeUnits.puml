@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Administrative Units
+' Category: Identity
+' Description: Azure Administrative Units
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00919-icon-service-Administrative-Units.svg
+
+sprite $AzureAdministrativeUnits [64x64/16z] {
+tPS7biGW240t4KGoxVwddIBHDmJMCMxVFxrymFhYSkToMLOkdM-LzL6VHtqkRqPHyW-4u8_M_szz04GOzR420_uRFlFQPvDS0Vic3-2MooxGGaJGMm9wViQJ
+3ymTVgHCJ_-JwoVATFZeGa9UROSHVorWoOpxl6G6V0cG5c6ldve-j_qOOxhZ-cpcRnH7GUc1-3gZ9JeavPiXu1S1A9K0HUV64lJI2qvw_T4Fm9nMbaEFhmCG
+Smd0XuC4u9QFTmAkDWR84IJxdRxvDqzJ080mJNDUVbpp7zhp7mMO2a7cBvSEEBJQ3rYeVjq112u1N1yheQPl1s1Jl2u0q0RGENqTvwpFQWthIT3Uzq6Ldqah
+gt_Op5_KP5zl8auBoZlh1rM-AS3uk4Nrdji3RN_MvUinD3uP7rJlwGPO7oqwlMx0OUj72qG3z_e-pmjHD7aUyG_5tECJIm2xQm_xqWIAVSXcw5m_T_hlNZyC
+wChlYl0Fhzz__lpri-UtZvv_Vzw_0G
+}
+
+
+AzureEntityColoring(AzureAdministrativeUnits)
+!define AzureAdministrativeUnits(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAdministrativeUnits, AzureAdministrativeUnits)
+!define AzureAdministrativeUnits(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAdministrativeUnits, AzureAdministrativeUnits)

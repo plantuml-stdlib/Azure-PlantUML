@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Service Fabric Clusters
+' Category: Compute
+' Description: Azure Service Fabric Clusters
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10036-icon-service-Service-Fabric-Clusters.svg
+
+sprite $AzureServiceFabricClusters [64x64/16z] {
+xTQ5RaCn38LX5UBJOTx_QOT7YXo3udl7woyOr9zJRliFhh4TcctdR3jdN-oRgUPbhpTTVI50fe22VctYhrKuO7Y-u7pWBKSIDnpEmRELXoUfOTP6QbB_njf8
+SJQCJdDcUHF5pG9fAl9vmQKxtP6hND-3N2-pbnucPhYBAVEsN-xFzd-7s1-Simh7-yEYG-PXUOSgvVvmWVl3ij6hrmQxM_Hsi7BxkzEbvcthlhwRYHb9Ra3v
+Y5LVtyxmkPuVk_wNdGFV7HFUNYcBlv19o5N9PTdf8ylp1JBbSfPoXf7KFFj0RofvsUdnBHwrBwE2kVHZnsPux57q7LZuAXpmzSyeIMOoFaf6xXBzZJq3
+}
+
+
+AzureEntityColoring(AzureServiceFabricClusters)
+!define AzureServiceFabricClusters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureServiceFabricClusters, AzureServiceFabricClusters)
+!define AzureServiceFabricClusters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureServiceFabricClusters, AzureServiceFabricClusters)

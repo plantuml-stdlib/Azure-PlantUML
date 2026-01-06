@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Cache Redis
+' Category: Databases
+' Description: Azure Cache Redis
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10137-icon-service-Cache-Redis.svg
+
+sprite $AzureCacheRedis [64x64/16z] {
+xTG7ZWCn20NGO72NnFrlkuYnfILjyFRYfphw-Kmb_2Ti5p0kIpaCGS7WpJL1f5Vm-9KhrvHkO930aOEOiO4WplCwvqUHH1HpVZtFUzRx8yscI7f_fJlotWZK
+U4OeanMrxib5ApBF25IwSEQzYLfoqdlCfSfXNykjRyzthkyB0L3Vrrg_vjll9LTllz3niI8DUAmxLLS_cOKrwveS_Vfitwkl7qZ5IO-2hzyo28p9Y0WYU-w_
+LnhhJeUvy5Ixgo-7EI8O6BC4hhxPToApx_w-zOVx_9u-itXxdmSDtFs9ZRK-Ft3wVpNzoVxkxpu_wxF7upuxDMMPzl8C_fks5m
+}
+
+
+AzureEntityColoring(AzureCacheRedis)
+!define AzureCacheRedis(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCacheRedis, AzureCacheRedis)
+!define AzureCacheRedis(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCacheRedis, AzureCacheRedis)

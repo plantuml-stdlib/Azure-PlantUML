@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: FHIR Service
+' Category: General
+' Description: Azure FHIR Service
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02658-icon-service-FHIR-Service.svg
+
+sprite $AzureFHIRService [64x64/16z] {
+xSy5alDW38DX6QGl_V7-jzqKdRANyHagvDKu_u_zu4tFxTd8tx-_yT_7wdzwVK4_EBlrlOmp2kFMzb-HzRqXu5LiyjB8vOXbmAN60Gpu8X1Bvm0n0Pxg7q3I
+uCn8NjJe4p3CF9zm06S1UBW1pdEDtX2SfS7oAJsSMuxjKib6dnNbwK3SwoKHhhq4GWkc-xrWkZAGDXgzWvK4wXlDnudfn92KS5MokCR1wHxD37de5ri1lztM
+0QPIkMdg3JXSfxposqQzGQ71DVL88f1kLJiGbJS64ZE9Rivqm5bvQo1Wb0mRbggyUu5cczgfofk6DWo0IHhDx7GW0UCoxniReiQuaQ-k6mVJwaccgfzcglp9
+2wiFxSUlv_d_pJq
+}
+
+
+AzureEntityColoring(AzureFHIRService)
+!define AzureFHIRService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFHIRService, AzureFHIRService)
+!define AzureFHIRService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFHIRService, AzureFHIRService)

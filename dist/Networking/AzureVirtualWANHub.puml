@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Virtual WAN Hub
+' Category: Networking
+' Description: Azure Virtual WAN Hub
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00860-icon-service-Virtual-WAN-Hub.svg
+
+sprite $AzureVirtualWANHub [64x64/16z] {
+xPU7TiKW34F1O3Aw_lzlQqYKaaDyrBrlbnjnzNR6Gq_MIddmq0Q93PA_qYzlp9Ndu8r-PZv__6_tH_8UYyr-GKvUB0drBcQBEFtHaWpRHLnV454_a6Rc2mbe
+0TbEVV4tStm_4dDj55LT1rIrR1FHET_J__UNzM3PwVyvCiylWF2-lbOkV7qQy-WtBKDN7No9-T2Z33uq1V0FlVVF1T1FY8WE-cL1Mthbvq6_BCWYQVIJ-TD6
+qwSJhG0p_E7-xmjIqqkhsdwV2eRxZ-TlrqEekWInfI5e7MCj265Vq3z_cChXfr3D4cCizPwaQMgZjOGq-3RYRtVx8LkD96iHqNtCeRzzQ2VcZNfBURO7NMVx
+rKRJeysDtXbz5FH0Ppv0GQSBPkgZmD6fZmB5hD29ltHOWM0Mq_kC-gqWpyF8VC9tz_kTzmekDhxu38gVll2LGWheGkxpyw_qXlE_W83xqKcuhvhSLKBFdx4d
+TsApAyJdrrT4DqZygtr-_IVi2MInov3J-14
+}
+
+
+AzureEntityColoring(AzureVirtualWANHub)
+!define AzureVirtualWANHub(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualWANHub, AzureVirtualWANHub)
+!define AzureVirtualWANHub(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualWANHub, AzureVirtualWANHub)

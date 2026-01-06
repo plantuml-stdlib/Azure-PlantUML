@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: SSIS Lift And Shift IR
+' Category: Databases
+' Description: Azure SSIS Lift And Shift IR
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02392-icon-service-SSIS-Lift-And-Shift-IR.svg
+
+sprite $AzureSSISLiftAndShiftIR [64x64/16z] {
+xTNPijem381XhNPYmV3-RzlH68uIEnGbr_dRi_iJP7-DuK6lN1JY_13SHU-o8pQGMNOnRyR0eOOFtj9noFVtWBq1ZtqcVE4aF-COC7j9HDyzvVquODvwBN-f
+Jkz_6RnYl0CjTLc7bbfqmya6RuGzBc77gdnMjSaRuplIen5BrLZHRFPMSHFxzjUURpzXf6QpzohXxxJPiVTM_Vy8MLn_zzPQwniwHLBNrjfFt_FzfIAUQd7f
+vVtOxMz_-zkRsUDnrTlZ6PttNKVdl3sdqZvUl5NLidncvNpmYj2ZjGz8-7ZpHX19dvZqlhJ1BdhalIyrX7tyz5BU5p808Fedpx-fMUzRlm90AOK0IWy1-XRy
+zhvE02Xy_sv9Uby6esS0oNiBBoBQFURz2l9-rnuMJo3l6x3epgimd7__oipT-vVp-y_xytBw-8MFuvS_VtJZ5UByIPw_OpLuvlg1rFLp_VgzVl_mBjw_efQz
+VuhM-VxfNRz_ntj8Fds2Zrds0HHaxWY_l6Fy3m
+}
+
+
+AzureEntityColoring(AzureSSISLiftAndShiftIR)
+!define AzureSSISLiftAndShiftIR(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSSISLiftAndShiftIR, AzureSSISLiftAndShiftIR)
+!define AzureSSISLiftAndShiftIR(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSSISLiftAndShiftIR, AzureSSISLiftAndShiftIR)

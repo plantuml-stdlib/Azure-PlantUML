@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Bare Metal Infrastructure
+' Category: General
+' Description: Azure Bare Metal Infrastructure
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02561-icon-service-Bare-Metal-Infrastructure.svg
+
+sprite $AzureBareMetalInfrastructure [64x64/16z] {
+rTD5WYCn44HHKO9CklzjHocPEPoUxgw_YiqhhhRus57dvF7K6hlwdgSKytxcb0Zr54C8SKnRWTxrCaSALkwhZ9NUujBzB4xLLnuhoZkT_5Ivh_tvGS_p_ctE
+1NhXdF8U5LkGlsqnleb-dF7Toj6kjPMhxtab8XshiYtGQ-bHDKus5VHSBEbBncBGqrH7Jw2VIljI_FmM7H7tHHNrAnKzBU_xNuvlJjxMZeoxElEhkZejt7Cf
+96CfsPS4UYrMxQkE9Q3devAnoEi_ltwofOYtX0hfyVd99-_lD97tvsZnVlFg1rfPJqx_AhOQqD_nTTMhrif2-UewhrzX7F5yczvmvPiWNvrU8IytNlWwQK-w
+_TR1NDm2-7Bx1m
+}
+
+
+AzureEntityColoring(AzureBareMetalInfrastructure)
+!define AzureBareMetalInfrastructure(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBareMetalInfrastructure, AzureBareMetalInfrastructure)
+!define AzureBareMetalInfrastructure(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBareMetalInfrastructure, AzureBareMetalInfrastructure)

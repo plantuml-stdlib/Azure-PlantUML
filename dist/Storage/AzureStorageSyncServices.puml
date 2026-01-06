@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Storage Sync Services
+' Category: Storage
+' Description: Azure Storage Sync Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10093-icon-service-Storage-Sync-Services.svg
+
+sprite $AzureStorageSyncServices [64x64/16z] {
+xTVP6gCW38RXeWdveGltVxSZFgtGO7JIsPVlg8ilwv7bH_M_sEN64bN-kNL-hNDpdP_x1v33VDm_GFn6BwTz6_zsBoUO-2CFUV8BVU9buwTUJ5svsslkzsXy
+BHZ5xRbt_eelnqreDPxmB0Q71uRfPGxlKTpY-j-xX-B303dXteg3X_R0EW29r94e4Q7vs-ZHTjyFm02gpqIf-UkEXvg-mis7b3j-vn1c36bVPVKKbgXh2fRN
+pR7wQIVbpLu-Tf7VNu5xIxoUrVsvlRe_hvzIpjtqF4s4iMJuUOcujNxVuORdMMLvIhlj-pHMR4_Vw2FeAtmnlMJGcIzBkvw896TG7oSTJdp6iIzhErwMaDK0
+F79h0EHNi7tPEl0PRFZIP_ja-A9Ill6jgBGkfoq1a1HdrjgEbw0vdpBjK_mMhxZRA-xnSKc-zGtWJ_F-_lS5
+}
+
+
+AzureEntityColoring(AzureStorageSyncServices)
+!define AzureStorageSyncServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageSyncServices, AzureStorageSyncServices)
+!define AzureStorageSyncServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageSyncServices, AzureStorageSyncServices)

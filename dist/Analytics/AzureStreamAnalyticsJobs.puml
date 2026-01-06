@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Stream Analytics Jobs
+' Category: Analytics
+' Description: Azure Stream Analytics Jobs
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00042-icon-service-Stream-Analytics-Jobs.svg
+
+sprite $AzureStreamAnalyticsJobs [64x64/16z] {
+xPC7iWCX34EP11CoJVS_xU_U4K6c_DxUr3L-ihTXp3_vXI_oyvjzvxFycatfRRKYmdmO-w8stDToPfiNe2k1cHy_GVPBx56oggRR1chy6tryeW_9f_a8w8_t
+_JhVAY72ilhnrVYOSsuuYGJ4P44NiA7BW0MxkpGcToBtgqZz5BdfH3RZrMAtj2siznTdOEIpxekuXvTwx4C_DRwVo6UBRMRYyoDhlhebdrlEtIkO-WZsBG_u
+yT27qiiBOCeDFaFfJgWVbVxzNyhKvyeLBOM9THh42Ur-azHhMn8TKa_XCwM59izEhC3dYGQPQWZ3Btr9-Je2Og020ye26x8cSj_WMtbRGDhHA_O3AkkAeq7S
+Zd53WYOrjoPlbwOBwk2FTTHqJNI_-pu-t-U0-aOVhwIE_7_k0G
+}
+
+
+AzureEntityColoring(AzureStreamAnalyticsJobs)
+!define AzureStreamAnalyticsJobs(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStreamAnalyticsJobs, AzureStreamAnalyticsJobs)
+!define AzureStreamAnalyticsJobs(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStreamAnalyticsJobs, AzureStreamAnalyticsJobs)

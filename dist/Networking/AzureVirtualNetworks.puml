@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Virtual Networks
+' Category: Networking
+' Description: Azure Virtual Networks
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10061-icon-service-Virtual-Networks.svg
+
+sprite $AzureVirtualNetworks [64x64/16z] {
+xOm7ZWGm30Al98vNBVz_xJNM9xDjFX1K4SpibfEJauI9yCpnUBbe8jnVZcTU05TUJ0DmudC03hm4X8E0S180pWB0MG0u2m1d0U0i01m5WBFWSL-hVQENEUC1
+iAp5-acPhSoVX7n5hCVueo9SV1SulaMegLIxuii5Jt1rAyABtscPuvzlFYk5fvvZQWhXemIfM5c_fV0KFYI87SAlWcoybt1SWlWTX9jWArQYunA4MaM_0kvB
+g1ZWdUDt411E0iPPm3WB-EOBux0H3YlXlFFC3nxvmvFd-UaJS1F0GW9OIF1q-UpjvEJa6m
+}
+
+
+AzureEntityColoring(AzureVirtualNetworks)
+!define AzureVirtualNetworks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualNetworks, AzureVirtualNetworks)
+!define AzureVirtualNetworks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualNetworks, AzureVirtualNetworks)

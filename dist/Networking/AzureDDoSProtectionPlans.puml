@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: DDoS Protection Plans
+' Category: Networking
+' Description: Azure DDoS Protection Plans
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10072-icon-service-DDoS-Protection-Plans.svg
+
+sprite $AzureDDoSProtectionPlans [64x64/16z] {
+pT5die8X38NXaPQ2PV-hjSk0HowUsz-_pfE4pyCiyoux487c9zoDcQhPVHQvt5JAFL5Z9jnq6RfDUFlXLg3x3wlDRJaavhVc43K-eWMyVRLvqesmmPkgYg30
+H5IlOmOlXKgUVI7xsESOdegPyM431SPlNiJwb5lf4rvLjhj7IljGKz9TAz3xpzuRt_BtfrgtZsfQUXdQl4Y6Vjm7iPO4tdl9TVV8QHzy_F_e_RNVN_dxetfB
+8-kXV-tjCzu6hvpNmHy-um_VwatxNddji-_spdaV_O7mi1uUy2dlZFV1mm4hRy0Fvhxqk1uFc7jO3mVOUzvWFNp2W3pWzVCN9FG9hWVV3H08hfyEc8SS1om2
+3WC83jd2EtWym4cE0pYEJt2IumKynm78RKfm0Crn0jxE3q3E3_36sG4Ed9u0cWWutLgV
+}
+
+
+AzureEntityColoring(AzureDDoSProtectionPlans)
+!define AzureDDoSProtectionPlans(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDDoSProtectionPlans, AzureDDoSProtectionPlans)
+!define AzureDDoSProtectionPlans(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDDoSProtectionPlans, AzureDDoSProtectionPlans)

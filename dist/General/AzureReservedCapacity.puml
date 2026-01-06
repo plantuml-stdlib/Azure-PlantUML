@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Reserved Capacity
+' Category: General
+' Description: Azure Reserved Capacity
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02638-icon-service-Reserved-Capacity.svg
+
+sprite $AzureReservedCapacity [64x64/16z] {
+dT9NRWGn30FGhIvfS__JfXh6EdX8PF7_KPno_9NxTuvixYDvdM-utTVaZu-S4ZeteS366qwc8nlJdOstxjnsRZiRtF7qdL3d6-w9d1B7_ILAYjS-VTblABq_
+-Es6rXU_sL1xXrT1AKNJuTLGwcSAfiEFB7gahDFXKL1AdIbbcMu_innV9anfFpFrqj1wq5TbQ7dezfjtX7xUaxPFJ9UFQtjPJhUlJ8_wjkEVu1iRg9_aNK1j
+pmPoUpPGsxD1sju5rFPi8BTd0xKz6wJjNK1kpmPe-rBPq9_8uJt1NDuJgEdT83toT1neW1SVvpN1tjeDyD2X1ckdeO3lZV447uytnFL8Nx_bojiHI7sS43_k
+X_1hYpVuThp03nvlyF5uGrpxX_nl-WS
+}
+
+
+AzureEntityColoring(AzureReservedCapacity)
+!define AzureReservedCapacity(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureReservedCapacity, AzureReservedCapacity)
+!define AzureReservedCapacity(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureReservedCapacity, AzureReservedCapacity)

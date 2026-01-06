@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: API Proxy
+' Category: Identity
+' Description: Azure API Proxy
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02386-icon-service-API-Proxy.svg
+
+sprite $AzureAPIProxy [64x64/16z] {
+xPO54iCm30G732h__xNbNdrkehaoQGS2zieCgyyZ28AyWrwkj8zUmfjE1lGkKZBxeAY5Ww5lNH_-vPEuidsJabgy-5_FLgG0NFUoet80Ns_oJ0lWH8ScHwaD
+b2hLlbI2aeUa_hLsZ6Qzd6hG7HzM9WJV1zNN0kY-NUTRpsjy191r6Z_DRoEDpX_7vrV0IyoflhP-9gHJgkyZ020zw_k77NHkdBf_tRi1wZhZxz_wwQMV7_hv
+LUuxFzCBpc-EKCwrUS7zvRK4GR01
+}
+
+
+AzureEntityColoring(AzureAPIProxy)
+!define AzureAPIProxy(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAPIProxy, AzureAPIProxy)
+!define AzureAPIProxy(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAPIProxy, AzureAPIProxy)

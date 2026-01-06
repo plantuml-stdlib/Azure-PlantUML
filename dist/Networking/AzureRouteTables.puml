@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Route Tables
+' Category: Networking
+' Description: Azure Route Tables
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10082-icon-service-Route-Tables.svg
+
+sprite $AzureRouteTables [64x64/16z] {
+xTK5TiCm48JX9vXLhCBU_xHXy3XIEt8P_WV1RxCXsxzPKwrrMi_hgNz_2RTMU72Z7ik6V4QZ0OzMMVPefthqUglFFKaU65jWahrrzdxHswpSvkoD3DTOVkbF
+MFJrBhS1Nz_acO_lNvlUhLzngkrbxi-l-q9vUm3xqiyx0vnIE0zmQX8y3t1Eu3p05mcS1lWocPy6-280HjW0byEX5B5tcqF5OWBK2OPJ8OIO0UIqlwQVnt0f
+XbiHvtIEFFCPrrGEp3ncgHpfofDu6WD7BoyiO0OgqgTtoQplkNpssHRrENVsjjQd8qzsbyODHu_LtkAUHsia-hptMVFMRE-jcUXJIA8lpH2W7Gkjj8jMf06b
+avMt-V9R_VH6NzxeZVrcDEVA6xsFyZT4-ElQ0G
+}
+
+
+AzureEntityColoring(AzureRouteTables)
+!define AzureRouteTables(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRouteTables, AzureRouteTables)
+!define AzureRouteTables(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRouteTables, AzureRouteTables)

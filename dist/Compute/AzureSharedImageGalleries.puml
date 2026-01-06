@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Shared Image Galleries
+' Category: Compute
+' Description: Azure Shared Image Galleries
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10039-icon-service-Shared-Image-Galleries.svg
+
+sprite $AzureSharedImageGalleries [64x64/16z] {
+xTH7UWCm24HXCuDgslrl6v4cTnkKdhpz_x5Y7hvXDrSKuj_VTolk-nNzKf-jKi_KpllBrKLVFi__UmLIt2V8Y2deAIynubLcKAzFa9sGF3vH3gB3Ax7FmUJm
+07SvLNqUnDHGTNgBcDhlBPgcXZr8qs5lSSMB00nx6M74a3TjtgBRcvqUfC_BZhVey9c7NWF_Eptz-u7fcV8bdmzJFgUcfwzMisgs9Wysk2xwyjFzqP9iTf9K
+ZdNIwsOl-dpUlv_F-73cswgl2otvVz_CB_GT_CEoxr7T-yENzmW
+}
+
+
+AzureEntityColoring(AzureSharedImageGalleries)
+!define AzureSharedImageGalleries(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSharedImageGalleries, AzureSharedImageGalleries)
+!define AzureSharedImageGalleries(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSharedImageGalleries, AzureSharedImageGalleries)

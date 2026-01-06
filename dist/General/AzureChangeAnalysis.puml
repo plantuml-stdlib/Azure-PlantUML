@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Change Analysis
+' Category: General
+' Description: Azure Change Analysis
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00563-icon-service-Change-Analysis.svg
+
+sprite $AzureChangeAnalysis [64x64/16z] {
+pPI7RWGX34IznJQGml__ROWOiMnybapwKqLpRyxhBVNVKou-BuEyPhz2-sH3DlPIGN7uX9uqhKxmDFi74HswL31S-8qzuHZNmKaTnJdgoyOOESjE3KmGqzFU
+3LHmEsqvLe3VD_Oou7QKiBzJHsvhtC8-qxuJHWQAwudDhsKZQXKy_3p6oQ6xHqHwdAc0bA-sq9lpyUevwkF5tOXEo6EXajNCRy4_cksrGY8DxGy6pnVGaP2F
+2o2Trz_Oj0HzZCov0CR9-9R9eEqKtFNzw5qvwAEWWHdMFm2wMJ-7V93bQ1Lf-GjQN7xy-mrSVUV6kLu0dS7cUS98FHqu-XHxEd1qjm2nxzlSR5ukMAf5vDu_
+w_0lh6xZkxxke-2rTdHWz1xRUkZermjZen-C_guRFrKBOcz0QJInyqYV--s2fAEm3IDjgDsmitQJfuO04rlVvlF1n5eTxeOAMDRjEFCfe0C1_CwI3g1tNFtM
+dqmfCt3qMwxsRRvmTV2eV_QHkdxeVROv3shKZ-VwLN_caQ-U3rmTc7xtWv8St_q1IA0wyV2hXv53_N5W_m5l
+}
+
+
+AzureEntityColoring(AzureChangeAnalysis)
+!define AzureChangeAnalysis(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureChangeAnalysis, AzureChangeAnalysis)
+!define AzureChangeAnalysis(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureChangeAnalysis, AzureChangeAnalysis)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: AzureAttestation
+' Category: General
+' Description: Azure AzureAttestation
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10422-icon-service-AzureAttestation.svg
+
+sprite $AzureAttestation [64x64/16z] {
+jTT7ieGm38HXHucTxd_Q5zj42-EcvjzEVGsJmMvQa3718bwt2AreRW5SPPTYO4uJ2xg0NsgF35ymQ6S1oOrMSS8hYPmNN6vJLSVtO4unfTARkVWEJm5r5dJi
+OrXBX4zXLndxKnBsHJqrz0KIoQpFHrzdVNhfuz4NulYavry__mIAJllzvo_hZB--WyBukllqCLv3AtC-Dbyudvkld2_D2-Thy_hEnx5NdV1ew8NmJf_sHd3N
+f-2K7laStBBhnVlby_u6nBmJ23TvXt_lRUxyxHB_xY6Q8tdE5-ir-W0bz_1ev2_SUGQbxulFKRjOhgLJRLTuvgTOS08V3F0S0pp70Cynm7CCgCFP0GMV6E0v
+FeaSHt-4r1WGqJykecB63U26ngW46LlZV4Fz3G
+}
+
+
+AzureEntityColoring(AzureAttestation)
+!define AzureAttestation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAttestation, AzureAttestation)
+!define AzureAttestation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAttestation, AzureAttestation)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Code
+' Category: General
+' Description: Azure Code
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10787-icon-service-Code.svg
+
+sprite $AzureCode [64x64/16z] {
+xTS5hiCm40JG9NkTulrl-pSaQ_BbL6KSGSXlD1Nt-ERvPRkvEDlWtUQA78x7pLLvhl_vdo_T5Id7OxugR-25vIhFnDTu8vApVT8wdyYYnSxnYKdhV0hEfEiU
+UTsSXbiZ8ctxDiywpCyA1U1zaP5F3yDyZmm5lapuLUxzVFTs0NhaaxBfrg00FNAlcUP30VfLdk4H2i0Z1s6-Le1UuRT7P9WF1tZ5PnOpdCymnvJJmXTuJcRQ
+dg-MO8wNy90eKFKofPzVFvcgUO6Wdqw9-7HFnFMB2d3mK21pGIAooaMqZW6FSHLcNyvN5W6E7WkOsN6-C2D7Zt5Xac6-bY5nommS_Fy8Uqo6-S31jyB4zS5B
+mtUjP2BjJcNDC-KhVCIxwtpt5NvpCGvwxV-7DyylVm
+}
+
+
+AzureEntityColoring(AzureCode)
+!define AzureCode(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCode, AzureCode)
+!define AzureCode(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCode, AzureCode)

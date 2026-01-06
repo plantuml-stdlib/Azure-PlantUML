@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Backup Vault
+' Category: General
+' Description: Azure Backup Vault
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02361-icon-service-Backup-Vault.svg
+
+sprite $AzureBackupVault [64x64/16z] {
+xTP7hiGm281XJ9q-zp_j54jfHYQEq7kh-VSVuApo_FD-wL9Aruxhp01JNsPxBUirmsl_uaqJNgr9o5RjxdOnaFEHzXvmq5l70mON15wP406Q0JR8kK3D3pWD
+S8PjPEjsFKAJZdZFIt6yDy0VJrybtobck_vycjEgYvw-oPUVN7xzQOu05YI0TXhmV3gPwISp-3OXfTd4NdaA2m0x4NhYJGHsoBFha5_k_bHeP83d27DrmkaS
+vDTFTXuWeVVS3R03wmiqXGUujnEqOV056btNkxeFkCvQfXXyB2ANjitf4oOiu2Fvz6npd6RhV8r3prLtVIrQt-U04Wzmt5KAzGUm--p1Aphh4VR3mCD8B9yI
+lYGzP3rtFIRtSy8_zTF80QYgFIzbO7trlG6x5t3tju_r6uSdeEYytYLQ4wPEBF5Vf-XGptufNaleHB_U
+}
+
+
+AzureEntityColoring(AzureBackupVault)
+!define AzureBackupVault(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBackupVault, AzureBackupVault)
+!define AzureBackupVault(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBackupVault, AzureBackupVault)

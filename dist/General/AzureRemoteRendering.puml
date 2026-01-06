@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Remote Rendering
+' Category: General
+' Description: Azure Remote Rendering
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00698-icon-service-Remote-Rendering.svg
+
+sprite $AzureRemoteRendering [64x64/16z] {
+xSzP5gKW38JXIrN2q1FxtsstESf1epHtUlD__ufGlzZTNOoloxwtjFMEjj9RVFw452zxvtLhYhyraCxIcBPUuV88yHqVGa3QUk7wyA_ukWy09Wv85-dYuGwO
+rFQyDVBfEWsqsW4ommMGP0MkkGEkUGH8G9VdqRnwVyw9LI0ci8NK6d7f2I0jQ3fPo7kj0BiG-e7KbLVlFzu7873pL3-GTWKw3Zomn7P0oyxlIw0upw1B0YWb
+zpcVxPqT9yrR4AJ3G7OUw3oNe5kavbtUMz9pGkCMCUNj4oARZosTyMt1-yWy36Znp8i-uuc3L-QdFB7pqlYi9z2yK3sePUGj12v9TDXyNmuddiZbihqlwSGZ
+3dYjPPyUFCIXeIzPO8bfvZBsVg0aRXwfZBbLND4yj8pxKQsVnIU0bFzLryf9ES_mmS84VsVWHprKVapJ7wPTVtvCLZ_JtTrV
+}
+
+
+AzureEntityColoring(AzureRemoteRendering)
+!define AzureRemoteRendering(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRemoteRendering, AzureRemoteRendering)
+!define AzureRemoteRendering(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRemoteRendering, AzureRemoteRendering)

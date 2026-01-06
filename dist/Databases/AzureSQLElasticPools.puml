@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: SQL Elastic Pools
+' Category: Databases
+' Description: Azure SQL Elastic Pools
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10134-icon-service-SQL-Elastic-Pools.svg
+
+sprite $AzureSQLElasticPools [64x64/16z] {
+rTU7RWCX381XuGMsnht_s_QCo2JEGQpLlxleosRa-9gT7RzdlHJtKjnBSI_5lHJtKjpRvofCYCIYvkro1gGU0fctnnK0kOS0QjuED_KhzWeIgVKskFj7mziQ
+ZxsjyTZR6e-zhV7OsngFlSLypLl4Lxq5VDbRp1yrfX4tU--IUzfQhQsfVIZWwmLSLMEZpwCpRsF68RSFLX1wA6gzTow5HbXauW0q0dYz01k9NxE8C0BCdWeG
+Yp11mU5jy97uDNj4L6S_Hj-diptvqUpZwMmvR__TPn-_uyZum_lDpo_0Ie_QDy_sUG8qOV9OrAQq2lMaZj7z-MlFW-dru_e2rDSl3VZb-aa0U0P0BURn-bs0
+Hb0qvl7-0K1yvZ_VV7B_IkwVoVqxVNx8dr_ovwVy-IqkziTQaTyyFpyu_tG0RrNuJ6eBUFxzGroAUodkfRYNubwAUodkNVC_
+}
+
+
+AzureEntityColoring(AzureSQLElasticPools)
+!define AzureSQLElasticPools(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSQLElasticPools, AzureSQLElasticPools)
+!define AzureSQLElasticPools(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSQLElasticPools, AzureSQLElasticPools)

@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Device Provisioning Services
+' Category: InternetOfThings
+' Description: Azure Device Provisioning Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10369-icon-service-Device-Provisioning-Services.svg
+
+sprite $AzureDeviceProvisioningServices [64x64/16z] {
+dPRRbkim24Dp0YZkUT7__-tqhbm8JhtVfjO6Lk8oPGKUD0uGsC4VQ4ZXDN1E6-mjHfkBGLjSzelF4svtb6pdB_IPt9-tsmiM7QG_s7TNWU0TCxVitIYPwZSs
+Fd3SELO0cg9hNqW7F7rCVNyElB0nt_36H_tX_dhRkSz4Ny3rXneWMFYwOm3Of3-mq5rDAtXy3oDDcfNVU4Z1Yo8Z4YNrTLBxUjRBsJ8gjfHg5NtCR2u6A7mT
+-ZpawoR6luxF73-xoPbl7c4K0MsjEFCrYU618-6Idvgrlwpzm84byaqWxTW_ikUFkUzRqcZH-5sV5WYVzp5t3m2fFv5Jx_hbtoDPjQzCxQFIsHIuVl_Djpkc
+zbCRBW6H-rF-XXm7tumFv4p50WdT6wNSplVVLFfpQ1xvws5Gpc_hFH3RZl54Jq3_GSBsYyGb1ENhRs5knhrloeDPWHpDdwNzGW7Vww28AnDuk96Jedc1cbmd
+YW9f7yyEwW9rAiGlkWWnvROepvNO_AIgT5q3qVIZIhBq_WItB-pemhi-Qrh85trTk8VVsVZ-XjTuPQNJ7mH_OE_dSir7_yynV5pN2Apv0m
+}
+
+
+AzureEntityColoring(AzureDeviceProvisioningServices)
+!define AzureDeviceProvisioningServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceProvisioningServices, AzureDeviceProvisioningServices)
+!define AzureDeviceProvisioningServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceProvisioningServices, AzureDeviceProvisioningServices)

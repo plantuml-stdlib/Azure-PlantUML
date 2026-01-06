@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Bastions
+' Category: Networking
+' Description: Azure Bastions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02422-icon-service-Bastions.svg
+
+sprite $AzureBastions [64x64/16z] {
+xPD7Si0m30DJ0D9Eu_zVcqQFV8AjGNhP-wugoo4oetpo5L_VSFM1hpT_Jbzs_fB-hw-34aHeVPtHTI1dT1t8vLpFnbmz1zRLLUJWmBV6UlY1iWAvthmG0Dr0
+ww0V2E0jWTPF0t96oAd0eWF0Vu2V4rWd0ZWC3FAz0_XnWImL0BKEKlcr-z0wq85-GlKA1te7bYWTuBNGDoZqgkv3wmrR5plWcOxhae1vTFPnFCrtrA_nDftl
+fSFHyPKwlrRVVLltLo_ib0Ffhpu2hTk1rctedlq9
+}
+
+
+AzureEntityColoring(AzureBastions)
+!define AzureBastions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBastions, AzureBastions)
+!define AzureBastions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBastions, AzureBastions)

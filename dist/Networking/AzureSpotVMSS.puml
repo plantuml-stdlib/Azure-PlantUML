@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Spot VMSS
+' Category: Networking
+' Description: Azure Spot VMSS
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02692-icon-service-Spot-VMSS.svg
+
+sprite $AzureSpotVMSS [64x64/16z] {
+xT95ebin40NHApMt0llVRMHzi_qudDJypEhhdrxRsA_r_tr-zE9pMt7Gvu_m_xthjfwz_XXFSiIB0BpNSyM8TdafG242s7o7xv0yCpHxOSlUddYnl8lAeh-F
+KI9FcUH8KTGUclCA31vSIjKyHQ3rdZ2Gb15vzW1TxL4oqsgvn96fuBLU89d9TFEMcIXhFS4pirQkGnCFNx7MLyJmbRYKolpX6Jhd_TxdyBrkttj_yRUwRoth
+I3vyQwrxlpNd2V764-pHdyiNBz1NdoY-qXjgQoatBz6QWzPwh_3MMl3PM-jLw6glAEsKK_UQhMUeljexWTkfL8rsAW2Ry96ZyFiAkDtbW3xo67PqzWzvGV5s
+BhdpUApxn-8n9w2APuPrNIos-PvLd2iIiTdtN9c8n2As-iV-29-lnRLywUQdUvnjUtRjbtZHQxky7lHo2mUzxE3yq5PD_Dm6NEbjgprDTDZ_JNq3
+}
+
+
+AzureEntityColoring(AzureSpotVMSS)
+!define AzureSpotVMSS(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSpotVMSS, AzureSpotVMSS)
+!define AzureSpotVMSS(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSpotVMSS, AzureSpotVMSS)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Data Lake Analytics
+' Category: Analytics
+' Description: Azure Data Lake Analytics
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10143-icon-service-Data-Lake-Analytics.svg
+
+sprite $AzureDataLakeAnalytics [64x64/16z] {
+xT7BSeKW48HXWMR05U__jBdOkN5iTSnKLZd_blfi2iTV1A14D8jm5k4iubc9SEQazbw5gDgSrBSAScj1Rp4Uz_RFFH3rGDJ3uGkhqkFIOzbAzakVwAlmqmVQ
+wNmnfzVpsQwzh6uyLN54dizztZoQwF7zZkTpS_XwE9zC-faNvKtTNdieNtXxtSIbjoHkhptenNofp8GVvpujtwLJ3-L1oSGnil9w7atuRowzlLStNfhN-t_X
+n0zz8XUPyF8DKzC9h-QJNNZGTz7xwzMky_YikD_Rig1V-a4lvqi_xjBRahl7ZmDVKlFv8NqJN7W6sr_Vkj-FBdfw5sTHlzxZwtYihzrV6wA-JdMh-smx6huo
+zerxHJYBU5O2dEK8Prh7UmK
+}
+
+
+AzureEntityColoring(AzureDataLakeAnalytics)
+!define AzureDataLakeAnalytics(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataLakeAnalytics, AzureDataLakeAnalytics)
+!define AzureDataLakeAnalytics(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataLakeAnalytics, AzureDataLakeAnalytics)

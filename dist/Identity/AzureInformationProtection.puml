@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Information Protection
+' Category: Identity
+' Description: Azure Azure Information Protection
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10229-icon-service-Azure-Information-Protection.svg
+
+sprite $AzureInformationProtection [64x64/16z] {
+xTK7Zkim38HXonmEQRJS_xIx6p52ccY8UBtyQ2dw27TVigWFNP9MTFGDkZn1gRFM-Rp50Smhy_e0yDi6yBmgr-A0sTg2JrOk3yZMVQD__4CBlBe19uk-rTit
+-5x9Ntw5_-_jP8sj-57Xl-Y_LwXof9CU_vCtJaWbVU6Wei21VVB6bhozjVsHGv-zwJLaVBlMxZhnsIQqpbiBFlMC5FEDZq9dFiA9tuCdFji48F0UFFNpJG0F
+sszXpLCVzN4uWikAZ_2WAI9NBLZrsZS1DhI4NVDeszP0Tgr3BtjiFOIEKF1jQprt8pATUsstC4u4li6JYhBVUpIIviwQfmGNFzpClp8j-HWWzEi9Y5ZoX0X8
+-ds2LNna7HvZX8eKVF272VsQb6K_z9WGrsIJt7l2et5DdlbSkuPUy-Qv9rC_rn77DMdkclY4Hn8SVLZkpPCihadlcSwyVULvXFBXorVF7g4Ni-2FUIqRxXC
+}
+
+
+AzureEntityColoring(AzureInformationProtection)
+!define AzureInformationProtection(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureInformationProtection, AzureInformationProtection)
+!define AzureInformationProtection(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureInformationProtection, AzureInformationProtection)

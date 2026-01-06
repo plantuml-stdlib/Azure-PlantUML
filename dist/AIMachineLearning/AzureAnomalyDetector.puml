@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Anomaly Detector
+' Category: AI
+' Description: Azure Anomaly Detector
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00814-icon-service-Anomaly-Detector.svg
+
+sprite $AzureAnomalyDetector [64x64/16z] {
+pPG7akGm30D54bIu-F_VdYtPA9RbT7bxyyuqG3fz_wYu-s_gZj_qFHFyYZzKybxEETEFlBNfJxpJwS-yq-dFb5kxbWrVWQc8gY6Nm5rvYRuc8Z7YKS_PiVYM
+8fOV0pRR2JG5y10GxFC4pPjVt-g7BMGFk5f-TrGM36E4Tm7Kmt4NJ07qJ-eptqti-2zZm5azroMwJKJyqcTLr9EzsO3rSj0N4_S3qCydqmEIz7m07FppUkWO
+80Ko1vZ6ru6m7akp7O8j-EA3SSjZX_Nx0gOROm7w7WY-iXwQn0DhzBLldMq0GoVwOvDSLqvyuzgMaW1O8qIF_Luxin_sbbw_VZFZPcOcz4jyxYqu3tEtfE-k
+gqPVjldO7_tilCvagnkxKCUsdv_w9LndnZgZhnp0gKU_njkFRGeVlYNR1oZdVdneiqms7TAtwY_NSxzw230Odq2-DTi8LVh703XNa5wlplh-ly6r3r-nhYPH
+K0Ut0igbNmG-m8YYhk6mKf_yEXvN4OYEUfBfdmoGaiI4tjlhYTKRl_OYDGnPXW588eNw-GPyQdDcXKtJjyblTI3qwOHwK9zeWpBx5fPl7Kfd0KB_25fxzbkr
+2pzVwWmO-9cljT5_2YYJhwMHXu3PLz1-3A2VMytkS2yS_7t0OaRhHG2vbsu2o8r-7q2kxES0SYRF0U_vc07VVn7wlnVmwVilqpujiFyNMFtllyiF
+}
+
+
+AzureEntityColoring(AzureAnomalyDetector)
+!define AzureAnomalyDetector(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAnomalyDetector, AzureAnomalyDetector)
+!define AzureAnomalyDetector(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAnomalyDetector, AzureAnomalyDetector)

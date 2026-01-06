@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: SCVMM Management Servers
+' Category: General
+' Description: Azure SCVMM Management Servers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02503-icon-service-SCVMM-Management-Servers.svg
+
+sprite $AzureSCVMMManagementServers [64x64/16z] {
+xTL5eiGW383Xl181kk3-jwsyC8PcR3N__gkWwOWCfJ9wtV-y0rXUyR3dYD1fHe-7NuZ-G4ERFw4x7gIHqUFovtxhvyjUOvxLNEF16qfbVk_dqV4hVW40VjuB
+x3dl7MXiy_umw3sZ9aPF08kVgBt-fCU4pwJZHrf3krUkcNtckSA7WN-iU40lBqCVs-swR9e74RFlSstEIwS97wHNuSFKsEMyt7i6S8--txs7FOvHw3-ESRIg
+4DCPqix3uJ761JG_V3yY7XgHrdKzeLzlc_2eVYyIPfuRUetMUg7BfV2s1_3Onz1EiF2M1_XiSI-krYUmScOyaawLeunG8zO7s5F-oWDOe-TVhj4BMgCNi4Oq
+O-zncdy87RIyYhWUtSQDqX4_MygzeBLNjFOIrbwmryGYDm
+}
+
+
+AzureEntityColoring(AzureSCVMMManagementServers)
+!define AzureSCVMMManagementServers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSCVMMManagementServers, AzureSCVMMManagementServers)
+!define AzureSCVMMManagementServers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSCVMMManagementServers, AzureSCVMMManagementServers)

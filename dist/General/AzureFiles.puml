@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Files
+' Category: General
+' Description: Azure Files
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10801-icon-service-Files.svg
+
+sprite $AzureFiles [64x64/16z] {
+xT5NUgmm38PXN5Ku9zd_QgVIGPPcb9vyjpmlOF-lhsphLOhz7jNQlcfzX0Tin6EY1rPIFBezPItu5hv8sNofKk3qH4QVua4NpqOVkeFApPFJCpazazDpx_JS
+EpsJqpCvFPFJCpaza-W13ds5bUV-GLy0ULN_cCy0j7-1tKUuXCl0w8SIx3BweP3BeWfGhLuwpq_sCOb5nSVhuzeewZwrV6fvnAiFBH-k7h7bkn35GgTvhRN7
+I_Iy7nfy7Rood-Rr_GO_jFBgVeetxeUor_VR-tiuUAMz7wBdFF4G2ll5ffz3QRzaz4J7-vMD9shve7nVyrtOZsRtUdx_v-cTV2s6GF1aZuyzsxfz_mm
+}
+
+
+AzureEntityColoring(AzureFiles)
+!define AzureFiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFiles, AzureFiles)
+!define AzureFiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFiles, AzureFiles)

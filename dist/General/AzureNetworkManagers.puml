@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Network Managers
+' Category: General
+' Description: Azure Network Managers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02237-icon-service-Network-Managers.svg
+
+sprite $AzureNetworkManagers [64x64/16z] {
+rTRHCgn13CJnSqXbCY3l_xPy8olQhAu6yByQgVo2lTg4PaJa5WnP5aSRFz9vR7obSEP3v_o0pla1pla1pla1pkK3dFC3dFC3d8TxLlqQxkI0ZPxxKUaZU9Nt
+n93NxW2F1mPmBuwhlZsp3-pUJV9ckyznSBEp7eVsqBaFm6rrserMyBBL0BuowmDhizZe9soH0n3VqGy86rO9N5_GUQzS9Et73lXAEa2yTe1vtkjyF2Py1iXA
+ZChpY1m2VlgTDhgUaehJ1C_xSf-S_wnFfPVhR_HptnOzBa-OoTwYUi_tAOyulncTeCaNEdPXmixVzl6vVWeSVu_1MCAuIcRSprXDCgBDfxQ1oBlHFygUf73Q
+J_ihmN_E1v38cYi7hklnN3KNQ__UFkglLldf_Xu
+}
+
+
+AzureEntityColoring(AzureNetworkManagers)
+!define AzureNetworkManagers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkManagers, AzureNetworkManagers)
+!define AzureNetworkManagers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkManagers, AzureNetworkManagers)

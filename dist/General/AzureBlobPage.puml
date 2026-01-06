@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Blob Page
+' Category: General
+' Description: Azure Blob Page
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10781-icon-service-Blob-Page.svg
+
+sprite $AzureBlobPage [64x64/16z] {
+xSu72WCn34JHI1uxFRh_QTCJ2LRRU_dqWGSZCs_hS6pSuSbFnnP1vDYgSVtcDtzeqruajcf27go5g0NMYZoP6Ch958hyJcD0lSuKKDd3zwZiuNjKzl0zAdlu
+7kMUyCdtAFSSFbblPzzhz0tgxSo5NZFUfdxpgOrF4_2_V9zy_qFT-SrJEy_a51F8oVC9sU9pZiwUZ6_L_Fsn3JzAkmCoyxOU
+}
+
+
+AzureEntityColoring(AzureBlobPage)
+!define AzureBlobPage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlobPage, AzureBlobPage)
+!define AzureBlobPage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlobPage, AzureBlobPage)

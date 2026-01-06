@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Multifactor Authentication
+' Category: Security
+' Description: Azure Multifactor Authentication
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03344-icon-service-Multifactor-Authentication.svg
+
+sprite $AzureMultifactorAuthentication [64x64/16z] {
+lTL7SiGm34JH5H4Q2zp_jlPa2ILs2QNmTmwlINjINbayEs8_zNMjpMiue5jNG1mQ2D9HZoP7_KQBR_r3zllotQudirt-wAZFdizZ7ZK7TWqy98rvx8pm0mDe
+j9C7t9qDS6uo_XCb0ypB-6J4Cyu7kDUnpBlUnohjUfLrNIybF-ZjvlErrFLMF9hUrzoQlbu0RGzRv1DF1zm-zLv_TS7HyAo-Z_-mLMHjOYSRoVr3mMGy4_M8
+QFa8bx58R3qG_ACdeACalbn8wZ-7hzFVGF3FRX-RQNnAwX-dyu5a0v1fHdaY7gdC0_NvkZr92Nz4Zty4oXC1eHdt6SQzHl9SANT2oG3XP81mFZ1fnKbkMzeA
+9xbl74uukG8vd0PVSaUsm-SEHgxEyqTvQNy
+}
+
+
+AzureEntityColoring(AzureMultifactorAuthentication)
+!define AzureMultifactorAuthentication(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMultifactorAuthentication, AzureMultifactorAuthentication)
+!define AzureMultifactorAuthentication(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMultifactorAuthentication, AzureMultifactorAuthentication)

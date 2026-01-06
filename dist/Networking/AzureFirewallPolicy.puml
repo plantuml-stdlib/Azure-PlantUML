@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Firewall Policy
+' Category: Networking
+' Description: Azure Azure Firewall Policy
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00272-icon-service-Azure-Firewall-Policy.svg
+
+sprite $AzureFirewallPolicy [64x64/16z] {
+xTC5ZiGm44HHbHDZrshkVzfbCgc6-OdL-W73vh4zSJyl8jSExNcilZJ866f6ApKxO__iEUolw_mO6HlzPvFsDHhyFnaQewKfNwDojFxPsoUI9LVAx-mNoQyP
+Ztd-h5OV6vlv-bfrVx9mxps48_JMzJd-ahq0m2-06zckzpaxv96mLRzyz6dKhm0s0W27ETqBgXVh9tkrVhe_VFtSeUjtqTwb2FWui1nh_VNxrp3Whdxz3k_T
+0VtzUte3
+}
+
+
+AzureEntityColoring(AzureFirewallPolicy)
+!define AzureFirewallPolicy(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFirewallPolicy, AzureFirewallPolicy)
+!define AzureFirewallPolicy(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFirewallPolicy, AzureFirewallPolicy)

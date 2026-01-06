@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: ExtendedSecurityUpdates
+' Category: Security
+' Description: Azure ExtendedSecurityUpdates
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10572-icon-service-ExtendedSecurityUpdates.svg
+
+sprite $AzureExtendedSecurityUpdates [64x64/16z] {
+xPU7ShD030RX2Zhn5zx_RKCqt5XUMfGspLzwpAvqTSRBOMQV9HBISOCQejhMgAhzzJzMN9jCFTBiFv7M7Mq6XU6QLfcODblkK1Hd2vOpbFIvWPR_iyLcNAxI
+zB0BNL49fEcEbr3Qj_8l_iMth_4lFfJVvqNwBIXnlhCFnUx-lALv5UF-3k2MDe6Fu1PvuZM6My3VuwNK24-y3cl60i7L0axaOK03TuCVjkGFyhrkBrZIU2AO
+dO3bqp2uCMSJbDC6MBxOytuMh8UJ1iXND6nv_rywQ002iU9RAjU1_FzLy9oD7urFRA20NvG2cwri3_VdtHncyWjvj-Wha320v7WsG7wSKdRLY-C5WkFw67n1
+VRU8ztpgAvehU0ZayNpPdwBrtwFn590lDW4ksM-AvLpG_08S7CEH_LFGwr5G-eO0Ju6uxJQawfO0s-TCW7idvyrHJUPu2Bf1t97bAV0uert0HHylU7OmFvR0
+MWOF_4GWVkEKd8bV6lXEYY52WQL5SGeaIDEmH716xNkSPgxeDm
+}
+
+
+AzureEntityColoring(AzureExtendedSecurityUpdates)
+!define AzureExtendedSecurityUpdates(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExtendedSecurityUpdates, AzureExtendedSecurityUpdates)
+!define AzureExtendedSecurityUpdates(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExtendedSecurityUpdates, AzureExtendedSecurityUpdates)

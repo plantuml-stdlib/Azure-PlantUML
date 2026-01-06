@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Defender Web Guiding System
+' Category: General
+' Description: Azure Defender Web Guiding System
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03411-icon-service-Defender-Web-Guiding-System.svg
+
+sprite $AzureDefenderWebGuidingSystem [64x64/16z] {
+xT9NOiCm283X3Wr0rDp_jZNGHEgGfRPvv4-y_NdBOugYA8eEleYMd1Uj-B8bNst_1r_jiU2hNMZ3lp4t-LpnjaxlEzrCvzg-xqIazioNovBwWJWVV5tK_H3O
+lwBxDBCvcqSdFK02qEdU-MrN80Ip6ZEXJzsdd5DE5nwWdLETiOYLcmSjQQ_mKwT79mJtq3cDFgUPfquyj3y0x_Z6RI0WU4zF_-5pddfXfcwI37pJZmUGiqQ4
+HCsue5Oj_2d_WXjPXt6-9Uu19m6OxqAqOS5zcVdglfj3laLudLXH54NHEm
+}
+
+
+AzureEntityColoring(AzureDefenderWebGuidingSystem)
+!define AzureDefenderWebGuidingSystem(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderWebGuidingSystem, AzureDefenderWebGuidingSystem)
+!define AzureDefenderWebGuidingSystem(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderWebGuidingSystem, AzureDefenderWebGuidingSystem)

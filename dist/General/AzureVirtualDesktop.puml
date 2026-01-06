@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure Virtual Desktop
+' Category: General
+' Description: Azure Azure Virtual Desktop
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00327-icon-service-Azure-Virtual-Desktop.svg
+
+sprite $AzureVirtualDesktop [64x64/16z] {
+jPTdbeD038FfKxpb_gTDDJi8XTKZVj7_JsuK-_U3cbrleDEyr-cuoqPdB915ZvFqUOT6frAgFLHBIStX_wuvdOljL59pKC6p1qRLp0QC8yqEnmPFEb7cN0KQ
+80x1MHKC2CycvJLmvm4N1jG3mgK1uqbWV_R93G1NhPkwRbgRw0R85u7VDAzZT1wArtZNOmk0hn9l1LXr7i9BVAGPK7YDSm8GNk4mGt_qeFaInn5u-lYIL8cR
+0PyWjRvV96vfvVVff-wcrM0c72RmYk-xZS7mvBszr02S7Y2B9_DGxm5uWjo-YWRzaG7osa3osa3pQ323GHQyDj2yDa0UvgTxGFE3vmTKdlnWMuDApm_n5F-f
+t7irzFpI-yFrky7yultH0-Itcj_VfGYSL9p7xvV6-Vk54zGuVpyX0S3rFvGJ05o5vmGgu3eyZM1KEFu_-Vyz2jp_tzFX_f348kA___3-4j-VuljRV7-Cxw_n
+_Jc-l-FzaEJzeE-NtEwN3FTB_7wAts_n-r5Re2BtymTr1G
+}
+
+
+AzureEntityColoring(AzureVirtualDesktop)
+!define AzureVirtualDesktop(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualDesktop, AzureVirtualDesktop)
+!define AzureVirtualDesktop(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualDesktop, AzureVirtualDesktop)

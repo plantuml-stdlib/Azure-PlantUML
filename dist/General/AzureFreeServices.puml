@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Free Services
+' Category: General
+' Description: Azure Free Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10016-icon-service-Free-Services.svg
+
+sprite $AzureFreeServices [64x64/16z] {
+xTE7igGW44RXalzqOszy_xTTO2AxEAMu-TvJOUAdahw--V3fgDvFzCkydVJOEM_Yb7U9MM-er5t0ZlWIgjqLktt_33UEl_3PXo69nplpGRdv7t8pysoIl7n2
+mlEmiNVLC9DedypD0D_faMSt199dS6jNGxxFcooN74dccBXytkiprm4Z0RBhLSaxVRRhX2FKk1k5x_KbGrtW-O2tPKa2b18rfOKZNWNqQTElWvIIUWthe1S-
+FHuXmOI_NI69ITy68PZs9N76bwTFclTBzTFZNsgffWbVSVCj7VD5zpvfvAFw66IzhraCslAnglUiSSINSdfuvOY3lkJfukKH4xv4zKJC-bZ56lE-zTVx3_Dz
+hSNu2h7UYss-NNTE9ifF_OFUktw_jwxVxg5lWizVG4BVXtRZxKvowI_pxtq3
+}
+
+
+AzureEntityColoring(AzureFreeServices)
+!define AzureFreeServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFreeServices, AzureFreeServices)
+!define AzureFreeServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFreeServices, AzureFreeServices)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Microsoft Dev Box
+' Category: General
+' Description: Azure Microsoft Dev Box
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03250-icon-service-Microsoft-Dev-Box.svg
+
+sprite $AzureMicrosoftDevBox [64x64/16z] {
+xSu7SZCn28PXH17uBz7zJvk6kyWoCkd9EyNr-POHn6UDvVYgWlOgt2joBd2lwhd6wpuV4EQ2vxGjBI8PbssUL-0ULxWNSPBQW2nLu5xLIzLZqKlc-rBVplVt
+zMFXIJMF896V1ZIkjnRzbFgEg4yna7Bhin_R7i4HWIZ1D32cWPXhQwh1m9W6OYw06WqCB_BErICGZGR6iItkvqS3upexnT3Kl0vedgA_tRVb5LdC8n3pEgFa
+tbCXzdSDTC-9rJ9_J1dvudn1wfRxOqf8PiOWpXjsM_6csEXulhJMRSsRDZJTdy_ELxmxuFsOfNuNHA2x5ygyvtpPv_twgJzJkqFpJ-wJxDYuAJts8LxwiPjy
+BtevLVMohe4lMjGqnL3GtaTx6QSU
+}
+
+
+AzureEntityColoring(AzureMicrosoftDevBox)
+!define AzureMicrosoftDevBox(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMicrosoftDevBox, AzureMicrosoftDevBox)
+!define AzureMicrosoftDevBox(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMicrosoftDevBox, AzureMicrosoftDevBox)

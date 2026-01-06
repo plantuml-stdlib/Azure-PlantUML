@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Device Configuration
+' Category: Intune
+' Description: Azure Device Configuration
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10338-icon-service-Device-Configuration.svg
+
+sprite $AzureDeviceConfiguration [64x64/16z] {
+xTD5Wi9G383XnZChxdzQd4gcuH5S-c_Gh-sprJtITcKUkzpBeMizmo4g-xp7UpYN_BfVl9tnTgitQtYpnQSjVl7Mzhhj1g_xdk-HJdvVrUFMqDJhjjn7ddIh
+r-YJ-4QFrUUFyQq-uUNd9m0gtxydqksJaaVk_zyT4-rhUj4-EdcOcGHtDvn9Xxg-rtYe-3wIV-F7p2T9U820cvuc8u30snwrZrdxlEfZmNl6-KQlIHwyLWi-
+ItUPrJmpst21_LixEPzv_j3kh9E7HdSDlERxScy08BFUCjyktBvuWR_LWze
+}
+
+
+AzureEntityColoring(AzureDeviceConfiguration)
+!define AzureDeviceConfiguration(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceConfiguration, AzureDeviceConfiguration)
+!define AzureDeviceConfiguration(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceConfiguration, AzureDeviceConfiguration)

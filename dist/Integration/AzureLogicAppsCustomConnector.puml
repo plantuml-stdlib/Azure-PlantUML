@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Logic Apps Custom Connector
+' Category: Integration
+' Description: Azure Logic Apps Custom Connector
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10363-icon-service-Logic-Apps-Custom-Connector.svg
+
+sprite $AzureLogicAppsCustomConnector [64x64/16z] {
+xTOr5iGm40JHI1fOcFkVTY4njQcV6Ih_Hb6Sf0nHNFAq2-JzUM6yO5FyxM-lZ5Vip1v3RX5yi70SoD_-zg8onTilrKdytmJUSu7S37ZV1JHZmCle4uOr8hrR
+CyexPiGEPTxMQEyT3Va1xfBBkhrtPhdIaESVOFhz1owW_Npwz--xmAF6G_jyF32dTdZqGVa0Jle0Jle0FdG1YNh0sO2p0MS3VlQ-
+}
+
+
+AzureEntityColoring(AzureLogicAppsCustomConnector)
+!define AzureLogicAppsCustomConnector(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLogicAppsCustomConnector, AzureLogicAppsCustomConnector)
+!define AzureLogicAppsCustomConnector(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLogicAppsCustomConnector, AzureLogicAppsCustomConnector)

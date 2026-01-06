@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Worker Container App
+' Category: General
+' Description: Azure Worker Container App
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02884-icon-service-Worker-Container-App.svg
+
+sprite $AzureWorkerContainerApp [64x64/16z] {
+xTU5RiKm38LXGMF8mE__jAFqw3ggcpFcNxIv_SgNOfr8y6euDuyPBfiM45oM5psJds-EwMBE_MgXHEcvHimJJJpXrAyqMlYJOQizvp9obLPjO3jwy2OfxttU
+XE11hBY29V-OgsYrDoIeyYFNjlQwyZYAUWFwv5FGgjbtcpUGTnznSOLtUxg8_ZZpldkPzW-Ul0ulhKNeT4eUy89ElMXvIJoUwHUNz0qUPQ_VmklNU3FRlHcy
+sS_qYj6B_ByVfJy-rzjRlBllpXtU_ODznD7RS_rjF4QzgbO-VmOkVH_l_Lg_VuE7ZymktX_zo4saLPyVyE8fi-oHxm1a_iyFsUHDpZ-07MTm25g14oy7lV3O
+DVBaootsb2jmjJBQ3hDTImlECJmiKesQA_zkMBUThl6INmT1lB-1qpKqg7_xhmCXlsketrD1INFlWWhDFTNq_XUOjHMtNnFaqNtnNehl0G
+}
+
+
+AzureEntityColoring(AzureWorkerContainerApp)
+!define AzureWorkerContainerApp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWorkerContainerApp, AzureWorkerContainerApp)
+!define AzureWorkerContainerApp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWorkerContainerApp, AzureWorkerContainerApp)

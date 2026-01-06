@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Kubernetes Services
+' Category: Compute
+' Description: Azure Kubernetes Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10023-icon-service-Kubernetes-Services.svg
+
+sprite $AzureAKS [64x64/16z] {
+xPT7bjn034Dt8W6Gzlrlwn6LfeBQEGlB__2xbIfzRFF4GRhFS0V7a5HafdpDGGqhtkahEt9DAAe904LtVD8xNoaopKod3xpHaC8RohaVo-ATpw8UzjFzntzy
+-Cnt-q8_rv28ixdJIC0l_yFTw9KYrrGJLdI79yNdfW15DGTOr4PZ36apI7_XW8Btq41Yj5ZTuRxXxZYWewDZrulec9uIrqF73gM6phePOj3CJmQG6SHAqTBg
+UaCJYsdqTugHmdwS__YFJv_vyfbF6_qQ9_33hq71B4omfx5syOw2Ygpih9srYkxG9zqAI4MnSJv4EscPO-XMZDEfaJDOVtsVq1JRG8Qaf8XaVtLrWtJ7A_by
+EEK3k9x2G6U9p8W0l9h7Ioit25oKDxviWSpidSytwiQ1plrbvdDPVe7_-8-V8ScRvaf5TVxhyqzKy-XfXphzgToCrMesOpzxUXzIT1jXiEn_BPy
+}
+
+
+AzureEntityColoring(AzureAKS)
+!define AzureAKS(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAKS, AzureAKS)
+!define AzureAKS(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAKS, AzureAKS)

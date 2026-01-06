@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: SignalR
+' Category: Web
+' Description: Azure SignalR
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10052-icon-service-SignalR.svg
+
+sprite $AzureSignalR [64x64/16z] {
+jTTLWYin34HHirlAmFvNEoW7gjoHG_NpyDnuElpvoXtqPtV93z7VYOZzvXOi9iUiigvbkgLJA6WeV3YSD1NkqnpmkLzWVdU0-NOs2dXyer60E6ZQjO0eQAU0
+dddkJi3XeQsVG9MvUTpSC__rtUO5L86dyBDSZgkrTGheONZcl9Wg1OmB-1pcIstkWQUmkm81yCHfUU9rU3gy5r2--HISrJy_Xhu4Rx7Z3t1-_9RcYt0DfzxM
+RUryDGqVmGjuuBRUZe5swNNDznRD5_12tZW4ildqvsqt-3hnUeUFJxnzMRx-lIVp-RxhNuEjB3v-WCVXsugtGBMLP9WUVzCBQ6ivy8fnzdo0o3nkv7Lu39J0
+Qt3yQmT8p8jnzdo0DkNiPIUGKSTAV7e0AqJWkMyxVXge5pYLlW6NdVTFMujqqtjlmEe62dDw0tS3wnz0R1q3p6tY1-e55_Vp6mVMFm3AF43S-_pA0UOSW0u4
+YBk158vhn6yyGRChlrJW4yIo_ksB0p7NnMzW703j59G2kPGRlu9QHV_d4fv9-NpXlW4
+}
+
+
+AzureEntityColoring(AzureSignalR)
+!define AzureSignalR(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSignalR, AzureSignalR)
+!define AzureSignalR(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSignalR, AzureSignalR)

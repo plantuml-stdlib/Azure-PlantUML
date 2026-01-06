@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Diagnostics Settings
+' Category: Management
+' Description: Azure Diagnostics Settings
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00008-icon-service-Diagnostics-Settings.svg
+
+sprite $AzureDiagnosticsSettings [64x64/16z] {
+xTT5WiCm38NX9uoxwlrlEt7auO8S7CXVXgzHjEjrlKfFt_cbT7Npw4EkMpzGDI6PXv_BmLzz6IFCzZvcaejkUElfZ_dJdzwFzZSplrdQYoxpH8ky0JhBcyNu
+0CKJdfAiPuxn4GC8Mfhp1hI7602lMSxpss6f6W6av_mD0CVu1b2zUO-dDYh0pjCCskDr8b8VzNK7FPu0huQ1s0MinoiWBe364YmUafwP0SHNscapFE47hmbg
+qiOEQ9BoKsrRupC5mCETRlXRtz4bNW1VuXqqBF43wrrF6M--m4Tx-TEVldIqWI-TNfPvAeiybqLUWi_smPVvwo9_MVZVUSLU
+}
+
+
+AzureEntityColoring(AzureDiagnosticsSettings)
+!define AzureDiagnosticsSettings(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDiagnosticsSettings, AzureDiagnosticsSettings)
+!define AzureDiagnosticsSettings(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDiagnosticsSettings, AzureDiagnosticsSettings)

@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: DevOps Starter
+' Category: DevOps
+' Description: Azure DevOps Starter
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03339-icon-service-DevOps-Starter.svg
+
+sprite $AzureDevOpsStarter [64x64/16z] {
+pPHfckCW34G1bHQI7zp_jcD5QNzkR8XdcEtrtiahbRor_nZiBCd1YXqisC627j2Axl22VdC7nWvVy57_nAgF5TrPzPVaSG2OLto-puhjBEZ1RLr6j2FoAwpe
+mS_ubzlSr05m0B0SkU4p-80NwG9OPeGDAXiKqvc_1NmSZf9sCia6t_HVTaxVeIvWhfTq8eUjmPUl9rpFwGg8xeBe01xe3bHPvqZe0_XZ06Bt4R71T3pIXB8N
+QAFnqPvO2b6vAA0p_ps-i9aMC8FE1MJiSsnVn4mu4y1CBuj0EGBUVcjN0H3nAqLCaUEwzO3CQcOQcx7fXcs-wGaMn5lsseJiRTGJn0F8JCpGDgn7MSXND4u7
+l4t9XStOAxtyvk3aY_impGUTp93UpVtWkDy2xNmHAVu-IJk7FxCQmczVNFhIr-SK0DJvhNRzBtsaGAIRxtG5gEyVhHqydlmwVjn60Qy9P4Pf1txK7B9dpIcL
+yAyZM7oq70h4oHHcgSy7UrwjQ2EWcdsaSNxhObgy-SRZbQfLsn1IZGlG16MpeMRmmFgeSKtcMgMDOTLupfYfg7z7Sd9v5v9QUU93Go1Msz3kOUJZjKr8eXgJ
+CW6KKuV6-6a1IKCGsyzWLHxfLAkXpI4nuv4UxUT0uabn0g7V2b3gxQoXtmle4ufijd6xIPnzeV9-Y5hT46wt0PjPFQ9XtmOijiisd3sFO74OxV_Z1m
+}
+
+
+AzureEntityColoring(AzureDevOpsStarter)
+!define AzureDevOpsStarter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDevOpsStarter, AzureDevOpsStarter)
+!define AzureDevOpsStarter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDevOpsStarter, AzureDevOpsStarter)

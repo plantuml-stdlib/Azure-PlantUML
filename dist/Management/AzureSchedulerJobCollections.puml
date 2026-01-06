@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Scheduler Job Collections
+' Category: Management
+' Description: Azure Scheduler Job Collections
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00010-icon-service-Scheduler-Job-Collections.svg
+
+sprite $AzureSchedulerJobCollections [64x64/16z] {
+tPU7ZkmW34KTm1TyN_l_ltrAP8c4PGnRrEPidIZdYfA0-VT60BA-gG6lR5MiVQZE4WHwWgKErKc2Ecj_TYEWcm6t6p7O-xu3FQ-KnwLr-yS4O6u3DKvm0G1c
+zadS1i3zA-5fkyyB6mFa4ku-9dertXZc6tZwWJrDUEdVR4F9AQLSFElNXbznqaZM99rSURBsSM9aFTpqlvBEJ5lvhbiHfpI8eoGP-LtlJTTMUoUCPEItg--k
+Zxu7ME03G2MpI9huIQIGVErxw_NKz8ElHKH0ClGRJKuq3Nw-4WzR-COYdUxV9s7kU-zDGbyiz8swy17wP5hucUJSz-Ol_EE5xwFV1hzzIBJGhuF-wzUlyLBe
+GoJdBCxnw-GG9-SaKWFVlklFsa-4xO_7JwkrXgtny_aREUeZu8ZddsaHa2CVfCeqGFUUtqQJQO3klJ-LB38XhzzVdq5lW6PvKlRMZyg-VZdRwvStWDbtZP5u
+_HoNVqTbV_ts7hHs2wYolN_uxba1AnD_kN_rovKrpVPFxks_WCNxzxf-u1Vh1pYDpcRzeeEFV_QGBQoVUk5Q7_MOPwpgjwXsNTUFKV6yhbyLsa7PintagyjV
+hT_n_VD3J_Zo-SN1dk_sZv_VF67l_FX6_0S
+}
+
+
+AzureEntityColoring(AzureSchedulerJobCollections)
+!define AzureSchedulerJobCollections(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSchedulerJobCollections, AzureSchedulerJobCollections)
+!define AzureSchedulerJobCollections(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSchedulerJobCollections, AzureSchedulerJobCollections)

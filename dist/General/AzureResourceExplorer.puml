@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Resource Explorer
+' Category: General
+' Description: Azure Resource Explorer
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10349-icon-service-Resource-Explorer.svg
+
+sprite $AzureResourceExplorer [64x64/16z] {
+xSz7SWD024HHrq0tskd-ftL4cUb2LWv__mZB1-zTp3g1PwVwQ7ik5X-ROjEfFfe-E3R59fAOHVnw4Q6ZziH9dZZ94oTvekU9PhKdxjgRdU9zVEVQAvsvyhDW
+Ovs1PUcLplmux-CWxtkCAaFJ-vY4dZUhkNdJVrTeQ_lV3dJje_3PjgvzIEyRVhJFKl_FPq_jt_umdtd4NhKFUhqzElut2DtnGUngCAJNJwJk-epgTEqp_6X4
+A2zZQk5FwksN9_47xzqN
+}
+
+
+AzureEntityColoring(AzureResourceExplorer)
+!define AzureResourceExplorer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureResourceExplorer, AzureResourceExplorer)
+!define AzureResourceExplorer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureResourceExplorer, AzureResourceExplorer)

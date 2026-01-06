@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Device Compliance
+' Category: Intune
+' Description: Azure Device Compliance
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10333-icon-service-Device-Compliance.svg
+
+sprite $AzureDeviceCompliance [64x64/16z] {
+xSn5WiKm30HHe-JTtF-qG_tPKT9XhFshhocIxaPmnFkCXlhaKUIzqPBUjvNFxY-lBLx7UjKEhtfviyjVNcVobuyf9L5LgMDybBhBvv37-EoS7-Z1Htbmrjly
+uKif6eoYmMblSzxd9ixx2FB1UV-BGirvdy0-EEyng3ZlCG1lzgNDOm0-q6CWjfUkedFPzdPo3vhoEIMjF69yTix55Rrwx_DmZnZF31GPV7G_
+}
+
+
+AzureEntityColoring(AzureDeviceCompliance)
+!define AzureDeviceCompliance(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceCompliance, AzureDeviceCompliance)
+!define AzureDeviceCompliance(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceCompliance, AzureDeviceCompliance)

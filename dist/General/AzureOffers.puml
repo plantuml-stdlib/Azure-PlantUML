@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Offers
+' Category: General
+' Description: Azure Offers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10110-icon-service-Offers.svg
+
+sprite $AzureOffers [64x64/16z] {
+rTE7ZYCX48JX9bQ3Bxp_snxkzTID13r8AFhVlFPNEFxzWkhK8MSuvFGuujIZGuxMUsyAu8ZhwwSEu8px0tkEDsn06p-RE-1p7Lp71Ld709m1ZyFERNOH-kkb
+pe3FXnhUUYyz-rdVFS_VyIJbqdRx-tMyUTrpaG8sMEy_lDlWdeyg_O3lXTVc-Cf4aaI06ILV-rpleU2Usa8VN4SRZZbpfkaTdiBDnpgDq3jS989Sf4wQtk4t
+akqlQjVZemaM0-hxUd7KICw1JEruwdSNvq2YThnUkc2TJYrvak9nL9TVUd09pk480iUR_d2fixQoYE2P5v7Wy54K2VgftJbeClcajOf8MN8tq_H1weBZgZYS
+uP4doO-QDOUBL5UNW2NdaVcPyv5lnXbO50cp9fVwqUJq78XhhNNYou7iFcv9YcdZxW3r73wQt1r8cEc8V3CG91XWLGhrZViF8WVuo9iczmVU3XmWhnlE0Rv9
+oyMnumpAObPM17jkwRAc3jyD00fQZ_i3LKAIul7zG99HqF_yO230uVk1OPBBzmEcrE6x0Jg7Rsg7d9roTihPn0y7-j_JUFffnh-WVm
+}
+
+
+AzureEntityColoring(AzureOffers)
+!define AzureOffers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOffers, AzureOffers)
+!define AzureOffers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOffers, AzureOffers)

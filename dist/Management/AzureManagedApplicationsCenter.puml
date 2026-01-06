@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Managed Applications Center
+' Category: Management
+' Description: Azure Managed Applications Center
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10313-icon-service-Managed-Applications-Center.svg
+
+sprite $AzureManagedApplicationsCenter [64x64/16z] {
+xTA7RiCm30HG85P4qXZt_t_RKiQX9dAIKnYhupeotsdY5-S_xJFtTEQUpjpJcNkQ1J6oPx3Cn7km8JEdcvZ_yJ-OIS7Z_7rc0xwUEHjKGHrHTQ7CGUhYgELE
+nXkRlYtFOktdRxD0xHrpZ0sXbU_nScVvhDMps4FwtfEeJN_WfDDfpuQYIrjHxbuz6nxw_bAdJpw2wjaWF7Nn45uNaDFxmcT5mHiGxJk-DY2f5qykFLV1iLkQ
+ujsIszopWUkktZ8SNdW6rCeRQeJlvDMRydIN7e9t31JN7hiBdfvqvO6Gd3xnrATMtEXf9XuXELwHykFfeRtoQhY4wd5QkaUPlV3yHu_yWvCNtxNlrkXtpmxh
+rWzU_FCWyluFxp7YVSGY8uQVtV-zS0_fh-w_sp6uuFGPxQd9rU4nogSUeLvujEh1XNSpK6lF6Fqvuyv4mz8phvvdllIwW6VU9buMM9twT7HUlpuVd7gMlWxM
+UbtmxC1AhmlmRcvWrV34dyb_FW
+}
+
+
+AzureEntityColoring(AzureManagedApplicationsCenter)
+!define AzureManagedApplicationsCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedApplicationsCenter, AzureManagedApplicationsCenter)
+!define AzureManagedApplicationsCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedApplicationsCenter, AzureManagedApplicationsCenter)

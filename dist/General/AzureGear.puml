@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Gear
+' Category: General
+' Description: Azure Gear
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10805-icon-service-Gear.svg
+
+sprite $AzureGear [64x64/16z] {
+pPH7TcGn200_4h3b_gUTiN4i8VUF7Mh9Kn6KuexO9m_tgPkUzEsnFlNaCJuMAdo4RnQivMlqTh-ZdIYYCtqNP_JafVppyv_tuvn-tcS2xNsxJb-RBEySzfSF
+z8YV7F9rzBkHTlj3TFj2gfzHGGD5v_ooDEg_C_faT9PNQu9e7ux41nlbixRQl06cC7S33OMOjndndBlM4PkGUTTzR3qIp_s1zDKdj7VVmIw_N-3xgkyv_n_z
+omPV5gn3ukOaBt9fC-SiQ0bhV54se5LVs9O5uJdL7Um8HWKDb0aKJSK4vGw8pNGEJZ0gkhNEXB7YsqS2wVPbfxxkSmzJorJP_1xVDRsa7iUgpWnI3dFTJxI_
+eUQ55NsTixwUq9DNysE3iV40y9WeRBX0jHy8WmvuBj2nAjQeFdYC7zGVxyTLVhmm_m4
+}
+
+
+AzureEntityColoring(AzureGear)
+!define AzureGear(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGear, AzureGear)
+!define AzureGear(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGear, AzureGear)

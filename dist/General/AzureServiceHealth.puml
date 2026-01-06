@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Service Health
+' Category: General
+' Description: Azure Service Health
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10004-icon-service-Service-Health.svg
+
+sprite $AzureServiceHealth [64x64/16z] {
+tP27hiKW34F3IhXQ_F_VlWvII7Iftrv7ixAEuzB-4tmWT-7I5Pvf3XzwCdky3UizCFIwvpOKf6_0qEiU44AVGOXqNeVOnwZ-Ltt-15yOaFA7_4nKFk97eiWB
+PFVlOTeeiW3xcJR2-_r8Pa0WmtC_9RcWWp3MO3zFzmhHD809-7eoslaw898bFFCJRR1sAVawdyj5TlxOcARvvrLzlEBUNmlSukdZN9HxcTpxR1wi6xHp9Wny
+ys2bDsLIajDzGI65jSmyem0_q4RkitN-652SxWloiL7lbg44_QbdVXMbRsHJC_wBdUuBqh5Up_MMyMD95hxaWqCdgRKMKaezAJqPj8b4LX1IBYTGDZgtcKYT
+K0_qmLDLXAkXMJ_OlJh0I4Ptf70GDU-3iAvK2vlv7ccm8DpDRmqM5DfOwxZ0pNSwBiX4lDPnWL30kgT2sZrGHm0T0tGCq34B-m551Hp72D0nGCU0NyUWunYW
+Oy1spEDHsp_d1G
+}
+
+
+AzureEntityColoring(AzureServiceHealth)
+!define AzureServiceHealth(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureServiceHealth, AzureServiceHealth)
+!define AzureServiceHealth(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureServiceHealth, AzureServiceHealth)

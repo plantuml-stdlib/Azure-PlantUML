@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Spatial Anchor Accounts
+' Category: General
+' Description: Azure Spatial Anchor Accounts
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10352-icon-service-Spatial-Anchor-Accounts.svg
+
+sprite $AzureSpatialAnchorAccounts [64x64/16z] {
+nTE7hYCX38LX2Gx5gF3-RxjSnfeJ99WupkxUJpLMVa_l_raU_F7DMvCp9sTEpfo-xSMUbor7l_pmv8u53BhwjXTVpy4ldtzHra-rVdx_irg2MkSsNLUB-LEl
+MxRtzPTxBh3dwz-_xlSBYh4lX_uX1wg8oi27FOOigW9SOCsveE8oUbboETGHIjgFZdk1B0uvLEH41KiFjPlXRG_cn7a-vpaNviV5LLH5w2HvIimF6_BwJgWq
+MYw8VMyvWUKmvPOutIyeCXKCpEbDZYWJ9lRqtCUGPIZXjQ-ldliGeWm8qTk78bA3ju-Zh1B3UlvoOxxl4IwH_S0-8HWMC5VCXtC-nG5NJzAaDS7bCIV3fs_C
+2UfOCz-3EauZXj2Fe8BXh6odWCzo1dbYRHPdaFA5kTrFNbHcRWUKMsPjLruv-bgeUleNlzrt1n7g7iwS6dCdQQtrV-qF
+}
+
+
+AzureEntityColoring(AzureSpatialAnchorAccounts)
+!define AzureSpatialAnchorAccounts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSpatialAnchorAccounts, AzureSpatialAnchorAccounts)
+!define AzureSpatialAnchorAccounts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSpatialAnchorAccounts, AzureSpatialAnchorAccounts)

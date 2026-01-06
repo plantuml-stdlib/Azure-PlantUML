@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Device Security Google
+' Category: Intune
+' Description: Azure Device Security Google
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00399-icon-service-Device-Security-Google.svg
+
+sprite $AzureDeviceSecurityGoogle [64x64/16z] {
+xT4tTiGm38JXHyIIzp-j0uq2AmbwGyYDmxz1rJTAyv2cREvc-jhOuyj8fAkMpWlKqdb189jv7eXkAA3haOA6HhmKAUWXZVlGk0SrxhNhiyOzfiqCyBL6l9Ry
+pcEwzfYkFSPhZ-dQGxhsW6vvmpocSH-wwqFZ7kPUU50xvAtchfT-N6cvYdcSetd1UU3Dh2FQyJFfjhS7VdwxPyAR5mF2U9zUOg3hvy7hdZyE-BRF0-vVdWZt
+CR1q-376-hyfV1fmpvvWdmV2qoTdkYlxFD1uVccWwsD0-pu6BDq_KrtuYu7EyyyBilt-SylthZzYiDh_Uw97djBxhwlzUEXf35g7k-WNlBzt
+}
+
+
+AzureEntityColoring(AzureDeviceSecurityGoogle)
+!define AzureDeviceSecurityGoogle(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceSecurityGoogle, AzureDeviceSecurityGoogle)
+!define AzureDeviceSecurityGoogle(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceSecurityGoogle, AzureDeviceSecurityGoogle)

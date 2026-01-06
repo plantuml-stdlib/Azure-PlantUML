@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Defender Marquee
+' Category: General
+' Description: Azure Defender Marquee
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03407-icon-service-Defender-Marquee.svg
+
+sprite $AzureDefenderMarquee [64x64/16z] {
+xPK5ikOm38CLD2tS_xGByU-sVipORp0JowJ2xtVZvEJ4DlHHs5NqcNhxrlfJBu7U23EdQyjeGz1M-DH4Gz0lUcKxCB0pLpmbFM63zJzIO0SQAZCJqS1IbgWJ
+C2rww1kA7TZY9o2gwbrSPm2wA6Ys4_4Hm5uc4MLr0GpR4O-FWEZYEXNDnmV8TWX80TtB9AAihmFWjFvYnu3cPJ9UTiQQr7OcK1rVVyV8khPToqLVBSqVk93g
+BUuNLgTejg_KHG5y2afTntMJpOTnnJwxtJvEwMwnp_KDzPfz-NYRVQulwDc-Q2f3W5onpv9zQNznp1dps-Dwll7jAMYQMOBqzfYbjwVD1VcmwPZU7WTLBEPt
+GK3vE6EZQVt6QXUzi8yNj7JSzq1t_q15sF4ZBqJamtw_Jxs-J_tVdvYJaxy
+}
+
+
+AzureEntityColoring(AzureDefenderMarquee)
+!define AzureDefenderMarquee(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderMarquee, AzureDefenderMarquee)
+!define AzureDefenderMarquee(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderMarquee, AzureDefenderMarquee)

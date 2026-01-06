@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Resource Mover
+' Category: General
+' Description: Azure Resource Mover
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02200-icon-service-Resource-Mover.svg
+
+sprite $AzureResourceMover [64x64/16z] {
+fT9d3Xin34HXUocgC4NtFsqQWIps2SB4oll_KUCoHTUlvd5NPcVwVVtjzF6x0uqEzTrRk-nrRJfu71ref7upsKiyhbDQfxHEQ1syVSZDdxwKZowKMkbnGUZL
+__C5gt-YppJtkl6PoUbxdvcSllVPJdlLVZyXjVIym0-kVMRuuDepJDUU6QPhpmpJfMVczJ-ycHK_zRc-bE87FdNwlA0zTVfCU_AdBwuyzUrvWJvYJcXuNg2F
+2RtwRES371uJu4T4r5l3CwVF0IqrirOs5-2ZUmhu66MDFcks-XBHove__FV8HYkhpmDBFZdW_XJmqGMVN-9kD3Vuw8j6yMZqwdPx7l0obs9fZDvQRP5rFiv2
+rA7PTta0-c21WwCGZG1W8qHJfRnESPtakcFEFyJeWgi4bmak4rockVPZdYTUbmd-4m
+}
+
+
+AzureEntityColoring(AzureResourceMover)
+!define AzureResourceMover(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureResourceMover, AzureResourceMover)
+!define AzureResourceMover(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureResourceMover, AzureResourceMover)

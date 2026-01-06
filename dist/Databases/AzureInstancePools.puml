@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Instance Pools
+' Category: Databases
+' Description: Azure Instance Pools
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10139-icon-service-Instance-Pools.svg
+
+sprite $AzureInstancePools [64x64/16z] {
+xTG7Tgmm38LXt7JbAIVxt-sp9KYHZT7hBNyQC_21oycy_67nTN-Y__Hq5PQ-q6LOUN8qyvy-Q-MyfS_NbJ_Pb-_rZXoUwdsikZqz7bmVJzl3w-_tFi_dq4tq
+jNzoRjtiuoi4khtHamy0__Zl81jMwrVhnvdJhAcNgjawceOpRwEJuFE4qwptSx_7gYjFH5YszDRwlTL-l-P-3s_66rvIZ2aJf1n3J0LIIedi7OR1KzYaB7f_
+4T5hBueTW-Ne8iOWFhNZ44F_FNZitlntKxkOc54ASv5XCFhVnCpTyskOU361zwAmLku3CBxLlVrq8dtcSQX74BdqUFVGBP0PIcmt7JtFF88kk8mwllcqzlmQ
+Kf0RV9ENPD_o-_67-VZhE7ujTOfDhzUDXF7IwF5kwQ9icov9vBMdms-fK6bN9dKXPLaFKXzpgqnzbR1f0Uq5DQ6LsZfUnRhtyiwZIXpr4ds992PGlVJ4LMFe
+yV4gDw-l-MZgKKzACXkJSF5s06Eo3qk_lW775aPkFN5r9znwmbTnyIRsSuriiBUu3Od-8_e2
+}
+
+
+AzureEntityColoring(AzureInstancePools)
+!define AzureInstancePools(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureInstancePools, AzureInstancePools)
+!define AzureInstancePools(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureInstancePools, AzureInstancePools)

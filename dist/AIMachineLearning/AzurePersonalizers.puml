@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Personalizers
+' Category: AI
+' Description: Azure Personalizers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00796-icon-service-Personalizers.svg
+
+sprite $AzurePersonalizers [64x64/16z] {
+xT5dehGW38NXhq0AKxB_rKvbXEj14szlxs-Veu9ziduxxlesOjbXCKbyItU3Zklo6jTaDyppF0NKNU2USndpKconnAk-r6mvRYd8gRXNkrRc1JXBiQvZP83x
+n6Qv0_I42mnudbSy_CGgDxbcMCpRfR5N7C2_Lxisz-cUeiVNOscAT3pWy5RMaIVqo6iwy3vlvOjMeKkRV4kKgHRm2ShKcdd34aOjVQ6dZ_RSUp4i0y_4BTzZ
+lE15B390oruY7hbL7le0SRmp82h0hV9BunjidBMejApsu8BwtbsdIoprOMOYy08SexxgvH5oBEE0J04F3R1C0G_zWhJGO-3Jn5KJSlyFchy47W9lZLy37hq3
+VPJMGs-D1tn6RpsNv3JmfYtUv760DdbSo9xFlSU1v3PnjLanRskL_39l_rtk5UClxxSp
+}
+
+
+AzureEntityColoring(AzurePersonalizers)
+!define AzurePersonalizers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePersonalizers, AzurePersonalizers)
+!define AzurePersonalizers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePersonalizers, AzurePersonalizers)

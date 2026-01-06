@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Region Management
+' Category: General
+' Description: Azure Region Management
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10116-icon-service-Region-Management.svg
+
+sprite $AzureRegionManagement [64x64/16z] {
+rPO7SWCn201z25JWnlh_QzsDZv4uFEdPzCYxGkxzZxB05PJZXrobo8Mk4156DYWQ45QTQ8dt7WFoyYdStD942nG5O4AITmC7TJ8pe_f30EU-qPa9RY3p40Y6
+Pzu46b_G0Be3mE1pJP1kkWRy0M13vP7e1FOsSmEU3uRa17G0n_SdQ7Lt01XeAbv_Im1GTmO0Br0085-_FmFhktwwxGvNY403qmDijRGTe3x-2Hg8V6IziEx_
+ekeLuFc5MthjpmKiBV29-H4epDF0wlj4bQ-qdB0opmFe-ubdLB0uVXo8VIXE8F3rDYEUqW9Vde7COM2P-Sz0up3G-pBuHn76oSE-9VsV1gOFOBd08zjdi-eS
+N_snKCsDikVpr6_cLdN7zmV0JQ0Q7xjbdVfwly2CJnrrUuFu0SKVFmvusolhB52JyNTVG4M6GW73mUXkGBpJ1w__NPIfl_F-u_7VLIp5s1tTwNKiiMHxrVc-
+hl0qqFTrksO3Qllwk2pAQjUnEz3E1ejPTCWqlnHIO2iKqGEMm8x1o8xnxGyci7-4N6xqZr8-vHSbVz2qVDHN_ht_Hpa3
+}
+
+
+AzureEntityColoring(AzureRegionManagement)
+!define AzureRegionManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRegionManagement, AzureRegionManagement)
+!define AzureRegionManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRegionManagement, AzureRegionManagement)

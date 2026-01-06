@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Storage Mover
+' Category: General
+' Description: Azure Azure Storage Mover
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03091-icon-service-Azure-Storage-Mover.svg
+
+sprite $AzureStorageMover [64x64/16z] {
+rTP7aiD034FHgX49jYFkVzf9RLDofj4Jt_v3OKL-i7SJLNP0ZTlOW0tsFlldlL61eui_Y5bXm3vSnfM9p7F0SMd5UwRb0Awh3Y1mLTG6ugRIWCTjA0mWr1VW
+b8_N1p3IS_88VI0An3Y9UOAO9rwnYh4-dhFYgVQiu58qWVZuj1BpfFOfUzNNzAl1lkc-f5yDzlorVjNxbUhu_9MAtM3EDjXJpTDeJpLFQfxKF6rNTUlhXoIY
+FMvRW5Tu1zu3xyHy7j3ovO2PakT07eilzYxpwe0TqBhCQmDsmU6iyjdSE-ly2lwZ7kWDeFN40N7a50QMIxAX-Wq
+}
+
+
+AzureEntityColoring(AzureStorageMover)
+!define AzureStorageMover(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageMover, AzureStorageMover)
+!define AzureStorageMover(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageMover, AzureStorageMover)

@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure AD Domain Services
+' Category: Identity
+' Description: Azure Azure AD Domain Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10222-icon-service-Azure-AD-Domain-Services.svg
+
+sprite $AzureADDomainServices [64x64/16z] {
+tTPNafnG34RX0eKBxS3-T-kBwZW9MoLmzdd__j5qFlxhLf4Vz2O_mbNSv0VuzAxob4jur-SylEjJZdTvuXNFm2EETvFx7FzeO9NaNUKsnvFs-GB7tnw09-_I
+Vkoo9sdpx4bkF7Ra4PdSuzaFa_P3V_LZPfs7FdjqfDt7ZX9deCdnQD8-nmF9jVdGuqVEfSyLtXYuS15PXVk9hFxdiMVXBnkRLHoB_zmdFTFlSEZL4tmRUddi
+iBNtSMxaWLK-szhRxX4l0rgIgZm3ZgUcDzjVcv_PPwldKilRwLy3RWvN5WeF3x-7LlVXy1cFGiFFue-FcKzE4YTKtl0pSn-HepdXA7nm_9HuKMAXvtUuJwBL
+2P8u_hK5vmaeJi33yGou7fHFk7hBVXyE_jO9I-K9MfyWyEGPg1OMF3pvni1HUWRg4yARMyldWPNVt_3i6QXFc0qh_8ugJl32Sq2n0C--Fz3mvS8Om-_SJolS
+nfadJ--F8iL7vidpq5S9dhUvEvu_tKZ3-ybPm1_DrkdHJFZEuStCZh-x3m
+}
+
+
+AzureEntityColoring(AzureADDomainServices)
+!define AzureADDomainServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureADDomainServices, AzureADDomainServices)
+!define AzureADDomainServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureADDomainServices, AzureADDomainServices)

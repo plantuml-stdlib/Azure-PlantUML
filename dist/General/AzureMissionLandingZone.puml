@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Mission Landing Zone
+' Category: General
+' Description: Azure Mission Landing Zone
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02793-icon-service-Mission-Landing-Zone.svg
+
+sprite $AzureMissionLandingZone [64x64/16z] {
+xSvLOWD138FXGTd5kVzfartLOOxAxV_-oHuV782xvNQIPf9c2cUAPjTnQQ116x2ptEmIlnH4Ro8tYDu4omJD86WcSXEvQPn9d2cSkUAPnkC3LzAuxbttFxl_
+7ZG-7hHaFpIk-o5omE_bHdxt003odjiTse6ef5JyLevSjtpAxQO5cqoPhSN0L8K_F5vkmfqN-yoT0oqdbakjjPmjvpIN6yZzRG2zvdHrkNG4Pp7HQiaNQIwD
+E7Had8YL6bzkiydLsdfGs1O-t8XwXEYCNMTJE95D-TNPLlvj6o8VG-9Cqqp2aM2l7i6ugKlNz9O
+}
+
+
+AzureEntityColoring(AzureMissionLandingZone)
+!define AzureMissionLandingZone(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMissionLandingZone, AzureMissionLandingZone)
+!define AzureMissionLandingZone(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMissionLandingZone, AzureMissionLandingZone)

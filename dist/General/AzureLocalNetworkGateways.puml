@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Local Network Gateways
+' Category: General
+' Description: Azure Local Network Gateways
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10077-icon-service-Local-Network-Gateways.svg
+
+sprite $AzureLocalNetworkGateways [64x64/16z] {
+jTG7hiCm38DXnv7e5Altl-rpK264-9RLyMDqVknCxf_D_HLjFdkDpvxdqVCyUfAp9pchSwdCjUVujib0aRSc0rKk0rMU1b3czG53D3bpHCiSv8K1ShYPzPDs
+c-5gYKVxwNVaLZczjCZfjKLEhoroUcs1YvV-ulwRTx3VEPgh3zu0fforQy3tcLyyUIYdvm2RN3p8nSU0SlL8tFUeDmvatleUEJY0HzPoBZnbV0TZg8z-vVG3
+qqVgDumhTFKZcc-0NZd39fxy7jVXaP7hW7c4Yry3BBXq3Wn6hWE3N0U4Hpf0Zdtc713-oq0VwJSnFY1S1pJrmcMWuCcPLJmPipLFhjcQ9zViMF57CZAGU_WZ
+9VpNWNp-78cl3FJMs3R8YmFAYmFAYmFAgmFAwmFR8Rmsq8LN1yXBsIthMy76GEfU3iBBGNWv22y7uUKWl5wHr_i2
+}
+
+
+AzureEntityColoring(AzureLocalNetworkGateways)
+!define AzureLocalNetworkGateways(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLocalNetworkGateways, AzureLocalNetworkGateways)
+!define AzureLocalNetworkGateways(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLocalNetworkGateways, AzureLocalNetworkGateways)

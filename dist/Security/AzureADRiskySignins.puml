@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure AD Risky Signins
+' Category: Security
+' Description: Azure Azure AD Risky Signins
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03341-icon-service-Azure-AD-Risky-Signins.svg
+
+sprite $AzureADRiskySignins [64x64/16z] {
+lPRPJiKm30NPQcgGwl__MlPOLKx8rBc2UMQcXzir_egNRtn5xNcjoefNRQLeAmus0phZe3EWCw0pfDS3_kjFTIqm_mCEqBw23xyl1sBCCGsGhXCMdXPy3gAn
+Dse_K-B3W9_z8sRi2GnO3yGS6mLAJyGzWG4OU0Q_i01y3AY_NqFzJYV4zyudv0S47mB_xj_u0_89PDti50X6TBFx32pffmLhkctYa-wHVWv0t_gxrv9ltq5F
+Glp0muiTTW9zd-hs5FByflT7MnxjFwYzlwpvJndgzM_8jx4F0UjzAxqOD_Jd1LFVHduYkle6ts_Uqk3pP_ycVYMGYX2N0gb3W0wl-stZm17z4ML0uhm-zM4W
+OBqIFU1p8Cg-Sjs_Zo7vQmO4ucRU0G
+}
+
+
+AzureEntityColoring(AzureADRiskySignins)
+!define AzureADRiskySignins(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureADRiskySignins, AzureADRiskySignins)
+!define AzureADRiskySignins(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureADRiskySignins, AzureADRiskySignins)

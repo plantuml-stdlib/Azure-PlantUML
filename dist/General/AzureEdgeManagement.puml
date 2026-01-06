@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Edge Management
+' Category: General
+' Description: Azure Edge Management
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10117-icon-service-Edge-Management.svg
+
+sprite $AzureEdgeManagement [64x64/16z] {
+xTQ7ijmW38LXqNI4KtZ_jyqmP1PBZZ6iS_lzfgtBJzbUJdrBtE2Pc9MuM8EjzScjvTowcJFcztvZ1H5T2X5xCprsF15ZRord8WfhlQ3nBZ878d8972YXaScv
+0ncCPdBboVQuxA5ugfptZghO-r6k5z1s7VVBnsIEKFC-L4GtCtjTlj_l9QJH21bAs_EZY5JvmG3GIFVfq2EhF8hMvd-SZUgmKRrOg8b3EwZRyKaCqrk1Y49_
+2B7oi6zhzWnXNvSYH-FUaSAZFif18csy03dWshZM-YTwOSyYyMyPlQpqdNxPrtjFX9a-dq1AfzVAJZuXZFmQVLdlYxBTxCjgNworlXojzEMVjid-TpcJywO8
+OxFAWiN_JVTxldAtvvizBll18OOzT_PG7p_LysMFRdpuJdlfneVljC_T-F25UlCLaStnusZNV_i3
+}
+
+
+AzureEntityColoring(AzureEdgeManagement)
+!define AzureEdgeManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureEdgeManagement, AzureEdgeManagement)
+!define AzureEdgeManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureEdgeManagement, AzureEdgeManagement)

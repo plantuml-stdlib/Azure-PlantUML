@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Network Watcher
+' Category: General
+' Description: Azure Network Watcher
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10066-icon-service-Network-Watcher.svg
+
+sprite $AzureNetworkWatcher [64x64/16z] {
+vTQ7UjmW40JW0vQbfF3-Rnk6qtd0duWWIlUabt-MbjZbToGZwOVerrJbaVqIMdQiwpJexOQNZc_PAKYPkBJlMB5m3BddJzyNv2KU3bv2JJaAoaB1ryQFkVJ7
+hwyBoE7eGs31rUen3fp-A2X3mOn799ma8j-zX97F2wx6asZDM02Vv-F7NHTuLaXv7i6UBosjWtvw-EJqO-bi0uql-VH7lSnzNF7btAVZzddnG_W4qjp7kTV-
+2UNpwukLXPc_c2_YvOZNRIzZl5y_Ft9dhR7MISlS1_gUsyShLf3rzzDcF_gqDLoy_ndd4kP-74y-hi1MzEO5VZQURYW00KAc__yCHyU5cEOPyZGVRvKB414T
+-Mny6sgQqVfpun4SeR_aNBv7YwgY1DvW0pnqODxzw37QGbfrAhQk0HbyH9xyt7jLMoVN7xtd0JJN_2cdnsJ_K7aOLVEw07f-2f8ekNzZwb2dehOkH81xJvuv
+lVVEAQIgWWrFk7dGCyxxjxPTdhnxW07gL3Ek7G1Yr7RSO7g7Upxvv_D-lCyCzDGB1_Ux3o_AKryjC59JrY8iuFGDNrHgdE5mjyLJYe8uQu0jz0R79KKlp3P7
+mZsUeXlqDYy8yJPdFWhFztYvoSijZjpaA93on_8D
+}
+
+
+AzureEntityColoring(AzureNetworkWatcher)
+!define AzureNetworkWatcher(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkWatcher, AzureNetworkWatcher)
+!define AzureNetworkWatcher(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkWatcher, AzureNetworkWatcher)

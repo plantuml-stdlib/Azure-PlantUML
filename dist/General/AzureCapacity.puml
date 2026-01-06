@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Capacity
+' Category: General
+' Description: Azure Capacity
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10109-icon-service-Capacity.svg
+
+sprite $AzureCapacity [64x64/16z] {
+xTI7heCm38LX3U9pd27U_sqlQQshj0mRxXw_PiS79B6OUsawBir7JP5-iKzVxU-Xr7K5wPxhjIbOsogDUMbSdbBQEWbvjgbNrbxVw1byVbquBZz_OilCxSB-
+lVtyd7wA5woJi9VIjYeIzANAbCh61M8UJVgBibsTFttp_AVkw-NvhsNXUdt-KMkfkyltVHBDwrJUQ_x-_IHopSj3M3hXvIbOCIy0jZX9zRnnR71mk83izimX
+8rSr7-7GN7fPOVoSBwyfUCAB1MhkAG7ZljUTlJUUFPyLMznyThrc9RRyJVkUUKc1DSyvuiN-fnqPrewDkrweURVPySuLPjTReEe8LSbvI281l0M8vNY_jtev
+vt5Bnavua1RUw2Nk8MEhvwVd2Ja8lZ-w01dmUrS06V3ZpAs_zhs0Om0V2imFmDrYymliwPMFNs8-tmvz0G
+}
+
+
+AzureEntityColoring(AzureCapacity)
+!define AzureCapacity(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCapacity, AzureCapacity)
+!define AzureCapacity(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCapacity, AzureCapacity)

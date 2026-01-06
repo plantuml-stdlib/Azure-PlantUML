@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Defender Meter
+' Category: General
+' Description: Azure Defender Meter
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03419-icon-service-Defender-Meter.svg
+
+sprite $AzureDefenderMeter [64x64/16z] {
+xT1dagGm38RX6aLR-i7zRxi8A3I1qCYRTz_9OvxsLprD4vMR8XeeUR7Wut6fv5wAlwD7U1X-zF3sCFZn7Z3EY12UUvHclcTDy857tMrcYgzvwXvrPK9o9oJM
+xLzqxx75NTrj-G-wu_QpnwQEHrxIIpp4WEwwkBwAvWR0iK9Wz_B5GtCtZjyrV2OcSIpctk2htrP2ZzkNSy344QnAzmVmgm_UtENjD9vrlC2nrx3D-DoJTH1t
+JKyyjtgAWnXw4U9o3QsUeyq3pBx15gl0MMts05zzB9EDcvaSsNpgm4CtIj_XE8gJOv_r773GlPSOKFGveEPp09Py3j01ppcWu7D0sRFDOStdWABF0JMV0se-
+1r3TGpFhZR3ikRT8yTOVPstB_A1xt_QkFSjXcbxb8BxflUU3VWil5wMNKfflNwsHwtE1ob_U_pGQUDmZUvMRHyF-hsWQvDCqnACX_Wq
+}
+
+
+AzureEntityColoring(AzureDefenderMeter)
+!define AzureDefenderMeter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderMeter, AzureDefenderMeter)
+!define AzureDefenderMeter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderMeter, AzureDefenderMeter)

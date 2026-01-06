@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Azure Media Service
+' Category: Web
+' Description: Azure Azure Media Service
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10309-icon-service-Azure-Media-Service.svg
+
+sprite $AzureMediaService [64x64/16z] {
+bT5PZjmm38HXUELcZEv_sxJ0WErAE6NuV_ye4Xgaws-3H2Zs7cCUyLPZxXxlD1R-FE5YUSOuBT87uJod0oHYnXV8heQRd9c8Mf05-XME4nCd2pG32j8HNX5E
+9dWLb5U7Wez-mAzwNPRLSO4g7lr7pxPuyDBgRQaEEA1YVb_khKgyz8TZgyC1MVd-S6oFtYjP7JkdXvhd3o3OQiJNwgpD73skBoVdwoOEeLSN_lg-epTOtvpw
+TVyam2LzSJ_9wfEZLna_TRhvzEkw4etUvidtrzDd_nxU-8yL0UwoVeF3o-FpeidL7TxFQlNMozUBbyTozTRhMLwiyLagyBLzUVFNtkJhnT_xvEdjvhSdNyUd
+7-UfVlSPzScp8VVdNRPRhGSkOuWwUgpn9kVDgxtqoSkRl_EQilm0hzjE_NO2BrzTvpxxpP_GvCFGNx5NvV5nz0Fz9oi1-kWv-hXcilsdONNm0trsqCEBTmTa
+WOSpF-BkAzlgyBPHEVfAjZgSU5mWhdjrEECuuC9S6A_0OwuDtmVsWmEmS9NcUUWYFcUOginKfNWt8Aw7N4PRUFR4uVQt0yA0O15F5xWEMj05tBYk2Rrsml2A
+wFwF8YpGkljuN-uSCKX_
+}
+
+
+AzureEntityColoring(AzureMediaService)
+!define AzureMediaService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMediaService, AzureMediaService)
+!define AzureMediaService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMediaService, AzureMediaService)

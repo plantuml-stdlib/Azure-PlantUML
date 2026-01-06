@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Intune App Protection
+' Category: Intune
+' Description: Azure Intune App Protection
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10344-icon-service-Intune-App-Protection.svg
+
+sprite $AzureIntuneAppProtection [64x64/16z] {
+xTC5Se0m443HzKZj_hSjCYm-OQdB7q4Vchpy-UnETxdthfvZRRr2B7v7_-zJElR8p7JiKqhkqx5d6-DxNcrAezwvYlW5Ofux9jZNht7OZzml4FNK6PnICu9r
+il6sVtnnpurfd7FUUZ5ZznJqVl_xlYFgNeQB-HCjsthFp6XnUmHG8zXrwiLCQUHg9X3rO5r2HDnnmxX7ypeUzu1gOueGyXwogdAd6xwKOj2euTCFyeHlyv9n
+vtF4runRNrApNAQLwXTmVwMwAAzylLAfYtJfNoxvb8I6h5Q1fJ_keNelVURVh-TjNqyzmrtlnVnpp3ltli2NPK7lt8lwiYtaor5jx_fDlhpHvvC-rhSpqtqH
+VzJFzoz_lbS
+}
+
+
+AzureEntityColoring(AzureIntuneAppProtection)
+!define AzureIntuneAppProtection(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneAppProtection, AzureIntuneAppProtection)
+!define AzureIntuneAppProtection(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneAppProtection, AzureIntuneAppProtection)

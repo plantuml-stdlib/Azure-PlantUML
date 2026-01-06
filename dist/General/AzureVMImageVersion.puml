@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: VM Image Version
+' Category: General
+' Description: Azure VM Image Version
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02866-icon-service-VM-Image-Version.svg
+
+sprite $AzureVMImageVersion [64x64/16z] {
+rTG7hYCX381X6pUOBTp_jekopWI7GKE2sllJaJvAsh5IdVSJV5PjxNXlmtiRtjlrkk6zNQ-xNdUzxlgywNNNwwQtFFFvojlOjRU4NDx7c4K7BnS-4xQI3lvg
+Xj4BUid2hF98RxmbV4MbzvSJQF2PCCOb-d62tXiEyU1bxeKuwiHS1gzpdn9JqFTUWcznSauS_VG0qITYN_mxto9o_RdtQCiZKgBlFJRlUxZoElNg-k5RjE1p
+z8YTJpHu_zU1oVS7J-zHxrMjohEgWoyqUEl_lmmab5_UinIyXF-lAkznVVIhIr-UIZUU5UGYzrq7__TaOJJBTUxx2ZKlHnZB9fFSXupBsvHLPkdWnuuI299q
+hNZGBW7GldjVj2y1y4V-gC43GDA-MwzzX0GWWr_UFh82q4VUkXZK4e3QgpjVUuza9W2yxe_UwsDb1Fno_PIinG3wdNS7GEl-i3D2VmJumETd1f8VAG3dPx_k
+gjaJp1u2hdZlL9mz0L1_MfUzGZu3eAV_VRj_Fq12FaFmoKgzppt5rFbAPLPTR8-tzdZhsEEj3UsLurcd_m4
+}
+
+
+AzureEntityColoring(AzureVMImageVersion)
+!define AzureVMImageVersion(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVMImageVersion, AzureVMImageVersion)
+!define AzureVMImageVersion(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVMImageVersion, AzureVMImageVersion)

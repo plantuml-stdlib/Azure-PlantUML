@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Device Update IoT Hub
+' Category: General
+' Description: Azure Device Update IoT Hub
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02475-icon-service-Device-Update-IoT-Hub.svg
+
+sprite $AzureDeviceUpdateIoTHub [64x64/16z] {
+rPU7aeCm34HZIIacC_Z___Q2HLdCaX5SVrTItqgYKs9q0xcS8dSJ9-GEEM-x_hj-VzpFdswWuSS3q3sUOBODo57LwRQ4PGp0TN54j-AAcIm9CHiRi84v8CTr
+Rw3CJvsexlYxWG3GLL8I0q81DfCkBqW0yPckbu5aXmAWd5mgnDTztoBrRRiEnvU62CpF0y2lh7rJ4OdvcVeUmVpI17IERH5H8yHy3mZuf7tS2jEcYHBsVJDC
+6l2fhicX0z3nORTHTNtFpol_Mgc6pCp-TSNAp-YxeIzM_L-vp-jZDTVrdL_Glmf-U-n7hF7f-hiIjAhIrBUeRsvQqq1XVi_Aw_o8PEPt6tjPSARMZ4zyQtI1
+5QS22GO-13pRyWC6gvMEZmFSLdZz-jIpvEQCczpcCgTV-yC0TWC_ZJf06W3yDTP_x-VR7Zu_w3oWx0QOAkZSnm0EwZp0bYyotVRyt0JmfH6vqAjrwyi-hcD0
+DvIlt8aU2PYVettgMfNRyO11lN_YQhaSvFdL5_pvypTD_-MkZUlFi_xdny_b58SAVm
+}
+
+
+AzureEntityColoring(AzureDeviceUpdateIoTHub)
+!define AzureDeviceUpdateIoTHub(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceUpdateIoTHub, AzureDeviceUpdateIoTHub)
+!define AzureDeviceUpdateIoTHub(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceUpdateIoTHub, AzureDeviceUpdateIoTHub)

@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure HCP Cache
+' Category: Storage
+' Description: Azure Azure HCP Cache
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00776-icon-service-Azure-HCP-Cache.svg
+
+sprite $AzureHCPCache [64x64/16z] {
+vT1dUWCn28JXI621qxZ_RVEubzrHctH__ry9Y5zRiQk6jIqQ_PjumK1zMWr6_RwBuhielelZl3UEyzuOZBsRzt5VvmCjjJdbVIoAxrfouedYJhtWir5y5-jt
+3wYZIYFRFm2vDZFt0drf-usxirv9xtMV4qYwl3oXqZ_nMrIFtrOotIKP92SVqDVxD1-KZxfFABduWBvz_zZ7-fZrSMhAQrn2zqC-7_sbLQy2qhE_jF2jOj7B
+sM-wF4u7viS-eNANbmVtcb7Ivt7_tGVX_r8V
+}
+
+
+AzureEntityColoring(AzureHCPCache)
+!define AzureHCPCache(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHCPCache, AzureHCPCache)
+!define AzureHCPCache(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHCPCache, AzureHCPCache)

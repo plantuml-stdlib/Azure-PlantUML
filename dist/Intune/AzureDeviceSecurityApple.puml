@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Device Security Apple
+' Category: Intune
+' Description: Azure Device Security Apple
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00399-icon-service-Device-Security-Apple.svg
+
+sprite $AzureDeviceSecurityApple [64x64/16z] {
+xTG5RiOm44HX6NzNvFlVjjcKne7dUYielOBm6uNxeIhrvUeX7zUMTTdY0TR6nnQEM_GOKzKK-G8QVTbZ_jYQ-agSFUlNqBDcpthkA_2v9-toglt-uV2WoRDc
+3zhf7qxFkZNoSmrUDF2v9ysUDVgvPYyQE7lGKhtpeBM1ix_wf9QIuxdUBtmAdovU-RZcZmDjoVUZRyk-3dhLwq3RImjjlfZNEruMacUWURqDc7Rx_bLlbs3q
+EMNx3waVpy1W2D7-Gr6z3fYtLs39wq3PYY7P39H7RmFLU_tscWsul9w3p-l0KzbASRz_SFfPlLu4r_NN0O_N1JX-k7yV0vxhf_rxk_35oX3v64Ao-u-bU__o
+V2IlDvbBoH7BSFro_Xdtxna
+}
+
+
+AzureEntityColoring(AzureDeviceSecurityApple)
+!define AzureDeviceSecurityApple(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceSecurityApple, AzureDeviceSecurityApple)
+!define AzureDeviceSecurityApple(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceSecurityApple, AzureDeviceSecurityApple)

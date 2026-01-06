@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Stack Edge
+' Category: General
+' Description: Azure Azure Stack Edge
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10095-icon-service-Azure-Stack-Edge.svg
+
+sprite $AzureStackEdge [64x64/16z] {
+xPC7iiCm24HjWS6PflkVzhVD62kL_KocwgMNjwoKg7-AoSHEb6G-Giqg0MwFuRkFU447HTqJ3VmbdCu7MD7tj_3o264plcUnXCuMKA_vpc4L7HHqCFgswI-R
+aG7G8OED3Z0TCIf0Hr1XJ-6ZBn6mvnZqTLbZ2Ta2rybDLPTb4TM65fui0Fr7NNzkk1TY1Nhu0LFWMFe9PWSKj6lvNrhy14n_R5xqrxGF6nfw_D_74aZ_jEvu
+flJ-2nxHFkVtOVz1OttC1zpytkNH_u_m-t7qsj_ijiRyonlsq-aNbC2pZ0_zyVa7bpTq404YalCnFFp794Q_JkXfAZxW_JgJoJS
+}
+
+
+AzureEntityColoring(AzureStackEdge)
+!define AzureStackEdge(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStackEdge, AzureStackEdge)
+!define AzureStackEdge(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStackEdge, AzureStackEdge)

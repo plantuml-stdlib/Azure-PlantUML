@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure Backup Center
+' Category: General
+' Description: Azure Azure Backup Center
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02360-icon-service-Azure-Backup-Center.svg
+
+sprite $AzureBackupCenter [64x64/16z] {
+vPG7ikiW34MD1Ihyjl_TVdD7oTXFaARfEUcnpnNztpVG67mcyucMiK7Dw22ZWumESdhUvnVrb2zhNVYv_PY43PAwv7IGqG5dV93HmTJF1LZI5y0Dy3DVWw-g
+qkgT9lg8wBiT4bxrsJKwyA_oXkzosK2XPm4JtUrpWhpe4_JjmlYllUYx7WFu9RyEja0zK9jpcNaHuOc_7xuyqKsjTs1S9WtWnphi6zRY2BH7_b_jLoHsm29_
+xzKXQQETgXY-1vzrKTnrkyrRaNx0PxzKmATEmdRTVXHi_O22F_WtGLs_1jYb0qJBW57TYel-gTS6dFVIjBn0hgqpOUx8Ho1Cmy6iFddHUrDiT210AtyRSDSg
+FXA2FmCBtxpyFWeZW0-_RFCUBFncy4E_mq9OjzzOKNxDnB_FbNLGtlPz_gXGRuMs3zhVzzFwMOC9fDa2ijCGlr4U6FRFhJBrTG1DVT-_zUQl0ehh4VE3hzA-
+juw0gHtyvVbL8slTn-0Clw43koJecpOm7OmOUzcE-E7uCT0JG4_v_xwA_m
+}
+
+
+AzureEntityColoring(AzureBackupCenter)
+!define AzureBackupCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBackupCenter, AzureBackupCenter)
+!define AzureBackupCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBackupCenter, AzureBackupCenter)

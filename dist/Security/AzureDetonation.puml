@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Detonation
+' Category: Security
+' Description: Azure Detonation
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00378-icon-service-Detonation.svg
+
+sprite $AzureDetonation [64x64/16z] {
+rTQ7RaCX38LXbdrC5-__jkKMtsuuoav-RQJFE3lj6fMZfVpeGApEZXiXauw_spl-Sayv9p5E8vn7E8yyypGZrzC8Ft90a8_qME-SD1z0EFD2F1lW_5JF-z_h
+YNvm09e5aoG3O5v2Y4N_Oiqn1FHaIrU-b-GdBYbiuNE1-VvX5BF2anJzZFfU2dk-GmvxcNdhQGoZP2Fi1n7MOzua-cNc-SGq3eHvGyafgtrB-e7OQF7yY_4W
+MvDFFxZNvVk_ianMNenvh3sOL-T7BW0XNjUUVu7YQLvLvmilDlVEjHqt0EG7CFXyJ9Odl9dj2zQ_tCIpEVyS8AZFFwegdixv6E2fFRbzgl1Jpds0fm3SShu7
+cTSex-bft5eZcl7U_9yZvnx1X9CUW3yOhuVpIZYBB4yZjzC8vn7E6xuzPEy
+}
+
+
+AzureEntityColoring(AzureDetonation)
+!define AzureDetonation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDetonation, AzureDetonation)
+!define AzureDetonation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDetonation, AzureDetonation)

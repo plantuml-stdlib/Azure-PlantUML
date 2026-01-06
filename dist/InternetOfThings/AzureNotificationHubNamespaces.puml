@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Notification Hub Namespaces
+' Category: InternetOfThings
+' Description: Azure Notification Hub Namespaces
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10053-icon-service-Notification-Hub-Namespaces.svg
+
+sprite $AzureNotificationHubNamespaces [64x64/16z] {
+xT57WWCX30LHWL3Fyj__jkESaoXdKsiUINfr8--EyLcCpw9--9R8hBRzijuAz5OS-Lc-vpsH7MqW5SjNeRV2_2o7tdpbgtK6VLdF7_GLFa0p7ukyThNnjIzV
+-mPzDEPdEVJXqA_VuAdvnz467hUtzkke3uS-FEjH6du2pVo4aW9w8NwrShGw6_MYNd_GIzIBUb4lJNg_Hly
+}
+
+
+AzureEntityColoring(AzureNotificationHubNamespaces)
+!define AzureNotificationHubNamespaces(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNotificationHubNamespaces, AzureNotificationHubNamespaces)
+!define AzureNotificationHubNamespaces(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNotificationHubNamespaces, AzureNotificationHubNamespaces)

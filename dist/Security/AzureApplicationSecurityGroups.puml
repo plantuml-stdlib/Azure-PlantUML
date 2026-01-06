@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Application Security Groups
+' Category: Security
+' Description: Azure Application Security Groups
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10244-icon-service-Application-Security-Groups.svg
+
+sprite $AzureApplicationSecurityGroups [64x64/16z] {
+lT7NcWCX28RXTQA0fDt_rMxvqoKEEZoRx_ormFa_4nInjq8QpNEcQon_pUhob3d1rLHU8fp0Biw2g9X8qCZ0cDx6ybINCrCtvju1WA1U_DSRppGHMqzJXUwF
+U-vvblNOyUBb-btgjmpuzBNIf_sIbs6FNdpAVoqldj6Gt-LhQOjF6Q5bWr_efalDcpmHkAXkzLGogmOybLgZliRyNxCUxUwUqgn7ASCpjkzwUVKebI9uU-jb
+m2FS7V3e0_vsW0YNVYJISEETrhoqlbPalC3R0xX9zwXo4xZnjfiNszasuS5zltUySq2zUlKvOiElgU-HFAMwVqhLu-Y9xvlKuqW6oa5_NYl2KOIZ24SHZY8S
+HJWASIGcFayLkHn5ECeHZY8QrGX7Zext0m
+}
+
+
+AzureEntityColoring(AzureApplicationSecurityGroups)
+!define AzureApplicationSecurityGroups(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureApplicationSecurityGroups, AzureApplicationSecurityGroups)
+!define AzureApplicationSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureApplicationSecurityGroups, AzureApplicationSecurityGroups)

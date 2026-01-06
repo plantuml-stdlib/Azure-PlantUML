@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Image Templates
+' Category: Compute
+' Description: Azure Image Templates
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02634-icon-service-Image-Templates.svg
+
+sprite $AzureImageTemplates [64x64/16z] {
+xTPLOiGW58LXhd0OUM3_gwqGJaaeQQZR_2_H3wbEPhTGMfrWQVV6q2DZrYEt4lRczzsLPI0pu6qx_dQFjzGyliM3tj_g6MfkDOnojkSji3ZWCJ3jrayleIOO
+5PxgF9EWECvUurrzngVIWq-Reeg8nhJfmQTIysdeOR9a6FhKUzrubvRZ9PzxpwMt52FF1jvDrzpZX8UXUTKsWldAm-hvgTi_erSpQdesvyi8wYMynJzaFkDF
+pwfUE09Epsh-jED5X6kOyHxYYSMY5wzcAn_5w5czrc2h-QNwaZLl8KpurFcqwu7USmVqd7tFe_FCgu_RkyUU9NlmVcBqSkmPF9sE_Nb9WwAKpgDE_FsJUjrx
+2ooDU62zp_KDJFf8pvvUmOlhPxnHNox-3LrGYc_scRtNNzxaS-lobl91rzRmyzLRFBxLPppq9PwSvLhnmDiycrl4fVCeJM-YGaOF-cdDvkUdwBjazWPU-f7-
+rZq
+}
+
+
+AzureEntityColoring(AzureImageTemplates)
+!define AzureImageTemplates(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureImageTemplates, AzureImageTemplates)
+!define AzureImageTemplates(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureImageTemplates, AzureImageTemplates)

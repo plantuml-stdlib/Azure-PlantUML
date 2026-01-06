@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Compliance Center
+' Category: General
+' Description: Azure Compliance Center
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02931-icon-service-Compliance-Center.svg
+
+sprite $AzureComplianceCenter [64x64/16z] {
+xPK7akGW34M1Li3WMUv_sxLcLBJAijRDvlGgERslxpm4MeB76LhZj_Fv6y-Vb_ZD_Fz-hqlwTjBtHR_rq_XbVxVwlkvtw_UdZoNdN6If90SOtmGquqCMw5XA
+ddpjzv_b5-lFA_XfFr2VwN40iWJ5WTCNPLvzuzyH-qjyko_y69-PTS7nWa_veCYHZ-GezpvcWOwbd3m_pjzUyVEzNn40K1O875It3_g5Vy_Msb3MVBK7817N
+oaG8Adi_jgaQ2EvzgmFM4mXNFbyzVxK3LyLNi3vbGGukQPB9w0O6v-FqSvge7WMyYQ-eVomzVLGz330-URyah25uyYi9iiIeC5mEravQO8iPv7MvkcGBn7g3
+we5qO0gynNv7hwFvck2xtrRgi-XPBm0DeOVrd_vSoEAhhlxeeSywD2Uz4W_HSPOP7xJ8DqDXNhj7dGobt_WwbVJQELy3mlv9G4vwyhQ_qbjy_NHmUgz1zGaD
+5n1T_wH0TNwSqB6U0Xxk3JBqSq8tqr3_0XOO9_RUcZi14y0rh6yZ9WFij4J1U9-XZ77p_RW5AD89nYjywVkv5B2kAq1BvJtn_sizGOSlC__VQ6T_1W
+}
+
+
+AzureEntityColoring(AzureComplianceCenter)
+!define AzureComplianceCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComplianceCenter, AzureComplianceCenter)
+!define AzureComplianceCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComplianceCenter, AzureComplianceCenter)

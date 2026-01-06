@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Spot VM
+' Category: Networking
+' Description: Azure Spot VM
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02695-icon-service-Spot-VM.svg
+
+sprite $AzureSpotVM [64x64/16z] {
+rT176k8m38RXNyMoP1RS_xRZ1vFYG4QKgTyczNMx_lVP5oKyxxTxqkyym9_w8aJeqKTUiCQ9FzCaXRikuVLDJm3KMskctbhFSpzpYJOL9YNtAo_jM07ACr-F
+6GEsA2lHHW70wh4dNZTUcOZN1u1Vy0R802vqY-ksWzmB4EDtMjFnXa2v1tHP-gxIUWPOvWlWhJLNcfBQUe1aNe3MSnRPDAlUl80ppv2nV6RbLT-z0PadbBjV
+Hb1TlUSUiCspYEZFl5-lFZVvdXwzJpruGhdq7lsbvxbdwBatm1Cle7EleCmN84uzGJFl60VWCldQrkqdNe1swJNRlFKtFGPvwYkWbrkXmvSOpnMmtBi2VXcv
+TByy1C3-wCEF4H1tqwosvPQ0-im_L35MC1K4M3oqy_C0PUQtLv7xKIM0RASPW4NgrrpG4_C8DoK0x97ukIhOnHQH-palJ0DhZKZyMUunIdpIF-olxQJOrKww
+dkVxslNjVEfzNwU-zFQ-jwa_xyk-RttvaXTzb-knjxW-wMKiftsZHx_TIrBc-It___S3
+}
+
+
+AzureEntityColoring(AzureSpotVM)
+!define AzureSpotVM(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSpotVM, AzureSpotVM)
+!define AzureSpotVM(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSpotVM, AzureSpotVM)

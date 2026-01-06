@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Image Versions
+' Category: Compute
+' Description: Azure Image Versions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10038-icon-service-Image-Versions.svg
+
+sprite $AzureImageVersions [64x64/16z] {
+xTP7ciCW38RXHn8WnCRtFsqgaVDxY25a-iotStbfAvQlheptOVxVcwPkCLngUWsZjNqAu_qC_--5-HNFT4fclT0r7lGH4bhZ4A6-3qoGX76FsfSmxeLQSTZt
+wfof6GzxQMa9m_xKbai8JtdXZNxICylzqj77dg-vdlJ2TUaJlkPuoXEplE29-9HCUgAhPv49J-IUMJQ-bBBlgSQtPEjjpvFxDK5VxA5t3Px5URe0QteS03dw
+OkYJ5_cj3scj-c9RxmL6Bp5vgbPg1XwIwa5hjW8PU2ZArRkk5hEczsFmZMikxGmz5cwJWyRQtlELp_jSzdZNMuUxd-5Tdn5OpbdDUTVhFLN5bqlVsugJfyvx
+FjyqBifvprlpPgxEErvzRaWhXnuitzh3BeC-fvPtrF7cVCvhcl3zbbVzj-e8
+}
+
+
+AzureEntityColoring(AzureImageVersions)
+!define AzureImageVersions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureImageVersions, AzureImageVersions)
+!define AzureImageVersions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureImageVersions, AzureImageVersions)

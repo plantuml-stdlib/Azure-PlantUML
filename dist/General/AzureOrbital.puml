@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Azure Orbital
+' Category: General
+' Description: Azure Azure Orbital
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02697-icon-service-Azure-Orbital.svg
+
+sprite $AzureOrbital [64x64/16z] {
+dPU7Zkim30GLcsxY0_R___RfIXPPWnIJc-jbHcAQRMIqnoiD7_68m9iiOdswYyUK1QISEew-jtYRb6kzNzC_5tj77s1McDtiRUWCP6kqLCVGPm4aWIPw7SX-
+wtqUu4uJtHceTX3hVmeqwdd0tK7ewu-U1tpmBmdm7ea2r2NGg4Wi2jZ0dG5nvDiuSDhWy2SIQEBV0zG7f-n0BT5lWSji5f3GFK1T0x813X85g3EG-K0KeCu0
+TL1S0X-YIm1td-CBr8N3GPucTOMwWXVQr3zA7nFVFG_K_d7q983QFy_ZI097B_pZ74X0zTwd_dMTSO0w0_JRgnu7g6k0IzEV1Sx-9FLx6A1EqlNpm1cy9hQx
+Zvu5XYu1UGBNWQ470Uf5W4Y0VXq0WW2tNmQ0C42_2Y0E9Bgxtm880qlikzy3G1W8pcBMmTRTNKP05D3fczcFFh0Ha4SYeW0FsVQb6lt1vW03r3K0BZ_KxUjJ
+Wws_w7C14b3znxUVJ-iJkHil40RmY7mOVGQe4zNLD_eS0G7KwMyCK2SJNGD3N6sr3tGTm3RKB7STAmEZODNYr7K33KPAMtMSFu6ryDDBC0w_qI-kofIds13m
+rXKaXzyA7ndDIEvZ1lqM-gZWpO3F-0y
+}
+
+
+AzureEntityColoring(AzureOrbital)
+!define AzureOrbital(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOrbital, AzureOrbital)
+!define AzureOrbital(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOrbital, AzureOrbital)

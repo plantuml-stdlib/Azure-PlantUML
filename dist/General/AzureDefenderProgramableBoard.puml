@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Defender Programable Board
+' Category: General
+' Description: Azure Defender Programable Board
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03422-icon-service-Defender-Programable-Board.svg
+
+sprite $AzureDefenderProgramableBoard [64x64/16z] {
+xT07RiCm38LXBlEfK_U_RS44jfGGyOYwsnyZozy3aPhpgBtjlyojUZ_rK_s_nptULzhM06vpO6F1iTqAnwu6EJ38WG_nED07U1ogiM-VcMCa9iL0JZJTyKSk
+Hoinu7QBPJyhdyyNE9CUyaea_Vb2f0Tyux0ulmsi-ymXyJOFTAwWbRWJ6Tf0gW9h74O4h0oKwo31ovoGf5zMiuk7G6GNqxRb9n93luRcZMagLzKqC9aYdn_S
+fioNkkTKaS-7gY6xx8khYfzlQUT3LBsi-pOWvm4XNhWqlkMB2tCypVFvO8x5lRuuCv_Ezvcpb-GJwmUq55tEr-27GZi_GZcUn_a3mQHizb26UgXpEC9GSqSk
+gJVyZes7-UeyiBlw8RuEyMY8HsCy6jFHY6u3tLJtvG_n__wnHe_nxg6ztUSVe_Qs_pBt1W
+}
+
+
+AzureEntityColoring(AzureDefenderProgramableBoard)
+!define AzureDefenderProgramableBoard(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderProgramableBoard, AzureDefenderProgramableBoard)
+!define AzureDefenderProgramableBoard(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderProgramableBoard, AzureDefenderProgramableBoard)

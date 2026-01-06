@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure SQL VM
+' Category: Databases
+' Description: Azure Azure SQL VM
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10124-icon-service-Azure-SQL-VM.svg
+
+sprite $AzureSQLVM [64x64/16z] {
+xT9NGiCm381XQrhi-zyMoHKZmwcBsV2_T7woskJXpwSJEUT9hrFzUF_lwqJkDsyn4Olc2s5_yVHSHCzwWXRMYA54q2Oe071T5NxBqsF9W0TzV8SqjevPBf6P
+83OOym80ci_L7RStOyxu-PBFgQdy7J5rm5Tu-L8Udml8c6Tudk18Soj_oZrlUmCmqA1VfGGUMPmlrchUchTLuTS9UAVVds_4AkFU603Kg1IevbMCPqDUn3ng
+Fgu_gfbYMt_C0n0Z062iKJo0ug65p_38PseUXut8JZxhUyMy_jQg51D0h8KPzNqOJPnXtCRMA_nnSHsXzltLm020slTdK_RiQg_m4_ri7tsnlvxtrtFx-u29
+dFS6BFRgytwBs_pYvdsDiZTmdVMBFj_Bea_tmeik7S2R9Wu_HOEO-l4KZpxSbsDVbj_-xn4
+}
+
+
+AzureEntityColoring(AzureSQLVM)
+!define AzureSQLVM(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSQLVM, AzureSQLVM)
+!define AzureSQLVM(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSQLVM, AzureSQLVM)

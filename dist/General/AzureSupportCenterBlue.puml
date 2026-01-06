@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Support Center Blue
+' Category: General
+' Description: Azure Azure Support Center Blue
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02507-icon-service-Azure-Support-Center-Blue.svg
+
+sprite $AzureSupportCenterBlue [64x64/16z] {
+xT87SiCm30NHL05Cs_kVDksdC148KiPugjVTmbCdQ_ledgoSgufM5Qqub6sxhB1nLT6geXMJR5Q5gufM5QtOrUnGbOshWbP5xyPlVaBqhSt7NBVbqjRCNI4c
+_n6qd6lAEjtvwHhO5Evk7UbyTX2_ekbxuFLxuZKVU4Ly4Atpcmezj44z6tgZZO853qr1i0AEU1vst4RUlllr3lpbcmKDlPRr6xVSAqH0ltZfTUuLofHtlwPU
+xTVdDlL9O6Vs5-_fXCzzKhgqwdtDMyMhWjTxwkT1pTyLlP_Jiy19ECoW9LmDlMg9LdSjuct0cx6hHK4BSi9MFSDMF5bJxqpAFGkDFOl5_eNb7WBFeVvx3jTx
+Jkb5FkTl
+}
+
+
+AzureEntityColoring(AzureSupportCenterBlue)
+!define AzureSupportCenterBlue(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSupportCenterBlue, AzureSupportCenterBlue)
+!define AzureSupportCenterBlue(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSupportCenterBlue, AzureSupportCenterBlue)

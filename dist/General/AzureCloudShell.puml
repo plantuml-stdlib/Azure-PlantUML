@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Cloud Shell
+' Category: General
+' Description: Azure Azure Cloud Shell
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00559-icon-service-Azure-Cloud-Shell.svg
+
+sprite $AzureCloudShell [64x64/16z] {
+xTN5OSKm54HHcHvCgFzgFxCdmd1qDyPZXhU6UZsfgzNBH_Zkkvyh-qaUPUcZVohBVgAVvpO_XYd1uBRBmJt6C2AcLKwf4f_QWCbD2xz-4za0uxk8vnlWN1Rg
+4SB2pttLmlpyplvjxOLupk6ch9Md70Hpppc1t2ydhkEf2L6-IsxzTDhx4ixvmuKZiVSFftQZhgdEdcVfOXwMRevujun-i4U3ppq0Z_fqPy_ByR4aoT_cfWqa
+_xzBWkzy8Z5k0Rpb1LQQfUlrjW
+}
+
+
+AzureEntityColoring(AzureCloudShell)
+!define AzureCloudShell(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCloudShell, AzureCloudShell)
+!define AzureCloudShell(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCloudShell, AzureCloudShell)

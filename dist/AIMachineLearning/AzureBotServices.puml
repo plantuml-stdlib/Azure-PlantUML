@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Bot Services
+' Category: AI
+' Description: Azure Bot Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10165-icon-service-Bot-Services.svg
+
+sprite $AzureBotServices [64x64/16z] {
+jPS5akqW44Lf0qgp_zL-8NKf1ZfCy-IKZ9xRygBN5odrvZMrT10Ibyj2F0ALlOW3Em_44-eeEn7xWB6q2LDg4AiX0YriYj_oxNP8_aVi0sgtEJcGRGAWmtRX
+FiD6rxH1SqO73pgdBVmGWCrH-WNo0sf0Hm1M4D230TMPNTIX5M1CCFawBMe17UeTCEcMVlNH8XeOVNGFr1RWOm9yTavvb-udGmDE-OZFau_oGHyR6DgNCr_G
+0DedxDrC0ZvDlWrdM0xuAGy-sZ_njJNGVJxr1NvjFftvM431-jBYYs8cVEluzT5NNChmBNomzoddFWXElBVyQFtp_kix-tlvysDyVcs0buwVyVZNKry_T_wq
+00huOaRp-k1Bm0SOl_aO8EhFxQC1Fl6vBBwT-DRqSlri0Bujw7Dv-2N3zo1dUlXeG5jqm5VetHycO7MGwRF3zDC4b09mGVcN0YX37oa8YEhmnnLW1nkaTDqF
+ABhJzK57mBu5pguEAXACNTkAexi19Q_FxxdRTV_2XfS85QAcacYJ8wzp5GaJ0Hi13LyEle61xWPj06EYN75M-pgdeEuN-Gi
+}
+
+
+AzureEntityColoring(AzureBotServices)
+!define AzureBotServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBotServices, AzureBotServices)
+!define AzureBotServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBotServices, AzureBotServices)

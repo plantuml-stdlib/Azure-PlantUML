@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure AD Risky Users
+' Category: Security
+' Description: Azure Azure AD Risky Users
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03342-icon-service-Azure-AD-Risky-Users.svg
+
+sprite $AzureADRiskyUsers [64x64/16z] {
+xTG5SiKm48FXqlvlMFS_RHateEoet6eW-9bjVKW0Je7bCI47vZefeCWAO2qX9-JmQJuhe49FvF_zAVJQubUXrz6aFkHIoANKosYV2dXVH_e3ARFKtNIO-MBe
+CL-jP-ThQUYNNxndcmDupyQ1zZXLthDL_Sptbpp6U_OuU4__WAQ-lp1JRABKz-9cNcrOpcTUwZT3J_TCl5BFqdFSA_DNsbk5tejrNyvtqdFGivdkVVMbiM-b
+dVS23E--U9NodjquB-Dn_ZpqIdpUV_JHkG4
+}
+
+
+AzureEntityColoring(AzureADRiskyUsers)
+!define AzureADRiskyUsers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureADRiskyUsers, AzureADRiskyUsers)
+!define AzureADRiskyUsers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureADRiskyUsers, AzureADRiskyUsers)

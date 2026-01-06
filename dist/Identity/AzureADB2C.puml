@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure AD B2C
+' Category: Identity
+' Description: Azure Azure AD B2C
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10228-icon-service-Azure-AD-B2C.svg
+
+sprite $AzureADB2C [64x64/16z] {
+pTG7ZYCX50HGyHDXq_rlkxWnBWqgD4jxKqqEh_G9xH__TrJVugAkxt3JCBtFjVkmD_Z3XztcmuVUypPzw2qExtg7muVBdSN3X-avXpyzXAG6VwDWSFZ3Gn1Z
+FlI0mnyNYEwywmaVYSE210v_S0XgUvzpjeEzMto-OcVSe4V2ZhX1VruWodt-aD3zrZEVrxXmpxXb4l_5nMjFO7x4A5-jz6YCa88z7rJWbuvIih6jXrqySkc2
+0d3OrTEAi0ySbdZQ4G9FAVVyMKpd7joqVphqtedxu6PNru6_e8-lDi8BkFVQsYmQUZk2KjrJo_Z14590lBLdHW4u6O7v7sqcZvrO6j9dlc80700RWNjlC_NY
+f24HZzGsmrzw12DGNuZdY-0-rpd_Zqq1BZGyAO3TZ00lvkucVirV-qVniYj00xocH-Iv_2eYIYOW8pozNzxc_fb8D5eWIqCy8m__Ei0iGlQ0Z81Rtxc-zg-A
+aICaTo5UwTvn0popCvnXNfBWXrhgSeTuWODOCd85uMb31982oLkFhDxtpn0FFBl28z-9Gs8V3luFZ-pvVvEV
+}
+
+
+AzureEntityColoring(AzureADB2C)
+!define AzureADB2C(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureADB2C, AzureADB2C)
+!define AzureADB2C(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureADB2C, AzureADB2C)

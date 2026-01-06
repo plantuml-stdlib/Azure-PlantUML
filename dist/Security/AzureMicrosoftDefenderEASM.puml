@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Microsoft Defender EASM
+' Category: Security
+' Description: Azure Microsoft Defender EASM
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03336-icon-service-Microsoft-Defender-EASM.svg
+
+sprite $AzureMicrosoftDefenderEASM [64x64/16z] {
+jTC7RiCm34PX3_5dCNt_qtR93mXH2GBfz7Kt-MWnu_hFJ6QocfNzfbvMsvt8AZnCIUlMoquGkXSMoLqRlPw0GmTEUYt5QJuWMlYeiKSkE2qylEhHTMzrRnBL
+VDlkhEHrujiRlSItXRUHvvzJBxnD_D4V4U4zUiawV-OjUaszZxnPzASasb-zXjxkr7hdTfnqR6VxJbqFVKpIVMPsaGHVUXOXJWwlUptpgdjqtUkPrpDF4w-C
+z_Vwk81edthuoClsthO7jFB2X_VlcF_rFl7VZNp3XGCC_UBov6ClMdWE4Fs2BxqIdW719pW3rF29q-FZkppf6L3ZRD3BSMgIodozWUFdYRAStBt6IUvbpW2l
+SbRm4gUFFY1gNPGz0XUl3O0N1ZWQNXZ0weNyxge6hvVGjRu
+}
+
+
+AzureEntityColoring(AzureMicrosoftDefenderEASM)
+!define AzureMicrosoftDefenderEASM(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMicrosoftDefenderEASM, AzureMicrosoftDefenderEASM)
+!define AzureMicrosoftDefenderEASM(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMicrosoftDefenderEASM, AzureMicrosoftDefenderEASM)

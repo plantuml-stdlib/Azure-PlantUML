@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Defender Pneumatic Device
+' Category: General
+' Description: Azure Defender Pneumatic Device
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03421-icon-service-Defender-Pneumatic-Device.svg
+
+sprite $AzureDefenderPneumaticDevice [64x64/16z] {
+xTG5ejim44NHeZKy-r_j1tbSXVDabziJXYi8E7yt_trPIkxGgYrxfju_mdBB_hnCvur5LMXoW2qMZvLhcnYWtaiUuQQgzdv7Qane-lSHEC9LinEBq0Qke7KS
+qMkrFePwQEkmdZmqUnXMjy7jtG9DRvMbZZlUEgIdSBteqqBWNaFpijyMi02zt-Z5WzexOFlXUTMd1OCztUdbn_TVeFNZdv-ePF4WjBVg2_u3gfx39IzOAFpx
+QHvsFJrL3otWOWVu7x1rMWECt4OE3c2Qu_XX1FVKoNhygWEOqYe1LDIZ66DveOselH7QB8cXsrhcaG5ome6y03Kyn9VSXyhKs-VwyJfjPdfQSIRJDtX_qj0n
+oSHifaHC9vWUOrOp9YP-5-4yooDuewgCmXkScHreZkzVH1Y5DpZt7Vjtvo8xzo_VO__2n-GOCM4oyanPSKxWYhQ7S_L8_di5
+}
+
+
+AzureEntityColoring(AzureDefenderPneumaticDevice)
+!define AzureDefenderPneumaticDevice(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderPneumaticDevice, AzureDefenderPneumaticDevice)
+!define AzureDefenderPneumaticDevice(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderPneumaticDevice, AzureDefenderPneumaticDevice)

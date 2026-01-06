@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Client Apps
+' Category: Intune
+' Description: Azure Client Apps
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10331-icon-service-Client-Apps.svg
+
+sprite $AzureClientApps [64x64/16z] {
+xT053eD058JXABfo_zDMYQoxpn-VlAy5-0HjSff9j-cvlz-czF2x_dOt-LsEyzrdo-JtMBydUlZcuVl37qg-Mvg7XszV-_S_vVdKtUhk7g_akQtiuU6lnrzo
+d5z-sxypqlC9UWC
+}
+
+
+AzureEntityColoring(AzureClientApps)
+!define AzureClientApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureClientApps, AzureClientApps)
+!define AzureClientApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureClientApps, AzureClientApps)

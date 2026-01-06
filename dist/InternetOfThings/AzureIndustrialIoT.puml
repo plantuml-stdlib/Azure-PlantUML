@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Industrial IoT
+' Category: InternetOfThings
+' Description: Azure Industrial IoT
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02359-icon-service-Industrial-IoT.svg
+
+sprite $AzureIndustrialIoT [64x64/16z] {
+rPVNjeDG24Gj7FJD___RcqcROr3MXDlt4vOzXDYt36zWAx92hYUqZgfD2dOvOQ3JPwtlDdSUXHkw3R9raRmNVvFMNDmaD966c6qAs_K4kvBOCS40zIlTGVOB
+Iv9WDwW3DlSRfqV8Uh-5iJpney2bIVEdCtzBVVAbFdVt0p_a70alUl3j963Xx_5sdC_a4C1v6n1zAehl5Tz_nuzNOdkKrfFw2V_7du415a3qfm6W6b6Cg0Om
+PJwhcu_gvgEw-Gryks_ZXGdLZ6g-Pg8omK_vRpw5V-Bx0UrbW-YJ7_0vLzINdTzsnlvzxystou4hIYzu-JfTvreWsYvkqRjmgnM_9mOjVbLUVuNnn17ZMZt1
+G3PN_Z_P5RKvSVg0jamZ1HkKRGwX7ZFzKEh4UqOzOAiYw1y
+}
+
+
+AzureEntityColoring(AzureIndustrialIoT)
+!define AzureIndustrialIoT(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIndustrialIoT, AzureIndustrialIoT)
+!define AzureIndustrialIoT(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIndustrialIoT, AzureIndustrialIoT)

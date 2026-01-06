@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Service Endpoint Policies
+' Category: Networking
+' Description: Azure Service Endpoint Policies
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10085-icon-service-Service-Endpoint-Policies.svg
+
+sprite $AzureServiceEndpointPolicies [64x64/16z] {
+vTDNTiCm34HHi0D8s_zk8oey6hg2CgFKz-5-Ht9x-zHI7kogpgEnYAeyhBNr61VTChp5zG5Uj4lsUzQ-_Lv-afT9__Pz7lpIXv2HZzO_fta88XX7BkxpWSZX
+NdJaqe0lhGzUq3fGaE71hmpOtcyS9GnO7hmlKHqmF7ZsFfNbqldrxCDoGUIYwHjVFuBrac99zN8Te3JWrwFuIv_3YCy-ndhcpbNYwae9zLta68Dv_hLK1rgH
+6gayvc9x3C23snu3yE2snm0ykEqn00zkUmpapODR7gN--8rRdljAlLZyThlBy2ru_gq-JVlqhtsWCECp4UK9dnQV9ZmxSZpkXIygrxYO7ktoWntYir6vxxCL
+t_CsBpBdvQwF5kVxFX_jOUUF3uwEzddMSyyd1XHyvq1XKGM_afgz7T8x
+}
+
+
+AzureEntityColoring(AzureServiceEndpointPolicies)
+!define AzureServiceEndpointPolicies(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureServiceEndpointPolicies, AzureServiceEndpointPolicies)
+!define AzureServiceEndpointPolicies(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureServiceEndpointPolicies, AzureServiceEndpointPolicies)

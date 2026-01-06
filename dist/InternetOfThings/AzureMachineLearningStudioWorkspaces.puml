@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Machine Learning Studio Workspaces
+' Category: InternetOfThings
+' Description: Azure Machine Learning Studio Workspaces
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10167-icon-service-Machine-Learning-Studio-Workspaces.svg
+
+sprite $AzureMachineLearningStudioWorkspaces [64x64/16z] {
+xT1NRWCn38HXhKKEcNx_sqOLyBYAwSNVw-B73lNoyq2nIFF9VftynLuPY9AJlH2z9qBohMUt_jQ3c18GFTNVtHELVKxVx2VrnpTwk6VukhvIPduNwIlghxxV
+hSVxUjzTwj5budj6plsM6bLz2Qjz-ZEzn7FgumD0FH3DYzaBYdYEBGsA8jpdDErGlN4zNn1V7xz0Q3rT45xF5yJNno-uc-lPjdg15PgEYLLB-LpFiDB3YfnE
+sQmAhMVPggkvKHIwmEZtHx9N5tflx1plBkINVKBFxbPG_vEy0W
+}
+
+
+AzureEntityColoring(AzureMachineLearningStudioWorkspaces)
+!define AzureMachineLearningStudioWorkspaces(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachineLearningStudioWorkspaces, AzureMachineLearningStudioWorkspaces)
+!define AzureMachineLearningStudioWorkspaces(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachineLearningStudioWorkspaces, AzureMachineLearningStudioWorkspaces)

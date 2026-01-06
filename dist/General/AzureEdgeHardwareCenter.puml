@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Edge Hardware Center
+' Category: General
+' Description: Azure Azure Edge Hardware Center
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02810-icon-service-Azure-Edge-Hardware-Center.svg
+
+sprite $AzureEdgeHardwareCenter [64x64/16z] {
+xT45WiGm241H84HMkVzfAunFOwJhExykhnhwYv8f6FhbFdw6ZuP-gWzEqrN2JEIhdb4Bowg7RFIZlMzwL_MHtHBhgiiMojxGN_M1jBY6a8jt_Z_wD9-MJdvP
+3GMVrae-xFJ9huN3AcVoiUmDVR_7fN4FgD6O5pm7TYzuazNVO00uNs54QmYzNd8SZYynhBMspsdbn-hwIIZ3yH8zrHCYAcjqtE4f--YgkUsrxACpztlCQ9F7
+-qUtUhpLDgzN8BfvT9jVx77kUCGVKxt7iy4__7FJF-_qKkztUwtcfQkI9-aixyNGreknMo_suEAT37NoCXpHlPu1
+}
+
+
+AzureEntityColoring(AzureEdgeHardwareCenter)
+!define AzureEdgeHardwareCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureEdgeHardwareCenter, AzureEdgeHardwareCenter)
+!define AzureEdgeHardwareCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureEdgeHardwareCenter, AzureEdgeHardwareCenter)

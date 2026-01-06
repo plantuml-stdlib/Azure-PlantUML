@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Connected Cache
+' Category: Networking
+' Description: Azure Connected Cache
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02509-icon-service-Connected-Cache.svg
+
+sprite $AzureConnectedCache [64x64/16z] {
+xT27hjim38LXcTDIWVhztxRAoKuKKm1xz_qnCknFWzldwpT32NmkfL66emn76OxckG-RzlwY9FSCHWcDajmp7EKuod2KzJxcwtnPxmcFti1FAU9JTExY9R0i
+KCDU7C2ejrZ_9iAqsz3hSaWxXmuMg4yflDKQSvA1jxCt3haD3k3mshtfxWgiPjjW0NYfrQsdmaCh7HlydqTFM03-bFP4-928GYBuhGq7wF1H6neDWEpYLGE_
+jTOUBb3ASl5S9F2zsYunVE6hBnBvsmZykW3ZUymldJmKV8ycEO972n4LHB6-L4OjamkWO85uXSZ72mWzS7tKthQTMZLXMfQNkwzjtxTMLpSp6d6lhKKUrSgt
+tDtN2ZlZaPH2jGsQzfqdlCk8npugx-kUhxdjunN-Rd71rhC5y8FwxHy
+}
+
+
+AzureEntityColoring(AzureConnectedCache)
+!define AzureConnectedCache(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureConnectedCache, AzureConnectedCache)
+!define AzureConnectedCache(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureConnectedCache, AzureConnectedCache)

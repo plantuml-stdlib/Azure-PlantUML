@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Microsoft Defender for IoT
+' Category: Security
+' Description: Azure Microsoft Defender for IoT
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02247-icon-service-Microsoft-Defender-for-IoT.svg
+
+sprite $AzureMicrosoftDefenderforIoT [64x64/16z] {
+dT99ZiD034FH8jNxtF-qdVa3ZcN8vjy_gZBSZlhRTBiOa19UhnYufijKbnRGDjNP0QFTBTHq6TuElEeXeVi5wdcXkwhQ0NuhdwYUxNpvKlNhVR7HhoNdNkjP
+xjUxyxuswUlhgDRJIdr-ltk0AlMEFRaa9vuiEVGCH9uaXvu7y3q6dZ-2qlly4IVVV-FwUesUS_8xILfqmlElfT3xLV3vjJl5-LE-TgVC-SxJrvTTcwIokx_n
+YzFm_xKy-7w0mzAEpzw2MMuzDPxllNi0_F01slnlBTbLyDclTyrhyFr0Vvyr-E1hUxxpyq3zUCD7lqtSnryRE3wF7ruWSHr_Se3W-G2y7qYlyu3qEWFfUGR-
+ZZNyU63eDfLoIZcbdDph6Y6bnodbb79ooYdL18-RzHq
+}
+
+
+AzureEntityColoring(AzureMicrosoftDefenderforIoT)
+!define AzureMicrosoftDefenderforIoT(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMicrosoftDefenderforIoT, AzureMicrosoftDefenderforIoT)
+!define AzureMicrosoftDefenderforIoT(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMicrosoftDefenderforIoT, AzureMicrosoftDefenderforIoT)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Exchange Access
+' Category: Intune
+' Description: Azure Exchange Access
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10339-icon-service-Exchange-Access.svg
+
+sprite $AzureExchangeAccess [64x64/16z] {
+xTU5ReCn3CHnQI4xfVT_svLxzKNvSYFH_eBXpt6vFVrc_TfNBQPgxp7zS3ThvynkmuwITclrMRD-IJdxeg7cQnFyldcbxFwdAUoqEbu8_9-99ZcSi4D_SMwN
+wxjkTBazp3rS5to5pMligvGl-PBF5S6pXWcYpz0NVCdOjc_lbSVczs_2dxTylQeAtueUJ1Kyhb_eXp_qk7BL_BzFmvPz-HYKKXKyQyapdtll7Jrfyk4P_1Wy
+SVR7yA9bu8DcRx3-tATLx_OCVChWxPcpxoEVBmqylnIFVCgtHlv4tgFFhu9tzjxxkqyP0q_hqm8NdqFe7JWjSFKfSozFRnzeWL7XUEe80sOvlPM3Do5Bl9_6
+hNdYD43WT1kuQzlpLJ2BEGyGEGyGEGyGEGyGEGyGEG_ef9dF1uYStyy7xlh7DpfS7T2l6hWIVLgHeu-EQavSJTHwdm
+}
+
+
+AzureEntityColoring(AzureExchangeAccess)
+!define AzureExchangeAccess(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExchangeAccess, AzureExchangeAccess)
+!define AzureExchangeAccess(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExchangeAccess, AzureExchangeAccess)

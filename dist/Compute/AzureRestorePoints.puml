@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Restore Points
+' Category: Compute
+' Description: Azure Restore Points
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02817-icon-service-Restore-Points.svg
+
+sprite $AzureRestorePoints [64x64/16z] {
+vTNNWjqW38HX0ne9pWtl_xPPbx6DS5boax9_Uld6sbx_omAMQjMj4ImRLZOqul3WGd1wS05B-fIzFjpiqTyEAFbR-d0x-NDlV7n071yTE3WahOas0h85Uizb
+-M_Jdfovkh_lEMmkJNkuyS7c-klfTOjtwpg0jT1xB2bzyzWOGX0xHM_TutklAIn5F7aiMUyHzf9stjpZlKSCv-JEH-zvkYl2-NnnFhs4Yv8stlhpwJN5Auzx
+dxSqoVnpJFtzIP1pHaJUMdXiFLVcMfrctsHy_8sN6DZoH-_pipyMqif5Rttf_ORcq-ERbzncQKzI91_mSfHsZbkFxtWy-FhWDpxi6VblUtBOkzUGPe-Zmwjr
+xxySY7bBfccPEVk5y_mmXSxpDFfcGOxh7tprFblhDUSdhzuV2tpFyTvzwInBioyiwrSGWPMzBr_MMY_USm6YkLnuSWuupupwpIizTAsudJNwwZtgvXaQFZ7w
+Ve3_xyN3ynfE0ndi-durylu0BT-jNW_8EEylW8vmUbO46EOSO0DwSE3ZrE10VKfnLFidVpxrhVF0fubuO62kE3isC1x-3bz_Ihy
+}
+
+
+AzureEntityColoring(AzureRestorePoints)
+!define AzureRestorePoints(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRestorePoints, AzureRestorePoints)
+!define AzureRestorePoints(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRestorePoints, AzureRestorePoints)

@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Targets Management
+' Category: General
+' Description: Azure Targets Management
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02908-icon-service-Targets-Management.svg
+
+sprite $AzureTargetsManagement [64x64/16z] {
+xPO5SWCn40IhpYiCwF-l3HorOQCvNL6eYpNRipAxTR5Fscdiv_h__hyVmqmyuwPuomdxV4DqiQFBa--dU4plCAWx9yTrSIhyACw5BXAbYqpv8bHwbEt71YxJ
+D5q-6FB9frMdOCZVRGfolo3Fh34s1INFt4W6uJf5ns_pGCH8DtwyzgzjiullswRZfqUVBy643y8tw_dg_lkSV_-ldpz7z_mPKWgmcJC6N6vYRDQF-0qzEBb7
+yGke5tukCnpCkwadTX0JXDel0vaUqZeOOuwkVUQAFFKfKDlCQu6cAHxe6g5hddoxAW_KSatzWCsrjd5AJJF8V-J_wx__xrCGMezt
+}
+
+
+AzureEntityColoring(AzureTargetsManagement)
+!define AzureTargetsManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTargetsManagement, AzureTargetsManagement)
+!define AzureTargetsManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTargetsManagement, AzureTargetsManagement)

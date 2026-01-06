@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Defender Industrial Printer
+' Category: General
+' Description: Azure Defender Industrial Printer
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03416-icon-service-Defender-Industrial-Printer.svg
+
+sprite $AzureDefenderIndustrialPrinter [64x64/16z] {
+xT1L5aCn24NH5UJMs_cFjkwAr1_x_oJ0R6FaDZluR8-LmT1fW9LLdXB8eqeffIXIg34oMYDa22k-IodgSIKNOICHqQizsV0_zb0rzwgunjeBy3tzu42ClGuE
+C3mmzuVav_la_VeuGaQC8xE3PZKxyjc--WK
+}
+
+
+AzureEntityColoring(AzureDefenderIndustrialPrinter)
+!define AzureDefenderIndustrialPrinter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderIndustrialPrinter, AzureDefenderIndustrialPrinter)
+!define AzureDefenderIndustrialPrinter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderIndustrialPrinter, AzureDefenderIndustrialPrinter)

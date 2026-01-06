@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Globe Error
+' Category: General
+' Description: Azure Globe Error
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10807-icon-service-Globe-Error.svg
+
+sprite $AzureGlobeError [64x64/16z] {
+rPK5iiCm30LTa19BdT7zJri6-Vy-lqdAErZODGNYLLGxC4jrQvXesn6Ga3tKnWML0qp70Jd25eu3fHlOM1U_Ja22ZpuEUqRBa1LOHigH2WDOp_ve3HtVg9y3
+-g0lICVhpu77VUdhfi074tZKTx_l6_PR_MzWGBxb3SY-t_4NHYQGVN_KzmVz71Xd-Vwexws_dEpx0tuErDc-KxyWFmVMopsAXvSW0G2uVreUz8y1MQw6_tfj
+fuy3gx97mV3Sp-UFfuy3uFx1Bu1DwzV5mL_1Ls2m2UXX-8g7fu6g0vpzEd0WO-JrIGDSvu6i0vy7dEZNx-y78kl85p27P2Ezj3zcEuBf-MVj_oo1a2laDuGa
+yFSyW1c3e3rR8pZCvj2PSqeQLaLYFhedVjVN8m_eym9oH1EJ3b4GvK5ViCFlWiSNi8uNi0C
+}
+
+
+AzureEntityColoring(AzureGlobeError)
+!define AzureGlobeError(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGlobeError, AzureGlobeError)
+!define AzureGlobeError(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGlobeError, AzureGlobeError)

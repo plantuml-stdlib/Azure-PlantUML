@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Traffic Manager Profiles
+' Category: Networking
+' Description: Azure Traffic Manager Profiles
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10065-icon-service-Traffic-Manager-Profiles.svg
+
+sprite $AzureTrafficManagerProfiles [64x64/16z] {
+hT47ajim38LX504WK-z_sz1QUYc_WGmcsJVDxVjDZdv__UoucUtnDzlazwjviOgNs-72oMG52iuioPYhW9yR_F1ancn-hk86iWuWhm8bhmFrtUi0SkSn-uT0
+V78YzYBWZe4uDxZG67kycV7ytdE-7mZaIWG1rpAmk8L0m9aZcQ_02my8E1D75RXy0871mKDWUNcyXO0nJPy6vCLBFAUqTkz3qEU1shV7HDhdNWBSiYs1_foY
+FrJrUCoizcC2dkavlV5wvS7WPV720mSlhV30qLlb5qUF0Rtp9jSfF12hF0uy6Vg-vzdclVpg-_2FYVPtK-BeyGnyV2HzRDCVW_SLA3skjTuXKFbmZsW3pa6W
+z4fpB5bWtvEb9zZrx3sz0XV-c7vn2BnuvRZnqd7j8w1NtuGZzoGj3N2R_jlyZ2Ft-Gac__Px720D614VDm7doVlWCu1NCEBepbaWNdb-0ZiVd2SdSE1ve4Nl
+4CWvNW66LmZW-u6SxmU0uxwL0UHvW9C0dHDF-Vu9w9RNWOB35HJ79Ry6L98fyZnGBE5reEPreEPru5iASCM_V-t-
+}
+
+
+AzureEntityColoring(AzureTrafficManagerProfiles)
+!define AzureTrafficManagerProfiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTrafficManagerProfiles, AzureTrafficManagerProfiles)
+!define AzureTrafficManagerProfiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTrafficManagerProfiles, AzureTrafficManagerProfiles)

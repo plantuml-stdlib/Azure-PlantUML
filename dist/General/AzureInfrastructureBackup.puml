@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Infrastructure Backup
+' Category: General
+' Description: Azure Infrastructure Backup
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10108-icon-service-Infrastructure-Backup.svg
+
+sprite $AzureInfrastructureBackup [64x64/16z] {
+xTC5aiCm38NXCKWoZkz_stMvpOlNrZBqBrVpXTC-93zDoR7lzbxXjKiWlzZ8dminROjCns01wBcKL2eKOG43dtEVnmh9cfTAleS-7ySD5W3-E2yJRqUUg_Gn
+LIYT_6O3m5EiWQG0BxpeAPQAPQP7xqU-nn3rphxDFVO9teuzO-ZzoCUwKvPLdugGb0enUltrC_TXTFsMuzXl0Y-L1_VFcgUIQVV-3Nk-ePTISndjFhKDHqyS
+8YPqzWsuzle3hlGDkD8tu4hVW2iyfFBcFgttrXXhhUlr3rZ4Z5jZdR_BsSS5pBdVv1uMmAz6PjVRLI_Ex6r_MFQPJC_sRiVFfRpkSs9dxh8KSrRuNaenC94d
+bfXwUd_hY_pJF_tJFpr7dST2sl7jLk3v4ZOrTGghw0K
+}
+
+
+AzureEntityColoring(AzureInfrastructureBackup)
+!define AzureInfrastructureBackup(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureInfrastructureBackup, AzureInfrastructureBackup)
+!define AzureInfrastructureBackup(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureInfrastructureBackup, AzureInfrastructureBackup)

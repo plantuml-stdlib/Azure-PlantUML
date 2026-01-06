@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Marketplace Management
+' Category: General
+' Description: Azure Marketplace Management
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10112-icon-service-Marketplace-Management.svg
+
+sprite $AzureMarketplaceManagement [64x64/16z] {
+xT570W9124JHfg5gt77_qnenHnYp_iLqV4P_L9D5yn6hiZeQi8vP7H7h2hxq0i7T2SOivSEirEuSj_lbkEizwqF4QhndnlknzmVwl-TEmp3ihkPnDvj7yi1V
+xEqzyvxlwqqEo_dU3iEJFKXhHg8fYTTvUv5l8ctxUFxlBxtBzl5x_v-Dz0SztNVLUCZYyOJV_xsy0TeKiENZwR-_75RotKp7U2FnnPxtyeUSyQkhcPOyj2-J
+JSpumm2MVNJeWL6-B_Aor-1Ll-MLrp0DVg6BVg4p7Nclj_1-psO
+}
+
+
+AzureEntityColoring(AzureMarketplaceManagement)
+!define AzureMarketplaceManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMarketplaceManagement, AzureMarketplaceManagement)
+!define AzureMarketplaceManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMarketplaceManagement, AzureMarketplaceManagement)

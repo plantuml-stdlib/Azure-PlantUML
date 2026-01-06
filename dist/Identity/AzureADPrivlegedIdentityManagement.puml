@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure AD Privleged Identity Management
+' Category: Identity
+' Description: Azure Azure AD Privleged Identity Management
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02251-icon-service-Azure-AD-Privleged-Identity-Management.svg
+
+sprite $AzureADPrivlegedIdentityManagement [64x64/16z] {
+xT45UiCm343XoI8t0z__j6LbCHIaZDTNzjS_CPHHqx6t4cqwzT-zr6tAE9Oc7NkLiTSsyzhsltm9UxNnaBV2_k65Y5TuX4CSzGbESSmJM36VmEAGXpcAtd_i
+yzZd9WHBSjMTNenZ3ldC9vuqvfNJqLFCoru_7GBWW6U0apzyajVRvfqziDDhgZseppEOjpFq-GJdp8EwF7I9nsllwIjznkZyBMtodN_V5_ZDtQtsU2xcST4D
+VzoNUYXZrLMFnzgnEgV7BfTFlGUFNzwqcS1WxxezhaVWciShrLT3hozp7-cdbRvCoojCT3cOEHqoNqTNglzJ75KNe82tgg-H2zGyxg7uukZjBNYtJ2KIiLMi
+7G
+}
+
+
+AzureEntityColoring(AzureADPrivlegedIdentityManagement)
+!define AzureADPrivlegedIdentityManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureADPrivlegedIdentityManagement, AzureADPrivlegedIdentityManagement)
+!define AzureADPrivlegedIdentityManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureADPrivlegedIdentityManagement, AzureADPrivlegedIdentityManagement)

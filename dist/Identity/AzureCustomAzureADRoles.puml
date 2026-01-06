@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Custom Azure AD Roles
+' Category: Identity
+' Description: Azure Custom Azure AD Roles
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02680-icon-service-Custom-Azure-AD-Roles.svg
+
+sprite $AzureCustomAzureADRoles [64x64/16z] {
+xTK7RiKW48HX0RE3LRd_RMEqrYEZOBnERxzazS-DrkO1HzPU4QJRsY2PtU8swGtSutsklO5xR-3U9tXRzl6UAqvUycNVtV_xocMrNLMNyOs-VRXlR-IDR_Jj
+3Tnx0_V2F7w3ROjhz7OngWOWtz382Nnef8nU3calxUNIKTehmPFS7YK9PaV76frgsAWyvratOUlNnTODVVo8vX5DIoRbD0eT1gPXy6BpIEMQF7uUoIdNFvXj
+4KyznjzRHGgV_C4BNizySLwMt1ScPvbxuzxfmnUUkVDCzQhTSnwwXthAgwyzkwTuUVYbBoaLzQezvTG_Q3C_zDepPxxq01dq03tXe55yeA6xbs_OwdKyj4Vz
+Xr4F3D_ZFG_rFSOzeDuZWnvJ7xy3Jpp5hpBrOmEiqORN3RX6e_YklQr6iuUdSsyBLmy_zDsw5tqxA7y2
+}
+
+
+AzureEntityColoring(AzureCustomAzureADRoles)
+!define AzureCustomAzureADRoles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCustomAzureADRoles, AzureCustomAzureADRoles)
+!define AzureCustomAzureADRoles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCustomAzureADRoles, AzureCustomAzureADRoles)

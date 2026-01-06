@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Keys
+' Category: General
+' Description: Azure Keys
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00787-icon-service-Keys.svg
+
+sprite $AzureKeys [64x64/16z] {
+rTK7ZgHG34LHuAV9x7-tWwxA5Vn0tv8xtixXF2gplsUrKWPRAKqPJHbE9SCfmId3AUCfmTEUSXeVnwsf3-lUHtSr1aAyzN7KVLTUBYXS1rexvzAuzIGxNuu2
+l0_BzD7zcwfSlTLXn3Sqy-CfK-P9k7WTm5j1Jp3uoK0zzJ_q4i3LAyRx0S9R4_yq0BfLZsB-X-agCT5twcVXVoWdQdtk6QYapJnnU3bmu-lC4zvn1l2N0rWo
+N-nYqyGFyUko1JrSV5aOmDyk_sxfXVT-NSeniDu7-6QtVZh-ywVtss835jvo_CXv6S3h09oSbm6y3i39UHd04tdEmE2cbW7nPFnfeEDrG3qPjvnt0-f_-WPt
+jGmKzN29yw8CN1rVC5m6AiLybRRrql_o7bwgDFLsuRd09UmPy7mBSJm35E7IJmPeoii-oLwph5qASqfmod5ylDnrns-bfZnzliT-Aqz1d-y_
+}
+
+
+AzureEntityColoring(AzureKeys)
+!define AzureKeys(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureKeys, AzureKeys)
+!define AzureKeys(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureKeys, AzureKeys)

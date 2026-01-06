@@ -1,0 +1,21 @@
+' Azure PlantUML Sprite: Arc PostgreSQL 
+' Category: General
+' Description: Azure Arc PostgreSQL 
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01848-icon-service-Arc-PostgreSQL .svg
+
+sprite $AzureArcPostgreSQL [64x64/16z] {
+vTRNTZCh3CLneR91wCBl_xRdC6W59-DXuUlldrv-cnItruUet7jjszlpZP8niwoOIqOdcaNlIMxiUEAdvWBjkMwICjfwqLry7N7kpUpkzS5Z3HXgQ-vPQnMs
+_eJnu4FAbLJ_KCFKnHzzM9c9rVRBLcXgzdZsuL9-OX5HLH4kAqGy-r4tBaz9ZTZvh5VbkuL7jlEhtYfW1jJgFR8pV-zVyxtt-TQzHrIpwbzu528guYxqVuph
+hVYfLxgILcZ6RcEmdlcQofaeAtF0ZxpayPLMtCUO7VaoILLw2sDDZtoApbIMvoZ7voUelNUbKK7tOA9wv3cz5TBvWS6q2b4_yZfz8weoVu0gMXeJnv77ZoTg
+Dbu3H5u8PzvlddiPlf_vA7yzDQN6yjNbbsl2aJHgfPtwIvOsNlrScCGbJds_K6CYQpGhNjknpr_0cLmfa-H7liqZmyCvlIxTAu2syo4qBwpLMlgcgEPZ6zdE
+vuK5f3szYmpkW0cBVHpeRmCjefPYaRx4LOCnZUu3hDhYNdfERZJJFrv76oy_N4poVDDtllSstWKko4G27Lur-RFF2o0Yea98OENY0kWe-RCN6hLrl1a0qkLr
+wstmqYCSDlmL4s0JlNbyyctmiToWH9nS0BrvzVYGe_RrpsCpkMRoU7kzR3-mTa3PuehN2xf2ZyS0fL7HnMruw5lmvnzWE0FU-UMXlqBpk-vUCKgTF3rC_sH0
+FW9k-UXtPADtdJuNpakT_ki5cphzokpqvCLpu6HadRjy3jopz-um-GodtNM6xwj9iw_FldUEdpkq-xwX_m4
+}
+
+
+AzureEntityColoring(AzureArcPostgreSQL)
+!define AzureArcPostgreSQL(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureArcPostgreSQL, AzureArcPostgreSQL)
+!define AzureArcPostgreSQL(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureArcPostgreSQL, AzureArcPostgreSQL)

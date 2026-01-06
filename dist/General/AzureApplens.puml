@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Applens
+' Category: General
+' Description: Azure Applens
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02354-icon-service-Applens.svg
+
+sprite $AzureApplens [64x64/16z] {
+fTVXikeW40FWwPKDvToPa_T_swEwqmRSijNc_nSBZ00yI5txy8EKUeyxIJcdxpRshRNJMhqMjEpBCzzgykE9dtq2aFXv0TJBeZNndjopJxjhyJ-9Pn3ddfdd
+GTJ_ZmhKMvVt1WPn3xBOc5C5zPLoZxqbAP0FiD03UK7rWj2F1PmKnFvyGUZ70XuMhDZdN7rUu7u5znJnzTG7Z5iUDc_w0GpZVgNcmGiz-Zz2vPZ8qupx5-pU
+1zMbrN3JDlWyYCVBrtZtPnVOAx3D_yIUgqSt2y0y80DVdkaBT9fXcTS2zUsQzo7On3Ft_VZveTS2y2ll1S3ohUTYW95VUWymzRTZ3y-xX_lz0w2-ZJvUV_LK
+pq_yJGewRdD_6pw0jUV4n1VvWC8kCNTFz_KxJ_59WGaFl7n0M80jmmOklYzOi6kxnpd5K_om17Z4u7foVgYdSoFS55fsVhdN0c93ucFkNWjCF4fwVhlV2xZe
+NfdU7mgg5lmhHEnx_XlTc_aA16r5mVKdB51lJEvlSS7Y1J2ABaUSfKfagmKbJVBBFgYQroUW9FVduuBniLNp-tljizv5VvQBPvZHQzHVV3zTUx-rY-_7w-_N
+F37d9nar3_87
+}
+
+
+AzureEntityColoring(AzureApplens)
+!define AzureApplens(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureApplens, AzureApplens)
+!define AzureApplens(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureApplens, AzureApplens)

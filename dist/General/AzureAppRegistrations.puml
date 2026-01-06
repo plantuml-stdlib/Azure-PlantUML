@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: App Registrations
+' Category: General
+' Description: Azure App Registrations
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10232-icon-service-App-Registrations.svg
+
+sprite $AzureAppRegistrations [64x64/16z] {
+xT07RiDG38DXLAIKdNV_qtOhg9abkRlDZsaQdySRxuynQOoGnajodOLKMFfU-YX_ypU_wFl5n4k5vO_u-TtEx-VwcryMbaDwRtbn8P-NYPVEBmktnxXOplC1
+Umw-cE4Ni4Emhb-uIHr_HpiEevgTgVR-W9sjulsiXvSyUPepekXFFG4H3K-AzaY_adHvzOutcX4TBq_mYARFNezjjdSYwInF-7iyp4YVuLC_UTBxFhdnkQvF
+dPxUyx2CcQTVIxeu0HEVJnZFgLzDhfbQFHcZ4Eoizr79SDexHp50lBwy_eIkrcDGNGz8xy8xJv2NDuE9xcOS7zi3
+}
+
+
+AzureEntityColoring(AzureAppRegistrations)
+!define AzureAppRegistrations(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppRegistrations, AzureAppRegistrations)
+!define AzureAppRegistrations(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppRegistrations, AzureAppRegistrations)

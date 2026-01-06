@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Learn
+' Category: General
+' Description: Azure Learn
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10816-icon-service-Learn.svg
+
+sprite $AzureLearn [64x64/16z] {
+xSw7ReKm38NXa-5ZbihxlssZ4BeZtBYxzsTbVHBxqrPh-vjjPMU-hkVloaR6TUpumWM6qjj-MLU5moijHQTF3d_pDvzx_kPD6Jo5vuXw9hHw0L8T903XO0m8
+Dfy3ca-eKLKYOFK1pHE8J7MSOFSnok4B4jNgKXI3d_I8Xm_0-IwztyFdcuY3tl__4MXkp2T0sdZ84-KR08xuThAKrUvREKlzCiN4XxLiy_qklQdlzJSlFzRF
+N-N5v_FgyeLxl3O-wkV6H_rIUC_Fywnyqln6ZVUIf-s6Fi-JBa-VfykJBa-dtts-V1rUwq37_1Day_S
+}
+
+
+AzureEntityColoring(AzureLearn)
+!define AzureLearn(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLearn, AzureLearn)
+!define AzureLearn(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLearn, AzureLearn)

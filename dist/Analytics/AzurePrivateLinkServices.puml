@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Private Link Services
+' Category: Analytics
+' Description: Azure Private Link Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02209-icon-service-Private-Link-Services.svg
+
+sprite $AzurePrivateLinkServices [64x64/16z] {
+lPO7hkCm34Itq8KKuBd_RTTAG5ZnZlX9RtceeVp68wS98NQ2nzWRVMQhNTJjmzLd7UmtdjjEPUES-iPlNOvQTJ8gsgK4jURSBxDXIMSRRqHtshZAgmUsN-1O
+jDWmmTeaGSUL0tF62etcDeGqLi5uAuuHttUF5FwGBxypwki8hs1ttuWyJx2fln8axwyKoVhhX9eFXun2dvQj-hWpXiR-Te81UT6dguWKVN6spayvgVZowSkB
+l2_KbzZVEn--J-NdC8XzlNHyX7xjNm5oilZ8I_amzZjBnr-vZZwCVUYRfQFg2Dx4_XKWxhkUzs5-_zLr8EaxQcl7xOi-ZNs7Vv5g_ihqBUTlBzWevsFZx5aV
+EmLf7rpF-z2RhE16SBBHYz7clZKaK2E-KpeU0l_zW3TmJ8DRujuQPcUgn-rAjZCfc3-47_GnACtbQFty7YTetdPi0h8einK5OhkUW0S4xtWj08_vslu5
+}
+
+
+AzureEntityColoring(AzurePrivateLinkServices)
+!define AzurePrivateLinkServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePrivateLinkServices, AzurePrivateLinkServices)
+!define AzurePrivateLinkServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePrivateLinkServices, AzurePrivateLinkServices)

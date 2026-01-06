@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Confidential Ledgers
+' Category: General
+' Description: Azure Confidential Ledgers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02668-icon-service-Confidential-Ledgers.svg
+
+sprite $AzureConfidentialLedgers [64x64/16z] {
+fTQ5OWGn20JGAZAL_V-lhSuPWUIIJBtms5JksAERrvySQw5Ud_3mUewkNvpPqCowPbxMEJEXDoP8gSNlyb9CSE0-dqumOCB70GfC-3X173C-JZ1WrZCy-hnN
+vG1nh7Y00u15ZotlUBCThvlUu7ldt_Ew-_iplEcE5tLRz9p0p6dcDVD-JCGj-cCc03p-_YOziExPJmz-OyRproNo_z6ZhxSzER8JiQVKtDKDvu1BKwuPdhxr
+A3UPnkVwz7ToszLPcUQjTujTGUV5OTFBQv6kPbv2PUA0Z5I5gr-2IAbTYg8wCBmZC23TzjnQWpi21UYbdTjuaUmI42RC3Pu9bw1dhkPMNffBG4BHqSP2apXk
+lRB8kJ7EEmB6WLjluBOtrDxX3QTNm7lUkD6ry0AyPJvkDA-yt-6bwtNe5UZy_3RqLdi3lEj7lpy7XbxnPfKN7NiHyyHVxUhWgpi2ZqsfFq9I7ukMSKQlVUnn
+-bmpj_ujAHfrbIkV5erpwz0NHMEbEy1lUhu1
+}
+
+
+AzureEntityColoring(AzureConfidentialLedgers)
+!define AzureConfidentialLedgers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureConfidentialLedgers, AzureConfidentialLedgers)
+!define AzureConfidentialLedgers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureConfidentialLedgers, AzureConfidentialLedgers)

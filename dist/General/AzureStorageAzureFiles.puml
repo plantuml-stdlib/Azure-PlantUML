@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Storage Azure Files
+' Category: General
+' Description: Azure Storage Azure Files
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10838-icon-service-Storage-Azure-Files.svg
+
+sprite $AzureStorageAzureFiles [64x64/16z] {
+xS_50GCn3011iyFflzhWCSiCsly8dhc7NOopvBy1Pnj_jlFeqKkhYlDgd97dl_wZu5wVoI-c_i5yB_wQaKaKzF-FZnC0_-CWp-WWGi1-P7nxzEYLZLSVF-w0
+LtqvUkdHe-TiBpNnLiNtseRhfzq1psyMFFUmDm
+}
+
+
+AzureEntityColoring(AzureStorageAzureFiles)
+!define AzureStorageAzureFiles(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageAzureFiles, AzureStorageAzureFiles)
+!define AzureStorageAzureFiles(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageAzureFiles, AzureStorageAzureFiles)

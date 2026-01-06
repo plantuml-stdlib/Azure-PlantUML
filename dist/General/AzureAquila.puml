@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Aquila
+' Category: General
+' Description: Azure Aquila
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02625-icon-service-Aquila.svg
+
+sprite $AzureAquila [64x64/16z] {
+dPS7TYiX300ba4JvPUz_su0UCIn6Nioayp93Ix6l3_0lT7qFJtndYp2V5qGv3eXol0Jfd0H4JWDTjmlqe9Cy17QcFm_8YXFVXcqxvo3FMBAo4J3jyq3AdR3a
+evz7qcF0q3y7NjSe0lRYbJYxiUhKOM9hUYNU2L9X6c4oT6MsLu6sX3yhFyssGgj0Cuo0ZF0ga8r09SWTUWzaWwuR2r22wMVLPtZ6zaVTzi7qe-pud4ranHT-
+FFVjNoFPztDOCVj_R3yU-lO2z2TeMl-VDmnVF08eRcXSjfxJpOO1f1q_Tvsgv8aGY7GT_lNlrDQxx-kK5OJs0TplFxDi-x7FxcZqoRN0LJ3qVW0CXRiF1Q_w
+55ZT88BpBO3OTEy0k0SCOeMWI1fm281ETIBi2xW--lMxDT1f0zm3jY_jw5tN7N4G0g3ccuLKVD_E7hjFDLk2hlbceluZSNMrRVqeWiXbC70TmUvRn8ZWAxhy
+f4dnJaTs_HVkJq660POTNsUh5kOo_w2ZRFZZ_bq83hxo5-VVSSz-qljNtdtQy5Ez06C1ClXsW03NkfzrUm4h7Nd73oa9WCVbxhjla-eE5dZLZmDkeTi1FfnT
+-Ly2mO-suwBJjKsg1K9GqBCOivia9GeHgspfDlSd1zS9ERtBFm
+}
+
+
+AzureEntityColoring(AzureAquila)
+!define AzureAquila(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAquila, AzureAquila)
+!define AzureAquila(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAquila, AzureAquila)

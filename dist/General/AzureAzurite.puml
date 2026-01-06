@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Azurite
+' Category: General
+' Description: Azure Azurite
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02842-icon-service-Azurite.svg
+
+sprite $AzureAzurite [64x64/16z] {
+xT550a8n34NHkasw_zNYRYy2VBtpKqcwiYPjNBu6OkcrJuRQE7scSlVQjrferP7jlqex-IHj93vBM_skrHTf__6hpp5yg4CUFeTyLFe0gg3LxtCwRunJURS_
+GEZ10T230neeW0CwA8032FvwWEVxU6dlurFONxcBV0yuz0-FPtl0eN_Wpboo77_YqPfhT1z3FENT9K_peBdx11gxxu1hsm8
+}
+
+
+AzureEntityColoring(AzureAzurite)
+!define AzureAzurite(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAzurite, AzureAzurite)
+!define AzureAzurite(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAzurite, AzureAzurite)

@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Website Staging
+' Category: General
+' Description: Azure Website Staging
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10848-icon-service-Website-Staging.svg
+
+sprite $AzureWebsiteStaging [64x64/16z] {
+rT956aCX40JX3HyDiRx_QUEk4-ffxNzq_B6Kx_A_AJ-LW3xbSFbzyTtH0lbpa4i1hwynphqG_-wJ0XL_IC4W5-I2N4By5EFFArIn1IIsG6aBy5DZ-zA9hz0d
+w3sUh-FkNtsgjiRzASQvD-GszMxXP86DJHRmkpQBOFxSieNEFpg_8tipF_zoBC1FzUG5lHcVV-b7W4_Rxm
+}
+
+
+AzureEntityColoring(AzureWebsiteStaging)
+!define AzureWebsiteStaging(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWebsiteStaging, AzureWebsiteStaging)
+!define AzureWebsiteStaging(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWebsiteStaging, AzureWebsiteStaging)

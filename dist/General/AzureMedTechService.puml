@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: MedTech Service
+' Category: General
+' Description: Azure MedTech Service
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02660-icon-service-MedTech-Service.svg
+
+sprite $AzureMedTechService [64x64/16z] {
+xT27ReCm483XOzokwlT_sne7dOH4d8lfRl_imETLxlOVtHgoI8T6PZusm0S7O3elF_cL0LQwDW3r6kNHHtjwr4LE_OE_u3bPHu_xl1dXVbQ29pr_fASQQnG9
+rHxpGhtuFRpqsaQtyuIPWtUy-9vPUu-VptaZH7P1H0slbl3gBSOQuzQG9unin2D6-XNpQt0-x5-JtdddPE6j-g9TB-6TOlL7twk8D1yheFXf8aaVIIm-V2tl
+FRw7tyfxl-XfFVCbxMTGTwKMYsZPItWYTmDOja5QI_ZQwoDlCBaJJ204gAss_kYErzsl0EBpf333VDn_P2SLLVEQmWABmTh6sRrg-EZ4gzKMi1NMIhSnZhwV
+Ai8MkW9CbR4zwHctgfflKqUgMXBUV8z1BdbV_Pe_PZdVAUEjeotZUvLSVbQ9Vhr_kUl_UmC
+}
+
+
+AzureEntityColoring(AzureMedTechService)
+!define AzureMedTechService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMedTechService, AzureMedTechService)
+!define AzureMedTechService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMedTechService, AzureMedTechService)

@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Workspaces
+' Category: Compute
+' Description: Azure Workspaces
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00400-icon-service-Workspaces.svg
+
+sprite $AzureWorkspaces [64x64/16z] {
+xT45Ze0m48NXbJ5YtF-qI7aqa-BJzUqVvOKFxIjhQJm23oULNl-E5ruJBBnPL7AbbvVSA_XcKQ6SD3_Nl2rvRodUBEQzfJxCAzCQOzcSR2evzJuUVFDQ_AtD
+zrSzzNBcEVrxZjuVdaZg_9HMUc8DUoHnZzJxxhadrWgF9TLDVidxPV5-EeJFYKtZcRSJdrBlxJt7M2Idy4Liy7SIsbRdPLg37jylxZdfk0SFUmbxPF2tBy24
+4FZjg0px8__kh_FGGxo7_UP5-bZVvz7tUGJ-_RL6
+}
+
+
+AzureEntityColoring(AzureWorkspaces)
+!define AzureWorkspaces(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWorkspaces, AzureWorkspaces)
+!define AzureWorkspaces(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWorkspaces, AzureWorkspaces)

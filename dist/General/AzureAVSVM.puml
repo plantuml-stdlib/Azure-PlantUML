@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: AVS VM
+' Category: General
+' Description: Azure AVS VM
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01846-icon-service-AVS-VM.svg
+
+sprite $AzureAVSVM [64x64/16z] {
+xTT7OWCn28NXzm39sitzJvlcek8Af2VVrlu5B6VxQYNbLlxldragLq0JmuaNj60js8kze1Y8UpWMwZsyynyXbthrz2Hc8iwUS-tl-miKVx_NwrXFG2JJKr8z
+G2Pw07mHx853pqYFFUvvUnpnw4fVBp6SzxJwk29hBwMw6CTUhBffxwr65DdtMcfG8VhX8MRrkd__TbT_Q8Fh_zgkQPFDAT_l9f_VrycFwwrCMlQpo3j-rNpJ
+BVD0iyxzWjvYiRoJPA_f_fjv1W
+}
+
+
+AzureEntityColoring(AzureAVSVM)
+!define AzureAVSVM(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAVSVM, AzureAVSVM)
+!define AzureAVSVM(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAVSVM, AzureAVSVM)

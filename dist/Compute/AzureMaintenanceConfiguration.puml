@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Maintenance Configuration
+' Category: Compute
+' Description: Azure Maintenance Configuration
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00195-icon-service-Maintenance-Configuration.svg
+
+sprite $AzureMaintenanceConfiguration [64x64/16z] {
+rTO7Wfqm30HGDycIKxZ_QLEqJJ32N-dPsLxUkC07ZlykkfQ-PAqFFuO_lrXNeVcXJOkFLIGRrZEUD7fhhG-QpnKhh-UenQMpDIpDSMxbcafF3G-vo7IwrRS6
+XeAGinkLH5pPm0BaexXCaUv-R500l9UDBtNU5wZZwFqCD1x-UV8zzBvWtGrlMyUyyuLi1V7mjJmNeFUTve7hwzQFhMysWMZu0ebyOVdcsN8QdfA-YofR9guU
+VVJR2pS_IzRpSqv7JqRMD-0s_PRrdk-NNoIOLlThjnJpqV3wBTTU0iySRn-fYkfyj7lyweceduQtQzQPrwldN_76z_FN3juri6MpVt1HuI1tnwyF4l45iNVd
+3wHT2YZmuVaR5uo8smd89L5WFFPIjmNkt4L-g5j0MC3sDTHu0S02wwwem-iduKgGtr-_QSQUGkudm6c-kN_Lc0_FI-BsQsd-geF3Oq4xUwa93ZC0tq8U5n3w
+2Zpx_DGJ70g4Qlx8nS-FtFCyRX0UlRLQ6-61tsUTdfydB3xJiFGfPpvJsbT8D7e-_5uv-kFNVFarByUl-UFN_F5p-HLk0VwVvYi
+}
+
+
+AzureEntityColoring(AzureMaintenanceConfiguration)
+!define AzureMaintenanceConfiguration(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMaintenanceConfiguration, AzureMaintenanceConfiguration)
+!define AzureMaintenanceConfiguration(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMaintenanceConfiguration, AzureMaintenanceConfiguration)

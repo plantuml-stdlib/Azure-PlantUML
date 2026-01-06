@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: API Connections
+' Category: Integration
+' Description: Azure API Connections
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10048-icon-service-API-Connections.svg
+
+sprite $AzureAPIConnections [64x64/16z] {
+xTG5RiGm48NXeWSYzTt_jjN4zXGCJoh3Vek1FvpWPxYuA3DlZzERwqHpXkJS7SafadCq5p8TSz9WfKZ5yhSjWEM1zzZxjhuioCkUroFQ5mP1mo9dihT5plHU
+IIvcxbP6gxua1FFZE1nfw6tHetBtseypQBNDpKFjk-q6lCfhFry7h1cdPLuNW9UapsJTjBVANV1Axe0DDCIlMS9hqcy42mm6cfV-6_AGFPpckpxOpiFciOZE
+p9E5_lzdFTIIVl93FV2yW2tWJJD8f_l9XIoVmP9mAbWhoc6BvmJBELfp9FvM5nUF
+}
+
+
+AzureEntityColoring(AzureAPIConnections)
+!define AzureAPIConnections(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAPIConnections, AzureAPIConnections)
+!define AzureAPIConnections(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAPIConnections, AzureAPIConnections)

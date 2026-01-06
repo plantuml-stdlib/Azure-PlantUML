@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Automanaged VM
+' Category: Compute
+' Description: Azure Automanaged VM
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02112-icon-service-Automanaged-VM.svg
+
+sprite $AzureAutomanagedVM [64x64/16z] {
+xTA7RkH020RW-O41VFNzt_O2GZuNsHuhFTalsJh-AVB-VMVwsXxwC-C0YJu3usu5qJKXW8V33FJTbm0DXGb1T8T08tdypnFNT-Z71Mn3AVEct5eZjSKR0jkr
+7dasQm7Cr4BqKQ3R9O9a8xGb2m8UQ4zc78-s04i4jGkSCshbgUOdImAn2q2zYQxPJIdt3mgoSrehHdjOGTw0GBXSN-8vX-vMD5UGt4xjbA37zSbcQA7NyM0U
+DgFZlAy9kdlrzrdrh-CpFIweVkh5MY0To2ia4uBMs8iyfIKdPPYVCb0LYapDbBCdWbyWL0UEaNlzV2gcOBymRoXjWHQ7WmjGMy1yTaaWYti6j3JGlXX1vxow
+Mxwnt9vyW88iNdk3rIPSXSrtfZq1vTTUXsxnR8G-ZH6GJXjQyI4TaDLa9g3HU0rBOlN1LG2owPPE0B4yOKBjSuy98SsJtETcFdrfFvxfxy-3WyaNZjhy_7l8
+L_xUzFoyhNo-lAwyULxrUGNwnktuimh8peq2SkWPwJ8GvnF2Ltc-yEpy1_CF
+}
+
+
+AzureEntityColoring(AzureAutomanagedVM)
+!define AzureAutomanagedVM(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAutomanagedVM, AzureAutomanagedVM)
+!define AzureAutomanagedVM(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAutomanagedVM, AzureAutomanagedVM)

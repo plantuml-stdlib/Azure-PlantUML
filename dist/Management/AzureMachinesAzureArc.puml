@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: MachinesAzureArc
+' Category: Management
+' Description: Azure MachinesAzureArc
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10450-icon-service-MachinesAzureArc.svg
+
+sprite $AzureMachinesAzureArc [64x64/16z] {
+xTH5biCm44NHXaH5WVslDimf-8QHZzxyskBzImrjlNThSClqX78AF5hfsGtrQa4A-81BQsocW1UFq-eKcKdjrVEhIsewpilLorYloV_n-JTe_cHUl5wJcH7W
+ETv_niuVYni3vmzeyPv5tOGXpnR6gUThhgJh-U5hcHUFj_lvhNr-VsflsVsrskVlnyZvy_tzodqy0Bay3Cg0p-ulv3cwlmpwkEc---x5zu8si-----wxrwaU
+RKP_1
+}
+
+
+AzureEntityColoring(AzureMachinesAzureArc)
+!define AzureMachinesAzureArc(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachinesAzureArc, AzureMachinesAzureArc)
+!define AzureMachinesAzureArc(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachinesAzureArc, AzureMachinesAzureArc)

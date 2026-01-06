@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Universal Print
+' Category: Management
+' Description: Azure Universal Print
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00571-icon-service-Universal-Print.svg
+
+sprite $AzureUniversalPrint [64x64/16z] {
+xSz7biGm24NHLWA50VjVRISgMryEs1thJNMk01dqZEcZRPRkMeaBJLh3gTkAgoqV4Cx0DSFocc6yPkJ4Hazhhaz-cjEwl3puwAP1pzCMUiKMppRFgxsNQuMX
+zp2vnXQFUQurGHvRQsFEjJM2FktbizN35lbya6SYOYOSwolaIyAUnZszzpOVmZxxbtwBlVGzVvcNx_PYzO9yYZ6WOamNBz07ZmgtNgnUkfxImAUBrtgU8lQa
+oRLwqtglbGzSBYNeOz6aNz4r1hvg1_bgyTSSpCkI7EvVU87yHJvwzWO
+}
+
+
+AzureEntityColoring(AzureUniversalPrint)
+!define AzureUniversalPrint(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureUniversalPrint, AzureUniversalPrint)
+!define AzureUniversalPrint(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureUniversalPrint, AzureUniversalPrint)

@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Peerings
+' Category: General
+' Description: Azure Peerings
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01285-icon-service-Peerings.svg
+
+sprite $AzurePeerings [64x64/16z] {
+xPM9Skim24MLXii5pUB__zitegWPrSRsl7qxROAo7BXIjkttHoVy2jbruMjdVsK6yfiQy92lrvElrvElqR_TVmCdNwEpDTJ-kPn-ari-MVcpWP_ONkXe0xaA
+S6G-7-q3kGXWdz2tjYBspjbuc_3PTgWL7GG0P00eGt_izJUpmmR31OqGW8H0ZQtIatKslNU3YW7MdS0C_tYgKcFvj8Mffzq9khWJraS72HiMvE4T-O0Ek-iO
+BDvxDEYkUBm2fxwow6657yiehy2F1jkHUX_OSC8FCmijUQeT-fAwXpxzhjepKq7w3LY4z6UxhZZt8T10TAr050YzPWEKmQmKvNAFmixyJ6zHP_vbG-2PhykJ
+qrzQAceVi1w0Et-Ue8bLEW6VrixlojdxChwXxtr-xAtIjncRXpvclVRrm3VCMkZ3jq3L9a9BYAnoQ0_a7ju_ixq3kvDVP2kukV-j0dhh_6l_TSHxNpNhYI-U
+bkrzC8hZn0Vhzt_sDCXskG5YvnC-uzTW3Waj_IMIIVWLIAHUREU-vfkKQytxDVsIulkNy8l3JmJpcOmYoosaVzbW_VrnQEWAsIu1O1av_F2yc5uaeBz-VwTE
+vFHB6W3pqI1-_p5qGw6NRmDQ9rG8TIVAx7K7WK8ahklPDSGaxR-T_tm1
+}
+
+
+AzureEntityColoring(AzurePeerings)
+!define AzurePeerings(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePeerings, AzurePeerings)
+!define AzurePeerings(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePeerings, AzurePeerings)

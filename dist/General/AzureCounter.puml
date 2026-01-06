@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Counter
+' Category: General
+' Description: Azure Counter
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10794-icon-service-Counter.svg
+
+sprite $AzureCounter [64x64/16z] {
+xTS5bi9048JXjf6kjVlVTfk9ukxyp-lnuP3axydxz8MJ-mhkE2F_-yDPFOJ_-2fBEU2sr6B9I_dSPrgg04MMYgMcfSgZ-OzdLLdsbfAjUbFRxDjIUV9Qsw9p
+Rq8a6tr5guvUlLz67vffYrV0cOFOu7CODSGoUY7QvakJAUJWVP1bvfctU01C983ttW0NaHHozAhRNdz0416tksa-ZTv77sttlkPhU3lAqnaUvpm-7_J-RVVa
+W185ohrNnD9aFiGde19xcDvBRS_2uNg83zegDFYWM8nP3l4ajUU3b-HjaSDyx6RBlr-DswaiUrFL5_l_-lWgy_JGu_Vpdxzyl9_3_TphXoVlqpy
+}
+
+
+AzureEntityColoring(AzureCounter)
+!define AzureCounter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCounter, AzureCounter)
+!define AzureCounter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCounter, AzureCounter)

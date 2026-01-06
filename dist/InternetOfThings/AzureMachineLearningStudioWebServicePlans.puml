@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Machine Learning Studio Web Service Plans
+' Category: InternetOfThings
+' Description: Azure Machine Learning Studio Web Service Plans
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10168-icon-service-Machine-Learning-Studio-Web-Service-Plans.svg
+
+sprite $AzureMachineLearningStudioWebServicePlans [64x64/16z] {
+rPK7UkGW34RLWN7A_M-x23GDutZ8zfSUVq_w9RVFtqovLChtp85ls-ibRaB9oIpbibJXwYeZ1CWMDSgBoHF10ATN8eIDC87EA_IC70AIKDK88P2Jy_dO72NN
+FxHAPgOK5NCaE9xTm46xEE4x0erqNE0ZX4giE_o0-w53Fxf7ohrlYhS41te2frpcllLmhVhKBmWEbGC_Dkk7f-tPPG3WClNza9UGoKdyYFJOldCP_T15hoiu
+I9-shHNeUX40VjJxUQJz1cBtibLIprYKe45oqoiq2-1v_K3PRWKCuGOgjt_bEgH6W3AqRzBMCPYWhNWsYdCu-1Bj3mf8FtP9fd4Azjl3xKeE2vdHyzgbspak
+0tJZoNT3Rpv5qrmHoI4dQ_1kWBXnyXQahdDkjDw9nGBnLgFFB0ztYbG8hFjbAue-HA1UUkVhY43A7OQ6NO6-W4UzqCIF_WeTkOBz9drU7pqdO4AWxYECn0B7
+g-VHZqTkpebWHZht7KAOOtNcn_mpFpZjNpo0cJvYN-FwDhnsdWfSplcyi-pF7W2wufVF7TMYU5oeVgvptxh-_xxyfA_h-fDljggRgeGlPgj-Kn02NIuG3zQ0
+p5dK5OBr2VIMVfXWEVqumNhwzGbiIByuGQGVmLSdI1M5FPASb_H8Fs0l-mmpC0Aifm_ul41o85YVeBJf3tt9pXT-RgGZSkTOF-7t-ME1yXMV_oW_
+}
+
+
+AzureEntityColoring(AzureMachineLearningStudioWebServicePlans)
+!define AzureMachineLearningStudioWebServicePlans(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachineLearningStudioWebServicePlans, AzureMachineLearningStudioWebServicePlans)
+!define AzureMachineLearningStudioWebServicePlans(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachineLearningStudioWebServicePlans, AzureMachineLearningStudioWebServicePlans)

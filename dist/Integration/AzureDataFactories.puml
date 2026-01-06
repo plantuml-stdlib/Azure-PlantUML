@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Data Factories
+' Category: Integration
+' Description: Azure Data Factories
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10126-icon-service-Data-Factories.svg
+
+sprite $AzureDataFactories [64x64/16z] {
+xT87RiGm34HHIrIVbFlVDWB13J9E4zEB_jO1_BRwzWCxWkMdohZ3-xvn9Y9nPY-nhYTCbCJLLmWpmvo-WezpSSNBF2WQo3cNCkziXXMFg5y_rzRwVQsMB66M
+N_T3l-TyWOU-vAWShtkWng3Plo2NAHrB7kXv6YwM0QnwZ35wBKaaYaWgRSoSdljul_tsv-dqkccw_6d3wS4RJW_sS7gmXzE3FPmUxE7qO0-d1tiuFTZ3wN42
+JWy6S7gSSdfyfTz--nw3bjH3R06qdlVjiDIFom9eVPRVljiXWNo0HklihTwqeHwZQmEWzLFEt-rltkDlRkq5tDJukxi3
+}
+
+
+AzureEntityColoring(AzureDataFactories)
+!define AzureDataFactories(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataFactories, AzureDataFactories)
+!define AzureDataFactories(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataFactories, AzureDataFactories)

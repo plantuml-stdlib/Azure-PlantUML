@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Arc SQL Managed Instance
+' Category: General
+' Description: Azure Arc SQL Managed Instance
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01849-icon-service-Arc-SQL-Managed-Instance.svg
+
+sprite $AzureArcSQLManagedInstance [64x64/16z] {
+pT87jfr0281XHgcMu_vt6nbU8tUCalwVSki7jYEQyKSTj-4lUle_F76EIfvit_QSqKFlsKeeBmFE7lgD4N79Vljh_jUFdvR1zNlkFSuH5VoWl-nbMNCBLxpi
+AikUauBV517NxDU2tt_n-LdjzDlBVlQUdVzYcM_6dzrwObjIohdY_MVvlf8FdYjuvuy7FE15BnSzzFmBdWDN1bpfkdTTz_oOg-h8UvwenrE3Dh6g2ZQ0Dek_
+RGqrklRg4VJ83VGQgmh0h1S34jS6ZOMHLITeA880BNiTUz4UmAGz0a0zcm4eUxtqiP_Kcw2fnqwprv5NByv_uXZqSKG5hzG008FLlOS0m1_xdIRlNVhFKvvz
+I4oZHzuy9JNpVni3D34bFmvJ_-PBdngHmelreCrp0o0pFutMmD-xRvvQ3p_v6KVMSm2n3FlxHkO-2gyd-kIOJu09IQsdZ01e7aLg7hiA7ZwoGJ4Wf-Wvprvi
+qFmwW8CbVps0YFBtWYEV1-I6d8w3ilVqHgkRKCV1sAEliQXUOd4TaNl6dusuU_vv7fxf9tLuZ-ew-T84SfryH5JO7FoCSqGtUvFtU1JbUDWHSR6iFQudHwgw
+Ur0DZolQSHNw3G
+}
+
+
+AzureEntityColoring(AzureArcSQLManagedInstance)
+!define AzureArcSQLManagedInstance(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureArcSQLManagedInstance, AzureArcSQLManagedInstance)
+!define AzureArcSQLManagedInstance(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureArcSQLManagedInstance, AzureArcSQLManagedInstance)

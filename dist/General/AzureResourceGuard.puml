@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Resource Guard
+' Category: General
+' Description: Azure Resource Guard
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02819-icon-service-Resource-Guard.svg
+
+sprite $AzureResourceGuard [64x64/16z] {
+xTT9SiGm28NXCcW0PV3zJvj1bUR5cjgYiio_pWV8g_GvIyllpfsWaMvnEEJGhWalk5bgklC8_6rELiQ8UnyD6XCidK4agKjAapP7JvQt9w2nLu5kog8BhweY
+6NXOpYAgEl20Dyf_xl_zi9JogBi-4aM_JtnynSdfm_5JI0uVwR0exdYSZZXj-G29HwpzvFJ98vQUnpxSzKJz1EAmuOdQxnV2bh-UG25iUqmW3WvlZwZwkPU1
+9sQgilMozkXWTdZmWuZlUUtzyLLzHUVLl0rGUPHDLuy9MHufE1vW6JTFzJE8LGOU1rGDRoTWVUlrwWz4Y2_-_PmU46daEKtMmrkXz_LwU3sN0p9VFMUPlHw-
+YA14rTlfg63zu00K7puAmlgcTnk0-Di7wJa-FYg30HaF1yVwvG2qvgXwNVBgb_z_wYgidx_0oJ70pJ5WplNM_-yJZUtF1ZWv1ZWvVWquEIuehIwxl_wy72SK
+myNz0nJSFq1FHyxb2CkzFL_-2G
+}
+
+
+AzureEntityColoring(AzureResourceGuard)
+!define AzureResourceGuard(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureResourceGuard, AzureResourceGuard)
+!define AzureResourceGuard(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureResourceGuard, AzureResourceGuard)

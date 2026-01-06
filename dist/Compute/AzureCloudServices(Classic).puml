@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Cloud Services (Classic)
+' Category: Compute
+' Description: Azure Cloud Services (Classic)
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10030-icon-service-Cloud-Services-(Classic).svg
+
+sprite $AzureCloudServices [64x64/16z] {
+xPC7hkmW34KnODyRjUn_jnyCNnao3OIUwfmfgSU5SluPFsY6WXdFTN1ZntPitYPUif6yOJkwiwgl1p3Sq9nNVDm98HWkLdKjVi83ytgK38l55uMAhFefZCJl
+0MwLZwJFViQTxea4npxvU45l7J2fP-XmKeUuf5dzD02TELrJSHH9H1Aid4T5usldL_CmgIZaOGXcibltrVry-OrH_vhVsgKOdWUHzxPpFudUV_RqMlktbpkH
+8yK27Q_PQ6hj51mvxhfb43KfaTL3UGM4LbtunEZx78LA50yIHkoLpz6_KAOmalZ4u3SXPJz8kupTZQzz3duk6jWMVgpnelKe95BY5rzzWKI9rWRnwihu7MjL
+9n69JE6A825m0lKs6QM070gP3WoSm69rc8kUMC-ZSGr8pUdhjw-sHN8lslfnbHWg4YgHozXzjQxt7xFlbF8lu1GdBs3qJKFI9lNZF0uEI6zzrZ-F4IYEUSxY
+xt0MjlIj0FdS2i3pFplLEnl5TpQITnRj7pz-_0C
+}
+
+
+AzureEntityColoring(AzureCloudServices(Classic))
+!define AzureCloudServices(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCloudServices(Classic), AzureCloudServices(Classic))
+!define AzureCloudServices(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCloudServices(Classic), AzureCloudServices(Classic))

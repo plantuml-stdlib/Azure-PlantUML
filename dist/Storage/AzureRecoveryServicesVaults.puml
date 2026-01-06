@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Recovery Services Vaults
+' Category: Storage
+' Description: Azure Recovery Services Vaults
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00017-icon-service-Recovery-Services-Vaults.svg
+
+sprite $AzureRecoveryServicesVaults [64x64/16z] {
+xT07RiCm38LX3_6HdRh_QJi9sTMY2MAqJNwihEz9SRQwXn87jERK34G6q4bY773mq43YKTTyhG3N0DVjAwvxSDEsb07lsUgNfGmujVeouEIWbFOFNGOydFPr
+APatQBHYpNe63ysVRagimJv-RVdEHwsNSoU-RNgJ9AVcN7R5EyexaXzDFRxrol9LQhcWwna04TBsUVzDf7X8NSU3ZZucvF0GspDLiMZCOdjGqy5CJw1EVDNJ
+80vwaeTH1jSGz2IsfrbiS3B2r9FTZ8Fin3xT-m0UzNJGbG1vU3oNDLoFbJxa8xZATGcn0NYB-XJq-Ck-7U2eznVqASS6SjHNHRs8Hqjk4a-vayk71b8U53XS
+Up3BRVVU0G
+}
+
+
+AzureEntityColoring(AzureRecoveryServicesVaults)
+!define AzureRecoveryServicesVaults(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRecoveryServicesVaults, AzureRecoveryServicesVaults)
+!define AzureRecoveryServicesVaults(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRecoveryServicesVaults, AzureRecoveryServicesVaults)

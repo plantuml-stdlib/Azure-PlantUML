@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure Sphere
+' Category: General
+' Description: Azure Azure Sphere
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10190-icon-service-Azure-Sphere.svg
+
+sprite $AzureSphere [64x64/16z] {
+xPS7hkCm34I7rVveklzjTss8O1H7eMpKBI-TuECmFMdVWFu6xI6xTl18ryJkssQcgWJGuPlTbKyT9-U0zH5grdrqLAEqP8SkuOjcjTnyvWT5UEcRLk7J-nzK
+UlYIyICB-lZylrFeuGTseT0xQLS3r6xYHNn9hQyFy2U-5_4bvOCdH02HL0CcDWwP283C_7cy4aZqH0ZqkMVww0a1h1emG39Tm5zHPYO0BFg2C01YPXsQJzs6
+aW148OyZY03nWOnFNtIA_8M-F_A3kxvMljxp__kR3zWtds4Nlsq33lxc-pRGma-8vZxnLleAcSThxVjy0IAl_Kt1TNpwrm7y-Hu8-Ag7xsRcUGzaldqsfs-z
+fJSOw8CEwtOlMFXYgXQr4mLTzBZplVcyo1-wECWD1FIkIwHdiuuwOCS2iO6ywH5lm30WTR3gzc604BAkZCxWHydtZX59w6HHzMYU-TiUE84FdK6-1zjNdqy_
+s0GaGf2NskVz9H-_Q8mLG6Cf7pzvUG8u1le-i4c41nxhSkXD3vZ5DEFd75t2Xnr-qy3t1VpwhsfFVNq0seKrlyrvhWS_p-rwXv-snC-4jaujroovlm
+}
+
+
+AzureEntityColoring(AzureSphere)
+!define AzureSphere(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSphere, AzureSphere)
+!define AzureSphere(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSphere, AzureSphere)

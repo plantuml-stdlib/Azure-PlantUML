@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Host Groups
+' Category: Compute
+' Description: Azure Host Groups
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10346-icon-service-Host-Groups.svg
+
+sprite $AzureHostGroups [64x64/16z] {
+xTGreiCm54JHGWyhxN-t7qCQ5neptIPuWlRKUOhihcB91PnjhpxwSlr9mBjIIUkLhF5XVMafHN-k7DIRYDYGTxB6vqh-z_DFyQMK3r-vm_VN_rnfDuJmpdiC
+HemhMo-9-NVHFOIO_LIXxWNwuStxCpmTVG8dVUxL1_RZX_TNf-wlNdD_x_rLLR_q_lha_HtsYSKA-xjRVtinLTFHN1-DvFPedBTNMtY1hIFRsiDMi05dYmHE
+9bcNx0i
+}
+
+
+AzureEntityColoring(AzureHostGroups)
+!define AzureHostGroups(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHostGroups, AzureHostGroups)
+!define AzureHostGroups(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHostGroups, AzureHostGroups)

@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Search Grid
+' Category: General
+' Description: Azure Search Grid
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10856-icon-service-Search-Grid.svg
+
+sprite $AzureSearchGrid [64x64/16z] {
+xTC5TiGm38HXonw3Ihx_RQjonu6dBDF_OF5BOkg7h72JByhunOGxF7LD_k4VlXQgagz3as_CSoVsTSMVk_sV_-6jXoybvrnsz2NZfxpPjmekJlxUAjN8bqyZ
+mPAOODL6cUV8V-hmcm38ZPjwvXB-bu3izbC-lO2k-nY615Pt1I25IH50-mkJ-_Fjfmq3MFLXfWHuVPhp4QYU-OjxUYnu0Sfsp_VNlxeEzP_szv25-VVwE3jy
+gDTZzlR5uNa6-VRDxn6dlAZ3qmM8P_LwrGmW2PqzgDUhLM2bA1944c0rfPv6__IFMmL3tPb-jrapjxUajtBgFdZVa_SzUMzxSQiPFr_l
+}
+
+
+AzureEntityColoring(AzureSearchGrid)
+!define AzureSearchGrid(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSearchGrid, AzureSearchGrid)
+!define AzureSearchGrid(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSearchGrid, AzureSearchGrid)

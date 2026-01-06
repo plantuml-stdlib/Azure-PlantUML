@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure Data Explorer Clusters
+' Category: Analytics
+' Description: Azure Azure Data Explorer Clusters
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10145-icon-service-Azure-Data-Explorer-Clusters.svg
+
+sprite $AzureDataExplorerClusters [64x64/16z] {
+jTL7ceGm34HXWcJebUz_sec6PykgoLDBVVn5K3VKlqX9SdGfVgKCUS0J3JUHSYeVk8hqWQiSwWO45xuA3vTU56HytxMF1HbVbbNwM91o2l2Y8EKKu4L1vBOj
+xubU5C37ys_HYm8u1N3bAO1J09UU0akZF9dvld9Q1ihNYRErUO0dC-Tu1jhNdbjR-nu7c_RLF_8h0xmks3bR64Il2-0CyABWk_lJ1P-_FtI1U7z8xwKa1VBz
+SSuyAP3_t-EHy5YWtn_7ENfl_g0WEpzyz7mUgoW8VFH-Uw-Y8FBU--rFjSOzyERX3ayBUew7ErmKmF5mltbVv8BZxV9mKG37mxt0ym8u7cxmv7S0nskEfm2E
+DtpZZYSEpptSuQ40Fb-_iKbu7uV7vmStV5F5AO3ZspdXxZtlrmZ7lxCARnxU5IWFl_ou2gT0UhZ3fqUfFTpXNk8RGNguiqcVDvbupLa5IRpa3YUzbnmFf00l
+E1v6y96BLSJWlyL9vyqYDxZCxSqiSWP45FI7LtpWke3BvMYpSF6wWCVbbGWk0nU3pml4uF_p3
+}
+
+
+AzureEntityColoring(AzureDataExplorerClusters)
+!define AzureDataExplorerClusters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataExplorerClusters, AzureDataExplorerClusters)
+!define AzureDataExplorerClusters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataExplorerClusters, AzureDataExplorerClusters)

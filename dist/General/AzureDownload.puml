@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Download
+' Category: General
+' Description: Azure Download
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10797-icon-service-Download.svg
+
+sprite $AzureDownload [64x64/16z] {
+xTDNOeGm38HXONb4stB_qwPFgcM1qfFzN-43r_FdLS5o7h_5J-sCtAPsv4uZ_JZrFZ2wtXxotxZrSzxFz1WQARqEZV3S5sbKw9jFTQk_UFrQN_G-Z0z1xolR
+V1sTQk0PsXmIUOQ0HruGyCWB0XvvGS0ZB-Zos0kwFFQ2wI58oWl8arv0dlG2ygINMcMNvorhLrIrxyqCleUP_NnVt3Rue9_kXrgrkAdgqFTnd-9rlw_F_MIx
+cvvyBlenxyVpRNb_WzqPB2_oHk-tlkWSzBd-uayfdX_0GiUMD6Tvp0wPYRyipTbx_TBdfpKrW7pN
+}
+
+
+AzureEntityColoring(AzureDownload)
+!define AzureDownload(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDownload, AzureDownload)
+!define AzureDownload(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDownload, AzureDownload)

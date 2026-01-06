@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Maps Accounts
+' Category: InternetOfThings
+' Description: Azure Azure Maps Accounts
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10185-icon-service-Azure-Maps-Accounts.svg
+
+sprite $AzureMapsAccounts [64x64/16z] {
+jT17kcmX24LXHK2hvVn7Mz4Jj_B12wjpuuyK_JycenwFvLxuNIogiQZ6WXmBN2qwGPm5EHRa9FTYF0aKu9mI2-I_V4wf2EPzlgIKI33lzldjizW3nDp-7Sia
+z_Fp0mXohFmyoIp7yqHVdoqlwuZeju0O0tIzFRrR7r27NyL4sm95PzbSwDVt03ghchuCdvTUBIzqyad2lj2MVG3hUCS2jF9YRJ-o3c1lVomW8SzqznpoTCqu
+WBtziK0EU2721GAUe3mEYBvMytYZaebHrxVlzPu05bMYKh4-yVVZyNOIf-SBbkCcwl9wrbfFHn6NByUd_itR8fvu6203izQHZaf1Zlxyz7M2aCFpWM40AVZx
+0ALZRnZ031myoFE0sm5QXm56Ry_mlErn1NX-r1nLLMcd-hdcIHLuoBTw-hR3W53zNf1ZGOu5EHRaM9HZGOr5ETOUI_pehkfZMkt-6cYln26j_yTU
+}
+
+
+AzureEntityColoring(AzureMapsAccounts)
+!define AzureMapsAccounts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMapsAccounts, AzureMapsAccounts)
+!define AzureMapsAccounts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMapsAccounts, AzureMapsAccounts)

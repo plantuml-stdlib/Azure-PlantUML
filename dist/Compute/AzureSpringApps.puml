@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Azure Spring Apps
+' Category: Compute
+' Description: Azure Azure Spring Apps
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10370-icon-service-Azure-Spring-Apps.svg
+
+sprite $AzureSpringApps [64x64/16z] {
+xTS7qjmW38PXgWGeCzp_jXbxvSMVGQJtl7ylZzU2hVsRgxVQe-FlxLPzfDpqJRdbA_fcUsthsyvh6zyCZwrzdqBV7mrdy1SKzNtHp_25cMlzf5_zdUg1Hr_c
+WS8HoiEtnVcnqVcdoJVqDZyiJVu8-QwOhmCqmszvTd7lzvoyys_VPlzfxXpHyEtfwPFS9Rvyc_r-zhCmV7jwiZK5fssyhQDxH_n5ddAAtjrAfaUNOl0AeVWv
+FeE4mkpRmrDOKtz-OkNgHsEdZ5w7BKE05-LayfVdjPUctbi-kusNooUBfxZmVVBUu47dyZmufjDRF5o-6-qMtrF2_RzgeytuWRBJ4kFuesBwT1kBwX3egt7-
+dlI-GvVFycsvVZx3BrEnl0uGG8UCCtck2x_U01ypFMzDcSly_01sK2yj9DAx7bn8tRqBokmvHxNC6QV9ojKBUZq0lN7qe2EnxRNpzFF0i1RAmGlwVgn_PCfN
+AUNyeig7bzCB-XxFoyUGgnVrWhuJxxbwUNlfs9vhWXwpjUqnBhRU-zlpWmEMei_FljGVwPVVs__tygMlNuQJAVlraq2M5ykBxR6rbwN_88jMNjQ-snvVFnly
+6_i8
+}
+
+
+AzureEntityColoring(AzureSpringApps)
+!define AzureSpringApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSpringApps, AzureSpringApps)
+!define AzureSpringApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSpringApps, AzureSpringApps)

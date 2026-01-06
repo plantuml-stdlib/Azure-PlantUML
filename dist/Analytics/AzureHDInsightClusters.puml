@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: HD Insight Clusters
+' Category: Analytics
+' Description: Azure HD Insight Clusters
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10142-icon-service-HD-Insight-Clusters.svg
+
+sprite $AzureHDInsightClusters [64x64/16z] {
+pPPNWW8n34Et3B4TYkz_MdhHeeXYjkapeoURa9R_MTDUTVga6Wxw0tuseGhy5_q2tqyIF5ZYHRuB7B-s1dZBdG8iT_bi8BAi1hZcPy93k0XG7irZWl2WekkF
+ZBEdlyRt0W-cUGV9zHN4FrPUszJu_3nyQcviZ5kvSYYsWb61hqQjXbixo7oVeVdXu866Y8Vn7gS0b7jcFCIxZtWpj6eyjjmemDcyWY74c-LE3GCisQpmKGEE
+2qZ_TmRLCC0ILtQ4MAX-NIxDtRQu0w0NUa0za04EulOD-0SboXClDIflaO-Bovi_zLOHat_oVOvmJ8YhzerjZEENg_QTR8HJ0ypFq2SV2x087Ded6-8eEDJz
+AE4JFEkVyqbl5S4hMmDDCF_XHx6jfGXGwuTjAC9v_RAD0-xkdqdWuguFslxbysDUmRktfplewlpq2XzmNnLu_0LUuhiL9W0L1kNh0PO57W8ywm7TpVDVQWC
+}
+
+
+AzureEntityColoring(AzureHDInsightClusters)
+!define AzureHDInsightClusters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHDInsightClusters, AzureHDInsightClusters)
+!define AzureHDInsightClusters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHDInsightClusters, AzureHDInsightClusters)

@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Language
+' Category: AI
+' Description: Azure Language
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02876-icon-service-Language.svg
+
+sprite $AzureLanguage [64x64/16z] {
+xTT74WCX34HHaBgzrVrFwnpGL8r8plRVFz8AyPOrHzUhlGstxlyUrJJoQEWU7h1nRqxtUzVN-R_NN2O0UAhHv-HIyDBa_j___jRi1N5wVifK93UFjYILvMuF
+ALFl-tF-xvDBUZm1QEWP-qFGCj2rvddszTxUut9lgA_Hop4bqY9bqDA3p9vdDFZWgcIBZ_jyRr6RUW_rDiS1kzKal2QvzEF_xu2t-kVE3t__wVFp3W
+}
+
+
+AzureEntityColoring(AzureLanguage)
+!define AzureLanguage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLanguage, AzureLanguage)
+!define AzureLanguage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLanguage, AzureLanguage)

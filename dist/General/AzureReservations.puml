@@ -1,0 +1,21 @@
+' Azure PlantUML Sprite: Reservations
+' Category: General
+' Description: Azure Reservations
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10003-icon-service-Reservations.svg
+
+sprite $AzureReservations [64x64/16z] {
+pPVP4jim24L10d7Lb_p_tzQjHWon39FkFQ-PmsPjUVsdgAg8Obu0PZ_aGbI-OzE1VPnvso9m_UCG4Xdp7Q2MlqmpWwVlJSOmp80bPaooL0hqWTX4xG-HHWVD
+Uq4T0CBq2Ey8A7sDZfh66b04sBz5lGFeR_7I03ONGW4181HfIG1VQLJxnAjEItJDV8UzWdlpQ7Esoeyju4pF98QoVxPEHFqUOFZaM22vpsPC5yFzaDwsqXFV
+TIBi024zRuVJ_6Fzj3k8wUFW4p-oAex3fuzzBm0X_VWndx0ASB_zWEyR0Lu-w0TzTb-z_CpF6_3o-u_vleQspp_ionvW-7e7bhVMTlvYV0XR-Y3wbduZXEPA
+d_l5aHx0xKYZVj7Mhz7lkBXdmCMz0GEWXvzCp_sJw2CPyG8jxxzUlai7Mh60hVZ-B3g0nm3zpM-Kqfy3w5v_8riZTO1rQbm--U7vSG0VVtryEO9lS7A0cL-R
+TG0zjg_vyPrymVmYYWSu_0J9wKCUZpzl01wQyo0XlPT_Au1jf3fwx1wt-pFSSGdxSctt9mHy3RYU1E1uVJh33wh6LD5ywSrnFY0wVO9wzG4y1-YMwFS7s5W1
+v6WuqKFwE8AfjS_cUl82D2xyZk8LR_CieSdj0PraZpEOqFhvFLu90lyFq8yFiNyoUkNOT4nxOoRc9iFY7vYIORF2AjsdaE6TrwZXIRR3hjf08lz8Z8s-_XnV
+0G
+}
+
+
+AzureEntityColoring(AzureReservations)
+!define AzureReservations(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureReservations, AzureReservations)
+!define AzureReservations(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureReservations, AzureReservations)

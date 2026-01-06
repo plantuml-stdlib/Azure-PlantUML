@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: VM Scale Sets
+' Category: Compute
+' Description: Azure VM Scale Sets
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10034-icon-service-VM-Scale-Sets.svg
+
+sprite $AzureVMScaleSets [64x64/16z] {
+xTNLZWCn38LX-VY4Yk__j8LetOr7we2NuR__1eBd7zz-JUlzlz-byXQV8Q8rwYkanrt4xoWMIi0tfN6cY0UeTqv6FK0et-B1NjIhifVTm8xD-hfRxgdVGNSX
+R-ror5lVpLVL6lUDSYkrc6yPqaEE-4Pvb28UXFH0Ek_ot7c0w7h6-xmVjaFK8-nRIRtSAqFvKPhn9Q_eB_d4RTwNLGJCnJNdQnaZv1vISQtq2M9fn5EDWzdv
+QKyyL3jNpdXVSHvGtFLwNuSuRALIXxPu0JJkHGItDEHLxk6UHdnLyvfhnDU2xbdhMjyc9QZMDcdU-sffBUQjF-LtBWCxrtbrRi83bPUYtjrOWPBrDPwlRSSw
+BSejHBrrjgu
+}
+
+
+AzureEntityColoring(AzureVMScaleSets)
+!define AzureVMScaleSets(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVMScaleSets, AzureVMScaleSets)
+!define AzureVMScaleSets(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVMScaleSets, AzureVMScaleSets)

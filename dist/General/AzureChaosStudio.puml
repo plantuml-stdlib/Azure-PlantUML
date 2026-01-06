@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Chaos Studio
+' Category: General
+' Description: Azure Azure Chaos Studio
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02223-icon-service-Azure-Chaos-Studio.svg
+
+sprite $AzureChaosStudio [64x64/16z] {
+fT97biD03CJGTKlGm_rFEpaubiicjkHNRFzQNTvkrGNT5NXNu5q5xo-mhTa5rai5tZNrA_2kgLzJlpeVTWg_QHeEdt5xb6eOK_3WEGfku4V13Vmek85JSEzo
+eE06Jk3HywMXu0PEuC7pLy4Dd88RE0KtS0fku1JSm2cuWNFhJF_cTLmME0KdS0fEu1ISm2auWLDm0gVW14x12Po24pW59t0AJk0KdC0fEFj-brDm0gVW1CwG
+Kt2ypmcysf76ooJLgNVg7NATUeTSfzuXro7N8TSXrvbMdzRl
+}
+
+
+AzureEntityColoring(AzureChaosStudio)
+!define AzureChaosStudio(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureChaosStudio, AzureChaosStudio)
+!define AzureChaosStudio(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureChaosStudio, AzureChaosStudio)

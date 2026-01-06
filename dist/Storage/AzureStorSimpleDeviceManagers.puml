@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: StorSimple Device Managers
+' Category: Storage
+' Description: Azure StorSimple Device Managers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10089-icon-service-StorSimple-Device-Managers.svg
+
+sprite $AzureStorSimpleDeviceManagers [64x64/16z] {
+vT1LUWHH24JX4JJ6_bSRbwOhmtmqyVplfwx4JoRF9kss3HNKgmS3SeerSzJCKJFlzrgJPewYOiDU0HhcscjHiqR377lHKQzDezDnGpSXoBlY4Ubim7GsO1EO
+ptj9r4hOoouvTdk6laVt2Ti_e_lT4bdDf__lAv9xybhu6ixN_Kp4B8VUZeSbETj7-N_7Edyqwd4WiJg70M2wP92V6w24_TLb92ToeyoVNGJmYtUuy99UF8d_
+WYIB9ldcdg3_Ntpbj_K1_Szo1m
+}
+
+
+AzureEntityColoring(AzureStorSimpleDeviceManagers)
+!define AzureStorSimpleDeviceManagers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorSimpleDeviceManagers, AzureStorSimpleDeviceManagers)
+!define AzureStorSimpleDeviceManagers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorSimpleDeviceManagers, AzureStorSimpleDeviceManagers)

@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Purview Accounts
+' Category: Databases
+' Description: Azure Azure Purview Accounts
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02517-icon-service-Azure-Purview-Accounts.svg
+
+sprite $AzurePurviewAccounts [64x64/16z] {
+xT97ZYKX40PXQSZ4ZOdxdtRQ8XuaJlIslYsAlop6u_68BRcFYtHT5_UrS2X4YtFBAtlFMfgyC_MjMMu0uAthl3ZFWU2jk1-W2WEy-cLx6ki1vnoO_7Z0lGDi
+BY8KSJhWFa5EHSu0ycbx1wxqvE8bb-M_NNCdNQ-c9rg8Am1p-Ur0aWh-rHwjQcyrFRNNrdH0pC2q5o3rn0xSzsK0OD0BvBx73AIS4-0RmFTf2uO3G9yZ8jhr
+6Ve11KW0zl8Ya5_nHHiKJKuvipdeSW40jJtC1eIUsjwSpnTKRK_Bgo6rjZs6JjcUaVEUCN_OC-KtWD-ix7lWUY70ZnOuT5rNieqVZySR
+}
+
+
+AzureEntityColoring(AzurePurviewAccounts)
+!define AzurePurviewAccounts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePurviewAccounts, AzurePurviewAccounts)
+!define AzurePurviewAccounts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePurviewAccounts, AzurePurviewAccounts)

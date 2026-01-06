@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: RTOS
+' Category: General
+' Description: Azure RTOS
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10778-icon-service-RTOS.svg
+
+sprite $AzureRTOS [64x64/16z] {
+jTS7SkCm38LXI7e0wMc-_sqNiuhe9x444oHVgiiFC3r-3y3P-wTmIUOksRjaxYpPkqGUdo17m9xBtQm_edBhNMwzo_KksyEYFTpuwb0FxXbSi9yFmBUz_hSO
+FUwlbJXxqBMp0S-jGClfGgZNXNx0x_VG6u3Ud_T4RpRgZsdFas5a5xKB-jvQJoY7RDRCluKmsoz2qn3hbKylT4aFHhc2K02HpOY2KCyn4v7TxdIPsyqkf_iX
+LdrXa8iMGlcojvOVPTbZt6_jz6NSxtslLYug5-FQTB2UQRkdW-SOnKwvP-NZ4Ddf8jWiXzL6H4fjDDQZ1IQYzGE3tj3v992Z4Xlqw9KMR5jb9T3p-Y9MRopG
+qthJ-X3fwu86FlzQNwzNBMh-rj45pkSzr0E5Aryvu7o2ekl70nHdSlQ6asBKEyoSFNVS4uoLTlnPlnwWTFnmpzGXqPE_xMkgTzbUKxcJNDw3dkn6tt60TW8P
+0Q0tcGU4NPvyH1kNp9tDwdy
+}
+
+
+AzureEntityColoring(AzureRTOS)
+!define AzureRTOS(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureRTOS, AzureRTOS)
+!define AzureRTOS(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureRTOS, AzureRTOS)

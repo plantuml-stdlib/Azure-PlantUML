@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Service Providers
+' Category: Management
+' Description: Azure Service Providers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00025-icon-service-Service-Providers.svg
+
+sprite $AzureServiceProviders [64x64/16z] {
+rTO5ZiD0341H3VWxA_BzJriCkEoEb_e5RU25oUx7EHiANqBF9JaaEIGv93baFJcUzoHuokjSmAiZhhX_bYIzVhYt_-yjwvFSlfBUmZo-WEcOXTkC2uittTOj
+7g2JJu4exXohNJVTwzkFlrvAwNBwLm__vf4ljR1KV2p57txDySPQb2FE2rj13dNp-8ASxZVV5_IurIi3LtsTULLLaoVTvogpxuEUsHFnUgTsuar7FISl0zuT
+mQeHhtSxtKG9py6JyDfAquZN1qcHsGy-igkcrgyalVwAdv9UfrVTyRZrnps3daKXr_y8-IMv-OFPQozSf-_ubr_rAH_e0_pd-Zq
+}
+
+
+AzureEntityColoring(AzureServiceProviders)
+!define AzureServiceProviders(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureServiceProviders, AzureServiceProviders)
+!define AzureServiceProviders(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureServiceProviders, AzureServiceProviders)

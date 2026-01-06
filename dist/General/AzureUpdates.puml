@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Updates
+' Category: General
+' Description: Azure Updates
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10115-icon-service-Updates.svg
+
+sprite $AzureUpdates [64x64/16z] {
+xTDNcgim38RXnFgHoodQ_su7fUg9n8ZWgodVJUeBk4dKs4poBFVzd_Hzqe-VuIkjBMCqVSNjC_PxdDRA6Aolvp6MazQd_AyVktrlcdlzSVktJkxVPV_wpVk2
+QubFDC3zW8UjnRuswpqdqR00aJ-NKlWpBxT61UfjtzQrsokLDSgvZC7WyL97kUOnGNFxp_Fu0e3tlRNU8wv5N4ozyRNMFTSS5nkRckUQzPxRseNJfQUdX9kQ
+Sf_nOklyck6s3SykK5pWEOWsSpxXhfl78QuPd_3a0evZZHPAU-u_nm7QaJi-6kuUzx8HnCd6JCXBRte9clN2DiCFUJRyWDU4EV791TxrVTBBdDSo7lly2YA9
+JvhrlnxVoEE09ypTNs0IqmS
+}
+
+
+AzureEntityColoring(AzureUpdates)
+!define AzureUpdates(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureUpdates, AzureUpdates)
+!define AzureUpdates(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureUpdates, AzureUpdates)

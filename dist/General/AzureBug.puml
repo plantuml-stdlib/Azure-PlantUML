@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Bug
+' Category: General
+' Description: Azure Bug
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10784-icon-service-Bug.svg
+
+sprite $AzureBug [64x64/16z] {
+pTC7YWCn58DXceiKiEv_sYs3Pp3ZedYpxQVcmPSk_KIaki0DJfgRzJGdwzbTe6S3F-kVqDU2CdcwxQzWdwiqPfTNX9pZPoc3X3QBRIcbJNqln2qUGhZv4B71
+x_uuX1qUOcgAnsM7XzJv4FTUlgq-ftnfn5EzFcGYKugnqwbUGPhT8QtA9BdSJ4xBU3JJteD7w7KjcLZ3K4FEYrSTVqZ99Gdt9sWUUN_KUsd7InEV_xdFpfk6
+7gHslHhV1CFXzkUysP_rRd_U7qqqaKqyAxegF5DsgSptz-plDz-VzsP_tjV-gSSNFLxnvUA2IsTaKL-sVXdeFAbf9EazETFFUcAYlUVPK7ilNWqq91alWMSt
+hoF3FoiZhpFdUyAMo_3QtCjmw_Mg5qUwQE4XjVdXeFfPQ6FbMu5N-h-z0m
+}
+
+
+AzureEntityColoring(AzureBug)
+!define AzureBug(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBug, AzureBug)
+!define AzureBug(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBug, AzureBug)

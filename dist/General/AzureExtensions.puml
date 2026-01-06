@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Extensions
+' Category: General
+' Description: Azure Extensions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10799-icon-service-Extensions.svg
+
+sprite $AzureExtensions [64x64/16z] {
+xSor0SCm503Ha9ZsdpRGX6oBMV_wTwRtkArKpn8zdy3VRBazSdcsxTlVx7w_L6_cyyQMswD4VmF_2bcQmuC7_saq_n4epd_0MXuyzl7OqWgU97bx5Wy-g7GF
+7fcqWUcZ1m
+}
+
+
+AzureEntityColoring(AzureExtensions)
+!define AzureExtensions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExtensions, AzureExtensions)
+!define AzureExtensions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExtensions, AzureExtensions)

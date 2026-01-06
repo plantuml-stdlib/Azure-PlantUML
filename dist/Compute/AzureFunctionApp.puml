@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Function Apps
+' Category: Compute
+' Description: Azure Function Apps
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10029-icon-service-Function-Apps.svg
+
+sprite $AzureFunctionApp [64x64/16z] {
+vSy7RiD044DHbsr6u_rFcwQ5FFh0CDsLg0dtSImzU8xCB_dngS_hTruNFR-_xg_Var_Y_1X3ytmXdxNdwuko3Mh3bnSD7BNZmvoVlUMdXAjW8ESYnu3XFU4O
+CDnudP81p_q0lrqYbnyWFvBx0NAUPpe6o2kv7-ZWAZQHTCETNr4BKr_p-8JUVyIb7dqFXUVXsIBRmjUgVfKl0qrjz5X-bIy3JLBRrErBVAPjJuf9-Gp_TdoV
+y6I0lhd7_1-vl-L7FNSVLSjChOvdpPdRwrbNp_4yQLTjhYEnBf6ppn9wSDH-09oj2yxZCRYPcLu_p7MvhijrNQxhSbsNgrGzKru1
+}
+
+
+AzureEntityColoring(AzureFunctionApp)
+!define AzureFunctionApp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFunctionApp, AzureFunctionApp)
+!define AzureFunctionApp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFunctionApp, AzureFunctionApp)

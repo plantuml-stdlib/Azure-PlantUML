@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Static Apps
+' Category: Web
+' Description: Azure Static Apps
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01007-icon-service-Static-Apps.svg
+
+sprite $AzureStaticWebApps [64x64/16z] {
+xPI5KWD150JdhGlo_t_BRLMaiUK4XuwkzDGa9_TVoZ_z7VYdEhdQ5v8fOc8jJf8jdraB2HFhQ1hKtiFuzEU9qjUYGLlgZy-0YPNaK-tHsnecrjBowTygXHE_
+d_Ohg7kuwcKNzQpNiezrVah7V9CTyPFaj_ivbnD1Yijucv_DpeP9kKI55JvqdOKikL9q6izzwfPPFqhoQ_sXkqVr4J3rgRC-0gO-TTOV90HCVEW3fr6V0NC_
+wQIpFjVcVeO-Y3XkQ33n8Q0-VjkyVvHPO9n1TsQMvtv9RWImFlNf_yS0rgV-jiy0r8S-yHd0-jJdFWEyb2PwUVN-cymiiRutwlJxmjbd0t-wSs7yZE729_bK
+7-DLFZ6fWCs-bp_appdkrtueeBRU_xd_Klvv
+}
+
+
+AzureEntityColoring(AzureStaticWebApps)
+!define AzureStaticWebApps(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStaticWebApps, AzureStaticWebApps)
+!define AzureStaticWebApps(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStaticWebApps, AzureStaticWebApps)

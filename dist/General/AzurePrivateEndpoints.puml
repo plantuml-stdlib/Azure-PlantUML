@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Private Endpoints
+' Category: General
+' Description: Azure Private Endpoints
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02579-icon-service-Private-Endpoints.svg
+
+sprite $AzurePrivateEndpoints [64x64/16z] {
+xTQ5RiG038DXGKYOzt_QKGvhzPzK45qjdlDvTDIdndwpHq-syaUsylr--u2_viEzzOR48zvRuW_VssB0Dpn_plUNltnLYPUA-5o9VrJC9-Ab0iw-Y8ENahXu
+gP6BbmFaukK4kNezGgvUpu2BXqFcukKKk7ezPkwty03p_mU2E0_aApVmjJQmpZjUuhqsaCB1wy2DXxNwV2QajHWVmytO2pSRsJdSZBm9du7VtHmk0vvrJmYV
+WS2FoP741-30_7CIE0_C_x2Pyy24EGymvwypvuOvTHiujtp0FTTymINUK4K13rpEiE4yZgZX0MWEppS
+}
+
+
+AzureEntityColoring(AzurePrivateEndpoints)
+!define AzurePrivateEndpoints(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePrivateEndpoints, AzurePrivateEndpoints)
+!define AzurePrivateEndpoints(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePrivateEndpoints, AzurePrivateEndpoints)

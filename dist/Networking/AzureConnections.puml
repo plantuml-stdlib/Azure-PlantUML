@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Connections
+' Category: Networking
+' Description: Azure Connections
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10081-icon-service-Connections.svg
+
+sprite $AzureConnections [64x64/16z] {
+jPU7icCX34FfNDZs_r-x1N9ps1W3UJFHj5ToP26Jzkk3AWzz6KMrlWrVg5kKGnfMMEpfEj0vfHXJogF51d_IAJZpb0lfTgWdTFBcLTQt6CicRzgPgLmYWevd
+RrJvZ862HxDKZr1LF9YD0WOI9xikpn44xio1t7N9ozZ2CtsVeChnmHmgO33WSHlSieNx7i7d_Rdpq-0PWF5-YxSPL53hoAS37Dxa7e3nRetRXbjsm0vFnjiC
+BWAyd3x4ENwDk0cTl-FplyWc1roSqDuD4f-UWegZ1FyVa8H1vcxF3a3xF5mOWXDqu6LSh-H1dUVk2WFmQ1I-KfzIM5jycF7v4ZpBwGRTAySuCqZmqQmCub_v
+ELyKtZWCNCH0uPDH3AncGFuwvqtW2UkRWNljZ_wpn6rCx1q3kRz-VuHYZAdZ65Z1t_VV2Ro9tuCmS2CVbZW61WNn_5Ln33o_f_BWAwyV2ex1UCCQVmVmAexc
+ySK6WuABxSEp0PfUonEV1kMcz-DxWpJWJt3UFcG3uG2dV09m0d1DYV4OlFFvOHpF3lm1I_U2PubBkOR3SuAZ11vS6kmx2E32W2reiWbSCRZ2AZluHBKkFyNw
+V1NmcSeZGWvM90-DBfLxeqKey-ylXU5BWyeNi9p-AlFr2toXqXswIKSFQJBS5h3GHwglehNtJNvzK7y
+}
+
+
+AzureEntityColoring(AzureConnections)
+!define AzureConnections(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureConnections, AzureConnections)
+!define AzureConnections(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureConnections, AzureConnections)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: My Customers
+' Category: Management
+' Description: Azure My Customers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00014-icon-service-My-Customers.svg
+
+sprite $AzureMyCustomers [64x64/16z] {
+xTI5aiGW3CRnGRu4ECdxF-rAMkvAanNcN7uZgtycDUG3_CF9MzhkJRMQpOt9t9hChSdS-gGU5xrNtzHKJsUzxkhLd0mUSty1kaBpmMpVtjRNjZVNju_lCrt2
+elti0DpTtxF7xwiOV2dtUdbpRrt8p-pu7ZTtU_7vkLtWsS-1tJK0fBkTuomcOYvdJ3dYfDTSgiQLtFcno264b86Spc-WPEbYpA0S8tid45tOm8AQod5HxIdC
+U95UyuWLQy1HeQrskHqWOrmWQL_iHSHMt8m_Be1pdfhfCSWzJzWeUWPFoDo4e05w3zggwncivYwadVKCHXfLFOCmJm4fEq2cKT43A6tBtxUYzaHs0AGsU10X
+A-lP8x8356eZjwT-zkm0TTypEPAUFMS0GyW3FNi6EpsJ9mRo-cfwzkN4Zljx0dkAxUVOmvyaep_VbqblxCMOobdUmDHlz-y8
+}
+
+
+AzureEntityColoring(AzureMyCustomers)
+!define AzureMyCustomers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMyCustomers, AzureMyCustomers)
+!define AzureMyCustomers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMyCustomers, AzureMyCustomers)

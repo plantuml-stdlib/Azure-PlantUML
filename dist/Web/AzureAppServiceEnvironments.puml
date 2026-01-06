@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: App Service Environments
+' Category: Web
+' Description: Azure App Service Environments
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10047-icon-service-App-Service-Environments.svg
+
+sprite $AzureAppServiceEnvironments [64x64/16z] {
+xTT5eW9148FXfvLYbVlVbbMncdHdN7zSFXWNNg8GWOJ-g4B8o92XV4pp8RZjOpcl9gh-jECV__XgjW_32rrrlEPLnsjUcLvlaUZx8GxVOpZJ0tCyT7_QHuL6
+nlOJypnwjJsC6eiKh2Y3LSfb7Ma5DVvv3fzpFSJ-DzrAJVHSoNCRJ-dvScfuUbnx6bpu2lNDpAo7JyVQ_p_-yVkVlt2gPpNDymgz0G
+}
+
+
+AzureEntityColoring(AzureAppServiceEnvironments)
+!define AzureAppServiceEnvironments(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppServiceEnvironments, AzureAppServiceEnvironments)
+!define AzureAppServiceEnvironments(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppServiceEnvironments, AzureAppServiceEnvironments)

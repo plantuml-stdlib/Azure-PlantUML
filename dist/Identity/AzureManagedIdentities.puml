@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Managed Identities
+' Category: Identity
+' Description: Azure Managed Identities
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10227-icon-service-Managed-Identities.svg
+
+sprite $AzureManagedIdentities [64x64/16z] {
+tTPBSYH120FGw98WlUF-fvqFGPICUuYfJE-i_HFgVyVFpeLlSdwFmtdENo3SSUn1miyBBZAzuPYdTxjEE6xln0cNTnuyzV871M3tZktdhdl7Dk_UiCFbzmik
+DBzRy1ANttWHmEPt2owsU0itUVThEJOvF-kbWebZyglYsE8ihHXtE5EtsEpvdjGztE0KK_YG0nVwVYDjABZmrVuDsej7060MJ5osl98y2puSq_ULx5Tl06mj
+GnPStL-otJVEN945rdcppOlBWxwi-IaGHtbahFaOlNWMc16Lsv8S6z1uZrbnPi5hzXHIw6x9C-WJkY-Wu6zykHKV9q3pQKhvvSoeuTbzPF8j7UGqGPx_kc_9
+_sIQ89y5P1l0qky5qRmAbEHUV9uWhm9nwNc2l7NkulC4UOjetBgT9y2BXpblpWQdXbTvY-HhiJX4ve8h8jApzEsBFvg0-tXw_hVWwXEaqvlyqmbCtVt67n0J
+Ty347qwGzaY_MN3pYETU3NOVt_JnsQUMZsTXURVe7l6umJxo-A4FMkdob3y887uKySEyyzy
+}
+
+
+AzureEntityColoring(AzureManagedIdentities)
+!define AzureManagedIdentities(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedIdentities, AzureManagedIdentities)
+!define AzureManagedIdentities(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedIdentities, AzureManagedIdentities)

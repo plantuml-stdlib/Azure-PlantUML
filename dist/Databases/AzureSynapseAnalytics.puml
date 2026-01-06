@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Synapse Analytics
+' Category: Databases
+' Description: Azure Azure Synapse Analytics
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00606-icon-service-Azure-Synapse-Analytics.svg
+
+sprite $AzureSynapseAnalytics [64x64/16z] {
+lTS7hkCm38JX558o9uNtl-scPonOMeeFo8_gyb5XKEt3SClJuLLE6pvPwd0kfxcSvXABPoQ0icRQd4PporJhfERRHMwLPRJuwHtG3gxogjOEnwdBNRvLO5CZ
+f0iURmpqQQ3LDbyorjUrFWY5qxSpBJuudEDNRv6FwExB06AQ9m3i7nE8jOiVspyRhGTfgj4aMj_dpetzG4UyA4KywfKZdVQ7MS_DxryubLT9Bz-YtkitzfBm
+iYheVVdaxa85lHE_HIE2lkqWNDHpmYMy2vVmhbJ2wwhV-yAyJ7lHGirwkPNtHtdu-ctAopCbxt4ldtHvvs4l7F6U1xhwwEvcHdhJeyDzbQ7hWR7cbzbp8Ss-
+lJtWu6npgKMx-jevd2POcVpf7AmA5THSqPSj1WmMxrRAMzyA7yuLrGNlmfepK57DNT79_lO5v1CDT6h2pxzVUOAd-x_-1m
+}
+
+
+AzureEntityColoring(AzureSynapseAnalytics)
+!define AzureSynapseAnalytics(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSynapseAnalytics, AzureSynapseAnalytics)
+!define AzureSynapseAnalytics(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSynapseAnalytics, AzureSynapseAnalytics)

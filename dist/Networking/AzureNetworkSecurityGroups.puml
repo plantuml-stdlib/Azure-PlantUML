@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Network Security Groups
+' Category: Networking
+' Description: Azure Network Security Groups
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10067-icon-service-Network-Security-Groups.svg
+
+sprite $AzureNetworkSecurityGroups [64x64/16z] {
+xTV1KiOm20HWLHk0Iz__RPt4E3i_AIDRBwhP-xS4UkgPnTmHEvb4pJTCeoAYEhl8uNgyzRGUCQPXZEvwUZIK5vTEuNkqS0Rl6SFX4VEFf73gzcdXiGHooLKm
+E_XOOG_UMZj0aRP6H4RDWuS8FiblyP9a--r7jj_UxdWhUKtIFU8kUfsi5y-_vO_ebVFjcrwZTyxRy0Zbu_gyrzKxutrwXFAoyDEIWdHyZBiLFBOlFk3w-D7d
+3yY-VRMWT3nyGujPU7FuGa5nUMoGUonF553yjAKWSlZi1AQfL_1gGJAzl0B9yOBeZvNd1Qxmu4Ry00Kl3bu82fB3bu-mh4xkCDyEJXMeZ-7WV4FGR47WPBxM
+xm
+}
+
+
+AzureEntityColoring(AzureNetworkSecurityGroups)
+!define AzureNetworkSecurityGroups(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkSecurityGroups, AzureNetworkSecurityGroups)
+!define AzureNetworkSecurityGroups(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkSecurityGroups, AzureNetworkSecurityGroups)

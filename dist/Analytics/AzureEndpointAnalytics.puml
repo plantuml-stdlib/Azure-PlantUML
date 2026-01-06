@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Endpoint Analytics
+' Category: Analytics
+' Description: Azure Endpoint Analytics
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00562-icon-service-Endpoint-Analytics.svg
+
+sprite $AzureEndpointAnalytics [64x64/16z] {
+xSy5OeKm381X6a5ckVzjHqCR7DBEvNykNneUwXjaxFH7pF7fW4jFkVRM3trnmzAtvVLVulzzb_BwRjUrxtOvl0Vy0l_l-roHDonpGv4t3HmZXKK-QbuMgNaF
+RutQ1FCEpllCkpbP73FluuPjWiltlPZU3RZslIQI-7u0hNr_r90v8bcO1gZlBnDHZg5fGjBGD0te0BZpTdm0X3G0Gq08g0CSvoj7Y3CKaLe0dvU5X-ofs5D0
+zMFgSHhbyXH360jZyGN6gCmJ8Yn2clrm28Sfyxe3njBPvYzxgn_s7dtU5ZZtxF9iFaSvyKIv16VFukhKYxCJ7mez9PYzkAEZf21-6nTWb_Slm58OyugN-p7J
+nelyCYdkxRxkwYsSasfFn6tBLNwYJBNdCn6c7Qht9-QuGjt-IZ4cLQarNb7YZLYl
+}
+
+
+AzureEntityColoring(AzureEndpointAnalytics)
+!define AzureEndpointAnalytics(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureEndpointAnalytics, AzureEndpointAnalytics)
+!define AzureEndpointAnalytics(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureEndpointAnalytics, AzureEndpointAnalytics)

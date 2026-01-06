@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Image Definitions
+' Category: Compute
+' Description: Azure Image Definitions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10037-icon-service-Image-Definitions.svg
+
+sprite $AzureImageDefinitions [64x64/16z] {
+xT99Zi0W34HHOJi9q4FkVzjMRLA0785xdlx-GI5nVdKMxAtUVfN_zrkGRwDtCqbYczUADqr8N-aL68b5FASpiOZdTAOXJ-rEyBq_dOdDFBMVhdZLDtfHyRNP
+cXVl135RzKW7hHRog9yUzogS7lOyGTIYdYbrn3DTzBlhK-894t-b3OSNKVhzQkgXuP66FJIzY0OyDRtew6kvzucUwU1hzJqqVPiEldhUqhglz4rwusr7zCZp
+-oRqhgQlz6qcz9pk-UfvFiBJHywbr2lVxvjUtbeBsKVVjmcyw0rcy6wMcka7i1-y7nzE7V7Jor6P-kmwylED_0poql69FpgPyt7W_v7FV6am_oyvMbXVS2qz
+-SGNwjw3p_r1FNXoUdy-dqqFlk8BB-zyUJZNVDczI6VxzpTuzily-Rrw0G
+}
+
+
+AzureEntityColoring(AzureImageDefinitions)
+!define AzureImageDefinitions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureImageDefinitions, AzureImageDefinitions)
+!define AzureImageDefinitions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureImageDefinitions, AzureImageDefinitions)

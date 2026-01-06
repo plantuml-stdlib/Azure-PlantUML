@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure API for FHIR
+' Category: Integration
+' Description: Azure Azure API for FHIR
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10212-icon-service-Azure-API-for-FHIR.svg
+
+sprite $AzureAPIforFHIR [64x64/16z] {
+xPFBbkiW40DFa1hV7V__jVC8GRu6H8BNKwjvfAeRx9GBVv2COdZmXuKQ9sF3_5C0SSNOfe3K-v6DNUdrv3yJKpfzveVqTI1-TCG4Iby5mlenwDPFvZEneEaB
+dn_xZ5qOpOSkOCjdUsrvRm7eyQBT07_PzDi28585doKIcnzC7TZp0wc7xtsSVa2BwnZSyK_XJ62fyt-VtSTfLd3--1N6km0w7qD_7KZE5-OIbAVn1HO1ZFEt
+0gdDrs7DbhQCyaC-Szm9fEgl3w0ZZ7fTtnzWVGFKU0NCEOskyPS56DD1y-qVPLWWnG2S7gMn76MF95q1Z2Vm3xJp5TxHHQxm6SWBwkDapeyo2-3PzZhJIy-b
+-C1pa1sUOgANr-VhtJuxCRSXVLn00QsH0m13TcAMlWYavlDb8Mcuxiu4s7J51Ei46IwWxJ7OsduLQ7eUREdBG4JkVEHHzm61hUbZ89hVVZUM3R3gCKptZ6yT
+GlPMG1ZTSLiNTtLn71VvECecnuMoJpRw_Wgvt4J3x_9F-btsz7s-0G
+}
+
+
+AzureEntityColoring(AzureAPIforFHIR)
+!define AzureAPIforFHIR(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAPIforFHIR, AzureAPIforFHIR)
+!define AzureAPIforFHIR(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAPIforFHIR, AzureAPIforFHIR)

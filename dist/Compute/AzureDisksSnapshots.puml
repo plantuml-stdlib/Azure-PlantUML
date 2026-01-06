@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Disks Snapshots
+' Category: Compute
+' Description: Azure Disks Snapshots
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10026-icon-service-Disks-Snapshots.svg
+
+sprite $AzureDisksSnapshots [64x64/16z] {
+xTTbUWD138FXeYKxTF_Jba9Jx_YnolZzpgi99xk3ZUswBD_StkBjqpqNFYczR-l_FM3FWvdg3NMzHzFC9wqkS4-JrXToa9lo6qmYYMMc74-FrRw8F29uNurv
+xvcEZu6dEy2PTouUWCTZxddQPpwSOXvJ7wxomci34PLN5ZnglyyRNFbTd7Bt1VKzJZmFZFc-GMQUYoA1omlRGceBshSgw9wV2m9crkfpU8WFuI4xrsYXcejL
+N4xbsASDB33FGV4r9z5xwETZvba-0PRZrDF4M7YAlFH4hy7QFmH1btuV6bpu7OVIimxiRU8fYksggEIBjorVij3zVuDoTlQfvkJAroE_-F_tlnzh4Rxu-ZVx
+Um
+}
+
+
+AzureEntityColoring(AzureDisksSnapshots)
+!define AzureDisksSnapshots(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDisksSnapshots, AzureDisksSnapshots)
+!define AzureDisksSnapshots(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDisksSnapshots, AzureDisksSnapshots)

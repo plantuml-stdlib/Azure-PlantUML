@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: CloudTest
+' Category: DevOps
+' Description: Azure CloudTest
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02373-icon-service-CloudTest.svg
+
+sprite $AzureCloudTest [64x64/16z] {
+jTFH3Y8X38NX33tGqbxu_c-x9UlWw5AjaltllnfFc5jSktJxDfdqfmjjKLwZyR-SqmU4Wt8Sp5i7-4rxVD_p9kSjxSaE7eLQUCipRtdPy_9DROzxsFDUo1iM
+jSM1m9Tb_Ev0bqUyzksTbskK_NrPUwvunQWiQU-z7f2WfAV_xVkkV-dLzw3GqrEnFrlund-hl_bkP_Z9w_ILAEIpFUzbVCozhxrkUZV11I4YcpMY5l3W05pO
+R5nBSKz7pO7Q8n1LlUOwhW_ETgdJzO3TFaH4iASQURTavFLdhzFdUBqFLz7KHfm_G7EyVdXrJaZ8yJcU34-F2Id1otsyhcPQtBSntvmmFHv8JOQ7AieuXkap
+uoaLkFRAKVhv2Ya_dl5nhyxFo4kFP_tqiEI4SpnFAXrd1JruXU7BgmTmSc8SOlPvGioN9mvaUZzNB34X4K5jfFBo__Kn8JBZkQZ7MLLBJ0WGuS4BtGyK8TB4
+XumvtcYSQeDJzrjjdaNq1-0rcz4ufTp4F64x4tYHL_jS1K1hpfQemrjog6N2QEah9wg1_wxRte5ofNy
+}
+
+
+AzureEntityColoring(AzureCloudTest)
+!define AzureCloudTest(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCloudTest, AzureCloudTest)
+!define AzureCloudTest(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCloudTest, AzureCloudTest)

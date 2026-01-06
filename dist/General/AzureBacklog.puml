@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Backlog
+' Category: General
+' Description: Azure Backlog
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10853-icon-service-Backlog.svg
+
+sprite $AzureBacklog [64x64/16z] {
+xTO53WCn44FHKXmG-FwdBKGxwZB4AVSBYc_5rh1o_qwu9d8uZGCYnnEvlx_hSBZ5ChhMS8ktt9eCTVacRoPs-6eVcgAzOPctkD5poDTxy5finNPOucIkmqjI
+U2xbM5uKUEq0Y1mGEI1oY1mrk5lALWUsNzRM_GZgVeNY_GhsWD3e8EnFmNvHtA_k0oAt3DY9kQWEaC9pnhK1ev3nQlttH-TkDXZ2vlcoTftx2Thz1Er-WdO_
+eVRz1F5-8jQTJup2_dpB_IHmfNyN
+}
+
+
+AzureEntityColoring(AzureBacklog)
+!define AzureBacklog(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBacklog, AzureBacklog)
+!define AzureBacklog(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBacklog, AzureBacklog)

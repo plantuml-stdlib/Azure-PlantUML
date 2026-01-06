@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Ceres
+' Category: General
+' Description: Azure Ceres
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02828-icon-service-Ceres.svg
+
+sprite $AzureCeres [64x64/16z] {
+fT9fJiGm44HXjXZSHgxxtnOIcMdp5BLAclVRNsKLOx4dP63KvJVZBfjtG2xuzywUulN0nzNn0SyAVVBVZ86AxmEtJrJmrUH1MVvuX6DOgFbwWloH9WV4oDi7
+20SGUMly2xkaMNZmjevdSx-12Kz-Ulu5V9uzyjC76eM_uGfMU84_FAwlmeEB71ubl_U3df6Bd9wrJTEFvGEUBKm_7Cyc-9GqwCNVMDd6r-NxMCMTNUK8kSPV
+zpexT0KUwQdfhu4a-i-3dFnC6VXmE0V6biDFt-Egmtly-8mjkNT_P3ssEdp1SGEu1T6JPnq37i--WWFVglo1MY0nS1QC7fnrmuF3C_Y2kvwyzXE-vEtq2Bxa
+Xg-uuIlk-89Rlk2MBxZbmS1l_71yUywtzDG3lkRqm_6DFhNZ6tngopVur9PlyEJqvFJKzEJqrFJazDJqvFJKzE0i35_mFYh_0m
+}
+
+
+AzureEntityColoring(AzureCeres)
+!define AzureCeres(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCeres, AzureCeres)
+!define AzureCeres(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCeres, AzureCeres)

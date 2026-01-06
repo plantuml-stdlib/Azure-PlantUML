@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure Monitors for SAP Solutions
+' Category: General
+' Description: Azure Azure Monitors for SAP Solutions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00438-icon-service-Azure-Monitors-for-SAP-Solutions.svg
+
+sprite $AzureMonitorsforSAPSolutions [64x64/16z] {
+xPE9bjiW34Kj92Iwylz_M_D0SJZ5OsAwT-wiMUxJ4uVaFvTtj777JTfpO_Bj155T2J0zmURqDvZGzIq_BKm7gxvDw0i1kkZR18kwNLI_vziyQK4V5qYsv9ij
+-H_IwtJjRx6aWrK_hUXWqZTJO8E0IrUZF17j9TzSvXsfQ1TmRNEWhK4rm-PybHsNdL0YOfgW36SuFG4LfdJocHpstuygZ81BdUdO6VuEFG9IvSFfxkos-nNo
+7Qe-naJaiQlxJciGFvoIV7SU-VwAdVeAmGCwtu-0HEJ3JXwFv-BosVwXhgOdlg8zgJu2cE2xZjzS2gGy2AZZezQ0umwIww4Li0zvu1l61zKM0Bj2yA9oBH0_
+v450zF4re2VWUMa590y2S5ga3MfU-KiCEp8M8VVxW8JwhC_pkTpe8925_HQn-xbVNuxw2frImL2SOFi9viR7mzVdzGM-913BiRbFVW2UyB5bH1nELx_wje73
+9_Sz0GXygcnF_MNhSR-7gzyJpFMEaO-FtlVGDe07Vi1zdSBxzyWywtuUiQ3_Ojxv1W
+}
+
+
+AzureEntityColoring(AzureMonitorsforSAPSolutions)
+!define AzureMonitorsforSAPSolutions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMonitorsforSAPSolutions, AzureMonitorsforSAPSolutions)
+!define AzureMonitorsforSAPSolutions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMonitorsforSAPSolutions, AzureMonitorsforSAPSolutions)

@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Azure Monitor Dashboard
+' Category: General
+' Description: Azure Azure Monitor Dashboard
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02488-icon-service-Azure-Monitor-Dashboard.svg
+
+sprite $AzureMonitorDashboard [64x64/16z] {
+xT05cXmW343X605Ik_zj2o5Z37n3NNPVPVM7X2z_EFtUyWzwVVUzV9mo8cc-zerU4NhfUps3Xz_h4KRwXpo5_y7vvS0h0M2Qdo_uWPz-jPUWbJJd0y_JfYsD
+0u_y_DBnBSxVwELX8ioddY6Y--LrxSjJVly8jRHy-LJcTbwS4a6FiuWlNqwztzRlJN0BywdtwMLyIbUVowdtfovHWaXFlJxUHk7JeS_JB_Fv_TVxQ3hF5pho
+Aj0gzoNd-SJBSjGiaaevyC6v73Px6CbtUWrFvQdQirPjxNpUUAVtNOwemzUe87YfFjQ52lMV8d4gVa9lybMTqwoh4jo7KincxsL6IZDNXAUaciq-cYzdMAPc
+hxrPGTWaPfDVyTlIn0J8XFS7s0j_vIIjvlt3VC2Mrt6Pi_0UtRt1tfl9vVB92yEe-W0lf-VP8upODzXTJ-FsE21yS0QlXDzVZy9n02CW1nVbom1rxSquPXy7
+DErHuvYBAbvVm9RLszCpt8TgPaK5UcdhzUxfE6JeLbQ57ZLVbtwSBpVFzOFbRBtIkD9rWKLcECRt_6BxqEgB9VN4VLxw6kkJUBxf1wyc076VhW-mkhuCppsV
+L9txM9GywF76Aqon-m9JjF49vdA_dc0AZprm4eIdDZx3MRJnbSvyThyw836zZ8kjVRNZlgmxvd-yhm
+}
+
+
+AzureEntityColoring(AzureMonitorDashboard)
+!define AzureMonitorDashboard(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMonitorDashboard, AzureMonitorDashboard)
+!define AzureMonitorDashboard(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMonitorDashboard, AzureMonitorDashboard)

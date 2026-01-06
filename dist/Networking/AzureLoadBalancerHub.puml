@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Load Balancer Hub
+' Category: Networking
+' Description: Azure Load Balancer Hub
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02302-icon-service-Load-Balancer-Hub.svg
+
+sprite $AzureLoadBalancerHub [64x64/16z] {
+xT456jim341XiSgz_stdL7Q-LIDR6M-ltEWF-RbtlYprJ3qkYoNV_ZappaKUFd62sJ1yEZhCb_of9JZNvxphV5Bt4Sxv_rxaa1S0AVhWBIdwu2sf-E2HJ7bB
+AUoffMQygMwxmFPX9HzpQD7lxa-_YoTuHSEd_oOzlH-V5ZnkzJd4Rd1hz_HDB--ULptAnrvmnHEF7L0pWpDztNkFg9-kk6_UFNXJxBslUJ7tleFmmTtTPCP7
+iOFDTnvDUsVi1L_speclUcVgiPUy3-z5hy6rwhsVVTKRGOkiw0tX5LhDDovcWe1JFgS0kd-cFkFFfnG3Zc6kU08QEw93nyVQyHL0wjSVGwpA07GgUH_hxpL_
+SiQckV62Ztp7sUkKtylUBeTyy8gFWfVzEVFcbseyLUCvtNkM6jhiaBUo3_rB_VDPzsOQ7ml-0m
+}
+
+
+AzureEntityColoring(AzureLoadBalancerHub)
+!define AzureLoadBalancerHub(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLoadBalancerHub, AzureLoadBalancerHub)
+!define AzureLoadBalancerHub(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLoadBalancerHub, AzureLoadBalancerHub)

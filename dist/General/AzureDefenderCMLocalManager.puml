@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Defender CM Local Manager
+' Category: General
+' Description: Azure Defender CM Local Manager
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03402-icon-service-Defender-CM-Local-Manager.svg
+
+sprite $AzureDefenderCMLocalManager [64x64/16z] {
+nPM7hcGX34DLPWTYn-B__tQLAH7m9fVjUrvHFVPj2QEclna7_exV4_jDl_yFly_yNJ-5I__-e5MwhKrzPRHxShZS39kPzDQsY1HAsbSstQxiWja_sAS4Aq6x
+vXGWPx_YvQFq9JagcxgwWmYNF29eNsMZTE6F1n8x8i9X2t1fyiT7E_n8iET5OBMDau_Tdlhb92B1YP2fm6wO_B7fKp-Y7w-BS7Sz8VNP7ujFemXIj4xjr7hs
+ktN84Vz-nGy0UZx6Wpzs_u5RfnoLZxc-I417qMzMwi4Dr0DYrrEk_VPWk_NAjhxRISUiEgoDzElwtgO4OpxDzk1sz8M-G9VJUhBfI77vVagmyS4FMAqFdNto
+umvwFOoph_Ttmm_huyVw6Gdp3g9Byc-MVXdm6h-8K400r0ExkpI6dtmNEbvRf9YVEk0zUOn_PkNyUk6_dZrp_0f_8Ddzm66Up-3Wbmi4yjAl0uRuqj1nzlU0
+PNQzi3SVcnuODvVMHk5F2TQI-VaxUWjkXPu94jQPsKxZqW_2tnS00EkPvwaNACYLim99Pv-TENipdDy0KJ0V7Dp6dvu-A_BydI-2OGitE_lvvSQ_xVmtfO-h
+VXVWBboUlqp6MFlPEwEV8ae_fIrCWGDUdxzpG1_15X2mcnVz2NtEIdnQ0AM_mqy9iC8_1N1MQhiE6AEGQtpHWyAkOEAP-PAzK8g0CU5hzNS
+}
+
+
+AzureEntityColoring(AzureDefenderCMLocalManager)
+!define AzureDefenderCMLocalManager(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderCMLocalManager, AzureDefenderCMLocalManager)
+!define AzureDefenderCMLocalManager(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderCMLocalManager, AzureDefenderCMLocalManager)

@@ -1,0 +1,22 @@
+' Azure PlantUML Sprite: DNS Private Resolver
+' Category: Networking
+' Description: Azure DNS Private Resolver
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02882-icon-service-DNS-Private-Resolver.svg
+
+sprite $AzureDNSPrivateResolver [64x64/16z] {
+vPQ9RYD124JtX08Sz___xMw3IsQ4quaKtQdT7CFmeEZ6KjQtqfy_N-IfN-jZXJzaWq-TM1_wD4_Q3D0jm5ZXW3yZ2KEbIQl4Ek0P8rqmpCpDwadH2aoSmGUj
+K84_P2B86FbHu5V54eU8caFKdJ9Hjnr_Pm26xzbSzwmYva-fMBwonh_6fMmZVtG36SNB2-0pyMnOO3UmbNbqGRxZbMQzVGzK7ec9QwM1qpS3N6NWKe2yxHnz
+x8fePrdHSX_J8_dU7dbBoeMpvfvXWRc9DWFaqtqb0srnTIonGz0C_69x5MkdRNYOhKyGhDt8RdHFx7TlhqxDyNcaqy1pUZlo9hWOM1S-OprrIlJg9S5c7w-i
+HiJaQzOYc_t9nzj_tVe6jTzNu-VRr5ig1fyThhpevAFus-HpsiPdOF2tjrARQl3p-6R_oRjev-FwKjMxWVYGdozPWFYH_-sZ_wTvpZ_uSV-JFv__cSULzy7F
+yplS_t5_vlxLkE_kBuxxnunr_FpC_LEz75zidlBe1y3BYBXj1PdB-55aLLcnxSL39eWXRq68XHT8FY1ufkhaJOo_bdtogNkuF0teW_SIU_RsjF_IW0gWAaAf
+0ZdVR4y3mHDmWvBQ75IL0VEgtjkltpHWecwQYQBbcdA7P1N5_YrYaIy3d42X2jyjI58GtzPaorlxvBa3m5hjiBf4MOVkoJS3-qxd3VQLyCH9K7oiCbjjc_gp
+9NxlE7bgmTblB5-Qx-wfpgjW6CWdKr6Fk7MSQlnEip3Hw_Ik8jiQSqcE0cbJeEtpa8_PF9Yw3dnuhI3C-BTFzYvy7V1yTGkM40f6EdN0ixJ7LlPE3v5QKnEd
+jMWQy9blwkXPZV-Io7yN_GC
+}
+
+
+AzureEntityColoring(AzureDNSPrivateResolver)
+!define AzureDNSPrivateResolver(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDNSPrivateResolver, AzureDNSPrivateResolver)
+!define AzureDNSPrivateResolver(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDNSPrivateResolver, AzureDNSPrivateResolver)

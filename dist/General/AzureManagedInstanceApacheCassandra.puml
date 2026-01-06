@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Managed Instance Apache Cassandra
+' Category: General
+' Description: Azure Managed Instance Apache Cassandra
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02663-icon-service-Managed-Instance-Apache-Cassandra.svg
+
+sprite $AzureManagedInstanceApacheCassandra [64x64/16z] {
+hTLhbjiW38RX2YI1R3ZU_suRy0VJE9fJcFRzvTiZvXASwoiM4Rv-alIu9SmYsveH4edBEa4_abNFt_HhqGlxoRzvqKMl8YvVzIcD2O68uj1fsRTKvSLRGKHJ
+RzKZfZleRH_XPTDdD7r6crxW4yvBNVKeOldfwz846sMDWTL6jLKsl9qly7RIkX3B7Kkw4F9zdVMFk0ZFX1aK7NVD7tVjQXqfxCnvnTWB5VWBOK9wM7y07l-y
+PEmculjdLTbFr_obud99Ypub0Gb45A0rhNky8AWNe7TyIvtzwVYD_Rdd3uRNd_YprWoVjZts4kF7t_JGjHmIGjJyZHUMR6Oime-Pq0Q6pAvPGxD-yga_yh--
+aN3Nw3JaS_QIEhikLoEVwp4rEfyKoPB-FfKDxLnBAenYYBwU3fTn_hu_0xqATjipftS-NPtdy7VAr6FejEnHeBkpdlRStm3mE4CP3M-62nz-vlhexCyThpUF
+UUHeRuADvEOsyZX2yACiacoMe8lxSK3mNez77-hFeOUJNUXD5CFBxEj6ptmzFRHGYp6Xm8yU54rTpq1tuO24_skr5vjL3KHXBht1CxLoBP58QskBLyRkg2TH
+gBsoumEHwO59-52iSNYikkuHL2GwQgjW4lpgW4GKQqk917oniIn5E_lt-Bd5yL4x0g4Clb4V4BiE1hrLRPcAMW7VhSxAzV_w3G
+}
+
+
+AzureEntityColoring(AzureManagedInstanceApacheCassandra)
+!define AzureManagedInstanceApacheCassandra(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureManagedInstanceApacheCassandra, AzureManagedInstanceApacheCassandra)
+!define AzureManagedInstanceApacheCassandra(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureManagedInstanceApacheCassandra, AzureManagedInstanceApacheCassandra)

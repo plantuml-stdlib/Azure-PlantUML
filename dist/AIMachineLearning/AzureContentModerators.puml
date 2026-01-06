@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Content Moderators
+' Category: AI
+' Description: Azure Content Moderators
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00795-icon-service-Content-Moderators.svg
+
+sprite $AzureContentModerators [64x64/16z] {
+xT07aiCm28LX4A2ozVwtNUEC9WB5XUtjd_w6Bx7z_CVBtw3_PAnFVcCmuS3PT6FI7q2aCU2eJpBsiJwxQSiNpNaTypnDNkdxUDlg_THzGaJQzsNFmrBwGe_l
+uCbuUyopvu17d3m1dVO8x3q1obclt7dbExvgMOIkN7GioyGhJtsQVEtbzQppxW6uyqElXvrBlNW1KEvykks5GBdn0ifdVpa4CLw8nNiXcJmlYVUsrTlfweL9
+tk8903Ziv-yVzzlVhmGy9oIv-gPvFqzbcTGFWIWD-1JnrKqHtwBU7fTrAcPIJu1ZK5emfY7EElrtzxQUx-zkr-hGrh_SFszMJS_XQXcB-_B5Ffi-tuifpbsV
+x7agp7tdCMt4PpJj5kQ-x-PV
+}
+
+
+AzureEntityColoring(AzureContentModerators)
+!define AzureContentModerators(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureContentModerators, AzureContentModerators)
+!define AzureContentModerators(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureContentModerators, AzureContentModerators)

@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Fileshares
+' Category: Storage
+' Description: Azure Azure Fileshares
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10400-icon-service-Azure-Fileshares.svg
+
+sprite $AzureFileshares [64x64/16z] {
+xTTLSiDG38LXmmL9cQdslzg0d9X9zvJR_pNpdR11ImgM5XUw46xzKQyHutgH2F5xMjuRnktfKOxuamCiNMCwR_Sx4cRfOzEE0P5GLLNJXfJx6PUdwfdDn4IZ
+cJrFNPpgSS-Py9hPz1JNQwfNTHEorzl0A1AVdm_40ZyUI5w_7e4-d_5fkpMV7Frx_VV1AlRXbTldJCPVsI5Mx86JqPY7ooF9LeaNqDF3SxaFUk_lUBet-_xD
+awEnLuizdCTNmwL-tDTx0RtoONAFBG6ku83CemEXHJn5v0wWWUzWNds93r_izTju-0xy1W
+}
+
+
+AzureEntityColoring(AzureFileshares)
+!define AzureFileshares(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFileshares, AzureFileshares)
+!define AzureFileshares(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFileshares, AzureFileshares)

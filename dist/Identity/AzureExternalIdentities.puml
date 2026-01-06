@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: External Identities
+' Category: Identity
+' Description: Azure External Identities
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03338-icon-service-External-Identities.svg
+
+sprite $AzureExternalIdentities [64x64/16z] {
+xTS5SWCn44JHY2bm_zkc16x3Q0rjXbym2tfc_Bjgpdl7Mh_HECBnMZz2Q5GFaHoTmh5UiLxU6eRN5E750S9pjz_jB7NmrDL3NzlpvKdbuEjnpj7l4aVmyvxA
+frXBcC8xKxEOEpxuMXepIc--QjhRDjLb_SV7K4kOmbjTCvYlzlfjhURizMjRc9_NpvEzVbNDZAalzVhv-8zFInmj-EiqlmRiSbunVlCWuVz8F-Uy1sTll-Uy
+T-BsNFdF4_mVp__wxIOul7mTabayYDVg7m
+}
+
+
+AzureEntityColoring(AzureExternalIdentities)
+!define AzureExternalIdentities(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExternalIdentities, AzureExternalIdentities)
+!define AzureExternalIdentities(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExternalIdentities, AzureExternalIdentities)

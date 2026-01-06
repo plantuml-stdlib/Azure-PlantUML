@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Enterprise Applications
+' Category: Identity
+' Description: Azure Enterprise Applications
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10225-icon-service-Enterprise-Applications.svg
+
+sprite $AzureEnterpriseApplications [64x64/16z] {
+xTTLbWCn34JH3rULmjd_QWUK9ii1EqnlMATlymIs3q-XOg1YcKkzZdfSwBUlvB_URksjd6G-JyN4YianRo_bBwzSDuepQY4TzLOnkQNNXNvseSU5lfpC7knr
+eST5VXOcmS_2qZMJp8Sg9kTvwphB6m5rcJLxfV-eeIOl8dd3Je3R-gIEZpj1yk3svs5WkKyWcGWSyd7WF0OarctVt9UnqajY0Xauc53ZJIBeAvb4iFVpK1Xe
+21Fk-qITzhD37YcXpJEx2VpxQMyQIvFWtrfzxB6UR3n_MG1rWSV_gEd-OS7TB-PPY-2jk84y7yotleAyyFTCOu5hMvFY4O1WYmyh-BSCl7e5w7Ozy9OZ83av
+UUs7WE7QrQSiq7LBq3JgilUvs-Vf5m
+}
+
+
+AzureEntityColoring(AzureEnterpriseApplications)
+!define AzureEnterpriseApplications(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureEnterpriseApplications, AzureEnterpriseApplications)
+!define AzureEnterpriseApplications(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureEnterpriseApplications, AzureEnterpriseApplications)

@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Powershell
+' Category: General
+' Description: Azure Powershell
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10825-icon-service-Powershell.svg
+
+sprite $AzurePowershell [64x64/16z] {
+xSv5Wa8138FXwWpU-z-MbmtkmUc__zBMXzTD9pSt7VXuGhIecb2zrhTlFneJZQgIwcw-VQXHNaMCyIOOkC4J0_3C03mp0CyCm3C3yDJ0sgy7L9NmQOEFsxqh
+TJ_M_1OFRdcDPpWym-4P3i_mjT_deRATd_46lYva9pltlrdUuF_oIBvJ7kWFdWYUgdqmF8fxe3wyRWa
+}
+
+
+AzureEntityColoring(AzurePowershell)
+!define AzurePowershell(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePowershell, AzurePowershell)
+!define AzurePowershell(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePowershell, AzurePowershell)

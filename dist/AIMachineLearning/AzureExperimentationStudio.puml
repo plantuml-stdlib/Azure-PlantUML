@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Experimentation Studio
+' Category: AI
+' Description: Azure Azure Experimentation Studio
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01239-icon-service-Azure-Experimentation-Studio.svg
+
+sprite $AzureExperimentationStudio [64x64/16z] {
+xP7dMiKm34DPZIMNyVvl2xbcA5yJS-bWdzyzYkG-7C8_xhv9h_nSF_R_G6Bvl5xdnijvy1N-L85NolJ2n_m8e4th_QbOcLRxmJh_Pfkl5OoqHfvAopi-tLdK
+5pKBAA4NdlwXV6J56aR-C-PkpIEYflwufDgDyzry2zRwXi0s-jZVzxc2rVvyWb_Z0mZVWR7U-cM53_MjxoD_Fh2c01hVHde1sW3HVGxGBq3Jvzi51C3v6Uy7
+M0KKhABjDI3NDK3R1rpwfQCJ4M3IVdG2gv2zW1lHTK7QNXT8UrsGwXe0XgxmYRIzBk2ym4aYruFMRmFIzXeG_KSBCZqMO520UVi0oOBx5ztVw9_05x0IFZo3
+oJvvVWp60SYF7uo_STZPuA43pkUh_OVz-USH
+}
+
+
+AzureEntityColoring(AzureExperimentationStudio)
+!define AzureExperimentationStudio(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExperimentationStudio, AzureExperimentationStudio)
+!define AzureExperimentationStudio(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExperimentationStudio, AzureExperimentationStudio)

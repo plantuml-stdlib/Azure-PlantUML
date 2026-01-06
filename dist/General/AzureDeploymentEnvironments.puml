@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Deployment Environments
+' Category: General
+' Description: Azure Azure Deployment Environments
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03251-icon-service-Azure-Deployment-Environments.svg
+
+sprite $AzureDeploymentEnvironments [64x64/16z] {
+vT5LOiGm38JXa61HzpzjSHODZQJo_k_V9BRj2-Dp6OmI6hbuPa2vaUFZyG7XJaalyZ7ljoIz9BbaU7-01OMyYcIyrADnaljSV1YA0H-l37Wu1kvRnGU4WUP2
+a_S6rC7x0reB_6f0Ypfy0MiEz3qDPRCMDRtmMtW_ujV4uH6yDZCpJdfD-YNfxQVz9kutRxxToMzQsMjVxZTzRs5lMO-2tiw5l5qLy4UxRjlsOvNRVIw_jKhR
+--2tHTPiUnszjxrkOxysMfrLMiXHafS3JCxkk3kASvJal8GvYdC47Wyydd4oUl0isJC
+}
+
+
+AzureEntityColoring(AzureDeploymentEnvironments)
+!define AzureDeploymentEnvironments(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeploymentEnvironments, AzureDeploymentEnvironments)
+!define AzureDeploymentEnvironments(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeploymentEnvironments, AzureDeploymentEnvironments)

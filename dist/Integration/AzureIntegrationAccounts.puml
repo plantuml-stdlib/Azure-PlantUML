@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Integration Accounts
+' Category: Integration
+' Description: Azure Integration Accounts
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10218-icon-service-Integration-Accounts.svg
+
+sprite $AzureIntegrationAccounts [64x64/16z] {
+xTH74iCW343HzCG5kFzfqnErbSNGzRUQvmg43ffcNL--pDe-VdvcFcogIdyw_Zjf_16Lt9ithr-_NUvVTZHTe0gyUVETxxyB2Zw77ARoLnHuEKpbRx4U9JoU
+fVUJna-Gz1EKoiyeuMUeolqpwxqsyt4Nc4BxFG
+}
+
+
+AzureEntityColoring(AzureIntegrationAccounts)
+!define AzureIntegrationAccounts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntegrationAccounts, AzureIntegrationAccounts)
+!define AzureIntegrationAccounts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntegrationAccounts, AzureIntegrationAccounts)

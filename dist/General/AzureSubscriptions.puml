@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Subscriptions
+' Category: General
+' Description: Azure Subscriptions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10002-icon-service-Subscriptions.svg
+
+sprite $AzureSubscriptions [64x64/16z] {
+nT35SG1100F1Saddx-GVhV4ObcIOVsk1v_mTOtajvFPBnktN0PuCU6xm2PgHW841x_Z0m1Vzo30oO6jkvzi7Phtpaje7hBEt2WCbFW_ekwO15MeOaA81gMMW
+uBC1rSlyVg3iVLE7ztIJlchpTpNxShQ2zqisJvNVN_SqdKyXrQDOo27a4788EOGSGWuXXv13o27aX3ptok_lyF-c_S2_-EZ-tdaoJ-YLUgLU_-gTtTycyBOP
+z6lqPdlldNh_iwSpsVleBkGGSWWvX1nQ-3i
+}
+
+
+AzureEntityColoring(AzureSubscriptions)
+!define AzureSubscriptions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSubscriptions, AzureSubscriptions)
+!define AzureSubscriptions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSubscriptions, AzureSubscriptions)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Immersive Readers
+' Category: AI
+' Description: Azure Immersive Readers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00812-icon-service-Immersive-Readers.svg
+
+sprite $AzureImmersiveReaders [64x64/16z] {
+xTHPhgmm38HXErN5z9Bzx_OIP3LDe1dlVCx__banbiW_9TigJo55_ifEy9WGzc20V_90vQEJtYvvNsHZViKx5_qctqojts-bzC6h7-jglmwV_33MTmzywMTx
+NtJPEnSzzR_x_NL_q7_Vx_j-zds_lz8d8Dtra9XBRTSVVN-iF9HpfaYM8Lr_yNvgiZWtJgYyfVTywJ7hUSBf_OFNdVRRdCrPhypDJdfcgf80nxJn_R7sJTOh
+K2KOLLfxhZpVkILDkOUlx-Sht-GtFdc7Q53fU7_C7ZRwU7toavvvnfCdvKaqdlCAx-6LN339SDFJI2jlcBrVyJAeyiAwvCMpQJSyAxzT0jfXw6iFc_Pt7Fbc
+vBDFuPKm7SzuwEC_5mC0Z_lJ89WEVTkNmiSEnRihrbS-arxvv271WbyT02askEMZvC7l3WZ-Q03pem7vMhpFeqSwglP-t0y
+}
+
+
+AzureEntityColoring(AzureImmersiveReaders)
+!define AzureImmersiveReaders(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureImmersiveReaders, AzureImmersiveReaders)
+!define AzureImmersiveReaders(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureImmersiveReaders, AzureImmersiveReaders)

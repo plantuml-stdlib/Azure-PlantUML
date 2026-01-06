@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Location
+' Category: General
+' Description: Azure Location
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10818-icon-service-Location.svg
+
+sprite $AzureLocation [64x64/16z] {
+xTM7SiD020HGcU2zIzt__zfK8HcL4GpfoKwBKDuUxjmEff3vm2Mh6r0fm3gjne6gH-B1bmhQNl9-TPdoPxjEURGnM1NcZjyP1Vs_ltQJl6yRZP5qtz3dQyRy
+Rig-Li2lzOsr0dwQPutN_VMQNpEJsl4YL_tQfOiC2Iu2xyylimINxZta9N5EUc_ZC6Tp3zzkHBcgzfatLP8nRrmn-xDE1I4k2wyw5PmEFT-E9sV_LcZjeUr9
+m3YKEXK4ZXyv-Xjl01bRm1rl2m1Z0OyM6Co_S5kWuoMCF01P-6R7npqlFQvlRlhecV8OqqUUzGsMfBV7_-vU0vxcfUYLt5d_q5l1YYSzhzUS1zm-uUeVmZIG
+Y1VQ_riyZnPOWzZV8N-o0X_ZyUzlSNgyCJ1UG5xg8Va393kpU86i1z4CiX5cKj2Mk7u2
+}
+
+
+AzureEntityColoring(AzureLocation)
+!define AzureLocation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLocation, AzureLocation)
+!define AzureLocation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLocation, AzureLocation)

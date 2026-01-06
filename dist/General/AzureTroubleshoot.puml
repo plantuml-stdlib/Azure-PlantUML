@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Troubleshoot
+' Category: General
+' Description: Azure Troubleshoot
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10341-icon-service-Troubleshoot.svg
+
+sprite $AzureTroubleshoot [64x64/16z] {
+tTT7TiCm40JH3TA0xxdlVrf71N2iajevz5g_I08hwN-jrbfaBU8IF-ocBl4uy4OX8da869m3hC530BaJO8wxwWTuDm3yOxw2DtcfDVF3c6TW-OEUbxxNyEdP
+2O2_pLNM7zTr1b-CQbeZdZsiULojWI-PKu2suuKzRk5JF0uGzmC17-y6WDk1aJWE0_3jbAXqZNRbeu6VVuFHFnI8Y7S7PaJCzmTY7WO1WtyWCDT5ptFvOGC2
+9f_g4F3ufZS58di90lpqxFt010y1Wz_93qnuF0GC7f8TsEZfXnK8CD-qMnclPZxzi6iU-RhE0NZvDFi3jgcBOwzjD-b30SaB52r3pW7jbZYClHA7HG2NWFj_
+81A75T1_Smy
+}
+
+
+AzureEntityColoring(AzureTroubleshoot)
+!define AzureTroubleshoot(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTroubleshoot, AzureTroubleshoot)
+!define AzureTroubleshoot(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTroubleshoot, AzureTroubleshoot)

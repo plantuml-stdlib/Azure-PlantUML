@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Defender Distributer Control System
+' Category: General
+' Description: Azure Defender Distributer Control System
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03413-icon-service-Defender-Distributer-Control-System.svg
+
+sprite $AzureDefenderDistributerControlSystem [64x64/16z] {
+jT87jW8X58DX-iM-_zs-32DvZPn1EVxsyiNw-6W5hN6qnj4QHsiShN6qnj4QHo_ofG4ZoZxtgpRFMN7E9UkzmyN0B9S3ynnbwxt2lTC3chEIKWgm7fVPs0nd
+4JxOxwOvIWDlcizvKtpMc-3JtWIVzgPvS7knUrvfYG5ZmRU2DOPhaTUsh2VuvecCdWF6ndpUsu3JGydtpyW77eoU_8-t0OUF9RI1xibpekS0ENqquq3pvBZo
+nzV7e_uf6yxwGFFroVbePGO_Y0FDxxpKKSfNQmFRMMXdfGgl1n3JN0_CSJrGoBFaI0_a9q-A7mt4tPlaJBs1Y9BWnmFHRGKJ_630lDlpfMgk1m9aBdcxCCdr
+G74kz4-H9DS3OAMslFEIwu40nQKPZgIVukXqzFvF0dA0jUyFbpKvbqwz0L43Ftw_ghaUg87_7y6F1f9tA9ZWSe3LaZEqvdg0QQvRusYDepMErZXQusYDepME
+pfi-FzxlT3wV7X_j2m
+}
+
+
+AzureEntityColoring(AzureDefenderDistributerControlSystem)
+!define AzureDefenderDistributerControlSystem(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderDistributerControlSystem, AzureDefenderDistributerControlSystem)
+!define AzureDefenderDistributerControlSystem(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderDistributerControlSystem, AzureDefenderDistributerControlSystem)

@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Cost Export
+' Category: General
+' Description: Azure Cost Export
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00913-icon-service-Cost-Export.svg
+
+sprite $AzureCostExport [64x64/16z] {
+xTHLWeD060JXjSQXxt_QZUkFLpofD-H3PyPtxLCIwjXDVVAQFWrrxAO-DVUIg1VrebxKQ_R_qpRFJBke5_MYNjJBwxApqhzmQbVjFoeBlFS2MMYy5_MYNjJh
+pVrz_v-PD_Dm_jvt_RZF-Xbv7khP7NYtZnsycJVpPjxCc_X4Hjv-VLzuLJ7M5w6EtKMqdpuj
+}
+
+
+AzureEntityColoring(AzureCostExport)
+!define AzureCostExport(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCostExport, AzureCostExport)
+!define AzureCostExport(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCostExport, AzureCostExport)

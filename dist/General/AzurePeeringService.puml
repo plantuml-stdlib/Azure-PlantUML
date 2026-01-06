@@ -1,0 +1,22 @@
+' Azure PlantUML Sprite: Peering Service
+' Category: General
+' Description: Azure Peering Service
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00970-icon-service-Peering-Service.svg
+
+sprite $AzurePeeringService [64x64/16z] {
+bPO5bYCx54C_I8-6zh_REOuhLXpRtQbxA7IL1qL_5chYnvzRr8RFxInnluZVTUPkwIitzPMR-ifDVUKJFTpZTe1i0W1F2VcTZejJm3S-SS4wyDdVdmkehtoN
+xv_xTSlFWt-kFoEy4LcDWtwONnWne7dk_BK0gqOwcnDXJGutWiP_pdu5eVwTCC-g90n6HY-7sFiwVWr0167HCna9Jy9xJIIskj1H_D2p4bvflQqqa5_xsVIy
+TcfPpU-ldv6KVogWUHMqhATV3k_v2jZhD01-wVBB60eu-iP80n19Dbs-FY1vy7kLIG36BFdTirB0wkidIPq6yiiH_KNWu1jeZUQJThscZLS3xFo0VWgy-aiK
+TpwPunK0L_rgh-De1VoGElyou0GGRtvfgBi2Z3dYCmamt_n0LEVHmO-9egcHVa8pXwy6j8AQ_1pXIUyzmcQ_ZFNQmEGxSYxJ07WuB3SjskAFxBgIakZGtxxH
+1bwWlVrA0V1bWF7k5spfql0avK_7yEJdXJ4V10R-_CIpS_aAADnZzSqlI7zW6D0x-X7mHm7x_bE-x_hl7ER_oVmwf_rhWV3j_kS0PovRJfiVQkGR_UNni_co
+fbFcxVZLATPLbL33IetYTFubkYzU1s3ChHyQnF05HmEEcFrriDBbqrJduY-NZnN2eqF64uUjBqdiVDuw-5S8ouunylsKy-Uh87tlax5kocjt0pq5f5Om-_RC
+DbM_0EfFSl8ThjMVuMk0V3rE63JxGu2UdeOVvD3_FvWAy5H0mgK7gOV84oGOq_ERTprjcVmMVoJa8y0JRcYzXt7Lpps05fa6WlGC9pRs6O14Kz1V7Uqp55lv
+Bm
+}
+
+
+AzureEntityColoring(AzurePeeringService)
+!define AzurePeeringService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePeeringService, AzurePeeringService)
+!define AzurePeeringService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePeeringService, AzurePeeringService)

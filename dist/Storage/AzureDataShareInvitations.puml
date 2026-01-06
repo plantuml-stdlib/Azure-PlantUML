@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Data Share Invitations
+' Category: Storage
+' Description: Azure Data Share Invitations
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10097-icon-service-Data-Share-Invitations.svg
+
+sprite $AzureDataShareInvitations [64x64/16z] {
+xT57aaCX38JXIMgKNDp_jkESaGHRlt__KUgYVtHRM_It7Fe-q3ANFHUiFi1ozi229fQhNpW1UttsAmyqUVAWkUal7fYR_kf1vUdlFQWsVUX1bTi33oGSBB47
+9TDZ7p_0Kl2WS7hkWVZst2F-jjo3mkcv1uNJSm_4qtEFU7hkGU7jkHVPSvYk-MPc2hPzG_ytzcftwS3ho3TxQiwhlLRtpTvMzMgZAfujAFVgOHPxzZGDl7eX
+6tdsOlhMcvUpLyy-bJvvyzdkFVjkFZtv3jXkAHVf--2xrQH_T5jR_m
+}
+
+
+AzureEntityColoring(AzureDataShareInvitations)
+!define AzureDataShareInvitations(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataShareInvitations, AzureDataShareInvitations)
+!define AzureDataShareInvitations(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataShareInvitations, AzureDataShareInvitations)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Customer Lockbox for Microsoft Azure
+' Category: Management
+' Description: Azure Customer Lockbox for Microsoft Azure
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10314-icon-service-Customer-Lockbox-for-Microsoft-Azure.svg
+
+sprite $AzureCustomerLockboxforMicrosoftAzure [64x64/16z] {
+xTL7eXin281XK0EjVF_Rni9e-X0IajV__JT5zV4newM0rW9QYt0fmgK8bo9SUXFFVCUPNTx8mSdoFV1wwQlx7q-6xjsIMZTwHBsd00zwBSAb29U2d9xjCV_f
+yPqJhPgmqJEdbXe0v4RCL3C0qYiFrn9iAgHrBwUozSrt1tJQjE69DdbldhpwIjjydDhgQP-3Zn2qxF9yzEKyUfhpsbMET8Z9T-uba0gVylaA4l4vcyzmyCH_
+xSlmZQzodTeqHeyzdgzBEdhdoEKh0DtuefcUPVIexIhxBCwvCdCpVR4ySSHhE_poMMJEwhlPXYFKuHEamG7zNlbulpuW8-hxkzsEYvS7W72NhsNowGigT_aC
+MVdq6G2Irm-R4NARNlvT1j4xVWZ2rMV0B6FWzYq9d_xrxsbw-m6_NtzsDUXBtUNWRzil
+}
+
+
+AzureEntityColoring(AzureCustomerLockboxforMicrosoftAzure)
+!define AzureCustomerLockboxforMicrosoftAzure(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCustomerLockboxforMicrosoftAzure, AzureCustomerLockboxforMicrosoftAzure)
+!define AzureCustomerLockboxforMicrosoftAzure(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCustomerLockboxforMicrosoftAzure, AzureCustomerLockboxforMicrosoftAzure)

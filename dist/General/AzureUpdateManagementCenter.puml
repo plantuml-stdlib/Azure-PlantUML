@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Update Management Center
+' Category: General
+' Description: Azure Update Management Center
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02846-icon-service-Update-Management-Center.svg
+
+sprite $AzureUpdateManagementCenter [64x64/16z] {
+nTQ7SkD0283X6OkEJdx_jpsZOtCR1U6IzgUNZrdZUcsoxFfQDj9FUdk9woUzJVs2rwUzcMtpJ_M0pSpE-3HXgtt--fJd1BKFfSvE-EDzYaSFURtrgXU2vN9P
+5a3MtXSBKxhPQDb3EN9j5y2XqzSJslthJeU7Q04kVJq01WT4sCDREl7UIzY5nDnDUOmWdNmxmE42wcyfxXvfueqFadh4kqU-xqNCYtHQGUSPeFIkuSSbsCuu
+0G1v6MCatVuL8J8lmuYRcuy6FZ-0udmZ-7ZZb-Jz0UHu8xBHqFq6sEPIZzsDRAtIzAVfy5nw2qztlJ3PPtmX7_GI74-zFkIfniB2zxms7W6ZVl_D-IKz4QkT
+XP6Ltd5uEjm49qzuIzOo6PwdPyhCCi5ehKjVFmPjqmNGxW3IFluoHhwM9Q-zMwGOqTa1I2rzVm1U_nIvFF3uJV_oTtBr-6JMURSzpG6o_jSAOC4xR-bDUKom
+sAChGRm8SBDsWBybG3c2EMm483vNyooUVcyYQNhoTvtxA5y_J9wizNx8U9azgHzhVHHxYo0M6RM-pgoWlU_xlE_tdtyw0nNF3d-nGaSrZmv_A7rKyAfjvjlr
+-MP__Qp_t83ja_xwKkjdVFG8_mi
+}
+
+
+AzureEntityColoring(AzureUpdateManagementCenter)
+!define AzureUpdateManagementCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureUpdateManagementCenter, AzureUpdateManagementCenter)
+!define AzureUpdateManagementCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureUpdateManagementCenter, AzureUpdateManagementCenter)

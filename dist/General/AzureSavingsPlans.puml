@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Savings Plans
+' Category: General
+' Description: Azure Savings Plans
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02880-icon-service-Savings-Plans.svg
+
+sprite $AzureSavingsPlans [64x64/16z] {
+dTTHcgim28PXW82g5-v_jwScJqz-DIYTx_w5gCwqtOVDjSc_xRyqVtCiYPS3mdeelHltvoSSwwPfWkscMefb9dYlOXEc_x70Z3V_sUz2j_g8D--ucLCJS03k
+BlEirDFlYWUlrEFZBXB4vhLvTEzR_EI9YzV2qnSQU0m6Z3m7FXg0N1NMXvxiDc3-7fqvuTck7ewUyCJz8G8NIdXy3yxUAE_PQoVFUOy7mFLvppVFMOyl0NZA
+UZn0vuL7LS_3xEpvLryg-xkNaxV8BylCuy27bpzjsxQMXDVnzkrerJzwtLhpknSUP5jh7NfxzINbu_FBslpIfzFUojr_R-ldIHekzhz2cUTloxQkyzm6s2Nq
+pc4sV_BEeKE3ZmTCQiEw5uupuD40uuS4YQX1S04vhqJ5eAzNZZEe4DcF1x0uF43AAzCd7dYFk5kFgLK60yhxUZrsgyhGkxpUV86ZWt-yWltiwU4bj3TVw9E4
+tkt5cz2HtdqyO7U3bAv7yFrX07gSKD2V1hZS_2LZ8l7UVXbGOgzMDn3nmCDNMCQy9-tj8LBqE61m1aFVmfas_XPlAlSBA5Arnhz7PiUivb7nD-cuGXpmt0GX
+ik3gewlm7O74Lu-XYO-qPmjulYdW-IATRnhgVm
+}
+
+
+AzureEntityColoring(AzureSavingsPlans)
+!define AzureSavingsPlans(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSavingsPlans, AzureSavingsPlans)
+!define AzureSavingsPlans(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSavingsPlans, AzureSavingsPlans)

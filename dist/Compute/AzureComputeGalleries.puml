@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Compute Galleries
+' Category: Compute
+' Description: Azure Azure Compute Galleries
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02864-icon-service-Azure-Compute-Galleries.svg
+
+sprite $AzureComputeGalleries [64x64/16z] {
+xTS5RaCn381X6PBOATt_j0MtMlZXUFi5nIyeUfT1qRg_ERpUh2lv-EpVJ-Uhz97StmHz57oPg_Jwljg7z_HXhz_G3_3_ddcFTmY0Rglt11RwJPxXBLhl7K8U
+3trKrTWiFTE3JOW-u2LQCbhwU0aQiwGe8673YOFaJNeagZMpBFM2z_8b8FCwRn4cFVGQzLxNlpP1tFUFuk5YTRsDOBhdvIb7FesmnmCWqgJNqVcPVdWROSFv
+WuKMhVUGUwHLtdJo5arvhJoq7ccv5uUDzzBr5qkQkFGiTJg-VojGyXHascilZqzFNZkDVSezl1FTwbM8JM_qrdVt__xVn-tSEiUrcSywRD1_ulbHT_ePVWC
+}
+
+
+AzureEntityColoring(AzureComputeGalleries)
+!define AzureComputeGalleries(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureComputeGalleries, AzureComputeGalleries)
+!define AzureComputeGalleries(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureComputeGalleries, AzureComputeGalleries)

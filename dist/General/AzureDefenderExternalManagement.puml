@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Defender External Management
+' Category: General
+' Description: Azure Defender External Management
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03403-icon-service-Defender-External-Management.svg
+
+sprite $AzureDefenderExternalManagement [64x64/16z] {
+rTK5ikim38LXsO9ZFzp_RgywAWIcSHmN_u92Nnd-DxFDtkY5zHKUzp8pOCXZo0lR-tpq4byssk7BPc_qmlPMNr3s-7elrxKEU66ypqUlyB-s2j_VxrEn-DtU
+zlSrNdN82r4UyPc83leiVaMUJytIwnDHodGgfhGz9Xaj4anhUWZDGwS7UKa1O_8OqyhlHMjlZd8iQYnsUKsE317xCbk7LpgLvozcsk-PvizvzH8s_bqaxh-S
+i_3bLiENUD4nkRciwF1ndnoBE3-MBb_Y5V05IxualTukd_qKizTdcgUTdhouwvZIzdKQYE5N7fTgYUkije_OFMBna0THgWE-gcB0Hw_olvRLoPptVrSRR_TB
+F2uTlFj1RzT6lHtXEccGgr0dbdLDz0C
+}
+
+
+AzureEntityColoring(AzureDefenderExternalManagement)
+!define AzureDefenderExternalManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderExternalManagement, AzureDefenderExternalManagement)
+!define AzureDefenderExternalManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderExternalManagement, AzureDefenderExternalManagement)

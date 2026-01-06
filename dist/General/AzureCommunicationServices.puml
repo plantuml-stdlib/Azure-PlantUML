@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Communication Services
+' Category: General
+' Description: Azure Azure Communication Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00968-icon-service-Azure-Communication-Services.svg
+
+sprite $AzureCommunicationServices [64x64/16z] {
+xT57jg0W443HKncOiF_TjcL2QGFOuIVloFGKolp3lRIVFQoBZ-wrwXzFm9xv5_tRlxrgETuUQbEl280w7JC0KBaCqj23GtC2ZimXE3dimmR3IFmOfsCR3dKw
+f11Cc8XOB8IBdlqO9ZeSodI8Wh10WeDUZhzlSmDxl_VJHZ4uBQyA3CVgFXWZiat7IeWI9eA7eEhFyHHeDDngxHL7ab8Yt6hiSKHnw0rtcdh1aIP7_JrEWkUH
+SATfzwKtmkvUS69bzLqzOnc_FEW9o_m3LkAzgPz_03_eLz47kDVGCory0jpT2wr2Ih6xLrfnIYdqzjl0aez0WvQ-QmCSqsWPIiuDlL4XQHBc_i2kpOwg7JWj
+UQMggvuqDlTvGLkiPiebhvMwe2FvM9LFY6kKp_laTQNkyvaqo0Ue-lWJko-_Nhy
+}
+
+
+AzureEntityColoring(AzureCommunicationServices)
+!define AzureCommunicationServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommunicationServices, AzureCommunicationServices)
+!define AzureCommunicationServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommunicationServices, AzureCommunicationServices)

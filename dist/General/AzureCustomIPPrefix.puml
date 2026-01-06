@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Custom IP Prefix
+' Category: General
+' Description: Azure Custom IP Prefix
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02654-icon-service-Custom-IP-Prefix.svg
+
+sprite $AzureCustomIPPrefix [64x64/16z] {
+xTC7SeGm38LXG8zYKdJ_ssRXKOJNZYrcTYf_cfZC9xFjovrUUhopUIdsixDmzRExqp_-yM7q5ld1suVyuo5opBq8XZtE6Jzk3Mtp2hp0CdV3ERVBp39UchLX
+tSLPx5po3GDtCHxFAht4NYfzswprvinkcNlERSaF97OPdxEEUmkUBu2OPxCTeZdfvybRmO_zc43XrHmg_0XWVDSAOFtHWWVU5eHVsFxrO5O7R0csyXvxYSFf
+MSRtsEjthaXvd3uSaHyBmXhI7Wa_m3QiBnbCtUL2MJYRbZVXyVo79Srwn9xn6UHCdlEey73xKE-vOBv6Cl52AtoS_HTkUtpKQzQVwExv9thpKdN-gUxTlr7k
+-sTEdr-WVi-gpkzKInka-Fd9Xr9QJXGcSN6MlN-jpEtZqbxhItZr5NjrPxpetXy
+}
+
+
+AzureEntityColoring(AzureCustomIPPrefix)
+!define AzureCustomIPPrefix(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCustomIPPrefix, AzureCustomIPPrefix)
+!define AzureCustomIPPrefix(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCustomIPPrefix, AzureCustomIPPrefix)

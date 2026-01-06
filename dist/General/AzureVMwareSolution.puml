@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure VMware Solution
+' Category: General
+' Description: Azure Azure VMware Solution
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01219-icon-service-Azure-VMware-Solution.svg
+
+sprite $AzureVMwareSolution [64x64/16z] {
+xT87KWCn38NXv_Qiq7p_swBP4SmMh-CWElmfKp_tzd7zHyjZhUpHItLULtRpSMsIdvTTNFDnpSSrhwy-xlVPnJM7NPhM9KABvRhF7Sq0Ax2kamEN7bzaIX5Q
+6Iv0fCyJbn803hpqYa2cLO1GPLszvWb4lfQ08hk6N5Hm5H3bq81BGE2g2CYnWGSILsMWzWUGCnztNdgfTwpV_EJvTJlpjNT_Opz-FzBlSkOh5EL51m1LRgr2
+osI6Hdb3qRmz_laDM8Hv3lWWgjG0NWPziMzVwrjhN-dlsde0sSOG2bb2uEcbjoNJPRgwuJO0fsZE-cSRUcelJVi09FLRhjtTxE_QjhjR_DsTyLLbgbmqjavp
+FAMYzJndIZ5cab_cIyx5uIs__oNzzmm
+}
+
+
+AzureEntityColoring(AzureVMwareSolution)
+!define AzureVMwareSolution(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVMwareSolution, AzureVMwareSolution)
+!define AzureVMwareSolution(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVMwareSolution, AzureVMwareSolution)

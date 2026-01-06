@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Defender Industrial Scale System
+' Category: General
+' Description: Azure Defender Industrial Scale System
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03417-icon-service-Defender-Industrial-Scale-System.svg
+
+sprite $AzureDefenderIndustrialScaleSystem [64x64/16z] {
+xTC7KWD134HHWgGUAlNzRmjTcyFOCYBZ3yv-MZbnwTdsCPzrAkcXcbObhVBSGtbwmDQs9NXgm4gZxGfRTSs7111XP03GJUGzzFJWqh1EzWrmhKiwTnFY6kVJ
+V7mj3Ivf0PzzOW61hO_y5oYqW4ug1WxBUuCMc8Ekf_Zo2lQv3Jrb_3008UGUkdxh3r1spYF9rHjqw-G9RtxktSKJUJShUkOgSbhHiyTB0wpeoT80AthULech
+gg_mkx_x-4i-g81s6d3cDr6yTKF6jmibFBxAHoTSQ3Y6idXtLF6l_TqpKFDiszWFfq_C-vRmByNZaya5Z5DvJwoV-0e
+}
+
+
+AzureEntityColoring(AzureDefenderIndustrialScaleSystem)
+!define AzureDefenderIndustrialScaleSystem(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderIndustrialScaleSystem, AzureDefenderIndustrialScaleSystem)
+!define AzureDefenderIndustrialScaleSystem(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderIndustrialScaleSystem, AzureDefenderIndustrialScaleSystem)

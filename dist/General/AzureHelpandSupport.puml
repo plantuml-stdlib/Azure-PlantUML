@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Help and Support
+' Category: General
+' Description: Azure Help and Support
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10013-icon-service-Help-and-Support.svg
+
+sprite $AzureHelpandSupport [64x64/16z] {
+xPLNSiGm34D7Ca5jr_rFcxe5OorZo4fFthSVMCP3rO0DiwjzR3SD0tPdmYQaNw_T0VU-tUa1qOTY07s56noWw6It2Gi-wqmR4Ei61062lwFgQm98Rm9sv8SW
+96X0zyy1WYurCExhkZyZ3C1AoxBl4UF-lr-6_5AK_s_kCCeLAm6gNz_GHttj7H3BnmIwx5kWNrxcRUqFe0kj7D2CSc6pAMO0x1mWdKzBoVp5BPXImWjr6SUP
+n4muK-NRFx5lkA3gCD8p80M0oLoU47KU063Koq_Ram8SGGCsVqcqmsDdFViSyMxbS_lUeFdd0U0DrkZcBQ3sPoZbpmFO2fytw7U9TOQsjygVQ7ip9DzJ3byo
+Pbi2ifK0xUJ3HR-VN-JRe5--UlxD2WPzgynw_H4
+}
+
+
+AzureEntityColoring(AzureHelpandSupport)
+!define AzureHelpandSupport(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHelpandSupport, AzureHelpandSupport)
+!define AzureHelpandSupport(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHelpandSupport, AzureHelpandSupport)

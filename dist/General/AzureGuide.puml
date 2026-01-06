@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Guide
+' Category: General
+' Description: Azure Guide
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10810-icon-service-Guide.svg
+
+sprite $AzureGuide [64x64/16z] {
+jPT75iCm24Jb0WEhtF-qwObiHOCBBpzbzn7W8dJv8z0dEA5g2mwlUpQ41gJi9qbTzO0j8iy_7e7hee2Ptp43L4W0fiDyXM4pmDBs3eW349j427HpYj40R76U
+GjSN-0QGdizNvndirZ4O2T3wNTs6iexxuyUT7qlHTS0sG9ZzN5hViVOHPQ_bZhZtAi3syYWFPgS9L9_qxi7a_GGsbn_Bav7S1AY-6EdTWy4RJFH9dBwM3nuK
+GDD7-MAaWCYteVhWFbZvKwaeRu0IVouBPDF_VUX2tnl_Dy5vdiUlFtkBRlfFfkO6PBvuo_nbxDo0ljs_9HFl7uWlIn_Sh_SFzzMFttzQTV5jNmFVdBUVDX2D
+JiglKnhpuJHz1EylQtf7qgy-khv4UrZu_cwA9piGJw3HoV9y_nBIEpUw0RQ--cRsVF_MML83WCR5wzRyOXREBzdvAJc_9UV7vFoQd9-Jytlo_90-lsG2_FVy
+5aT8745JX-3B7xa1
+}
+
+
+AzureEntityColoring(AzureGuide)
+!define AzureGuide(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGuide, AzureGuide)
+!define AzureGuide(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGuide, AzureGuide)

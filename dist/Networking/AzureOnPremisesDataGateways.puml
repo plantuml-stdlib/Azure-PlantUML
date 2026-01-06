@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: On Premises Data Gateways
+' Category: Networking
+' Description: Azure On Premises Data Gateways
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10070-icon-service-On-Premises-Data-Gateways.svg
+
+sprite $AzureOnPremisesDataGateways [64x64/16z] {
+xT17ieGm38HXWYI75tJ_qqxEGBTTAdRph_aQsxvZzYY0xmLqzu9jrC430mPguR0OvmCQz4R3FEe30t9FpH88uiT4dvT5sZ4WgrchdmKDS2yI6f3jMjv0K8ak
+JD0R7H1S0hLu8mD2qepYNXBoXNlBAEhdOKRUA1_m0ETuW7Cym3aUm9mFAEQF17ZCyO1i-kdKUA7ZV4foMSkLlw2KpUBUbNl4NOBUbNh0mG3tVai37WyW_-_F
+HBlzcO45w6ijlanDFvlFMVtC6mEVx-k_ldvMWhxs-N_E-G3cV01pFe0v7s2S3t3E1pnGWJpU4G
+}
+
+
+AzureEntityColoring(AzureOnPremisesDataGateways)
+!define AzureOnPremisesDataGateways(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureOnPremisesDataGateways, AzureOnPremisesDataGateways)
+!define AzureOnPremisesDataGateways(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureOnPremisesDataGateways, AzureOnPremisesDataGateways)

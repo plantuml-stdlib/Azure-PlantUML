@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: QnA Makers
+' Category: AI
+' Description: Azure QnA Makers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00799-icon-service-QnA-Makers.svg
+
+sprite $AzureQnAMakers [64x64/16z] {
+xT57SYWX38JX1WLWfVkVzWLjOLmgsjd-9ws-8OKNYtDE-b7DluWtxLtKnrR9MmCokVF9CxdqJLJpBtxZk-L706ZDdmCWf5V2Am2_zrxV_oVUHjcV-RrlG1_t
+Ne0s2Dy0g_kv1S3dNjatm1Xl8epFFj8Re0VlkdVqE1-0wIdMwzoo1fs4ppwXFyVwuBX5h0Snh5BiBTB7MfoFDTTQX0zpqfjFocSVut_zh_TVNyiVV3NUdsCz
+nv__5bSHEYDva3nI4xt0_m8
+}
+
+
+AzureEntityColoring(AzureQnAMakers)
+!define AzureQnAMakers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureQnAMakers, AzureQnAMakers)
+!define AzureQnAMakers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureQnAMakers, AzureQnAMakers)

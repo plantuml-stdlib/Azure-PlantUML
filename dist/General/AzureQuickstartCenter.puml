@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Quickstart Center
+' Category: General
+' Description: Azure Quickstart Center
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10010-icon-service-Quickstart-Center.svg
+
+sprite $AzureQuickstartCenter [64x64/16z] {
+fTK7UkmW34NXO7Gly9htlzk7lrXJDA1GJdhv9QQVEp7jOEPILWUaYd_z-bMufbF5Ltb5C__IE8rBAeeNZlzFzThnvJwvbkQq2CehBtbEsm5faji1QKfhHNcU
+v7P06jQGPp7U0yglDQu3qY27vL6k0QNCBrT-3KWJ7D-9QX7aCiCb7eS0Khasmd7pu-lg06I9nuhDWAudGCgJN_vB4xZyeWI-loWNn8S_F0yIRqdVjmzkk7fv
+-8WUHvSB4DHBpvC6GvwPwx_5uN01OgWwn1u7FHwhm_svwGcNrmI0uOx_vDhOTJV7hJVQyDYyvx3soP75SZbxwOHNdhDOxXH8msk6-v6Mmt0_09iSsEH0XuDZ
+76XpK5mUyAp50Owj1ziStEF09gVZ3IUizZqUtHmmVD1JEM0vqEM4zkI0qPxdStt28yFPvpg0H3S6npVXoQ7rO7l0--i2kvvtbjTerhk-SLhov_M1ZG51Pu-j
+rvvdDvuovAdSUF8SyrIjAH_q-f_6dqv6cmZwF2LgQ4x7wPPgkdcfbCwT_WC
+}
+
+
+AzureEntityColoring(AzureQuickstartCenter)
+!define AzureQuickstartCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureQuickstartCenter, AzureQuickstartCenter)
+!define AzureQuickstartCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureQuickstartCenter, AzureQuickstartCenter)

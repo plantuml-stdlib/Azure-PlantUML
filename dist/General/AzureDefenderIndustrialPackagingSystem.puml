@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Defender Industrial Packaging System
+' Category: General
+' Description: Azure Defender Industrial Packaging System
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03415-icon-service-Defender-Industrial-Packaging-System.svg
+
+sprite $AzureDefenderIndustrialPackagingSystem [64x64/16z] {
+xPG7RiGm30JJM7PJ_F_V9Zo84858Y93hPL2fuLorlIMQl8sHzDkOrF8wPj_-xKJlhsVgRQatjLdVcFRDNtp_DcQndtFJ_QFtLOxGF_f73ry1ytwLHp_WqNEL
+IG-kWUtouB_OgmwmJnvWpvurTtSmGPtmIp7PaBK42WPG2VnFnPfhACHX3XRAXifPWOXAA56IcaDiULTrJy2a5u4J4cHI5EXL5IHHCLel1AYAMXGxTKbBhz7h
+f0Sxmtxz_UEyBtaVX2ozqxfI5bma2-IF71WZ6Ifd0IgYF-mAUWpI_dBisb1HMEufkEEzlq1W34o2jWEPg00R6wwYXZR0LDHpPw3w3VJ5FTZt_jtt-RF_y-yR
+}
+
+
+AzureEntityColoring(AzureDefenderIndustrialPackagingSystem)
+!define AzureDefenderIndustrialPackagingSystem(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderIndustrialPackagingSystem, AzureDefenderIndustrialPackagingSystem)
+!define AzureDefenderIndustrialPackagingSystem(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderIndustrialPackagingSystem, AzureDefenderIndustrialPackagingSystem)

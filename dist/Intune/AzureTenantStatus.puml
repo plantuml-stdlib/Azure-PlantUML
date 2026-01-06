@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Tenant Status
+' Category: Intune
+' Description: Azure Tenant Status
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10342-icon-service-Tenant-Status.svg
+
+sprite $AzureTenantStatus [64x64/16z] {
+rTI9SkCm281X90IIhUxe_TzsKR47p_W82Nj-lOzVsBJ9-7r8HDfTf5Plvv43c2wKoFGfaAj0hg9z85V1dZ_gsJXoPcjEYgD_z9_tDTYN4JjWVDRNtHjzlJ8y
+wgqHxNq2kRh9OtqRRmXC5qHK-1Zp_8w_dbAcshvLoeccugz96f4HzICfVqub7HJQk79rxCcEzUQ4bYEPuiofdCShLwuRLDdNCvCmUDgUOkSJ1-qzA-F9HTOS
+MSr_fwtltyOHyKdHddXgsZGMQrTVj-ELRe-dfMyM-rmyzpZxmg9QqbetjxbjaEsAZQVN3QAEl_FSbsrxxPYiUEuhNqkPJpr3E_StiDHf3xWBX2plAK_qeYS-
+zWsgN3u0DFaqeR3-dlKPS5u-9-mvwN-19nTzgW2mo24h0GBfVw2pdyFMb1ZA0YYVGLezwpFhAbEfvrI0vptKxkvLWZcJGIUpvSwU4UVo4-35Vszjh-aD4zIB
+VcdU0nPTdExUDFy1DlseUWyuJ_Vxidny9f2hGAuq3_WnVh6V
+}
+
+
+AzureEntityColoring(AzureTenantStatus)
+!define AzureTenantStatus(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTenantStatus, AzureTenantStatus)
+!define AzureTenantStatus(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTenantStatus, AzureTenantStatus)

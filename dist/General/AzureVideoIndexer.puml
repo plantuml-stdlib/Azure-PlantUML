@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Video Indexer
+' Category: General
+' Description: Azure Azure Video Indexer
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01800-icon-service-Azure-Video-Indexer.svg
+
+sprite $AzureVideoIndexer [64x64/16z] {
+nTE7gXmn38LXKB6SglT_soZbu9WHS5ZTyczVyKsVH9DMDUDLp7mrzDNGLqDVJVqQ-chegw6lfdvDlTlCYwXnFZfk8g9cB_lYbTgBNaNe9SGpbvCPx_zzn-gn
+2KRxpBFwamNlSyU2Gwj6hAzSRsuOShuobPDYkWZVBC7FlFSBHPxSzAp-r7XNHVV_XeDtHNhiX0L2Y_38D9fudplQ28-YZ_0esXYFOZ_utidxtSJxtVEdDqQ3
+jvxNd3UDLdFULSGU-ajI7lTFz2i_HJipm_tRwrCxTHMqMjtxeqzwTfppRdBb65A-FbJk0hhjo-LtvNBdZMuzlkl_MjsJzFWQSh9BTxx9MitxZKrFH7haxOxp
+VYisdV1Tg_J49zsGvqXN8rqrUk1puhzcJdo-r4XNtxvM3QVxMkNdz0i
+}
+
+
+AzureEntityColoring(AzureVideoIndexer)
+!define AzureVideoIndexer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVideoIndexer, AzureVideoIndexer)
+!define AzureVideoIndexer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVideoIndexer, AzureVideoIndexer)

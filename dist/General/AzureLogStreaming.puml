@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Log Streaming
+' Category: General
+' Description: Azure Log Streaming
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10819-icon-service-Log-Streaming.svg
+
+sprite $AzureLogStreaming [64x64/16z] {
+xTI7ZW8n30JGSQD3_lzlJvOZKxAwTQuNXWvvPBAjVLmskths8z_DPN7sRIrB3LmJYl79nlPb3av_mndbq8FtHPdKGalU9l9UJuD_-ir4Vgv_-gTda0r4M8kU
+0SZ00MZ9Am3mesV_rYeUVQJbQBF-hrJmWcYgsTVVvVUhdgAzuTR3uWTQzTRRSsw3UDzNiEgrpzB7gcxoWtjRyvBrsSV52-S2jEWLa2ZZKXpcSL7tDdYjh1_P
+dwVxnvIv_Sno-yKlrVqlz_jFeZxLZx_RuoUdb_hnRrasti5JF_yUpf-e9GKVGsNf_ENYzKU8DqC0Ubw_N_Cp-NR_zFnEh-_pl7kN5-V7DtlTUTgR_SZRRj9l
+MdlF_6t8ZD-t3ymB
+}
+
+
+AzureEntityColoring(AzureLogStreaming)
+!define AzureLogStreaming(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLogStreaming, AzureLogStreaming)
+!define AzureLogStreaming(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLogStreaming, AzureLogStreaming)

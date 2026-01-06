@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: TFS VC Repository
+' Category: General
+' Description: Azure TFS VC Repository
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10843-icon-service-TFS-VC-Repository.svg
+
+sprite $AzureTFSVCRepository [64x64/16z] {
+lTVNSWCn28NXtHKWTzx_RJDoHSTeh9FsN-U3xUFuxoRQ-YRM68iNXOJUZT4SepcsS5pAjYxBkXRHUnHl-DucymFgVNdJpzRv0S1XmEoDRvmOWElByjR6-3L9
+vdt9_DG1F6vTrhnVl-qDFLu0--1R8s-jqVCQlELUCw_FWj-clMes8Bz_zi7hq-luz0zTkzJd9s2jslkgNK-le_NxtfiE3a2Gbspzs9iWX_NvyOS1yINOnAxj
+3j3EOkvnWCaMTQiwf9clzan5jFi3B7BnRW1MzvwKJqzuEtTFoi_jVVcXvLcVpYnUU6UotRKs_F2j0O700Ch30DxZ0DxZ0DxZ0DxZ0DuxVBTex_ZQizvxhi9w
+XuykxNrl6gEzwh_vNJMpghp7t-1ZRsC_-FLkVVp_3nrV9ZmCODUZT-2qT-2aR-t35v_mH6fTjCVRH0Vh-O3pPPmVKVt_-W8
+}
+
+
+AzureEntityColoring(AzureTFSVCRepository)
+!define AzureTFSVCRepository(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTFSVCRepository, AzureTFSVCRepository)
+!define AzureTFSVCRepository(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTFSVCRepository, AzureTFSVCRepository)

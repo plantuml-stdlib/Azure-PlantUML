@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Connected Vehicle Platform
+' Category: General
+' Description: Azure Connected Vehicle Platform
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02573-icon-service-Connected-Vehicle-Platform.svg
+
+sprite $AzureConnectedVehiclePlatform [64x64/16z] {
+xT17UeGm341XRAkP5Ev_ssW-UQf5q4HPykyeJoxRVpkTY0tzgUP7cThaSfNBLIvNsLvIkShsa8XZ6n3EzC3oX8cUt_oUapp3HM6u1oUt0R4Hyg8iHbu4Sru6
+bXVPNYBvRVz59XpgqVecir0lMDpzgnxf5NDTbYgpO6-t296-xm0TmFrLj5T5Jv3fBoV0H3zE84uV6Y2a9oYWa5ZUxHa1ccwWWa6wZ5WtnqwjgWve08DEs3ph
+b1CCYseDRZQNjxXfsgkZ2LvjIcp0TpT224-AgG074pxwkdQ25wqCy00Hq1s2azlwE8CfTrJJq0617gn7bz-JmXjejJKqqsStD-WRd_Tx6dPpu_Jqlkr9jWSw
+14xkRw9lBYVr_mX_zNy9V4qxdNu
+}
+
+
+AzureEntityColoring(AzureConnectedVehiclePlatform)
+!define AzureConnectedVehiclePlatform(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureConnectedVehiclePlatform, AzureConnectedVehiclePlatform)
+!define AzureConnectedVehiclePlatform(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureConnectedVehiclePlatform, AzureConnectedVehiclePlatform)

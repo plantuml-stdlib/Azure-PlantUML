@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Metrics Advisor
+' Category: AI
+' Description: Azure Metrics Advisor
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02409-icon-service-Metrics-Advisor.svg
+
+sprite $AzureMetricsAdvisor [64x64/16z] {
+nTG7cXiX341XG8sIBzp_jW4ZDvYnWKcoBsNhBydUabkyKXxYfV2YvujU1YyJYgmnxin_ZqtDifHsF9XRkEjTy_1J-_NnowuNMpblUxGMYzxspZgHJQ_hfpq2
+ZUkjJ7hM9_erqlKptfeQ3EidFPlMi7xJZ-lzuFrBeju2Uwskzo-TU0qQBzqdrFKBtXe7mg0J29okd_DIbA-r2TRKPDwJjNGVXSeDptjuVR2FNnlpNi_NuEbZ
+z3wa-CMpdg_nu_wOKYp_KlZiiPxV7m2XRBuNofHpx_JyHmp0yUQ4YAI-Ukhr_A4Y8a6BFtazV_GHuHvzyiwwaOUKbEk0qh4NFR_JIU2rq0_mGIDh9NJ5fElF
+3mZtolbXAAK0xodllQ2nDFgOVEVZeITJWcslltXuxlvVWwVcuVlpnuVF7mvUYqTVlzzdzrCOUp-0s_REwm4k71I_VF-65WDmEAg8oCebdVdpOZLHcDd7jEOr
+f0hR6AzymJEYJob86UAPyxB7aXT4YO5BkIz-Jh15tCfh0JxyrW2ynzUzji7_gkSDVjtdQpw_UBxeytn7Fg_qz44vveq15QskrvIhbxpScyyRlVYyLVEvuty
+}
+
+
+AzureEntityColoring(AzureMetricsAdvisor)
+!define AzureMetricsAdvisor(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMetricsAdvisor, AzureMetricsAdvisor)
+!define AzureMetricsAdvisor(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMetricsAdvisor, AzureMetricsAdvisor)

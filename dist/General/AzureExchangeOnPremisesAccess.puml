@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Exchange On Premises Access
+' Category: General
+' Description: Azure Exchange On Premises Access
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10334-icon-service-Exchange-On-Premises-Access.svg
+
+sprite $AzureExchangeOnPremisesAccess [64x64/16z] {
+xT95OaD138FXf6DBUiNxdxOmLCv06FwLDj_AVjbjQDRWxVRhRzxMCGUyBgHbFJwiOWPONPvMsBTdstEZVwzuqkegdkJ5UmynaFYvlEcRNRw7nV1rCQ-n-tbQ
+JYAjS4RUhzNR_zxs_N_gwDAztyKW8IsNc5UFB_UJF2sJaDUrUfwHHuXHeiKeASHmwl-xjFcoqNVKxuMOPZrMCPo7l_cRlr--ndMCozVkD_gENZRLmNVR6m
+}
+
+
+AzureEntityColoring(AzureExchangeOnPremisesAccess)
+!define AzureExchangeOnPremisesAccess(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureExchangeOnPremisesAccess, AzureExchangeOnPremisesAccess)
+!define AzureExchangeOnPremisesAccess(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureExchangeOnPremisesAccess, AzureExchangeOnPremisesAccess)

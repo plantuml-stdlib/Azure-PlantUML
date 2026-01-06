@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Image
+' Category: General
+' Description: Azure Image
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10812-icon-service-Image.svg
+
+sprite $AzureImage [64x64/16z] {
+xSv7UiOW48DXO3Gu_uhxtpPMAlYXATwaVIktLwRywFxxpsz4VgjVvv72MSGNFVLBIVKjvu3k4QeWUyJQHz5RkAJv6AwPubFeb3PyzfS2amVowL-oqC_oF7gM
+1ZxglctJsqtl0vxMVde0z92pshFKupRWhFOCKVWxQpnpD7cUSDRupRnknplWNSxMtXW6dFwOHSwGN-vSy3Nd0BdetJv39XSyUHCqJzu6nPDVW-1XdT3nJxkS
+eUCxaVV3sAyvmzeVDctbiorglSXPurNEKFj7pTrC6JXAAOygSc4Wbn_TV_yz0m
+}
+
+
+AzureEntityColoring(AzureImage)
+!define AzureImage(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureImage, AzureImage)
+!define AzureImage(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureImage, AzureImage)

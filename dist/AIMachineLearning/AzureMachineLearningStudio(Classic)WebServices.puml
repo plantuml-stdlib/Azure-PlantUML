@@ -1,0 +1,21 @@
+' Azure PlantUML Sprite: Machine Learning Studio (Classic) Web Services
+' Category: AI
+' Description: Azure Machine Learning Studio (Classic) Web Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services.svg
+
+sprite $AzureMachineLearningStudio [64x64/16z] {
+jTD70gj6403HIPrgm_rlQv4yo320RF_QAF6WMnBJdo-9gAf8IzFlYLgm5QRjDwt6Ts6ItcjdA-ZPondwuD4gg0HheVK55ryE1JodsQVi41g0jsSUW6O3osdr
+omaqwpBHq_01KLE3o6dtAGVKL0EYFVEo7TzzQk0f5GUlDzmS8c-77trogEiYNcuyH5cFRj--WQMKIe3UJ--V67Rx7JgliZIUtkVsCOxF_F1X6rvUqbn0Jj_x
+zpSRs2Mt89OZCdWwUOEoV1f46Onl7PsyxB-9WWp6RuSZXwUgWmK2odw1UlPb7oy7VisZRths_LjneepM7_iK-_aLsgLtMGfGMLDmsGf2bXpaqh_lsykSHUyt
+BwUqRWbOtGgyBjcZbyFt9_txxzzlUxh-fTV1x_TFxj7ElknFC_W61sS0EVi6RN-Yjxw2dRr0sTUNMryWkjzNiVtk3kBUru1QbXf8MGkYp2dOTEkT-qB-cxVf
+tgi5kCqvs7uZnNPlXLxxjhJy-HJq-qTJaFL7eFFUebOnFoiG-UXpB6-qFlt9vzLNaOymq8FV1XB0dxrBBW6r-mgHiyvSfsUFLu6ekoy1hKM_-fC72uYs-XeG
+pinzn8zUWorN46ChR1hoxlMJSoxCfq4paRIMTSuj1dh0DQUjgdDJc7birirYkkSr_Psi9vWB_yHqM-lJ7pSOW_7qtniC6az_tk0vwTC_RV0y_UyRs5n9fyG-
+wJikwIArJw-yfgkApRsUVh21_Jnzp-RQen_eRGE_uJvdPLJpfJ5_wWzxUvAnD0sBD_dqX_eB
+}
+
+
+AzureEntityColoring(AzureMachineLearningStudio(Classic)WebServices)
+!define AzureMachineLearningStudio(Classic)WebServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMachineLearningStudio(Classic)WebServices, AzureMachineLearningStudio(Classic)WebServices)
+!define AzureMachineLearningStudio(Classic)WebServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMachineLearningStudio(Classic)WebServices, AzureMachineLearningStudio(Classic)WebServices)

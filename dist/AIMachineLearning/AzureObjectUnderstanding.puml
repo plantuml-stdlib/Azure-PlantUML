@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Object Understanding
+' Category: AI
+' Description: Azure Azure Object Understanding
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01688-icon-service-Azure-Object-Understanding.svg
+
+sprite $AzureObjectUnderstanding [64x64/16z] {
+vTVNTWCX38JXip0pe2lU_st3iTBm2czBpt__ALBSSLTk3yDclzhdjbaEM3lLR_8PkEJHk-09zCvxNFFWBPprf7VIuyNZdEThiKzRF1wGZltvU86OL0kv3zZE
+UbTyDQi3FpH0AbObdVEIyfBI0adEZmmm2McvbI3Xe9VesYTGuhh7gm_bQC1SOrc5O4A0pUgm-dX4qSO0w-LbKZOpRdlCF5PUxRvQG8ORP95Lt5X0IYcJARWU
+m3sd0j-3CEek4Nb6tYVaONNSqggPzoDSqtNe5NalYwb70OUzXs9MYDC-TI-NH-_tK2kk-0H-hc_NVBlaqIxv5bKhvfwrZ3X-_vXwwxLPG7BFcTVC9w3pdh__
+2P6dL0CUV7-Gb5S-k3dsFe5vyA6U-rOal7d6VExz2BXtVTJx4H9Sd_3DLCoAwoC-_lxozTxx1VxYxxUuV_Rxzma
+}
+
+
+AzureEntityColoring(AzureObjectUnderstanding)
+!define AzureObjectUnderstanding(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureObjectUnderstanding, AzureObjectUnderstanding)
+!define AzureObjectUnderstanding(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureObjectUnderstanding, AzureObjectUnderstanding)

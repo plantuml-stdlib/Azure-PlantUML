@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Power Up
+' Category: General
+' Description: Azure Power Up
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10826-icon-service-Power-Up.svg
+
+sprite $AzurePowerUp [64x64/16z] {
+hTO7RkGm34RXAQJbGVFzJxkRHBQWXoSmzKURqFnekUVukyHRaYLdUu_B6NCAEg9T8ociK3k5veIT_Qa9tYV-yY5Z0h7FOyvSYxWmJWW6JDoBoAvN3V2ht2xT
+MAVVoNtMgytQlNJYRb03lVdccw7sli8OO9_OA3wkPRr_1XSDAv37-GVtlU2sSrikkGOyMUBzO-u1x5lx9FSAQi-z-np8ymG4kGU8Sm7WvG3w9td_rL3aWEGB
+ADYvdS5F3EWbUFAU_fC34lwgJZmsn2i07yNncfEKR_2zsdjAFmRe-K2jBNbJBmVaABLrr4iVdths8lr5LtlrmkVddhtayz0eF7lfHt4l-V3ay_ylknCJxpS1
+FPwkbpqVSFXUme2AZrvw3gWuF5uL6Y2EZn9txm7cxBI_BKxY2nmUt1_B3uuBt_Z8s1_Fu02ycVCelRzK_gxOiym1vYFPcnhgF0VauS_9pkNpAZorS_cWzp6O
+rzu3o6ll0R6Hrzu3ajoUru-1TdZ_EAthZ5ppsiUbUr_fFI2tCt5bnVDO3y0dCywaUA1zNZSg6ICxIhV9ExgV5InOcbdh4MC7sjSq2wfd-y_o7m
+}
+
+
+AzureEntityColoring(AzurePowerUp)
+!define AzurePowerUp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePowerUp, AzurePowerUp)
+!define AzurePowerUp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePowerUp, AzurePowerUp)

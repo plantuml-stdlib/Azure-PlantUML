@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure AD Privilege Identity Management
+' Category: Identity
+' Description: Azure Azure AD Privilege Identity Management
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10234-icon-service-Azure-AD-Privilege-Identity-Management.svg
+
+sprite $AzureADPrivilegeIdentityManagement [64x64/16z] {
+pT47ZWCX341H6N3PVl_Rha0fddmc1DNyxUKPX_bxrznoczWcxMBcktf_YGzRv9k7iqtETdXLOw-_z2RJ0HyldguYhTgaAMSYqXO35bpQsO0rByFtbWC-Z5KP
+VhIwm-dL9xzuYkwJgy--ahidZqooxmCS9Oua-rvrTkuBVAiRlWfzQ_GdlCdKAmTClShSLtl9cy2V3G3l2Vpv7KvyWK_LfQyPbr9CjUKMlcNRirwUyTHhiidd
+6Vh4szt2Z_Jo4BAFT7VCK7lqgRhswd7lu9j5sCAhHOmHz2hI72iyy0ZN_eNUniLRXDFdmqTAhpAg7j6In-7qbxnAh-XXXSEzfJqEdYieF0_l_ZuWhI3zFx8V
+9EsHUFSfAmyh38B3uQShrE47qVlXy7q0LoZUlos3s8LRWDD7jBH29rYT_dI5YFG4u8y3k4B3uU2z3-QN5IxQFzZVqm6XTwynu_HSeU1m-FC1eSD_d70CO5ur
+Lfm363dRu-ptTVvBtTiydMrojilPpalV7_0v0UXpTtNsyVauv1DuEI85_3Rz0m
+}
+
+
+AzureEntityColoring(AzureADPrivilegeIdentityManagement)
+!define AzureADPrivilegeIdentityManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureADPrivilegeIdentityManagement, AzureADPrivilegeIdentityManagement)
+!define AzureADPrivilegeIdentityManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureADPrivilegeIdentityManagement, AzureADPrivilegeIdentityManagement)

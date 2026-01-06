@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Kubernetes Fleet Manager
+' Category: General
+' Description: Azure Kubernetes Fleet Manager
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03134-icon-service-Kubernetes-Fleet-Manager.svg
+
+sprite $AzureKubernetesFleetManager [64x64/16z] {
+xPI7SYiX34LVsKMw9B7-_s-3XXNLs8DxErEOkUX8IcmZ-t1xaJ6zJmsJFdm3PdrG0DxEQP_NWFfwyYlxhc7izvMgd-qJIdZieuBCPm_5Xs8EZ7qEm5jrzcDH
+y5Kwi7yPNTV_-3v-I7PE-jmnv_VSq1zmEtz-VsNxh7ZiG-b_VyGL6g53VQwWW-yFue_Tpi7xSzxxT-Vtboxr_d89ZNskI3xx4enz-4pt_NF7tm-N8_SSxnzm
+kXy_O29tYWycCPWOntq71fdFNyMdfItOV0Rp7bztZTk6b2JPkONwZhOoL_dWL6zo1rGJiNx4IBwJdJUotFCbwc-eA95gJzypkazoPgWRNVqPVi_v_jJz-VkX
+3UJhaBwJe_l8r7OYNKVCZEzzoDpuVe6PyLCBY1_x4a5PXfZjKdLHMDnB2DSDajH0msLL98-NFnfeh9QnBEkYw2c0RBQ5iKESaxFLxFynitn9BJDRSHZSLYus
+9XEtRZDhcB6oSpYtmTdpVm4
+}
+
+
+AzureEntityColoring(AzureKubernetesFleetManager)
+!define AzureKubernetesFleetManager(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureKubernetesFleetManager, AzureKubernetesFleetManager)
+!define AzureKubernetesFleetManager(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureKubernetesFleetManager, AzureKubernetesFleetManager)

@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Time Series Data Sets
+' Category: InternetOfThings
+' Description: Azure Time Series Data Sets
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10198-icon-service-Time-Series-Data-Sets.svg
+
+sprite $AzureTimeSeriesDataSets [64x64/16z] {
+xTHLWWCn283XGeA4hDp_jiimMac7jRV-w_8HQlFvVy7MT-6Wl1sNr8XO3Y4Yh9rgb_L1FkNf18J8xJY421_m2qnXzSudNExzodC3_i7VtNhQgdi51huU1X2B
+jgjKc0wSxdr7YB2wVPniztz_uAt0Ee7l9wXmWQNI7_dU1VQm4l4IrOAmf_snzmJX99JUXzupnZ4kRDR7FZApnlLs26BbPbx2hpLL5H5LXr7E3yhubt_vHgLK
+KekKYNZzthyzzKOGOOW25mzACqy0yDHpuFa_5IOyVSAMzEQqngvcpIMgE_zQiXu0d4JaXy-B-mQItDzzMRmVInQXBv3q59SeyvgVgeTDSjugUEXGtRVDNpJd
+kp5CINZzlkyM4p3s5ujgh9BsfW2WoxtcnGDfEQ_TF0GGOp-Lr-CfwR68AiNvXkuA4yOJC3pmL7lcOQwOMNCvXshXv-I9hmjlvZME2K3DihutOU9cQyfm0RMe
+BTcthX_i2yXlhZ_a0_WNtYeYyhzU_rx-vJ--u-tplhUS7t4lwp-7PVpdq-oapqG9coa1VzyN
+}
+
+
+AzureEntityColoring(AzureTimeSeriesDataSets)
+!define AzureTimeSeriesDataSets(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTimeSeriesDataSets, AzureTimeSeriesDataSets)
+!define AzureTimeSeriesDataSets(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTimeSeriesDataSets, AzureTimeSeriesDataSets)

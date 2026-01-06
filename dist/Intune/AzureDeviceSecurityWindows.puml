@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Device Security Windows
+' Category: Intune
+' Description: Azure Device Security Windows
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00399-icon-service-Device-Security-Windows.svg
+
+sprite $AzureDeviceSecurityWindows [64x64/16z] {
+xTC5Si0W58JXmSaOzpzjPQiGia_gybT6lusFfVggCgoLEfTjl9upw_8GMR1efB9eqbESaeCB8uk5Ddb8KRVMkESQYPvexhbM-SevzrpBdclk4T5UtsoUQ-wv
+jljcy4GRFTUzCozhbR_KIFADSkwvvfvhbPSqlt-DSTaJBVkyysLNpd7JsFWSrCNT1IIB7oVVhRvEkXlzc7pt-FgiKKdw1WQM3oMhA_U-rGhjzRY2xlRhWDrZ
+OF4f6Jm69Xz2m7_Iv37Wy-i0V0hn_ZzhyHYmtxzveDdzEd0SNe-1sk5JJ9dVW9t7GBFU_tMXU3s2zvu_AbaJy_y-fJVv5F3z1LgyzZ64uFUGznSGQUcxtl-Y
+vlaM
+}
+
+
+AzureEntityColoring(AzureDeviceSecurityWindows)
+!define AzureDeviceSecurityWindows(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceSecurityWindows, AzureDeviceSecurityWindows)
+!define AzureDeviceSecurityWindows(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceSecurityWindows, AzureDeviceSecurityWindows)

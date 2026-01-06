@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Windows Notification Services
+' Category: General
+' Description: Azure Windows Notification Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02733-icon-service-Windows-Notification-Services.svg
+
+sprite $AzureWindowsNotificationServices [64x64/16z] {
+xT955iCm301HCsrq_zCM0sPIkPcjtazCa2P6Al1t-yCVdf8mFkOPYQ8vhvBaCk58BnWD4qC-xUMUv-lrf1JhygpewT3zfJ7S_laZprydORrwgp-ynlgH5oHD
+J_idPV38983fIyibimHBfZU5z4QZ_B84DUxzb4PuF_iftixrtVxmRlKEny6wNDOhEuTwnWicqbxlyCfhWakizyDwCyn568fV6y8yMwTcl5YNv-K8nfSNS0O
+}
+
+
+AzureEntityColoring(AzureWindowsNotificationServices)
+!define AzureWindowsNotificationServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWindowsNotificationServices, AzureWindowsNotificationServices)
+!define AzureWindowsNotificationServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWindowsNotificationServices, AzureWindowsNotificationServices)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: App Service Domains
+' Category: General
+' Description: Azure App Service Domains
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00050-icon-service-App-Service-Domains.svg
+
+sprite $AzureAppServiceDomains [64x64/16z] {
+xP473a8n34FjfEnr_zkIEhIIs7kRuIhngpzYzU7wQtQ30f_UmazLVuFko8-7PskyZyS5ckxoqm_cfO6VhS6j_zyRyPFf3PgiLeERz1Ryd__pWCMt0nv6684S
+CyVnBd6oDlOjdc2kBTUkO45OBji6HVTjzMkaDVES5QQypYees8ovpPSQTAXFKSBq1QyxNIeGflksUJsVWOJtwW3feEgo00ZJSPjNIB_Rj5R8TTccZjg45GlR
+ufNth5IT7f8eDPzrLZSsy1gpRLvvmhef3wOX2q8bZDLsUTCwhUMjMmYXRhkyQvxMygLR5bWQjtc9z6QIqPf9XIpT9F4twSyFRy67T-1lqf-Vt89FLhSzmEh3
+zTSQ
+}
+
+
+AzureEntityColoring(AzureAppServiceDomains)
+!define AzureAppServiceDomains(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppServiceDomains, AzureAppServiceDomains)
+!define AzureAppServiceDomains(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppServiceDomains, AzureAppServiceDomains)

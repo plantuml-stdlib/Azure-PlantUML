@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Controls Horizontal
+' Category: General
+' Description: Azure Controls Horizontal
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10790-icon-service-Controls-Horizontal.svg
+
+sprite $AzureControlsHorizontal [64x64/16z] {
+xTR30G0n04JHEBbD_zMkRNFU_IyZd874hbgchkd349FaslbHeJRHrtpFHths20DKqgj5Dprd_2FDdudIiN7WsXPMqkNOh8VlAYxjdQi7zAzwzZRjw_NiyhqT
+TNyYhb7lFxyL_81_dD_Op___4yVl7WANe1W
+}
+
+
+AzureEntityColoring(AzureControlsHorizontal)
+!define AzureControlsHorizontal(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureControlsHorizontal, AzureControlsHorizontal)
+!define AzureControlsHorizontal(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureControlsHorizontal, AzureControlsHorizontal)

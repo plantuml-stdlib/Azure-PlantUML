@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Table
+' Category: General
+' Description: Azure Table
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10841-icon-service-Table.svg
+
+sprite $AzureTable [64x64/16z] {
+xPT7jiCW40GbClp0_Mzh1XHwd6tbKCjwNPjXHTmu9p_XQtvIxiC0_cCCWrYsF_kpTtu0BaOpYDtqIlH84bhK7KAJaNMFlExh2g2vGf7d5TBsPsypU5n1pWX0
+vma8MQhKsq6CrsiW2mF2t1NOItO_Maj0qKIXCHllRTkx8RrBVK6nFWah0HAEzxdgUtm_KmpWRWtq0nYjjmh81eKXOT1Szre2vlf-wj7zbkzzWVKs2TxJXFMk
+P8zxzrdFxqz60pPFq7Ze1x23FdnV1p_q_x1nJYu
+}
+
+
+AzureEntityColoring(AzureTable)
+!define AzureTable(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTable, AzureTable)
+!define AzureTable(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTable, AzureTable)

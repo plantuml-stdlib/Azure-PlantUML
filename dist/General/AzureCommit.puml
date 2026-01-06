@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Commit
+' Category: General
+' Description: Azure Commit
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10788-icon-service-Commit.svg
+
+sprite $AzureCommit [64x64/16z] {
+xT853WCn34JHnP0WzpzjqV9OMfwKcoSSoR-u-RcSAyoBNi3TyBbWSqNcGEP0va3cGEP0va3ci3VtItRbVWMNWtl--mEHVLGVl0XahzxHrpwgT_IrJoh_hCeL
+CNar2h9krFqLUkKcUyQ0VhYz7kx7cIsyilrrs_kv3VEz_RoJ_OJU_dxx-w1iVztsVcR3X_OUztvcYwZ2q8iXt3QUv-aMLOwfH2vr1W
+}
+
+
+AzureEntityColoring(AzureCommit)
+!define AzureCommit(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCommit, AzureCommit)
+!define AzureCommit(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCommit, AzureCommit)

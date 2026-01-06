@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Elastic SAN
+' Category: General
+' Description: Azure Elastic SAN
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03190-icon-service-Elastic-SAN.svg
+
+sprite $AzureElasticSAN [64x64/16z] {
+xTPdMiGm38JXs9QKzaFtlorA4Cto4F7GOJzwUSUKRUfLK55OeB2inc6UhBpJL-1RaXFmaXjWGLw4hYOQYs1_n6YZDHBhmdlCJ9QP8sRniXxtVd_pxneWnQNE
+VhT_xy__G__-SyhXjYNrMsE_RSkCJwQdAlBMEjWmt8UyjwxhOisplQnAeu0FQU1W079KngzAk8HN9bmB7lpqg4iFU6v0hQJtrcSN0ApnmFfOmA2edHEdFEAS
+B7Z04nxmzCI-1PxC_Nw_03bEt1_fm3T-6H5tFVEHbzBlJOC1U7oPefy8-iX7FWwuZtpi9m8-SAkSJPQ_CnXm7pYEeCSS3-Z0qwkyXajXxvcItBt5em4wQwtH
+MNKUF1e8_x_81JsEE0RaPUtWqeMyqC1N2IaUAFqd04S3BA2aJ_5t3R2-Rq2xw3sddxtZSE-D-Wu
+}
+
+
+AzureEntityColoring(AzureElasticSAN)
+!define AzureElasticSAN(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureElasticSAN, AzureElasticSAN)
+!define AzureElasticSAN(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureElasticSAN, AzureElasticSAN)

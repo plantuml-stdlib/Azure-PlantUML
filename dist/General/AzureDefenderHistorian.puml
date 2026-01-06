@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Defender Historian
+' Category: General
+' Description: Azure Defender Historian
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03405-icon-service-Defender-Historian.svg
+
+sprite $AzureDefenderHistorian [64x64/16z] {
+xTNPOjiW44PX1FyP6Dtu_T-sLOk2WemXlkbwiY_VY2mUFQuba13YI0BgYq2FLzLlUnaydo90Yu6uQNqj53vq47eZJg_tGjMZzwBw_2OlrU-PTxZlfz_zonFC
+z_t37nLZrMBbqCtNl6HZqNQ-vLvADWEk2hESYpVQ-M6TcFk-tz__z_wMzhQzyjSd5DDbVv3B-eZpyKhrfYDiROQNJBS_J3ME8SLz04lEnjFzOUWQO6RvpCo0
+Rdbz_ljvCRGQ-Vd-cAuFpaMmT_w-FkxmY9fbx_mzRzN37Kcg8qhpymvDsiBFjYZ0RDNx3nskRGAi-HdN2TCv9vudME6fNLVXh0vOu34yyq4OKvyRxtq0O-BT
+I67aDx29pn26FYJCH1bpX_Z21m29xFFBDzyVG1gk82Ezz07SLBkl3uSuy_jU-lLnBe_I7pz4wpwHQ1ln7ftVYZjttrRGn9j_RmkN8jt-o0P3dmyVUp_U7hdp
+oTrBclbMwNn8PYXrF_yuXorq9Lq7wBKtOkYBrm6mzF3f1vnJuyGNs9uDE3-fYNT3OLnaulS2SUo1sVuos4OyGNhC5nZZqsj-2oYW8TyMRcA5fp-26f_Co0Rf
+Vl76PrEejy-cnJ7oiLgzzwSOjnYJ0BHLlfRnASLUhqzGYjThVmC
+}
+
+
+AzureEntityColoring(AzureDefenderHistorian)
+!define AzureDefenderHistorian(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderHistorian, AzureDefenderHistorian)
+!define AzureDefenderHistorian(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderHistorian, AzureDefenderHistorian)

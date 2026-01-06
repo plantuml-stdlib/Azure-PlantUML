@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: App Configuration
+' Category: Integration
+' Description: Azure App Configuration
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10219-icon-service-App-Configuration.svg
+
+sprite $AzureAppConfiguration [64x64/16z] {
+lT27hiCW38NX9dPiLultVzgEer10lHpHMBg_HkSN6mehtCpSh5p9NnboTxkYnp8QMOQZ34SPZZ8SvNZUUuxdlISiIcYKq4WJ72MvvpWQUVZlPSOZJN0KIUyd
+jxXQGN6z__HslF8O-y6hlBBhNjxfpzxh-e8yaDkYDr4xrqS7z25YIzwmjBq0wZ_uWdSXLUynZt2jlj3zfpdpV85saMLX0JeUtIyi4F1dI_FtRTk7-NTO_W3z
+w1lQk_ENhljVXGzyV82Ab2xzqdv82nP97raXf6jlVXzzNqpzHlpa6OTqtRgeRyd4RujU9-SNHBoRsTSARJp3o0mURNecbMjjGgitSvpYasmlBSgyZJdy9E4U
+JJpTl-VKoufNqfH7DC-Q3E_UQzBp_HTygVyS5Ja-VFGtM53pg75w_wsZSXBpvLZnR074EVFAFI9yhRSvwI9_0W
+}
+
+
+AzureEntityColoring(AzureAppConfiguration)
+!define AzureAppConfiguration(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAppConfiguration, AzureAppConfiguration)
+!define AzureAppConfiguration(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAppConfiguration, AzureAppConfiguration)

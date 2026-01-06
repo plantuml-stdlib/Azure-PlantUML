@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Hybrid Center
+' Category: General
+' Description: Azure Azure Hybrid Center
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02573-icon-service-Azure-Hybrid-Center.svg
+
+sprite $AzureHybridCenter [64x64/16z] {
+xTHNhiGm28LXASOOWpJU_sfl9GffcEdrV_zEcfLshJvzGkqSEtQ6rk8Q4CyPmBtWF8wOW_oCEq2_Spq6kDzLVUbxsBCimh_LMjosjSpo9XmTMkXnZUC3iXq5
+lJNCmO5jJYcLm82TE9Xt1iDFYGBleD3gyfm73MhmErfUqZ25t7q2lGCU7robbah_1cZoULW5B3ynEPNnzXbM0raVWRnQO_MGmMf0L5_9Q_9s8I4Uxt_AIM_T
+U8vvBV_TUjpJmaD6FCl3a_d3URusxldgfWSOrxv8mBUc0pKlV9MeryXw4ebuQcQ0SVI59URj3r0VGdN8ht_01FhWCQ-94_jSEy5BintjrVKNUAkscJ07UBjK
+dpvz0m
+}
+
+
+AzureEntityColoring(AzureHybridCenter)
+!define AzureHybridCenter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureHybridCenter, AzureHybridCenter)
+!define AzureHybridCenter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureHybridCenter, AzureHybridCenter)

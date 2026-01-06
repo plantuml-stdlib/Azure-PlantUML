@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Time Series Insights Environments
+' Category: InternetOfThings
+' Description: Azure Time Series Insights Environments
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10181-icon-service-Time-Series-Insights-Environments.svg
+
+sprite $AzureTimeSeriesInsightsEnvironments [64x64/16z] {
+nPA7RiL020HHiZYdolz_RNhGEydZ9NrKN61Wpt8HsgXFaJfXJMqHERMPxzW-GwJtCsRBKodb2rBc98Borjw3RRLqsyyoBkNbWCoc07M7IDzhynrGu0Y2PCNm
+eiNPEK5K0xf9i8tqEc-3iyiDC7hxPW2a5myushzQFmnmhfTmm2ujNk_zwBjrfalkBuBupYUjTUCxr7nJrrVrvjTz6QwwdDu-5zcxyVLbltlOTqUhko_uz-tR
+Z-E_6kumw2V_fFfFdyzwlE46WDOt2JxesNvC0b3gC0TmVj_o0D3RSL_0w3P0w-3R0LQlOpO0s_lDmzVqMZo0zJXxULYzCQ-zlXUWmarS2wzJbUjhAyDu2X5x
+pUHp5153cvdgZBCzplRacRoinYcoY2S
+}
+
+
+AzureEntityColoring(AzureTimeSeriesInsightsEnvironments)
+!define AzureTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsightsEnvironments, AzureTimeSeriesInsightsEnvironments)
+!define AzureTimeSeriesInsightsEnvironments(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsightsEnvironments, AzureTimeSeriesInsightsEnvironments)

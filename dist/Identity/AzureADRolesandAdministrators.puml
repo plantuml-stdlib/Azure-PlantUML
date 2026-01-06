@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure AD Roles and Administrators
+' Category: Identity
+' Description: Azure Azure AD Roles and Administrators
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10340-icon-service-Azure-AD-Roles-and-Administrators.svg
+
+sprite $AzureADRolesandAdministrators [64x64/16z] {
+rTL9ijqW38LXaCwHFMF_kmq9s55TA8nBQTxxPxVvw2OgVotK6B1thpM1o08S2t8ooCaW9sCyxXdZSM_F71OxW2txtvv1Rz_SbyUEPUMvl-cjn1OeCL_sYlep
+n6inNhDHdoz7bvskW_iZAEDNINXS6acsXnXwEQMK5L19jTqnc7cboPNP-xc0rCeykhnNzxMqdZZ5UV0AShVcnEJuL76bfMSUjeTyjE3-1RjM6NDywEBYZZus
+-E42_kXZx7mCxlK0dMerQzuuvbuFjOccTM-pf1tVQi1a1PWjFLDDxBU73hfvshHSFPrtAwYPypPFKyfs-Qj-yHtFb7JmK87PbZT9Dl4mtu8Rn5hq3m1mqnkz
+xrnGe_V7Oxnrzm1VUvKMUk-yDkuysFonuwlsliTD3t71H-SNSVITExyCpdkzlO3fXoUAynjHlMUvEpThbt3wTQeYNhzF1MG998ZeiHy
+}
+
+
+AzureEntityColoring(AzureADRolesandAdministrators)
+!define AzureADRolesandAdministrators(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureADRolesandAdministrators, AzureADRolesandAdministrators)
+!define AzureADRolesandAdministrators(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureADRolesandAdministrators, AzureADRolesandAdministrators)

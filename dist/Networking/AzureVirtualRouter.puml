@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Virtual Router
+' Category: Networking
+' Description: Azure Virtual Router
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02496-icon-service-Virtual-Router.svg
+
+sprite $AzureVirtualRouter [64x64/16z] {
+pTQ7RiKW38LX56mIJYJo_a_RNUJBDSTqzzVi-0uQMTU_3QPFMbjTnWsJsee-GQeX7y2k5JS5UkJRbYlu0kTy8EPy8EPy8EPyWFDW8ERh0vNoU013Htaklr0f
+pr4FFtdn1MxycezzfSV77lo6ZNsZnySUYtuFF3xhuVcYSwybzfhKzVPFt2VrlIRNuyxtVzlxbMl-O7Ez-J_tzznBUavTdcJYDOsfnstAVLBAOvyAUYNzlXUO
+9FAS0y8zQYzRFWxaerV9zMEu6LYy_Wm_xFKh4t_TUV7l7qbhzv_0zv0bBvXv2F6VV7vz_VdvTTzYppy7F-UlB_lUPppzQgtxK-_V3_jpX3_xeMCRoZXl6dmq
+a2lXPC2URZEG3t3E1oXV7-2S3t0U3t0UBnmAHxDmigw5sWotQxNuw3XY_r6F
+}
+
+
+AzureEntityColoring(AzureVirtualRouter)
+!define AzureVirtualRouter(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualRouter, AzureVirtualRouter)
+!define AzureVirtualRouter(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualRouter, AzureVirtualRouter)

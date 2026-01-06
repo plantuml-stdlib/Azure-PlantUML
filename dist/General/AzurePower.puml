@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Power
+' Category: General
+' Description: Azure Power
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10824-icon-service-Power.svg
+
+sprite $AzurePower [64x64/16z] {
+rTD73iKW40HHeMcyhVkVzkSS6HePkVQF33zJ_HYjLSVxqy_bpENwn9MONhUwfdyjnz67rkF5uupdY-bNv0pXSI_7bok-HIef71vXSMHudsDoJPsTQ4YBnoNJ
+1rzIcyVo9YzyAwJ_dE-fmUDvKcsQCvSpb8jafUtDjdq5qeNaS7J9uPVeQDESKRpILRtmqiaFwH3q-qFRvCpbpENul91i3m
+}
+
+
+AzureEntityColoring(AzurePower)
+!define AzurePower(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePower, AzurePower)
+!define AzurePower(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePower, AzurePower)

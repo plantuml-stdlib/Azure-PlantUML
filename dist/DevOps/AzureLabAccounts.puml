@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Lab Accounts
+' Category: DevOps
+' Description: Azure Lab Accounts
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02761-icon-service-Lab-Accounts.svg
+
+sprite $AzureLabAccounts [64x64/16z] {
+xTFLOiDW241XQFXZaxp_sovKJvILkPoRwGVKXkzLlTwFyKtESy1rH7E9FAwP5u7lv_zzVIhh3t9AarukVO5lFypRiT2FtVpu0xcNz7RjJcyJxaMycVZsnkFd
+eFNiwalhWGK3i9u7sDoRxgm_m1_0wKqtUH5MRjmLleslzzIsqk3wo5julNFuO83X-dYz5rrFNzYQx_3EIUpll4RUv5kLbG6LDxlVVxLSRxBYfJfchF8KlCNr
+6mCGEDUht350e-iv8EAuFXW07bxF0I7lP2-LW8SzaoTyT_D3rjlgWBxlMB_Ho0iy1xoc3bw7HDoVzU1ViF__yN_byyVtVoR5voyLjkSoyFI0uNlr0W
+}
+
+
+AzureEntityColoring(AzureLabAccounts)
+!define AzureLabAccounts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLabAccounts, AzureLabAccounts)
+!define AzureLabAccounts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLabAccounts, AzureLabAccounts)

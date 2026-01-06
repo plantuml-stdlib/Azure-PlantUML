@@ -1,0 +1,20 @@
+' Azure PlantUML Sprite: Cloud Services (extended support)
+' Category: General
+' Description: Azure Cloud Services (extended support)
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02505-icon-service-Cloud-Services-(extended-support).svg
+
+sprite $AzureCloudServices [64x64/16z] {
+xTP9Wfmm38LXoHh9nFrl6vuBTniSuZYrxN_JuoS9LhK_z9M_UWEtLh7wlTNTOsznjC3V6H1zhkhnqJ8F9PBuR8Kx5XSYRj-lUMSI5ph25nu6J7Y0TfMBd_Fm
+gxTuDSSj1XCpmLUEcOzxvM3UBYaJxmE7iX1c2PlUlzsrSZrQ-SZEHtdsCLH52O6NADqho7_sRR-sQRMCs6uykqmSNyAmCw8m7mxNUtOzyYIIVCLrfNlWVCvh
+V_8kaOQjQPY10zWYZ75yFWw8V8KhcH3Z2ATBaRV6yu5RbdBrclS6RxZJlDwRwVYXW0g-nDmhpZPr71APxkTBnBD5ZbrztPNAp6v4BD5cMgAffoFESdYDUdMY
+48aBYgO6Zr8ERzNRmqgh-RxhwRTyvKpa8KLJyBh7Dk3FzkPRUF--RNXctiOI-jBDAnrn8PIZ1x_blK_gqWblzGE4n1XMYMB21uyEv4I2M_x6jNKE-BLrCVa5
+ZbwfrIxOkZ8VUKlkVjzcmOy3R1mmvwZS_Qy5F-v7o-Vt7ctVdjlz1Vc35-tyP09yJOZDjNB7r_5JqQ-99vQJkoitFwzv1Dwrwi6NlVRU5ptgFR_fYHSvwZsL
+__DkPwiS-T02Hp7gMF5x3ErhlSVHgDUxugz-0m
+}
+
+
+AzureEntityColoring(AzureCloudServices(extendedsupport))
+!define AzureCloudServices(extendedsupport)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCloudServices(extendedsupport), AzureCloudServices(extendedsupport))
+!define AzureCloudServices(extendedsupport)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCloudServices(extendedsupport), AzureCloudServices(extendedsupport))

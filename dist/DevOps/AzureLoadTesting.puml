@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Load Testing
+' Category: DevOps
+' Description: Azure Load Testing
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02423-icon-service-Load-Testing.svg
+
+sprite $AzureLoadTesting [64x64/16z] {
+vTS7KiGm38NX9ExAbllV5estFK3pi4M7VseYVwcKtJFj978w-vEUNz_oQSp5CP_6V1fpwEUR-oItzl3Cwzq5udg_9S86uthy2BBVinxK2UTS2xs-dbWQH-b5
+nZAYRT-NGfO_CwzPLo0YeAdNRbh0QrrZfkv9v-XXYteG_y5lgxQvVLnwt-HpllcSVJvzfyzu_NdQPsrTUblM9drK4fPhSTwNKj9oB-lcb2_Q-l1hqIPyq-LX
+WQBkQEDULsVGU0VSuzMl8SQKOjXMk0FcaOSjFOhR5cFHndojDRqkbrAf1rwIKT71WAzQCjD16VB9Bkk8UNvwhMhKA-yLizhZla7LgdLWUEtgUR3UyK7NMEt_
+W6RlP3N1oCS-Z2nZ8tvoFcvlwDF8iy5EOXnz_0g97dWCpVk26xlniPlWb-x__i8Zsdc4TfxCfp7GpjheZVk_lpy1
+}
+
+
+AzureEntityColoring(AzureLoadTesting)
+!define AzureLoadTesting(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLoadTesting, AzureLoadTesting)
+!define AzureLoadTesting(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLoadTesting, AzureLoadTesting)

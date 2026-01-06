@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Cognitive Search
+' Category: AI
+' Description: Azure Cognitive Search
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10044-icon-service-Cognitive-Search.svg
+
+sprite $AzureCognitiveSearch [64x64/16z] {
+xTCtWiGW38LXWf1mnVrlkuFb-9mGpIR_rORv9CQXdFVsnflCM1YoxyRi6ZDppCmnCyTit3v0JDw-NkH-_Jwc67o8nBBMxZbwf_d8BGDOjYNLcazFNg2aYocH
+7YEXFshSxZ-ubgZ-mg9n2vSggjR6QJBLe8NgYMcj_auNNauApaNQ5fmBvpxBCSRrL2-dB3sjJ_hjmITPGtxqjC-hnmdKxULwlJ1uFBzsxUNY-a5wyPlkNvpk
+7_gBnkFYyVEXIo_kvFbjz_Nyc_UdSiUvBULQ-DX4uszaufXFTkxNCK4wk6Icu3zZYBEXbKC_aHVuFGAtUcyyV17mDfxn3I8hnm4fKZCVHZ_apeQXZ0szbQdS
+xxKkJMLJt_B-2LAEzUtkx-tj2m
+}
+
+
+AzureEntityColoring(AzureCognitiveSearch)
+!define AzureCognitiveSearch(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCognitiveSearch, AzureCognitiveSearch)
+!define AzureCognitiveSearch(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCognitiveSearch, AzureCognitiveSearch)

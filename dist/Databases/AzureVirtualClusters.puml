@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Virtual Clusters
+' Category: Databases
+' Description: Azure Virtual Clusters
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10127-icon-service-Virtual-Clusters.svg
+
+sprite $AzureVirtualClusters [64x64/16z] {
+xTTNUkmm28RXKu0V17wy_zMc9nOUUO8clNotqkjUry-T7AHFCrGEI_ne0NAPbq_bOTxNhFSMATTJ7mrjwMkRDnVnD8YzLoUYF6Vp8KII5xxtreWeRm3EUDjx
+10XfYazjlwWlcQC_VXvzZizt_WMQGkzXAHtu5YsMFjsyXbaQYnElGKIHvcpUGRkJOtFdduauZRMvzHkH9MzJ-u-8FEQJnrz6O_85dZz4LSzq4B_GqmTxhdjM
+JpNkUC6R2_8rp2mODFQyC97kxY4CE_14XEoF6cz_OubEkqdTtwRUPGaKV0xdUyxZ8Wzz29Ns7c5jkSimku1R7_Bmd7CKMv-wuTlvDwsMlEF-6HvQpdeluN6t
+-LglzqztooM-QyRZXLu7NbxeMUlPq5kvTUJbXPxrXLwqoiUUvIM-lWNdVdDGujdde7PJ6vTqzhdrg5zVMS2VzPDt3G
+}
+
+
+AzureEntityColoring(AzureVirtualClusters)
+!define AzureVirtualClusters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualClusters, AzureVirtualClusters)
+!define AzureVirtualClusters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualClusters, AzureVirtualClusters)

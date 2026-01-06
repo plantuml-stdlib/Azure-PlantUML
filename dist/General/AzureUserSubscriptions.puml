@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: User Subscriptions
+' Category: General
+' Description: Azure User Subscriptions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10111-icon-service-User-Subscriptions.svg
+
+sprite $AzureUserSubscriptions [64x64/16z] {
+rT19hkmm28LXsHnmteZzhxOw98eKSIABTxj__XqXz7V6NabR1MqLk8KLNXhWIGLkLJtNUDtpCgzxYLrx-IIh_gIw7qKlHQz_rGzBhmicfzSbiyRrNz5hWLlN
+7C3wW7jOYmDRu5S3B8bpuhC1uKUTNMxROE97WUjyW5-XDPAN7OBMmA_qxSW7adxLTZ5R0EYHUymuK-JadYmbEXhWKFHm7hE5pAtUl1vu6f34BUJpAOL7cLlv
+UqP2qOkmbJv8Sq_1V-O7GApaANZ9zMQz5_UUGMJysCCuYPS_276UCyzoCj3qnDEJTudn0hSFGkO3XjsddZwD9ZxtvDyB8VCXa_nx8KvSnwpUHqee3KmzSEX1
+hwwzo967-UPyAVTQz5JpGC43pfSzh8Bd_S2sr4X-hFeTNp_0UML02m6ilwSx
+}
+
+
+AzureEntityColoring(AzureUserSubscriptions)
+!define AzureUserSubscriptions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureUserSubscriptions, AzureUserSubscriptions)
+!define AzureUserSubscriptions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureUserSubscriptions, AzureUserSubscriptions)

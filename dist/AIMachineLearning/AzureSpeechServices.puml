@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Speech Services
+' Category: AI
+' Description: Azure Speech Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00797-icon-service-Speech-Services.svg
+
+sprite $AzureSpeechServices [64x64/16z] {
+xT05RiOm38RXpnIxejp_jblJUHmfTGI3_orRUahUrkgJsceJxwlzCszQzDgk0wpa9HrJnGk6P_C6lUy5bnUuAsvwOSBmpHtY3UsMDroPaxYGEqdHAyR3cOk-
+mHpcKlN-ugdeRRn__VdChd1dyRTYxZDARzU_XotuU9_JwIF2qCBWyTQI3wVBGoD8uhOFf-4zGk457yuNQz2e-CmaAdwUVjUwD_s-N-4Vlkcatey9qQNwbuvZ
+p_VOz5sFvqe-EsBFT_CzhvenG7AU203MCyhHWcUSdMSuanpHegTaWcGOrJpdQDKFHffCSiIBNeM8TSH4yZPQylF-i7_uX-zRVdwpNckJzqtUK-_ulkMbVzyJ
+}
+
+
+AzureEntityColoring(AzureSpeechServices)
+!define AzureSpeechServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSpeechServices, AzureSpeechServices)
+!define AzureSpeechServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSpeechServices, AzureSpeechServices)

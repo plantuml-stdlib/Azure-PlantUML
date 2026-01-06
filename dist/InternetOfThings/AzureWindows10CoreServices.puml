@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Windows10 Core Services
+' Category: InternetOfThings
+' Description: Azure Windows10 Core Services
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10203-icon-service-Windows10-Core-Services.svg
+
+sprite $AzureWindows10CoreServices [64x64/16z] {
+nTU7Lkum30FWZbXEp_Bxl-szBIx1glE779ROf9_iih6V2ppVw8jScU8GoeHdFE-Hy7M29_whjr-wGZEFmVW8Y6TUNd3VGO790b0c2u2vWgzwOV_L0dsTOO4E
+8bU0YGN2qHjKxHOWrHulWBzCluuJZJFtwJNU2qOBl6i1WBi06WlMtWAkfPmH0F5OxlGuS6jlE7Fe7VIzSv4I8m9OlW1p672pVTlR4bRp1NYyGToioxAi-xj_
+Ba3u39hVbdLRbotn-FWPgF4pt_owNZiqdotG9Flz6hqj-rzul_tj_03iJm_ozANtDlvEyyVGuwKlGr_F1J8FpVUl6jFrrl6KomjvNxzTtFoHUCF3umW-VW4_
+5q29GHolpNju0GbSO7q_Bf0sdc-_XJmayEYbwxc0EQ_VBpY03gyoyDNQ2W2TvkFf2q7fzuVMyVYOOl_ZqqiuGUFaAIKzqC7uKN9knooNo3yNuhDUYS_v2kdw
+4YuS32TE1LP4b2kg2dEEQpCv0wqVC8HvNc3EFNF_07Xaa2zoiwzus9UyVIOJDpvHORC155Tain_BFm
+}
+
+
+AzureEntityColoring(AzureWindows10CoreServices)
+!define AzureWindows10CoreServices(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureWindows10CoreServices, AzureWindows10CoreServices)
+!define AzureWindows10CoreServices(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureWindows10CoreServices, AzureWindows10CoreServices)

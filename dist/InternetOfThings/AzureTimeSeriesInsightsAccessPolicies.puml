@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Time Series Insights Access Policies
+' Category: InternetOfThings
+' Description: Azure Time Series Insights Access Policies
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10192-icon-service-Time-Series-Insights-Access-Policies.svg
+
+sprite $AzureTimeSeriesInsightsAccessPolicies [64x64/16z] {
+nT55SWKn6CJWclhbR7N_quOTZga3sZtuUi0EuZdFWbx88UGGSjZcqG3r41oUGZsdHmETFujhSw1wldwnCL2lzIzs1kfBtnSsU1-esXYeKVE1gcYWLZm3dWtK
+l3_ojC_H1nPy2ttnkNfgugS5pp_pBZn_3RWkF7yvggPfD70vQSgJ0LnemeC1ZGOq6K2Z0RSAkORSaES-ltzQlPRw-j_h4teph_zoVJg7r1Du2AuF9rmUVS_j
+05xz5NfkGi-1RsyzVtzz0cx8DUGQSWsvXbnfCtu7
+}
+
+
+AzureEntityColoring(AzureTimeSeriesInsightsAccessPolicies)
+!define AzureTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsightsAccessPolicies, AzureTimeSeriesInsightsAccessPolicies)
+!define AzureTimeSeriesInsightsAccessPolicies(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTimeSeriesInsightsAccessPolicies, AzureTimeSeriesInsightsAccessPolicies)

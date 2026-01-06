@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Defender Freezer Monitor
+' Category: General
+' Description: Azure Defender Freezer Monitor
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03404-icon-service-Defender-Freezer-Monitor.svg
+
+sprite $AzureDefenderFreezerMonitor [64x64/16z] {
+xTU5SWKn28NXBGSICiRxFss5wxudrDj_d9blNUCaMLNS29BDBa68Fi0lmiIkdlV__dIghJVAduwjlyNxtRndkjwVpj4pc_NIqcFQeoMVzBl-iBVQyJD_Qzvx
+Pb_cM_hAzPVyKy-VcNqZhyfwLTtFOSrD2zx7y6aFWxW3JHaFxBnqHtDn1-SHiTluJQwyhwzVq1K-Slzvds6yHXp_sFdOUkkkwtqSV82__kBO1ttznwcFgW_E
+noPzhU0rg_jimbkcHL_O_ehFD3Nl9Sv2qGlfvG5_w6M9Gv_n_VB__x0K_6V_VoAkzLHPVSRh5m
+}
+
+
+AzureEntityColoring(AzureDefenderFreezerMonitor)
+!define AzureDefenderFreezerMonitor(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderFreezerMonitor, AzureDefenderFreezerMonitor)
+!define AzureDefenderFreezerMonitor(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderFreezerMonitor, AzureDefenderFreezerMonitor)

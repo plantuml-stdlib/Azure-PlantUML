@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Cache
+' Category: General
+' Description: Azure Cache
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10786-icon-service-Cache.svg
+
+sprite $AzureCache [64x64/16z] {
+xTHLbiGW441HIWamPzZ_QbkWIHkMZClxln6auhjde6GsIgZt5bkQr8X8H9mZ8aISU4B1nBMeFABFYTiHf3eSkL_-XhOd7WJdp1izrZpUhfseMhlah5MLk-zV
+Qjv2YavsSSyjAcKBEDHyK4WXrxsLh852tGU7S0bPD7s-S_a7cA2aeU5FMOH1uaFBfnnZ6vDDkkU3zyvMde6aYpyruNDkKHLXblDAE9-QzlNUxl-zNwmAGccR
+Nmy68ZvEzzUXLpn38YuH8QvFy0FlpfhgKnKdFBM68-Pb27tl082QGvbYV1bup0z8jo6rd7SYSz2nr_IZOfVAJ18TVxyghxD9DDrDWXIAJlX4g38NH7JMftXz
+BnBBgUnVvlqrkVhmmpozpHEypSFRF1fyYoSmz1OF1lWD7et1DtWonj2Tjviyc4kqosFXm7iyhNpN_zzy_IwFXIFlyUNu6NZR-NawVt63fyVpuxPvDC1tdkEf
+UGz05H-dlK6-z_7Id2VWca_vLhUUQtxm3DkRlx6IMwcBvpe-JjNqSRgAZvkJekCxTWG
+}
+
+
+AzureEntityColoring(AzureCache)
+!define AzureCache(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureCache, AzureCache)
+!define AzureCache(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureCache, AzureCache)

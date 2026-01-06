@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Public IP Addresses (Classic)
+' Category: Networking
+' Description: Azure Public IP Addresses (Classic)
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10068-icon-service-Public-IP-Addresses-(Classic).svg
+
+sprite $AzurePublicIPAddresses [64x64/16z] {
+xTC53iD034HHUnmktV-s3TeAC-SBHxkltD_9UufcD8_77SU7meEJiC7JY8xeUJZdaiyB_C45Yix_-t6z6RcndzEY_l6FTq34qCNnac8XNd1Ql84upcu9PQjy
+rEMPif0AofDa8H_SuLMGOqyVa_9HkvVI9UWgULdDsoNMHzF50rw_Yz9pi0bxD7H-_z0x-W0ivQDExpg0EALbGm3dOl-VntjpkBU0dzNZVxFupNlw0m
+}
+
+
+AzureEntityColoring(AzurePublicIPAddresses(Classic))
+!define AzurePublicIPAddresses(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePublicIPAddresses(Classic), AzurePublicIPAddresses(Classic))
+!define AzurePublicIPAddresses(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePublicIPAddresses(Classic), AzurePublicIPAddresses(Classic))

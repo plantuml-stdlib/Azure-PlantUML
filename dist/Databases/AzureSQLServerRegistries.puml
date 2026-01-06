@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: SQL Server Registries
+' Category: Databases
+' Description: Azure SQL Server Registries
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10351-icon-service-SQL-Server-Registries.svg
+
+sprite $AzureSQLServerRegistries [64x64/16z] {
+xTM9SXin283X0W81svbz_xUjX3NAOYksUb_vvcoJ7uZFy-83t3bl2YLbbI8inH0g2SkJ62UOg7owG9OyO9P49IEAAVZGoqEELDO8Lxta7CiJjEfbBm-qwkNI
+qxVq4Ztc_ImJyui-1YW4QcbLjKohj1mnzqKk0uuA0RdQWWgbvwyh4xR-C1WmdQ1zEK5trmFIJQ7MDm9N6638VHRxWnAy2rcUzi7TX73HLdVVwGUjyRmnYwZv
+iDzdFxPdkOAlxWjVVVVzlto_9F3BxqSAiEwLMTI3LUPg7ipixdvQzORGbPvmR0297W3c_H1Mzpl2xClyQUwpt5S0K3TXzzh_lse_WhTx0I2_mR5Oshsssoi0
+rCWriZ58PezBXLeV2018FSv73sqdZrxBsbll10rPFviySBllrW_riJ_Vdl-AVO3NqQVzVeHpPVJnl0De-llhRc_7UAvhpsGy_k2xlL1rw_ijEjPu_kNMnrV2
+YnuMhp-AcuRdlI9qx9r0vCNs-k2cLNsm_dh3o5s7buz_nZ5WEi9kFvvzqE_elH0L-uu-_47zH__vE_jpxNlwiDVx-QwT_dpANmmuNpk-9yv3zjCFNm
+}
+
+
+AzureEntityColoring(AzureSQLServerRegistries)
+!define AzureSQLServerRegistries(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSQLServerRegistries, AzureSQLServerRegistries)
+!define AzureSQLServerRegistries(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSQLServerRegistries, AzureSQLServerRegistries)

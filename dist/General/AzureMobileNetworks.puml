@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Mobile Networks
+' Category: General
+' Description: Azure Mobile Networks
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02794-icon-service-Mobile-Networks.svg
+
+sprite $AzureMobileNetworks [64x64/16z] {
+xTM5hXin48NXSmOC5z__RRkUJIUmaUkiL64-mONaDmP-_u-tj_wH-kaulPP_F75wydHsylHwtbijNafjomFSjDK4INniQprl1b3DBqo0_k-Rp5eZlcKOcrZg
+ku7c3w0Vmq9UYQmJfI_s3dcIC_BP0BK4XVg1H3xflRW5xha9iQ6esPQZVKpxKGSPkUxfXl5Rv9C1gblc4ZLp3wQ0r8yRarotNF1uVeWyFLzx88o7gwTCtqRr
+cYiKa2qnKxERcpiuv84ar9NOKVFcZdBrTgM0QfIydBtaqHyyR3w0SlkkKuAP7-JqLzYeNndgiKivVLBGJ8KKiSZbOsRqTqWZG3BsRg1F-_xO2q6zVk3Gl7_C
+P2z1NNKBISOeOmjjlW2_G90n4dRceNvCNVjzVYVYLxxMsz_vD3OTblhoqCV2p_I3HkzkEYprrOCYY06y7A6yqESO5lChkTmNJnBzll_L_hTw8X1BjrVw5WiG
+YZ8Q0Y2nrCSxi4MFWVdhHXVx-Dfn5L4hG_mkvcLNFoUYRsLYtl-6TgwFFBHwglzDlPxeivukeKxobH7QKXrwQ_MWBSGdlRtz0G
+}
+
+
+AzureEntityColoring(AzureMobileNetworks)
+!define AzureMobileNetworks(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMobileNetworks, AzureMobileNetworks)
+!define AzureMobileNetworks(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMobileNetworks, AzureMobileNetworks)

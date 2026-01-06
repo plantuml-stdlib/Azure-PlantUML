@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Intune Trends
+' Category: Management
+' Description: Azure Intune Trends
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00408-icon-service-Intune-Trends.svg
+
+sprite $AzureIntuneTrends [64x64/16z] {
+xSr75i9G34DHMdhH_bTB1vbKcPIHtmYT-7wmHz6vqzuUbz_WRgd7Ke-b7ajzyksoX3-IpZlRvxjNYSztpxvEyzt_CLFnwJUx4mwDFpBRV5Puyb4T3YYSZbpA
+d6VKcSmpSvwxUVQAht4xEH_WBjyL2kS3wFfIuKpov8ANkUwp_1d-zUGBVEVEuq7kyjtsz-6xdqP_h-_3XmyVll3u0kiKtG
+}
+
+
+AzureEntityColoring(AzureIntuneTrends)
+!define AzureIntuneTrends(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureIntuneTrends, AzureIntuneTrends)
+!define AzureIntuneTrends(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureIntuneTrends, AzureIntuneTrends)

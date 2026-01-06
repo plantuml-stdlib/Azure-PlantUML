@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Feature Previews
+' Category: General
+' Description: Azure Feature Previews
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10827-icon-service-Feature-Previews.svg
+
+sprite $AzureFeaturePreviews [64x64/16z] {
+xSl50SDG34J1uCjn-wysp2Zz3TdMt4TlD0yo-axsrwzVltxz-lN1-dWVxsDzi3xUn_fWVRoFzx4-M1_lOtsmFh_zalErqVwrq_frrFHr9lzrQP7ykfRxkYF-
+Pxeh-lL8xEk9mDTJppw0Ndd-5G38SlKzAm
+}
+
+
+AzureEntityColoring(AzureFeaturePreviews)
+!define AzureFeaturePreviews(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureFeaturePreviews, AzureFeaturePreviews)
+!define AzureFeaturePreviews(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureFeaturePreviews, AzureFeaturePreviews)

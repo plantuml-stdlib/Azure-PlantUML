@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: VM App Versions
+' Category: General
+' Description: Azure VM App Versions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02806-icon-service-VM-App-Versions.svg
+
+sprite $AzureVMAppVersions [64x64/16z] {
+xTNPWjiW38NX0mX9TDFxlsspAS5ZD0waU-Ux_try9VWbPh-tvx-w_-Z5XD-bxKObwD_NFZcLWN5VYxllJ_KPZkHcjizNlDWNSMizlTuNLzVwxEWFwBMreDU1
+Kw-FlkevrQ6urxulA7zchp-l9yTBVI_kMz1dsSYp_SvKNx13KTz6TAS5h4rHErdjhJgp-RvksLnlzIsPwUl8vrDkAxcpawNSFTSZxDdiqw76VPBepGySzjmZ
+9EvPwBFZNWRgN6_SgG0oT-fXpxsICi2zkFzqiUr15Q3ZtlCJwL1YIKZIYVfFepwH205reZTvg60H0VBYVYvoKW0-xDkWvsl701trxK7kIlPhdWxwrb4dOBse
+G5KNj8EUajuavB2FZ_bZb009yhYlIPq05FGjV69Jfhi41FEqo_sRPKlqfDbJMiIUj9oxvTojvswzTksJw-hl
+}
+
+
+AzureEntityColoring(AzureVMAppVersions)
+!define AzureVMAppVersions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVMAppVersions, AzureVMAppVersions)
+!define AzureVMAppVersions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVMAppVersions, AzureVMAppVersions)

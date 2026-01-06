@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Network Function Manager Functions
+' Category: General
+' Description: Azure Azure Network Function Manager Functions
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01001-icon-service-Azure-Network-Function-Manager-Functions.svg
+
+sprite $AzureNetworkFunctionManagerFunctions [64x64/16z] {
+tTQ7aeCm30HGZ_6kkCh__-sD1hmp58DYhkzT8gSyuIXr-dyfcDDZ4vIE7ZX8ULpJ091OaXxaPkxDY9he0oSTLc_q4ci0JtMg13Xl8y1fubeGNYyRf9aRmBKt
+X1g8mpQUcWSkkGw_xiIh1fgMaCdhoXEleODxRz0aqU31tFTeUNfgtQzhHOEl9dsmdYkxFJNKSszzdgF7W541g3Nh3IrlGSyZZxjUjrvwE_NsvPvVCJ_viUMr
+HiFhPfFXojkvXuxJy6F84pZorXY_WcY-pEy_G89yFG5R3I2MnVF9utNEE_1O0tDbmE83Gnc6Kdq2C6e3GPzIqaomD31uSS-hkFSohHe027eEkNYPrC3tFW8C
+UXHKxy6y1G8MypbdUJN0wASExq6DHNmfHNxtuzDzB8qtKoTN2qptWc3kUdJxd8TRFgNKzk7tJxTd6OgNVb_k-PppZteKz7hblf_-UZu
+}
+
+
+AzureEntityColoring(AzureNetworkFunctionManagerFunctions)
+!define AzureNetworkFunctionManagerFunctions(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkFunctionManagerFunctions, AzureNetworkFunctionManagerFunctions)
+!define AzureNetworkFunctionManagerFunctions(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkFunctionManagerFunctions, AzureNetworkFunctionManagerFunctions)

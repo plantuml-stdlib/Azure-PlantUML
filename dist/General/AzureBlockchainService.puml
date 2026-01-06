@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Azure Blockchain Service
+' Category: General
+' Description: Azure Azure Blockchain Service
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10366-icon-service-Azure-Blockchain-Service.svg
+
+sprite $AzureBlockchainService [64x64/16z] {
+fTRNSlD020NWlsGFRSRx_c-Rk356PX5PdrluC58AddN667C_D6xPvUEPhm_qvWfVJhScZ2IxslFd0zrV0OL7nmChpjhpI3Mfzdmw0Q9Tdqsuwjzv75RlUqzO
+VSC3llgc1_X9RSlJK__a0s_AqlF8l2a0aeR7sWCaNHwzcH7kwVFeJUXy00flocS3iF9wvQhY0oe_txo7I-_JbzvR5jvhgVT2xUC4zn9sN78FHH-wIkzvySbB
+olpnF_p3IpmEAv_S2BhwgAz1TI_Z1CjxligRrRbhUILMUptLgInxlWeU7l7FgYVeOi6ja9mVTCAg2lzlYQe7Yoghkgzwa5P9DVXrJrQ4QF1L3zwhJ-s-wW4y
+_b2vptiGgoHQUen33qA2Zfv2J-tDxEZPJ72BddfB_6rcpvinyT7RDTpnZqKvUWAfMTjVm-J--GguvOqGurvwtYJXP7slmfHyVBB_JDw_7-iOOiRHN-Qaw3tJ
+I_5NkFW5BxxePZvKWvz9t6SzzEfbfea-hKgif3tLWhBMtbDy0iJcIGXwcI_v1W
+}
+
+
+AzureEntityColoring(AzureBlockchainService)
+!define AzureBlockchainService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureBlockchainService, AzureBlockchainService)
+!define AzureBlockchainService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureBlockchainService, AzureBlockchainService)

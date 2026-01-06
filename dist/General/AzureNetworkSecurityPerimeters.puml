@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Network Security Perimeters
+' Category: General
+' Description: Azure Network Security Perimeters
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02939-icon-service-Network-Security-Perimeters.svg
+
+sprite $AzureNetworkSecurityPerimeters [64x64/16z] {
+fTP9Ukqm24JXzvB2ZIQr_zMcJ-3J1OGkPoh_DRCj5WBO2JsFdaVFe-VHyzZrSe-_bDkOTLe_u9Po62_maYFZnX_YTvm9Lt-Bb0UKgwVi3K1WFRat0C1wiZ0G
+Up8QEB-x8WzgEi2_nayrpwxdyTNpdbsFcfUVm3aqFR7ZXK55V-nwcThq4bJrz3dopx7nh7DeDDMvZLgL5mRg73J9eKKy7LXnMkHuBZYLf0CCciIZ7-ECkOBO
+VmwmwbyV_MTbJz-FhX_c_2a_p7dNunb_s-SRtWAyXYLU1rwJ5XvLVvtVOQxeJq5GnUS3kTU18DHyF53qF0-Ni-fvkhpkwV790ucdnsdrLv7NBEVCWQedhOUs
+yeUzYoWtBVndj1vpIq_huPHxMW-tp5D37Bkz0m
+}
+
+
+AzureEntityColoring(AzureNetworkSecurityPerimeters)
+!define AzureNetworkSecurityPerimeters(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureNetworkSecurityPerimeters, AzureNetworkSecurityPerimeters)
+!define AzureNetworkSecurityPerimeters(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureNetworkSecurityPerimeters, AzureNetworkSecurityPerimeters)

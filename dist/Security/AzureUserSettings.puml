@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: User Settings
+' Category: Security
+' Description: Azure User Settings
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10433-icon-service-User-Settings.svg
+
+sprite $AzureUserSettings [64x64/16z] {
+xTPNSeGm48JXKkZ1sgJxdzQ9JAkwXXAFVC_-nJ2sLrilTyEifnxrrAEUV3tWyS-JioL_k7Asz0zNpdhx1_KFaRDoE817qVtNOq7BzFJ3eyNVMxClxXxDtf-Z
+NDrphkVlwstyQPNhlaxAcTvMTI4EC8EreQx403PYTUDp_e1SjyGIvUDvXto2o5UFCnCCbAiUlvRoZndyFVxa01j6XfZmozTZ4aA8AIFd64B0oD5Zbi8gWWye
+EaSEgmm-G0m_YckF5JsUDiSlaB2nvjHZR-dv8ds8d5uWyZqeUjvWbf_YbDCBY6j8zucs9mP00urF0r1F6umWrhY_CXhoE3ufF02QU7jy4LVHfn3HO0Dz6RCc
+XAm-2oadqKG_aZqwUkdkTuQpBkxhsPnqvDrkFm
+}
+
+
+AzureEntityColoring(AzureUserSettings)
+!define AzureUserSettings(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureUserSettings, AzureUserSettings)
+!define AzureUserSettings(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureUserSettings, AzureUserSettings)

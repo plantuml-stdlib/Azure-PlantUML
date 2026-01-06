@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: ABS Member
+' Category: General
+' Description: Azure ABS Member
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10374-icon-service-ABS-Member.svg
+
+sprite $AzureABSMember [64x64/16z] {
+tT9LTWCn40NHa7hClV_L1atjgUYemd7ztpSWvVVMsYTvQpSVr_i-eVTv_T1gahTPIcEVq69XQfqUnCCvepcZES6v6z8gqB8EzmFX-RBua0kBrQfwjH3B5VW8
+eT77uAk37rsOzXhyle5Nx_helphxMl_LsTVmrSSy3rJDlWQlhdm4lBhomQ_Edgjdvlt5gwzVCnwuyfNl4nwuyi0_xLV6C_U-Qk-hzdwlhMVk_Lvx3rsVJ-_p
+8kSJ6lUxn4OzQruG6XT0zvjwVfa3lUzpCFOfcljqJTKlKtVkZQiBeDK2N5PJhF9xUm8
+}
+
+
+AzureEntityColoring(AzureABSMember)
+!define AzureABSMember(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureABSMember, AzureABSMember)
+!define AzureABSMember(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureABSMember, AzureABSMember)

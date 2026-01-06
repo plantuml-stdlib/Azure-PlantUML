@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Information
+' Category: General
+' Description: Azure Information
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10005-icon-service-Information.svg
+
+sprite $AzureInformation [64x64/16z] {
+xT57SWKn203HKOAP5VS_xOyuY-egv6pt_Yc0VS_aHKlOMy3UWlQOKw2v3fm3pW7dW7F0EU2OlkGgqrefjSiqlbx6Tglm0JAjRlSQ7I3pdFC3DEDL7dbGTLzr
+7dafToyQ15wbNKveeb708VJSgYSkrz9UVFrPtxTxec5_tl_xFUpHxs5VxEtQt_Lsxwkz9RsjUo_bRTNJ0SEz1fmFwDS4-CHpQci7s9lotCjpBy4p1wZ5vI_t
+I1z6qUNSVe36-fjdJp1rU1Ti7zWP
+}
+
+
+AzureEntityColoring(AzureInformation)
+!define AzureInformation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureInformation, AzureInformation)
+!define AzureInformation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureInformation, AzureInformation)

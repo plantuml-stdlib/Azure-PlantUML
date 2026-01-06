@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Data Catalog
+' Category: Integration
+' Description: Azure Azure Data Catalog
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10216-icon-service-Azure-Data-Catalog.svg
+
+sprite $AzureDataCatalog [64x64/16z] {
+xT85SWGX48NXeGsh2lU_RPgD9moFkF6lb7vu-wWC1pZkc77XUM9c4qu7IipEEHymFlEYgWoQUHKSVPRVVlk5tkQttrwOYSAJrhtm1P377jsFjEI5d3BBqswN
+WtsVcsKK1m_wld0PrrTmG7yxlwh565DA_czwFty5tbBmI69-MfJGoz3NBE4IYzfDAXmkIQdOrrgCmylONAzuhvJSPwMxHw0nb-9ysG_wMB-z3VibVllsNf-6
+F4C_h_veltrf8E0RwchgsqAd0znnt903SpvARX_SDG
+}
+
+
+AzureEntityColoring(AzureDataCatalog)
+!define AzureDataCatalog(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataCatalog, AzureDataCatalog)
+!define AzureDataCatalog(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataCatalog, AzureDataCatalog)

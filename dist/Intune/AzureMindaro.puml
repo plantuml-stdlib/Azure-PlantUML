@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Mindaro
+' Category: Intune
+' Description: Azure Mindaro
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10350-icon-service-Mindaro.svg
+
+sprite $AzureMindaro [64x64/16z] {
+xTS7ZiCW48LXwe3LkFzjO_GK5xsXfQdbtxxBDtYRKKg_449vlO1UrsyCC06XbpS_UaEZEArzq7jZSnJVs1oPeRUkmqN6tZOdH9dnDQ_hQM-TeXSyJH1PySZJ
+vlCUaLxp-2RWrZqw-Fl-x__Ub74TNwOov6Vrymwf-UFUtEF7rydJUJewBs-U5b1yK3Xuqje4evvLy54zLcXpVK98lGMirnVuq8mrhmZTod21xUmV1LxqOlMj
+unAiwmM-CI5AmyVpFVWzh-Z3nuJ4MTbVMoS9mIFIvCKQd_QySSBUEkQ7Fpa6M66F2T3iAm_W642-vg7PWny5321l7HZxu-AFAr2zLNtEkUwOZyIQ-ia5dwEn
+wSaJ-9B7W9FNPC5ZmC6N_8QYiNdRyiutjEAnlhuEigrwwgSU5ypbiFjYsdvu__EbrlBpDsZDpnmGV6IpHgwjaRlwNBWEHwT_zG4j_1kFfvqJKteHVm
+}
+
+
+AzureEntityColoring(AzureMindaro)
+!define AzureMindaro(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMindaro, AzureMindaro)
+!define AzureMindaro(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMindaro, AzureMindaro)

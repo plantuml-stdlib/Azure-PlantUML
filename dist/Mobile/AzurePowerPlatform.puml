@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Power Platform
+' Category: Mobile
+' Description: Azure Power Platform
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 03335-icon-service-Power-Platform.svg
+
+sprite $AzurePowerPlatform [64x64/16z] {
+xTHLaiD038HXZImDBUZ-frrKkEFgyZ9yxvrV8SVtf5vFj6E-b5XN-fEnDmzkNaoJM6Cv1_lK2vDF9_CqP3r__VpKP6i-BLlpgVDv_0A5pNDlWCydu_FyNkWy
+lj_uVO5v-lmUmCBdBG05UJmV4e0OUVsD1oRb2hM6ypnjDsbMFgv7wijuJfYNnTpz-7dNE_u-ORxa_B3lwM8EysfloelzXVn_tg_cdSdtD-RjRNcFj-I7nnlo
+erdWl5zEMqqjLRU0n6y03vRDSQe_gH8aETqc3PPUR3DFMawtV3wLmnRa2RKda6Ves_8X5UPvIkJP0t2UFw2rvfddYUVu1SWJ1xG4yim1BO4yGuayTu369aha
+cGCqDj93_Wq7bDYij5PDOZkrHUA7UGG
+}
+
+
+AzureEntityColoring(AzurePowerPlatform)
+!define AzurePowerPlatform(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzurePowerPlatform, AzurePowerPlatform)
+!define AzurePowerPlatform(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzurePowerPlatform, AzurePowerPlatform)

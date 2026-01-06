@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Device Enrollment
+' Category: Intune
+' Description: Azure Device Enrollment
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10337-icon-service-Device-Enrollment.svg
+
+sprite $AzureDeviceEnrollment [64x64/16z] {
+xT97OWCX38LXHkNXplrl6yODuY0imihbttzKfLTlz-_cUAxl8wt9Sx_5U9lAwp8UJtfw8V_wdlyacnno7iym6lTCQpBev_SNRgLkJqihUGd_zJ4QFiQs9ruZ
+ydbwI1JNX2atvWLrocEUyPZuVU5rAcvVE8MWkENsPSyG0k6Uq-kSPrWUBW_RYyDpnwl3IyU3ddlqF3kzNfBi5xuavWFesQEwFeL60a1jlqKfjEAklxKrzrU_
+XrpYp1QvfDtxbr2bgqV9zAdKzJJhM-bcu_JYyAdZUSv7bq_M_CUDxOq5A0J1hOtN9xJQ-7sQyCO2AMKVcssAjrQ8AVkwYCnAgLdPU-qN3u4CRpNlwu0uwcLh
+brwy7m
+}
+
+
+AzureEntityColoring(AzureDeviceEnrollment)
+!define AzureDeviceEnrollment(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDeviceEnrollment, AzureDeviceEnrollment)
+!define AzureDeviceEnrollment(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDeviceEnrollment, AzureDeviceEnrollment)

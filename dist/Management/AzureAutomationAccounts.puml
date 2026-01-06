@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Automation Accounts
+' Category: Management
+' Description: Azure Automation Accounts
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00022-icon-service-Automation-Accounts.svg
+
+sprite $AzureAutomationAccounts [64x64/16z] {
+fTDPOkiW34RXUriGfDE__zLsDANYs2BOvos6JtA7ACYsj1AvvOlUhl7hlfxt-Qlqs5lp-N4i15YVuFtl0s3uEEhKRf6tKl-4zTcsHDuhjfN9Mo9d2I_VesVu
+rQtv1BxcySFtYeOAy-kJEuCtSFFSF4TS3xxaBVqjWwDnlQki-XnvpRtdqi9-SXpF-7zm38Yyi1utGcxa742yl_xmMiB3aE_VBQj-7lX9pxBPccTpdfSuM-Cr
+-DuZ8uVFWQ_qikegAV98NxddnsyWsjxkWUEy4mnOvaeyFkOtS7zU92axNZYVlkVNytG-8ETLxllb-NyTkyktAhk3swQjxZNrnN4qNKyU3xXXlUDev4FjLtSx
+BFG5VCtFUL8mmFPu5VZ-075x0-0S86c7gqNkZjHu0k_NtXIqUGaUHVoQbwJdpj-M-LUdr-kQr-YVTQwdBGLz
+}
+
+
+AzureEntityColoring(AzureAutomationAccounts)
+!define AzureAutomationAccounts(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAutomationAccounts, AzureAutomationAccounts)
+!define AzureAutomationAccounts(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAutomationAccounts, AzureAutomationAccounts)

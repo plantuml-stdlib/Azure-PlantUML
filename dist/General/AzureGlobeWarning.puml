@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Globe Warning
+' Category: General
+' Description: Azure Globe Warning
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10809-icon-service-Globe-Warning.svg
+
+sprite $AzureGlobeWarning [64x64/16z] {
+rPM7hkGm30FbGbw__F_Nlc8uXAFiew-NGTqOCr6qxVXTWA_ya5fUJGn-eC49JaZe42ziRGN4EGJnYjLj0Dulf0-43NHca0imWKBwmEO9c6WLFk1rHBIq0nYV
+cHeHK22jW5k_nmibxK0-TZfBlD8LI0Fi_1Q30WNk0_ZbrTPQYSPNjWCyM5u7K2AG0iuNFUHN3hp_xhOy-T4l0NBwC7wBnIyu0_Bk_YM0ilhHk0Rus5y3DOO6
+GE_XmFXheCVLZyg9zHKesO--1jxm5MXnymjFtFrdeDpzQ0euVmHgJ2hGOr90uVntH3oahdxS_4_oYvJIUWtHBxUNdmTeCT3pY-B6by-IVT6-nQ-BK3ekBt7w
+a9y334ERklFhdJAftOm_0u8Pi_t9Un_mlWOGMtqNi7e_VY1W_pvzmElxW7JZky1Ur_N7WSFfEhlFiDfE3ntcn92DdevfZktg8FoP2mXptGOyxuyDX85653zi
+Y-taUmA218uVXoyS_w_FmK_eFnR0W0lVzIRYBU8dVNZFVmj-_W7wyHju1W
+}
+
+
+AzureEntityColoring(AzureGlobeWarning)
+!define AzureGlobeWarning(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureGlobeWarning, AzureGlobeWarning)
+!define AzureGlobeWarning(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureGlobeWarning, AzureGlobeWarning)

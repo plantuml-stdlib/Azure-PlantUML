@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Tags
+' Category: General
+' Description: Azure Tags
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10842-icon-service-Tags.svg
+
+sprite $AzureTags [64x64/16z] {
+nT87ReGm44PXEfuPMtl_s-Q1IegHOljFURjqFlhhZt9p_jRDlgPn4hdRA8zSIWvt7-JbBhlx8FTrETeFu9_BnITQEGnrSozbcQwYH8ktsi-tzoRlNllzzgN5
+UrqkUOPRo_txKpbdInvkAPbtSji_bpHE0Z-EdKPv2Z8ECSOjY3Z024_8PTuyd8LUJl29veYJfMv-H2pJbKMg_1C_6dmpl_r--wYzFV0gYzYuVIO7zNBo26U8
+zCLx4oSmdSTLFwSp9VHT7wyJUEtxkLM-aNzp-tPsUR8HVZv-FV3MNXyoYPD9d4pYP18dKpYT_yX9ufGQUzQaST8uQPmqJXedZPF6IUEaSRA7NZrfd3HE6YUD
+ayP9uwHnqZWrSBKt
+}
+
+
+AzureEntityColoring(AzureTags)
+!define AzureTags(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureTags, AzureTags)
+!define AzureTags(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureTags, AzureTags)

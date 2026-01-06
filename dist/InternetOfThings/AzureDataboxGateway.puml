@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Azure Databox Gateway
+' Category: InternetOfThings
+' Description: Azure Azure Databox Gateway
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 00691-icon-service-Azure-Databox-Gateway.svg
+
+sprite $AzureDataboxGateway [64x64/16z] {
+xSz7SW0X34HHWYJ2HlS_hMCxCsrAbBsQj_yDyZzokzcxanWEQeZNqE8vn7E8vt2Ocnps5i_1cNxO6yK715JD6a5hK2Czhq7P0C_1MCzpFa3oo81SQvTepWTW
+gxTV1uHhn5LVKztvG7yUACi-5G7jH7ENTP-oGEk4kygBz1DkiCwGFjMp7WFQANbLLdPw5UA_-hgqtTUyLFVV3_V3vLab_Q1SFmQMz_E-kq39MLPux-xwFX3h
+HOLHcZ-JmzvL26Cv17j_9qfwdeCgwKc-Nk3zdAY_gMhFz0kRFo0-Thiz0W
+}
+
+
+AzureEntityColoring(AzureDataboxGateway)
+!define AzureDataboxGateway(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDataboxGateway, AzureDataboxGateway)
+!define AzureDataboxGateway(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDataboxGateway, AzureDataboxGateway)

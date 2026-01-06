@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Virtual Visits Builder
+' Category: General
+' Description: Azure Virtual Visits Builder
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 02949-icon-service-Virtual-Visits-Builder.svg
+
+sprite $AzureVirtualVisitsBuilder [64x64/16z] {
+xTO54i8m48LX8Xl3xdzQPA6QLtVvyPtviEfpsvq5txqGCjulFz27CVpfJ-_xvH9lUZRGsyJRVfMzYUCn2dXzYTEVEQ5svHq7_MTka6THz5JXdGLryB0jULCH
+wLRUwCeAsp_qd_aGJvDxROpnd9Ln9kzLx0tdQpC95qALlEdYfH2bTw1sddwn5r9JLi633SsuoFCxG6yfpkQy4acgaxUH5sgWruEyBFB4E-0Ty8e8UbpHinxW
+9H7meRR4Q_xXXTfvyu_00PmVwi-V6qu0-A6kMi-jrtErVFkTlG4
+}
+
+
+AzureEntityColoring(AzureVirtualVisitsBuilder)
+!define AzureVirtualVisitsBuilder(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVirtualVisitsBuilder, AzureVirtualVisitsBuilder)
+!define AzureVirtualVisitsBuilder(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVirtualVisitsBuilder, AzureVirtualVisitsBuilder)

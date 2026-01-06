@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: VM Images (Classic)
+' Category: Compute
+' Description: Azure VM Images (Classic)
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10040-icon-service-VM-Images-(Classic).svg
+
+sprite $AzureVMImages [64x64/16z] {
+rTLLWWCX383X189bxVwdhRT1Dj39hFxFyurX7_-yk2_nlrSWMtSFnl0hFOLxf0AvnlUUeeGATr5odG_nKT3VL_AZ_umuSZ26JtgaSpZrAQdUqpMl-NH9yOua
+jzaZjU4MBrhoga-3Hmeqji77qIUUUegXdIYjZimCKkkLYIOw56uz8ApzuoCoS-zXvUKEYNdYSywQlnGAw_w4LpwMijEVUiQxYI-3nzvJZ9g_r8-_4v_XL53z
+lSgZnUUrbsZm0RPumD3uXB3sRIuyVFOWhRpaB_x-weelHVM0TF8HGVFbKkUxZt0WJRsqFdz6xpUUVzXvy7JFhyzVSY2-W2dnQFI-t4gsok_7U_jGUwdxs1xN
+_Rn_t-dvJtd-SL_QZ5moSFCDtaknto2NIOOtRrlpF6jvWxpgUxoz8m
+}
+
+
+AzureEntityColoring(AzureVMImages(Classic))
+!define AzureVMImages(Classic)(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureVMImages(Classic), AzureVMImages(Classic))
+!define AzureVMImages(Classic)(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureVMImages(Classic), AzureVMImages(Classic))

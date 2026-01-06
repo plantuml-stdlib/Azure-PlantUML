@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Arc Kubernetes
+' Category: General
+' Description: Azure Arc Kubernetes
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 01088-icon-service-Arc-Kubernetes.svg
+
+sprite $AzureArcKubernetes [64x64/16z] {
+xTO7ZkGW50JG3UPdnlU_xNurBZoCUr6xKTfGoYMUiu7z4ZLp4_bSiPehgadKtADcN4HKMtLqwKLvxgtM25VnvZDPPTmq5DNKCvandzuic5sPJ_ynytJrzE_u
+_zxD1_zX2KU_JtpKJ7WS7bMumKyqVfSK3zyQQqrLLDE0oDV6LUupKTDNZgHgZiiMp1ZjiksyR5IAKOZLundXiQCo3UkL7wFIe-fUPNpjQY7jjSEhUQXaAztR
+TDgWBrxTYFzE_zyBNxpAuCtTvRS-4whTetA3pr5-h6JmoH4v_epcyP_5-F-GJ6U2ebYspvXdnTULFFKyTNyxxXunNWYhlRP_mFQXMdyGXavHpNmD3vF-reGs
+hpMggPvlRUQ3s8NXCviPSJ3Bkk_LzlEPtJBoWfVjaOk-vpE3lkMHhczx1FosHv8l-H_RcXyZrIsqUw5jip3zxBbCF7dRBTJqqaRgeybAKSrJMBscfw69cfwU
+QNH3Y2wDz6hagEy6d6YDPzPufYpebhAYMye2ldE8CkATnfJo6WNV-VcbZ06yyWozcv9uuG3xcRAYMrOmic9xxj5V
+}
+
+
+AzureEntityColoring(AzureArcKubernetes)
+!define AzureArcKubernetes(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureArcKubernetes, AzureArcKubernetes)
+!define AzureArcKubernetes(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureArcKubernetes, AzureArcKubernetes)

@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: Azure Stack
+' Category: InternetOfThings
+' Description: Azure Azure Stack
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10114-icon-service-Azure-Stack.svg
+
+sprite $AzureStack [64x64/16z] {
+xT873iCW38NXD62RxllVjWuDbl84MDtprtfLzH4wZe-BtHpkzrZ_z-CmjT8LO0qN-24hMFHeBxwNhjUA5mcuIBGdUQbuVePdobMNwvr-mSUGqqMLTT7lXuiV
+vUFSPHwrHfVxk8mlz65s-IJI4Ie-DlrOS4vONuoNUECv4PaEc9hcM1QLfLMv-No0z4Ajt4gQQAaJwCBDUnblUE6SIDy3Bbx8OZcdnfRvMKF2f5bXc58MXtbf
+7KvOw7YVQ-42JxN6glSVRwrSZnmla1mF68gUHutvdhfbXFyVypNE6bcip3AlDVbH8rvS0Ns8Mjt7Sui3EAqj-FyJGt6E5oNmTW1eYgNbErBnJdW1yyu9pWME
+rdZ9ynbzBhHvyBq6bsI6w_jUeC85QdWHx5Zb2JmSuBO6V-41gUrJkeIhnoIvhQtDiPAhDrRnK5hRKp3Lm5_S2G
+}
+
+
+AzureEntityColoring(AzureStack)
+!define AzureStack(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStack, AzureStack)
+!define AzureStack(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStack, AzureStack)

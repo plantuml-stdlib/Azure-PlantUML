@@ -1,0 +1,18 @@
+' Azure PlantUML Sprite: SSD
+' Category: General
+' Description: Azure SSD
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10837-icon-service-SSD.svg
+
+sprite $AzureSSD [64x64/16z] {
+xTDLOiCm381XMLZE_KyxS3rGf736-v-sjbzYx6h_wS82NrhWIzlH7zRuGtozp4fRmGlCgZt0WkTvdgEt6itpP3LzyxR6M_2OZhNrzYKE-H8u9XpAR5y2Z_wD
+wz1EgVWdgzLuofFZmLlFIvXypa5op_dakS-1Pta9XtB2KpPvcZn0-V71OGuuxKkuqJZi3_TAScxp0zI0zvQTstmFpFb3zAqY-IfO8yvhz9oV7z3CI-0OnjwI
+p7D--n1YFCSNQMEVwIcPF44QPHx3vAL07cQ-z2VFaRTAvi4bYZ3SUtyuripFq8qzP7TJ7t3CVD2fFxxp2WlIw6M9b-XvYUTTnzywpAw1vfUtfpzkQgC_TPrj
+gkjqKpjxOVMn9FyFUm1rCQ3xdm0dl7onHrU1ul-Vy0XJIV0kfj5OjEyxtL3tt1PUMy__UmG
+}
+
+
+AzureEntityColoring(AzureSSD)
+!define AzureSSD(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSSD, AzureSSD)
+!define AzureSSD(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSSD, AzureSSD)

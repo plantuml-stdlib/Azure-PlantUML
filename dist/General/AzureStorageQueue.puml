@@ -1,0 +1,16 @@
+' Azure PlantUML Sprite: Storage Queue
+' Category: General
+' Description: Azure Storage Queue
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10840-icon-service-Storage-Queue.svg
+
+sprite $AzureStorageQueue [64x64/16z] {
+xT950W8n38LXfX4SxdzQN5vnfYx_gf9lbstfzHRpaItEtA43dxlu-NQxSAfitxtx_eXJ6Nc6dk_smmjl9X29q03HGHk8dlsGp7VVVVScTq-GJw_dRAzgUrNB
+ymLbuDN5QpjUldX2pwgCdh_wGt9BlmRUeHpyreqVSk2brzi3
+}
+
+
+AzureEntityColoring(AzureStorageQueue)
+!define AzureStorageQueue(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStorageQueue, AzureStorageQueue)
+!define AzureStorageQueue(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStorageQueue, AzureStorageQueue)

@@ -1,0 +1,17 @@
+' Azure PlantUML Sprite: Microsoft Defender for Cloud
+' Category: Security
+' Description: Azure Microsoft Defender for Cloud
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10241-icon-service-Microsoft-Defender-for-Cloud.svg
+
+sprite $AzureDefenderForCloud [64x64/16z] {
+xT07RaGX48FXeSqyLUv_sbIi89a8d5xsLqcsV8Pz_JFpfzvZaQmfbNEYvcIjBuHl2ldKTQJb_fWFhfLabaeBxi1xjb7sqBqdCvHSzzccakphaokj5NkigXxN
+nWyHVNiqFltVD5_CBC-FeWX-a3e_Y_nr_kPBJcQMydFZHJdspInHPatmHbpqM83MlKryvo_oJq5lVLzx0r_ullFeCxopTztFgRwJztFlQt-DNlFNQ7WQEFKh
+tWCNs7WwdYyGjIogV3m_WLquNXvWhWymvu6T9wvT8E350URw0BW-m5mV01S6T8u1P-xW-vol4E3AWCvHOE25Xy1n1JfS7m3NUt8HZhlh-KY6YBYSgFNk0G
+}
+
+
+AzureEntityColoring(AzureDefenderForCloud)
+!define AzureDefenderForCloud(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureDefenderForCloud, AzureDefenderForCloud)
+!define AzureDefenderForCloud(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureDefenderForCloud, AzureDefenderForCloud)

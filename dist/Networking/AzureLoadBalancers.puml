@@ -1,0 +1,19 @@
+' Azure PlantUML Sprite: Load Balancers
+' Category: Networking
+' Description: Azure Load Balancers
+' Source: Official Azure Icon
+' Generated: 2026-01-06
+' Icon: 10062-icon-service-Load-Balancers.svg
+
+sprite $AzureLoadBalancers [64x64/16z] {
+dTL7WXin30NHRY9ff_kVTW8f3GiED8nQJT3xIXsUn_ohPp-VzVchDd_NuwZ5MOkp9XV1G8TZeCCvqE2jWG3dGFX_yjP0h5nI7gig3_rkMVqkQWEHqiaZLURq
+hCpfMPdJioAdpnKvVUx0IpvAtCRrrR32m5jGtzUhctzsvq3cAl6JN4WmAsaWSo5d0i-1pBUtgMuna_Ks39u3vF0JYSzqJi5p87EnbRuu1jHMAXWWH_Crt_xJ
+zwz3TXW0H_lfPp8_Yvm7SldTw_Oszt8Mp8zUV_SQSHYuZw-V_9a7UFJapq_mIO4_zm2yfGzmhU7x9yy3-VW17x4zU1xOtg-PgBwENzy-yJoWyKwlbCMF1pzU
+kp97uAS17syzl7e1oZdUUki2EAO_S5RsvApewpSWkMQZm3b0FhjRDs33rJVpsi2uTbNEWGiv-Rd7mJycBmxSyE25WPLiFXwh0ju3iRs3rmVypJNp-i1OTt_m
+-i0ipFn1NXz0uFLQdBKu0-y5tWkyrx_v9m
+}
+
+
+AzureEntityColoring(AzureLoadBalancers)
+!define AzureLoadBalancers(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLoadBalancers, AzureLoadBalancers)
+!define AzureLoadBalancers(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLoadBalancers, AzureLoadBalancers)
