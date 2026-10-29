@@ -18,7 +18,7 @@ public class Config
     public static IEnumerable<ConfigLookupEntry> ReadConfig(string configFilePath)
     {
         Config config;
-        using (var input = File.OpenText("Config.yaml"))
+        using (var input = File.OpenText(configFilePath))
         {
             var deserializer = new DeserializerBuilder()
                 .Build();

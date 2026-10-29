@@ -4,74 +4,45 @@ If you want to have customized builds and/or experiment with Azure-PlantUML, you
 
 ## Prerequisites
 
-The build applicaiton is supported on Windows, MacOS, and Linux (Ubuntu 20.04) with the following software pre-requisites installed:
+The build application is supported on Windows, macOS, and Linux with the following software installed:
 
-* [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download)
-* [PlantUML](https://plantuml.com/download)`
+* [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download)
+* Java 11 or later
+* [PlantUML](https://plantuml.com/download) (`plantuml.jar`)
 
-### Playwright CLI
+The same steps run in CI, see [.github/workflows/build.yml](../.github/workflows/build.yml).
 
-Download and install the Playwright CLI by running the following command:
+### Playwright browser
 
-```bash
-dotnet tool install -g Microsoft.Playwright.CLI
-```
-
-### Additional Setup for Linux (Ubuntu 20.04)
-
-For Linux systems, Playwright requires the installation of additinal dependencies. Navigate to the `scripts` folder and run:
+PNGs are rendered with headless Chromium through [Playwright](https://playwright.dev/dotnet/). The generator installs Chromium on first run. On Linux, the browser also needs system libraries. Install them once from the `scripts` folder (requires [PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)):
 
 ```bash
 dotnet build
-playwright install-deps
+pwsh bin/Debug/net10.0/playwright.ps1 install --with-deps chromium
 ```
 
 ## Configure
 
 ### Add Icon files
 
-Download the [Microsoft Azure architecture icons](https://docs.microsoft.com/en-us/azure/architecture/icons/) and copy all folders from `Azure_Public_Service_Icons_V4\Azure_Public_Service_Icons\Icons` to [source/official](../source/official)
+Download the [Microsoft Azure architecture icons](https://learn.microsoft.com/azure/architecture/icons/) and copy all folders from `Azure_Public_Service_Icons_V4\Azure_Public_Service_Icons\Icons` to [source/official](../source/official)
 
 Place any icons that are not part of the Microsoft Azure Architecture bundle into [source/manual](../source/manual). For additional icons not in the official set, we suggest using the [Amazing Icon Downloader](https://chrome.google.com/webstore/detail/amazing-icon-downloader/kllljifcjfleikiipbkdcgllbllahaob/)
 
 ### Application Settings
 
-Create a new file named `appsettings.json` within the `scripts` directory and add the following content based on your environment:
-
-**Windows**
-
-```json
-{
-    "sourceFolderPath": "..\\source",
-    "targetFolderPath": "..\\dist",
-    "monochromeColorHex": "#0072C6",
-    "plantUmlPath": "C:\\ProgramData\\chocolatey\\lib\\plantuml\\tools\\plantuml.jar"
-}
-```
-
-**Ubuntu**
+The generator needs four settings. Pass them on the command line, or put them in an `appsettings.json` file in the `scripts` directory (it is ignored by git):
 
 ```json
 {
     "sourceFolderPath": "../source",
     "targetFolderPath": "../dist",
     "monochromeColorHex": "#0072C6",
-    "plantUmlPath": "/usr/share/plantuml/plantuml.jar"
+    "plantUmlPath": "/path/to/plantuml.jar"
 }
 ```
 
-**MacOS**
-
-```json
-{
-    "sourceFolderPath": "../source",
-    "targetFolderPath": "../dist",
-    "monochromeColorHex": "#0072C6",
-    "plantUmlPath": "/opt/homebrew/Cellar/plantuml/1.2022.14/libexec/plantuml.jar"
-}
-```
-
-> The path to PlantUML may vary based on the version you are using and how you installed it. Be sure to update the value for `plantUmlPath` accordingly to match your envioronment.
+> The path to PlantUML depends on how you installed it, for example `C:\ProgramData\chocolatey\lib\plantuml\tools\plantuml.jar` with Chocolatey or `/usr/share/plantuml/plantuml.jar` with apt. On Windows, use `..\source` and `..\dist` for the folder paths.
 
 ### Update Config.yaml
 
@@ -86,7 +57,13 @@ The `target` attribute will be used for the PlantUML element stereotype and all 
 
 ## Generate PlantUML Elements
 
-Use `dotnet run` from the `scripts` folder to execute the application.
+Use `dotnet run` from the `scripts` folder to execute the application. To pass the settings on the command line instead of `appsettings.json`:
+
+```bash
+dotnet run -- --sourceFolderPath=../source --targetFolderPath=../dist --monochromeColorHex=#0072C6 --plantUmlPath=/path/to/plantuml.jar
+```
+
+The program exits with a non-zero code if a setting is missing, the browser can't start, or any service in `Config.yaml` has no source SVG or fails to generate. The log lists the affected services at the end.
 
 ### What happens
 

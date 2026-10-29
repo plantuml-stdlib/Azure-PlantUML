@@ -17,11 +17,16 @@ public class SvgManager : IImageManager
         _logger = logger;
     }
 
-    private async Task Init()
+    public async Task Init()
     {
         // Ensure browsers are installed: https://playwright.dev/dotnet/docs/browsers#prerequisites-for-net
-        Microsoft.Playwright.Program.Main(new string[] { "install" });
-        
+        var installExitCode = Microsoft.Playwright.Program.Main(new string[] { "install", "chromium" });
+        if (installExitCode != 0)
+        {
+            // A previously installed browser may still work, so only a failed launch below is fatal
+            _logger.LogWarning($"Playwright browser install failed (exit code {installExitCode}). See: https://playwright.dev/dotnet/docs/browsers");
+        }
+
         try
         {
             playwrightContext = await Playwright.CreateAsync();
@@ -30,33 +35,17 @@ public class SvgManager : IImageManager
         }
         catch(Exception ex)
         {
-            _logger.LogCritical(ex.Message);
-            if (OperatingSystem.IsLinux())
-            {
-                _logger.LogWarning("Ensure Linux dependencies are installed using the Microsoft.Playwright.CLI. See: https://playwright.dev/dotnet/docs/browsers#prerequisites-for-net");
-            }
+            var hint = OperatingSystem.IsLinux()
+                ? " On Linux, install the browser dependencies with: pwsh bin/Debug/net10.0/playwright.ps1 install-deps chromium"
+                : "";
+            throw new Exception($"Unable to launch headless Chromium: {ex.Message}.{hint}", ex);
         }
     }
 
     public async Task<bool> ExportToPng(string inputPath, string outputPath, int targetImageHeight, bool omitBackground = true)
     {
-        var currentDirectory = Environment.CurrentDirectory;
-        var rootDirectory = System.IO.Directory.GetParent(currentDirectory);
-
-        var inputPathNormalized = inputPath.Replace(@"..\", "").Replace(@"../", "").Replace(@"\", @"/");
-        var inputTokens = inputPathNormalized.Split(@"/");
-        var inputFile = inputTokens.Last();
-
-        var outputPathNormalized = outputPath.Replace(@"..\", "").Replace(@"../", "").Replace(@"\", @"/");
-        var outputTokens = outputPathNormalized.Split(@"/");
-        var outputFile = outputTokens.Last();
-
-        var newInputPath = Path.Combine(rootDirectory!.FullName, inputTokens[0], inputTokens[1], inputFile);
-
-        if (!OperatingSystem.IsWindows())
-            newInputPath = "file://" + newInputPath;
-
-        var newOutputPath = Path.Combine(rootDirectory.FullName, outputTokens[0],  outputTokens[1], outputFile);
+        var inputUri = new Uri(Path.GetFullPath(inputPath)).AbsoluteUri;
+        var fullOutputPath = Path.GetFullPath(outputPath);
 
         if (page == null)
             await Init();
@@ -64,15 +53,14 @@ public class SvgManager : IImageManager
         try
         {
             await page!.SetViewportSizeAsync(targetImageHeight, targetImageHeight);
-            await page!.GotoAsync(newInputPath);
+            await page!.GotoAsync(inputUri);
             var item = await page.QuerySelectorAsync("svg");
-            await item!.ScreenshotAsync(new() { Path = newOutputPath, OmitBackground = omitBackground });
+            await item!.ScreenshotAsync(new() { Path = fullOutputPath, OmitBackground = omitBackground });
             return await Task.FromResult(true);
         }
         catch(Exception ex)
         {
-            _logger.LogError($"Failed to export png {inputPath}  Message: {ex.Message}");
-            return await Task.FromResult(false);
+            throw new Exception($"Failed to export png {inputPath}: {ex.Message}", ex);
         }
     }
 
@@ -122,7 +110,7 @@ public class SvgManager : IImageManager
         }
         catch (Exception ex)
         {
-            throw ex;
+            throw;
         }
     }
 

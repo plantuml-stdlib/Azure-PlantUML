@@ -17,25 +17,67 @@ public class GeneratePlantuml : IHostedService
     readonly Color azureColor;
     readonly string plantUmlPath;
     IImageManager svgManager;
+    readonly List<string> missingServices = new();
+    readonly List<string> failedServices = new();
 
     public GeneratePlantuml(ILogger<GeneratePlantuml> logprovider, IConfiguration config, IImageManager exporter, IHostApplicationLifetime appLifetime)
     {
         logger = logprovider;
         lifetime = appLifetime;
-        sourceFolder = config.GetSection("sourceFolderPath").Value;
+        sourceFolder = GetRequiredSetting(config, "sourceFolderPath");
         originalSourceFolder = Path.Combine(sourceFolder, "official");
         manualSourceFolder = Path.Combine(sourceFolder, "manual");
-        targetFolder = config.GetSection("targetFolderPath").Value;
-        azureColor = System.Drawing.ColorTranslator.FromHtml(config.GetSection("monochromeColorHex").Value);
-        plantUmlPath = config.GetSection("plantUmlPath").Value;
+        targetFolder = GetRequiredSetting(config, "targetFolderPath");
+        azureColor = System.Drawing.ColorTranslator.FromHtml(GetRequiredSetting(config, "monochromeColorHex"));
+        plantUmlPath = GetRequiredSetting(config, "plantUmlPath");
         svgManager = exporter;
+    }
+
+    static string GetRequiredSetting(IConfiguration config, string key)
+    {
+        var value = config.GetSection(key).Value;
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            throw new InvalidOperationException($"Missing setting '{key}'. Set it in appsettings.json or pass --{key}=<value> on the command line. See scripts/README.md.");
+        }
+        return value;
     }
 
     public Task StartAsync(CancellationToken cancellationToken)
     {
         logger.LogInformation("GeneratePlantUml is starting.");
-        _ = ProcessFiles();
+        _ = Run();
         return Task.CompletedTask;
+    }
+
+    async Task Run()
+    {
+        try
+        {
+            await ProcessFiles();
+
+            if (missingServices.Count > 0)
+            {
+                logger.LogError($"{missingServices.Count} service(s) in Config.yaml have no source SVG: {string.Join(", ", missingServices)}");
+            }
+            if (failedServices.Count > 0)
+            {
+                logger.LogError($"{failedServices.Count} service(s) failed to generate: {string.Join(", ", failedServices)}");
+            }
+            if (missingServices.Count > 0 || failedServices.Count > 0)
+            {
+                Environment.ExitCode = 1;
+            }
+        }
+        catch (Exception ex)
+        {
+            logger.LogCritical(ex, "Generation failed");
+            Environment.ExitCode = 1;
+        }
+        finally
+        {
+            lifetime.StopApplication();
+        }
     }
 
     public Task StopAsync(CancellationToken cancellationToken)
@@ -48,6 +90,9 @@ public class GeneratePlantuml : IHostedService
     private async Task ProcessFiles()
     {
         var lookupTable = Config.ReadConfig("Config.yaml");
+
+        // Fail fast on browser problems before the existing output is deleted
+        await svgManager.Init();
 
         // Cleanup
         if (Directory.Exists(targetFolder))
@@ -76,7 +121,6 @@ public class GeneratePlantuml : IHostedService
 
         await VSCodeSnippets.GenerateSnippets(targetFolder);
         await MarkdownTable.GenerateTable(targetFolder);
-        await this.StopAsync(new System.Threading.CancellationToken());
     }
 
     async Task ProcessService(ConfigLookupEntry service)
@@ -92,6 +136,7 @@ public class GeneratePlantuml : IHostedService
         if (!coloredExists && !monochromExists)
         {
             logger.LogWarning($"Error: Missing {service.ServiceSource} color or mono");
+            missingServices.Add(service.ServiceSource!);
             return;
         }
 
@@ -133,7 +178,8 @@ public class GeneratePlantuml : IHostedService
         }
         catch (Exception ex)
         {
-            logger.LogError(ex.Message);
+            logger.LogError($"Failed to process {service.ServiceSource}: {ex.Message}");
+            failedServices.Add(service.ServiceSource!);
             return;
         }
 
@@ -198,36 +244,32 @@ public class GeneratePlantuml : IHostedService
         var format = "16z";
         var entityName = Path.GetFileNameWithoutExtension(pumlFileName);
         var pumlPath = Path.Combine(Directory.GetParent(pngPath)!.FullName, pumlFileName);
-        var processInfo = new ProcessStartInfo();
-
-        if (OperatingSystem.IsMacOS())
-        {
-            processInfo.FileName = "/bin/zsh";
-            // processInfo.FileName = "java";
-            string commandArgs = $"-c \"java -Djava.awt.headless=true -jar {plantUmlPath} -encodesprite {format} '{pngPath}'\"";
-            processInfo.Arguments = commandArgs;
-            // processInfo.Arguments = $"-Djava.awt.headless=true -jar {plantUmlPath} -encodesprite {format} {pngPath}";
-        }
-        if (OperatingSystem.IsWindows())
-        {
-            processInfo.FileName = "java";
-            processInfo.Arguments = $"-jar {plantUmlPath} -encodesprite {format} \"{pngPath}\"";
-        }
-        if (OperatingSystem.IsLinux())
-        {
-            processInfo.FileName = "java";
-            processInfo.Arguments = $"-jar {plantUmlPath} -encodesprite {format} {pngPath}";
-        }
+        // ArgumentList quotes each argument per platform, so paths with spaces or parentheses work everywhere
+        var processInfo = new ProcessStartInfo("java");
+        processInfo.ArgumentList.Add("-Djava.awt.headless=true");
+        processInfo.ArgumentList.Add("-jar");
+        processInfo.ArgumentList.Add(plantUmlPath);
+        processInfo.ArgumentList.Add("-encodesprite");
+        processInfo.ArgumentList.Add(format);
+        processInfo.ArgumentList.Add(pngPath);
 
         processInfo.RedirectStandardOutput = true;
+        processInfo.RedirectStandardError = true;
         processInfo.UseShellExecute = false;
         processInfo.CreateNoWindow = true;
 
         var pumlContent = new StringBuilder();
         using (var process = Process.Start(processInfo))
         {
-            process!.WaitForExit();
-            pumlContent.Append(process.StandardOutput.ReadToEnd());
+            // Read output before waiting to avoid blocking on a full pipe buffer
+            var stdout = process!.StandardOutput.ReadToEndAsync();
+            var stderr = process.StandardError.ReadToEndAsync();
+            process.WaitForExit();
+            if (process.ExitCode != 0 || !stdout.Result.StartsWith("sprite"))
+            {
+                throw new Exception($"PlantUML sprite encoding failed for {pngPath} (exit code {process.ExitCode}): {stderr.Result}");
+            }
+            pumlContent.Append(stdout.Result);
         }
 
         pumlContent.AppendLine($"AzureEntityColoring({entityName})");

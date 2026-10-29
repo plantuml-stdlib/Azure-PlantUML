@@ -1,0 +1,68 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    env:
+      # Icon pack documented in scripts/README.md
+      ICON_PACK_URL: https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V4.zip
+      PLANTUML_VERSION: 1.2025.7
+    defaults:
+      run:
+        working-directory: scripts
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 10.0.x
+
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Download PlantUML
+        run: curl -sSfL -o plantuml.jar "https://github.com/plantuml/plantuml/releases/download/v${PLANTUML_VERSION}/plantuml-${PLANTUML_VERSION}.jar"
+
+      - name: Download Azure icon pack
+        run: |
+          curl -sSfL -o "$RUNNER_TEMP/icons.zip" "$ICON_PACK_URL"
+          unzip -q "$RUNNER_TEMP/icons.zip" -d "$RUNNER_TEMP/icons"
+          cp -r "$RUNNER_TEMP"/icons/Azure_Public_Service_Icons/Icons/* ../source/official/
+
+      - name: Build generator
+        run: dotnet build
+
+      - name: Install Playwright Chromium
+        run: pwsh bin/Debug/net10.0/playwright.ps1 install --with-deps chromium
+
+      - name: Generate dist
+        run: >-
+          dotnet run --no-build --
+          --sourceFolderPath=../source
+          --targetFolderPath=../dist
+          --monochromeColorHex=#0072C6
+          --plantUmlPath="$PWD/plantuml.jar"
+
+      - name: Render samples against generated dist
+        run: |
+          mkdir -p "$RUNNER_TEMP/samples"
+          for f in ../samples/*.puml; do
+            sed -e "s|^!define AzurePuml .*|!define AzurePuml $GITHUB_WORKSPACE/dist|" \
+                -e "s|^!includeurl AzurePuml/|!include AzurePuml/|" \
+                -e "s|\.\./dist/|$GITHUB_WORKSPACE/dist/|g" \
+                "$f" > "$RUNNER_TEMP/samples/$(basename "$f")"
+          done
+          java -Djava.awt.headless=true -jar plantuml.jar -failfast2 -o "$RUNNER_TEMP/samples/out" "$RUNNER_TEMP"/samples/*.puml
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: dist
+          path: dist/

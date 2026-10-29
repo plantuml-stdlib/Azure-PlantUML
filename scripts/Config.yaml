@@ -33,8 +33,6 @@ Categories:
   Services:
   - Source: Azure Databricks
     Target: AzureDatabricks
-  - Source: Azure Data Lake Analytics
-    Target: AzureDataLakeAnalytics
   - Source: Analysis Services
     Target: AzureAnalysisServices
   - Source: Event Hubs
